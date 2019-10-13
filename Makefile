@@ -8,7 +8,7 @@ OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
-GITHUB_PAGES_BRANCH=gh-pages
+GITHUB_PAGES_BRANCH=master
 
 
 DEBUG ?= 0
@@ -73,6 +73,8 @@ endif
 
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
+	cp $(BASEDIR)/CNAME $(OUTPUTDIR)/CNAME
+	cp $(BASEDIR)/README.md $(OUTPUTDIR)/README.md
 
 github: publish
 	poetry run ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
