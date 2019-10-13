@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Dan Yeaw'
+AUTHOR = 'Arjan J. Molenaar and Dan Yeaw'
 SITENAME = 'Gaphor'
 SITEURL = ''
 
@@ -19,17 +19,33 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+# Theme
+THEME = 'themes/pelican-bootstrap3'
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['i18n_subsites']
+BOOTSTRAP_THEME = 'flatly'
+GITHUB_USER = 'Gaphor'
+GITHUB_REPO_COUNT = 3
+CC_LICENSE = 'CC-BY-SA'
 
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+STATIC_PATHS = ['images']
+
+# Disable generation of tag related pages
+TAGS_SAVE_AS = ''
+TAG_SAVE_AS = ''
+
+# Customize menu
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = False
+
+MENUITEMS = (
+    ('Download', '/pages/download.html'),
+    ('About', '/pages/about.html'),
+    ('Tutorials', '/pages/tutorials.html'),
+    ('How-to', '/pages/how-to.html'),
+    ('Discuss', '/pages/discuss.html'),
+    ('Developers', '/pages/developers.html'),
+)
 
 DEFAULT_PAGINATION = False
-
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
