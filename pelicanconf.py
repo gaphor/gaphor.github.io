@@ -28,6 +28,8 @@ BOOTSTRAP_THEME = 'flatly'
 GITHUB_USER = 'Gaphor'
 GITHUB_REPO_COUNT = 3
 CC_LICENSE = 'CC-BY-SA'
+SITELOGO = 'images/gaphor.svg'
+SITELOGO_SIZE = '25'
 
 STATIC_PATHS = ['images']
 
