@@ -41,4 +41,4 @@ Try to explain *everything* about the problem and don't assume we know what you
 mean. We won't mind!
 
 If you would like to get more involved in the development of Gaphor, we'd love to
-welcome you via the [Gaphor developer's website](http://gaphor.rtfd.io/).
+welcome you via the [Gaphor developer's website](http://gaphor.readthedocs.io/).

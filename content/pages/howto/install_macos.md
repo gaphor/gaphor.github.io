@@ -1,18 +1,13 @@
 Title: Install Gaphor in macOS
 
-We are still working on packaging GTK with Gaphor and it is currently an
-installation pre-requisite.
-
-1. Install [homebrew](https://brew.sh)
-1. Open a terminal and execute:
-```bash
-$ brew install gobject-introspection gtk+3
-```
-
-Then install Gaphor on macOS using the [latest gaphor-macOS.dmg
-installer](https://github.com/gaphor/gaphor/releases/download/1.0.2/gaphor-macOS-1.0.2.dmg)
+Install Gaphor on macOS using the [latest gaphor-macOS.dmg
+installer](https://github.com/gaphor/gaphor/releases/download/1.1.0/gaphor-macOS-1.1.0.dmg)
 
 
 Note: Sometimes launching the app the first time after installation fails due
 to macOS security settings, please attempt to launch it a 2nd time if this
-happens.
+happens. Right click (Ctrl+click) on the icon to bring up the context menu and
+open it from there.
+
+Note: On MacOS Mojave you'll have to grand permission to run Gaphor via the System preferences
+panel.
