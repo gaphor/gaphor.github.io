@@ -48,7 +48,6 @@ MENUITEMS = (
     ('How-to', '/pages/how-to.html'),
     ('Discuss', '/pages/discuss.html'),
     ('Developers', '/pages/developers.html'),
-    ('Manual', '/pages/the-gaphor-manual.html'),
 )
 
 DEFAULT_PAGINATION = False
