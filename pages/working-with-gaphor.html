@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Download - Gaphor</title>
+    <title>Working with Gaphor - Gaphor</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -9,16 +9,16 @@
 
 
 
-<link rel="canonical" href="https://www.gaphor.org/pages/download.html">
+<link rel="canonical" href="https://www.gaphor.org/pages/working-with-gaphor.html">
 
         <meta name="author" content="Arjan J. Molenaar and Dan Yeaw" />
-        <meta name="description" content="There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub. You can also use Python&#39;s built-in pip tool as long as you have all of the required dependencies installed. If you&#39;re a developer …" />
+        <meta name="description" content="Once Gaphor is launched, it provides you an almost empty user interface. A new model is already created and the diagram is opened. The layout of the Gaphor interface is divided into four sections, namely: Navigation Diagrams Diagram Element Toolbox Properties pane Each section has its own specific function. Navigation …" />
 
     <meta property="og:site_name" content="Gaphor" />
     <meta property="og:type" content="article"/>
-    <meta property="og:title" content="Download"/>
-    <meta property="og:url" content="https://www.gaphor.org/pages/download.html"/>
-    <meta property="og:description" content="There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub. You can also use Python&#39;s built-in pip tool as long as you have all of the required dependencies installed. If you&#39;re a developer …" />
+    <meta property="og:title" content="Working with Gaphor"/>
+    <meta property="og:url" content="https://www.gaphor.org/pages/working-with-gaphor.html"/>
+    <meta property="og:description" content="Once Gaphor is launched, it provides you an almost empty user interface. A new model is already created and the diagram is opened. The layout of the Gaphor interface is divided into four sections, namely: Navigation Diagrams Diagram Element Toolbox Properties pane Each section has its own specific function. Navigation …" />
 
 
 
@@ -72,29 +72,68 @@
     <div class="row">
         <div class="col-sm-9">
     <section id="content" class="body">
-        <h1 class="entry-title">Download</h1>
+        <h1 class="entry-title">Working with Gaphor</h1>
         
         <div class="entry-content">
-            <p>There are many ways to install Gaphor. The simplest is to download the official
-installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.
-You can also use Python's built-in <code>pip</code> tool as long as you have all of the
-required dependencies installed.</p>
-<p>If you're a developer, you can find the source code <a href="https://github.com/gaphor/gaphor">on
-GitHub</a>.</p>
-<p><img src="https://www.gaphor.org/images/windows_logo.png" alt="Windows Logo" width="100"/></p>
-<h2>Windows Installer</h2>
-<p><a href="https://github.com/gaphor/gaphor/releases/download/1.1.1/gaphor-Windows-1.1.1-installer.exe">Download</a>
-<a href="https://www.gaphor.org/pages/install-gaphor-in-windows.html">Instructions</a></p>
-<p><img src="https://www.gaphor.org/images/apple_logo.png" alt="Apple Logo" width="100"/></p>
-<h2>macOS</h2>
-<p><a href="https://github.com/gaphor/gaphor/releases/download/1.1.1/gaphor-macOS-1.1.1.dmg">Download</a>
-<a href="https://www.gaphor.org/pages/install-gaphor-in-macos.html">Instructions</a></p>
-<p><img src="https://www.gaphor.org/images/Tux.svg" alt="Linux Logo" width="100"/></p>
-<h2>Linux</h2>
-<p><a href="https://www.gaphor.org/pages/install-gaphor-in-linux.html">Instructions</a></p>
-<p><img src="https://www.gaphor.org/images/python_logo.png" alt="Python Logo" width="100"/></p>
-<h2>Python Package</h2>
-<p><a href="https://www.gaphor.org/pages/install-gaphor-using-python-packaging.html">Instructions</a></p>
+            <p>Once Gaphor is launched, it provides you an almost empty user interface.
+A new model is already created and the diagram is opened.</p>
+<p>The layout of the Gaphor interface is divided into four sections,
+namely:</p>
+<ul>
+<li>Navigation</li>
+<li>Diagrams</li>
+<li>Diagram Element Toolbox</li>
+<li>Properties pane</li>
+</ul>
+<p>Each section has its own specific function.</p>
+<h2>Navigation</h2>
+<p>The navigation section of the interface displays a hierarchical view of
+your model. Every model element you create will be inserted into the
+navigation section. This view acts as a tree where you can expand and
+collapse different elements of your model. This provides an easy way to
+view the elements of your model from an elided perspective. That is, you
+can collapse those model elements that are irrelevant to the task at
+hand.</p>
+<p><img alt="image" src="https://www.gaphor.org/images/gaphor-treeview.png"></p>
+<p>In the figure above, you will see that there are three elements in
+the navigation view. The root element, <em>New Model</em> is a package. Notice
+the small arrow beside <em>New Model</em> that is pointing downward. This
+indicates that the element is expanded. You will also notice the two
+sub-elements are slightly indented in relation to <em>New Model</em>. The
+<em>NewClass</em> element is a class and the <em>main</em> element is a diagram.</p>
+<p>In the navigation view, you can also right-click the model elements to
+get a context menu. This context menu allows you to delete model
+elements, and to refresh the navigation view.</p>
+<p>Double clicking on a diagram element will open it in the Diagram
+section. Elements such as classes and packages can be dragged from the
+tree view on the diagrams.</p>
+<h2>Diagram Section</h2>
+<p>The diagram section takes up the most space. Multiple diagrams can be
+opened at once: they are shown in tabs. Tabs can be closed from the file
+menu (Close) and by pressing <code>Ctrl+w</code>.</p>
+<p>Most elements have hot zones, shown as gray rectangles that are only
+visible when the item is selected. Double clicking on those rectangles
+allows you to directly edit the item. E.g. change its name.</p>
+<p>Changes you make can be undone by pressing <code>Ctrl+z</code>. To re-do a change, hit
+<code>Ctrl+Shift+z</code>.</p>
+<h2>Toolbox</h2>
+<p>The toolbox is mainly used to add new items to a diagram. Select
+the element you want to add by clicking on it. When you click on the
+diagram, the selected element is created. The arrow is selected again,
+so the element can be manipulated.</p>
+<p>Tools can be selected by simply clicking on them. By default the pointer
+tool is selected after every item placement. This can be changed by
+disabling the "Reset tool" option in the Preferences window. Tools can
+also be selected by a keyboard shortcut. The actual character is displayed
+as part of the tooltip. Finally it is also possible to drag elements on the
+canvas from the toolbox.</p>
+<h2>Element Editor</h2>
+<p>The Element editor can be unfolded by pressing the pensil button. This will reveal a
+utility window that shows all characteristics of the selected element.
+Things like name, attributes and stereotypes. It can be opened with
+<code>Ctrl+e</code>.</p>
+<p><img alt="image" src="https://www.gaphor.org/images/elementeditor.png"></p>
+<p>The properties shown depend on the element that is selected.</p>
         </div>
     </section>
         </div>
