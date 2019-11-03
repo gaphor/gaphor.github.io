@@ -1,5 +1,5 @@
 PY?=python3
-PELICAN?=poetry run pelican
+PELICAN?=pelican
 PELICANOPTS=
 
 BASEDIR=$(CURDIR)
@@ -77,7 +77,7 @@ publish:
 	cp $(BASEDIR)/README.md $(OUTPUTDIR)/README.md
 
 github: publish
-	poetry run ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
+	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
 	git push origin $(GITHUB_PAGES_BRANCH)
 
 
