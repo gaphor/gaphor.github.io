@@ -12,13 +12,13 @@ GitHub](https://github.com/gaphor/gaphor).
 
 ## Windows Installer
 
-[Download](https://github.com/gaphor/gaphor/releases/download/1.0.2/gaphor-Windows-1.0.2-installer.exe)
+[Download](https://github.com/gaphor/gaphor/releases/download/1.1.1/gaphor-Windows-1.1.1-installer.exe)
 [Instructions]({filename}howto/install_windows.md)
 
 <img src="{static}/images/apple_logo.png" alt="Apple Logo" width="100"/>
 
 ## macOS
-[Download](https://github.com/gaphor/gaphor/releases/download/1.0.2/gaphor-macOS-1.0.2.dmg)
+[Download](https://github.com/gaphor/gaphor/releases/download/1.1.1/gaphor-macOS-1.1.1.dmg)
 [Instructions]({filename}howto/install_macos.md)
 
 <img src="{static}/images/Tux.svg" alt="Linux Logo" width="100"/>
