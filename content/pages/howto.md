@@ -11,8 +11,11 @@ Title: How-To
 
 - [Extend Models]({filename}howto/extend_models.md)
 
+## Contribute to or Extend Gaphor
+
+- [Writing a Plugin]({filename}howto/plugins.md)
+
 ## Problem Solving
 
 - [How to report a bug in Gaphor]({filename}howto/report_bugs.md)
-
 
