@@ -93,7 +93,7 @@ this:</p>
 
 <p>In the console window services can be retrieved by using the <code>service()</code>
 function. For example:</p>
-<div class="highlight"><pre><span></span><span class="n">ef</span> <span class="o">=</span> <span class="n">service</span><span class="p">(</span><span class="s1">&#39;element_factory&#39;</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><span class="err">ef = service(&#39;element_factory&#39;)</span>
 </pre></div>
 
 
@@ -105,7 +105,7 @@ function. For example:</p>
 </ul>
 <p><code>query</code> is a lambda function with the element as parameter. For example, to
 fetch all of the Class instances from the element factory:</p>
-<div class="highlight"><pre><span></span><span class="n">element_factory</span><span class="p">.</span><span class="k">select</span><span class="p">(</span><span class="n">lambda</span> <span class="n">e</span><span class="p">:</span> <span class="n">e</span><span class="p">.</span><span class="n">isKindOf</span><span class="p">(</span><span class="n">UML</span><span class="p">.</span><span class="k">Class</span><span class="p">))</span>
+<div class="highlight"><pre><span></span><span class="err">element_factory.select(lambda e: e.isKindOf(UML.Class))</span>
 </pre></div>
 
 
