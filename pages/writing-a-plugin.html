@@ -84,17 +84,17 @@ and managing data objects. Items can be queried using this element factory,
 which is registered in the application as <code>element_factory</code>. When writing a
 service or plugin the element factory can be injected into the service like
 this:</p>
-<div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">MyThing</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">MyThing</span><span class="p">:</span>
     <span class="k">def</span> <span class="nf">do_something</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="n">element_factory</span> <span class="o">=</span> <span class="n">Application</span><span class="o">.</span><span class="n">get_service</span><span class="p">(</span><span class="s1">&#39;element_factory&#39;</span><span class="p">)</span>
         <span class="n">items</span> <span class="o">=</span> <span class="n">element_factory</span><span class="o">.</span><span class="n">select</span><span class="p">()</span>
-</pre></div>
+</code></pre></div>
 
 
 <p>In the console window services can be retrieved by using the <code>service()</code>
 function. For example:</p>
-<div class="highlight"><pre><span></span><span class="err">ef = service(&#39;element_factory&#39;)</span>
-</pre></div>
+<div class="highlight"><pre><span></span><code><span class="err">ef = service(&#39;element_factory&#39;)</span>
+</code></pre></div>
 
 
 <h2>Querying the Data Model</h2>
@@ -105,30 +105,30 @@ function. For example:</p>
 </ul>
 <p><code>query</code> is a lambda function with the element as parameter. For example, to
 fetch all of the Class instances from the element factory:</p>
-<div class="highlight"><pre><span></span><span class="err">element_factory.select(lambda e: e.isKindOf(UML.Class))</span>
-</pre></div>
+<div class="highlight"><pre><span></span><code><span class="err">element_factory.select(lambda e: e.isKindOf(UML.Class))</span>
+</code></pre></div>
 
 
 <h2>Traversing Data Instances</h2>
 <p>Once some classes are obtained, it is common to traverse through a few related
 objects in order to get the required information. For example: to iterate
 through all parameters related to a class' operations:</p>
-<div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">o</span> <span class="ow">in</span> <span class="n">classes</span><span class="o">.</span><span class="n">ownedOperation</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="n">o</span> <span class="ow">in</span> <span class="n">classes</span><span class="o">.</span><span class="n">ownedOperation</span><span class="p">:</span>
     <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">o</span><span class="o">.</span><span class="n">ownedParameter</span><span class="p">:</span>
         <span class="n">do_something</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
-</pre></div>
+</code></pre></div>
 
 
 <p>Using the <code>[:]</code> operator items can be traversed more easily:</p>
-<div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">o</span> <span class="ow">in</span> <span class="n">classes</span><span class="o">.</span><span class="n">ownedOperation</span><span class="p">[:]</span><span class="o">.</span><span class="n">ownedParameter</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="n">o</span> <span class="ow">in</span> <span class="n">classes</span><span class="o">.</span><span class="n">ownedOperation</span><span class="p">[:]</span><span class="o">.</span><span class="n">ownedParameter</span><span class="p">:</span>
     <span class="n">do_something</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
-</pre></div>
+</code></pre></div>
 
 
 <p>It's also possible to provide a query as part of the selection:</p>
-<div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">o</span> <span class="ow">in</span> <span class="n">classes</span><span class="o">.</span><span class="n">ownedOperation</span><span class="p">[</span><span class="s1">&#39;it.returnParameter&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">ownedParameter</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="n">o</span> <span class="ow">in</span> <span class="n">classes</span><span class="o">.</span><span class="n">ownedOperation</span><span class="p">[</span><span class="s1">&#39;it.returnParameter&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">ownedParameter</span><span class="p">:</span>
     <span class="n">do_something</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
-</pre></div>
+</code></pre></div>
 
 
 <p>The variable <code>it</code> in the query refers to the evaluated object (in this
