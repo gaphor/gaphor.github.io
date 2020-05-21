@@ -1,7 +1,7 @@
 Title: Install Gaphor in macOS
 
 Install Gaphor on macOS using the [latest gaphor-macOS.dmg
-installer](https://github.com/gaphor/gaphor/releases/download/1.1.1/gaphor-macOS-1.1.1.dmg)
+installer](https://github.com/gaphor/gaphor/releases/download/1.2.0/Gaphor-1.2.0.dmg)
 
 
 Note: Sometimes launching the app the first time after installation fails due
