@@ -14,5 +14,5 @@ various types of contribution you can make to Gaphor.
 
 The source code is hosted on [GitHub](https://github.com/gaphor/gaphor).
 
-If in doubt, just ask in our [discussion area]({filename}discuss.md) and someone will be able to point
-you in the right direction.
+If in doubt, just ask in our [discussion area]({filename}discuss.md) and
+someone will be able to point you in the right direction.
