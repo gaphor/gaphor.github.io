@@ -19,9 +19,9 @@ layout: bare
 						A picture says more than a thousand words.
 						Describe and document your applications with Gaphor to enhance knowledge sharing.
 					</div>
-					<a href="{% link _posts/2020-07-26-welcome-to-jekyll.markdown %}" title="Learn more"
+					<a href="{% link index.html %}#services" title="Learn more"
 						class="header-button-one">Learn more</a>
-					<a href="https://colorlib.com/wp/themes/illdy/" title="Download"
+					<a href="{% link download.html %}" title="Download"
 						class="header-button-two">Download</a>
 				</div>
 			</div>
@@ -38,9 +38,30 @@ of a system as well as create complete, highly complex models.
 
 {% endcapture %}
 
-{% include services.html title="About" description=about services=site.usps %}
+{% include services.html id="services" title="About" description=about services=site.usps %}
 
+{% capture download %}
+There are many ways to install Gaphor.
+The simplest is to download the official installer for Windows or macOS.
+For Linux you can install Gaphor using FlatHub.
+You can also use Python's built-in <code>pip</code> tool as long as you have all of the required dependencies installed.
+{% endcapture %}
 
-{% include projects.html title="Download" %}
+<section id="download" class="front-page-section" style="background-image: url(/images/front-page/pattern.png); background-size: auto; background-repeat: repeat">
 
-{% include latest-news.html %}
+	{% include section-header.html title="Download" description=download %}
+
+	<div class="section-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-1">
+					{% for platform in site.platforms %}
+					<a href="{% link download.html %}#{{ platform.title | downcase }}"><img src="{{ platform.logo }}" alt="{{ platform.title }} logo" style="width: 52px" /></a>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- {% include latest-news.html %} -->

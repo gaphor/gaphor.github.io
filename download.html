@@ -1,0 +1,31 @@
+---
+title: Download
+layout: default
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-10 col-sm-offset-1">
+      <h1>Download Gaphor</h1>
+
+      <p>There are many ways to install Gaphor. The simplest is to download the official
+      installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.
+      You can also use Python's built-in `pip` tool as long as you have all of the
+      required dependencies installed.</p>
+
+      <p>If you're a developer, you can find the source code [on
+      GitHub](https://github.com/gaphor/gaphor).</p>
+    </div>
+  </div>
+
+  {% for platform in site.platforms %}
+  <div class="row">
+    <div class="col-sm-10 col-sm-offset-1">
+      <h3 id="{{ platform.title | downcase }}"><img src="{{ platform.logo }}" alt="{{ platform.title }} logo"/> {{ platform.title }}</h3>
+    </div>
+    <div class="col-sm-10 col-sm-offset-1">
+      <div class="section-description">{{ platform.content | markdownify }}</div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

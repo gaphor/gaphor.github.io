@@ -1,12 +1,13 @@
 /* 06. Services */
-#services {
+#services, #download {
   width: 100%;
   background: #fff;
   padding: 65px 0 75px 0;
   text-align: center;
 }
 
-#services .section-header {
+#services .section-header,
+#download .section-header  {
   width: 100%;
   margin-bottom: 65px;
 }

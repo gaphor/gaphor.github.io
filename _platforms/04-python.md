@@ -1,4 +1,7 @@
-Title: Install Gaphor Using Python Packaging
+---
+title: Python
+logo: /images/python_logo.png
+---
 
 If you have the latest stable version of Python installed and the Gaphor
 dependencies installed, you can also install Gaphor using a wheel from PyPI.

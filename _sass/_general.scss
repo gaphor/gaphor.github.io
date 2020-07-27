@@ -32,6 +32,9 @@ h3 {
   font-size: 35px;
   line-height: 38px;
   font-weight: 700;
+  img {
+    height: 38px;
+  }
 }
 h4 {
   font-size: 25px;
@@ -61,11 +64,20 @@ ol {
   font-weight: 400;
 }
 a {
-  color: #8c979e;
+  color: #5c6364;
 }
 a:hover, a:focus {
   color: #6a4d8a;
-  text-decoration: none;
+}
+
+.default-page {
+  margin: 65px 0;
+  a {
+    text-decoration: underline;
+  }
+  a.btn {
+    text-decoration: none;
+  }
 }
 
 .front-page-section {
@@ -74,9 +86,6 @@ a:hover, a:focus {
 }
 .front-page-section .section-header {
   margin-bottom: 65px;
-}
-#full-width.width-padding {
-  padding-top: 130px;
 }
 .front-page-section .section-header {
   width: 100%;

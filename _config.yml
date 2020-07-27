@@ -19,21 +19,19 @@ favicon: /images/gaphor-24x24.png
 description: >-
   Gaphor is a UML modeling tool. Gaphor is beginner friendly, though it can be used for full MDA (Model Driven Architecture).
 url: "https://gaphor.org"
+gaphor_version: 1.2.0
+
 menu:
   - label: About
-    url: "#about"
-  - label: Portfolio
-    url: "#projects"
-  - label: Testimonials
-    url: "#testimonials"
-  - label: Services
-    url: "#services"
-  - label: Blog
-    url: "#latest-news"
-  - label: Our Team
-    url: "#team"
-  - label: Contact us
-    url: "#contact-us"
+    url: "/#about"
+  - label: Download
+    url: "/download.html"
+  - label: Tutorials
+    url: "/tutorials.html"
+  - label: Discuss
+    url: "/discuss.html"
+  - label: Contribute
+    url: "/contribute.html"
 colors:
   - "#f18b6d"
   - "#f1d204"
@@ -49,13 +47,18 @@ umlcolors:
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: ""
     values:
       layout: "default"
+  -
+    scope:
+      path: "tutorials*"
+    values:
+      layout: "article"
 
 collections:
   - usps
-
+  - platforms
 sass:
   style: compressed
 

@@ -1,4 +1,7 @@
-Title: Developers
+---
+title: Contribute
+layout: article
+---
 
 Would you like to contribute to the development of Gaphor? (If you think this
 is only something for experienced developers, please reconsider, there are
@@ -14,5 +17,5 @@ various types of contribution you can make to Gaphor.
 
 The source code is hosted on [GitHub](https://github.com/gaphor/gaphor).
 
-If in doubt, just ask in our [discussion area]({filename}discuss.md) and
+If in doubt, just ask in our [discussion area]({% link discuss.md %}) and
 someone will be able to point you in the right direction.
