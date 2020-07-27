@@ -1,5 +1,12 @@
-# gaphor.github.io
-Website for Gaphor, the simple modeling tool
+# Illdy theme for Jekyll
 
-The master branch is published to the web. If you want to make changes, please
-submit them against the source branch.
+This is a Jekyll-ized version of the Illdy theme (https://colorlib.com/illdy/).
+
+## Ubuntu Linux
+
+    $ apt install ruby bundler
+    $ bundle config set path $HOME/.rbbundle
+    $ bundle install
+    $ bundle exec jekyll serve
+
+

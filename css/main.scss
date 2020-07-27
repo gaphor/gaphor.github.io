@@ -1,0 +1,41 @@
+---
+---
+
+/**
+ *  01. General
+ *  02. Header
+ *  03. About
+ *  04. Projects
+ *  05. Testimonials
+ *  06. Services
+ *  07. Latest News
+ *  08. Counter
+ *  09. Team
+ *  10. Contact Us
+ *  11. Footer
+ *  12. Blog
+ *  13. Sidebar
+ *  14. Markup Format
+ *  15. Related Posts
+ *  16. Comments
+ *    17. Responsive
+ *  18. Gallery
+ */
+
+@import "general";
+@import "header";
+@import "about";
+@import "projects";
+@import "testimonials";
+@import "services";
+@import "latest-news";
+@import "counter";
+@import "team";
+@import "contact-us";
+
+@import "footer";
+@import "blog";
+@import "sidebar";
+
+
+@import "responsive";
