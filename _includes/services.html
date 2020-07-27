@@ -1,41 +1,19 @@
 <section id="services" class="front-page-section">
 
-    {% include section-header.html title="Services" description="In order to help you grow your business, our carefully selected experts can advise you in in the following areas:" %}
+    {% include section-header.html title=include.title description=include.description %}
 
     <div class="section-content">
         <div class="container">
             <div class="row inline-columns">
-                <div id="illdy_service-2" class="col-sm-4 widget_illdy_service">
-                    <div class="service" data-service-color="#f18b6d">
-                        <div class="service-icon"><i class="fa fa-pencil"></i></div>
-                        <div class="service-title">
-                            <h5>Web Design</h5>
+                {% for usp in include.services %}<div class="col-sm-4 widget_illdy_service">
+                    <div class="service">
+                        <div class="service-icon" style="color: {{ site.colors[forloop.index0] }}"><i class="fa fa-{{ usp.icon }}"></i></div>
+                        <div class="service-title" style="color: {{ site.colors[forloop.index0] }}">
+                            <h5>{{ usp.title }}</h5>
                         </div>
-                        <div class="service-entry">Consectetur adipiscing elit. Praesent molestie urna hendrerit
-                            erat tincidunt tempus. Aliquam a leo risus. Fusce a metus non augue dapibus porttitor at
-                            in mauris. Pellentesque commodo...</div>
+                        <div class="service-entry">{{ usp.content | markdownify }}</div>
                     </div>
-                </div><div id="illdy_service-3" class="col-sm-4 widget_illdy_service">
-                    <div class="service" data-service-color="#f1d204">
-                        <div class="service-icon"><i class="fa fa-code"></i></div>
-                        <div class="service-title">
-                            <h5>WEB DEVELOPMENT</h5>
-                        </div>
-                        <div class="service-entry">Consectetur adipiscing elit. Praesent molestie urna hendrerit
-                            erat tincidunt tempus. Aliquam a leo risus. Fusce a metus non augue dapibus porttitor at
-                            in mauris. Pellentesque commodo...</div>
-                    </div>
-                </div><div id="illdy_service-4" class="col-sm-4 widget_illdy_service">
-                    <div class="service" data-service-color="#6a4d8a">
-                        <div class="service-icon"><i class="fa fa-search"></i></div>
-                        <div class="service-title">
-                            <h5>SEO Analisys</h5>
-                        </div>
-                        <div class="service-entry">Consectetur adipiscing elit. Praesent molestie urna hendrerit
-                            erat tincidunt tempus. Aliquam a leo risus. Fusce a metus non augue dapibus porttitor at
-                            in mauris. Pellentesque commodo...</div>
-                    </div>
-                </div>
+                </div>{% endfor %}
             </div>
         </div>
     </div>

@@ -10,17 +10,41 @@
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# you will see them accessed via {{ site.title }}, {{ site.url }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Illdy
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+title: Gaphor
+logo: /images/gaphor.svg
+favicon: /images/gaphor-24x24.png
+description: >-
+  Gaphor is a UML modeling tool. Gaphor is beginner friendly, though it can be used for full MDA (Model Driven Architecture).
+url: "https://gaphor.org"
+menu:
+  - label: About
+    url: "#about"
+  - label: Portfolio
+    url: "#projects"
+  - label: Testimonials
+    url: "#testimonials"
+  - label: Services
+    url: "#services"
+  - label: Blog
+    url: "#latest-news"
+  - label: Our Team
+    url: "#team"
+  - label: Contact us
+    url: "#contact-us"
+colors:
+  - "#f18b6d"
+  - "#f1d204"
+  - "#6a4d8a"
+  - "#f1d204"
+  - "#6a4d8a"
+  - "#f18b6d"
+umlcolors:
+  - "#971232"
+  - "#c7c000"
+  - "#54006c"
 
 defaults:
   -
@@ -28,21 +52,12 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
-      menu:
-        - label: About
-          url: "#about"
-        - label: Portfolio
-          url: "#projects"
-        - label: Testimonials
-          url: "#testimonials"
-        - label: Services
-          url: "#services"
-        - label: Blog
-          url: "#latest-news"
-        - label: Our Team
-          url: "#team"
-        - label: Contact us
-          url: "#contact-us"
+
+collections:
+  - usps
+
+sass:
+  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -2,15 +2,15 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-4 col-xs-8">
-                <a href="https://gaphor.org/" title="Gaphor" class="header-logo">
-                    <img src="/images/gaphor.svg" />
+                <a href="{{ site.url }}" title="{{ site.title }}" class="header-logo">
+                    <img src="{{ site.logo }}" />
                     Gaphor
                 </a>
             </div>
             <div class="col-sm-8 col-xs-4">
                 <nav class="header-navigation">
                     <ul id="menu-illdy-main" class="clearfix">
-                        {% for menuitem in page.menu %}
+                        {% for menuitem in site.menu %}
                         <li><a href="{{menuitem.url }}">{{ menuitem.label }}</a></li>
                         {% endfor %}
                     </ul>
@@ -22,7 +22,7 @@
 </div>
 <nav class="responsive-menu">
     <ul>
-        {% for menuitem in page.menu %}
+        {% for menuitem in site.menu %}
         <li><a href="{{menuitem.url }}">{{ menuitem.label }}</a></li>
         {% endfor %}
     </ul>

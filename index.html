@@ -12,11 +12,12 @@ layout: bare
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<h1>Clean<span class="span-dot">.</span>Slick<span class="span-dot">.</span>Pixel Perfect</h1>
+					<h1>UML Modeling for Everyone</h1>
 				</div>
 				<div class="col-sm-8 col-sm-offset-2">
-					<div class="section-description">lldy is a great one-page theme, perfect for developers and
-						designers but also for someone who just wants a new website for his business. Try it now!
+					<div class="section-description">
+						A picture says more than a thousand words.
+						Describe and document your applications with Gaphor to enhance knowledge sharing.
 					</div>
 					<a href="{% link _posts/2020-07-26-welcome-to-jekyll.markdown %}" title="Learn more"
 						class="header-button-one">Learn more</a>
@@ -28,16 +29,18 @@ layout: bare
 	</div>
 </header>
 
-{% include about.html %}
+{% capture about %}
+Gaphor is a UML modeling application written in Python. It is designed
+to be easy to use, while still being powerful. Gaphor implements a
+fully-compliant UML 2 data model, so it is much more than a picture
+drawing tool. You can use Gaphor to quickly visualize different aspects
+of a system as well as create complete, highly complex models.
 
-{% include projects.html %}
+{% endcapture %}
 
-{% include testimonials.html %}
+{% include services.html title="About" description=about services=site.usps %}
 
-{% include services.html %}
+
+{% include projects.html title="Download" %}
 
 {% include latest-news.html %}
-
-{% include counter.html %}
-
-{% include team.html %}

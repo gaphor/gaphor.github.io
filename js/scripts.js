@@ -50,21 +50,6 @@ jQuery(document).ready(function ($) {
 	}
 
 	// Set Color on Front Page Service
-	function setColorOnFrontPageService() {
-		if ($('#services .section-content .service').length) {
-			$('#services .section-content .service').each(function () {
-				var service = $(this);
-				var serviceIcon = $(service).children('.service-icon');
-				var serviceTitle = $(service).children('.service-title');
-				var dataServiceColor = $(service).data('service-color');
-
-				$(serviceIcon).css('color', dataServiceColor);
-				$(serviceTitle).css('color', dataServiceColor);
-			});
-		}
-	}
-
-	// Set Color on Front Page Service
 	function setColorOnFrontPagePerson() {
 		if ($('#team .section-content .person').length) {
 			$('#team .section-content .person').each(function () {
@@ -86,7 +71,6 @@ jQuery(document).ready(function ($) {
 		smoothScrollAnchors();
 		openResponsiveMenu();
 		addHeightToFrontPageProject();
-		setColorOnFrontPageService();
 		setColorOnFrontPagePerson();
 	});
 

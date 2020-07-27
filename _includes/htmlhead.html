@@ -2,20 +2,20 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-	<title>Front Page - Illdy Theme Demo</title>
+	<title>{{ page.title }} - {{ site.title }}</title>
 	<meta name="robots" content="index, follow" />
 	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-	<link rel="canonical" href="https://colorlib.com/illdy/" />
+	<link rel="canonical" href="{{ site.url }}" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Front Page - Illdy Theme Demo" />
-	<meta property="og:url" content="https://colorlib.com/illdy/" />
+	<meta property="og:title" content="{{ page.title }} - {{ site.title }}" />
+	<meta property="og:url" content="{{ site.url }}" />
 	<meta property="og:site_name" content="Illdy Theme Demo" />
 	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
 	<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
 	<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
-	<link rel="shortcut icon" href="/images/gaphor-24x24.png"/>
+	<link rel="shortcut icon" href="{{ site.favicon }}"/>
 	<link rel='stylesheet'
 		href='/css/pace.min.css?ver=5.4.2' type='text/css'
 		media='all' />
@@ -29,9 +29,9 @@
 		integrity="sha512-kgrXVPaJi1gUqEbb3lVdpJ3tWjfCfEUGD4tKm5GpUW1Gy6PIq3n89kk0zEIWxgBlfpaZD7lcmTFdHL8u5eSzug=="
 		crossorigin="anonymous" media='all' />
 	<link rel="stylesheet"
-		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"
-		integrity="sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg=="
-		crossorigin="anonymous" media='all' />
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+		integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+		crossorigin="anonymous" media='all'/>
 	<link rel='stylesheet'
 		href='/css/owl-carousel.min.css?ver=2.0.0'
 		type='text/css' media='all' />
