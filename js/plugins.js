@@ -4,8 +4,8 @@
 jQuery( document ).ready( function($) {
 	// Progress Bar
 	function illdyProgressBar() {
-		if( $( '#about .skill' ).length ) {
-				$( '#about .skill' ).each( function() {
+		if( $( '.about .skill' ).length ) {
+				$( '.about .skill' ).each( function() {
 				var skill = $( this );
 				var skillProgressBar = $( skill ).children( '.skill-top' ).children( '.skill-progress-bar' );
 				var dataSkillProgressBarWidth = $( skill ).data( 'skill-progress-bar-width' );

@@ -8,7 +8,6 @@
 
 .top-header {
   width: 100%;
-  padding-top: 40px;
   background-color: #222f36;
 
   .header-logo {
@@ -19,7 +18,7 @@
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-    line-height: 68px;
+    line-height: 78px;
     font-weight: 600;
     font-family: "Poppins";
 
@@ -76,6 +75,7 @@
 
 #header .top-header {
   background-color: transparent;
+  padding-top: 40px;
 }
 
 #header .bottom-header {
