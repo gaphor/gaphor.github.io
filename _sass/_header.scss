@@ -13,14 +13,22 @@
 
   .header-logo {
     display: block;
-    font-size: 60px;
+    font-size: 36px;
     color: #fff;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-    line-height: 75px;
-    font-weight: 700;
+    line-height: 68px;
+    font-weight: 600;
+    font-family: "Poppins";
+
+    img {
+      width: 48px;
+    }
+    a:hover {
+      color: #fff;
+    }
   }
 
   .header-logo:hover {
@@ -94,7 +102,6 @@
   font-weight: 700;
   font-size: 80px;
   color: #fff;
-  font-family: "Poppins";
 }
 #header .bottom-header h1 span {
   word-wrap: break-word;
