@@ -1,20 +1,15 @@
 <section id="about" class="front-page-section">
-    <div class="section-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h3>About</h3>
-                </div>
-                <div class="col-sm-10 col-sm-offset-1">
-                    <div class="section-description">It is an amazng one-page theme with great features that offers
-                        an incredible experience. It is easy to install, make changes, adapt for your business. A
-                        modern design with clean lines and styling for a wide variety of content, exactly how a
-                        business design should be. You can add as many images as you want to the main header area
-                        and turn them into slider.</div>
-                </div>
-            </div>
-        </div>
-    </div>
+
+    {% capture about %}
+    It is an amazng one-page theme with great features that offers
+    an incredible experience. It is easy to install, make changes, adapt for your business. A
+    modern design with clean lines and styling for a wide variety of content, exactly how a
+    business design should be. You can add as many images as you want to the main header area
+    and turn them into slider.
+    {% endcapture %}
+
+    {% include section-header.html title="About" description=about %}
+
     <div class="section-content">
         <div class="container">
             <div class="row">

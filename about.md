@@ -1,5 +1,6 @@
+---
 Title: About
-
+---
 Gaphor is a UML modeling application written in Python. It is designed
 to be easy to use, while still being powerful. Gaphor implements a
 fully-compliant UML 2 data model, so it is much more than a picture
@@ -37,4 +38,3 @@ software and systems.
 Sometimes enterprise software tries to do everything for everyone. We are
 focused on the best possible experience for simple modeling and Gaphor is not a
 full featured enterprise tool.
-
