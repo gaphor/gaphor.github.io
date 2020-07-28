@@ -3,6 +3,14 @@
   width: 100%;
   background-color: #292825;
   padding: 40px 0 0;
+
+  ul {
+    padding-left: 0;
+    line-height: 2.4em;
+  }
+  a:hover {
+    text-decoration: none;
+  }
 }
 #footer .bottom-footer {
   margin-top: 50px;
@@ -63,39 +71,4 @@
   font-size: 20px;
   font-family: "Lato";
   text-transform: initial;
-}
-#footer .widget table#wp-calendar tbody tr td a {
-  width: calc( 100% + 8px );
-  height: calc( 100% + 8px );
-  left: -4px;
-  top: -4px;
-}
-
-.widget_rss cite {
-  color: #545454;
-}
-#footer .widget_rss cite {
-  color: #fff;
-}
-.recentcomments > a {
-  color: #f1d204;
-}
-.recentcomments a:hover {
-  color: #6a4d8a;
-}
-
-#footer .widget ul li:last-child {
-  margin-bottom: 0;
-}
-
-#footer .widget table thead th {
-  color: #fff;
-  font-weight: normal;
-}
-#footer .widget table tbody tr td:not(.pad) {
-  color: #eeeeee;
-  padding: 0;
-  border: 3px solid #363636;
-  background-color: transparent;
-  line-height: 24px;
 }

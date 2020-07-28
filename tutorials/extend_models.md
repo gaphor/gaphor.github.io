@@ -1,5 +1,5 @@
 ---
-title: Extend Models
+title: Extend your model with stereotypes
 redirect_from: /pages/extend-models.html
 ---
 

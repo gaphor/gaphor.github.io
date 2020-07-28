@@ -1,5 +1,5 @@
 ---
-title: Working with Gaphor
+title: Get started with Gaphor
 redirect_from: /pages/your-first-model.html
 ---
 
@@ -26,7 +26,7 @@ view the elements of your model from an elided perspective. That is, you
 can collapse those model elements that are irrelevant to the task at
 hand.
 
-![image]({static}/images/gaphor-treeview.png)
+![image](/images/gaphor-treeview.png)
 
 In the figure above, you will see that there are three elements in
 the navigation view. The root element, _New Model_ is a package. Notice
@@ -47,14 +47,14 @@ tree view on the diagrams.
 
 The diagram section takes up the most space. Multiple diagrams can be
 opened at once: they are shown in tabs. Tabs can be closed from the file
-menu (Close) and by pressing `Ctrl+w`.
+menu (Close) and by pressing <kbd>Ctrl+w</kbd>.
 
 Most elements have hot zones, shown as gray rectangles that are only
 visible when the item is selected. Double clicking on those rectangles
 allows you to directly edit the item. E.g. change its name.
 
-Changes you make can be undone by pressing `Ctrl+z`. To re-do a change, hit
-`Ctrl+Shift+z`.
+Changes you make can be undone by pressing <kbd>Ctrl+z</kbd>. To re-do a change, hit
+<kbd>Ctrl+Shift+z<kbd>.
 
 ## Toolbox
 
@@ -75,8 +75,8 @@ canvas from the toolbox.
 The Element editor can be unfolded by pressing the pensil button. This will reveal a
 utility window that shows all characteristics of the selected element.
 Things like name, attributes and stereotypes. It can be opened with
-`Ctrl+e`.
+<kbd>Ctrl+e</kbd>.
 
-![image]({static}/images/elementeditor.png)
+![image](/images/elementeditor.png)
 
 The properties shown depend on the element that is selected.

@@ -15,26 +15,29 @@ Contributions are welcome without prejudice from anyone irrespective of age,
 gender, religion, race, or sexuality. If you’re thinking, "but they don't mean
 me", then we especially mean YOU.
 
-### Chat on Gitter
+## Chat on Gitter
 
 Our real-time conversations are on Gitter. you can sign-up and connect with
 the community by clicking the link below or visiting:
 https://gitter.im/gaphor/lobby
 
-[Join Gitter Chat](https://gitter.im/gaphor/lobby)
+[<i class="fab fa-gitter"></i> Join Gitter Chat](https://gitter.im/gaphor/lobby)
 
-### Submit an Issue on GitHub
+## Submit an Issue on GitHub
+
 Please use our GitHub issue tracker for general questions and reporting bugs.
 Before submitting a GitHub issue please review our page about
-[how to report a bug in Gaphor]({filename}howto/report_bugs.md).
+[how to report a bug in Gaphor]({% link tutorials/report_bugs.md %}).
 
-[Submit an Issue on GitHub](https://github.com/gaphor/gaphor/issues)
+[<i class="fab fa-github"></i> Submit an Issue on GitHub](https://github.com/gaphor/gaphor/issues)
 
-### Community Conduct
+## Community Conduct
+
 We expect contributors to follow the [Code of
-Conduct](https://github.com/gaphor/gaphor/blob/master/CODE_OF_CONDUCT.md). We
-won't hesitate to issue a clear warning and, if ignored, ban people who don't
-behave in the spirit of the code of conduct. We want our community to be a
-safe, welcoming and friendly place. If a conduct related situation arises, we
+Conduct](https://github.com/gaphor/gaphor/blob/master/CODE_OF_CONDUCT.md).
+
+We want our community to be a safe, welcoming and friendly place.
+We won't hesitate to issue a clear warning and, if ignored, ban people who don't
+behave in the spirit of the code of conduct. If a conduct related situation arises, we
 will endeavour to act in a discreet, sympathetic and fair manner to all
 concerned.

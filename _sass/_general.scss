@@ -19,12 +19,12 @@ h1,h2,h3,h4,h5,h6 {
   font-family: "Poppins";
 }
 h1 {
-  font-size: 80px;
+  font-size: 60px;
   line-height: 84px;
   font-weight: 700;
 }
 h2 {
-  font-size: 65px;
+  font-size: 46px;
   line-height: 70px;
   font-weight: 700;
 }
@@ -58,10 +58,7 @@ input {
 }
 ul,
 ol {
-  font-size: 16px;
-  font-family: "Lato";
-  line-height: 26px;
-  font-weight: 400;
+  list-style: none;
 }
 a {
   color: #5c6364;

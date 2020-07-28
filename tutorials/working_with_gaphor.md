@@ -12,7 +12,7 @@ on the diagram and add a new Class to the model (it shows up in the Navigation.
 The selected tool will reset itself to the Pointer tool after the element is placed
 on the diagram.
 
-![image]({static}/images/oneclass.png)
+![image](/images/oneclass.png)
 
 It's simple to add elements to a diagram.
 
@@ -26,7 +26,7 @@ diagrams, Sequence diagrams. But Gaphor does not place any restrictions.
 
 ## Creating New Diagrams
 
-![image]({static}/images/navpopup.png)
+![image](/images/navpopup.png)
 
 To create a new diagram, use the Navigation section. Select an element that can
 contain a diagram (a Package or Profile) and right-click. Select New diagram
@@ -70,11 +70,11 @@ metaclass will tell the stereotype on which kind of elements it is
 applicable. A Stereotype can be connected to the Metaclass by means of
 an Extension relationship.
 
-![image]({static}/images/navpopup.png)
+![image](/images/navpopup.png)
 
 Stereotypes can be applied to basically all elements in a model.
 
-![image]({static}/images/stereotypedclass.png)
+![image](/images/stereotypedclass.png)
 
 Stereotypes can contain attributes, as shown in the diagram above. Those
 attributes can be filled in the Element Editor. This allows for enormous
@@ -82,4 +82,4 @@ flexibility. In most cases, especially if some sort of program logic has
 to be generated from the models, it is very handy to define special
 behaviours to classes and other elements by means of stereotypes.
 
-![image]({static}/images/stereotypeedit.png)
+![image](/images/stereotypeedit.png)
