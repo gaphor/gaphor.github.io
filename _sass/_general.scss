@@ -7,6 +7,10 @@ body {
   word-wrap: break-word;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   line-height: 26px;
   background-color: #fff;
