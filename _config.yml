@@ -32,6 +32,8 @@ menu:
     url: "/discuss.html"
   - label: Contribute
     url: "/contribute.html"
+  - label: "<i class='fab fa-github' style='font-size: 160%' title='GitHub repository'></i>"
+    url: "https://github.com/gaphor/gaphor"
 colors:
   - "#f18b6d"
   - "#f1d204"
