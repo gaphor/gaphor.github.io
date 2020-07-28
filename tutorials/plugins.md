@@ -1,5 +1,7 @@
-Title: Writing a Plugin
-
+---
+title: Writing a Plugin
+redirect_from: /pages/writing-a-plugin.html
+---
 Gaphor is designed to be extensible by using plugins that allow you to extend
 the functionality.
 
@@ -22,8 +24,9 @@ class MyThing:
 In the console window services can be retrieved by using the `service()`
 function. For example:
 
-    ef = service('element_factory')
-
+```python
+ef = service('element_factory')
+```
 
 ## Querying the Data Model
 
@@ -35,8 +38,9 @@ Two methods are used for querying:
 `query` is a lambda function with the element as parameter. For example, to
 fetch all of the Class instances from the element factory:
 
-    element_factory.select(lambda e: e.isKindOf(UML.Class))
-
+```python
+element_factory.select(lambda e: e.isKindOf(UML.Class))
+```
 
 ## Traversing Data Instances
 

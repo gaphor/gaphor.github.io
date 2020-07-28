@@ -1,5 +1,6 @@
 ---
 title: Tutorials
+redirect_from: /pages/how-to.html
 ---
 
 Each tutorial is a self-contained lesson, explaining a specific aspect of
@@ -16,4 +17,4 @@ goals.
 
 ### Problem Solving
 
-- [How to report a bug in Gaphor]({% link /tutorials/report_bugs.md %})
+- [How to report a bug in Gaphor]({% link tutorials/report_bugs.md %})

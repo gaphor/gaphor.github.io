@@ -1,4 +1,7 @@
-Title: Your First Model
+---
+title: Your First Model
+redirect_from: /pages/working-with-gaphor.html
+---
 
 Once Gaphor is started a new empty model is automatically created. The
 main diagram is already open in the Diagram section.
@@ -80,4 +83,3 @@ to be generated from the models, it is very handy to define special
 behaviours to classes and other elements by means of stereotypes.
 
 ![image]({static}/images/stereotypeedit.png)
-

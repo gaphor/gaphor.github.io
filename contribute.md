@@ -1,6 +1,7 @@
 ---
 title: Contribute
 layout: article
+redirect_from: /pages/developers.html
 ---
 
 Would you like to contribute to the development of Gaphor? (If you think this

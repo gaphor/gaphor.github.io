@@ -1,4 +1,7 @@
-Title: Working with Gaphor
+---
+title: Working with Gaphor
+redirect_from: /pages/your-first-model.html
+---
 
 Once Gaphor is launched, it provides you an almost empty user interface.
 A new model is already created and the diagram is opened.

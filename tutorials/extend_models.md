@@ -1,5 +1,6 @@
 ---
 title: Extend Models
+redirect_from: /pages/extend-models.html
 ---
 
 The UML method to extend UML (basic) components with a special meaning
