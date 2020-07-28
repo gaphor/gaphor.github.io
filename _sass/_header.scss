@@ -14,10 +14,6 @@
     display: block;
     font-size: 36px;
     color: #fff;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
     line-height: 78px;
     font-weight: 600;
     font-family: "Poppins";
@@ -37,7 +33,6 @@
   }
 
   .header-navigation ul {
-    width: 100%;
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -49,11 +44,8 @@
     margin-left: 40px;
     line-height: 40px;
     font-weight: 700;
-    font-size: 14px;
-    color: #fff;
     position: relative;
-    float: left;
-    font-family: "Lato";
+    display: inline;
   }
 
   .header-navigation ul li:first-child {
@@ -62,8 +54,6 @@
 
   .header-navigation ul li a {
     color: #fff;
-    font-size: 16px;
-    line-height: 26px;
   }
 
   .header-navigation ul li:hover a {
@@ -98,22 +88,10 @@
   }
 }
 
-#header .bottom-header.blog {
-  padding: 130px 0;
-}
-#header .bottom-header.blog p {
-  margin-bottom: 0;
-  color: #fff;
-}
-
 
 #header .bottom-header .section-description {
-  line-height: 26px;
   margin-bottom: 60px;
-  font-size: 16px;
   color: #fff;
-  font-family: "Lato";
-  font-weight: 400;
 }
 
 #header .bottom-header .header-button-one {
@@ -125,13 +103,7 @@
   padding: 0 70px;
   border: 3px solid #fff;
   font-weight: 700;
-  font-size: 16px;
   color: #fff;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-  font-family: "Lato";
   min-width: 242px;
 
   &:hover {
@@ -148,10 +120,7 @@
   margin: 0 15px;
   padding: 0 70px;
   font-weight: 700;
-  font-size: 16px;
   color: #fff;
-  transition: all 0.3s;
-  font-family: "Lato";
   min-width: 242px;
 
   &:hover {
@@ -160,11 +129,7 @@
   }
 }
 
-@media only screen and (max-width: 1024px) {
-  #header {
-    background-attachment: initial !important;
-  }
-}
+
 @media only screen and (max-width: 992px) {
   .top-header .header-navigation {
     display: none;
