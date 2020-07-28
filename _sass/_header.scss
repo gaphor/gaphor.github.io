@@ -178,11 +178,10 @@
     outline: 0;
     display: block;
     float: right;
-  }
-
-  .open-responsive-menu .fa {
-    font-size: 22px;
-    color: #fff;
+    .fa {
+      font-size: 22px;
+      color: #fff;
+    }
   }
 
   .responsive-menu {
@@ -190,29 +189,28 @@
     background-color: #fff;
     margin-top: 20px;
     display: none;
-  }
+    ul {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
 
-  .responsive-menu ul {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
+    ul li {
+      width: 100%;
+    }
 
-  .responsive-menu ul li {
-    width: 100%;
-  }
+    ul li a {
+      width: 100%;
+      padding: 15px;
+      display: block;
+      border-bottom: 1px solid #e4e4e4;
+      color: #000;
+      text-align: center;
+    }
 
-  .responsive-menu ul li a {
-    width: 100%;
-    padding: 15px;
-    display: block;
-    border-bottom: 1px solid #e4e4e4;
-    color: #000;
-    text-align: center;
-  }
-
-  .responsive-menu.active {
-    display: block;
+    &.active {
+      display: block;
+    }
   }
 
   #header .bottom-header {
