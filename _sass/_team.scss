@@ -97,3 +97,35 @@
 #team .widget_illdy_person:nth-child(1), #team .widget_illdy_person:nth-child(2), #team .widget_illdy_person:nth-child(3) {
   margin-top: 0;
 }
+
+@media only screen and (max-width: 800px) {
+  #team .section-content .person .person-image {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #team .section-content .person .person-content {
+    float: none;
+    width: 100%;
+  }
+  .row.blog-carousel.owl-carousel {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #team .section-content .person .person-image {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  #team .section-content .person .person-content {
+    text-align: center;
+  }
+
+  #team .section-content .person .person-content .person-content-social li {
+    display: inline-block;
+    float: none;
+  }
+}

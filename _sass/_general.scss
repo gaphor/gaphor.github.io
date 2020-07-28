@@ -19,16 +19,19 @@ h1,h2,h3,h4,h5,h6 {
   font-family: "Poppins";
 }
 h1 {
+  color: #545454;
   font-size: 60px;
   line-height: 84px;
   font-weight: 700;
 }
 h2 {
+  color: #545454;
   font-size: 46px;
   line-height: 70px;
   font-weight: 700;
 }
 h3 {
+  color: #545454;
   font-size: 35px;
   line-height: 38px;
   font-weight: 700;
@@ -37,16 +40,19 @@ h3 {
   }
 }
 h4 {
+  color: #545454;
   font-size: 25px;
   line-height: 32px;
   font-weight: 700;
 }
 h5 {
+  color: #545454;
   font-size: 23px;
   line-height: 32px;
   font-weight: 700;
 }
 h6 {
+  color: #545454;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -83,31 +89,11 @@ a:hover, a:focus {
 }
 .front-page-section .section-header {
   margin-bottom: 65px;
-}
-.front-page-section .section-header {
   width: 100%;
 }
 
-.front-page-section .section-header h3 {
-  margin: 0 0 5px 0;
-  color: #545454;
-}
 .section-description img {
   max-width: 100%;
-}
-.front-page-section .section-header .section-description {
-  margin-bottom: 0;
-  line-height: 26px;
-  font-size: 16px;
-  color: #8c9597;
-  font-family: "Lato";
-  font-weight: 400;
-}
-.front-page-section .section-header .section-description ul,
-#header .bottom-header .section-description ul,
-#header .bottom-header .section-description ol,
-.front-page-section .section-header .section-description ol {
-  list-style-position: inside;
 }
 
 .front-page-section .section-content {
@@ -118,25 +104,10 @@ a:hover, a:focus {
   padding: 0;
 }
 
-.wp-caption-text,
-.sticky,
-.gallery-caption,
-.bypostauthor {
-  margin: 0;
-}
-
 .open-responsive-menu {
   display: none;
 }
 
 .responsive-menu {
   display: none;
-}
-
-.customizer-display-none {
-  display: none;
-}
-
-.customizer-display-block {
-  display: block;
 }
