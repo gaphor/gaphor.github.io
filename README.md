@@ -1,12 +1,17 @@
-# Illdy theme for Jekyll
+# Gaphor.org website
 
-This is a Jekyll-ized version of the Illdy theme (https://colorlib.com/illdy/).
+https://gaphor.org
+
+This Jekyll project contains the website for .
+
+The theme is based on the [Illdy theme](https://colorlib.com/illdy/).
+
 
 ## Ubuntu Linux
 
-    $ apt install ruby bundler
-    $ bundle config set path $HOME/.rbbundle
-    $ bundle install
-    $ bundle exec jekyll serve
-
-
+```sh
+$ apt install ruby bundler
+$ bundle config set path $HOME/.rbbundle
+$ bundle install
+$ bundle exec jekyll serve
+```
