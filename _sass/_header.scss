@@ -4,6 +4,14 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-image: url(../images/splash.jpg);
+  background-attachment: fixed;
+
+  // Safari on iOS does not support fixed backgrounds
+  // https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout
+  @supports (-webkit-touch-callout: none) {
+    background-attachment: scroll;
+  }
 }
 
 .top-header {
