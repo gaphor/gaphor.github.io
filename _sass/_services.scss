@@ -1,0 +1,48 @@
+/* 06. Services */
+.services {
+  width: 100%;
+  background: #fff;
+  padding: 65px 0 75px 0;
+  text-align: center;
+}
+
+.services .section-header {
+  width: 100%;
+  margin-bottom: 65px;
+}
+
+.services .section-content {
+  width: 100%;
+}
+
+.services .section-content .service {
+  width: 100%;
+}
+
+.services .section-content .service .service-icon {
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+
+.services .section-content .service .service-icon .fa {
+  display: block;
+}
+
+.services .section-content .service .service-title {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.services .section-content .service .service-entry {
+  width: 100%;
+  color: #8c9597;
+}
+
+.services .widget_illdy_service {
+  margin-top: 40px;
+}
+
+.services .widget_illdy_service:nth-child(1), .services .widget_illdy_service:nth-child(2), .services .widget_illdy_service:nth-child(3) {
+  margin-top: 0;
+}

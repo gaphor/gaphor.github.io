@@ -1,0 +1,36 @@
+/* Parallax Widget */
+.align-children {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+}
+.top-parallax-section {
+  overflow: hidden;
+  padding: 96px 0;
+}
+p.mb32 {
+  margin-bottom: 32px;
+}
+
+.illdy_home_parallax .row {
+  margin: 0;
+}
+.bg-secondary {
+  background: #f5f5f5;
+}
+.border-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.illdy_home_parallax .cast-shadow.img-responsive {
+  display: inline-block;
+}
+.illdy-customizer-preview .parallax-mirror {
+  z-index: 0 !important;
+}

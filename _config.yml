@@ -1,0 +1,77 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.url }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Gaphor
+logo: /images/gaphor.svg
+favicon: /images/gaphor-24x24.png
+description: >-
+  Gaphor is a UML modeling tool. Gaphor is beginner friendly, though it can be used for full MDA (Model Driven Architecture).
+url: "https://gaphor.org"
+gaphor_version: 1.2.0
+
+menu:
+  - label: About
+    url: "/#about"
+  - label: Download
+    url: "/download.html"
+  - label: Tutorials
+    url: "/tutorials.html"
+  - label: Discuss
+    url: "/discuss.html"
+  - label: Contribute
+    url: "/contribute.html"
+  - label: "<i class='fab fa-github' style='font-size: 168%' title='GitHub repository'></i>"
+    url: "https://github.com/gaphor/gaphor"
+
+colors:
+  - "#f18b6d"
+  - "#f1d204"
+  - "#6a4d8a"
+  - "#f1d204"
+  - "#6a4d8a"
+  - "#f18b6d"
+
+umlcolors:
+  - "#971232"
+  - "#c7c000"
+  - "#54006c"
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "tutorials*"
+    values:
+      layout: "article"
+
+collections:
+  - usps
+  - platforms
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-redirect-from
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE.txt

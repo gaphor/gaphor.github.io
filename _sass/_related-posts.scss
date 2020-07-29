@@ -1,0 +1,53 @@
+/* 15. Related Posts */
+.blog-post-related-articles {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.blog-post-related-articles .related-article-title {
+  width: 100%;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+  line-height: 1.6;
+}
+
+.blog-post-related-articles .related-post {
+  width: 100%;
+  height: 203px;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.blog-post-related-articles .related-post:hover .related-post-title {
+  color: #f1d204;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.blog-post-related-articles .related-post .related-post-title {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  line-height: 1.6;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
