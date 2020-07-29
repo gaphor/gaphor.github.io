@@ -14,7 +14,7 @@ jQuery(document).ready(function ($) {
 
 	// Called Functions
 	$(function () {
-		openResponsiveMenu();
+		// openResponsiveMenu();
 	});
 
 });
