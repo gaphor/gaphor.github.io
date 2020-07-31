@@ -1,6 +1,7 @@
 ---
 title: Tutorials
 redirect_from: /pages/how-to.html
+layout: article
 ---
 
 Each tutorial is a self-contained lesson, explaining a specific aspect of

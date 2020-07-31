@@ -78,12 +78,19 @@ a:hover, a:focus {
 }
 
 .default-page {
-  margin: 65px 0;
+  margin-bottom: 72px;
   a {
     text-decoration: underline;
   }
   a.btn {
     text-decoration: none;
+  }
+  .section-header {
+    background-image: url(../images/front-page/pattern.png);
+    background-size: auto;
+    background-repeat: repeat;
+    padding-top: 72px;
+    margin-bottom: 26px;
   }
 }
 
@@ -106,4 +113,10 @@ a:hover, a:focus {
 
 .no-padding {
   padding: 0;
+}
+
+#download {
+  background-image: url(../images/front-page/pattern.png);
+  background-size: auto;
+  background-repeat: repeat;
 }
