@@ -15,10 +15,11 @@
 # in the templates via {{ site.myvariable }}.
 title: Gaphor
 logo: /images/gaphor.svg
-favicon: /images/gaphor-24x24.png
+tagline: Gaphor, the UML/SysML modeling tool
 description: >-
   Gaphor is a UML modeling tool. Gaphor is beginner friendly, though it can be used for full MDA (Model Driven Architecture).
-url: "https://gaphor.org"
+url: https://gaphor.org
+favicon: /images/gaphor-24x24.png
 gaphor_version: 1.2.0
 
 menu:
@@ -80,6 +81,9 @@ sass:
   style: compressed
 
 plugins:
+  # - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
   - jekyll-redirect-from
 
 exclude:

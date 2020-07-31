@@ -2,27 +2,21 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-	<title>{{ page.title }} - {{ site.title }}</title>
 	<meta name="robots" content="index, follow" />
 	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-	<link rel="canonical" href="{{ site.url }}" />
-	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="{{ page.title }} - {{ site.title }}" />
 	<meta property="og:url" content="{{ site.url }}" />
 	<meta property="og:site_name" content="Illdy Theme Demo" />
 	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
 	<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
 	<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
-	<link rel="shortcut icon" href="{{ site.favicon }}"/>
+	<link rel="shortcut icon" href="{{ site.favicon }}" />
 
 	{% if page.with_pace %}
-	<link rel='stylesheet'
-		href='/css/pace.min.css?ver=5.4.2' type='text/css'
-		media='all' />
+	<link rel='stylesheet' href='/css/pace.min.css?ver=5.4.2' type='text/css' media='all' />
 	<script type="text/javascript">
-		var paceOptions = {"restartOnRequestAfter":"0","restartOnPushState":"0"};
+		var paceOptions = { "restartOnRequestAfter": "0", "restartOnPushState": "0" };
 	</script>
 	<script type="text/javascript" src='/js/pace/pace.min.js?ver=5.4.2'></script>
 	<style type="text/css">
@@ -46,16 +40,13 @@
 		type='text/css' media='all' />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.css"
 		integrity="sha512-HdXbv8lyOND1Ueuy0orIopVhFwlzWycyfSG9YvFR88TgiiMUkSmh/tezmCjv36wtzTJk3QK3hnBiVt6BJBnqUQ=="
-		crossorigin="anonymous" media="all"/>
-	<link rel="stylesheet"
-		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+		crossorigin="anonymous" media="all" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
 		integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
 		crossorigin="anonymous" media='all' />
-	<link rel='stylesheet'
-		href='/css/owl-carousel.min.css?ver=2.0.0'
-		type='text/css' media='all' />
-	<link rel='stylesheet'
-		href='/css/main.css?ver=5.4.2' type='text/css'
-		media='all' />
+	<link rel='stylesheet' href='/css/owl-carousel.min.css?ver=2.0.0' type='text/css' media='all' />
+	<link rel='stylesheet' href='/css/main.css?ver=5.4.2' type='text/css' media='all' />
+
+	{% seo %}
 
 </head>
