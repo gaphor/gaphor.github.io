@@ -56,13 +56,20 @@ defaults:
       layout: "default"
   -
     scope:
-      path: "tutorials*"
+      path: "_posts*"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "_tutorials*"
     values:
       layout: "article"
 
 collections:
-  - usps
-  - platforms
+  usps:
+  platforms:
+  tutorials:
+    output: true
 
 sass:
   style: compressed
