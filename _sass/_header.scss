@@ -22,9 +22,10 @@
     display: block;
     font-size: 36px;
     color: #fff;
-    line-height: 78px;
     font-weight: 600;
     font-family: "Poppins";
+    letter-spacing: 0.02em;
+    padding-top: 10px;
 
     img {
       width: 48px;
@@ -34,6 +35,15 @@
   .header-logo:hover {
     color: white;
     text-decoration: none;
+  }
+
+  .header-subtitle {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 200;
+    color: #fff;
+    padding-left: 4px;
+    letter-spacing: 0.2em;
   }
 
   .header-navigation {

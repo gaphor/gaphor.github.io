@@ -6,6 +6,9 @@
           <img src="{{ site.logo }}" />
           Gaphor
         </a>
+        {% if include.show_subtitle %}
+        <div class="header-subtitle">UML/SysML Modeling</div>
+        {% endif %}
       </div>
       <div class="col-sm-8 col-xs-4">
         <label for="menu-toggle" class="open-responsive-menu"><i class="fa fa-bars"></i></label>
@@ -21,7 +24,7 @@
   </div>
 </div>
 
-<input id="menu-toggle" type="checkbox" hidden ></input>
+<input id="menu-toggle" type="checkbox" hidden></input>
 <nav class="responsive-menu">
   <label for="menu-toggle" class="close-responsive-menu"><i class="fa fa-times"></i></label>
   <ul>
