@@ -56,6 +56,11 @@ defaults:
       layout: "default"
   -
     scope:
+      path: "_drafts*"
+    values:
+      layout: "post"
+  -
+    scope:
       path: "_posts*"
     values:
       layout: "post"
