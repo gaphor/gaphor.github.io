@@ -25,7 +25,7 @@
     font-weight: 600;
     font-family: "Poppins";
     letter-spacing: 0.02em;
-    padding-top: 10px;
+    line-height: 60px;
 
     img {
       width: 48px;
@@ -44,6 +44,7 @@
     color: #fff;
     padding-left: 4px;
     letter-spacing: 0.2em;
+    line-height: 16px;
   }
 
   .header-navigation {
@@ -55,12 +56,9 @@
     padding: 0;
     list-style-type: none;
   }
-  .header-navigation > ul {
-    margin-top: 20px;
-  }
   .header-navigation ul li {
     margin-left: 40px;
-    line-height: 40px;
+    line-height: 60px;
     font-weight: 700;
     position: relative;
     display: inline;
@@ -185,17 +183,12 @@
 
 // === Menu
 
-// .responsive-menu {
-//   display: none;
-// }
 .open-responsive-menu {
   height: 100%;
-  background: 0 0;
-  padding: 26px 0;
-  border: none;
+  line-height: 60px;
   outline: 0;
   display: block;
-  float: right;
+  text-align: right;
   .fa {
     font-size: 22px;
     color: #fff;
