@@ -1,6 +1,10 @@
 ---
 title: A history of Gaphor
 author: Arjan Molenaar
+image_url: /images/roitberg-clocks.jpg
+image_attribution: >
+  José Roitberg - RIO DE JANEIRO FLEA MARKET OLD WATCHES APR 2011.
+  https://www.flickr.com/photos/roitberg/5603167669
 ---
 
 Gaphor as a project has been around for almost 19 years.

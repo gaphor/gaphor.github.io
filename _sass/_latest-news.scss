@@ -26,11 +26,11 @@
   min-height: 547px;
 }
 
-#latest-news .illdy-blog-post {
+#latest-news .blog-post {
   margin-top: 30px;
   min-height: 540px;
 }
-#latest-news .owl-item .illdy-blog-post {
+#latest-news .owl-item .blog-post {
   width: 100%;
 }
 #latest-news .owl-prev,
@@ -57,11 +57,11 @@
   background-size: cover;
   margin-bottom: 37px;
 }
-#latest-news .illdy-blog-post h5 {
+#latest-news .blog-post h5 {
   margin: 0;
 }
 
-#latest-news .section-content .post .post-title {
+#latest-news .section-content .post .post-title a {
   width: 100%;
   padding: 0 30px;
   color: #5e5e5e;
@@ -72,7 +72,7 @@
   display: block;
 }
 
-#latest-news .section-content .post .post-title:hover {
+#latest-news .section-content .post .post-title a:hover {
   color: #f1d204;
   text-decoration: none;
 }
@@ -80,20 +80,12 @@
 #latest-news .section-content .post .post-entry {
   margin: 40px 0 55px 0;
   padding: 0 30px;
-  line-height: 26px;
   color: #8c9597;
-  font-size: 16px;
 }
 
 #latest-news .section-content .post .post-button {
-  line-height: 26px;
   padding: 0 30px;
-  font-size: 16px;
-  font-family: "Lato";
   color: #f1d204;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
   margin-left: 10px;
 }
