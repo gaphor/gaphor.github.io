@@ -1,0 +1,16 @@
+---
+layout: article
+title: Blog and News
+---
+
+{% for post in site.posts %}
+<h2><a href="{{ post.url }}" style="text-decoration: none;">{{ post.title }}</a></h2>
+<p class="credits">By {{ post.author }} on {{ post.date | date: "%B %d, %Y" }}</p>
+{{ post.content | truncate: 600 }}
+<p>
+  <a href="{{ post.url }}" title="Read more" class="post-button">
+    <i class="fa fa-chevron-circle-right"></i>
+    Read more
+  </a>
+</p>
+{% endfor %}

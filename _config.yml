@@ -30,6 +30,8 @@ menu:
     url: "/download.html"
   - label: Tutorials
     url: "/tutorials.html"
+  - label: Blog
+    url: "/blog.html"
   - label: Get in touch
     url: "/discuss.html"
   - label: Contribute
