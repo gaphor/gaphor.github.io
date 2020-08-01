@@ -40,4 +40,4 @@ It took us more than a year to get the code and internals up to date, to a level
 Gaphor 2.0 is the result. A fully updated modeling environment for casual users and die-hard modelers.
 The application is rapitly improving and the user base is growing.
 
-Give [Gaphor a try]({% link /download.html %}) and let us know what you think!
+Give [Gaphor a try]({% link download.html %}) and let us know what you think!
