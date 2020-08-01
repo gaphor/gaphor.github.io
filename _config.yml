@@ -20,7 +20,7 @@ description: >-
   Gaphor is a UML modeling tool. Gaphor is beginner friendly, though it can be used for full MDA (Model Driven Architecture).
 url: https://gaphor.org
 favicon: /images/gaphor-24x24.png
-gaphor_version: 1.2.0
+gaphor_version: 2.0.0
 google_tracking_id: UA-9578559-2
 
 menu:
