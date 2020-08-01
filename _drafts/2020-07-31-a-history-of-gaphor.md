@@ -4,11 +4,11 @@ author: Arjan Molenaar
 ---
 
 Gaphor as a project has been around for almost 19 years.
-I checked the source code repository and found the first commit to date December 21st 2001.
+I checked the source code repository and I made the first commit on December 21, 2001.
 
 The project started after I had an intership where I had to work with Rational Rose.
 This product was (and is, I suppose) very complex and has a high learning curve.
-I can do better. With that attitude I started writing my own UML modeling tool.
+I thought I could do better. With that attitude I started writing my own UML modeling tool.
 
 One of the first choices to make for a GUI application is the toolkit to use.
 [GTK+](https://gtk.org) seemed like a solid option: it's 100% open source (contrary to QT, for example),
@@ -24,13 +24,13 @@ It mimics the behavior of Dia (and Visio) and was used to build the first couple
 The Diacanvas library was written in C. Gaphor was written in Python from the start.
 At some point this started to cause friction. In 2006 the canvas library was rewritten in Python and [Gaphas](https://github.com/gaphor/gaphas) was born.
 
-The project moved on and but lost traction after the 0.17.1 release in September 2011.
+The project moved on, but lost traction after the 0.17.1 release in September 2011.
 
 In early 2017 [Dan Yeaw](https://github.com/danyeaw) contacted me. He wanted to work in Gaphor and add SysML support.
-I did now work on Gaphor at all, so Dan became the maintainer.
+At this time, I was no longer working on Gaphor at all, so Dan became the maintainer.
 The main repository moved to the Gaphor organization at GitHub and Dan made a huge effort to bring the code up to date.
-The source code was hardly updated since 2011. A time where Python 2 was the norm and GTK+ 2 the GUI toolkit (PyGTK).
-By now, Python 3 was the norm and GTK+ 3 was available for years.
+The source code was hardly updated since 2011. A time where Python 2 was the norm and GTK+ 2 was the GUI toolkit (PyGTK).
+By now, Python 3 was the norm and GTK+ 3 had been available for years.
 
 At some point &mdash; it's late 2018 &mdash; Dan got stuck and we had a video call to discuss the issues he ran into migrating and updating Gaphor.
 I agreed to help out a bit to get him going. I guess the help never stopped.
