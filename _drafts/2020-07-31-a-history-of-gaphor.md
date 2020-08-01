@@ -22,7 +22,7 @@ The initial canvas component for Gaphor I called [Diacanvas](http://diacanvas.so
 It mimics the behavior of Dia (and Visio) and was used to build the first couple of versions of Gaphor.
 
 The Diacanvas library was written in C. Gaphor was written in Python from the start.
-At some point this started to cause friction. In 2006 the canvas library was rewritten in Python and [Gaphas](https://github.com/gaphor/gaphas) was born.
+At some point this started to cause friction. In 2006 the canvas library was rewritten in Python and [Gaphas](https://github.com/gaphor/gaphas) was born. At this time [Artur](https://github.com/wrobell) and me were th emain contributors.
 
 The project moved on, but lost traction after the 0.17.1 release in September 2011.
 
@@ -38,3 +38,6 @@ Working on Gaphor again made me realize how much fun it is to work on such a pro
 
 It took us more than a year to get the code and internals up to date, to a level we felt confident we can add another modeling language.
 Gaphor 2.0 is the result. A fully updated modeling environment for casual users and die-hard modelers.
+The application is rapitly improving and the user base is growing.
+
+Give [Gaphor a try]({% link /download.html %}) and let us know what you think!
