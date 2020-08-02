@@ -15,7 +15,7 @@ redirect_from: /pages/about.html
 				<div class="col-sm-12">
 					<h1>{{ page.title }}</h1>
 				</div>
-				<div class="col-sm-8 col-sm-offset-2">
+				<div class="col-sm-8 offset-sm-2">
 					<div class="section-description">
 						<p>A picture says more than a thousand words.
 							Describe and document your applications and systems with Gaphor to enhance knowledge sharing.</p>
@@ -53,7 +53,7 @@ You can also use Python's built-in <code>pip</code> tool as long as you have all
 	<div class="section-content">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-10 col-sm-offset-1">
+				<div class="col-sm-10 offset-sm-1">
 					{% for platform in site.platforms %}
 					{% if forloop.index > 1 %}&nbsp;&nbsp;{% endif %}
 					<a href="{% link download.html %}#{{ platform.title | downcase }}"><img src="{{ platform.logo }}"

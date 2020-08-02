@@ -5,9 +5,10 @@
   <div class="section-content">
     <div class="container">
       <div class="row inline-columns">
-        {% for usp in include.services %}<div class="col-sm-4 widget_illdy_service">
-        <div class="service">
-          <div class="service-icon" style="color: {{ site.colors[forloop.index0] }}"><i class="fa fa-{{ usp.icon }}"></i></div>
+        {% for usp in include.services %}<div class="col-sm-6 col-md-4 widget_illdy_service">
+          <div class="service">
+            <div class="service-icon" style="color: {{ site.colors[forloop.index0] }}"><i
+                class="fa fa-{{ usp.icon }}"></i></div>
             <h5 class="service-title" style="color: {{ site.colors[forloop.index0] }}">{{ usp.title }}</h5>
             <div class="service-entry">{{ usp.content | markdownify }}</div>
           </div>
