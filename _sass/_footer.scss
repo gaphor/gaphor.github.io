@@ -51,24 +51,12 @@
   text-decoration: underline;
 }
 
-#footer .widget .widget-title {
+#footer .widget-title {
   margin: 0 0 20px 0;
   padding: 0;
   color: #fff;
 }
-#footer .widget .widget-title h5,
-#footer .widget .widget-title h5 a {
+#footer .widget-title h5,
+#footer .widget-title h5 a {
   color: #fff;
-}
-
-#footer .widget .widget-title:before {
-  display: none;
-}
-
-#footer .widget .widget-title h3 {
-  line-height: 1.15;
-  color: #ffffff;
-  font-size: 20px;
-  font-family: "Lato";
-  text-transform: initial;
 }
