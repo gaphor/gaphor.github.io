@@ -14,6 +14,8 @@ The project started after I had an intership where I had to work with Rational R
 This product was (and is, I suppose) very complex and has a high learning curve.
 I thought I could do better. With that attitude I started writing my own UML modeling tool.
 
+<!--break-->
+
 One of the first choices to make for a GUI application is the toolkit to use.
 [GTK+](https://gtk.org) seemed like a solid option: it's 100% open source (contrary to QT, for example),
 and was used in big projects, such as [GIMP](https://gimp.org) and (GNOME)[https://gnome.org].
