@@ -10,6 +10,8 @@ goals.
 
 1. [Get started with Gaphor]({% link _tutorials/your_first_model.md %})
 1. [Your First Model]({% link _tutorials/working_with_gaphor.md %})
+1. <i class="fab fa-youtube"></i> [Introduction to Gaphor and SysML](https://www.youtube.com/watch?v=J1k9GTmYwkc), presented by Dan at the Mitchigan Pyhon meetup.
+
 
 ## Advanced topics
 
