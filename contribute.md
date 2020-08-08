@@ -13,7 +13,7 @@ Our [technical documentation](https://gaphor.readthedocs.io) is hosted on the
 wonderful service that is Read the Docs. Not only does it contain details
 needed in order to make code contributions to Gaphor, but it outlines plenty of
 other ways in which you can contribute (including making updates to this
-website). Finally it provides a guide to our processes and expectations for the
+website). Finally, it provides a guide to our processes and expectations for the
 various types of contribution you can make to Gaphor.
 
 The source code is hosted on [GitHub](https://github.com/gaphor/gaphor).

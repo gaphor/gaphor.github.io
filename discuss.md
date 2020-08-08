@@ -7,7 +7,7 @@ redirect_from: /pages/discuss.html
 It's good to talk, share knowledge and learn from other users of Gaphor. Perhaps
 you have a question, problem or are unsure how to do something with Gaphor?
 Discussing such things in a supportive environment is a good way to make
-progress, make friends, and help . Put simply, Gaphor is a
+progress, make friends, and help. Put simply, Gaphor is a
 community focused project, and we have created a couple of online spaces where
 the community can come together.
 
