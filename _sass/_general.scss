@@ -1,76 +1,13 @@
-/* 01. General */
- /* 01. General */
-html,
-body {
-  width: 100%;
-  height: 100%;
-  display: block;
-  word-wrap: break-word;
-}
-
 html {
   scroll-behavior: smooth;
 }
 
-body {
-  line-height: 26px;
-  background-color: #fff;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  color: #8c9597;
-}
-h1,h2,h3,h4,h5,h6 {
-  font-family: "Poppins";
-}
-h1 {
-  color: #545454;
-  font-size: 60px;
-  line-height: 84px;
-  font-weight: 700;
-}
 h2 {
-  color: #545454;
-  font-size: 46px;
-  line-height: 70px;
-  font-weight: 700;
-}
-h3 {
-  color: #545454;
-  font-size: 35px;
-  line-height: 38px;
-  font-weight: 700;
   img {
-    height: 38px;
+    height: 1.3em;
   }
 }
-h4 {
-  color: #545454;
-  font-size: 25px;
-  line-height: 32px;
-  font-weight: 700;
-}
-h5 {
-  color: #545454;
-  font-size: 23px;
-  line-height: 32px;
-  font-weight: 700;
-}
-h6 {
-  color: #545454;
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 700;
-}
-textarea,
-input {
-  -webkit-appearance: none;
-  border-radius: 0;
-}
-ul,
-ol {
-  list-style: none;
-}
+
 img {
   max-width: 100%;
 }
@@ -82,7 +19,7 @@ a:hover, a:focus {
 }
 
 .default-page {
-  margin-bottom: 72px;
+  margin-bottom: 4em;
   a {
     text-decoration: underline;
   }
@@ -93,18 +30,18 @@ a:hover, a:focus {
     background-image: url(../images/front-page/pattern.png);
     background-size: auto;
     background-repeat: repeat;
-    padding-top: 72px;
-    margin-bottom: 26px;
+    padding-top: 4em;
+    margin-bottom: 1.681em;
     min-height: 160px;
   }
 }
 
 .front-page-section {
-  width: 100%;
   text-align: center;
+  padding: 65px 0 75px 0;
 }
 .front-page-section .section-header {
-  margin-bottom: 65px;
+  margin-bottom: 3em;
   width: 100%;
 }
 
