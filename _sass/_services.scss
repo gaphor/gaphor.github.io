@@ -1,11 +1,11 @@
 /* 06. Services */
 
 .service {
-    margin-bottom: 2.5em;
+    margin-bottom: 2.5rem;
 
     .service-icon {
         margin-bottom: 10px;
-        font-size: 2.25em;
+        font-size: 2.25rem;
     }
 
     .service-icon .fa {
@@ -13,10 +13,10 @@
     }
 
     .service-title {
-        margin-bottom: 1.25em;
+        margin-bottom: 1.25rem;
     }
+}
 
-    &:last-child {
-        margin-bottom: 0
-    }
+#about {
+    padding-bottom: 1.5rem;
 }
