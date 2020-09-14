@@ -27,7 +27,7 @@ https://gitter.im/gaphor/lobby
 
 Please use our GitHub issue tracker for general questions and reporting bugs.
 Before submitting a GitHub issue please review our page about
-[how to report a bug in Gaphor]({% link _tutorials/report_bugs.md %}).
+[how to report a bug in Gaphor]({% link _tutorials/report-bugs.md %}).
 
 [<i class="fab fa-github"></i> Submit an Issue on GitHub](https://github.com/gaphor/gaphor/issues)
 
