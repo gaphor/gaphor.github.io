@@ -4,7 +4,7 @@ layout: bare
 redirect_from: /pages/about.html
 ---
 
-
+<div id="header-wrapper">
 <header id="header" class="header-front-page">
 
     {% include menu.html show_subtitle="yes" %}
@@ -29,7 +29,7 @@ redirect_from: /pages/about.html
         </div>
     </div>
 </header>
-
+</div>
 {% capture about %}
 Gaphor is a UML and SysML modeling application written in Python. It is designed
 to be easy to use, while still being powerful. Gaphor implements a
@@ -71,3 +71,15 @@ You can also use Python's built-in <code>pip</code> tool as long as you have all
 <!-- Enable this when there's at least 3 blogs, so they can be displayed on the landing page. -->
 {% include latest-news.html %}
 {% endcomment %}
+
+<script>
+<!--
+  window.onload = function() {
+    var img = new Image();
+    img.onload = function() {
+      document.getElementById("header").style.backgroundImage = "url(/images/splash.jpg)";
+    }
+    img.src = "/images/splash.jpg";
+  };
+//-->
+</script>
