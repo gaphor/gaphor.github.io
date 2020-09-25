@@ -48,3 +48,18 @@
     </script>
 
 </footer>
+
+{% if page.url == "/" %}
+<script>
+<!--
+  window.onload = function() {
+    var img = new Image();
+    img.onload = function() {
+      document.getElementById("header").style.backgroundImage = "url(/images/splash.jpg)";
+    }
+    img.src = "/images/splash.jpg";
+  };
+//-->
+</script>
+{% endif %}
+
