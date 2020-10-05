@@ -5,30 +5,30 @@ redirect_from: /pages/about.html
 ---
 
 <div id="header-wrapper">
-<header id="header" class="header-front-page">
+    <header id="header" class="header-front-page">
 
-    {% include menu.html show_subtitle="yes" %}
+        {% include menu.html show_subtitle="yes" %}
 
-    <div class="bottom-header front-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1>{{ page.title }}</h1>
-                </div>
-                <div class="col-sm-8 offset-sm-2">
-                    <div class="section-description">
-                        <p>A picture says more than a thousand words.
-                            Describe and document your applications and systems with Gaphor to enhance knowledge
-                            sharing.</p>
+        <div class="bottom-header front-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1>{{ page.title }}</h1>
                     </div>
-                    <a href="{% link index.html %}#about" title="Learn more" class="btn header-button-one">Learn
-                        more</a>
-                    <a href="{% link download.html %}" title="Download" class="btn header-button-two">Download</a>
+                    <div class="col-sm-8 offset-sm-2">
+                        <div class="section-description">
+                            <p>A picture says more than a thousand words.
+                                Describe and document your applications and systems with Gaphor to enhance knowledge
+                                sharing.</p>
+                        </div>
+                        <a href="{% link index.html %}#about" title="Learn more" class="btn header-button-one">Learn
+                            more</a>
+                        <a href="{% link download.html %}" title="Download" class="btn header-button-two">Download</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</header>
+    </header>
 </div>
 {% capture about %}
 Gaphor is a UML and SysML modeling application written in Python. It is designed
@@ -40,6 +40,42 @@ of a system as well as create complete, highly complex models.
 {% endcapture %}
 
 {% include services.html id="about" title="About" description=about services=site.usps %}
+
+<section class="container">
+    <div class="row mb-4">
+        <div class="col-lg-6 col-sm-12">
+            <img src="{% link images/screenshot-interaction.png %}" alt="interaction" />
+        </div>
+        <p class="col-lg-4 offset-lg-1 col-sm-12 d-flex align-items-center">
+            Make Class, Interaction, and State diagrams. Models the elements you need.
+            If your model requires, you can add different diagram items to the same diagram.
+        </p>
+
+    </div>
+    <div class="row  mb-4 flex-row-reverse">
+        <div class="offset-lg-1 col-lg-6 col-sm-12">
+            <img src="{% link images/screenshot-styles.png %}" alt="styles" />
+        </div>
+        <div class="col-lg-4 offset-lg-1 col-sm-12 d-flex align-items-center">
+            <p>Customize the diagrams you create with the build-in styling engine.
+            </p>
+        </div>
+    </div>
+    <div class="row mb-4">
+        <div class="col-lg-6 col-sm-12">
+            <img src="{% link images/screenshot-namespace.png %}" alt="Tree view detail" />
+        </div>
+        <div class="col-lg-4 offset-lg-1 col-sm-12 d-flex align-items-center">
+            <p>Easely find all element of your model in the tree view.</p>
+        </div>
+    </div>
+    <!-- <div style="background-image: url({% link images/screenshot-styles.png %})" alt="Style extravaganza"
+    class="col-lg-3 col-sm-6"></div>
+<div style="background-image: url({% link images/screenshot-black.png %})" alt="Black style"
+    class="col-lg-3 col-sm-6"></div>
+<div style="background-image: url({% link images/screenshot-interaction.png %})" alt="Interaction"
+    class="col-lg-3 col-sm-6"></div> -->
+</section>
 
 {% capture download %}
 There are many ways to install Gaphor.
@@ -71,4 +107,3 @@ You can also use Python's built-in <code>pip</code> tool as long as you have all
 <!-- Enable this when there's at least 3 blogs, so they can be displayed on the landing page. -->
 {% include latest-news.html %}
 {% endcomment %}
-
