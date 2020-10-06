@@ -26,17 +26,22 @@
 
 /* Buttons */
 
+@import "bootstrap-4.5.0/mixins/deprecate";
 @import "bootstrap-4.5.0/mixins/buttons";
 @import "bootstrap-4.5.0/mixins/border-radius";
 @import "bootstrap-4.5.0/mixins/transition";
 @import "bootstrap-4.5.0/mixins/box-shadow";
 @import "bootstrap-4.5.0/mixins/gradients";
+@import "bootstrap-4.5.0/mixins/text-emphasis";
+@import "bootstrap-4.5.0/mixins/text-hide";
+@import "bootstrap-4.5.0/mixins/text-truncate";
 
 @import "bootstrap-4.5.0/buttons";
 
 @import "bootstrap-4.5.0/utilities/display";
 @import "bootstrap-4.5.0/utilities/flex";
 @import "bootstrap-4.5.0/utilities/spacing";
+@import "bootstrap-4.5.0/utilities/text";
 
 /* Illdy styles */
 @import "general";
