@@ -52,7 +52,6 @@ And a plugin can be loaded:
 ```python
 >>> entry_point[0].load()
 <class 'gaphor.services.componentregistry.ComponentRegistry'>
-
 ```
 
 In this case, it will resolve to a class, but it can also resolve to a module or function depending on what is defined in the entry point.
