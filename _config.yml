@@ -17,10 +17,14 @@ title: Gaphor
 logo: /images/gaphor.svg
 tagline: Gaphor, the UML/SysML modeling tool
 description: >-
-  Gaphor is a UML modeling tool. Gaphor is beginner friendly, though it can be used for full MDA (Model Driven Architecture).
+  Gaphor is a UML and SysML modeling application written in Python. It is
+  designed to be easy to use, while still being powerful. Gaphor implements a
+  fully-compliant UML 2 data model, so it is much more than a picture drawing
+  tool. You can use Gaphor to quickly visualize different aspects of a system
+  as well as create complete, highly complex models.
 url: https://gaphor.org
 favicon: /images/gaphor-24x24.png
-gaphor_version: 2.0.1
+gaphor_version: 2.1.1
 google_tracking_id: UA-9578559-2
 
 menu:
