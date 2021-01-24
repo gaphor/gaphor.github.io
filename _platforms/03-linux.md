@@ -6,7 +6,9 @@ logo: /images/linux_logo.svg
 Flatpak is the recommended way to install Gaphor in Linux. If you don't have it
 setup already, follow the instructions to [install Flatpak](https://flatpak.org/setup).
 
-Once Flatpak is installed, install Gaphor:
+<a class="btn btn-primary btn-lg" href="https://www.flathub.org/apps/details/org.gaphor.Gaphor"><i class="fa fa-download"></i> Install Flatpak</a>
+
+To manually install Gaphor:
 
 ```bash
 $ flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
