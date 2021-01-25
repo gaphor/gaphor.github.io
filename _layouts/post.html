@@ -4,7 +4,7 @@ layout: default
 
 <section id="static-page-content">
     <div class="section-header"
-        {% if page.image_url %}style="background-image: url({{ page.image_url }}); background-size: cover; background-position: center; height: 38vh"
+	 {% if page.image_url %}style="background-color: {{page.image_background | default: white }}; background-image: url({{ page.image_url }}); background-size: cover; background-position: center; height: 38vh"
         {% endif %}>
     </div>
     <div class="container">
