@@ -17,11 +17,14 @@ me", then we especially mean YOU.
 
 ## Chat on Gitter
 
-Our real-time conversations are on Gitter. you can sign-up and connect with
-the community by clicking the link below or visiting:
-https://gitter.im/gaphor/lobby
+Our real-time conversations are on Gitter and are bridged to Matrix.
+Matrix is the preferred way, since it's more use friendly than bare Gitter.
+
+[<img src="images/matrix_org.svg" alt="matrix.org" style="height: 1em" /> Join Matrix with Element.io](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)
 
 [<i class="fab fa-gitter"></i> Join Gitter Chat](https://gitter.im/gaphor/lobby)
+
+NB. If you're using a mobile device, use the [Element app](https://element.io/get-started) (for Matrix), the Gitter app is no longer supported.
 
 ## Submit an Issue on GitHub
 
