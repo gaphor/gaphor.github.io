@@ -13,6 +13,7 @@ goals.
 1. <i class="fab fa-youtube"></i> [Introduction to Gaphor and
 SysML](https://www.youtube.com/watch?v=J1k9GTmYwkc), presented by Dan at the
 Michigan Python meetup.
+1. [How to report a bug in Gaphor]({% link _tutorials/report-bugs.md %})
 
 
 ## Advanced topics
@@ -22,6 +23,11 @@ Michigan Python meetup.
 - [Technical and architectural documentation](https://gaphor.readthedocs.io/)
 for contributors and plugin developers
 
-## Problem Solving
+# Talks
 
-- [How to report a bug in Gaphor]({% link _tutorials/report-bugs.md %})
+- Dan and Arjan spoke at [Linux App Summit 2021](https://linuxappsummit.org/) about [how Gaphor is made available to all desktop platforms (Linux/Windows/macOS)](https://www.youtube.com/watch?v=vLwAT-TLmZU).
+
+## Upcoming
+
+- *June 21-30, 2021* Dan and Kyle Post will be speaking at the [2021 MIT STAMP Workshop](https://psas.scripts.mit.edu/home/2021-stamp-workshop-program/) about _Open STPA with RAAML and Gaphor_.
+- *July 22, 2021* Arjan will be speaking at [GUADEC 2021](https://events.gnome.org/event/9/) about [Large GUI application with Python and GTK](https://events.gnome.org/event/9/contributions/188/).
