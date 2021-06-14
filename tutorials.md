@@ -29,5 +29,5 @@ for contributors and plugin developers
 
 ## Upcoming
 
-- *June 21-30, 2021* Dan and Kyle Post will be speaking at the [2021 MIT STAMP Workshop](https://psas.scripts.mit.edu/home/2021-stamp-workshop-program/) about _Open STPA with RAAML and Gaphor_.
+- *June 30, 2021* Dan and Kyle Post will be speaking at the [2021 MIT STAMP Workshop](https://psas.scripts.mit.edu/home/2021-stamp-workshop-program/) about _Open STPA with RAAML and Gaphor_.
 - *July 22, 2021* Arjan will be speaking at [GUADEC 2021](https://events.gnome.org/event/9/) about [Large GUI application with Python and GTK](https://events.gnome.org/event/9/contributions/188/).
