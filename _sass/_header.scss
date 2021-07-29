@@ -4,7 +4,9 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  @media screen {
+    background-attachment: fixed;
+  }
 
   // Safari on iOS does not support fixed backgrounds
   // https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout
@@ -95,8 +97,13 @@
 #header .bottom-header {
   width: 100%;
 
-  padding-top: 240px;
-  padding-bottom: 280px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  @media screen {
+    padding-top: 240px;
+    padding-bottom: 280px;
+  }
   text-align: center;
   text-shadow: 0 0 2px #aaa;
   letter-spacing: 0.04em;
@@ -260,5 +267,13 @@
   .open-responsive-menu,
   #menu-toggle:checked ~ .responsive-menu {
     display: none;
+  }
+}
+
+// Suppress menus for print
+@media print {
+  .responsive-menu, .open-responsive-menu, .header-navigation,
+  .header-button-one, .header-button-two {
+      display: none !important;
   }
 }
