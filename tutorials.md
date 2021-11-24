@@ -18,7 +18,7 @@ Michigan Python meetup.
 
 ## Advanced topics
 
-- [Extend your models with stereotypes]({% link _tutorials/extend-models.md %})
+- [Extend your models with stereotypes](https://gaphor.readthedocs.io/en/latest/stereotypes.html)
 - [Writing a plugin]({% link _tutorials/plugins.md %})
 - [Technical and architectural documentation](https://gaphor.readthedocs.io/)
 for contributors and plugin developers
