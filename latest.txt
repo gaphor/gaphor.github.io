@@ -1,0 +1,4 @@
+---
+layout:
+---
+{{ site.gaphor_version }}
