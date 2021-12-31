@@ -10,5 +10,5 @@ logo: /images/apple_logo.png
 Pour Gaphor from a [homebrew cask](https://formulae.brew.sh/cask/gaphor):
 
 ```bash
-$ brew install --cask gaphor
+brew install --cask gaphor
 ```

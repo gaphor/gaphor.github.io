@@ -13,8 +13,9 @@ setup already, follow the instructions to [install Flatpak](https://flatpak.org/
 To manually install Gaphor:
 
 ```bash
-$ flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-$ flatpak install --user flathub org.gaphor.Gaphor
+flatpak remote-add --user --if-not-exists \
+    flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak install --user flathub org.gaphor.Gaphor
 ```
 
 ### AppImage
@@ -26,8 +27,8 @@ won't work on older versions.
 <a class="btn btn-primary btn-lg" href="https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-x86_64.AppImage"><i class="fa fa-download"></i> Download AppImage</a>
 
 ```bash
-$ chmod +x Gaphor-VERSION-x86_64.AppImage
-$ ./Gaphor-VERSION-x86_64.AppImage
+chmod +x Gaphor-VERSION-x86_64.AppImage
+./Gaphor-VERSION-x86_64.AppImage
 ```
 
 ### Arch Linux

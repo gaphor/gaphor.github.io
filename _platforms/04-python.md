@@ -14,6 +14,6 @@ Optionally, create a
 Then execute the following:
 
 ```bash
-$ pip install gaphor
-$ gaphor
+pip install gaphor
+gaphor
 ```
