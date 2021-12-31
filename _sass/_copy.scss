@@ -1,0 +1,21 @@
+pre.highlight {
+  position: relative;
+}
+
+pre.highlight > button {
+  opacity: 0.5;
+  position: absolute;
+  border: 1px solid gray;
+  border-radius: 3px;
+  right: .4rem;
+  top: .4rem;
+}
+
+pre.highlight:hover > button {
+  opacity: 1;
+}
+
+pre.highlight > button:active,
+pre.highlight > button:focus {
+  opacity: 1;
+}
