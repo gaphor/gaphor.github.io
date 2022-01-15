@@ -21,7 +21,7 @@ flatpak install --user flathub org.gaphor.Gaphor
 ### AppImage
 
 The other option if you are running a recent Linux distribution is to use the
-[AppImage](https://appimage.org/). It is built using Ubuntu 20.04 and most likely
+[AppImage](https://appimage.org/). It is built using Ubuntu 18.04 and most likely
 won't work on older versions.
 
 <a class="btn btn-primary btn-lg" href="https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-x86_64.AppImage"><i class="fa fa-download"></i> Download AppImage</a>
