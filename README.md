@@ -5,11 +5,14 @@
 The theme is based on the [Illdy theme](https://colorlib.com/illdy/).
 
 
-## Ubuntu Linux
+## Development Environment with Linux
+
+Install [rbenv](https://github.com/rbenv/rbenv) and [ruby-build](https://github.com/rbenv/ruby-build)
 
 ```sh
-$ apt install ruby bundler
-$ bundle config set path $HOME/.rbbundle
+$ rbenv install 2.7.5
+$ rbenv global 2.7.5
+$ gem install ruby bundler
 $ bundle install
 $ bundle exec jekyll serve
 ```
