@@ -10,7 +10,7 @@
   {% include section-header.html title="Blog and News" description=blog %}
 
   <a href="{% link blog.html %}" title="See blog" class="latest-news-button"><i
-      class="fa fa-chevron-circle-right l10n"></i>See blog</a>
+      class="fa fa-chevron-circle-right"></i>See blog</a>
 
   <div class="section-content">
     <div class="container">
@@ -25,7 +25,7 @@
             <h5 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>
             <div class="post-entry">{{ post.content | | truncate: 220 }}</div>
             <a href="{{ post.url }}" title="Read more" class="post-button"><i
-                class="fa fa-chevron-circle-right l10n"></i>Read
+                class="fa fa-chevron-circle-right"></i>Read
               more </a>
           </div>
         </div>
