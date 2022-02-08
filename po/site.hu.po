@@ -1,0 +1,1761 @@
+# Hungarian translations for PACKAGE package
+# Copyright (C) 2022 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2022-02-06 16:16-0500\n"
+"PO-Revision-Date: 2022-02-06 15:05-0500\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: YAML Front Matter: title
+#: _platforms/01-windows.md
+#, no-wrap
+msgid "Windows"
+msgstr ""
+
+#. type: Plain text
+#: _platforms/01-windows.md
+#, no-wrap
+msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-installer.exe\"><i class=\"fa fa-download\"></i> Download installer</a>\n"
+msgstr ""
+
+#. type: Plain text
+#: _platforms/01-windows.md
+msgid "Alternatively a portable version of Gaphor can be downloaded."
+msgstr ""
+
+#. type: Plain text
+#: _platforms/01-windows.md
+#, no-wrap
+msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-portable.exe\"><i class=\"fa fa-download\"></i> Download portable version</a>\n"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _platforms/02-macos.md
+#, no-wrap
+msgid "macOS"
+msgstr ""
+
+#. type: Plain text
+#: _platforms/02-macos.md
+#, no-wrap
+msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Download .dmg</a>\n"
+msgstr ""
+
+#. type: Title ###
+#: _platforms/02-macos.md
+#, no-wrap
+msgid "Homebrew"
+msgstr ""
+
+#. type: Plain text
+#: _platforms/02-macos.md
+msgid "Pour Gaphor from a [homebrew cask](https://formulae.brew.sh/cask/gaphor):"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: _platforms/02-macos.md
+#, no-wrap
+msgid "brew install --cask gaphor\n"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _platforms/03-linux.md
+#, no-wrap
+msgid "Linux"
+msgstr ""
+
+#. type: Title ###
+#: _platforms/03-linux.md
+#, no-wrap
+msgid "Flatpak"
+msgstr ""
+
+#. type: Plain text
+#: _platforms/03-linux.md
+msgid "[Flatpak](https://flatpak.org/) is the recommended way to install Gaphor in Linux. If you don't have it setup already, follow the instructions to [install Flatpak](https://flatpak.org/setup)."
+msgstr ""
+
+#. type: Plain text
+#: _platforms/03-linux.md
+#, no-wrap
+msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://www.flathub.org/apps/details/org.gaphor.Gaphor\"><i class=\"fa fa-download\"></i> Install Flatpak</a>\n"
+msgstr ""
+
+#. type: Plain text
+#: _platforms/03-linux.md
+msgid "To manually install Gaphor:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: _platforms/03-linux.md
+#, no-wrap
+msgid ""
+"flatpak remote-add --user --if-not-exists \\\n"
+"    flathub https://dl.flathub.org/repo/flathub.flatpakrepo\n"
+"flatpak install --user flathub org.gaphor.Gaphor\n"
+msgstr ""
+
+#. type: Title ###
+#: _platforms/03-linux.md
+#, no-wrap
+msgid "AppImage"
+msgstr ""
+
+#. type: Plain text
+#: _platforms/03-linux.md
+msgid "The other option if you are running a recent Linux distribution is to use the [AppImage](https://appimage.org/). It is built using Ubuntu 18.04 and most likely won't work on older versions."
+msgstr ""
+
+#. type: Plain text
+#: _platforms/03-linux.md
+#, no-wrap
+msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\"><i class=\"fa fa-download\"></i> Download AppImage</a>\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: _platforms/03-linux.md
+#, no-wrap
+msgid ""
+"chmod +x Gaphor-VERSION-x86_64.AppImage\n"
+"./Gaphor-VERSION-x86_64.AppImage\n"
+msgstr ""
+
+#. type: Title ###
+#: _platforms/03-linux.md
+#, no-wrap
+msgid "Arch Linux"
+msgstr ""
+
+#. type: Plain text
+#: _platforms/03-linux.md
+msgid "Gaphor can be installed from an [AUR package](https://aur.archlinux.org/packages/python-gaphor/)."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _platforms/04-python.md
+#, no-wrap
+msgid "Python"
+msgstr ""
+
+#. type: Plain text
+#: _platforms/04-python.md
+msgid "If you have the latest stable version of Python installed and the Gaphor dependencies installed, you can also install Gaphor using a wheel from [PyPI](https://pypi.org/project/gaphor/)."
+msgstr ""
+
+#. type: Plain text
+#: _platforms/04-python.md
+msgid "If you don't have the latest stable version of Python and the Gaphor dependencies installed, follow the development environment [installation instructions](https://gaphor.readthedocs.io/en/latest/)  section, but do not clone the repository.  Optionally, create a [virtual environment](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments).  Then execute the following:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: _platforms/04-python.md
+#, no-wrap
+msgid ""
+"pip install gaphor\n"
+"gaphor\n"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _posts/2020-11-27-simple-services-in-python.md
+#, no-wrap
+msgid "Simple services in Python"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-11-27-simple-services-in-python.md
+msgid "As a project grows, at some point there is a desire for a plug-in/add-ons/extension mechanism. Therefore, it is a good idea to think of this early in the project."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-11-27-simple-services-in-python.md
+msgid "For those of us that build applications in Python, extensibility is like a walk in the part. It's part of the Python ecosystem, thanks to [entry points](https://packaging.python.org/specifications/entry-points/)."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-11-27-simple-services-in-python.md
+#: _posts/2021-01-24-gaphor-2.2-highlights.md
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+#: _posts/2021-09-23-gaphor-2.6-highlights.md
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+#: _posts/2022-01-18-verify-translations.md
+#: _posts/2020-07-31-a-history-of-gaphor.md
+#: _posts/2020-08-05-gaphor-2.0-highlights.md
+#, no-wrap
+msgid "<!--break-->\n"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-11-27-simple-services-in-python.md
+msgid "Entry points form the basis for plugin libraries like [pluggy](https://github.com/pytest-dev/pluggy). Before you reach for a library, you may want to consider what it takes to make your application extensible."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-11-27-simple-services-in-python.md
+msgid "To be honest, it is not that hard to provide a simple plugin mechanism. In Gaphor it takes [around 60 lines of code](https://github.com/gaphor/gaphor/blob/master/gaphor/entrypoint.py). Not enough code for a library even."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-11-27-simple-services-in-python.md
+#, no-wrap
+msgid ""
+"It all starts with\n"
+"[`importlib.metadata`](https://docs.python.org/3/library/importlib.metadata.html),\n"
+"which is part of the Python standard library since Python 3.8. For older\n"
+"versions (Python 3.6 and 3.7) a library\n"
+"[`importlib_metadata`](https://pypi.org/project/importlib-metadata/) (notice\n"
+"the underscore) can be used instead, providing the same\n"
+"functionality<sup>[1](#note-1)</sup>.\n"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-11-27-simple-services-in-python.md
+msgid "To view all entry points available in your python installation:"
+msgstr ""
+
+#. type: Fenced code block (python)
+#: _posts/2020-11-27-simple-services-in-python.md
+#, no-wrap
+msgid ""
+">>> import importlib.metadata\n"
+">>> for ep in importlib.metadata.entry_points():\n"
+"...     print(ep)\n"
+"... \n"
+"console_scripts\n"
+"distutils.commands\n"
+"distutils.setup_keywords\n"
+"egg_info.writers\n"
+"flake8.extension\n"
+"flake8.report\n"
+"gaphor.services\n"
+"pytest11\n"
+"setuptools.finalize_distribution_options\n"
+"setuptools.installation\n"
+"sphinx.html_themes\n"
+"virtualenv.create\n"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-11-27-simple-services-in-python.md
+msgid "As you can see, we have quite a few entry points available. Some are for distutils and one is for pytest. Flake8, setuptools, and gaphor also provide extension points. Even though they are shown above as text, they can also be iterated:"
+msgstr ""
+
+#. type: Fenced code block (python)
+#: _posts/2020-11-27-simple-services-in-python.md
+#, no-wrap
+msgid ""
+">>> entry_point = importlib.metadata.entry_points()[\"gaphor.services\"]\n"
+">>> entry_point\n"
+"(EntryPoint(name='component_registry', value='gaphor.services.componentregistry:ComponentRegistry', group='gaphor.services'), ...)\n"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-11-27-simple-services-in-python.md
+msgid "A plugin can also be loaded:"
+msgstr ""
+
+#. type: Fenced code block (python)
+#: _posts/2020-11-27-simple-services-in-python.md
+#, no-wrap
+msgid ""
+">>> entry_point[0].load()\n"
+"<class 'gaphor.services.componentregistry.ComponentRegistry'>\n"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-11-27-simple-services-in-python.md
+msgid "In this case, it will resolve to a class, but it can also resolve to a module or function depending on what is defined in the entry point."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-11-27-simple-services-in-python.md
+msgid "As we have seen, it is straight forward to load an entry point. Next, lets look at how to define our own."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-11-27-simple-services-in-python.md
+msgid "This is what it would take to add an entry point for Gaphor using `setup.py`:"
+msgstr ""
+
+#. type: Fenced code block (python)
+#: _posts/2020-11-27-simple-services-in-python.md
+#, no-wrap
+msgid ""
+"from setuptools import setup, find_packages\n"
+"\n"
+"setup(\n"
+"    ...\n"
+"    entry_points = {\n"
+"        'gaphor.services': [\n"
+"            'helloworld = gaphor.plugins.helloworld:HelloWorldPlugin',\n"
+"        ]\n"
+"    }\n"
+")\n"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-11-27-simple-services-in-python.md
+msgid "Using the more modern Poetry config (`pyproject.toml`), we can also define entry points:"
+msgstr ""
+
+#. type: Fenced code block (toml)
+#: _posts/2020-11-27-simple-services-in-python.md
+#, no-wrap
+msgid ""
+"...\n"
+"[tool.poetry.plugins.\"gaphor.services\"]\n"
+"\"helloworld\" = \"gaphor_helloworld_plugin:HelloWorldPlugin\"\n"
+"...\n"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-11-27-simple-services-in-python.md
+msgid "So... if reading entry points takes about 2 lines of code, what are the other 58 lines about? Most of it is dependency resolution: In Gaphor services can take other services as an argument. We will discuss that some other time :)."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-11-27-simple-services-in-python.md
+msgid "To conclude: every application can be made extensible in Python. Extensibility is basically free with entry points. Think about extensibility early in your project."
+msgstr ""
+
+#. type: Title ####
+#: _posts/2020-11-27-simple-services-in-python.md
+#: _posts/2022-01-18-verify-translations.md
+#, no-wrap
+msgid "Notes"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-11-27-simple-services-in-python.md
+#, no-wrap
+msgid ""
+"1. <a name=\"note-1\"></a>In Python 2,\n"
+"[`pkg_resources`](https://setuptools.readthedocs.io/en/latest/pkg_resources.html)\n"
+"in setuptools is used to provide this functionality.\n"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _posts/2021-01-24-gaphor-2.2-highlights.md
+#, no-wrap
+msgid "Gaphor 2.2 highlights"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-01-24-gaphor-2.2-highlights.md
+msgid "With Gaphor 2.2 we've set a new milestone when it comes to user-friendliness, both for the installation process (signed builds on Windows and macOS) and during use (simplified relationships)."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-01-24-gaphor-2.2-highlights.md
+msgid "We also got a brand-new logo during the 2.2 development cycle."
+msgstr ""
+
+#. type: Title ##
+#: _posts/2021-01-24-gaphor-2.2-highlights.md
+#, no-wrap
+msgid "Signed builds for Windows and macOS"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-01-24-gaphor-2.2-highlights.md
+msgid "Both Windows and macOS builds are now signed. This means that Windows and macOS will not complain about you running Gaphor anymore. Although Gaphor 2.1 was already signed on Windows, we never emphasised it."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-01-24-gaphor-2.2-highlights.md
+msgid "The signed builds make installing and running Gaphor easier by removing the scary warning messages, and the extra steps needed to try to bypass them when installing. It is also an extra layer of safety for our users, because you know the app came from us and hasn't been corrupted or tampered with. If you want to help support Gaphor on Windows and macOS, check out [Dan's sponsor page on GitHub](https://github.com/sponsors/danyeaw). The developer licenses that are required for signing require expensive annual subscriptions."
+msgstr ""
+
+#. type: Title ##
+#: _posts/2021-01-24-gaphor-2.2-highlights.md
+#, no-wrap
+msgid "Instant feedback"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-01-24-gaphor-2.2-highlights.md
+msgid "From the feedback we received on Gaphor 2.0, it was hard to figure out how to create a valid relationship, and it wasn't always apparent that Gaphor has a full UML data model behind the scenes. In Gaphor 2.2, we took a big step to solve this issue once and for all."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-01-24-gaphor-2.2-highlights.md
+msgid "This short video shows you how it works:"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-01-24-gaphor-2.2-highlights.md
+#, no-wrap
+msgid ""
+"<video controls width=\"80%\">\n"
+" <source src=\"/images/gaphor-2.2-highlights/user-friendly.webm\" type=\"video/webm\">\n"
+"</video>\n"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-01-24-gaphor-2.2-highlights.md
+msgid "Items are highlighted when a relationship can start on that point, and will highlight when you can drop the relationship."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-01-24-gaphor-2.2-highlights.md
+msgid "When no relation can be made, the item will gray out. You can see that both ends of an inheritance relationship can not point to the same class."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-01-24-gaphor-2.2-highlights.md
+msgid "This guidance makes it easier to spot which elements can be connected. There's no need to connect exactly on an element's edge anymore. I'm using a trackpad, and I wonder how I could have lived without this functionality for so long. It makes modeling so much easier!"
+msgstr ""
+
+#. type: Title ##
+#: _posts/2021-01-24-gaphor-2.2-highlights.md
+#, no-wrap
+msgid "New logo"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-01-24-gaphor-2.2-highlights.md
+msgid "![Gaphor 2.2 logo](/images/gaphor-2.2-highlights/gaphor.svg)"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-01-24-gaphor-2.2-highlights.md
+msgid "Thanks to GNOME UX designed Tobias Bernard, we have a new logo. Although we dusted off the logo for the 2.0 release, with the new logo we hope to make clear what the intention of Gaphor is. We think it nicely strikes a balance between simplicity and complexity, expressing Gaphor's intent to suite both casual and more advanced MBSE modeling needs."
+msgstr ""
+
+#. type: Title ##
+#: _posts/2021-01-24-gaphor-2.2-highlights.md
+#, no-wrap
+msgid "Under the hood"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-01-24-gaphor-2.2-highlights.md
+msgid "To support the usability features in Gaphor, we had to give Gaphas, the library that powers the diagram editing, a major upgrade. As a result diagram items now internally behave a lot more like model elements. This allowed us to simplify the copy-and-paste code."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-01-24-gaphor-2.2-highlights.md
+msgid "In addition, we also updated Gaphas so that all edit actions are now guaranteed to run inside an \"undo\" transaction. Transactions are what power the undo system in Gaphor. When errors occur, a transaction is rolled back. This avoids the data model from ending up in an invalid state."
+msgstr ""
+
+#. type: Title ##
+#: _posts/2021-01-24-gaphor-2.2-highlights.md
+#, no-wrap
+msgid "Gaphor joins GNOME Circle"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-01-24-gaphor-2.2-highlights.md
+msgid "Last month we joined [GNOME Circle](https://circle.gnome.org), which is a collection of great software which is available for the GNOME platform. This helps Gaphor by increasing publicity and also gives all contributors to Gaphor the ability to become GNOME Foundation members. We are honored to be part of this awesome group of apps!"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+#, no-wrap
+msgid "Gaphor 2.5 highlights"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+msgid "With Gaphor 2.5 released it's about time I write an update post. Main feature is support for STPA, a systems approach to safety engineering. Minor improvements include the ability to move diagrams freely around in the tree view, and an extra option to record notes on model elements."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+msgid "The internal model used by Gaphor has been simplified."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+msgid "Finally, we'll reflect on the changes made in Gaphor 2.3 and 2.4."
+msgstr ""
+
+#. type: Title ##
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+#, no-wrap
+msgid "Systems Theoretic Process Analysis (STPA)"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+msgid "In the RAAML section the toolbox has been extended with a whole set of items for building system safety models. These models help reasoning about a system, the possible risks and hazards and how to cope with those."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+msgid "![STPA aircraft risk model](/images/gaphor-2.5-highlights/losses-hazards.png)"
+msgstr ""
+
+#. type: Title ##
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+#, no-wrap
+msgid "Free diagram movement"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+msgid "Up to Gaphor 2.5, diagrams lived in packages. They could not be put elsewhere, like in an interaction or state machine. This lead to a situation where diagrams were not easily discoverable near the model elements they represent. Now it's possible to move diagrams freely around, allowing you the freedom to organize a model in a way that makes sense."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+msgid "![Diagrams](/images/gaphor-2.5-highlights/diagrams.png)"
+msgstr ""
+
+#. type: Title ##
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+#, no-wrap
+msgid "Take a note"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+msgid "Sometimes, when building a model, you need a little space where you can type some notes, to-do's or just some thoughts. Previously, the only option was to create a comment and add your notes to a diagram. Of course this is still possible: comments are an excellent way to explain parts of a model. But, we now also provide a _private_ place to take notes. These notes are not visible on the diagram."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+msgid "![Notes](/images/gaphor-2.5-highlights/notes.png)"
+msgstr ""
+
+#. type: Title ##
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+#, no-wrap
+msgid "Internal simplifications"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+msgid "Over the past months we (Dan and Arjan) have received some issues where models could not be loaded once they were saved. This is of course undesired. It proved very hard to replicate such issues."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+msgid "Finally, in Gaphor 2.5 items on a diagram, so called `Presentation` elements, are treated equally to elements that make up the semantic model (e.g., Classes, Associations). This is a simplification in the way Gaphor has to deal with models. We expect that this will add to the stability of Gaphor."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+msgid "With the simplification of the internal data model we expect to put a stop to these issues."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+msgid "Many thanks go to all people who helped out. Even something as simple as an issue report helps make this application better. If you spot an issues, please [report them](https://github.com/gaphor/issues)."
+msgstr ""
+
+#. type: Title ##
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+#, no-wrap
+msgid "2.3 and 2.4"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+msgid "So, what happened with Gaphor 2.3 and 2.4. Well, quite a bit actually:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+msgid "Fault Tree Analysis has been added as part of RAAML"
+msgstr ""
+
+#. type: Bullet: '* '
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+msgid "C4 model support has been introduced in Gaphor 2.3."
+msgstr ""
+
+#. type: Bullet: '* '
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+msgid "The UML model has been updated to UML 2.5 and has been extended by DataType, ValueType, Primitive, and Enumeration. Containment has been added too."
+msgstr ""
+
+#. type: Bullet: '* '
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+msgid "Window state is restored when you open a previously opened model. The diagrams that were open are opened for you, so you can instantly continue where you left off."
+msgstr ""
+
+#. type: Bullet: '* '
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+msgid "We started with work to port Gaphor to GTK 4, which was released this winter.  GTK 4 improves performance on Linux, Windows and macOS. To achieve this we did a fair amount of clean up in the GUI code."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-07-02-gaphor-2.5-highlights.md
+msgid "I hope you enjoy using Gaphor. Happy modeling!"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _posts/2021-09-23-gaphor-2.6-highlights.md
+#, no-wrap
+msgid "Gaphor 2.6 highlights"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-09-23-gaphor-2.6-highlights.md
+msgid "With Gaphor 2.6 we improved \"under the hood\". We improved on the saving/loading stability. Added multiple translations and improved the Windows version of Gaphor."
+msgstr ""
+
+#. type: Title ##
+#: _posts/2021-09-23-gaphor-2.6-highlights.md
+#, no-wrap
+msgid "Model stability"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-09-23-gaphor-2.6-highlights.md
+msgid "Over the past few months, we received a couple of issues where users were not able to open a model after saving it. Although we incorporated improvements in [Gaphor 2.5](/2021/07/02/gaphor-2.5-highlights.html), there was a few lingering issues to be fixed for this release as well. With Gaphor 2.6, we expect that things are now fairly stable with opening models."
+msgstr ""
+
+#. type: Title ##
+#: _posts/2021-09-23-gaphor-2.6-highlights.md
+#, no-wrap
+msgid "Translations"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-09-23-gaphor-2.6-highlights.md
+msgid "With help of [ovari](https://github.com/ovari) we started using [Weblate](https://hosted.weblate.org/projects/gaphor/gaphor/) to manage translations for Gaphor. As a result, Gaphor now speaks a few more languages including Finnish, Galician, Hungarian, and Korean. The Spanish translation also got a nice update."
+msgstr ""
+
+#. type: Title ##
+#: _posts/2021-09-23-gaphor-2.6-highlights.md
+#, no-wrap
+msgid "Windows build more native"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-09-23-gaphor-2.6-highlights.md
+msgid "We made the Windows build more native as well. Previously, we used MSYS2 as the basis for our Windows distribution. The downside was that the (patched) Python version distributed with MSYS2 tried to behave like a Unix version in a Windows world. Now we're using the Windows Python and GTK compiled for the windows platform."
+msgstr ""
+
+#. type: Title ##
+#: _posts/2021-09-23-gaphor-2.6-highlights.md
+#, no-wrap
+msgid "2.6.1"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-09-23-gaphor-2.6-highlights.md
+msgid "Our first patch release in the 2.6 series (to be released) contains many small fixes, from unintentionally rotating Join bars to name and icon updates."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-09-23-gaphor-2.6-highlights.md
+msgid "Many thanks go to [Zsolt Sandor](https://github.com/sz332) for bringing our attention to many of the small glitches in Gaphor. His thorough QA found a fair amount issues, of which most of them are fixed in 2.6.1."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-09-23-gaphor-2.6-highlights.md
+msgid "With those fixes in, we can confidently state that 2.6.1 will be the best release so far. At least until 2.7 is released ;)."
+msgstr ""
+
+#. type: Title ###
+#: _posts/2021-09-23-gaphor-2.6-highlights.md
+#, no-wrap
+msgid "Update 2021-10-04"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-09-23-gaphor-2.6-highlights.md
+msgid "In quick succession we released a couple of patch-releases. These releases focused on localization (translations). Thanks to [ovari](https://github.com/ovari) we have added localization support for pretty much every text used in Gaphor. Be it UI text, stereotypes, or type default names."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+#, no-wrap
+msgid "Gaphor 2.8 is out"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+msgid "Roughly a month after our 2.7 release we're happy to announce Gaphor 2.8."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+msgid "Gaphor 2.7 added a Sphinx extension and better support for sequence diagrams.  2.8 adds a whole set of new features, starting with a welcome screen and a couple of project templates to bootstrap your models."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+msgid "Here are some highlights."
+msgstr ""
+
+#. type: Title ##
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+#, no-wrap
+msgid "Welcome screen"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+msgid "To get your modeling started, Gaphor now provides a few templates:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+msgid "_UML_, a basic UML project structure."
+msgstr ""
+
+#. type: Bullet: '* '
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+msgid "_SysML_, a basic SysML project structure using 3 abstraction levels."
+msgstr ""
+
+#. type: Bullet: '* '
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+msgid "_RAAML_, a basic RAAML project structure for FTA and STPA."
+msgstr ""
+
+#. type: Bullet: '* '
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+msgid "_C4 model_, with the model layers as described on https://c4model.com."
+msgstr ""
+
+#. type: Bullet: '* '
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+msgid "_Generic_, a blank starting model."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+msgid "The [OMG](https://omg.org) gave us permission to use the official logos. Really cool!"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+msgid "![Welcome screen](/images/gaphor-2.8-highlights/welcome-screen.png)"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+msgid "This is just a start. If you're using a template you think would be useful to have available in Gaphor (and you think it will be equally useful to other users), please [open a feature request](https://github.com/gaphor/gaphor/issues)."
+msgstr ""
+
+#. type: Title ##
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+#, no-wrap
+msgid "Diagram types"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+msgid "Previously, Gaphor had only one generic diagram type. To provide you with a little more guidance (and because you asked for it), we introduced support for different diagram types. Each diagram type has a preferred set of tools in the toolbox, and when you open a diagram it will automatically collapse the less frequently used ones. For UML there is Class diagram, Sequence diagram, and Activity diagram types, to name a few."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+msgid "![Welcome screen](/images/gaphor-2.8-highlights/diagram-types.png)"
+msgstr ""
+
+#. type: Title ##
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+#, no-wrap
+msgid "Magnet tool"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+msgid "A new tool \"magnet\" has been introduced. It can be used as a, well, magnet, to push and pull the right or lower section of your diagram. This allows you to make a little room somewhere in the middle of your diagram, or close a gap in your diagram."
+msgstr ""
+
+#. type: Title ##
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+#, no-wrap
+msgid "Keep model elements around"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+msgid "Previously, Gaphor always tried to keep the underlying model in sync with the contents of its diagrams. For Gaphor 2.8 we relaxed this requirement a little.  It is now possible to keep model elements around even if they aren't used on any diagram, by changing a setting in the preference section. The default setting is still to keep both in sync. This setting is on a per-model basis."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+msgid "While we were busy we also improved the behavior when it comes to deleting diagrams. Instead of showing you a confirmation dialog, Gaphor will just do as you ask (remove the diagram). A notification is shown to make you aware elements have been removed from the model. This same message will also appear whenever something is implicitly removed from the model."
+msgstr ""
+
+#. type: Title ##
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+#, no-wrap
+msgid "AppImage and Homebrew"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+msgid "The Gaphor [AppImage](/download.md#appimage) has been built against Ubuntu 18.04. This means that, unless your running a really ancient version of Linux, you should be able to run Gaphor from an AppImage."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+msgid "For macOS users: Gaphor can now also be installed via [Homebrew](https://formulae.brew.sh/cask/gaphor)."
+msgstr ""
+
+#. type: Title ##
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+#, no-wrap
+msgid "Other stuff"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+msgid "Many improvements have been made in model consistency. We rebuilt our code generator that creates the underlying data for models, made improvements to how Gaphor saves and loads models, and improved undo functionality."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+msgid "For a full list, check the [release on GitHub](https://github.com/gaphor/gaphor/releases)."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+msgid "All in all this is a pretty good release. Although a lot of features have been added, the code has become more concise and clean. A sign that Gaphor is on the right track."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-16-gaphor-2.8-highlights.md
+msgid "Many thanks to all who contributed!"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _posts/2022-01-18-verify-translations.md
+#, no-wrap
+msgid "Verify translations"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-18-verify-translations.md
+msgid "Gaphor has translations in more than a dozen languages. Not all translations are 100%, and in most cases that’s not a problem. Thanks to the power of Open Source, everyone can contribute with translations for your project."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-18-verify-translations.md
+msgid "After our latest release we found out, by a user, that one of the translations had an error. “An error?”, I hear you ask, “How is that possible?”"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-18-verify-translations.md
+msgid "First some background."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-18-verify-translations.md
+msgid "A common tool for translations is [Gettext](https://www.gnu.org/software/gettext/). Translations are maintained in `.po` files, portable object files. Those files typically contain the original text and a translation."
+msgstr ""
+
+#. type: Fenced code block (gettext)
+#: _posts/2022-01-18-verify-translations.md
+#, no-wrap
+msgid ""
+"msgid \"I’m a message\"\n"
+"msgstr \"Ik ben een bericht\"\n"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-18-verify-translations.md
+msgid "The `msgid` contains the original text. For most applications that’s the text in American English. The `msgstr` contains the translated text. If `msgstr` contains no translation (it’s and empty string `\"\"`), the original text is used."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-18-verify-translations.md
+msgid "Translated text is not only _just text_. Sometimes this text contains placeholders that have to be filled in by the application. Think of things like version numbers, or a file name. We learned that hard way that an error is easily made."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-18-verify-translations.md
+#, no-wrap
+msgid ""
+"The way placeholders are formatted depends on the language. In C, texts contain\n"
+"`%`-mark expressions (`I counted %d items`). Javascript uses a different\n"
+"format: `I counted ${count} items`<sup>[1](#note1)</sup>. In Python the\n"
+"C-style can be used (old style) as well as curly-bracket placehodlers with the\n"
+"`str.format()` method: `I counted {count} items`.\n"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-18-verify-translations.md
+msgid "Now assume the text `I counted {count} items` has to be translated. The term `count` is case-sensitive. For example, a slight error in the Dutch translation could cause an unintended error in the application: `Ik telde {Count} items`."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-18-verify-translations.md
+msgid "To avoid errors we created [a small script](https://github.com/gaphor/gaphor/blob/master/po/check-babel.py), using [Babel](http://babel.pocoo.org/). Babel is a Python based internationalization library. Using babel, we read the translations from a `.po` file and check if all placeholders from the original text (`{count}`) are in the translated text.  A simple check, one that ensures that placeholders in translated text can always be filled in. This script can also check for other conventions you want to uphold in your translatable text. For example, you may not want to use empty placeholders `{}` or explicitly check for `%`-based placeholders. In our case we also check for HTML entities (e.g. &amp;lt;)."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2022-01-18-verify-translations.md
+msgid "Adding these tests will help us ensure that a future mistake in a translation file that could prevent Gaphor from launching, will be caught automatically."
+msgstr ""
+
+#. type: Bullet: '1. '
+#: _posts/2022-01-18-verify-translations.md
+msgid "<a name=\"note1\"></a>This is actually a template string in Javascript. It takes some extra effort to make those translatable."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _posts/2020-07-31-a-history-of-gaphor.md
+#, no-wrap
+msgid "A history of Gaphor"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-07-31-a-history-of-gaphor.md
+msgid "Gaphor as a project has been around for almost 19 years.  I checked the source code repository and I made the first commit on December 21, 2001."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-07-31-a-history-of-gaphor.md
+msgid "The project started after I had an intership where I had to work with Rational Rose.  This product was (and is, I suppose) very complex and has a high learning curve.  I thought I could do better. With that attitude I started writing my own UML modeling tool."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-07-31-a-history-of-gaphor.md
+msgid "One of the first choices to make for a GUI application is the toolkit to use.  [GTK+](https://gtk.org) seemed like a solid option: it's 100% open source (contrary to QT, for example), and was used in big projects, such as [GIMP](https://gimp.org) and (GNOME)[https://gnome.org].  Looking back, I'm still happy with that decision."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-07-31-a-history-of-gaphor.md
+msgid "The main component of a diagramming tool is the canvas. I worked on Linux at the time and the most complete diagramming application at the time was Dia. I could not reuse their canvas component, though, since it was interwoven with the rest of the application.  The initial canvas component for Gaphor I called [Diacanvas](http://diacanvas.sourceforge.net/).  It mimics the behavior of Dia (and Visio) and was used to build the first couple of versions of Gaphor."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-07-31-a-history-of-gaphor.md
+msgid "The Diacanvas library was written in C. Gaphor was written in Python from the start.  At some point this started to cause friction. In 2006 the canvas library was rewritten in Python and [Gaphas](https://github.com/gaphor/gaphas) was born. At this time [Artur](https://github.com/wrobell) and me were th emain contributors."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-07-31-a-history-of-gaphor.md
+msgid "The project moved on, but lost traction after the 0.17.1 release in September 2011."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-07-31-a-history-of-gaphor.md
+msgid "In early 2017 [Dan Yeaw](https://github.com/danyeaw) contacted me. He wanted to work in Gaphor and add SysML support.  At this time, I was no longer working on Gaphor at all, so Dan became the maintainer.  The main repository moved to the Gaphor organization at GitHub and Dan made a huge effort to bring the code up to date.  The source code was hardly updated since 2011. A time where Python 2 was the norm and GTK+ 2 was the GUI toolkit (PyGTK).  By now, Python 3 was the norm and GTK+ 3 had been available for years."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-07-31-a-history-of-gaphor.md
+msgid "At some point &mdash; it's late 2018 &mdash; Dan got stuck and we had a video call to discuss the issues he ran into migrating and updating Gaphor.  I agreed to help out a bit to get him going. I guess the help never stopped.  Working on Gaphor again made me realize how much fun it is to work on such a project."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-07-31-a-history-of-gaphor.md
+msgid "It took us more than a year to get the code and internals up to date, to a level we felt confident we can add another modeling language.  Gaphor 2.0 is the result. A fully updated modeling environment for casual users and die-hard modelers.  The application is rapitly improving and the user base is growing."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-07-31-a-history-of-gaphor.md
+msgid "Give [Gaphor a try]({% link download.md %}) and let us know what you think!"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _posts/2020-08-05-gaphor-2.0-highlights.md
+#, no-wrap
+msgid "Gaphor 2.0 highlights"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-08-05-gaphor-2.0-highlights.md
+msgid "Gaphor 2.0 includes some big new features. They were a long time in the making, since most of the development work for Gaphor 1.2 was to lay the groundwork for the changes we wanted to implement for 2.0."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-08-05-gaphor-2.0-highlights.md
+msgid "With [49 Pull requests](https://github.com/gaphor/gaphor/pulls?q=is%3Apr+is%3Aclosed++milestone%3A2.0.0)  on GitHub, this is by far the biggest release we've done so far."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-08-05-gaphor-2.0-highlights.md
+msgid "So, what am I excited about you ask? Well, how about:"
+msgstr ""
+
+#. type: Title ##
+#: _posts/2020-08-05-gaphor-2.0-highlights.md
+#, no-wrap
+msgid "SysML support"
+msgstr ""
+
+#. type: Title ##
+#: _posts/2020-08-05-gaphor-2.0-highlights.md
+#, no-wrap
+msgid "Customizable style"
+msgstr ""
+
+#. type: Title ##
+#: _posts/2020-08-05-gaphor-2.0-highlights.md
+#, no-wrap
+msgid "Copy/paste functionality"
+msgstr ""
+
+#. type: Title ##
+#: _posts/2020-08-05-gaphor-2.0-highlights.md
+#, no-wrap
+msgid "New application logo"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-08-05-gaphor-2.0-highlights.md
+msgid "By introducing SysML, Gaphor now has (basic) support for systems engineering.  This new modeling language has been added as a module to the application, therefore, it's also possible to add other modeling languages, either as part of Gaphor or as separately distributed plugins."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-08-05-gaphor-2.0-highlights.md
+msgid "![sysml screenshot]({% link images/gaphor-2.0-highlights/sysml.png %})"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-08-05-gaphor-2.0-highlights.md
+msgid "Previously, all diagrams in Gaphor were black and white. For this release, we added a CSS styling engine that allow you to add color to your diagrams. There are some powerful styling options that allow you to implement consistent and aesthetically pleasing styles across your model. You can find more examples in the [technical documentation](https://gaphor.readthedocs.io/en/2.0.0/style_sheets.html)"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-08-05-gaphor-2.0-highlights.md
+msgid "![style extravaganza]({% link images/gaphor-2.0-highlights/style-sheets.png %})"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-08-05-gaphor-2.0-highlights.md
+msgid "I may have overdone it for the screenshot, but you get the idea, right?"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-08-05-gaphor-2.0-highlights.md
+msgid "Copy/paste functionality has been part of Gaphor for some time. However, it only worked if you did a copy operation and then pasted it directly after. It would fail if you removed a couple of items, or made other changes, between the copy and paste. This update made the copying and pasting much more robust. Now Gaphor makes an internal copy of the diagram item *and* the underlying model element. In an upcoming version you should be able to copy/paste between diagrams as well."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-08-05-gaphor-2.0-highlights.md
+msgid "It's 2020 and the old logo dated back from the early 2000's. So it was about time for a new fresh logo."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-08-05-gaphor-2.0-highlights.md
+msgid "![the old logo]({% link images/gaphor-2.0-highlights/old-gaphor-logo.png %})  ![the new logo]({% link images/gaphor-2.0-highlights/new-gaphor-logo.svg %})"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-08-05-gaphor-2.0-highlights.md
+msgid "_Old and new logo, side by side._"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-08-05-gaphor-2.0-highlights.md
+msgid "We hope you'll enjoy using Gaphor as much as we enjoy building it. [Give it a try]({% link download.md %}) and let us know what you think."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _tutorials/plugins.md
+#, no-wrap
+msgid "Writing a Plugin"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/plugins.md
+msgid "Gaphor is designed to be extensible by using plugins that allow you to extend the functionality."
+msgstr ""
+
+#. type: Title ##
+#: _tutorials/plugins.md
+#, no-wrap
+msgid "Accessing Model Related Data"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/plugins.md
+msgid "The datamodel classes are located in the `gaphor.UML` module. Data objects can be accessed through the ElementFactory. This is a special class for creating and managing data objects. Items can be queried using this element factory, which is registered in the application as `element_factory`. When writing a service or plugin the element factory can be injected into the service like this:"
+msgstr ""
+
+#. type: Fenced code block (python)
+#: _tutorials/plugins.md
+#, no-wrap
+msgid ""
+"class MyThing:\n"
+"    def do_something(self):\n"
+"        element_factory = Application.get_service('element_factory')\n"
+"        items = element_factory.select()\n"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/plugins.md
+msgid "In the console window services can be retrieved by using the `service()` function. For example:"
+msgstr ""
+
+#. type: Fenced code block (python)
+#: _tutorials/plugins.md
+#, no-wrap
+msgid "ef = service('element_factory')\n"
+msgstr ""
+
+#. type: Title ##
+#: _tutorials/plugins.md
+#, no-wrap
+msgid "Querying the Data Model"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/plugins.md
+msgid "Two methods are used for querying:"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: _tutorials/plugins.md
+msgid "`select(query=None)` -> returns an iterator"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: _tutorials/plugins.md
+msgid "`lselect(query=None)` -> returns a list"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/plugins.md
+msgid "`query` is a lambda function with the element as parameter. For example, to fetch all of the Class instances from the element factory:"
+msgstr ""
+
+#. type: Fenced code block (python)
+#: _tutorials/plugins.md
+#, no-wrap
+msgid "element_factory.select(lambda e: e.isKindOf(UML.Class))\n"
+msgstr ""
+
+#. type: Title ##
+#: _tutorials/plugins.md
+#, no-wrap
+msgid "Traversing Data Instances"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/plugins.md
+msgid "Once some classes are obtained, it is common to traverse through a few related objects in order to get the required information. For example: to iterate through all parameters related to a class' operations:"
+msgstr ""
+
+#. type: Fenced code block (python)
+#: _tutorials/plugins.md
+#, no-wrap
+msgid ""
+"for o in classes.ownedOperation:\n"
+"    for p in o.ownedParameter:\n"
+"        do_something(p)\n"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/plugins.md
+msgid "Using the `[:]` operator items can be traversed more easily:"
+msgstr ""
+
+#. type: Fenced code block (python)
+#: _tutorials/plugins.md
+#, no-wrap
+msgid ""
+"for o in classes.ownedOperation[:].ownedParameter:\n"
+"    do_something(p)\n"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/plugins.md
+msgid "It's also possible to provide a query as part of the selection:"
+msgstr ""
+
+#. type: Fenced code block (python)
+#: _tutorials/plugins.md
+#, no-wrap
+msgid ""
+"for o in classes.ownedOperation['it.returnParameter'].ownedParameter:\n"
+"    do_something(p)\n"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/plugins.md
+msgid "The variable `it` in the query refers to the evaluated object (in this case all operations with a return parameter are taken into account)."
+msgstr ""
+
+#. type: Title ##
+#: _tutorials/plugins.md
+#, no-wrap
+msgid "Example Plugin"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/plugins.md
+msgid "An example Hello World plugin is hosted on [GitHub](https://github.com/gaphor/gaphor.plugins.helloworld)."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _tutorials/report-bugs.md
+#, no-wrap
+msgid "How to report a bug in Gaphor"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/report-bugs.md
+msgid "If you've ever written a line of code, you'll know that all software has bugs.  This will also be the case with Gaphor. If you think you have found a bug, simply click on the link below (you'll need to have an account on GitHub) and then click the green \"New Issue\" button found at the top right hand side of the page:"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/report-bugs.md
+msgid "[Report a Bug in Gaphor](https://github.com/gaphor/gaphor/issues)"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/report-bugs.md
+msgid "When you create a new issue it will be given a number and the volunteer developers, who write and maintain the code, will be informed by email. They may annotate questions to your issue, if things are not clear. They may immediately close it and mark it as \"duplicate\" (someone else has already reported the bug -- and they'll reference the original issue). Sometimes they'll close the bug and say \"won't fix\", because they disagree that it's a bug *or* it's too trivial in order to invest any time."
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/report-bugs.md
+msgid "There are generally two sorts of bugs:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: _tutorials/report-bugs.md
+msgid "Technical: the code has a mistake in it which causes the program to break."
+msgstr ""
+
+#. type: Bullet: '* '
+#: _tutorials/report-bugs.md
+msgid "Behavioural: the code works correctly, but is doing the wrong thing."
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/report-bugs.md
+msgid "In both cases, for us to be able to fix the bug, we need **as much information as possible**. When you create a new issue you should try to include, where relevant, the following sorts of information:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: _tutorials/report-bugs.md
+msgid "What you were trying to do,"
+msgstr ""
+
+#. type: Bullet: '* '
+#: _tutorials/report-bugs.md
+msgid "What steps you took to make this happen,"
+msgstr ""
+
+#. type: Bullet: '* '
+#: _tutorials/report-bugs.md
+msgid "What you expected to happen,"
+msgstr ""
+
+#. type: Bullet: '* '
+#: _tutorials/report-bugs.md
+msgid "What actually happened,"
+msgstr ""
+
+#. type: Bullet: '* '
+#: _tutorials/report-bugs.md
+msgid "Why this difference is problematic (it may not be a bug!),"
+msgstr ""
+
+#. type: Bullet: '* '
+#: _tutorials/report-bugs.md
+msgid "Technical details like the version of Gaphor you're using, your OS version and other aspects of the context in which Gaphor was running."
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/report-bugs.md
+msgid "Use plain and simple language to describe the problem and, if helpful, break it down into steps so developers can easily recreate the issue. Please don't assume we'll understand what you were trying to achieve -- honestly, it's best if you try to imagine we (the developers) are a bunch of clever 5-year-olds.  Try to explain *everything* about the problem and don't assume we know what you mean. We won't mind!"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/report-bugs.md
+msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the [Gaphor developer's website](http://gaphor.readthedocs.io/)."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _tutorials/get-started-with-gaphor.md
+#, no-wrap
+msgid "Get started with Gaphor"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/get-started-with-gaphor.md
+msgid "Once Gaphor is launched, it provides you an almost empty user interface.  A new model is already created and the diagram is opened."
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/get-started-with-gaphor.md
+msgid "The layout of the Gaphor interface is divided into four sections, namely:"
+msgstr ""
+
+#. type: Title ##
+#: _tutorials/get-started-with-gaphor.md
+#, no-wrap
+msgid "Navigation"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: _tutorials/get-started-with-gaphor.md
+msgid "Diagrams"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: _tutorials/get-started-with-gaphor.md
+msgid "Diagram Element Toolbox"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: _tutorials/get-started-with-gaphor.md
+msgid "Properties pane"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/get-started-with-gaphor.md
+msgid "Each section has its own specific function."
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/get-started-with-gaphor.md
+msgid "The navigation section of the interface displays a hierarchical view of your model. Every model element you create will be inserted into the navigation section. This view acts as a tree where you can expand and collapse different elements of your model. This provides an easy way to view the elements of your model from an elided perspective. That is, you can collapse those model elements that are irrelevant to the task at hand."
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/get-started-with-gaphor.md
+msgid "![image](/images/gaphor-treeview.png)"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/get-started-with-gaphor.md
+msgid "In the figure above, you will see that there are three elements in the navigation view. The root element, _New Model_ is a package. Notice the small arrow beside _New Model_ that is pointing downward. This indicates that the element is expanded. You will also notice the two sub-elements are slightly indented in relation to _New Model_. The _NewClass_ element is a class and the _main_ element is a diagram."
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/get-started-with-gaphor.md
+msgid "In the navigation view, you can also right-click the model elements to get a context menu. This context menu allows you to delete model elements, and to refresh the navigation view."
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/get-started-with-gaphor.md
+msgid "Double clicking on a diagram element will open it in the Diagram section. Elements such as classes and packages can be dragged from the tree view on the diagrams."
+msgstr ""
+
+#. type: Title ##
+#: _tutorials/get-started-with-gaphor.md
+#, no-wrap
+msgid "Diagram Section"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/get-started-with-gaphor.md
+#, no-wrap
+msgid ""
+"The diagram section takes up the most space. Multiple diagrams can be\n"
+"opened at once: they are shown in tabs. Tabs can be closed from the file\n"
+"menu (Close) and by pressing <kbd>Ctrl+w</kbd>.\n"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/get-started-with-gaphor.md
+msgid "Most elements have hot zones, shown as gray rectangles that are only visible when the item is selected. Double clicking on those rectangles allows you to directly edit the item. E.g. change its name."
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/get-started-with-gaphor.md
+#, no-wrap
+msgid ""
+"Changes you make can be undone by pressing <kbd>Ctrl+z</kbd>. To re-do a change, hit\n"
+"<kbd>Ctrl+Shift+z<kbd>.\n"
+msgstr ""
+
+#. type: Title ##
+#: _tutorials/get-started-with-gaphor.md
+#, no-wrap
+msgid "Toolbox"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/get-started-with-gaphor.md
+msgid "The toolbox is mainly used to add new items to a diagram. Select the element you want to add by clicking on it. When you click on the diagram, the selected element is created. The arrow is selected again, so the element can be manipulated."
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/get-started-with-gaphor.md
+msgid "Tools can be selected by simply clicking on them. By default the pointer tool is selected after every item placement. This can be changed by disabling the \"Reset tool\" option in the Preferences window. Tools can also be selected by a keyboard shortcut. The actual character is displayed as part of the tooltip. Finally it is also possible to drag elements on the canvas from the toolbox."
+msgstr ""
+
+#. type: Title ##
+#: _tutorials/get-started-with-gaphor.md
+#, no-wrap
+msgid "Element Editor"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/get-started-with-gaphor.md
+#, no-wrap
+msgid ""
+"The Element editor can be unfolded by pressing the pensil button. This will reveal a\n"
+"utility window that shows all characteristics of the selected element.\n"
+"Things like name, attributes and stereotypes. It can be opened with\n"
+"<kbd>Ctrl+e</kbd>.\n"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/get-started-with-gaphor.md
+msgid "![image](/images/elementeditor.png)"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/get-started-with-gaphor.md
+msgid "The properties shown depend on the element that is selected."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _tutorials/your-first-model.md
+#, no-wrap
+msgid "Your First Model"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/your-first-model.md
+msgid "Once Gaphor is started a new empty model is automatically created. The main diagram is already open in the Diagram section."
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/your-first-model.md
+msgid "Select an element you want to place (e.g. a class) by clicking on the icon in the Toolbox and click on the diagram. This will place a new Class item instance on the diagram and add a new Class to the model (it shows up in the Navigation.  The selected tool will reset itself to the Pointer tool after the element is placed on the diagram."
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/your-first-model.md
+msgid "![image](/images/oneclass.png)"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/your-first-model.md
+msgid "It's simple to add elements to a diagram."
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/your-first-model.md
+msgid "Some elements are not directly visible. The section in the toolbox is collapsed and needs to be clicked first to reveal its contents."
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/your-first-model.md
+msgid "Gaphor does not make any assumptions about which elements should be placed on a diagram. A diagram is a diagram. UML defines all different kinds of diagrams, such as Class diagrams, Component diagrams, Action diagrams, Sequence diagrams. But Gaphor does not place any restrictions."
+msgstr ""
+
+#. type: Title ##
+#: _tutorials/your-first-model.md
+#, no-wrap
+msgid "Creating New Diagrams"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/your-first-model.md
+msgid "![image](/images/navpopup.png)"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/your-first-model.md
+msgid "To create a new diagram, use the Navigation section. Select an element that can contain a diagram (a Package or Profile) and right-click. Select New diagram and a new diagram is created. As of Gaphor 1.1.0 a buttion is available in the header bar. Select a package and you'll notice the button is not grayed out and can be clicked, resulting in a new diagram being added to the model."
+msgstr ""
+
+#. type: Title ##
+#: _tutorials/your-first-model.md
+#, no-wrap
+msgid "Copy and Paste"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/your-first-model.md
+msgid "Items in a diagram can be copied and pasted (in the same diagram or another). A paste will create new items in the diagrams, the items they represent (e.g. the Class that's shown in the Navigation) is *not* copied (call it a shallow copy if you like)."
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/your-first-model.md
+msgid "This way you can easely create visual copies of the same (underlaying) model element."
+msgstr ""
+
+#. type: Title ##
+#: _tutorials/your-first-model.md
+#, no-wrap
+msgid "Drag and Drop"
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/your-first-model.md
+msgid "Adding an existing element to a diagram is simple: drag the element from the Navigation section onto a diagram. Not all elements that show up in the Navigation can be added: Diagrams and attribute/operations of a Class can not be added."
+msgstr ""
+
+#. type: Plain text
+#: _tutorials/your-first-model.md
+msgid "Elements can also be dragged within the Navigation section. This way classes and packages can be rearranged for example."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _usps/01-platform.md
+#, no-wrap
+msgid "Multi-platform"
+msgstr ""
+
+#. type: Plain text
+#: _usps/01-platform.md
+msgid "Gaphor works on all major platforms: [Windows]({% link download.md%}#windows), [Macos]({% link download.md%}#macos) and [Linux]({% link download.md%}#linux)."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _usps/02-opensource.md
+#, no-wrap
+msgid "Open Source"
+msgstr ""
+
+#. type: Plain text
+#: _usps/02-opensource.md
+msgid "No vendor lock-in: Gaphor written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/master/LICENSE.txt)."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _usps/03-beginner-pro.md
+#, no-wrap
+msgid "Beginner or Pro"
+msgstr ""
+
+#. type: Plain text
+#: _usps/03-beginner-pro.md
+msgid "Whether you're a casual modeler documenting a project or a Model Driven Development expert, Gaphor has got you covered."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _usps/04-consistent.md
+#, no-wrap
+msgid "Consistent"
+msgstr ""
+
+#. type: Plain text
+#: _usps/04-consistent.md
+msgid "UML is a graphical modeling language, so all information you put in the model is visible in the diagrams. For example, stereotypes are modeled in diagrams.  No hidden panels and property pages. Just diagrams!"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _usps/05-extensible.md
+#, no-wrap
+msgid "Extensible"
+msgstr ""
+
+#. type: Plain text
+#: _usps/05-extensible.md
+msgid "Gaphor is extensible. Plug-in a code generator or export your diagrams for documentation.  Create your own extensions and access them through the GUI or CLI."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _usps/06-standard.md
+#, no-wrap
+msgid "Standards Compliant"
+msgstr ""
+
+#. type: Plain text
+#: _usps/06-standard.md
+msgid "Gaphor implements the UML, SysML, and RAAML OMG standards. It also includes support for the C4 model for visualizing software architectures."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: contribute.md
+#, no-wrap
+msgid "Contribute"
+msgstr ""
+
+#. type: Plain text
+#: contribute.md
+msgid "Would you like to contribute to the development of Gaphor? (If you think this is only something for experienced developers, please reconsider, there are plenty of ways to contribute to Gaphor, no matter your level of experience or skill set."
+msgstr ""
+
+#. type: Plain text
+#: contribute.md
+msgid "Our [technical documentation](https://gaphor.readthedocs.io) is hosted on the wonderful service that is Read the Docs. Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
+msgstr ""
+
+#. type: Plain text
+#: contribute.md
+msgid "The source code is hosted on [GitHub](https://github.com/gaphor/gaphor)."
+msgstr ""
+
+#. type: Plain text
+#: contribute.md
+msgid "If in doubt, just ask in our [discussion area]({% link discuss.md %}) and someone will be able to point you in the right direction."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: discuss.md
+#, no-wrap
+msgid "Get in touch"
+msgstr ""
+
+#. type: Plain text
+#: discuss.md
+msgid "It's good to talk, share knowledge and learn from other users of Gaphor. Perhaps you have a question, problem or are unsure how to do something with Gaphor? Discussing such things in a supportive environment is a good way to make progress, make friends, and help. Put simply, Gaphor is a community focused project, and we have created a couple of online spaces where the community can come together."
+msgstr ""
+
+#. type: Plain text
+#: discuss.md
+msgid "Contributions are welcome without prejudice from anyone irrespective of age, gender, religion, race, or sexuality. If you’re thinking, \"but they don't mean me\", then we especially mean YOU."
+msgstr ""
+
+#. type: Title ##
+#: discuss.md
+#, no-wrap
+msgid "Chat on Gitter"
+msgstr ""
+
+#. type: Plain text
+#: discuss.md
+msgid "Our real-time conversations are on Gitter and are bridged to Matrix.  Matrix is the preferred way, since it's more use friendly than bare Gitter."
+msgstr ""
+
+#. type: Plain text
+#: discuss.md
+#, no-wrap
+msgid "[<img src=\"images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join Matrix with Element.io](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)\n"
+msgstr ""
+
+#. type: Plain text
+#: discuss.md
+#, no-wrap
+msgid "[<i class=\"fab fa-gitter\"></i> Join Gitter Chat](https://gitter.im/gaphor/lobby)\n"
+msgstr ""
+
+#. type: Plain text
+#: discuss.md
+msgid "NB. If you're using a mobile device, use the [Element app](https://element.io/get-started) (for Matrix), the Gitter app is no longer supported."
+msgstr ""
+
+#. type: Title ##
+#: discuss.md
+#, no-wrap
+msgid "Submit an Issue on GitHub"
+msgstr ""
+
+#. type: Plain text
+#: discuss.md
+msgid "Please use our GitHub issue tracker for general questions and reporting bugs.  Before submitting a GitHub issue please review our page about [how to report a bug in Gaphor]({% link _tutorials/report-bugs.md %})."
+msgstr ""
+
+#. type: Plain text
+#: discuss.md
+#, no-wrap
+msgid "[<i class=\"fab fa-github\"></i> Submit an Issue on GitHub](https://github.com/gaphor/gaphor/issues)\n"
+msgstr ""
+
+#. type: Title ##
+#: discuss.md
+#, no-wrap
+msgid "Community Conduct"
+msgstr ""
+
+#. type: Plain text
+#: discuss.md
+msgid "We expect contributors to follow the [Code of Conduct](https://github.com/gaphor/gaphor/blob/master/CODE_OF_CONDUCT.md)."
+msgstr ""
+
+#. type: Plain text
+#: discuss.md
+msgid "We want our community to be a safe, welcoming and friendly place.  We won't hesitate to issue a clear warning and, if ignored, ban people who don't behave in the spirit of the code of conduct. If a conduct related situation arises, we will endeavour to act in a discreet, sympathetic and fair manner to all concerned."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: tutorials.md
+#, no-wrap
+msgid "Tutorials"
+msgstr ""
+
+#. type: Plain text
+#: tutorials.md
+msgid "Each tutorial is a self-contained lesson, explaining a specific aspect of Gaphor, so you have the skills needed to achieve your learning and modeling goals."
+msgstr ""
+
+#. type: Bullet: '1. '
+#: tutorials.md
+msgid "[Get started with Gaphor]({% link _tutorials/get-started-with-gaphor.md %})"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: tutorials.md
+msgid "[Your First Model]({% link _tutorials/your-first-model.md %})"
+msgstr ""
+
+#. type: Plain text
+#: tutorials.md
+#, no-wrap
+msgid ""
+"1. <i class=\"fab fa-youtube\"></i> [Introduction to Gaphor and\n"
+"SysML](https://www.youtube.com/watch?v=J1k9GTmYwkc), presented by Dan at the\n"
+"Michigan Python meetup.\n"
+"1. [How to report a bug in Gaphor]({% link _tutorials/report-bugs.md %})\n"
+msgstr ""
+
+#. type: Title ##
+#: tutorials.md
+#, no-wrap
+msgid "Advanced topics"
+msgstr ""
+
+#. type: Plain text
+#: tutorials.md
+msgid "- [Extend your models with stereotypes](https://gaphor.readthedocs.io/en/latest/stereotypes.html)  - [Writing a plugin]({% link _tutorials/plugins.md %})  - [Technical and architectural documentation](https://gaphor.readthedocs.io/)  for contributors and plugin developers"
+msgstr ""
+
+#. type: Title #
+#: tutorials.md
+#, no-wrap
+msgid "Talks"
+msgstr ""
+
+#. type: Plain text
+#: tutorials.md
+msgid "- Dan and Arjan spoke at [Linux App Summit 2021](https://linuxappsummit.org/) about [how Gaphor is made available to all desktop platforms (Linux/Windows/macOS)](https://www.youtube.com/watch?v=vLwAT-TLmZU).  - *June 30, 2021* Dan and Kyle Post will be speaking at the [2021 MIT STAMP Workshop](https://psas.scripts.mit.edu/home/2021-stamp-workshop-program/) about _Open STPA with RAAML and Gaphor_.  - *July 22, 2021* Arjan will be speaking at [GUADEC 2021](https://events.gnome.org/event/9/) about [Large GUI application with Python and GTK](https://events.gnome.org/event/9/contributions/188/)."
+msgstr ""
+
+#. type: YAML Front Matter: redirect_from
+#: download.md
+#, no-wrap
+msgid "/pages/download.html"
+msgstr ""
+
+#. type: YAML Front Matter: redirect_from
+#: download.md
+#, no-wrap
+msgid "/pages/install-gaphor-in-windows.html"
+msgstr ""
+
+#. type: YAML Front Matter: redirect_from
+#: download.md
+#, no-wrap
+msgid "/pages/install-gaphor-in-macos.html"
+msgstr ""
+
+#. type: YAML Front Matter: redirect_from
+#: download.md
+#, no-wrap
+msgid "/pages/install-gaphor-in-linux.html"
+msgstr ""
+
+#. type: YAML Front Matter: redirect_from
+#: download.md
+#, no-wrap
+msgid "/pages/install-gaphor-using-python-packaging.html"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: download.md
+#, no-wrap
+msgid "Download Gaphor"
+msgstr ""
+
+#. type: Plain text
+#: download.md
+msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."
+msgstr ""
+
+#. type: Plain text
+#: download.md
+msgid "If you're a developer, you can find the source code [on GitHub](https://github.com/gaphor/gaphor)."
+msgstr ""

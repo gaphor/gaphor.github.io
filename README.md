@@ -16,3 +16,9 @@ $ gem install ruby bundler
 $ bundle install
 $ bundle exec jekyll serve
 ```
+
+## Translation
+
+Translation happens by conversion Markdown into _gettext_ using
+[po4a](https://po4a.org). To generate the _.md_ files from the _gettext .po_
+files, run: `po4a po/po4a.conf`.
