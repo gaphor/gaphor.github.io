@@ -1,8 +1,9 @@
+{% include footer.md %}
 <footer id="footer">
     <div class="container">
         <div class="row">
             <div class="col-12 col-sm-10 offset-sm-1">
-                <h5>We love to hear from you</h5>
+                <h5>{{ love }}</h5>
             </div>
         </div>
         <div class="row">
@@ -19,10 +20,10 @@
                     <li><a href="https://github.com/gaphor"><i class="fa-li fa fa-angle-right"></i>
                             <i class="fab fa-github"></i> GitHub</a></li>
                     <li><a href="https://github.com/gaphor/gaphor/issues"><i class="fa-li fa fa-angle-right"></i>
-                            <i class="fas fa-band-aid"></i> Open an issue on GitHub</a>
+                            <i class="fas fa-band-aid"></i>{{ open-issue }}</a>
                     </li>
                     <li><a href="https://gaphor.readthedocs.io/"><i class="fa-li fa fa-angle-right"></i>
-                            <i class="fas fa-drafting-compass"></i> Tech docs</a></li>
+                            <i class="fas fa-drafting-compass"></i>{{ tech-docs }}</a></li>
                 </ul>
             </div>
         </div>
@@ -32,7 +33,7 @@
         <div class="container">
             <p class="copyright">
                 <span>Theme: <a href="https://colorlib.com/illdy" title="Illdy">Illdy</a>.</span>
-                <span class="bottom-copyright">Copyright &copy; 2020-2022 Arjan Molenaar and Dan Yeaw.</span>
+                <span class="bottom-copyright">{{ copyright }}</span>
             </p>
         </div>
     </div>

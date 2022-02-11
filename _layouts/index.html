@@ -2,6 +2,8 @@
 layout: bare
 ---
 
+{% include content.md %}
+
 <div id="header-wrapper">
     <header id="header" class="header-front-page">
 
@@ -26,7 +28,6 @@ layout: bare
         </div>
     </header>
 </div>
-{{ about }}
 
 {% include services.html id="about" title="About" description=about services=site.usps %}
 
@@ -66,11 +67,9 @@ layout: bare
     </div>
 </section>
 
-{{ download }}
-
 <section id="download" class="front-page-section">
 
-    {% include section-header.html title="Download" description=download %}
+    {% include section-header.html title="Download" description=download-content %}
 
     <div class="section-content">
         <div class="container">

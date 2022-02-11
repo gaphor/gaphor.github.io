@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-02-07 22:13-0500\n"
+"POT-Creation-Date: 2022-02-10 21:41-0500\n"
 "PO-Revision-Date: 2022-02-06 15:05-0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -15,6 +15,90 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Plain text
+#: _includes/footer.md
+msgid "{% capture love %} We love to hear from you {% endcapture %}"
+msgstr ""
+
+#. type: Plain text
+#: _includes/footer.md
+msgid "{% capture open-issue %} Open an issue on GitHub {% endcapture %}"
+msgstr ""
+
+#. type: Plain text
+#: _includes/footer.md
+#, no-wrap
+msgid ""
+"{% capture tech-docs %}\n"
+" Tech docs\n"
+"{% endcapture %}\n"
+msgstr ""
+
+#. type: Plain text
+#: _includes/footer.md
+msgid "{% capture copyright %} Copyright &copy; 2020-2022 Arjan Molenaar and Dan Yeaw.  {% endcapture %}"
+msgstr ""
+
+#. type: Plain text
+#: _includes/content.md
+msgid "{% capture thousand-words %} A picture is worth a thousand words. Describe and document your applications and systems with Gaphor to enhance knowledge sharing.  {% endcapture %}"
+msgstr ""
+
+#. type: Plain text
+#: _includes/content.md
+msgid "{% capture about %} Gaphor is a UML, SysML, RAAML, and C4 modeling application. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models."
+msgstr ""
+
+#. type: Plain text
+#: _includes/content.md
+msgid "{% endcapture %}"
+msgstr ""
+
+#. type: Plain text
+#: _includes/content.md
+msgid "{% capture build %} Build Class, Interaction, and State Machine diagrams for software or Block Definition and Requirements diagrams for systems. Model the elements you need. If you want to mix and match, you can even add different diagram items to the same diagram to get the view you need.  {% endcapture %}"
+msgstr ""
+
+#. type: Plain text
+#: _includes/content.md
+msgid "{% capture styling-engine %} Customize the diagrams you create with our built-in styling engine.  {% endcapture %}"
+msgstr ""
+
+#. type: Plain text
+#: _includes/content.md
+msgid "{% capture treeview %} Easily find all element of your model in the tree view.  {% endcapture %}"
+msgstr ""
+
+#. type: Plain text
+#: _includes/content.md
+msgid "{% capture dark-mode %} Love dark mode? We can do that too.  {% endcapture %}"
+msgstr ""
+
+#. type: Plain text
+#: _includes/content.md
+msgid "{% capture download-content %} There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed.  {% endcapture %}"
+msgstr ""
+
+#. type: Plain text
+#: _includes/content.md
+msgid "{% capture blog %} Do you want to know what's going on with Gaphor? Read our blog!"
+msgstr ""
+
+#. type: Plain text
+#: _includes/content.md
+msgid "[Contact the team]({% link discuss.md %})  if you want to share content related to Gaphor.  {% endcapture %}"
+msgstr ""
+
+#. type: Plain text
+#: _includes/content.md
+msgid "{% capture see-blog %} See blog {% endcapture %}"
+msgstr ""
+
+#. type: Plain text
+#: _includes/content.md
+msgid "{% capture read-more %} Read more {% endcapture %}"
+msgstr ""
 
 #. type: YAML Front Matter: title
 #: _platforms/01-windows.md
@@ -1760,52 +1844,6 @@ msgstr ""
 msgid "If you're a developer, you can find the source code [on GitHub](https://github.com/gaphor/gaphor)."
 msgstr ""
 
-#. type: YAML Front Matter: title
-#: index.md
-#, no-wrap
-msgid "Modeling for Everyone"
-msgstr ""
-
-#. type: Plain text
-#: index.md
-msgid "{% capture thousand-words %} A picture is worth a thousand words. Describe and document your applications and systems with Gaphor to enhance knowledge sharing.  {% endcapture %}"
-msgstr ""
-
-#. type: Plain text
-#: index.md
-msgid "{% capture about %} Gaphor is a UML, SysML, RAAML, and C4 modeling application. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models."
-msgstr ""
-
-#. type: Plain text
-#: index.md
-msgid "{% endcapture %}"
-msgstr ""
-
-#. type: Plain text
-#: index.md
-msgid "{% capture build %} Build Class, Interaction, and State Machine diagrams for software or Block Definition and Requirements diagrams for systems. Model the elements you need. If you want to mix and match, you can even add different diagram items to the same diagram to get the view you need.  {% endcapture %}"
-msgstr ""
-
-#. type: Plain text
-#: index.md
-msgid "{% capture styling-engine %} Customize the diagrams you create with our built-in styling engine.  {% endcapture %}"
-msgstr ""
-
-#. type: Plain text
-#: index.md
-msgid "{% capture treeview %} Easily find all element of your model in the tree view.  {% endcapture %}"
-msgstr ""
-
-#. type: Plain text
-#: index.md
-msgid "{% capture dark-mode %} Love dark mode? We can do that too.  {% endcapture %}"
-msgstr ""
-
-#. type: Plain text
-#: index.md
-msgid "{% capture download %} There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed.  {% endcapture %}"
-msgstr ""
-
 #. type: Title #
 #: 404.md
 #, no-wrap
@@ -1821,4 +1859,10 @@ msgstr ""
 #. type: Plain text
 #: 404.md
 msgid "The requested page could not be found."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: index.md
+#, no-wrap
+msgid "Modeling for Everyone"
 msgstr ""
