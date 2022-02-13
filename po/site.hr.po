@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-02-13 13:18-0500\n"
+"POT-Creation-Date: 2022-02-13 13:35-0500\n"
 "PO-Revision-Date: 2022-02-06 15:05-0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -1569,36 +1569,6 @@ msgstr ""
 #. type: Bullet: '- '
 #: tutorials.md.filt
 msgid "*July 22, 2021* Arjan will be speaking at GUADEC 2021 about Large GUI application with Python and GTK."
-msgstr ""
-
-#. type: YAML Front Matter: redirect_from
-#: download.md.filt
-#, no-wrap
-msgid "/pages/download.html"
-msgstr ""
-
-#. type: YAML Front Matter: redirect_from
-#: download.md.filt
-#, no-wrap
-msgid "/pages/install-gaphor-in-windows.html"
-msgstr ""
-
-#. type: YAML Front Matter: redirect_from
-#: download.md.filt
-#, no-wrap
-msgid "/pages/install-gaphor-in-macos.html"
-msgstr ""
-
-#. type: YAML Front Matter: redirect_from
-#: download.md.filt
-#, no-wrap
-msgid "/pages/install-gaphor-in-linux.html"
-msgstr ""
-
-#. type: YAML Front Matter: redirect_from
-#: download.md.filt
-#, no-wrap
-msgid "/pages/install-gaphor-using-python-packaging.html"
 msgstr ""
 
 #. type: YAML Front Matter: title
