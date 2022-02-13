@@ -25,7 +25,12 @@ for contributors and plugin developers
 
 ## Talks
 
-- Dan and Arjan spoke at [Linux App Summit 2021](https://linuxappsummit.org/) about [how Gaphor is made available to all desktop platforms (Linux/Windows/macOS)](https://www.youtube.com/watch?v=vLwAT-TLmZU).
-- *June 30, 2021* Dan and Kyle Post will be speaking at the [2021 MIT STAMP Workshop](https://psas.scripts.mit.edu/home/2021-stamp-workshop-program/) about _Open STPA with RAAML and Gaphor_. ([Slides](http://psas.scripts.mit.edu/home/wp-content/uploads/2021/06/2021-06-30-1230__Yeaw.pdf).
-- Arjan spoke at [GUADEC 2021](https://events.gnome.org/event/9/) about [Large GUI application with Python and GTK](https://events.gnome.org/event/9/contributions/188/). [Here's a recording](https://www.youtube.com/watch?v=Ko0NTS0IpfI) of the same presentation for the Michigan Python Meetup.
-
+- Dan and Arjan spoke at [Linux App Summit 2021](https://linuxappsummit.org/)
+  about [how Gaphor is made available to all desktop platforms
+  Linux/Windows/macOS](https://www.youtube.com/watch?v=vLwAT-TLmZU).
+- Dan spoke at the 2021 [MIT STAMP
+  Workshop](https://psas.scripts.mit.edu/home/2021-stamp-workshop-program/)
+  about _Open STPA with RAAML and Gaphor_.
+- Arjan spoke at [GUADEC
+  2021](https://events.gnome.org/event/9/) about [Large GUI application with
+  Python and GTK](https://events.gnome.org/event/9/contributions/188/).

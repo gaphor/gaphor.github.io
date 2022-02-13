@@ -18,7 +18,7 @@ I thought I could do better. With that attitude I started writing my own UML mod
 
 One of the first choices to make for a GUI application is the toolkit to use.
 [GTK+](https://gtk.org) seemed like a solid option: it's 100% open source (contrary to QT, for example),
-and was used in big projects, such as [GIMP](https://gimp.org) and (GNOME)[https://gnome.org].
+and was used in big projects, such as [GIMP](https://gimp.org) and [GNOME](https://gnome.org).
 Looking back, I'm still happy with that decision.
 
 The main component of a diagramming tool is the canvas. I worked on Linux at the time and

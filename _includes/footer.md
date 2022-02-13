@@ -2,7 +2,7 @@
 We love to hear from you
 {% endcapture %}
 
-{% capture open-issue %} 
+{% capture open-issue %}
 Open an issue on GitHub
 {% endcapture %}
 
