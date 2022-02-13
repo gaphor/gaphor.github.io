@@ -1,19 +1,10 @@
 {
-    "9ced8ed6113e3125": "\n            Izradi dijagrame klasa, interakcije i stanja za softver ili\n            dijagrame definicija blokova i preduvjeta za sustave. Modeliraj\n            elemente koje trebaš. Ako želiš miješati i uskladiti, za dobivanje\n            željenog prikaza istom dijagramu možeš čak dodati različite elemente\n            dijagrama.\n        ",
     "32d99f3980a0e022": "\n            Pronađi sve elemente svog modela na jednostavan način u prikazu stabla.\n        ",
-    "680be3cfe6d59255": "pip",
     "33e4b70283fe24ba": "Preuzmi Gaphor",
-    "b8281e4976d845ab": "Gaphor se može isntalirati na mnogo načina. Najjednostavnije je preuzeti službeni\n                    instalacijski program za Windows ili macOS. Za Linux se Gaphor može instalirati\n                    koristeći FlatHub. Također je mopguće koristiti Pythonov ugrađeni `pip` alat\n                    ukoliko su sve potrebne ovisnosti instalirane.",
     "791e230ca635a5fe": "na\n                        GitHubu",
-    "2deeb2011e117a09": "\n                    {{ platform.content | markdownify }}\n                ",
     "aabb43e4072fc22c": "---\nizgled: članak\nnaslov: Blog i Novosti\n---\n\n{% za poruke u site.posts %}\n",
-    "e4af2174b0e4af32": "{{ post.title }}",
     "21177c800efcccf0": "Autor {{ post.author }}, {{ post.date | date: \"%d. %m %Y.\" }}",
-    "7f05508390b419e6": "---\nnaslov: Modeliranje za svakoga\nizgled: bare\nredirect_from: /pages/about.html\n---\n\n",
     "562ba4879d682aa0": "{{ page.title }}",
-    "6a66d1c311994c40": "Saznaj\n                            više",
     "bd7123a172865d36": "Preuzmi",
-    "cd4eef3dc963bb38": "\n            Prilagodi dijagrame koje stvaraš pomoću našeg ugrađenog mehanizma za određivanje stilova.\n        ",
-    "53ba37e2374fc527": "\n            Voliš tamni modus? Omogućujemo i to.\n        ",
-    "1c211250062e8749": "Slika govori više od tisuću riječi.\n                                 Opiši i dokumentiraj svoje programe i sustave s Gaphorom za poboljšavanje dijeljenja znanja."
+    "53ba37e2374fc527": "\n            Voliš tamni modus? Omogućujemo i to.\n        "
 }
