@@ -1,10 +1,6 @@
 {
-    "32d99f3980a0e022": "\n            Pronađi sve elemente svog modela na jednostavan način u prikazu stabla.\n        ",
     "33e4b70283fe24ba": "Preuzmi Gaphor",
-    "791e230ca635a5fe": "na\n                        GitHubu",
     "aabb43e4072fc22c": "---\nizgled: članak\nnaslov: Blog i Novosti\n---\n\n{% za poruke u site.posts %}\n",
-    "21177c800efcccf0": "Autor {{ post.author }}, {{ post.date | date: \"%d. %m %Y.\" }}",
     "562ba4879d682aa0": "{{ page.title }}",
-    "bd7123a172865d36": "Preuzmi",
     "53ba37e2374fc527": "\n            Voliš tamni modus? Omogućujemo i to.\n        "
 }
