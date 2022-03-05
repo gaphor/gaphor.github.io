@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-02-13 13:35-0500\n"
+"POT-Creation-Date: 2022-03-05 16:53-0500\n"
 "PO-Revision-Date: 2022-02-06 15:05-0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -1550,7 +1550,7 @@ msgstr ""
 msgid "- Extend your models with stereotypes - Writing a plugin - Technical and architectural documentation for contributors and plugin developers"
 msgstr ""
 
-#. type: Title #
+#. type: Title ##
 #: tutorials.md.filt
 #, no-wrap
 msgid "Talks"
@@ -1563,12 +1563,12 @@ msgstr ""
 
 #. type: Bullet: '- '
 #: tutorials.md.filt
-msgid "*June 30, 2021* Dan spoke at the 2021 MIT STAMP Workshop about _Open STPA with RAAML and Gaphor_."
+msgid "Dan spoke at the 2021 MIT STAMP Workshop about _Open STPA with RAAML and Gaphor_."
 msgstr ""
 
 #. type: Bullet: '- '
 #: tutorials.md.filt
-msgid "*July 22, 2021* Arjan will be speaking at GUADEC 2021 about Large GUI application with Python and GTK."
+msgid "Arjan spoke at GUADEC 2021 about Large GUI application with Python and GTK."
 msgstr ""
 
 #. type: YAML Front Matter: title
@@ -1608,4 +1608,10 @@ msgstr ""
 #: index.md.filt
 #, no-wrap
 msgid "Modeling for Everyone"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: blog.md.filt
+#, no-wrap
+msgid "Blog and News"
 msgstr ""
