@@ -9,3 +9,6 @@ _site/
 [a-z][a-z][a-z]/*.md
 [a-z][a-z][a-z]_[A-Z]*/*.md
 [a-z][a-z]_[A-Z]*/*.md
+
+# Filter files from po/filter-markdown.py
+*.filt
