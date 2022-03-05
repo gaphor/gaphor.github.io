@@ -1,0 +1,11 @@
+<div class="language-header">
+   <div class="container">
+     <nav class="language-navigation">
+        <ul>
+           {% for item in site.data.languages.languages %}
+           <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+           {% endfor %}
+        </ul>
+     </nav>
+   </div>
+</div>

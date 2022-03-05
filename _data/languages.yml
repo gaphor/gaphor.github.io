@@ -1,0 +1,7 @@
+languages:
+  - title: English
+    url: "/"
+  - title: Hrvatski
+    url: "/hr"
+  - title: Magyar
+    url: "/hu"
