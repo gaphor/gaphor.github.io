@@ -1,6 +1,6 @@
 ---
 title: Linux
-logo: /images/linux_logo.svg
+logo: /images/linux_logo.png
 ---
 
 ### Flatpak
