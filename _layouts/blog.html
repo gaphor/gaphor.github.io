@@ -1,6 +1,5 @@
 ---
 layout: article
-title: Blog and News
 ---
 
 {% for post in site.posts %}
@@ -9,10 +8,10 @@ title: Blog and News
 {{ post.content | split:'<!--break-->' | first }}
 {% if post.content contains '<!--break-->' %}
 <p>
-  <a href="{{ post.url }}" title="Read more" class="post-button">
-    <i class="fa fa-chevron-circle-right"></i>
-    Read more
-  </a>
+    <a href="{{ post.url }}" title="Read more" class="post-button">
+        <i class="fa fa-chevron-circle-right"></i>
+        Read more
+    </a>
 </p>
 {% endif %}
 
