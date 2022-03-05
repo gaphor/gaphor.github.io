@@ -29,19 +29,21 @@ google_tracking_id: UA-9578559-2
 
 menu:
     - label: About
-      url: "/#about"
+      url: "#about"
     - label: Download
-      url: "/download.html"
+      url: "download.html"
     - label: Tutorials
-      url: "/tutorials.html"
+      url: "tutorials.html"
     - label: Blog
-      url: "/blog.html"
+      url: "blog.html"
     - label: Get in touch
-      url: "/discuss.html"
+      url: "discuss.html"
     - label: Contribute
-      url: "/contribute.html"
+      url: "contribute.html"
     - label: "<i class='fab fa-github' style='font-size: 168%' title='GitHub repository'></i>"
       url: "https://github.com/gaphor/gaphor"
+
+platform_list: ["windows", "linux", "macos", "python"]
 
 colors:
     - "#50bc7c"
@@ -97,3 +99,4 @@ exclude:
     - README.md
     - LICENSE.txt
     - images/*.xcf
+    - '*.filt'
