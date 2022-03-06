@@ -3,6 +3,7 @@ title: Your First Model
 redirect_from: /pages/working-with-gaphor.html
 language: en
 handle: /tutorials/your-first-model
+layout: article
 ---
 
 Once Gaphor is started a new empty model is automatically created. The

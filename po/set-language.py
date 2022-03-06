@@ -29,8 +29,6 @@ def replace_language_string():
                 for line in lines:
                     if "language: en" in line:
                         line = line.replace("language: en", f"language: {language}")
-                    if "_tutorials/" in line:
-                        line = line.replace("_tutorials/", f"_{language}/tutorials/")
                     f.write(line)
 
 

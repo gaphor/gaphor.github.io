@@ -44,22 +44,12 @@ defaults:
       path: ""
     values:
       layout: "post"
-  - scope:
-      path: "_tutorials*"
-    values:
-      layout: "article"
 
 permalink: pretty
 
 collections:
   usps:
   platforms:
-  tutorials:
-    output: true
-  hu:
-    output: true
-  hr:
-    output: true
 
 sass:
   style: compressed

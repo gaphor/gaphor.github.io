@@ -22,7 +22,7 @@ me", then we especially mean YOU.
 Our real-time conversations are on Gitter and are bridged to Matrix.
 Matrix is the preferred way, since it's more use friendly than bare Gitter.
 
-[<img src="images/matrix_org.svg" alt="matrix.org" style="height: 1em" /> Join Matrix with Element.io](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)
+[<img src="/images/matrix_org.svg" alt="matrix.org" style="height: 1em" /> Join Matrix with Element.io](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)
 
 [<i class="fab fa-gitter"></i> Join Gitter Chat](https://gitter.im/gaphor/lobby)
 
@@ -32,7 +32,7 @@ NB. If you're using a mobile device, use the [Element app](https://element.io/ge
 
 Please use our GitHub issue tracker for general questions and reporting bugs.
 Before submitting a GitHub issue please review our page about
-[how to report a bug in Gaphor]().
+<a href="../tutorials/report-bugs">how to report a bug in Gaphor</a>.
 
 [<i class="fab fa-github"></i> Submit an Issue on GitHub](https://github.com/gaphor/gaphor/issues)
 
