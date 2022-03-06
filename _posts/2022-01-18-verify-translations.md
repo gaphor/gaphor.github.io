@@ -7,7 +7,6 @@ image_attribution: https://www.freepik.com/
 language: en
 ---
 
-
 Gaphor has translations in more than a dozen languages. Not all translations
 are 100%, and in most cases that’s not a problem. Thanks to the power of Open
 Source, everyone can contribute with translations for your project.
