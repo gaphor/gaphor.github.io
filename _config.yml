@@ -29,60 +29,55 @@ favicon: /images/gaphor-24x24.png
 gaphor_version: 2.8.2
 google_tracking_id: UA-9578559-2
 
-platform_list: ["windows", "linux", "macos", "python"]
+platform_list: [ "windows", "linux", "macos", "python" ]
 
 colors:
-    - "#50bc7c"
-    - "#E0C512"
-    - "#6664bd"
-    - "#E0C512"
-    - "#6664bd"
-    - "#50bc7c"
-
-umlcolors:
-    - "#971232"
-    - "#c7c000"
-    - "#54006c"
+  - "#50bc7c"
+  - "#E0C512"
+  - "#6664bd"
+  - "#E0C512"
+  - "#6664bd"
+  - "#50bc7c"
 
 defaults:
-    - scope:
-          path: ""
-      values:
-          layout: "default"
-    - scope:
-          path: "_drafts*"
-      values:
-          layout: "post"
-    - scope:
-          path: "_posts*"
-      values:
-          layout: "post"
-    - scope:
-          path: "_tutorials*"
-      values:
-          layout: "article"
+  - scope:
+      path: ""
+    values:
+      layout: "post"
+  - scope:
+      path: "_drafts*"
+    values:
+      layout: "post"
+  - scope:
+      path: "_posts*"
+    values:
+      layout: "post"
+  - scope:
+      path: "_tutorials*"
+    values:
+      layout: "article"
 
 collections:
-    usps:
-    platforms:
-    tutorials:
-        output: true
+  usps:
+  platforms:
+  tutorials:
+    output: true
 
 sass:
-    style: compressed
+  style: compressed
 
 highlighter: rouge
 
 plugins:
-    # - jekyll-feed
-    - jekyll-sitemap
-    - jekyll-seo-tag
-    - jekyll-redirect-from
+  # - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
 
 exclude:
-    - Gemfile
-    - Gemfile.lock
-    - README.md
-    - LICENSE.txt
-    - images/*.xcf
-    - '*.filt'
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE.txt
+  - images/*.xcf
+  - '*.filt'
