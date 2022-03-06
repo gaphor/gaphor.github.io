@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-10 col-lg-3">
-        <a href="{{ site.url }}" title="{{ site.title }}" class="header-logo">
+        <a href="{{ site.url }}" title="{{ site.title[page.language] }}" class="header-logo">
           <img src="{{ site.logo }}" alt="Gaphor logo" />
           Gaphor
         </a>
@@ -14,8 +14,8 @@
         <label for="menu-toggle" class="open-responsive-menu"><i class="fa fa-bars"></i></label>
         <nav class="header-navigation">
           <ul>
-            {% for menuitem in site.menu %}
-            <li><a href="{{menuitem.url }}">{{ menuitem.label }}</a></li>
+            {% for menuitem in site.data.menu[page.language] }}  %}
+            <li><a href="{{ menuitem.url }}">{{ menuitem.label }}</a></li>
             {% endfor %}
           </ul>
         </nav>
@@ -29,8 +29,8 @@
   <label for="menu-toggle" class="close-responsive-menu"><i class="fa fa-times"></i></label>
   <ul>
     <li><a href="/">Home</a></li>
-    {% for menuitem in site.menu %}
-    <li><a href="{{menuitem.url }}">{{ menuitem.label }}</a></li>
+    {% for menuitem in site.data.menu[page.language] }}  %}
+    <li><a href="{{ menuitem.url }}">{{ menuitem.label }}</a></li>
     {% endfor %}
   </ul>
 </nav>

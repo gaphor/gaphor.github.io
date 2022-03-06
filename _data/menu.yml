@@ -1,0 +1,45 @@
+en:
+- label: About
+  url: "#about"
+- label: Download
+  url: "download.html"
+- label: Tutorials
+  url: "tutorials.html"
+- label: Blog
+  url: "blog.html"
+- label: Get in touch
+  url: "discuss.html"
+- label: Contribute
+  url: "contribute.html"
+- label: "<i class='fab fa-github' style='font-size: 168%' title='GitHub repository'></i>"
+  url: "https://github.com/gaphor/gaphor"
+hr:
+- label: About
+  url: "/hr/#about"
+- label: Download
+  url: "/hr/download.html"
+- label: Tutorials
+  url: "/hr/tutorials.html"
+- label: Blog
+  url: "/hr/blog.html"
+- label: Get in touch
+  url: "/hr/discuss.html"
+- label: Contribute
+  url: "/hr/contribute.html"
+- label: "<i class='fab fa-github' style='font-size: 168%' title='GitHub repository'></i>"
+  url: "https://github.com/gaphor/gaphor"
+hu:
+- label: About
+  url: "/hu/#about"
+- label: Download
+  url: "/hu/download.html"
+- label: Tutorials
+  url: "/hu/tutorials.html"
+- label: Blog
+  url: "/hu/blog.html"
+- label: Get in touch
+  url: "/hu/discuss.html"
+- label: Contribute
+  url: "/hu/contribute.html"
+- label: "<i class='fab fa-github' style='font-size: 168%' title='GitHub repository'></i>"
+  url: "https://github.com/gaphor/gaphor"
