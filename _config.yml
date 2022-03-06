@@ -49,10 +49,16 @@ defaults:
     values:
       layout: "article"
 
+permalink: pretty
+
 collections:
   usps:
   platforms:
   tutorials:
+    output: true
+  hu:
+    output: true
+  hr:
     output: true
 
 sass:

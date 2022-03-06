@@ -32,7 +32,7 @@ NB. If you're using a mobile device, use the [Element app](https://element.io/ge
 
 Please use our GitHub issue tracker for general questions and reporting bugs.
 Before submitting a GitHub issue please review our page about
-[how to report a bug in Gaphor]({% link _tutorials/report-bugs.md %}).
+[how to report a bug in Gaphor]().
 
 [<i class="fab fa-github"></i> Submit an Issue on GitHub](https://github.com/gaphor/gaphor/issues)
 

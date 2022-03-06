@@ -1,45 +1,45 @@
 en:
 - label: About
-  url: "#about"
+  url: "/#about"
 - label: Download
-  url: "download.html"
+  url: "/download"
 - label: Tutorials
-  url: "tutorials.html"
+  url: "/tutorials"
 - label: Blog
-  url: "blog.html"
+  url: "/blog"
 - label: Get in touch
-  url: "discuss.html"
+  url: "/discuss"
 - label: Contribute
-  url: "contribute.html"
+  url: "/contribute"
 - label: "<i class='fab fa-github' style='font-size: 168%' title='GitHub repository'></i>"
   url: "https://github.com/gaphor/gaphor"
 hr:
 - label: About
   url: "/hr/#about"
 - label: Download
-  url: "/hr/download.html"
+  url: "/hr/download"
 - label: Tutorials
-  url: "/hr/tutorials.html"
+  url: "/hr/tutorials"
 - label: Blog
-  url: "/hr/blog.html"
+  url: "/hr/blog"
 - label: Get in touch
-  url: "/hr/discuss.html"
+  url: "/hr/discuss"
 - label: Contribute
-  url: "/hr/contribute.html"
+  url: "/hr/contribute"
 - label: "<i class='fab fa-github' style='font-size: 168%' title='GitHub repository'></i>"
   url: "https://github.com/gaphor/gaphor"
 hu:
 - label: About
   url: "/hu/#about"
 - label: Download
-  url: "/hu/download.html"
+  url: "/hu/download"
 - label: Tutorials
-  url: "/hu/tutorials.html"
+  url: "/hu/tutorials"
 - label: Blog
-  url: "/hu/blog.html"
+  url: "/hu/blog"
 - label: Get in touch
-  url: "/hu/discuss.html"
+  url: "/hu/discuss"
 - label: Contribute
-  url: "/hu/contribute.html"
+  url: "/hu/contribute"
 - label: "<i class='fab fa-github' style='font-size: 168%' title='GitHub repository'></i>"
   url: "https://github.com/gaphor/gaphor"

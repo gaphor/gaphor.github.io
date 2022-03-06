@@ -2,6 +2,7 @@
 title: Get started with Gaphor
 redirect_from: /pages/your-first-model.html
 language: en
+handle: /tutorials/get-started-with-gaphor
 ---
 
 Once Gaphor is launched, it provides you an almost empty user interface.
