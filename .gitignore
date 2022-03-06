@@ -4,11 +4,5 @@ _site/
 .vscode
 .jekyll-cache
 
-# po4a auto-generated markdown files from translations
-[a-z][a-z]/*.md
-[a-z][a-z][a-z]/*.md
-[a-z][a-z][a-z]_[A-Z]*/*.md
-[a-z][a-z]_[A-Z]*/*.md
-
 # Filter files from po/filter-markdown.py
 *.filt
