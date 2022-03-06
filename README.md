@@ -25,4 +25,5 @@ files, run:
 ```bash
 $ python po/filter-markdown.py
 $ po4a po/po4a.conf
+$ python po/set-language.py
 ```
