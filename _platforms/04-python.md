@@ -1,6 +1,7 @@
 ---
 title: Python
 logo: /images/python_logo.png
+language: en
 ---
 
 If you have the latest stable version of Python installed and the Gaphor

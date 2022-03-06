@@ -2,6 +2,8 @@
 title: Get in touch
 layout: article
 redirect_from: /pages/discuss.html
+language: en
+handle: /discuss
 ---
 
 It's good to talk, share knowledge and learn from other users of Gaphor. Perhaps

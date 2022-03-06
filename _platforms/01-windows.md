@@ -1,6 +1,7 @@
 ---
 title: Windows
 logo: /images/windows_logo.png
+language: en
 ---
 
 <a class="btn btn-primary btn-lg" href="https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-installer.exe"><i class="fa fa-download"></i> Download installer</a>

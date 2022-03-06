@@ -13,10 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.url }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Gaphor
+title:
+  en: Gaphor
 logo: /images/gaphor.svg
 tagline: Gaphor, the UML/SysML modeling tool
-description: >-
+description:
+  en: >-
     Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is
     designed to be easy to use, while still being powerful. Gaphor implements a
     fully-compliant UML 2 data model, so it is much more than a picture drawing
@@ -26,22 +28,6 @@ url: https://gaphor.org
 favicon: /images/gaphor-24x24.png
 gaphor_version: 2.8.2
 google_tracking_id: UA-9578559-2
-
-menu:
-    - label: About
-      url: "#about"
-    - label: Download
-      url: "download.html"
-    - label: Tutorials
-      url: "tutorials.html"
-    - label: Blog
-      url: "blog.html"
-    - label: Get in touch
-      url: "discuss.html"
-    - label: Contribute
-      url: "contribute.html"
-    - label: "<i class='fab fa-github' style='font-size: 168%' title='GitHub repository'></i>"
-      url: "https://github.com/gaphor/gaphor"
 
 platform_list: ["windows", "linux", "macos", "python"]
 

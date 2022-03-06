@@ -1,6 +1,7 @@
 ---
 title: Standards Compliant
 icon: anchor
+language: en
 ---
 
 Gaphor implements the UML, SysML, and RAAML OMG standards. It also includes

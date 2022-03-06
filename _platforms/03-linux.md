@@ -1,6 +1,7 @@
 ---
 title: Linux
 logo: /images/linux_logo.png
+language: en
 ---
 
 ### Flatpak

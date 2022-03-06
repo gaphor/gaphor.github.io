@@ -1,6 +1,7 @@
 ---
 title: How to report a bug in Gaphor
 redirect_from: /pages/how-to-report-a-bug-in-gaphor.html
+language: en
 ---
 
 If you've ever written a line of code, you'll know that all software has bugs.
