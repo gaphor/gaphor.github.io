@@ -1,0 +1,92 @@
+---
+layout: bare
+---
+
+{% include content.md %}
+
+<div id="header-wrapper">
+    <header id="header" class="header-front-page">
+
+        {% include menu.html show_subtitle="yes" %}
+
+        <div class="bottom-header front-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1>{{ page.title }}</h1>
+                    </div>
+                    <div class="col-sm-8 offset-sm-2">
+                        <div class="section-description">
+                            <p>{{ thousand-words }}</p>
+                        </div>
+                        <a href="{% link index.md %}#about" title="Learn more" class="btn header-button-one">Learn
+                            more</a>
+                        <a href="{% link download.md %}" title="Download" class="btn header-button-two">Download</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+
+{% include services.html id="about" title="About" description=about services=site.usps %}
+
+<section class="container">
+    <div class="row mb-4">
+        <div class="col-12 col-md-6">
+            <img src="{% link images/screenshot-interaction.png %}" alt="interaction" />
+        </div>
+        <p class="col-12 align-items-center text-center col-md-6 d-md-flex text-md-left col-lg-4 offset-lg-1">
+            {{ build }}
+        </p>
+
+    </div>
+    <div class="row mb-4 flex-row-reverse">
+        <div class=" col-12 col-md-6 offset-lg-1">
+            <img src="{% link images/screenshot-styles.png %}" alt="styles" />
+        </div>
+        <p class="col-12 align-items-center text-center col-md-6 d-md-flex text-md-right col-lg-4 offset-lg-1">
+            {{ styling-engine }}
+        </p>
+    </div>
+    <div class="row mb-4">
+        <div class="col-12 col-md-6">
+            <img src="{% link images/screenshot-namespace.png %}" alt="Tree view detail" />
+        </div>
+        <p class="col-12 align-items-center text-center col-md-6 d-md-flex text-md-left col-lg-4 offset-lg-1">
+            {{ treeview }}
+        </p>
+    </div>
+    <div class="row mb-4 flex-row-reverse">
+        <div class="col-12 col-md-6 offset-lg-1">
+            <img src="{% link images/screenshot-dark-mode.png %}" alt="styles" />
+        </div>
+        <p class="col-12 align-items-center text-center col-md-6 d-md-flex text-md-right col-lg-4 offset-lg-1">
+            {{ dark-mode }}
+        </p>
+    </div>
+</section>
+
+<section id="download" class="front-page-section">
+
+    {% include section-header.html title="Download" description=download-content %}
+
+    <div class="section-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 offset-sm-1">
+                    {% for platform in site.platform_list %}
+                    {% if forloop.index > 1 %}&nbsp;&nbsp;{% endif %}
+                    <a href="download.html#{{ platform }}"><img src="/images/{{ platform }}_logo.png"
+                            alt="{{ platform.title }} logo" style="width: 52px" /></a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% comment %}
+<!-- Enable this when there's at least 3 blogs, so they can be displayed on the landing page. -->
+{% include latest-news.html %}
+{% endcomment %}

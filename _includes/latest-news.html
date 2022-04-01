@@ -1,16 +1,9 @@
 <section id="latest-news" class="front-page-section">
-
-  {% capture blog %}
-  Do you want to know what's going on with Gaphor? Read our blog!
-
-  [Contact the team]({% link discuss.md %})
-  if you want to share content related to Gaphor.
-  {% endcapture %}
-
+  {% include content.md %}
   {% include section-header.html title="Blog and News" description=blog %}
 
-  <a href="{% link blog.html %}" title="See blog" class="latest-news-button"><i
-      class="fa fa-chevron-circle-right l10n"></i>See blog</a>
+  <a href="{% link blog.md %}" title="See blog" class="latest-news-button"><i
+      class="fa fa-chevron-circle-right"></i>{{ see-blog }}</a>
 
   <div class="section-content">
     <div class="container">
@@ -25,8 +18,7 @@
             <h5 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>
             <div class="post-entry">{{ post.content | | truncate: 220 }}</div>
             <a href="{{ post.url }}" title="Read more" class="post-button"><i
-                class="fa fa-chevron-circle-right l10n"></i>Read
-              more </a>
+                class="fa fa-chevron-circle-right"></i>{{ read-more }}</a>
           </div>
         </div>
         {% endfor %}

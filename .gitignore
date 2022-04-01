@@ -2,3 +2,7 @@
 .sass-cache/
 _site/
 .vscode
+.jekyll-cache
+
+# Filter files from po/filter-markdown.py
+*.filt

@@ -2,6 +2,8 @@
 title: Contribute
 layout: article
 redirect_from: /pages/developers.html
+language: en
+handle: /contribute
 ---
 
 Would you like to contribute to the development of Gaphor? (If you think this
@@ -18,5 +20,5 @@ various types of contribution you can make to Gaphor.
 
 The source code is hosted on [GitHub](https://github.com/gaphor/gaphor).
 
-If in doubt, just ask in our [discussion area]({% link discuss.md %}) and
+If in doubt, just ask in our <a href="../discuss">discussion area</a> and
 someone will be able to point you in the right direction.

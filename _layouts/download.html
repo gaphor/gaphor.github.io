@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<section>
+    <div class="section-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 offset-sm-1">
+                    <h1>{{ page.title }}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row header">
+            <div class="col-sm-10 offset-sm-1">
+                {{ content }}
+            </div>
+        </div>
+
+        {% for platform in site.platforms %}
+        <div class="row">
+            <div class="col-sm-10 offset-sm-1">
+                <br />
+                <h2 id="{{ platform.title | downcase }}"><img src="{{ platform.logo }}"
+                        alt="{{ platform.title }} logo" />
+                    {{ platform.title }}
+                </h2>
+                <div class="section-description">
+                    {{ platform.content | markdownify }}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>

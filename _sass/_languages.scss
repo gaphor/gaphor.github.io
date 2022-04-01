@@ -1,0 +1,42 @@
+#header {
+}
+
+.language-header {
+  width: 100%;
+  background-color: #292825;
+
+  .language-navigation {
+    float: right;
+  }
+
+  .language-navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .language-navigation ul li {
+    margin-left: 10px;
+    font-size: x-small;
+    position: relative;
+    display: inline;
+  }
+
+  .language-navigation ul li:first-child {
+    margin-left: 0;
+  }
+
+  .language-navigation ul li a {
+    color: #fff;
+  }
+
+  .language-navigation ul li:hover a {
+    color: #ffde00;
+    text-decoration: none;
+  }
+
+}
+
+#header .language-header {
+  background-color: transparent;
+}
+
