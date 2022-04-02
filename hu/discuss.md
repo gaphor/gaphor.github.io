@@ -3,7 +3,7 @@ handle: /discuss
 language: hu
 layout: article
 redirect_from: /pages/discuss.html
-title: 'Get in touch'
+title: Kapcsolatfelvétel
 ---
 
 It's good to talk, share knowledge and learn from other users of

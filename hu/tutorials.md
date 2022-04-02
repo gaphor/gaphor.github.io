@@ -3,7 +3,7 @@ handle: /tutorials
 language: hu
 layout: article
 redirect_from: /pages/how-to.html
-title: Tutorials
+title: Oktatóanyagok
 ---
 
 Each tutorial is a self-contained lesson, explaining a specific aspect of

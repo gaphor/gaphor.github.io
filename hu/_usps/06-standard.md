@@ -1,7 +1,7 @@
 ---
 icon: anchor
 language: hu
-title: 'Standards Compliant'
+title: Szabványmegfelelőség
 ---
 
 Gaphor implements the UML, SysML, and RAAML OMG standards. It also includes

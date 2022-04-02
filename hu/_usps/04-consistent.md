@@ -1,7 +1,7 @@
 ---
 icon: eye
 language: hu
-title: Consistent
+title: Egységes
 ---
 
 UML is a graphical modeling language, so all information you put in the

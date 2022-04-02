@@ -1,7 +1,7 @@
 ---
 icon: plug
 language: hu
-title: Extensible
+title: Bővíthető
 ---
 
 Gaphor is extensible. Plug-in a code generator or export your diagrams for

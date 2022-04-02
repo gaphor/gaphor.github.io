@@ -3,7 +3,7 @@ handle: /contribute
 language: hu
 layout: article
 redirect_from: /pages/developers.html
-title: Contribute
+title: Közreműködés
 ---
 
 Would you like to contribute to the development of Gaphor? (If you think
