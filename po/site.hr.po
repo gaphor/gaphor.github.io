@@ -7,752 +7,946 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-03-19 20:50-0400\n"
-"PO-Revision-Date: 2022-02-06 15:05-0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-04-03 12:11+0000\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/gaphor/"
+"gaphor-github-io/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #. type: Plain text
 #: _includes/footer.md.filt
 msgid "We love to hear from you"
-msgstr ""
+msgstr "Radujemo se tvom javljanju"
 
 #. type: Plain text
 #: _includes/footer.md.filt
 msgid "Open an issue on GitHub"
-msgstr ""
+msgstr "Prijavi problem na GitHubu"
 
 #. type: Plain text
 #: _includes/footer.md.filt
 #, no-wrap
 msgid " Tech docs\n"
-msgstr ""
+msgstr " Tehnička dokumentacija\n"
 
 #. type: Plain text
 #: _includes/footer.md.filt
 msgid "Copyright &copy; 2020-2022 Arjan Molenaar and Dan Yeaw."
-msgstr ""
+msgstr "Autorska prava &copy; 2020. – 2022. Arjan Molenaar i Dan Yeaw."
 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "A picture is worth a thousand words. Describe and document your applications and systems with Gaphor to enhance knowledge sharing."
 msgstr ""
+"Slika vrijedi tisuću riječi. Opiši i dokumentiraj svoje programe i sustave s "
+"Gaphorom za poboljšavanje dijeljenja znanja."
 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "Gaphor is a UML, SysML, RAAML, and C4 modeling application. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models."
 msgstr ""
+"Gaphor je UML, SYSML, Raaml i C4 program za modeliranje. Izrađen je kao "
+"jednostavan i moćan program. Gaphor implementira potpuno sukladan UML 2 "
+"model podataka, tako da je program više od običnog alata za crtanje slike. "
+"Koristi Gaphor za brzo vizualiziranje različitih aspekata sustava, kao i za "
+"stvaranje potpunih, vrlo složenih modela."
 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "Build Class, Interaction, and State Machine diagrams for software or Block Definition and Requirements diagrams for systems. Model the elements you need. If you want to mix and match, you can even add different diagram items to the same diagram to get the view you need."
 msgstr ""
+"Izradi klase, interakciju i dijagrame stanja uređaja za softver ili "
+"dijagrame definicija blokova i dijagrame zahtjeva za sustave. Modeliraj "
+"elemente koje trebaš. Ako želiš miješati i uskladiti, za dobivanje željenog "
+"prikaza istom dijagramu možeš čak dodati različite elemente dijagrama."
 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "Customize the diagrams you create with our built-in styling engine."
 msgstr ""
+"Prilagodi dijagrame koje stvaraš pomoću našeg ugrađenog mehanizma za "
+"stiliziranje."
 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "Easily find all element of your model in the tree view."
-msgstr ""
+msgstr "Pronađi sve elemente tvog modela na jednostavan način u prikazu stabla."
 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "Love dark mode? We can do that too."
-msgstr ""
+msgstr "Voliš tamni modus? Omogućujemo i to."
 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."
 msgstr ""
+"Postoji mnogo načina za instaliranje Gaphora. Najjednostavnije je preuzeti "
+"službeni instalacijski program za Windows ili macOS. Za Linux se Gaphor može "
+"instalirati koristeći FlatHub. Također je moguće koristiti Pythonov ugrađeni "
+"`pip` alat ukoliko su sve potrebne ovisnosti instalirane."
 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "Do you want to know what's going on with Gaphor? Read our blog!"
-msgstr ""
+msgstr "Želiš znati što se događa s Gaphorom? Čitaj naš blog!"
 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "Contact the team if you want to share content related to Gaphor."
-msgstr ""
+msgstr "Obrati se timu ako želiš obavijestiti o nečemu u vezi s Gaphorom."
 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "See blog"
-msgstr ""
+msgstr "Pogledaj blog"
 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "Read more"
-msgstr ""
+msgstr "Saznaj više"
 
 #. type: YAML Front Matter: title
 #: _platforms/01-windows.md.filt
 #, no-wrap
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #. type: Plain text
 #: _platforms/01-windows.md.filt
 #, no-wrap
 msgid " Download installer\n"
-msgstr ""
+msgstr " Preuzmi instalacijski program\n"
 
 #. type: Plain text
 #: _platforms/01-windows.md.filt
 msgid "Alternatively a portable version of Gaphor can be downloaded."
-msgstr ""
+msgstr "Alternativno možeš preuzeti prenosivu verziju Gaphora."
 
 #. type: Plain text
 #: _platforms/01-windows.md.filt
 #, no-wrap
 msgid " Download portable version\n"
-msgstr ""
+msgstr " Preuzmi prenosivu verziju\n"
 
 #. type: YAML Front Matter: title
 #: _platforms/02-macos.md.filt
 #, no-wrap
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #. type: Plain text
 #: _platforms/02-macos.md.filt
 #, no-wrap
 msgid " Download .dmg\n"
-msgstr ""
+msgstr " Preuzmi .dmg\n"
 
 #. type: Title ###
 #: _platforms/02-macos.md.filt
 #, no-wrap
 msgid "Homebrew"
-msgstr ""
+msgstr "Homebrew"
 
 #. type: Plain text
 #: _platforms/02-macos.md.filt
 msgid "Pour Gaphor from a homebrew cask:"
-msgstr ""
+msgstr "Instaliraj Gaphor iz jednog homebrew cask:"
 
 #. type: YAML Front Matter: title
 #: _platforms/03-linux.md.filt
 #, no-wrap
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #. type: Title ###
 #: _platforms/03-linux.md.filt
 #, no-wrap
 msgid "Flatpak"
-msgstr ""
+msgstr "Flatpak"
 
 #. type: Plain text
 #: _platforms/03-linux.md.filt
 msgid "Flatpak is the recommended way to install Gaphor in Linux. If you don't have it setup already, follow the instructions to install Flatpak."
 msgstr ""
+"Flatpak je preporučeni način za instaliranje Gaphora u Linuxu. Ako još nije "
+"postavljen, slijedi upute za instaliranje Flatpaka."
 
 #. type: Plain text
 #: _platforms/03-linux.md.filt
 msgid "Install Flatpak"
-msgstr ""
+msgstr "Instaliraj Flatpak"
 
 #. type: Plain text
 #: _platforms/03-linux.md.filt
 msgid "To manually install Gaphor:"
-msgstr ""
+msgstr "Za ručno instaliranje Gaphora:"
 
 #. type: Title ###
 #: _platforms/03-linux.md.filt
 #, no-wrap
 msgid "AppImage"
-msgstr ""
+msgstr "AppImage"
 
 #. type: Plain text
 #: _platforms/03-linux.md.filt
 msgid "The other option if you are running a recent Linux distribution is to use the AppImage. It is built using Ubuntu 18.04 and most likely won't work on older versions."
 msgstr ""
+"Ako koristiš nedavnu distribuciju Linuxa, druga mogućnost je korištenje "
+"AppImagea. Izgrađena je pomoću Ubuntu 18.04 i najvjerojatnije neće raditi na "
+"starijim verzijama."
 
 #. type: Plain text
 #: _platforms/03-linux.md.filt
 #, no-wrap
 msgid " Download AppImage\n"
-msgstr ""
+msgstr " Preuzmi AppImage\n"
 
 #. type: Title ###
 #: _platforms/03-linux.md.filt
 #, no-wrap
 msgid "Arch Linux"
-msgstr ""
+msgstr "Arch Linux"
 
 #. type: Plain text
 #: _platforms/03-linux.md.filt
 msgid "Gaphor can be installed from an AUR package."
-msgstr ""
+msgstr "Gaphor se može instalirati iz jednog AUR paketa."
 
 #. type: YAML Front Matter: title
 #: _platforms/04-python.md.filt
 #, no-wrap
 msgid "Python"
-msgstr ""
+msgstr "Python"
 
 #. type: Plain text
 #: _platforms/04-python.md.filt
 msgid "If you have the latest stable version of Python installed and the Gaphor dependencies installed, you can also install Gaphor using a wheel from PyPI."
 msgstr ""
+"Ako imaš instaliranu najnoviju stabilnu verziju Pythona i ovisnosti za "
+"Gaphor, Gaphor možeš instalirati i pomoću kotača iz PyPI-ja."
 
 #. type: Plain text
 #: _platforms/04-python.md.filt
 msgid "If you don't have the latest stable version of Python and the Gaphor dependencies installed, follow the development environment installation instructions section, but do not clone the repository.  Optionally, create a virtual environment.  Then execute the following:"
 msgstr ""
+"Ako nemaš instaliranu najnoviju stabilnu verziju Pythona i ovisnosti za "
+"Gaphor, slijedi upute u odjeljku za instalaciju razvojnog okruženja, ali "
+"nemoj izraditi klon repozitorija. Opcionalno, stvori virtualno okruženje. "
+"Zatim izvrši sljedeće:"
 
 #. type: YAML Front Matter: title
 #: tutorials/plugins.md.filt
 #, no-wrap
 msgid "Writing a Plugin"
-msgstr ""
+msgstr "Pisanje dodatka"
 
 #. type: Plain text
 #: tutorials/plugins.md.filt
 msgid "Gaphor is designed to be extensible by using plugins that allow you to extend the functionality."
 msgstr ""
+"Gaphor je izrađen tako da se može proširiti korištenjem dodataka koji "
+"omogućuju dodatnu funkcionalnost."
 
 #. type: Title ##
 #: tutorials/plugins.md.filt
 #, no-wrap
 msgid "Accessing Model Related Data"
-msgstr ""
+msgstr "Pristup podacima vezanim uz model"
 
 #. type: Plain text
 #: tutorials/plugins.md.filt
 msgid "The datamodel classes are located in the `gaphor.UML` module. Data objects can be accessed through the ElementFactory. This is a special class for creating and managing data objects. Items can be queried using this element factory, which is registered in the application as `element_factory`. When writing a service or plugin the element factory can be injected into the service like this:"
 msgstr ""
+"Klase modela podataka nalaze se u modulu `gaphor.UML`. Objektima podataka "
+"može se pristupiti putem ElementFactory. Ovo je posebna klasa za stvaranje i "
+"upravljanje objektima podataka. Elementi se mogu tražiti pomoću ove tvornice "
+"elemenata, koja je registrirana u programu kao `element_factory`. Prilikom "
+"pisanja usluge ili dodatka, tvornica elemenata može se ubaciti u uslugu na "
+"sljedeći način:"
 
 #. type: Plain text
 #: tutorials/plugins.md.filt
 msgid "In the console window services can be retrieved by using the `service()` function. For example:"
 msgstr ""
+"U prozoru konzole, usluge se mogu dohvatiti korištenjem funkcije `service()`"
+". Na primjer:"
 
 #. type: Title ##
 #: tutorials/plugins.md.filt
 #, no-wrap
 msgid "Querying the Data Model"
-msgstr ""
+msgstr "Ispitivanje modela podataka"
 
 #. type: Plain text
 #: tutorials/plugins.md.filt
 msgid "Two methods are used for querying:"
-msgstr ""
+msgstr "Za ispitivanje se koriste dvije metode:"
 
 #. type: Bullet: '-   '
 #: tutorials/plugins.md.filt
 msgid "`select(query=None)` -> returns an iterator"
-msgstr ""
+msgstr "`select(query=None)` -> vraća ponavljajuće"
 
 #. type: Bullet: '-   '
 #: tutorials/plugins.md.filt
 msgid "`lselect(query=None)` -> returns a list"
-msgstr ""
+msgstr "`lselect(query=None)` -> vraća popis"
 
 #. type: Plain text
 #: tutorials/plugins.md.filt
 msgid "`query` is a lambda function with the element as parameter. For example, to fetch all of the Class instances from the element factory:"
 msgstr ""
+"`query` je lambda funkcija s elementom kao parametrom. Na primjer, za "
+"dohvaćanje svih instanci klasa iz tvornice elemenata:"
 
 #. type: Title ##
 #: tutorials/plugins.md.filt
 #, no-wrap
 msgid "Traversing Data Instances"
-msgstr ""
+msgstr "Prolaženje kroz instance podataka"
 
 #. type: Plain text
 #: tutorials/plugins.md.filt
 msgid "Once some classes are obtained, it is common to traverse through a few related objects in order to get the required information. For example: to iterate through all parameters related to a class' operations:"
 msgstr ""
+"Kad se dobiju neke klase, mora se proći kroz nekoliko povezanih objekata za "
+"dobivanje potrebne informacije. Na primjer: za prolaženje kroz sve parametre "
+"vezanih uz operacije klase:"
 
 #. type: Plain text
 #: tutorials/plugins.md.filt
 msgid "Using the `[:]` operator items can be traversed more easily:"
-msgstr ""
+msgstr "Operator `[:]` olakšava prolaženje kroz elemente:"
 
 #. type: Plain text
 #: tutorials/plugins.md.filt
 msgid "It's also possible to provide a query as part of the selection:"
-msgstr ""
+msgstr "Također je moguće zadati upit kao dio odabira:"
 
 #. type: Plain text
 #: tutorials/plugins.md.filt
 msgid "The variable `it` in the query refers to the evaluated object (in this case all operations with a return parameter are taken into account)."
 msgstr ""
+"Varijabla `it` u upitu odnosi se na ocijenjeni objekt (u tom slučaju se "
+"uzimaju u obzir sve operacije s povratnim parametrom)."
 
 #. type: Title ##
 #: tutorials/plugins.md.filt
 #, no-wrap
 msgid "Example Plugin"
-msgstr ""
+msgstr "Primjer dodatka"
 
 #. type: Plain text
 #: tutorials/plugins.md.filt
 msgid "An example Hello World plugin is hosted on GitHub."
-msgstr ""
+msgstr "Primjer dodatka „Hello World” nalazi se na GitHubu."
 
 #. type: YAML Front Matter: title
 #: tutorials/report-bugs.md.filt
 #, no-wrap
 msgid "How to report a bug in Gaphor"
-msgstr ""
+msgstr "Kako prijaviti grešku u Gaphoru"
 
 #. type: Plain text
 #: tutorials/report-bugs.md.filt
 msgid "If you've ever written a line of code, you'll know that all software has bugs.  This will also be the case with Gaphor. If you think you have found a bug, simply click on the link below (you'll need to have an account on GitHub) and then click the green \"New Issue\" button found at the top right hand side of the page:"
 msgstr ""
+"Svatko tko je ikada napisao redak koda, zna, da svaki softver sadrži greške. "
+"To će biti slučaj i s Gaphorom. Ako misliš da si pronašao/la grešku, "
+"jednostavno pritisni na donju poveznicu (moraš imati račun na GitHubu), a "
+"zatim pritisni zeleni gumb „New Issue” (Novi problem) koji se nalazi u "
+"gornjem desnom kutu stranice:"
 
 #. type: Plain text
 #: tutorials/report-bugs.md.filt
 msgid "Report a Bug in Gaphor"
-msgstr ""
+msgstr "Prijavi grešku u Gaphoru"
 
 #. type: Plain text
 #: tutorials/report-bugs.md.filt
 msgid "When you create a new issue it will be given a number and the volunteer developers, who write and maintain the code, will be informed by email. They may annotate questions to your issue, if things are not clear. They may immediately close it and mark it as \"duplicate\" (someone else has already reported the bug -- and they'll reference the original issue). Sometimes they'll close the bug and say \"won't fix\", because they disagree that it's a bug *or* it's too trivial in order to invest any time."
 msgstr ""
+"Kad stvoriš novi problem on će dobiti broj, a programeri volonteri koji pišu "
+"i održavaju kod će se obavijestiti putem e-maila. U slučaju da nešto nije "
+"jasno, oni mogu dodati pitanja o tvom problemu. Mogu ga odmah zatvoriti i "
+"označiti kao „duplicate” (duplikat) (što znači da je netko drugi već "
+"prijavio istu grešku – tada će se pozvati na izvorni problem). Ponekad će "
+"zatvoriti problem s komentarom „won’t fix” (neće se ispraviti), jer se ne "
+"slažu da se radi o grešci *ili* da je problem prejednostavan da bi ulagali "
+"vrijeme u rješavanje problema."
 
 #. type: Plain text
 #: tutorials/report-bugs.md.filt
 msgid "There are generally two sorts of bugs:"
-msgstr ""
+msgstr "Općenito postoje dvije vrste grešaka:"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md.filt
 msgid "Technical: the code has a mistake in it which causes the program to break."
-msgstr ""
+msgstr "Tehnička greška: kod ima grešku koja uzrokuje prekid programa."
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md.filt
 msgid "Behavioural: the code works correctly, but is doing the wrong thing."
-msgstr ""
+msgstr "Greška u ponašanju programa: kod radi ispravno, ali radi krive stvari."
 
 #. type: Plain text
 #: tutorials/report-bugs.md.filt
 msgid "In both cases, for us to be able to fix the bug, we need **as much information as possible**. When you create a new issue you should try to include, where relevant, the following sorts of information:"
 msgstr ""
+"U oba slučaja, da bismo mogli ispraviti grešku, trebamo **što više "
+"informacija**. Kad stvoriš novi problem, uključi, gdje je važno, sljedeće "
+"vrste informacija:"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md.filt
 msgid "What you were trying to do,"
-msgstr ""
+msgstr "Što si pokušao/la uraditi,"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md.filt
 msgid "What steps you took to make this happen,"
-msgstr ""
+msgstr "Navedi korake koje si poduzeo/la prije pojavljivanja problema,"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md.filt
 msgid "What you expected to happen,"
-msgstr ""
+msgstr "Što si očekivao/la da će se dogoditi,"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md.filt
 msgid "What actually happened,"
-msgstr ""
+msgstr "Što se dogodilo,"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md.filt
 msgid "Why this difference is problematic (it may not be a bug!),"
-msgstr ""
+msgstr "Zašto je ova razlika problematična (možda se ne radi o grešci!),"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md.filt
 msgid "Technical details like the version of Gaphor you're using, your OS version and other aspects of the context in which Gaphor was running."
 msgstr ""
+"Tehničke detalje kao što su verzija korištenog Gaphora, verzija OS-a i druge "
+"aspekte konteksta u kojem je Gaphor radio."
 
 #. type: Plain text
 #: tutorials/report-bugs.md.filt
 msgid "Use plain and simple language to describe the problem and, if helpful, break it down into steps so developers can easily recreate the issue. Please don't assume we'll understand what you were trying to achieve -- honestly, it's best if you try to imagine we (the developers) are a bunch of clever 5-year-olds.  Try to explain *everything* about the problem and don't assume we know what you mean. We won't mind!"
 msgstr ""
+"Koristi jednostavan jezik za opisivanje problema i, ako treba, navedi radnje "
+"prije pojavljivanja problema korak po korak, kako bi programeri mogli "
+"reproducirati problem. Nemoj pretpostavljati da ćemo razumjeti što si pokuš"
+"avao/la postići – iskreno rečeno, najbolje je ako pokušaš zamisliti da smo "
+"mi (programeri) gomila pametnih petogodišnjaka. Pokušaj objasniti *sve* o "
+"problemu i nemoj pretpostavljati da znamo što misliš. Nećemo imati ništa "
+"protiv!"
 
 #. type: Plain text
 #: tutorials/report-bugs.md.filt
 msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the Gaphor developer's website."
 msgstr ""
+"Ako se želiš uključiti u razvoj Gaphora, pridruži nam se na Gaphor web-"
+"stranici za programere."
 
 #. type: Bullet: '1. '
 #: tutorials/get-started-with-gaphor.md.filt tutorials.md.filt
 #, no-wrap
 msgid "Get started with Gaphor"
-msgstr ""
+msgstr "Počni raditi s Gaphorom"
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt
 msgid "Once Gaphor is launched, it provides you an almost empty user interface.  A new model is already created and the diagram is opened."
 msgstr ""
+"Nakon pokretanja Gaphora, program pruža gotovo prazno korisničko sučelje. "
+"Novi model je već stvoren i dijagram otvoren."
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt
 msgid "The layout of the Gaphor interface is divided into four sections, namely:"
-msgstr ""
+msgstr "Izgled sučelja Gaphora je podijeljen u četiri odjeljka, naime:"
 
 #. type: Title ##
 #: tutorials/get-started-with-gaphor.md.filt
 #, no-wrap
 msgid "Navigation"
-msgstr ""
+msgstr "Navigacija"
 
 #. type: Bullet: '-   '
 #: tutorials/get-started-with-gaphor.md.filt
 msgid "Diagrams"
-msgstr ""
+msgstr "Dijagrami"
 
 #. type: Bullet: '-   '
 #: tutorials/get-started-with-gaphor.md.filt
 msgid "Diagram Element Toolbox"
-msgstr ""
+msgstr "Kutija alata za elemente dijagrama"
 
 #. type: Bullet: '-   '
 #: tutorials/get-started-with-gaphor.md.filt
 msgid "Properties pane"
-msgstr ""
+msgstr "Ploča svojstava"
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt
 msgid "Each section has its own specific function."
-msgstr ""
+msgstr "Svaki odjeljak ima vlastitu specifičnu funkciju."
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt
 msgid "The navigation section of the interface displays a hierarchical view of your model. Every model element you create will be inserted into the navigation section. This view acts as a tree where you can expand and collapse different elements of your model. This provides an easy way to view the elements of your model from an elided perspective. That is, you can collapse those model elements that are irrelevant to the task at hand."
 msgstr ""
+"Odjeljak navigacije prikazuje hijerarhijski pogled na model. Svaki element "
+"modela koji stvaraš umetnut će se u odjeljak navigacije. Ovaj pogled djeluje "
+"kao stablo u kojem možeš rasklopiti i sklopiti različite elemente modela. To "
+"pruža jednostavan način za pregled elemenata modela iz perspektive "
+"izostavljanja, odnosno možeš sklopiti elemente modela koji nisu važni za "
+"zadatak."
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt tutorials/your-first-model.md.filt
 msgid "!image"
-msgstr ""
+msgstr "!Slika"
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt
 msgid "In the figure above, you will see that there are three elements in the navigation view. The root element, _New Model_ is a package. Notice the small arrow beside _New Model_ that is pointing downward. This indicates that the element is expanded. You will also notice the two sub-elements are slightly indented in relation to _New Model_. The _NewClass_ element is a class and the _main_ element is a diagram."
 msgstr ""
+"U gornjoj slici vidjet ćeš da postoje tri elementa u prikazu navigacije. "
+"Osnovni element, _Novi model_ je paket. Obrati pažnju na malu strelicu pored "
+"_Novi model_ koja je usmjerena prema dolje. To znači da je element "
+"rasklopljen. Također ćeš primijetiti da su dva podelementa malo uvučena u "
+"odnosu na _Novi model_. Element _Nova klasa_ je klasa, a element _glavni_ je "
+"dijagram."
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt
 msgid "In the navigation view, you can also right-click the model elements to get a context menu. This context menu allows you to delete model elements, and to refresh the navigation view."
 msgstr ""
+"U prikazu navigacije također možeš desnom tipkom miša pritisnuti elemente "
+"modela za dobivanje kontekstnog izbornika. Ovaj kontekstni izbornik "
+"omogućuje brisanje elemenata modela i aktualiziranje prikaza navigacije."
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt
 msgid "Double clicking on a diagram element will open it in the Diagram section. Elements such as classes and packages can be dragged from the tree view on the diagrams."
 msgstr ""
+"Dvostrukim pritiskom na element dijagrama, element će se otvorit u odjeljku "
+"„Dijagram”. Elementi kao što su klase i paketi, mogu se povući iz stablastog "
+"prikaza na dijagrame."
 
 #. type: Title ##
 #: tutorials/get-started-with-gaphor.md.filt
 #, no-wrap
 msgid "Diagram Section"
-msgstr ""
+msgstr "Odjeljak dijagrama"
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt
 msgid "The diagram section takes up the most space. Multiple diagrams can be opened at once: they are shown in tabs. Tabs can be closed from the file menu (Close) and by pressing Ctrl+w."
 msgstr ""
+"Odjeljak dijagrama zauzima najviše prostora. Više dijagrama se mogu otvoriti "
+"odjednom: prikazuju se u karticama. Kartice se mogu zatvoriti putem "
+"izbornika datoteka (Zatvori) i pritiskom tipki Ctrl+w."
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt
 msgid "Most elements have hot zones, shown as gray rectangles that are only visible when the item is selected. Double clicking on those rectangles allows you to directly edit the item. E.g. change its name."
 msgstr ""
+"Većina elemenata ima vruće zone, koji se prikazuju kao sivi pravokutnici i "
+"koji su vidljivi samo kad je element odabran. Dvostrukim pritiskom na te "
+"pravokutnike omogućuje izravno uređivanje elementa. Npr. promijeniti ime."
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt
 msgid "Changes you make can be undone by pressing Ctrl+z. To re-do a change, hit Ctrl+Shift+z."
 msgstr ""
+"Promjene možeš poništiti pritiskom tipki Ctrl+z. Za ponavljanje promjene, "
+"pritisni tipke Ctrl+Shift+z."
 
 #. type: Title ##
 #: tutorials/get-started-with-gaphor.md.filt
 #, no-wrap
 msgid "Toolbox"
-msgstr ""
+msgstr "Kutija alata"
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt
 msgid "The toolbox is mainly used to add new items to a diagram. Select the element you want to add by clicking on it. When you click on the diagram, the selected element is created. The arrow is selected again, so the element can be manipulated."
 msgstr ""
+"Kutija alata se uglavnom koristi za dodavanje novih elemenata dijagramu. "
+"Odaberi element koji želiš dodati pritiskom na njega. Kad pritisneš na "
+"dijagram, stvara se odabrani element. Strelica se ponovno bira, tako da se "
+"elementom može manipulirati."
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt
 msgid "Tools can be selected by simply clicking on them. By default the pointer tool is selected after every item placement. This can be changed by disabling the \"Reset tool\" option in the Preferences window. Tools can also be selected by a keyboard shortcut. The actual character is displayed as part of the tooltip. Finally it is also possible to drag elements on the canvas from the toolbox."
 msgstr ""
+"Alati se mogu odabrati jednostavnim pritiskom. Prema standardnim postavkama "
+"pokazivač se bira nakon svakog postavljanja elementa. To se može promijeniti "
+"deaktiviranjem opcije „Resetiraj alat” u prozoru „Postavke”. Alati se "
+"također mogu odabrati tipkovnim prečacem. Stvarni znak se prikazuje kao dio "
+"savjeta alata. Na kraju krajeva, elementi se također mogu povući na platno "
+"iz kutije alata."
 
 #. type: Title ##
 #: tutorials/get-started-with-gaphor.md.filt
 #, no-wrap
 msgid "Element Editor"
-msgstr ""
+msgstr "Uređivač elemenata"
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt
 msgid "The Element editor can be unfolded by pressing the pensil button. This will reveal a utility window that shows all characteristics of the selected element.  Things like name, attributes and stereotypes. It can be opened with Ctrl+e."
 msgstr ""
+"Uređivač elemenata može se otvoriti pritiskom na tipku olovke. Ovo će "
+"otkriti prozor uslužnog programa koji prikazuje sve karakteristike odabranog "
+"elementa. Stvari poput imena, atributa i stereotipa. Može se otvoriti pomoću "
+"Ctrl+e."
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt
 msgid "The properties shown depend on the element that is selected."
-msgstr ""
+msgstr "Prikazana svojstva ovise o elementu koji je odabran."
 
 #. type: Bullet: '2. '
 #: tutorials/your-first-model.md.filt tutorials.md.filt
 #, no-wrap
 msgid "Your First Model"
-msgstr ""
+msgstr "Tvoj prvi model"
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
 msgid "Once Gaphor is started a new empty model is automatically created. The main diagram is already open in the Diagram section."
 msgstr ""
+"Kad se Gaphor pokrene, automatski se stvara novi prazan model. Glavni "
+"dijagram je već otvoren u odjeljku „Dijagram”."
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
 msgid "Select an element you want to place (e.g. a class) by clicking on the icon in the Toolbox and click on the diagram. This will place a new Class item instance on the diagram and add a new Class to the model (it shows up in the Navigation.  The selected tool will reset itself to the Pointer tool after the element is placed on the diagram."
 msgstr ""
+"Odaberi element koji želiš postaviti (npr. klasu) pritiskom na ikonu u "
+"kutiji alata i pritisni dijagram. To će postaviti novu instancu elementa "
+"klase u dijagram i dodati novu klasu modelu (pojavljuje se u navigaciji). "
+"Odabrani alat će se resetirati na alat pokazivača nakon što se element "
+"postavi na dijagram."
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
 msgid "It's simple to add elements to a diagram."
-msgstr ""
+msgstr "Elementi se mogu jednostavno dodati dijagramu."
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
 msgid "Some elements are not directly visible. The section in the toolbox is collapsed and needs to be clicked first to reveal its contents."
 msgstr ""
+"Neki elementi nisu izravno vidljivi. Odjeljak u kutiji alata je sklopljen i "
+"mora se pritisnuti da bi se otkrio njegov sadržaj."
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
 msgid "Gaphor does not make any assumptions about which elements should be placed on a diagram. A diagram is a diagram. UML defines all different kinds of diagrams, such as Class diagrams, Component diagrams, Action diagrams, Sequence diagrams. But Gaphor does not place any restrictions."
 msgstr ""
+"Gaphor ne pretpostavlja koji se elementi trebaju postaviti na dijagram. "
+"Dijagram je dijagram. UML definira sve različite vrste dijagrama, kao što su "
+"dijagrami klasa, dijagrami komponenti, dijagrami radnji, dijagrami sekvenci. "
+"Ali Gaphor ne postavlja nikakva ograničenja."
 
 #. type: Title ##
 #: tutorials/your-first-model.md.filt
 #, no-wrap
 msgid "Creating New Diagrams"
-msgstr ""
+msgstr "Stvaranje novih dijagrama"
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
 msgid "To create a new diagram, use the Navigation section. Select an element that can contain a diagram (a Package or Profile) and right-click. Select New diagram and a new diagram is created. As of Gaphor 1.1.0 a buttion is available in the header bar. Select a package and you'll notice the button is not grayed out and can be clicked, resulting in a new diagram being added to the model."
 msgstr ""
+"Za stvaranje novog dijagrama koristi odjeljak „Navigacija”. Odaberi element "
+"koji može sadržavati dijagram (paket ili profil) i pritisni za desnom tipkom "
+"miša. Odaberi „Novi dijagram” i stvorit će se novi dijagram. Uvođenjem "
+"Gaphora verzije 1.1.0, postoji gumb u traci zaglavlja. Odaberi paket i "
+"primijetit ćeš da gumb nije neaktivan i da ga se može pritisnuti. Pritiskom "
+"gumba modelu se dodaje novi dijagram."
 
 #. type: Title ##
 #: tutorials/your-first-model.md.filt
 #, no-wrap
 msgid "Copy and Paste"
-msgstr ""
+msgstr "Kopiraj i umetni"
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
 msgid "Items in a diagram can be copied and pasted (in the same diagram or another). A paste will create new items in the diagrams, the items they represent (e.g. the Class that's shown in the Navigation) is *not* copied (call it a shallow copy if you like)."
 msgstr ""
+"Elementi u dijagramu mogu se kopirati i umetnuti (u istom ili jednom drugom "
+"dijagramu). Umetanje će stvoriti nove elemente u dijagramima, elemente koje "
+"predstavljaju (npr. klasa koja je prikazana u odjeljku „Navigacija”) se *ne* "
+"kopiraju."
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
 msgid "This way you can easely create visual copies of the same (underlaying) model element."
 msgstr ""
+"Na taj način možeš jednostavno stvoriti virtualne kopije istog (podmetnutog) "
+"elementa modela."
 
 #. type: Title ##
 #: tutorials/your-first-model.md.filt
 #, no-wrap
 msgid "Drag and Drop"
-msgstr ""
+msgstr "Povuci i ispusti"
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
 msgid "Adding an existing element to a diagram is simple: drag the element from the Navigation section onto a diagram. Not all elements that show up in the Navigation can be added: Diagrams and attribute/operations of a Class can not be added."
 msgstr ""
+"Dodavanje postojećeg elementa dijagramu je jednostavno: povuci element iz "
+"odjeljka „Navigacija” na dijagram. Ne mogu se dodati svi elementi koji se "
+"pojavljuju u odjeljku „Navigacija”: dijagrami i atributi/operacije klase se "
+"ne mogu dodati."
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
 msgid "Elements can also be dragged within the Navigation section. This way classes and packages can be rearranged for example."
 msgstr ""
+"Elementi se također mogu povlačiti unutar odjeljka „Navigacija”. Na taj se "
+"način na primjer mogu prerasporediti klase i paketi."
 
 #. type: YAML Front Matter: title
 #: _usps/01-platform.md.filt
 #, no-wrap
 msgid "Multi-platform"
-msgstr ""
+msgstr "Višeplatformski"
 
 #. type: Plain text
 #: _usps/01-platform.md.filt
 msgid "Gaphor works on all major platforms: Windows, Macos and Linux."
-msgstr ""
+msgstr "Gaphor radi na svim glavnim platformama: Windows, Macos i Linux."
 
 #. type: YAML Front Matter: title
 #: _usps/02-opensource.md.filt
 #, no-wrap
 msgid "Open Source"
-msgstr ""
+msgstr "Otvoreni kod"
 
 #. type: Plain text
 #: _usps/02-opensource.md.filt
 msgid "No vendor lock-in: Gaphor written in Python and is 100% Open Source, available under a friendly Apache 2 license."
 msgstr ""
+"Bez ograničenja od strane proizvođača: Gaphor je napisan u Pythonu, 100 % "
+"otvorenog koda, dostupan pod licencom Apache 2."
 
 #. type: YAML Front Matter: title
 #: _usps/03-beginner-pro.md.filt
 #, no-wrap
 msgid "Beginner or Pro"
-msgstr ""
+msgstr "Za početnike ili profesionalace"
 
 #. type: Plain text
 #: _usps/03-beginner-pro.md.filt
 msgid "Whether you're a casual modeler documenting a project or a Model Driven Development expert, Gaphor has got you covered."
 msgstr ""
+"Svejedno jesi li običan modelar koji dokumentira projekte ili stručnjak za "
+"softverski razvoj modela, Gaphor sadrži sve što trebaš."
 
 #. type: YAML Front Matter: title
 #: _usps/04-consistent.md.filt
 #, no-wrap
 msgid "Consistent"
-msgstr ""
+msgstr "Dosljedan"
 
 #. type: Plain text
 #: _usps/04-consistent.md.filt
 msgid "UML is a graphical modeling language, so all information you put in the model is visible in the diagrams. For example, stereotypes are modeled in diagrams.  No hidden panels and property pages. Just diagrams!"
 msgstr ""
+"UML je jezik za grafičko modeliranje, tako da su sve u model unesene "
+"informacije vidljive u dijagramima. Na primjer, stereotipi se modeliraju u "
+"dijagramima. Nema skrivenih ploča i stranica sa svojstvima. Samo dijagrami!"
 
 #. type: YAML Front Matter: title
 #: _usps/05-extensible.md.filt
 #, no-wrap
 msgid "Extensible"
-msgstr ""
+msgstr "Proširiv"
 
 #. type: Plain text
 #: _usps/05-extensible.md.filt
 msgid "Gaphor is extensible. Plug-in a code generator or export your diagrams for documentation.  Create your own extensions and access them through the GUI or CLI."
 msgstr ""
+"Gaphor je proširiv. Dodaj generator koda ili izvezi dijagrame za "
+"dokumentaciju. Stvori vlastita proširenja i pristupi im putem grafičkog "
+"sučelja ili putem naredbenog retka."
 
 #. type: YAML Front Matter: title
 #: _usps/06-standard.md.filt
 #, no-wrap
 msgid "Standards Compliant"
-msgstr ""
+msgstr "Sukladan standardima"
 
 #. type: Plain text
 #: _usps/06-standard.md.filt
 msgid "Gaphor implements the UML, SysML, and RAAML OMG standards. It also includes support for the C4 model for visualizing software architectures."
 msgstr ""
+"Gaphor implementira UML, SysML i RAAML OMG standarde. Također uključuje "
+"podršku za model C4 za vizualiziranje arhitektura softvera."
 
 #. type: YAML Front Matter: title
 #: contribute.md.filt
 #, no-wrap
 msgid "Contribute"
-msgstr ""
+msgstr "Doprinesi"
 
 #. type: Plain text
 #: contribute.md.filt
 msgid "Would you like to contribute to the development of Gaphor? (If you think this is only something for experienced developers, please reconsider, there are plenty of ways to contribute to Gaphor, no matter your level of experience or skill set."
 msgstr ""
+"Želiš doprinijeti razvoju Gaphora? Ako misliš da je ovo samo za iskusne "
+"programere, ne brini. Postoji mnogo načina kako doprinijeti Gaphoru, bez "
+"obzira na razinu iskustva ili vještine."
 
 #. type: Plain text
 #: contribute.md.filt
 msgid "Our technical documentation is hosted on the wonderful service that is Read the Docs. Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
 msgstr ""
+"Naša se tehnička dokumentacija čuva na usluzi „Read the Docs”. Ne samo da "
+"sadrži potrebne pojedinosti za doprinošenje kodu Gaphora, već opisuje i "
+"mnoge druge načine za doprinošenje (uključujući aktualiziranje ove web-"
+"stranice). Na kraju krajeva, pruža vodič za naše procese i očekivanja za "
+"različite vrste doprinosa Gaphoru."
 
 #. type: Plain text
 #: contribute.md.filt
 msgid "The source code is hosted on GitHub."
-msgstr ""
+msgstr "Izvorni kod se nalazi na GitHubu."
 
 #. type: Plain text
 #: contribute.md.filt
 msgid "If in doubt, just ask in our discussion area and someone will be able to point you in the right direction."
 msgstr ""
+"Ako si u nedoumici, jednostavno postavi pitanje u našem području za raspravu "
+"i netko će te sigurno moći usmjeriti u pravom smjeru."
 
 #. type: YAML Front Matter: title
 #: discuss.md.filt
 #, no-wrap
 msgid "Get in touch"
-msgstr ""
+msgstr "Kontaktiraj zajednicu"
 
 #. type: Plain text
 #: discuss.md.filt
 msgid "It's good to talk, share knowledge and learn from other users of Gaphor. Perhaps you have a question, problem or are unsure how to do something with Gaphor? Discussing such things in a supportive environment is a good way to make progress, make friends, and help. Put simply, Gaphor is a community focused project, and we have created a couple of online spaces where the community can come together."
 msgstr ""
+"Dobro je razgovarati, dijeliti znanje i učiti od drugih korisnika Gaphora. "
+"Možda imaš pitanje, problem ili ne znaš kako nešto učiniti s Gaphorom? "
+"Rasprava o takvim stvarima u okruženju podrške dobar je način za "
+"napredovanje, sklapanje prijateljstva i pomoć. Jednostavno rečeno, Gaphor je "
+"zajednički projekt, a mi smo stvorili nekoliko mogućnosti gdje se zajednica "
+"može okupiti."
 
 #. type: Plain text
 #: discuss.md.filt
 msgid "Contributions are welcome without prejudice from anyone irrespective of age, gender, religion, race, or sexuality. If you’re thinking, \"but they don't mean me\", then we especially mean YOU."
 msgstr ""
+"Doprinosi su dobrodošli bez predrasuda od bilo koga, bez obzira na dob, "
+"spol, vjeru, rasu ili spol. Ako misliš, „ali oni ne misle na mene”, onda "
+"posebno mislimo na TEBE."
 
 #. type: Title ##
 #: discuss.md.filt
 #, no-wrap
 msgid "Chat on Gitter"
-msgstr ""
+msgstr "Raspravljaj na Gitteru"
 
 #. type: Plain text
 #: discuss.md.filt
 msgid "Our real-time conversations are on Gitter and are bridged to Matrix.  Matrix is the preferred way, since it's more use friendly than bare Gitter."
 msgstr ""
+"Naši razgovori uživo vode se na Gitteru i povezani su s Matrixom. Matrix je "
+"poželjniji način, budući da je pogodniji za korištenje od Gittera."
 
 #. type: Plain text
 #: discuss.md.filt
 #, no-wrap
 msgid " Join Matrix with Element.io\n"
-msgstr ""
+msgstr " Pridruži se Matrixu s Element.io\n"
 
 #. type: Plain text
 #: discuss.md.filt
 #, no-wrap
 msgid " Join Gitter Chat\n"
-msgstr ""
+msgstr " Pridruži se raspravama na Gitteru\n"
 
 #. type: Plain text
 #: discuss.md.filt
 msgid "NB. If you're using a mobile device, use the Element app (for Matrix), the Gitter app is no longer supported."
 msgstr ""
+"VAŽNO. Ako koristiš mobilni uređaj, koristi program Element (za Matrix), "
+"aplikacija Gitter se više ne podržava."
 
 #. type: Title ##
 #: discuss.md.filt
 #, no-wrap
 msgid "Submit an Issue on GitHub"
-msgstr ""
+msgstr "Prijavi problem na GitHubu"
 
 #. type: Plain text
 #: discuss.md.filt
 msgid "Please use our GitHub issue tracker for general questions and reporting bugs.  Before submitting a GitHub issue please review our page about how to report a bug in Gaphor."
 msgstr ""
+"Koristi naš sustav za praćenje problema na GitHubu za opća pitanja i "
+"prijavljivanje grešaka. Prije nego što pošalješ problem na GitHubu, "
+"pregledaj našu stranicu o tome kako prijaviti grešku u Gaphoru."
 
 #. type: Plain text
 #: discuss.md.filt
 #, no-wrap
 msgid " Submit an Issue on GitHub\n"
-msgstr ""
+msgstr " Prijavi problem na GitHubu\n"
 
 #. type: Title ##
 #: discuss.md.filt
 #, no-wrap
 msgid "Community Conduct"
-msgstr ""
+msgstr "Kodeks zajednice"
 
 #. type: Plain text
 #: discuss.md.filt
 msgid "We expect contributors to follow the Code of Conduct."
-msgstr ""
+msgstr "Očekujemo od doprinositelja da se pridržavaju kodeksa."
 
 #. type: Plain text
 #: discuss.md.filt
 msgid "We want our community to be a safe, welcoming and friendly place.  We won't hesitate to issue a clear warning and, if ignored, ban people who don't behave in the spirit of the code of conduct. If a conduct related situation arises, we will endeavour to act in a discreet, sympathetic and fair manner to all concerned."
 msgstr ""
+"Želimo da naša zajednica bude sigurno, gostoljubivo i prijateljsko mjesto. "
+"Nećemo oklijevati izdati jasno upozorenje i, ako se upozorenje zanemari, "
+"isključiti osobe koje se ne ponašaju u duhu kodeksa. Ako dođe do situacije u "
+"vezi s kodeksom, nastojat ćemo djelovati na diskretan, prijateljski i pošten "
+"način prema svim dotičnim osobama."
 
 #. type: YAML Front Matter: title
 #: tutorials.md.filt
 #, no-wrap
 msgid "Tutorials"
-msgstr ""
+msgstr "Vježbe"
 
 #. type: Plain text
 #: tutorials.md.filt
 msgid "Each tutorial is a self-contained lesson, explaining a specific aspect of Gaphor, so you have the skills needed to achieve your learning and modeling goals."
 msgstr ""
+"Svaka vježba je samostalna lekcija koja objašnjava određeni aspekt Gaphora, "
+"tako da naučiš potrebne vještine za postizanje tvojih ciljeva učenja i "
+"modeliranja."
 
 #. type: Plain text
 #: tutorials.md.filt
@@ -763,80 +957,96 @@ msgid ""
 "Michigan Python meetup.\n"
 "4. How to report a bug in Gaphor\n"
 msgstr ""
+"3. Uvod u Gaphor i\n"
+"SysML, koji je predstavio Dan na\n"
+"Michigan Python susretu.\n"
+"4. Kako prijaviti grešku u Gaphoru\n"
 
 #. type: Title ##
 #: tutorials.md.filt
 #, no-wrap
 msgid "Advanced topics"
-msgstr ""
+msgstr "Napredne teme"
 
 #. type: Plain text
 #: tutorials.md.filt
 msgid "- Extend your models with stereotypes - Writing a plugin - Technical and architectural documentation for contributors and plugin developers"
 msgstr ""
+"- Proširi svoje modele sa stereotipima - Pisanje dodatka - Tehnička i "
+"arhitektonska dokumentacija za doprinositelje i programere dodataka"
 
 #. type: Title ##
 #: tutorials.md.filt
 #, no-wrap
 msgid "Talks"
-msgstr ""
+msgstr "Predavanja"
 
 #. type: Bullet: '- '
 #: tutorials.md.filt
 msgid "Dan and Arjan spoke at Linux App Summit 2021 about how Gaphor is made available to all desktop platforms Linux/Windows/macOS."
 msgstr ""
+"Dan i Arjan govorili su na Linux App Summitu 2021. o dostupnosti Gaphora na "
+"svim platformama radnih površina Linux/Windows/macOS."
 
 #. type: Bullet: '- '
 #: tutorials.md.filt
 msgid "Dan spoke at the 2021 MIT STAMP Workshop about _Open STPA with RAAML and Gaphor_."
 msgstr ""
+"Dan je na sastanku MIT STAMP 2021. govorio o temi _Open STPA s RAAML-om i "
+"Gaphorom_."
 
 #. type: Bullet: '- '
 #: tutorials.md.filt
 msgid "Arjan spoke at GUADEC 2021 about Large GUI application with Python and GTK."
 msgstr ""
+"Arjan je na GUADEC-u 2021. govorio o velikom GUI programu s Pythonom i GTK-"
+"om."
 
 #. type: YAML Front Matter: title
 #: download.md.filt
 #, no-wrap
 msgid "Download Gaphor"
-msgstr ""
+msgstr "Preuzmi Gaphor"
 
 #. type: Plain text
 #: download.md.filt
 msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."
 msgstr ""
+"Postoji mnogo načina za instaliranje Gaphora. Najjednostavnije je preuzeti "
+"službeni instalacijski program za Windows ili macOS. Za Linux se Gaphor može "
+"instalirati koristeći FlatHub. Također je moguće koristiti Pythonov ugrađeni "
+"`pip` alat ukoliko su sve potrebne ovisnosti instalirane."
 
 #. type: Plain text
 #: download.md.filt
 msgid "If you're a developer, you can find the source code on GitHub."
-msgstr ""
+msgstr "Ako si programer/ka, izvorni kod možeš pronaći na GitHubu."
 
 #. type: Title #
 #: 404.md.filt
 #, no-wrap
 msgid "404"
-msgstr ""
+msgstr "404"
 
 #. type: Plain text
 #: 404.md.filt
 #, no-wrap
 msgid "**Page not found :(**\n"
-msgstr ""
+msgstr "**Stranica nije pronađena :(**\n"
 
 #. type: Plain text
 #: 404.md.filt
 msgid "The requested page could not be found."
-msgstr ""
+msgstr "Zatražena stranica nije pronađena."
 
 #. type: YAML Front Matter: title
 #: index.md.filt
 #, no-wrap
 msgid "Modeling for Everyone"
-msgstr ""
+msgstr "Modeliranje za svakoga"
 
 #. type: YAML Front Matter: title
 #: blog.md.filt
 #, no-wrap
 msgid "Blog and News"
-msgstr ""
+msgstr "Blog i Novosti"
