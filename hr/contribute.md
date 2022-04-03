@@ -3,13 +3,12 @@ handle: /contribute
 language: hr
 layout: article
 redirect_from: /pages/developers.html
-title: Contribute
+title: Doprinesi
 ---
 
-Would you like to contribute to the development of Gaphor? (If you think
-this is only something for experienced developers, please reconsider, there
-are plenty of ways to contribute to Gaphor, no matter your level of
-experience or skill set.
+Želiš doprinijeti razvoju Gaphora? Ako misliš da je ovo samo za iskusne
+programere, ne brini. Postoji mnogo načina kako doprinijeti Gaphoru, bez
+obzira na razinu iskustva ili vještine.
 
 Our [technical documentation](https://gaphor.readthedocs.io) is hosted on
 the wonderful service that is Read the Docs. Not only does it contain

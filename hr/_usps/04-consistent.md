@@ -1,9 +1,9 @@
 ---
 icon: eye
 language: hr
-title: Consistent
+title: Dosljedan
 ---
 
-UML is a graphical modeling language, so all information you put in the
-model is visible in the diagrams. For example, stereotypes are modeled in
-diagrams.  No hidden panels and property pages. Just diagrams!
+UML je jezik za grafičko modeliranje, tako da su sve u model unesene
+informacije vidljive u dijagramima. Na primjer, stereotipi se modeliraju u
+dijagramima. Nema skrivenih ploča i stranica sa svojstvima. Samo dijagrami!

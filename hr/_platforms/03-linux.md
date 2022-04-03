@@ -12,7 +12,7 @@ Linux. If you don't have it setup already, follow the instructions to
 
 <a class="btn btn-primary btn-lg" href="https://www.flathub.org/apps/details/org.gaphor.Gaphor">Install Flatpak</a>
 
-To manually install Gaphor:
+Za ručno instaliranje Gaphora:
 
 ```bash
 flatpak remote-add --user --if-not-exists \

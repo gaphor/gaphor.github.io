@@ -3,12 +3,12 @@ handle: /tutorials
 language: hr
 layout: article
 redirect_from: /pages/how-to.html
-title: Tutorials
+title: Vježbe
 ---
 
-Each tutorial is a self-contained lesson, explaining a specific aspect of
-Gaphor, so you have the skills needed to achieve your learning and modeling
-goals.
+Svaka vježba je samostalna lekcija koja objašnjava određeni aspekt Gaphora,
+tako da naučiš potrebne vještine za postizanje tvojih ciljeva učenja i
+modeliranja.
 
 1. <a href="get-started-with-gaphor">Get started with Gaphor</a>
 2. <a href="your-first-model">Your First Model</a>
@@ -18,7 +18,7 @@ Michigan Python meetup.
 4. <a href="report-bugs">How to report a bug in Gaphor</a>
 
 
-## Advanced topics
+## Napredne teme
 
 - [Extend your models with
 stereotypes](https://gaphor.readthedocs.io/en/latest/stereotypes.html)  -
@@ -26,7 +26,7 @@ stereotypes](https://gaphor.readthedocs.io/en/latest/stereotypes.html)  -
 architectural documentation](https://gaphor.readthedocs.io/)  for
 contributors and plugin developers
 
-## Talks
+## Predavanja
 
 - Dan and Arjan spoke at [Linux App Summit
   2021](https://linuxappsummit.org/)  about [how Gaphor is made available to

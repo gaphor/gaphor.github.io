@@ -3,75 +3,75 @@ handle: /tutorials/get-started-with-gaphor
 language: hr
 layout: article
 redirect_from: /pages/your-first-model.html
-title: 'Get started with Gaphor'
+title: 'Počni raditi s Gaphorom'
 ---
 
-Once Gaphor is launched, it provides you an almost empty user interface.  A
-new model is already created and the diagram is opened.
+Nakon pokretanja Gaphora, program pruža gotovo prazno korisničko
+sučelje. Novi model je već stvoren i dijagram otvoren.
 
-The layout of the Gaphor interface is divided into four sections, namely:
+Izgled sučelja Gaphora je podijeljen u četiri odjeljka, naime:
 
--   Navigation
--   Diagrams
--   Diagram Element Toolbox
--   Properties pane
+-   Navigacija
+-   Dijagrami
+-   Kutija alata za elemente dijagrama
+-   Ploča svojstava
 
-Each section has its own specific function.
+Svaki odjeljak ima vlastitu specifičnu funkciju.
 
-## Navigation
+## Navigacija
 
-The navigation section of the interface displays a hierarchical view of your
-model. Every model element you create will be inserted into the navigation
-section. This view acts as a tree where you can expand and collapse
-different elements of your model. This provides an easy way to view the
-elements of your model from an elided perspective. That is, you can collapse
-those model elements that are irrelevant to the task at hand.
+Odjeljak navigacije prikazuje hijerarhijski pogled na model. Svaki element
+modela koji stvaraš umetnut će se u odjeljak navigacije. Ovaj pogled djeluje
+kao stablo u kojem možeš rasklopiti i sklopiti različite elemente modela. To
+pruža jednostavan način za pregled elemenata modela iz perspektive
+izostavljanja, odnosno možeš sklopiti elemente modela koji nisu važni za
+zadatak.
 
 ![image](/images/gaphor-treeview.png)
 
-In the figure above, you will see that there are three elements in the
-navigation view. The root element, _New Model_ is a package. Notice the
-small arrow beside _New Model_ that is pointing downward. This indicates
-that the element is expanded. You will also notice the two sub-elements are
-slightly indented in relation to _New Model_. The _NewClass_ element is a
-class and the _main_ element is a diagram.
+U gornjoj slici vidjet ćeš da postoje tri elementa u prikazu
+navigacije. Osnovni element, _Novi model_ je paket. Obrati pažnju na malu
+strelicu pored _Novi model_ koja je usmjerena prema dolje. To znači da je
+element rasklopljen. Također ćeš primijetiti da su dva podelementa malo
+uvučena u odnosu na _Novi model_. Element _Nova klasa_ je klasa, a element
+_glavni_ je dijagram.
 
-In the navigation view, you can also right-click the model elements to get a
-context menu. This context menu allows you to delete model elements, and to
-refresh the navigation view.
+U prikazu navigacije također možeš desnom tipkom miša pritisnuti elemente
+modela za dobivanje kontekstnog izbornika. Ovaj kontekstni izbornik
+omogućuje brisanje elemenata modela i aktualiziranje prikaza navigacije.
 
-Double clicking on a diagram element will open it in the Diagram
-section. Elements such as classes and packages can be dragged from the tree
-view on the diagrams.
+Dvostrukim pritiskom na element dijagrama, element će se otvorit u odjeljku
+„Dijagram”. Elementi kao što su klase i paketi, mogu se povući iz stablastog
+prikaza na dijagrame.
 
-## Diagram Section
+## Odjeljak dijagrama
 
 The diagram section takes up the most space. Multiple diagrams can be
 opened at once: they are shown in tabs. Tabs can be closed from the file
 menu (Close) and by pressing <kbd>Ctrl+w</kbd>.
 
-Most elements have hot zones, shown as gray rectangles that are only visible
-when the item is selected. Double clicking on those rectangles allows you to
-directly edit the item. E.g. change its name.
+Većina elemenata ima vruće zone, koji se prikazuju kao sivi pravokutnici i
+koji su vidljivi samo kad je element odabran. Dvostrukim pritiskom na te
+pravokutnike omogućuje izravno uređivanje elementa. Npr. promijeniti ime.
 
 Changes you make can be undone by pressing <kbd>Ctrl+z</kbd>. To re-do a change, hit
 <kbd>Ctrl+Shift+z<kbd>.
 
-## Toolbox
+## Kutija alata
 
-The toolbox is mainly used to add new items to a diagram. Select the element
-you want to add by clicking on it. When you click on the diagram, the
-selected element is created. The arrow is selected again, so the element can
-be manipulated.
+Kutija alata se uglavnom koristi za dodavanje novih elemenata
+dijagramu. Odaberi element koji želiš dodati pritiskom na njega. Kad
+pritisneš na dijagram, stvara se odabrani element. Strelica se ponovno bira,
+tako da se elementom može manipulirati.
 
-Tools can be selected by simply clicking on them. By default the pointer
-tool is selected after every item placement. This can be changed by
-disabling the "Reset tool" option in the Preferences window. Tools can also
-be selected by a keyboard shortcut. The actual character is displayed as
-part of the tooltip. Finally it is also possible to drag elements on the
-canvas from the toolbox.
+Alati se mogu odabrati jednostavnim pritiskom. Prema standardnim postavkama
+pokazivač se bira nakon svakog postavljanja elementa. To se može promijeniti
+deaktiviranjem opcije „Resetiraj alat” u prozoru „Postavke”. Alati se
+također mogu odabrati tipkovnim prečacem. Stvarni znak se prikazuje kao dio
+savjeta alata. Na kraju krajeva, elementi se također mogu povući na platno
+iz kutije alata.
 
-## Element Editor
+## Uređivač elemenata
 
 The Element editor can be unfolded by pressing the pensil button. This will reveal a
 utility window that shows all characteristics of the selected element.
@@ -80,4 +80,4 @@ Things like name, attributes and stereotypes. It can be opened with
 
 ![image](/images/elementeditor.png)
 
-The properties shown depend on the element that is selected.
+Prikazana svojstva ovise o elementu koji je odabran.

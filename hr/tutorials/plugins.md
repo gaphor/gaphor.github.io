@@ -3,19 +3,19 @@ handle: /tutorials/plugins
 language: hr
 layout: article
 redirect_from: /pages/writing-a-plugin.html
-title: 'Writing a Plugin'
+title: 'Pisanje dodatka'
 ---
-Gaphor is designed to be extensible by using plugins that allow you to
-extend the functionality.
+Gaphor je izrađen tako da se može proširiti korištenjem dodataka koji
+omogućuju dodatnu funkcionalnost.
 
-## Accessing Model Related Data
+## Pristup podacima vezanim uz model
 
-The datamodel classes are located in the `gaphor.UML` module. Data objects
-can be accessed through the ElementFactory. This is a special class for
-creating and managing data objects. Items can be queried using this element
-factory, which is registered in the application as `element_factory`. When
-writing a service or plugin the element factory can be injected into the
-service like this:
+Klase modela podataka nalaze se u modulu `gaphor.UML`. Objektima podataka
+može se pristupiti putem ElementFactory. Ovo je posebna klasa za stvaranje i
+upravljanje objektima podataka. Elementi se mogu tražiti pomoću ove tvornice
+elemenata, koja je registrirana u programu kao `element_factory`. Prilikom
+pisanja usluge ili dodatka, tvornica elemenata može se ubaciti u uslugu na
+sljedeći način:
 
 ```python
 class MyThing:
@@ -24,32 +24,32 @@ class MyThing:
         items = element_factory.select()
 ```
 
-In the console window services can be retrieved by using the `service()`
-function. For example:
+U prozoru konzole, usluge se mogu dohvatiti korištenjem funkcije
+`service()`. Na primjer:
 
 ```python
 ef = service('element_factory')
 ```
 
-## Querying the Data Model
+## Ispitivanje modela podataka
 
-Two methods are used for querying:
+Za ispitivanje se koriste dvije metode:
 
--   `select(query=None)` -> returns an iterator
--   `lselect(query=None)` -> returns a list
+-   `select(query=None)` -> vraća ponavljajuće
+-   `lselect(query=None)` -> vraća popis
 
-`query` is a lambda function with the element as parameter. For example, to
-fetch all of the Class instances from the element factory:
+`query` je lambda funkcija s elementom kao parametrom. Na primjer, za
+dohvaćanje svih instanci klasa iz tvornice elemenata:
 
 ```python
 element_factory.select(lambda e: e.isKindOf(UML.Class))
 ```
 
-## Traversing Data Instances
+## Prolaženje kroz instance podataka
 
-Once some classes are obtained, it is common to traverse through a few
-related objects in order to get the required information. For example: to
-iterate through all parameters related to a class' operations:
+Kad se dobiju neke klase, mora se proći kroz nekoliko povezanih objekata za
+dobivanje potrebne informacije. Na primjer: za prolaženje kroz sve parametre
+vezanih uz operacije klase:
 
 ```python
 for o in classes.ownedOperation:
@@ -57,24 +57,24 @@ for o in classes.ownedOperation:
         do_something(p)
 ```
 
-Using the `[:]` operator items can be traversed more easily:
+Operator `[:]` olakšava prolaženje kroz elemente:
 
 ```python
 for o in classes.ownedOperation[:].ownedParameter:
     do_something(p)
 ```
 
-It's also possible to provide a query as part of the selection:
+Također je moguće zadati upit kao dio odabira:
 
 ```python
 for o in classes.ownedOperation['it.returnParameter'].ownedParameter:
     do_something(p)
 ```
 
-The variable `it` in the query refers to the evaluated object (in this case
-all operations with a return parameter are taken into account).
+Varijabla `it` u upitu odnosi se na ocijenjeni objekt (u tom slučaju se
+uzimaju u obzir sve operacije s povratnim parametrom).
 
-## Example Plugin
+## Primjer dodatka
 
 An example Hello World plugin is hosted on
 [GitHub](https://github.com/gaphor/gaphor.plugins.helloworld).

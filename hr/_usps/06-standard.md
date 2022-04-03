@@ -1,8 +1,8 @@
 ---
 icon: anchor
 language: hr
-title: 'Standards Compliant'
+title: 'Sukladan standardima'
 ---
 
-Gaphor implements the UML, SysML, and RAAML OMG standards. It also includes
-support for the C4 model for visualizing software architectures.
+Gaphor implementira UML, SysML i RAAML OMG standarde. Također uključuje
+podršku za model C4 za vizualiziranje arhitektura softvera.

@@ -1,8 +1,8 @@
 ---
 icon: project-diagram
 language: hr
-title: 'Beginner or Pro'
+title: 'Za početnike ili profesionalace'
 ---
 
-Whether you're a casual modeler documenting a project or a Model Driven
-Development expert, Gaphor has got you covered.
+Svejedno jesi li običan modelar koji dokumentira projekte ili stručnjak za
+softverski razvoj modela, Gaphor sadrži sve što trebaš.

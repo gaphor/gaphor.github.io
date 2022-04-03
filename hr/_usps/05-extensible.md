@@ -1,9 +1,9 @@
 ---
 icon: plug
 language: hr
-title: Extensible
+title: Proširiv
 ---
 
-Gaphor is extensible. Plug-in a code generator or export your diagrams for
-documentation.  Create your own extensions and access them through the GUI
-or CLI.
+Gaphor je proširiv. Dodaj generator koda ili izvezi dijagrame za
+dokumentaciju. Stvori vlastita proširenja i pristupi im putem grafičkog
+sučelja ili putem naredbenog retka.

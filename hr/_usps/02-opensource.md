@@ -1,7 +1,7 @@
 ---
 icon: heart
 language: hr
-title: 'Open Source'
+title: 'Otvoreni kod'
 ---
 
 No vendor lock-in: Gaphor written in Python and is 100% Open Source,

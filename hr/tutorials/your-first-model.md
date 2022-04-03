@@ -3,58 +3,58 @@ handle: /tutorials/your-first-model
 language: hr
 layout: article
 redirect_from: /pages/working-with-gaphor.html
-title: 'Your First Model'
+title: 'Tvoj prvi model'
 ---
 
-Once Gaphor is started a new empty model is automatically created. The main
-diagram is already open in the Diagram section.
+Kad se Gaphor pokrene, automatski se stvara novi prazan model. Glavni
+dijagram je već otvoren u odjeljku „Dijagram”.
 
-Select an element you want to place (e.g. a class) by clicking on the icon
-in the Toolbox and click on the diagram. This will place a new Class item
-instance on the diagram and add a new Class to the model (it shows up in the
-Navigation.  The selected tool will reset itself to the Pointer tool after
-the element is placed on the diagram.
+Odaberi element koji želiš postaviti (npr. klasu) pritiskom na ikonu u
+kutiji alata i pritisni dijagram. To će postaviti novu instancu elementa
+klase u dijagram i dodati novu klasu modelu (pojavljuje se u
+navigaciji). Odabrani alat će se resetirati na alat pokazivača nakon što se
+element postavi na dijagram.
 
 ![image](/images/oneclass.png)
 
-It's simple to add elements to a diagram.
+Elementi se mogu jednostavno dodati dijagramu.
 
-Some elements are not directly visible. The section in the toolbox is
-collapsed and needs to be clicked first to reveal its contents.
+Neki elementi nisu izravno vidljivi. Odjeljak u kutiji alata je sklopljen i
+mora se pritisnuti da bi se otkrio njegov sadržaj.
 
-Gaphor does not make any assumptions about which elements should be placed
-on a diagram. A diagram is a diagram. UML defines all different kinds of
-diagrams, such as Class diagrams, Component diagrams, Action diagrams,
-Sequence diagrams. But Gaphor does not place any restrictions.
+Gaphor ne pretpostavlja koji se elementi trebaju postaviti na
+dijagram. Dijagram je dijagram. UML definira sve različite vrste dijagrama,
+kao što su dijagrami klasa, dijagrami komponenti, dijagrami radnji,
+dijagrami sekvenci. Ali Gaphor ne postavlja nikakva ograničenja.
 
-## Creating New Diagrams
+## Stvaranje novih dijagrama
 
 ![image](/images/navpopup.png)
 
-To create a new diagram, use the Navigation section. Select an element that
-can contain a diagram (a Package or Profile) and right-click. Select New
-diagram and a new diagram is created. As of Gaphor 1.1.0 a buttion is
-available in the header bar. Select a package and you'll notice the button
-is not grayed out and can be clicked, resulting in a new diagram being added
-to the model.
+Za stvaranje novog dijagrama koristi odjeljak „Navigacija”. Odaberi element
+koji može sadržavati dijagram (paket ili profil) i pritisni za desnom tipkom
+miša. Odaberi „Novi dijagram” i stvorit će se novi dijagram. Uvođenjem
+Gaphora verzije 1.1.0, postoji gumb u traci zaglavlja. Odaberi paket i
+primijetit ćeš da gumb nije neaktivan i da ga se može pritisnuti. Pritiskom
+gumba modelu se dodaje novi dijagram.
 
-## Copy and Paste
+## Kopiraj i umetni
 
-Items in a diagram can be copied and pasted (in the same diagram or
-another). A paste will create new items in the diagrams, the items they
-represent (e.g. the Class that's shown in the Navigation) is *not* copied
-(call it a shallow copy if you like).
+Elementi u dijagramu mogu se kopirati i umetnuti (u istom ili jednom drugom
+dijagramu). Umetanje će stvoriti nove elemente u dijagramima, elemente koje
+predstavljaju (npr. klasa koja je prikazana u odjeljku „Navigacija”) se *ne*
+kopiraju.
 
-This way you can easely create visual copies of the same (underlaying) model
-element.
+Na taj način možeš jednostavno stvoriti virtualne kopije istog (podmetnutog)
+elementa modela.
 
-## Drag and Drop
+## Povuci i ispusti
 
-Adding an existing element to a diagram is simple: drag the element from the
-Navigation section onto a diagram. Not all elements that show up in the
-Navigation can be added: Diagrams and attribute/operations of a Class can
-not be added.
+Dodavanje postojećeg elementa dijagramu je jednostavno: povuci element iz
+odjeljka „Navigacija” na dijagram. Ne mogu se dodati svi elementi koji se
+pojavljuju u odjeljku „Navigacija”: dijagrami i atributi/operacije klase se
+ne mogu dodati.
 
-Elements can also be dragged within the Navigation section. This way classes
-and packages can be rearranged for example.
+Elementi se također mogu povlačiti unutar odjeljka „Navigacija”. Na taj se
+način na primjer mogu prerasporediti klase i paketi.
 

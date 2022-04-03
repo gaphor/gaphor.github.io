@@ -1,7 +1,7 @@
 ---
 icon: desktop
 language: hr
-title: Multi-platform
+title: Višeplatformski
 ---
 
 Gaphor works on all major platforms: [Windows]({% link

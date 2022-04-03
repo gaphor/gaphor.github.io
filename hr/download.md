@@ -8,13 +8,13 @@ redirect_from:
   - /pages/install-gaphor-in-macos.html
   - /pages/install-gaphor-in-linux.html
   - /pages/install-gaphor-using-python-packaging.html
-title: 'Download Gaphor'
+title: 'Preuzmi Gaphor'
 ---
 
-There are many ways to install Gaphor. The simplest is to download the
-official installer for Windows or macOS. For Linux you can install Gaphor
-using FlatHub.  You can also use Python's built-in `pip` tool as long as you
-have all of the required dependencies installed.
+Postoji mnogo načina za instaliranje Gaphora. Najjednostavnije je preuzeti
+službeni instalacijski program za Windows ili macOS. Za Linux se Gaphor može
+instalirati koristeći FlatHub. Također je moguće koristiti Pythonov ugrađeni
+`pip` alat ukoliko su sve potrebne ovisnosti instalirane.
 
 If you're a developer, you can find the source code [on
 GitHub](https://github.com/gaphor/gaphor).
