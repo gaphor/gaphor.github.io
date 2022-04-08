@@ -16,8 +16,7 @@
 title: Gaphor
 logo: /images/gaphor.svg
 tagline: Gaphor, the UML/SysML modeling tool
-description:
-  en: >-
+description: >-
     Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is
     designed to be easy to use, while still being powerful. Gaphor implements a
     fully-compliant UML 2 data model, so it is much more than a picture drawing
