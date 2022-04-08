@@ -13,8 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.url }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title:
-  en: Gaphor
+title: Gaphor
 logo: /images/gaphor.svg
 tagline: Gaphor, the UML/SysML modeling tool
 description:
