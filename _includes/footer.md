@@ -13,3 +13,7 @@ Open an issue on GitHub
 {% capture copyright %}
 Copyright &copy; 2020-2022 Arjan Molenaar and Dan Yeaw.
 {% endcapture %}
+
+{% capture theme %}
+Theme
+{% endcapture %}
