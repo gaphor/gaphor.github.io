@@ -1,23 +1,23 @@
 {% capture about %}
-  About
+About
 {% endcapture %}
 
 {% capture download %}
-  Download
+Download
 {% endcapture %}
 
 {% capture tutorials %}
-  Tutorials
+Tutorials
 {% endcapture %}
 
 {% capture blog %}
-  Blog
+Blog
 {% endcapture %}
 
 {% capture discuss %}
-  Get in touch
+Get in touch
 {% endcapture %}
 
 {% capture contribute %}
-  Contribute
+Contribute
 {% endcapture %}

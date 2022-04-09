@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-04-09 16:59-0400\n"
+"POT-Creation-Date: 2022-04-09 17:24-0400\n"
 "PO-Revision-Date: 2022-04-01 10:31+0000\n"
 "Last-Translator: ovari <ovari123@zoho.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hu/>\n"
@@ -94,43 +94,43 @@ msgid "Read more"
 msgstr ""
 
 #. type: Plain text
-#: _includes/menu.md.filt
-#, no-wrap
-msgid "  About\n"
+#: _includes/content.md.filt _includes/menu.md.filt
+#, fuzzy
+#| msgid " Download installer\n"
+msgid "Download"
+msgstr " Telepítő letöltése\n"
+
+#. type: Plain text
+#: _includes/content.md.filt
+msgid "Learn more"
 msgstr ""
 
 #. type: Plain text
 #: _includes/menu.md.filt
-#, fuzzy, no-wrap
-#| msgid " Download installer\n"
-msgid "  Download\n"
-msgstr " Telepítő letöltése\n"
+msgid "About"
+msgstr ""
 
-#. type: Plain text
-#: _includes/menu.md.filt
-#, fuzzy, no-wrap
-#| msgid "Tutorials"
-msgid "  Tutorials\n"
+#. type: YAML Front Matter: title
+#: _includes/menu.md.filt tutorials.md.filt
+#, no-wrap
+msgid "Tutorials"
 msgstr "Oktatóanyagok"
 
 #. type: Plain text
 #: _includes/menu.md.filt
-#, no-wrap
-msgid "  Blog\n"
+msgid "Blog"
 msgstr ""
 
-#. type: Plain text
-#: _includes/menu.md.filt
-#, fuzzy, no-wrap
-#| msgid "Get in touch"
-msgid "  Get in touch\n"
+#. type: YAML Front Matter: title
+#: _includes/menu.md.filt discuss.md.filt
+#, no-wrap
+msgid "Get in touch"
 msgstr "Kapcsolatfelvétel"
 
-#. type: Plain text
-#: _includes/menu.md.filt
-#, fuzzy, no-wrap
-#| msgid "Contribute"
-msgid "  Contribute\n"
+#. type: YAML Front Matter: title
+#: _includes/menu.md.filt contribute.md.filt
+#, no-wrap
+msgid "Contribute"
 msgstr "Közreműködés"
 
 #. type: YAML Front Matter: title
@@ -681,12 +681,6 @@ msgstr "Szabványmegfelelőség"
 msgid "Gaphor implements the UML, SysML, and RAAML OMG standards. It also includes support for the C4 model for visualizing software architectures."
 msgstr ""
 
-#. type: YAML Front Matter: title
-#: contribute.md.filt
-#, no-wrap
-msgid "Contribute"
-msgstr "Közreműködés"
-
 #. type: Plain text
 #: contribute.md.filt
 msgid "Would you like to contribute to the development of Gaphor? (If you think this is only something for experienced developers, please reconsider, there are plenty of ways to contribute to Gaphor, no matter your level of experience or skill set."
@@ -706,12 +700,6 @@ msgstr ""
 #: contribute.md.filt
 msgid "If in doubt, just ask in our discussion area and someone will be able to point you in the right direction."
 msgstr ""
-
-#. type: YAML Front Matter: title
-#: discuss.md.filt
-#, no-wrap
-msgid "Get in touch"
-msgstr "Kapcsolatfelvétel"
 
 #. type: Plain text
 #: discuss.md.filt
@@ -783,12 +771,6 @@ msgstr ""
 #: discuss.md.filt
 msgid "We want our community to be a safe, welcoming and friendly place.  We won't hesitate to issue a clear warning and, if ignored, ban people who don't behave in the spirit of the code of conduct. If a conduct related situation arises, we will endeavour to act in a discreet, sympathetic and fair manner to all concerned."
 msgstr ""
-
-#. type: YAML Front Matter: title
-#: tutorials.md.filt
-#, no-wrap
-msgid "Tutorials"
-msgstr "Oktatóanyagok"
 
 #. type: Plain text
 #: tutorials.md.filt
@@ -881,3 +863,23 @@ msgstr "Modellkedés mindenkinek"
 #, no-wrap
 msgid "Blog and News"
 msgstr ""
+
+#, fuzzy, no-wrap
+#~| msgid " Download installer\n"
+#~ msgid "  Download\n"
+#~ msgstr " Telepítő letöltése\n"
+
+#, fuzzy, no-wrap
+#~| msgid "Tutorials"
+#~ msgid "  Tutorials\n"
+#~ msgstr "Oktatóanyagok"
+
+#, fuzzy, no-wrap
+#~| msgid "Get in touch"
+#~ msgid "  Get in touch\n"
+#~ msgstr "Kapcsolatfelvétel"
+
+#, fuzzy, no-wrap
+#~| msgid "Contribute"
+#~ msgid "  Contribute\n"
+#~ msgstr "Közreműködés"

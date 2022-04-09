@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-04-09 16:59-0400\n"
+"POT-Creation-Date: 2022-04-09 17:24-0400\n"
 "PO-Revision-Date: 2022-04-03 12:11+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hr/>\n"
@@ -94,43 +94,45 @@ msgid "Read more"
 msgstr "Saznaj više"
 
 #. type: Plain text
-#: _includes/menu.md.filt
-#, no-wrap
-msgid "  About\n"
-msgstr ""
-
-#. type: Plain text
-#: _includes/menu.md.filt
-#, fuzzy, no-wrap
+#: _includes/content.md.filt _includes/menu.md.filt
+#, fuzzy
 #| msgid " Download .dmg\n"
-msgid "  Download\n"
+msgid "Download"
 msgstr " Preuzmi .dmg\n"
 
 #. type: Plain text
+#: _includes/content.md.filt
+#, fuzzy
+#| msgid "Read more"
+msgid "Learn more"
+msgstr "Saznaj više"
+
+#. type: Plain text
 #: _includes/menu.md.filt
-#, fuzzy, no-wrap
-#| msgid "Tutorials"
-msgid "  Tutorials\n"
+msgid "About"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _includes/menu.md.filt tutorials.md.filt
+#, no-wrap
+msgid "Tutorials"
 msgstr "Vježbe"
 
 #. type: Plain text
 #: _includes/menu.md.filt
-#, no-wrap
-msgid "  Blog\n"
+msgid "Blog"
 msgstr ""
 
-#. type: Plain text
-#: _includes/menu.md.filt
-#, fuzzy, no-wrap
-#| msgid "Get in touch"
-msgid "  Get in touch\n"
+#. type: YAML Front Matter: title
+#: _includes/menu.md.filt discuss.md.filt
+#, no-wrap
+msgid "Get in touch"
 msgstr "Kontaktiraj zajednicu"
 
-#. type: Plain text
-#: _includes/menu.md.filt
-#, fuzzy, no-wrap
-#| msgid "Contribute"
-msgid "  Contribute\n"
+#. type: YAML Front Matter: title
+#: _includes/menu.md.filt contribute.md.filt
+#, no-wrap
+msgid "Contribute"
 msgstr "Doprinesi"
 
 #. type: YAML Front Matter: title
@@ -681,12 +683,6 @@ msgstr "Sukladan standardima"
 msgid "Gaphor implements the UML, SysML, and RAAML OMG standards. It also includes support for the C4 model for visualizing software architectures."
 msgstr "Gaphor implementira UML, SysML i RAAML OMG standarde. Također uključuje podršku za model C4 za vizualiziranje arhitektura softvera."
 
-#. type: YAML Front Matter: title
-#: contribute.md.filt
-#, no-wrap
-msgid "Contribute"
-msgstr "Doprinesi"
-
 #. type: Plain text
 #: contribute.md.filt
 msgid "Would you like to contribute to the development of Gaphor? (If you think this is only something for experienced developers, please reconsider, there are plenty of ways to contribute to Gaphor, no matter your level of experience or skill set."
@@ -706,12 +702,6 @@ msgstr "Izvorni kod se nalazi na GitHubu."
 #: contribute.md.filt
 msgid "If in doubt, just ask in our discussion area and someone will be able to point you in the right direction."
 msgstr "Ako si u nedoumici, jednostavno postavi pitanje u našem području za raspravu i netko će te sigurno moći usmjeriti u pravom smjeru."
-
-#. type: YAML Front Matter: title
-#: discuss.md.filt
-#, no-wrap
-msgid "Get in touch"
-msgstr "Kontaktiraj zajednicu"
 
 #. type: Plain text
 #: discuss.md.filt
@@ -783,12 +773,6 @@ msgstr "Očekujemo od doprinositelja da se pridržavaju kodeksa."
 #: discuss.md.filt
 msgid "We want our community to be a safe, welcoming and friendly place.  We won't hesitate to issue a clear warning and, if ignored, ban people who don't behave in the spirit of the code of conduct. If a conduct related situation arises, we will endeavour to act in a discreet, sympathetic and fair manner to all concerned."
 msgstr "Želimo da naša zajednica bude sigurno, gostoljubivo i prijateljsko mjesto. Nećemo oklijevati izdati jasno upozorenje i, ako se upozorenje zanemari, isključiti osobe koje se ne ponašaju u duhu kodeksa. Ako dođe do situacije u vezi s kodeksom, nastojat ćemo djelovati na diskretan, prijateljski i pošten način prema svim dotičnim osobama."
-
-#. type: YAML Front Matter: title
-#: tutorials.md.filt
-#, no-wrap
-msgid "Tutorials"
-msgstr "Vježbe"
 
 #. type: Plain text
 #: tutorials.md.filt
@@ -885,3 +869,23 @@ msgstr "Modeliranje za svakoga"
 #, no-wrap
 msgid "Blog and News"
 msgstr "Blog i Novosti"
+
+#, fuzzy, no-wrap
+#~| msgid " Download .dmg\n"
+#~ msgid "  Download\n"
+#~ msgstr " Preuzmi .dmg\n"
+
+#, fuzzy, no-wrap
+#~| msgid "Tutorials"
+#~ msgid "  Tutorials\n"
+#~ msgstr "Vježbe"
+
+#, fuzzy, no-wrap
+#~| msgid "Get in touch"
+#~ msgid "  Get in touch\n"
+#~ msgstr "Kontaktiraj zajednicu"
+
+#, fuzzy, no-wrap
+#~| msgid "Contribute"
+#~ msgid "  Contribute\n"
+#~ msgstr "Doprinesi"

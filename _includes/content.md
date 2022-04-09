@@ -54,3 +54,11 @@ See blog
 {% capture read-more %}
 Read more 
 {% endcapture %}
+
+{% capture download %}
+Download
+{% endcapture %}
+
+{% capture learn %}
+Learn more
+{% endcapture %}

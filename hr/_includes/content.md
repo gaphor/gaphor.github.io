@@ -41,3 +41,7 @@ related to Gaphor.  {% endcapture %}
 {% capture see-blog %} See blog {% endcapture %}
 
 {% capture read-more %} Read more {% endcapture %}
+
+{% capture download %} Download {% endcapture %}
+
+{% capture learn %} Learn more {% endcapture %}
