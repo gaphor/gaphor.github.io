@@ -1,4 +1,4 @@
-{% include footer.md %}
+{% include footer-content.md %}
 <footer id="footer">
     <div class="container">
         <div class="row">
@@ -51,7 +51,8 @@
 
 </footer>
 
-{% if page.url == "/" %}
+<!-- page.url is / or /XX/ for translations -->
+{% if page.url.size <= 4 %}
 <script>
 <!--
   window.onload = function() {
@@ -64,4 +65,3 @@
 //-->
 </script>
 {% endif %}
-
