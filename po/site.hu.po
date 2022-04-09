@@ -6,11 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-03-19 20:50-0400\n"
+"POT-Creation-Date: 2022-04-09 16:59-0400\n"
 "PO-Revision-Date: 2022-04-01 10:31+0000\n"
 "Last-Translator: ovari <ovari123@zoho.com>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/gaphor/"
-"gaphor-github-io/hu/>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,20 +41,12 @@ msgstr "Szerzői jog &copy; 2020-2022 Molenaar Arjan és Yeaw Dániel."
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "A picture is worth a thousand words. Describe and document your applications and systems with Gaphor to enhance knowledge sharing."
-msgstr ""
-"Egy kép többet ér ezer szónál. Ismertesse és dokumentálja alkalmazásait és "
-"rendszereit a Gaphor segítségével a tudásmegosztás javítása érdekében."
+msgstr "Egy kép többet ér ezer szónál. Ismertesse és dokumentálja alkalmazásait és rendszereit a Gaphor segítségével a tudásmegosztás javítása érdekében."
 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "Gaphor is a UML, SysML, RAAML, and C4 modeling application. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models."
-msgstr ""
-"A Gaphor egy UML-, SysML-, RAAML- és C4-modellező-alkalmazás. Úgy tervezték, "
-"hogy könnyen használható legyen, ugyanakkor erős legyen. A Gaphor egy "
-"teljesen kompatibilis UML 2 adatmodellt valósít meg, tehát sokkal több, mint "
-"egy képrajzoló eszköz. A Gaphor segítségével gyorsan megjelenítheti a "
-"rendszer különböző aspektusait, valamint komplett, rendkívül összetett "
-"modelleket hozhat létre."
+msgstr "A Gaphor egy UML-, SysML-, RAAML- és C4-modellező-alkalmazás. Úgy tervezték, hogy könnyen használható legyen, ugyanakkor erős legyen. A Gaphor egy teljesen kompatibilis UML 2 adatmodellt valósít meg, tehát sokkal több, mint egy képrajzoló eszköz. A Gaphor segítségével gyorsan megjelenítheti a rendszer különböző aspektusait, valamint komplett, rendkívül összetett modelleket hozhat létre."
 
 #. type: Plain text
 #: _includes/content.md.filt
@@ -101,6 +92,46 @@ msgstr ""
 #: _includes/content.md.filt
 msgid "Read more"
 msgstr ""
+
+#. type: Plain text
+#: _includes/menu.md.filt
+#, no-wrap
+msgid "  About\n"
+msgstr ""
+
+#. type: Plain text
+#: _includes/menu.md.filt
+#, fuzzy, no-wrap
+#| msgid " Download installer\n"
+msgid "  Download\n"
+msgstr " Telepítő letöltése\n"
+
+#. type: Plain text
+#: _includes/menu.md.filt
+#, fuzzy, no-wrap
+#| msgid "Tutorials"
+msgid "  Tutorials\n"
+msgstr "Oktatóanyagok"
+
+#. type: Plain text
+#: _includes/menu.md.filt
+#, no-wrap
+msgid "  Blog\n"
+msgstr ""
+
+#. type: Plain text
+#: _includes/menu.md.filt
+#, fuzzy, no-wrap
+#| msgid "Get in touch"
+msgid "  Get in touch\n"
+msgstr "Kapcsolatfelvétel"
+
+#. type: Plain text
+#: _includes/menu.md.filt
+#, fuzzy, no-wrap
+#| msgid "Contribute"
+msgid "  Contribute\n"
+msgstr "Közreműködés"
 
 #. type: YAML Front Matter: title
 #: _platforms/01-windows.md.filt

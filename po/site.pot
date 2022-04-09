@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-03-19 20:50-0400\n"
+"POT-Creation-Date: 2022-04-09 16:59-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,6 +104,42 @@ msgstr ""
 #: _includes/content.md.filt
 #, markdown-text
 msgid "Read more"
+msgstr ""
+
+#. type: Plain text
+#: _includes/menu.md.filt
+#, markdown-text, no-wrap
+msgid "  About\n"
+msgstr ""
+
+#. type: Plain text
+#: _includes/menu.md.filt
+#, markdown-text, no-wrap
+msgid "  Download\n"
+msgstr ""
+
+#. type: Plain text
+#: _includes/menu.md.filt
+#, markdown-text, no-wrap
+msgid "  Tutorials\n"
+msgstr ""
+
+#. type: Plain text
+#: _includes/menu.md.filt
+#, markdown-text, no-wrap
+msgid "  Blog\n"
+msgstr ""
+
+#. type: Plain text
+#: _includes/menu.md.filt
+#, markdown-text, no-wrap
+msgid "  Get in touch\n"
+msgstr ""
+
+#. type: Plain text
+#: _includes/menu.md.filt
+#, markdown-text, no-wrap
+msgid "  Contribute\n"
 msgstr ""
 
 #. type: YAML Front Matter: title

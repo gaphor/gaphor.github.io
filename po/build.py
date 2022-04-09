@@ -71,7 +71,7 @@ if __name__ == "__main__":
         filtered_f = f.parent / f"{f.name}.filt"
         filtered_f.write_text(stripped)
     print("Running po4a to build po files for translation")
-    result = subprocess.run(["po4a", "-v", "po/po4a.conf"])
+    result = subprocess.run(["po4a", "-v", "-f", "po/po4a.conf"])
     print(result)
     print("Replace language header info on markdown files")
     replace_language_string()
