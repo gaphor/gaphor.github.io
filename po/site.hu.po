@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-04-09 17:24-0400\n"
+"POT-Creation-Date: 2022-04-09 17:49-0400\n"
 "PO-Revision-Date: 2022-04-01 10:31+0000\n"
 "Last-Translator: ovari <ovari123@zoho.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hu/>\n"
@@ -94,7 +94,7 @@ msgid "Read more"
 msgstr ""
 
 #. type: Plain text
-#: _includes/content.md.filt _includes/menu.md.filt
+#: _includes/content.md.filt
 #, fuzzy
 #| msgid " Download installer\n"
 msgid "Download"
@@ -106,29 +106,29 @@ msgid "Learn more"
 msgstr ""
 
 #. type: Plain text
-#: _includes/menu.md.filt
+#: _includes/content.md.filt
 msgid "About"
 msgstr ""
 
 #. type: YAML Front Matter: title
-#: _includes/menu.md.filt tutorials.md.filt
+#: _includes/content.md.filt tutorials.md.filt
 #, no-wrap
 msgid "Tutorials"
 msgstr "Oktatóanyagok"
 
 #. type: Plain text
-#: _includes/menu.md.filt
+#: _includes/content.md.filt
 msgid "Blog"
 msgstr ""
 
 #. type: YAML Front Matter: title
-#: _includes/menu.md.filt discuss.md.filt
+#: _includes/content.md.filt discuss.md.filt
 #, no-wrap
 msgid "Get in touch"
 msgstr "Kapcsolatfelvétel"
 
 #. type: YAML Front Matter: title
-#: _includes/menu.md.filt contribute.md.filt
+#: _includes/content.md.filt contribute.md.filt
 #, no-wrap
 msgid "Contribute"
 msgstr "Közreműködés"
