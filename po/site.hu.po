@@ -7,9 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-04-09 17:53-0400\n"
-"PO-Revision-Date: 2022-04-01 10:31+0000\n"
+"PO-Revision-Date: 2022-04-11 20:10+0000\n"
 "Last-Translator: ovari <ovari123@zoho.com>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hu/>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/gaphor/"
+"gaphor-github-io/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,7 +42,7 @@ msgstr "Szerzői jog &copy; 2020-2022 Molenaar Arjan és Yeaw Dániel."
 #. type: Plain text
 #: _includes/footer.md.filt
 msgid "Theme"
-msgstr ""
+msgstr "Téma"
 
 #. type: Plain text
 #: _includes/content.md.filt
@@ -81,7 +82,7 @@ msgstr ""
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "Do you want to know what's going on with Gaphor? Read our blog!"
-msgstr ""
+msgstr "Szeretnéd tudni, mi történik Gaphorral? Olvassa el naplónkat!"
 
 #. type: Plain text
 #: _includes/content.md.filt
@@ -91,7 +92,7 @@ msgstr ""
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "See blog"
-msgstr ""
+msgstr "Napló megtekintése"
 
 #. type: Plain text
 #: _includes/content.md.filt
@@ -100,20 +101,18 @@ msgstr ""
 
 #. type: Plain text
 #: _includes/content.md.filt
-#, fuzzy
-#| msgid " Download installer\n"
 msgid "Download"
-msgstr " Telepítő letöltése\n"
+msgstr "Letöltés"
 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "Learn more"
-msgstr ""
+msgstr "További tájékoztatás"
 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "About"
-msgstr ""
+msgstr "Rólunk"
 
 #. type: YAML Front Matter: title
 #: _includes/content.md.filt tutorials.md.filt
@@ -124,7 +123,7 @@ msgstr "Oktatóanyagok"
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "Blog"
-msgstr ""
+msgstr "Napló"
 
 #. type: YAML Front Matter: title
 #: _includes/content.md.filt discuss.md.filt
@@ -226,7 +225,7 @@ msgstr ""
 #: _platforms/03-linux.md.filt
 #, no-wrap
 msgid " Download AppImage\n"
-msgstr ""
+msgstr " Az AppImage letöltése\n"
 
 #. type: Title ###
 #: _platforms/03-linux.md.filt
@@ -861,13 +860,13 @@ msgstr ""
 #: index.md.filt
 #, no-wrap
 msgid "Modeling for Everyone"
-msgstr "Modellkedés mindenkinek"
+msgstr "Műszaki modellezés mindenki számára"
 
 #. type: YAML Front Matter: title
 #: blog.md.filt
 #, no-wrap
 msgid "Blog and News"
-msgstr ""
+msgstr "Napló és hírek"
 
 #, fuzzy, no-wrap
 #~| msgid " Download installer\n"
