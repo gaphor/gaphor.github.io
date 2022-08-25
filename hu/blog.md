@@ -2,5 +2,5 @@
 handle: /blog
 language: hu
 layout: blog
-title: 'Blog and News'
+title: 'Napló és hírek'
 ---
