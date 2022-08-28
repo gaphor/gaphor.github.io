@@ -1,7 +1,7 @@
 ---
 handle: /index
-language: hu
+language: es
 layout: index
 redirect_from: /pages/about.html
-title: 'Műszaki modellezés mindenki számára'
+title: 'Modelado para todos'
 ---
