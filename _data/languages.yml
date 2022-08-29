@@ -1,7 +1,11 @@
 languages:
   - title: English
     url: "/"
+  - title: Español
+    url: "/es"
   - title: Hrvatski
     url: "/hr"
   - title: Magyar
     url: "/hu"
+  - title: Čeština
+    url: "/cs"
