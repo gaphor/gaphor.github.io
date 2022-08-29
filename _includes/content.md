@@ -3,7 +3,7 @@ A picture is worth a thousand words. Describe and document your applications and
 systems with Gaphor to enhance knowledge sharing.
 {% endcapture %}
 
-{% capture about %}
+{% capture about-content %}
 Gaphor is a UML, SysML, RAAML, and C4 modeling application. It is designed
 to be easy to use, while still being powerful. Gaphor implements a
 fully-compliant UML 2 data model, so it is much more than a picture
@@ -40,7 +40,7 @@ You can also use Python's built-in `pip` tool as long as you have all of the
 required dependencies installed.
 {% endcapture %}
 
-{% capture blog %}
+{% capture blog-content %}
 Do you want to know what's going on with Gaphor? Read our blog!
 
 [Contact the team]({% link discuss.md %})
