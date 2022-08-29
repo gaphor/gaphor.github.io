@@ -1,10 +1,10 @@
 /* 07. Latest News */
 #latest-news {
   width: 100%;
-  background-color: #222f36;
   padding: 75px 0 85px 0;
   text-align: center;
 }
+
 #latest-news .section-header h3,
 #latest-news .section-header p {
   color: #fff;
@@ -32,20 +32,6 @@
 }
 #latest-news .owl-item .blog-post {
   width: 100%;
-}
-#latest-news .owl-prev,
-#latest-news .owl-next {
-  position: absolute;
-  top: 50%;
-  font-size: 50px;
-  color: #fff;
-  transform: translateY(-50%);
-}
-#latest-news .owl-prev {
-  left: -15px;
-}
-#latest-news .owl-next {
-  right: -15px;
 }
 #latest-news .section-content .post .post-image {
   width: 100%;
