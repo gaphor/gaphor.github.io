@@ -30,9 +30,11 @@ a:hover, a:focus {
     background-image: url(../images/pattern.png);
     background-size: auto;
     background-repeat: repeat;
-    padding-top: 4em;
     margin-bottom: 1.681em;
     min-height: 160px;
+    h1 {
+        padding-top: 1em;
+    }
   }
 }
 
