@@ -76,7 +76,7 @@ layout: bare
                 <div class="col-sm-10 offset-sm-1">
                     {% for platform in site.platform_list %}
                     {% if forloop.index > 1 %}&nbsp;&nbsp;{% endif %}
-                    <a href="download.html#{{ platform }}"><img src="/images/{{ platform }}_logo.png"
+                    <a href="download/#{{ platform }}"><img src="/images/{{ platform }}_logo.png"
                             alt="{{ platform.title }} logo" style="width: 52px" /></a>
                     {% endfor %}
                 </div>
