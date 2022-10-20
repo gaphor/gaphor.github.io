@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-04-09 17:53-0400\n"
-"PO-Revision-Date: 2022-04-11 20:10+0000\n"
+"PO-Revision-Date: 2022-10-21 04:02+0000\n"
 "Last-Translator: ovari <ovari123@zoho.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/gaphor/"
 "gaphor-github-io/hu/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.14.2-dev\n"
 
 #. type: Plain text
 #: _includes/footer.md.filt
@@ -591,7 +591,7 @@ msgstr ""
 #: tutorials/your-first-model.md.filt
 #, no-wrap
 msgid "Copy and Paste"
-msgstr ""
+msgstr "Másolás és beillesztés"
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
