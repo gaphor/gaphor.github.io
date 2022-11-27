@@ -9,7 +9,7 @@ language: en
 [Flatpak](https://flatpak.org/) is the recommended way to install Gaphor in Linux. If you don't have it
 setup already, follow the instructions to [install Flatpak](https://flatpak.org/setup).
 
-<a href='https://flathub.org/apps/details/oorg.gaphor.Gaphor'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>
+<a href='https://flathub.org/apps/details/org.gaphor.Gaphor'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>
 
 To manually install Gaphor:
 
