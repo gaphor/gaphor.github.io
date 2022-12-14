@@ -32,6 +32,12 @@ chmod +x Gaphor-VERSION-x86_64.AppImage
 ./Gaphor-VERSION-x86_64.AppImage
 ```
 
+If you're using Wayland and the AppImage crashes, you can force it to use the X11 backend instead:
+
+```bash
+GDK_BACKEND=x11 ./Gaphor-VERSION-x86_64.AppImage
+```
+
 ### Arch Linux
 
 Gaphor can be installed from an [AUR package](https://aur.archlinux.org/packages/python-gaphor/).
