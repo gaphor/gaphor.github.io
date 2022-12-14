@@ -28,14 +28,14 @@ won't work on older versions.
 <a class="btn btn-primary btn-lg" href="https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-x86_64.AppImage"><i class="fa fa-download"></i> Download AppImage</a>
 
 ```bash
-chmod +x Gaphor-VERSION-x86_64.AppImage
-./Gaphor-VERSION-x86_64.AppImage
+chmod +x Gaphor-{{ site.gaphor_version }}-x86_64.AppImage
+./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage
 ```
 
-If you're using Wayland and the AppImage crashes, you can force it to use the X11 backend instead:
+If you're using Wayland and the AppImage crashes, you can force it to use the X11 backend instead.
 
 ```bash
-GDK_BACKEND=x11 ./Gaphor-VERSION-x86_64.AppImage
+GDK_BACKEND=x11 ./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage
 ```
 
 ### Arch Linux
