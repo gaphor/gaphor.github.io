@@ -5,11 +5,6 @@
   background-size: cover;
   background-repeat: no-repeat;
 
-  
-  .header-front-page {
-    background-image: linear-gradient(180deg, #000000 0%, rgba(51, 51, 51, 0.5) 50%), url(/images/splash.jpg)!important;
-  }
-
   @media screen {
     background-attachment: fixed;
   }
