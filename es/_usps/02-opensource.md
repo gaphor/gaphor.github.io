@@ -4,6 +4,6 @@ language: es
 title: 'Código abierto'
 ---
 
-No vendor lock-in: Gaphor written in Python and is 100% Open Source,
-available under a friendly [Apache 2
+Sin dependencia de ningún proveedor: Gaphor está escrito en Python y es 100% de código abierto,
+disponible bajo una amigable [Apache 2
 license](https://github.com/gaphor/gaphor/blob/master/LICENSE.txt).
