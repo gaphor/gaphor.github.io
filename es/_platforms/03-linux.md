@@ -6,11 +6,11 @@ title: Linux
 
 ### Flatpak
 
-[Flatpak](https://flatpak.org/) is the recommended way to install Gaphor in
-Linux. If you don't have it setup already, follow the instructions to
-[install Flatpak](https://flatpak.org/setup).
+[Flatpak](https://flatpak.org/) es la forma recomendada de instalar Gaphor en
+Linux. Si aún no lo tiene instalado, siga las instrucciones para
+[instalar Flatpak](https://flatpak.org/setup).
 
-<a class="btn btn-primary btn-lg" href="https://www.flathub.org/apps/details/org.gaphor.Gaphor">Install Flatpak</a>
+<a href='https://flathub.org/apps/details/org.gaphor.Gaphor'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>
 
 Para instalar Gaphor manualmente:
 
@@ -22,18 +22,25 @@ flatpak install --user flathub org.gaphor.Gaphor
 
 ### AppImage
 
-The other option if you are running a recent Linux distribution is to use
-the [AppImage](https://appimage.org/). It is built using Ubuntu 18.04 and
-most likely won't work on older versions.
+La otra opción si está ejecutando una distribución reciente de Linux es usar
+[AppImage](https://appimage.org/). Está construido usando Ubuntu 18.04 y
+lo más probable es que no funcione en versiones anteriores.
 
-<a class="btn btn-primary btn-lg" href="https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-x86_64.AppImage"><i class="fa fa-download"></i> Download AppImage</a>
+<a class="btn btn-primary btn-lg" href="https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-x86_64.AppImage"><i class="fa fa-download"></i> Descargar AppImage</a>
 
 ```bash
-chmod +x Gaphor-VERSION-x86_64.AppImage
-./Gaphor-VERSION-x86_64.AppImage
+chmod +x Gaphor-{{ site.gaphor_version }}-x86_64.AppImage
+./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage
+```
+
+Si está usando Wayland y el AppImage se bloquea, puede forzarlo a usar
+el backend X11 en su lugar.
+
+```bash
+GDK_BACKEND=x11 ./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage
 ```
 
 ### Arch Linux
 
-Gaphor can be installed from an [AUR
-package](https://aur.archlinux.org/packages/python-gaphor/).
+Gaphor puede instalarse desde un [paquete
+AUR](https://aur.archlinux.org/packages/python-gaphor/).

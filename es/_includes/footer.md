@@ -1,12 +1,12 @@
-{% capture love %} We love to hear from you {% endcapture %}
+{% capture love %} Nos encantaría conocer su opinión {% endcapture %}
 
-{% capture open-issue %} Open an issue on GitHub {% endcapture %}
+{% capture open-issue %} Abrir una incidencia en GitHub {% endcapture %}
 
 {% capture tech-docs %}
- Tech docs
+ Documentación técnica
 {% endcapture %}
 
-{% capture copyright %} Copyright &copy; 2020-2022 Arjan Molenaar and Dan
+{% capture copyright %} Copyright &copy; 2020-2022 Arjan Molenaar y Dan
 Yeaw.  {% endcapture %}
 
-{% capture theme %} Theme {% endcapture %}
+{% capture theme %} Tema {% endcapture %}
