@@ -9,3 +9,5 @@ languages:
     url: "/hu"
   - title: Čeština
     url: "/cs"
+  - title: Русский
+    url: "/ru"
