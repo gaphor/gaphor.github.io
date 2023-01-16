@@ -48,16 +48,16 @@ ser arrastrados desde la vista de árbol en los diagramas.
 
 ## Sección de diagramas
 
-La sección de diagramas es la que ocupa más espacio. Se pueden abrir varios
-a la vez: se muestran en pestañas. Las pestañas pueden cerrarse desde el menú
-(Cerrar) y pulsando <kbd>Ctrl+w</kbd>.
+The diagram section takes up the most space. Multiple diagrams can be
+opened at once: they are shown in tabs. Tabs can be closed from the file
+menu (Close) and by pressing <kbd>Ctrl+w</kbd>.
 
 La mayoría de los elementos tienen zonas calientes, mostradas como
 rectángulos grises que sólo son visibles cuando el elemento está
 seleccionado. Haciendo doble clic en esos rectángulos se puede editar
 directamente el elemento. Por ejemplo, cambiar su nombre.
 
-Los cambios realizados pueden deshacerse pulsando <kbd>Ctrl+z</kbd>. Para rehacer un cambio, pulse
+Changes you make can be undone by pressing <kbd>Ctrl+z</kbd>. To re-do a change, hit
 <kbd>Ctrl+Shift+z<kbd>.
 
 ## Caja de herramientas
@@ -78,9 +78,9 @@ herramientas.
 
 ## Editor de elementos
 
-El editor de elementos puede desplegarse pulsando el botón del lápiz. Esto revelará una
-ventana de utilidades que muestra todas las características del elemento seleccionado.
-Cosas como el nombre, los atributos y los estereotipos. Se puede abrir con
+The Element editor can be unfolded by pressing the pensil button. This will reveal a
+utility window that shows all characteristics of the selected element.
+Things like name, attributes and stereotypes. It can be opened with
 <kbd>Ctrl+e</kbd>.
 
 ![image](/images/elementeditor.png)

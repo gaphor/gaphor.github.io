@@ -16,5 +16,5 @@ instalador oficial para Windows o macOS. Para Linux puede instalar Gaphor
 usando FlatHub.  También puede utilizar la herramienta incorporada de Python
 `pip` siempre que tenga instaladas todas las dependencias necesarias.
 
-Si es desarrollador, puede encontrar el código fuente [en
+If you're a developer, you can find the source code [on
 GitHub](https://github.com/gaphor/gaphor).

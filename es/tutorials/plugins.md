@@ -77,5 +77,5 @@ se tienen en cuenta todas las operaciones con parámetro de retorno).
 
 ## Ejemplo de plugin
 
-Un ejemplo de plugin Hola Mundo está alojado en
+An example Hello World plugin is hosted on
 [GitHub](https://github.com/gaphor/gaphor.plugins.helloworld).

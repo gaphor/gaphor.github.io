@@ -38,7 +38,7 @@ available in the header bar. Select a package and you'll notice the button
 is not grayed out and can be clicked, resulting in a new diagram being added
 to the model.
 
-## Copy and Paste
+## Másolás és beillesztés
 
 Items in a diagram can be copied and pasted (in the same diagram or
 another). A paste will create new items in the diagrams, the items they

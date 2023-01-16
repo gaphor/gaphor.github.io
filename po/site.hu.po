@@ -6,11 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-04-09 17:53-0400\n"
+"POT-Creation-Date: 2023-01-15 21:11-0300\n"
 "PO-Revision-Date: 2022-10-21 04:02+0000\n"
 "Last-Translator: ovari <ovari123@zoho.com>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/gaphor/"
-"gaphor-github-io/hu/>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -172,6 +171,11 @@ msgstr ""
 msgid " Download .dmg\n"
 msgstr ""
 
+#. type: Plain text
+#: _platforms/02-macos.md.filt
+msgid "Gaphor requires **macOS 10.15** or newer."
+msgstr ""
+
 #. type: Title ###
 #: _platforms/02-macos.md.filt
 #, no-wrap
@@ -202,11 +206,6 @@ msgstr ""
 
 #. type: Plain text
 #: _platforms/03-linux.md.filt
-msgid "Install Flatpak"
-msgstr ""
-
-#. type: Plain text
-#: _platforms/03-linux.md.filt
 msgid "To manually install Gaphor:"
 msgstr ""
 
@@ -226,6 +225,11 @@ msgstr ""
 #, no-wrap
 msgid " Download AppImage\n"
 msgstr " Az AppImage letöltése\n"
+
+#. type: Plain text
+#: _platforms/03-linux.md.filt
+msgid "If you're using Wayland and the AppImage crashes, you can force it to use the X11 backend instead."
+msgstr ""
 
 #. type: Title ###
 #: _platforms/03-linux.md.filt
@@ -692,7 +696,7 @@ msgstr ""
 
 #. type: Plain text
 #: contribute.md.filt
-msgid "Our technical documentation is hosted on the wonderful service that is Read the Docs. Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
+msgid "Our technical documentation is hosted on the wonderful service that is Read the Docs.  Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
 msgstr ""
 
 #. type: Plain text
@@ -821,6 +825,22 @@ msgstr ""
 #. type: Bullet: '- '
 #: tutorials.md.filt
 msgid "Arjan spoke at GUADEC 2021 about Large GUI application with Python and GTK."
+msgstr ""
+
+#. type: Title ##
+#: tutorials.md.filt
+#, no-wrap
+msgid "What other people say"
+msgstr ""
+
+#. type: Plain text
+#: tutorials.md.filt
+msgid "There are some 10+ year old articles on Gaphor on the web. Some more recent articles are:"
+msgstr ""
+
+#. type: Plain text
+#: tutorials.md.filt
+msgid "- Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.  - It's FOSS has a short write-up on Gaphor (~2.8-ish?).  - Ubuntu Pit has a nice article on Gaphor (~2.8-ish?)."
 msgstr ""
 
 #. type: YAML Front Matter: title

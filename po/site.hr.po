@@ -6,17 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-04-09 17:53-0400\n"
+"POT-Creation-Date: 2023-01-15 21:11-0300\n"
 "PO-Revision-Date: 2022-10-21 04:02+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
-"Language-Team: Croatian <https://hosted.weblate.org/projects/gaphor/"
-"gaphor-github-io/hr/>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.14.2-dev\n"
 
 #. type: Plain text
@@ -58,11 +56,7 @@ msgstr "Gaphor je UML, SYSML, Raaml i C4 program za modeliranje. Izrađen je kao
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "Build Class, Interaction, and State Machine diagrams for software or Block Definition and Requirements diagrams for systems. Model the elements you need. If you want to mix and match, you can even add different diagram items to the same diagram to get the view you need."
-msgstr ""
-"Izradi klase, interakciju i dijagrame stanja uređaja za softver ili "
-"dijagrame definicija blokova i dijagrame preduvjeta za sustave. Modeliraj "
-"elemente koje trebaš. Ako želiš miješati i uskladiti, za dobivanje željenog "
-"prikaza istom dijagramu možeš čak dodati različite elemente dijagrama."
+msgstr "Izradi klase, interakciju i dijagrame stanja uređaja za softver ili dijagrame definicija blokova i dijagrame preduvjeta za sustave. Modeliraj elemente koje trebaš. Ako želiš miješati i uskladiti, za dobivanje željenog prikaza istom dijagramu možeš čak dodati različite elemente dijagrama."
 
 #. type: Plain text
 #: _includes/content.md.filt
@@ -177,6 +171,11 @@ msgstr "macOS"
 msgid " Download .dmg\n"
 msgstr " Preuzmi .dmg\n"
 
+#. type: Plain text
+#: _platforms/02-macos.md.filt
+msgid "Gaphor requires **macOS 10.15** or newer."
+msgstr ""
+
 #. type: Title ###
 #: _platforms/02-macos.md.filt
 #, no-wrap
@@ -207,11 +206,6 @@ msgstr "Flatpak je preporučeni način za instaliranje Gaphora u Linuxu. Ako jo�
 
 #. type: Plain text
 #: _platforms/03-linux.md.filt
-msgid "Install Flatpak"
-msgstr "Instaliraj Flatpak"
-
-#. type: Plain text
-#: _platforms/03-linux.md.filt
 msgid "To manually install Gaphor:"
 msgstr "Za ručno instaliranje Gaphora:"
 
@@ -231,6 +225,11 @@ msgstr "Ako koristiš nedavnu distribuciju Linuxa, druga mogućnost je korišten
 #, no-wrap
 msgid " Download AppImage\n"
 msgstr " Preuzmi AppImage\n"
+
+#. type: Plain text
+#: _platforms/03-linux.md.filt
+msgid "If you're using Wayland and the AppImage crashes, you can force it to use the X11 backend instead."
+msgstr ""
 
 #. type: Title ###
 #: _platforms/03-linux.md.filt
@@ -697,7 +696,9 @@ msgstr "Želiš doprinijeti razvoju Gaphora? Ako misliš da je ovo samo za iskus
 
 #. type: Plain text
 #: contribute.md.filt
-msgid "Our technical documentation is hosted on the wonderful service that is Read the Docs. Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
+#, fuzzy
+#| msgid "Our technical documentation is hosted on the wonderful service that is Read the Docs. Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
+msgid "Our technical documentation is hosted on the wonderful service that is Read the Docs.  Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
 msgstr "Naša se tehnička dokumentacija čuva na usluzi „Read the Docs”. Ne samo da sadrži potrebne pojedinosti za doprinošenje kodu Gaphora, već opisuje i mnoge druge načine za doprinošenje (uključujući aktualiziranje ove web-stranice). Na kraju krajeva, pruža vodič za naše procese i očekivanja za različite vrste doprinosa Gaphoru."
 
 #. type: Plain text
@@ -832,6 +833,22 @@ msgstr "Dan je na sastanku MIT STAMP 2021. govorio o temi _Open STPA s RAAML-om 
 msgid "Arjan spoke at GUADEC 2021 about Large GUI application with Python and GTK."
 msgstr "Arjan je na GUADEC-u 2021. govorio o velikom GUI programu s Pythonom i GTK-om."
 
+#. type: Title ##
+#: tutorials.md.filt
+#, no-wrap
+msgid "What other people say"
+msgstr ""
+
+#. type: Plain text
+#: tutorials.md.filt
+msgid "There are some 10+ year old articles on Gaphor on the web. Some more recent articles are:"
+msgstr ""
+
+#. type: Plain text
+#: tutorials.md.filt
+msgid "- Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.  - It's FOSS has a short write-up on Gaphor (~2.8-ish?).  - Ubuntu Pit has a nice article on Gaphor (~2.8-ish?)."
+msgstr ""
+
 #. type: YAML Front Matter: title
 #: download.md.filt
 #, no-wrap
@@ -876,6 +893,9 @@ msgstr "Modeliranje za svakoga"
 #, no-wrap
 msgid "Blog and News"
 msgstr "Blog i Novosti"
+
+#~ msgid "Install Flatpak"
+#~ msgstr "Instaliraj Flatpak"
 
 #, fuzzy, no-wrap
 #~| msgid " Download .dmg\n"

@@ -11,15 +11,15 @@ algo para desarrolladores experimentados, por favor reconsidérelo, hay
 muchas maneras de contribuir a Gaphor, sin importar su nivel de experiencia
 o habilidades.
 
-Nuestra [documentación técnica](https://gaphor.readthedocs.io) está alojado en
-el maravilloso servicio que es [Read the Docs](https://readthedocs.com/).
-No sólo contiene los detalles necesarios para hacer contribuciones de código
-a Gaphor, sino que describe muchas otras formas en las que puede contribuir
-(incluida la actualización de este sitio web). Por último, ofrece una guía sobre
-nuestros procesos y expectativas para los diversos tipos de contribuciones que puede
-hacer a Gaphor.
+Our [technical documentation](https://gaphor.readthedocs.io) is hosted on
+the wonderful service that is [Read the Docs](https://readthedocs.com/).
+Not only does it contain details needed in order to make code contributions
+to Gaphor, but it outlines plenty of other ways in which you can contribute
+(including making updates to this website). Finally, it provides a guide to
+our processes and expectations for the various types of contribution you can
+make to Gaphor.
 
-El código fuente está alojado en [GitHub](https://github.com/gaphor/gaphor).
+The source code is hosted on [GitHub](https://github.com/gaphor/gaphor).
 
-En caso de duda, pregunte en nuestro <a href="../discuss">área de debate</a> y
-alguien podrá indicarle la dirección correcta.
+If in doubt, just ask in our <a href="../discuss">discussion area</a> and
+someone will be able to point you in the right direction.

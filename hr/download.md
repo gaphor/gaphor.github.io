@@ -3,11 +3,11 @@ handle: /download
 language: hr
 layout: download
 redirect_from:
-  - /pages/download.html
-  - /pages/install-gaphor-in-windows.html
-  - /pages/install-gaphor-in-macos.html
-  - /pages/install-gaphor-in-linux.html
-  - /pages/install-gaphor-using-python-packaging.html
+  - /download.html
+  - /install-gaphor-in-windows.html
+  - /install-gaphor-in-macos.html
+  - /install-gaphor-in-linux.html
+  - /install-gaphor-using-python-packaging.html
 title: 'Preuzmi Gaphor'
 ---
 

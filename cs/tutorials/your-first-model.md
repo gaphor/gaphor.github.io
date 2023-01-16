@@ -38,7 +38,7 @@ tlačítkem. Vyberte Nový diagram a vytvoří se nový diagram. Od Verze Gaphor
 tlačítko není zobrazeno šedě a lze na něj kliknout, což má za následek
 přidání nového diagramu do modelu.
 
-## Kopírování a vkládání
+## Kopírovat a vložit
 
 Položky v diagramu lze kopírovat a vkládat (do stejného nebo jiného
 diagramu). Vložením se vytvoří nové položky v diagramech, položky, které

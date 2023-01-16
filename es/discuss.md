@@ -3,7 +3,7 @@ handle: /discuss
 language: es
 layout: article
 redirect_from: /pages/discuss.html
-title: 'Contacto'
+title: 'Póngase en contacto'
 ---
 
 Es bueno hablar, compartir conocimientos y aprender de otros usuarios de
@@ -23,26 +23,26 @@ Nuestras conversaciones en tiempo real están en Gitter y se conectan a
 Matrix.  Matrix es la forma preferida, ya que es más fácil de usar que
 Gitter.
 
-[<img src="/images/matrix_org.svg" alt="matrix.org" style="height: 1em" /> Unirse a Matrix con Element.io](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)
+[<img src="/images/matrix_org.svg" alt="matrix.org" style="height: 1em" /> Join Matrix with Element.io](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)
 
-[<i class="fab fa-gitter"></i> Unirse al chat de Gitter](https://gitter.im/gaphor/lobby)
+[<i class="fab fa-gitter"></i> Join Gitter Chat](https://gitter.im/gaphor/lobby)
 
-NOTA. Si usa un dispositivo móvil, use la [aplicación
-Element](https://element.io/get-started) (para Matrix), la aplicación Gitter ya no
-ya no es compatible.
+NB. If you're using a mobile device, use the [Element
+app](https://element.io/get-started) (for Matrix), the Gitter app is no
+longer supported.
 
 ## Enviar una incidencia en GitHub
 
-Use nuestro gestor de incidencias de GitHub para preguntas generales y para informar de errores.
-Antes de enviar una incidencia a GitHub, consulte nuestra página sobre
-<a href="../tutorials/report-bugs">cómo informar de un error en Gaphor</a>.
+Please use our GitHub issue tracker for general questions and reporting bugs.
+Before submitting a GitHub issue please review our page about
+<a href="../tutorials/report-bugs">how to report a bug in Gaphor</a>.
 
-[<i class="fab fa-github"></i> Envíe una incidencia a GitHub](https://github.com/gaphor/gaphor/issues)
+[<i class="fab fa-github"></i> Submit an Issue on GitHub](https://github.com/gaphor/gaphor/issues)
 
 ## Conducta de la comunidad
 
-Esperamos que los contribuidores sigan el [Código de
-conducta](https://github.com/gaphor/gaphor/blob/master/CODE_OF_CONDUCT.md).
+We expect contributors to follow the [Code of
+Conduct](https://github.com/gaphor/gaphor/blob/master/CODE_OF_CONDUCT.md).
 
 Queremos que nuestra comunidad sea un lugar seguro, acogedor y amigable.  No
 dudaremos en emitir una advertencia clara y, si se ignora, prohibir a las

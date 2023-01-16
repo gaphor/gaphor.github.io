@@ -50,6 +50,6 @@ desarrolladores) somos un grupo de niños inteligentes de 5 años.  Intente
 explicar *todo* el problema y no asuma que sabemos lo que quiere decir. ¡No
 nos importará!
 
-Si desea implicarse más en el desarrollo de Gaphor, nos encantaría
-darle la bienvenida a través de la [web
-del desarrollador de Gaphor].(http://gaphor.readthedocs.io/).
+If you would like to get more involved in the development of Gaphor, we'd
+love to welcome you via the [Gaphor developer's
+website](http://gaphor.readthedocs.io/).
