@@ -64,12 +64,12 @@ if __name__ == "__main__":
     print("Filtering markdown before po4a conversion")
     p = pathlib.Path(__file__).parent.parent.resolve()
     for f in p.glob("**/*.md"):
-        stripped = strip_markdown_urls(f.read_text())
+        stripped = strip_markdown_urls(f.read_text(encoding="utf-8"))
         compiled_re = re.compile("|".join(re_list), re.MULTILINE)
         stripped = compiled_re.sub("", stripped)
 
         filtered_f = f.parent / f"{f.name}.filt"
-        filtered_f.write_text(stripped)
+        filtered_f.write_text(stripped, encoding="utf-8")
     print("Running po4a to build po files for translation")
     result = subprocess.run(["po4a", "-v", "-f", "po/po4a.conf"])
     print(result)
