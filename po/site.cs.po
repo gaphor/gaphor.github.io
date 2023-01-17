@@ -7,15 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-15 21:11-0300\n"
-"PO-Revision-Date: 2022-10-23 16:05+0000\n"
+"PO-Revision-Date: 2023-01-18 14:49+0000\n"
 "Last-Translator: vikdevelop <super-vik1@protonmail.com>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/cs/>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/"
+"gaphor-github-io/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.2-dev\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #. type: Plain text
 #: _includes/footer.md.filt
@@ -174,7 +175,7 @@ msgstr " Stáhnout .dmg\n"
 #. type: Plain text
 #: _platforms/02-macos.md.filt
 msgid "Gaphor requires **macOS 10.15** or newer."
-msgstr ""
+msgstr "Gaphor vyžaduje **macOS 10.15** nebo novější."
 
 #. type: Title ###
 #: _platforms/02-macos.md.filt
@@ -230,6 +231,8 @@ msgstr " Stáhnout AppImage\n"
 #: _platforms/03-linux.md.filt
 msgid "If you're using Wayland and the AppImage crashes, you can force it to use the X11 backend instead."
 msgstr ""
+"Pokud používáte Wayland a dojde k pádu AppImage, můžete jej donutit, aby "
+"místo toho používal backend X11."
 
 #. type: Title ###
 #: _platforms/03-linux.md.filt
@@ -696,10 +699,14 @@ msgstr "Chtěli byste se podílet na vývoji Gaphoru? (Pokud si myslíte, že je
 
 #. type: Plain text
 #: contribute.md.filt
-#, fuzzy
-#| msgid "Our technical documentation is hosted on the wonderful service that is Read the Docs. Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
 msgid "Our technical documentation is hosted on the wonderful service that is Read the Docs.  Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
-msgstr "Naše technická dokumentace je umístěna na skvělé službě Read the Docs. Nejenže obsahuje podrobnosti potřebné k tomu, abyste mohli do Gaphoru přispívat kódem, ale popisuje i spoustu dalších způsobů, jak můžete přispívat (včetně aktualizací této webové stránky). V neposlední řadě poskytuje průvodce našimi procesy a očekáváními pro různé typy příspěvků, které můžete do Gaphoru vložit."
+msgstr ""
+"Naše technická dokumentace je umístěna na skvělé službě Read the Docs.  "
+"Nejenže obsahuje podrobnosti potřebné k tomu, abyste mohli do Gaphoru "
+"přispívat kódem, ale popisuje i spoustu dalších způsobů, jak můžete "
+"přispívat (včetně aktualizací této webové stránky). V neposlední řadě "
+"poskytuje průvodce našimi procesy a očekáváními pro různé typy příspěvků, "
+"které můžete do Gaphoru vložit."
 
 #. type: Plain text
 #: contribute.md.filt
@@ -837,17 +844,22 @@ msgstr "Arjan vystoupil na konferenci GUADEC 2021 s přednáškou na téma Velk�
 #: tutorials.md.filt
 #, no-wrap
 msgid "What other people say"
-msgstr ""
+msgstr "Co říkají ostatní"
 
 #. type: Plain text
 #: tutorials.md.filt
 msgid "There are some 10+ year old articles on Gaphor on the web. Some more recent articles are:"
 msgstr ""
+"Na webu je několik více než 10 let starých článků o Gaphoru. Některé novější "
+"články jsou:"
 
 #. type: Plain text
 #: tutorials.md.filt
 msgid "- Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.  - It's FOSS has a short write-up on Gaphor (~2.8-ish?).  - Ubuntu Pit has a nice article on Gaphor (~2.8-ish?)."
 msgstr ""
+"- Webové stránky Metody a nástroje přezkoumaly verzi Gaphor 2.7.1 v prosinci "
+"2021 na Window 10.  - It's FOSS má krátký zápis o Gaphor (~2.8-ish?).  - "
+"Ubuntu Pit má pěkný článek o Gaphoru (~2.8-ish?)."
 
 #. type: YAML Front Matter: title
 #: download.md.filt
