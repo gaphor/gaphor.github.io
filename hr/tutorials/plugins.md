@@ -5,6 +5,7 @@ layout: article
 redirect_from: /pages/writing-a-plugin.html
 title: 'Pisanje dodatka'
 ---
+
 Gaphor je izrađen tako da se može proširiti korištenjem dodataka koji
 omogućuju dodatnu funkcionalnost.
 

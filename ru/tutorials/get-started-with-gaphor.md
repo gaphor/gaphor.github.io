@@ -3,22 +3,22 @@ handle: /tutorials/get-started-with-gaphor
 language: ru
 layout: article
 redirect_from: /pages/your-first-model.html
-title: 'Get started with Gaphor'
+title: 'Начните работу с Gaphor'
 ---
 
-Once Gaphor is launched, it provides you an almost empty user interface.  A
-new model is already created and the diagram is opened.
+Как только Gaphor запущен, он предоставляет вам почти пустой
+пользовательский интерфейс.  Новая модель уже создана, и диаграмма открыта.
 
-The layout of the Gaphor interface is divided into four sections, namely:
+Структура интерфейса Gaphor разделена на четыре секции, а именно:
 
--   Navigation
--   Diagrams
--   Diagram Element Toolbox
--   Properties pane
+-   Навигация
+-   Диаграммы
+-   Панель Элементов Диаграммы
+-   Панель свойств
 
-Each section has its own specific function.
+Каждая секция имеет свою определённую функцию.
 
-## Navigation
+## Навигация
 
 The navigation section of the interface displays a hierarchical view of your
 model. Every model element you create will be inserted into the navigation

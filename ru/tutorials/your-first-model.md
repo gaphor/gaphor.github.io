@@ -25,7 +25,7 @@ collapsed and needs to be clicked first to reveal its contents.
 Gaphor does not make any assumptions about which elements should be placed
 on a diagram. A diagram is a diagram. UML defines all different kinds of
 diagrams, such as Class diagrams, Component diagrams, Action diagrams,
-Sequence diagrams. But Gaphor does not place any restrictions.
+Sequence diagrams.  But Gaphor does not place any restrictions.
 
 ## Creating New Diagrams
 
@@ -34,21 +34,21 @@ Sequence diagrams. But Gaphor does not place any restrictions.
 To create a new diagram, use the Navigation section. Select an element that
 can contain a diagram (a Package or Profile) and right-click. Select New
 diagram and a new diagram is created. As of Gaphor 1.1.0 a buttion is
-available in the header bar. Select a package and you'll notice the button
+available in the header bar. Select a package, and you'll notice the button
 is not grayed out and can be clicked, resulting in a new diagram being added
 to the model.
 
-## Copy and Paste
+## Копирование и Вставка
 
 Items in a diagram can be copied and pasted (in the same diagram or
 another). A paste will create new items in the diagrams, the items they
 represent (e.g. the Class that's shown in the Navigation) is *not* copied
 (call it a shallow copy if you like).
 
-This way you can easely create visual copies of the same (underlaying) model
+This way you can easily create visual copies of the same (underlying) model
 element.
 
-## Drag and Drop
+## Перетаскивание
 
 Adding an existing element to a diagram is simple: drag the element from the
 Navigation section onto a diagram. Not all elements that show up in the

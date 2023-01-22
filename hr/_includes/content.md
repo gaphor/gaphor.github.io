@@ -1,59 +1,122 @@
-{% capture thousand-words %} A picture is worth a thousand words. Describe
-and document your applications and systems with Gaphor to enhance knowledge
-sharing.  {% endcapture %}
+{% capture thousand-words %}
 
-{% capture about-content %} Gaphor is a UML, SysML, RAAML, and C4 modeling
-application. It is designed to be easy to use, while still being
-powerful. Gaphor implements a fully-compliant UML 2 data model, so it is
-much more than a picture drawing tool. You can use Gaphor to quickly
-visualize different aspects of a system as well as create complete, highly
-complex models.
+Slika vrijedi tisuću riječi. Opiši i dokumentiraj svoje programe i sustave s
+Gaphorom za poboljšavanje dijeljenja znanja.
 
 {% endcapture %}
 
-{% capture build %} Build Class, Interaction, and State Machine diagrams for
-software or Block Definition and Requirements diagrams for systems. Model
-the elements you need. If you want to mix and match, you can even add
-different diagram items to the same diagram to get the view you need.  {%
-endcapture %}
+{% capture about-content %}
 
-{% capture styling-engine %} Customize the diagrams you create with our
-built-in styling engine.  {% endcapture %}
+Gaphor je UML, SYSML, Raaml i C4 program za modeliranje. Izrađen je kao
+jednostavan i moćan program. Gaphor implementira potpuno sukladan UML 2
+model podataka, tako da je program više od običnog alata za crtanje
+slike. Koristi Gaphor za brzo vizualiziranje različitih aspekata sustava,
+kao i za stvaranje potpunih, vrlo složenih modela.
 
-{% capture treeview %} Easily find all element of your model in the tree
-view.  {% endcapture %}
+{% endcapture %}
 
-{% capture dark-mode %} Love dark mode? We can do that too.  {% endcapture
-%}
+{% capture build %}
 
-{% capture download-content %} There are many ways to install Gaphor.  The
-simplest is to download the official installer for Windows or macOS.  For
-Linux you can install Gaphor using FlatHub.  You can also use Python's
-built-in `pip` tool as long as you have all of the required dependencies
-installed.  {% endcapture %}
+Izradi klase, interakciju i dijagrame stanja uređaja za softver ili
+dijagrame definicija blokova i dijagrame preduvjeta za sustave. Modeliraj
+elemente koje trebaš. Ako želiš miješati i uskladiti, za dobivanje željenog
+prikaza istom dijagramu možeš čak dodati različite elemente dijagrama.
 
-{% capture blog-content %} Do you want to know what's going on with Gaphor?
-Read our blog!
+{% endcapture %}
+
+{% capture styling-engine %}
+
+Prilagodi dijagrame koje stvaraš pomoću našeg ugrađenog mehanizma za
+stiliziranje.
+
+{% endcapture %}
+
+{% capture treeview %}
+
+Pronađi sve elemente tvog modela na jednostavan način u prikazu stabla.
+
+{% endcapture %}
+
+{% capture dark-mode %}
+
+Voliš tamni modus? Omogućujemo i to.
+
+{% endcapture %}
+
+{% capture download-content %}
+
+Postoji mnogo načina za instaliranje Gaphora. Najjednostavnije je preuzeti
+službeni instalacijski program za Windows ili macOS. Za Linux se Gaphor može
+instalirati koristeći FlatHub. Također je moguće koristiti Pythonov ugrađeni
+`pip` alat ukoliko su sve potrebne ovisnosti instalirane.
+
+{% endcapture %}
+
+{% capture blog-content %}
+
+Želiš znati što se događa s Gaphorom? Čitaj naš blog!
 
 [Contact the team]({% link discuss.md %})  if you want to share content
-related to Gaphor.  {% endcapture %}
+related to Gaphor.
 
-{% capture see-blog %} See blog {% endcapture %}
+{% endcapture %}
 
-{% capture read-more %} Read more {% endcapture %}
+{% capture see-blog %}
 
-{% capture download %} Download {% endcapture %}
+Pogledaj blog
 
-{% capture learn %} Learn more {% endcapture %}
+{% endcapture %}
 
-{% capture about %} About {% endcapture %}
+{% capture read-more %}
 
-{% capture download %} Download {% endcapture %}
+Saznaj više
 
-{% capture tutorials %} Tutorials {% endcapture %}
+{% endcapture %}
 
-{% capture blog %} Blog {% endcapture %}
+{% capture download %}
 
-{% capture discuss %} Get in touch {% endcapture %}
+Preuzmi
 
-{% capture contribute %} Contribute {% endcapture %}
+{% endcapture %}
+
+{% capture learn %}
+
+Saznaj više
+
+{% endcapture %}
+
+{% capture about %}
+
+Informacije
+
+{% endcapture %}
+
+{% capture download %}
+
+Preuzmi
+
+{% endcapture %}
+
+{% capture tutorials %}
+
+Vježbe
+
+{% endcapture %}
+
+{% capture blog %}
+
+Blog
+
+{% endcapture %}
+
+{% capture discuss %}
+
+Kontaktiraj zajednicu
+
+{% endcapture %}
+
+{% capture contribute %}
+
+Doprinesi
+
+{% endcapture %}

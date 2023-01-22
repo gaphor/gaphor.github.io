@@ -21,10 +21,11 @@ Michigan Python meetup.
 ## Temas avanzados
 
 - [Extend your models with
-stereotypes](https://gaphor.readthedocs.io/en/latest/stereotypes.html)  -
-[Writing a plugin]({% link tutorials/plugins.md %})  - [Technical and
-architectural documentation](https://gaphor.readthedocs.io/)  for
-contributors and plugin developers
+  stereotypes](https://gaphor.readthedocs.io/en/latest/stereotypes.html)
+- [Writing a plugin]({% link tutorials/plugins.md %})
+- [Technical and architectural
+documentation](https://gaphor.readthedocs.io/)  for contributors and plugin
+developers
 
 ## Charlas
 
@@ -45,8 +46,8 @@ There are some 10+ year old articles on Gaphor on the web. Some more recent
 articles are:
 
 - [Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on
-a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)  - [It's
-FOSS has a short write-up on Gaphor
-(~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)  - [Ubuntu Pit has
-a nice article on Gaphor
-(~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)
+  a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)
+- [It's FOSS has a short write-up on Gaphor
+  (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)
+- [Ubuntu Pit has a nice article on Gaphor
+  (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)
