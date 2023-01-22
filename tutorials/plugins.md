@@ -5,17 +5,17 @@ language: en
 handle: /tutorials/plugins
 layout: article
 ---
+
 Gaphor is designed to be extensible by using plugins that allow you to extend
 the functionality.
 
 ## Accessing Model Related Data
 
 The datamodel classes are located in the `gaphor.UML` module. Data objects can
-be accessed through the ElementFactory. This is a special class for creating
-and managing data objects. Items can be queried using this element factory,
-which is registered in the application as `element_factory`. When writing a
-service or plugin the element factory can be injected into the service like
-this:
+be accessed through the ElementFactory. This is a special class for creating and
+managing data objects. Items can be queried using this element factory, which is
+registered in the application as `element_factory`. When writing a service or
+plugin the element factory can be injected into the service like this:
 
 ```python
 class MyThing:
@@ -39,7 +39,7 @@ Two methods are used for querying:
 -   `lselect(query=None)` -> returns a list
 
 `query` is a lambda function with the element as parameter. For example, to
-fetch all of the Class instances from the element factory:
+fetch all the Class instances from the element factory:
 
 ```python
 element_factory.select(lambda e: e.isKindOf(UML.Class))
@@ -71,8 +71,8 @@ for o in classes.ownedOperation['it.returnParameter'].ownedParameter:
     do_something(p)
 ```
 
-The variable `it` in the query refers to the evaluated object (in this
-case all operations with a return parameter are taken into account).
+The variable `it` in the query refers to the evaluated object (in this case all
+operations with a return parameter are taken into account).
 
 ## Example Plugin
 
