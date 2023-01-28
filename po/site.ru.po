@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-15 21:12-0300\n"
-"PO-Revision-Date: 2023-01-18 14:49+0000\n"
+"PO-Revision-Date: 2023-01-29 20:05+0000\n"
 "Last-Translator: BrainKicker <peter.sabanov@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gaphor/"
 "gaphor-github-io/ru/>\n"
@@ -17,33 +17,33 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #. type: Plain text
 #: _includes/footer.md.filt
 msgid "We love to hear from you"
-msgstr ""
+msgstr "Мы рады услышать вас"
 
 #. type: Plain text
 #: _includes/footer.md.filt
 msgid "Open an issue on GitHub"
-msgstr ""
+msgstr "Открыть проблему на GitHub"
 
 #. type: Plain text
 #: _includes/footer.md.filt
 #, no-wrap
 msgid " Tech docs\n"
-msgstr ""
+msgstr " Техническая документация\n"
 
 #. type: Plain text
 #: _includes/footer.md.filt
 msgid "Copyright &copy; 2020-2022 Arjan Molenaar and Dan Yeaw."
-msgstr ""
+msgstr "Авторское право &copy; 2001-2022 Arjan Molenaar и Dan Yeaw."
 
 #. type: Plain text
 #: _includes/footer.md.filt
 msgid "Theme"
-msgstr ""
+msgstr "Тема"
 
 #. type: Plain text
 #: _includes/content.md.filt
@@ -56,31 +56,48 @@ msgstr ""
 #: _includes/content.md.filt
 msgid "Gaphor is a UML, SysML, RAAML, and C4 modeling application. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models."
 msgstr ""
+"Gaphor - это приложение для моделирования на основе UML, SysML, RAAML и C4. "
+"Оно создано простым в использовании, но при этом является мощным. Gaphor "
+"реализует полностью совместимую с UML 2 модель данных, поэтому это гораздо "
+"больше, чем инструмент для рисования картинок. Вы можете использовать Gaphor "
+"для быстрой визуализации различных аспектов системы, а также для создания "
+"полных, очень сложных моделей."
 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "Build Class, Interaction, and State Machine diagrams for software or Block Definition and Requirements diagrams for systems. Model the elements you need. If you want to mix and match, you can even add different diagram items to the same diagram to get the view you need."
 msgstr ""
+"Стройте диаграммы Классов, Взаимодействий и Машин Состояний для программного "
+"обеспечения или диаграммы Определения Блоков и Требований для систем. "
+"Моделируйте необходимые вам элементы. Если вы хотите смешивать и сочетать, "
+"вы можете даже добавить элементы различных диаграмм в одну и ту же "
+"диаграмму, чтобы получить нужное вам представление."
 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "Customize the diagrams you create with our built-in styling engine."
 msgstr ""
+"Настраивайте создаваемые диаграммы с помощью встроенного механизма "
+"стилизации."
 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "Easily find all element of your model in the tree view."
-msgstr ""
+msgstr "Легко находите все элементы модели в древовидном представлении."
 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "Love dark mode? We can do that too."
-msgstr ""
+msgstr "Любите тёмный режим? Это мы тоже умеем."
 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."
 msgstr ""
+"Есть много способов установить Gaphor.  Самый простой — скачать официальный "
+"установщик для Windows или macOS.  Для Linux вы можете установить Gaphor с "
+"помощью FlatHub.  Вы также можете использовать встроенный в Python "
+"инструмент pip, если у вас установлены все необходимые зависимости."
 
 #. type: Plain text
 #: _includes/content.md.filt
@@ -91,16 +108,18 @@ msgstr "Хотите знать, что происходит с Gaphor? Чита
 #: _includes/content.md.filt
 msgid "Contact the team if you want to share content related to Gaphor."
 msgstr ""
+"Свяжитесь с командой, если вы хотите поделиться контентом, связанным с "
+"Gaphor."
 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "See blog"
-msgstr ""
+msgstr "Смотреть блог"
 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "Read more"
-msgstr ""
+msgstr "Узнать больше"
 
 #. type: Plain text
 #: _includes/content.md.filt
@@ -115,13 +134,13 @@ msgstr "Узнать больше"
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "About"
-msgstr ""
+msgstr "О нас"
 
 #. type: YAML Front Matter: title
 #: _includes/content.md.filt tutorials.md.filt
 #, no-wrap
 msgid "Tutorials"
-msgstr ""
+msgstr "Руководство"
 
 #. type: Plain text
 #: _includes/content.md.filt
@@ -132,7 +151,7 @@ msgstr "Блог"
 #: _includes/content.md.filt discuss.md.filt
 #, no-wrap
 msgid "Get in touch"
-msgstr ""
+msgstr "Связь с нами"
 
 #. type: YAML Front Matter: title
 #: _includes/content.md.filt contribute.md.filt
@@ -150,18 +169,18 @@ msgstr "Windows"
 #: _platforms/01-windows.md.filt
 #, no-wrap
 msgid " Download installer\n"
-msgstr ""
+msgstr " Скачать установщик\n"
 
 #. type: Plain text
 #: _platforms/01-windows.md.filt
 msgid "Alternatively a portable version of Gaphor can be downloaded."
-msgstr ""
+msgstr "Также вы можете загрузить портативную версию Gaphor."
 
 #. type: Plain text
 #: _platforms/01-windows.md.filt
 #, no-wrap
 msgid " Download portable version\n"
-msgstr ""
+msgstr " Скачать портативную версию\n"
 
 #. type: YAML Front Matter: title
 #: _platforms/02-macos.md.filt
@@ -173,18 +192,18 @@ msgstr "macOS"
 #: _platforms/02-macos.md.filt
 #, no-wrap
 msgid " Download .dmg\n"
-msgstr ""
+msgstr " Скачать .dmg\n"
 
 #. type: Plain text
 #: _platforms/02-macos.md.filt
 msgid "Gaphor requires **macOS 10.15** or newer."
-msgstr ""
+msgstr "Gaphor требует **macOS 10.15** или новее."
 
 #. type: Title ###
 #: _platforms/02-macos.md.filt
 #, no-wrap
 msgid "Homebrew"
-msgstr ""
+msgstr "Homebrew"
 
 #. type: Plain text
 #: _platforms/02-macos.md.filt
@@ -211,7 +230,7 @@ msgstr ""
 #. type: Plain text
 #: _platforms/03-linux.md.filt
 msgid "To manually install Gaphor:"
-msgstr ""
+msgstr "Чтобы установить Gaphor вручную:"
 
 #. type: Title ###
 #: _platforms/03-linux.md.filt
@@ -228,7 +247,7 @@ msgstr ""
 #: _platforms/03-linux.md.filt
 #, no-wrap
 msgid " Download AppImage\n"
-msgstr ""
+msgstr " Скачать AppImage\n"
 
 #. type: Plain text
 #: _platforms/03-linux.md.filt
@@ -244,7 +263,7 @@ msgstr "Arch Linux"
 #. type: Plain text
 #: _platforms/03-linux.md.filt
 msgid "Gaphor can be installed from an AUR package."
-msgstr ""
+msgstr "Gaphor может быть установлен из пакета AUR."
 
 #. type: YAML Front Matter: title
 #: _platforms/04-python.md.filt
@@ -266,7 +285,7 @@ msgstr ""
 #: tutorials/plugins.md.filt
 #, no-wrap
 msgid "Writing a Plugin"
-msgstr ""
+msgstr "Написание Плагина"
 
 #. type: Plain text
 #: tutorials/plugins.md.filt
@@ -356,7 +375,7 @@ msgstr ""
 #: tutorials/report-bugs.md.filt
 #, no-wrap
 msgid "How to report a bug in Gaphor"
-msgstr ""
+msgstr "Как сообщить об ошибке в Gaphor"
 
 #. type: Plain text
 #: tutorials/report-bugs.md.filt
@@ -366,7 +385,7 @@ msgstr ""
 #. type: Plain text
 #: tutorials/report-bugs.md.filt
 msgid "Report a Bug in Gaphor"
-msgstr ""
+msgstr "Сообщить об Ошибке в Gaphor"
 
 #. type: Plain text
 #: tutorials/report-bugs.md.filt
