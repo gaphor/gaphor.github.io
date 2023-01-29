@@ -32,8 +32,8 @@
     display: block;
     font-size: 36px;
     color: #fff;
-    font-weight: 600;
-    font-family: "Poppins";
+    font-weight: 800;
+    font-family: $headings-font-family;
     letter-spacing: 0.02em;
     line-height: 72px;
 
@@ -49,7 +49,7 @@
   }
 
   .header-subtitle {
-    font-family: "Poppins";
+    font-family: $headings-font-family;
     font-size: 14px;
     font-weight: 300;
     color: #fff;
@@ -111,7 +111,7 @@
   h1 {
     margin: 0 0 29px 0;
     line-height: 84px;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 80px;
     color: #fff;
   }
