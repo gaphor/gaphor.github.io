@@ -5,6 +5,7 @@ layout: article
 redirect_from: /pages/writing-a-plugin.html
 title: 'Writing a Plugin'
 ---
+
 Gaphor is designed to be extensible by using plugins that allow you to
 extend the functionality.
 
@@ -39,7 +40,7 @@ Two methods are used for querying:
 -   `lselect(query=None)` -> returns a list
 
 `query` is a lambda function with the element as parameter. For example, to
-fetch all of the Class instances from the element factory:
+fetch all the Class instances from the element factory:
 
 ```python
 element_factory.select(lambda e: e.isKindOf(UML.Class))

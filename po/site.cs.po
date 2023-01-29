@@ -6,17 +6,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-01-15 21:11-0300\n"
-"PO-Revision-Date: 2023-01-18 14:49+0000\n"
+"POT-Creation-Date: 2023-01-22 16:01-0500\n"
+"PO-Revision-Date: 2022-10-23 16:05+0000\n"
 "Last-Translator: vikdevelop <super-vik1@protonmail.com>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/"
-"gaphor-github-io/cs/>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.14.2-dev\n"
 
 #. type: Plain text
 #: _includes/footer.md.filt
@@ -30,13 +29,12 @@ msgstr "Otevřete problém na GitHubu"
 
 #. type: Plain text
 #: _includes/footer.md.filt
-#, no-wrap
-msgid " Tech docs\n"
-msgstr " Technické dokumenty\n"
+msgid "Tech docs"
+msgstr "Technické dokumenty"
 
 #. type: Plain text
 #: _includes/footer.md.filt
-msgid "Copyright &copy; 2020-2022 Arjan Molenaar and Dan Yeaw."
+msgid "Copyright &copy; 2020-2023 Arjan Molenaar and Dan Yeaw."
 msgstr "Copyright &copy; 2020-2022 Arjan Molenaar a Dan Yeaw."
 
 #. type: Plain text
@@ -76,8 +74,8 @@ msgstr "Milujete tmavý režim? I ten umíme."
 
 #. type: Plain text
 #: _includes/content.md.filt
-msgid "There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."
-msgstr "Existuje mnoho způsobů instalace systému Gaphor.  Nejjednodušší je stáhnout si oficiální instalační program pro Windows nebo macOS.  Na Linux je možné nainstalovat Gaphor pomocí FlatHubu.  Můžete také použít vestavěný nástroj `pip` pro Python, pokud máte nainstalovány všechny potřebné závislosti."
+msgid "There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
+msgstr "Existuje mnoho způsobů instalace systému Gaphor. Nejjednodušší je stáhnout si oficiální instalační program pro Windows nebo macOS. Pro Linux můžete Gaphor nainstalovat pomocí FlatHubu.  Můžete také použít vestavěný nástroj `pip` pro Python, pokud máte nainstalovány všechny potřebné závislosti."
 
 #. type: Plain text
 #: _includes/content.md.filt
@@ -114,7 +112,7 @@ msgstr "Zjistěte více"
 msgid "About"
 msgstr "O nás"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _includes/content.md.filt tutorials.md.filt
 #, no-wrap
 msgid "Tutorials"
@@ -125,19 +123,19 @@ msgstr "Tutoriály"
 msgid "Blog"
 msgstr "Blog"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _includes/content.md.filt discuss.md.filt
 #, no-wrap
 msgid "Get in touch"
 msgstr "Spojte se s námi"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _includes/content.md.filt contribute.md.filt
 #, no-wrap
 msgid "Contribute"
 msgstr "Přispět"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _platforms/01-windows.md.filt
 #, no-wrap
 msgid "Windows"
@@ -160,7 +158,7 @@ msgstr "Případně si můžete stáhnout přenosnou verzi programu Gaphor."
 msgid " Download portable version\n"
 msgstr " Stáhnout přenosnou verzi\n"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _platforms/02-macos.md.filt
 #, no-wrap
 msgid "macOS"
@@ -175,7 +173,7 @@ msgstr " Stáhnout .dmg\n"
 #. type: Plain text
 #: _platforms/02-macos.md.filt
 msgid "Gaphor requires **macOS 10.15** or newer."
-msgstr "Gaphor vyžaduje **macOS 10.15** nebo novější."
+msgstr ""
 
 #. type: Title ###
 #: _platforms/02-macos.md.filt
@@ -188,7 +186,7 @@ msgstr "Homebrew"
 msgid "Pour Gaphor from a homebrew cask:"
 msgstr "Nalijte Gaphor z domácího sudu:"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _platforms/03-linux.md.filt
 #, no-wrap
 msgid "Linux"
@@ -231,8 +229,6 @@ msgstr " Stáhnout AppImage\n"
 #: _platforms/03-linux.md.filt
 msgid "If you're using Wayland and the AppImage crashes, you can force it to use the X11 backend instead."
 msgstr ""
-"Pokud používáte Wayland a dojde k pádu AppImage, můžete jej donutit, aby "
-"místo toho používal backend X11."
 
 #. type: Title ###
 #: _platforms/03-linux.md.filt
@@ -245,7 +241,7 @@ msgstr "Arch Linux"
 msgid "Gaphor can be installed from an AUR package."
 msgstr "Gaphor lze nainstalovat jako balíček z AUR repositáře."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _platforms/04-python.md.filt
 #, no-wrap
 msgid "Python"
@@ -258,10 +254,10 @@ msgstr "Pokud máte nainstalovanou nejnovější stabilní verzi Pythonu a závi
 
 #. type: Plain text
 #: _platforms/04-python.md.filt
-msgid "If you don't have the latest stable version of Python and the Gaphor dependencies installed, follow the development environment installation instructions section, but do not clone the repository.  Optionally, create a virtual environment.  Then execute the following:"
+msgid "If you don't have the latest stable version of Python and the Gaphor dependencies installed, follow the development environment installation instructions section, but do not clone the repository. Optionally, create a virtual environment.  Then execute the following:"
 msgstr "Pokud nemáte nainstalovanou nejnovější stabilní verzi Pythonu a závislostí Gaphor, postupujte podle pokynů pro instalaci vývojového prostředí, ale neklonujte úložiště.  Případně vytvořte virtuální prostředí.  Poté proveďte následující příkaz:"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: tutorials/plugins.md.filt
 #, no-wrap
 msgid "Writing a Plugin"
@@ -311,7 +307,7 @@ msgstr "`lselect(query=None)` -> vrací seznam"
 
 #. type: Plain text
 #: tutorials/plugins.md.filt
-msgid "`query` is a lambda function with the element as parameter. For example, to fetch all of the Class instances from the element factory:"
+msgid "`query` is a lambda function with the element as parameter. For example, to fetch all the Class instances from the element factory:"
 msgstr "`dotaz` je lambda funkce s prvkem jako parametrem. Například pro načtení všech instancí třídy z továrny na prvky:"
 
 #. type: Title ##
@@ -351,7 +347,7 @@ msgstr "Příklad pluginu"
 msgid "An example Hello World plugin is hosted on GitHub."
 msgstr "Příklad zásuvného modulu Hello World je umístěn na GitHubu."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: tutorials/report-bugs.md.filt
 #, no-wrap
 msgid "How to report a bug in Gaphor"
@@ -424,7 +420,7 @@ msgstr "Technické údaje, jako je verze programu Gaphor, kterou používáte, v
 
 #. type: Plain text
 #: tutorials/report-bugs.md.filt
-msgid "Use plain and simple language to describe the problem and, if helpful, break it down into steps so developers can easily recreate the issue. Please don't assume we'll understand what you were trying to achieve -- honestly, it's best if you try to imagine we (the developers) are a bunch of clever 5-year-olds.  Try to explain *everything* about the problem and don't assume we know what you mean. We won't mind!"
+msgid "Use plain and simple language to describe the problem and, if helpful, break it down into steps so developers can easily recreate the issue. Please don't assume we'll understand what you were trying to achieve -- honestly, it's best if you try to imagine we (the developers) are a bunch of clever 5-year-olds. Try to explain *everything* about the problem and don't assume we know what you mean.  We won't mind!"
 msgstr "Problém popište jednoduchým a srozumitelným jazykem, a pokud je to užitečné, rozdělte jej do jednotlivých kroků, aby vývojáři mohli problém snadno znovu vytvořit. Nepředpokládejte, že pochopíme, čeho jste se snažili dosáhnout - upřímně řečeno, nejlepší bude, když si zkusíte představit, že my (vývojáři) jsme banda chytrých pětiletých dětí.  Pokuste se vysvětlit *vše* o problému a nepředpokládejte, že víme, co máte na mysli. Nebude nám to vadit!"
 
 #. type: Plain text
@@ -580,7 +576,7 @@ msgstr "Některé prvky nejsou přímo viditelné. Sekce ve schránce nástrojů
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
-msgid "Gaphor does not make any assumptions about which elements should be placed on a diagram. A diagram is a diagram. UML defines all different kinds of diagrams, such as Class diagrams, Component diagrams, Action diagrams, Sequence diagrams. But Gaphor does not place any restrictions."
+msgid "Gaphor does not make any assumptions about which elements should be placed on a diagram. A diagram is a diagram. UML defines all different kinds of diagrams, such as Class diagrams, Component diagrams, Action diagrams, Sequence diagrams.  But Gaphor does not place any restrictions."
 msgstr "Gaphor nevytváří žádné předpoklady o tom, které prvky by měly být umístěny v diagramu. Diagram je diagram. UML definuje všechny různé druhy diagramů, jako jsou diagramy tříd, diagramy komponent, diagramy akcí, diagramy sekvencí. Gaphor však neklade žádná omezení."
 
 #. type: Title ##
@@ -591,7 +587,7 @@ msgstr "Vytváření nových diagramů"
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
-msgid "To create a new diagram, use the Navigation section. Select an element that can contain a diagram (a Package or Profile) and right-click. Select New diagram and a new diagram is created. As of Gaphor 1.1.0 a buttion is available in the header bar. Select a package and you'll notice the button is not grayed out and can be clicked, resulting in a new diagram being added to the model."
+msgid "To create a new diagram, use the Navigation section. Select an element that can contain a diagram (a Package or Profile) and right-click. Select New diagram and a new diagram is created. As of Gaphor 1.1.0 a buttion is available in the header bar. Select a package, and you'll notice the button is not grayed out and can be clicked, resulting in a new diagram being added to the model."
 msgstr "Chcete-li vytvořit nový diagram, použijte část Navigace. Vyberte prvek, který může obsahovat diagram (balíček nebo profil) a klikněte pravým tlačítkem. Vyberte Nový diagram a vytvoří se nový diagram. Od Verze Gaphor 1.1.0 je v záhlaví k dispozici buttion. Vyberte balíček a všimnete si, že tlačítko není zobrazeno šedě a lze na něj kliknout, což má za následek přidání nového diagramu do modelu."
 
 #. type: Title ##
@@ -607,7 +603,7 @@ msgstr "Položky v diagramu lze kopírovat a vkládat (do stejného nebo jiného
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
-msgid "This way you can easely create visual copies of the same (underlaying) model element."
+msgid "This way you can easily create visual copies of the same (underlying) model element."
 msgstr "Tímto způsobem můžete snadno vytvářet vizuální kopie stejného (podkladového) prvku modelu."
 
 #. type: Title ##
@@ -626,7 +622,7 @@ msgstr "Přidání existujícího prvku do diagramu je jednoduché: přetáhnět
 msgid "Elements can also be dragged within the Navigation section. This way classes and packages can be rearranged for example."
 msgstr "Prvky lze přetahovat také v rámci sekce Navigace. Tímto způsobem lze například přeskupovat třídy a balíčky."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/01-platform.md.filt
 #, no-wrap
 msgid "Multi-platform"
@@ -637,7 +633,7 @@ msgstr "Multiplatformní"
 msgid "Gaphor works on all major platforms: Windows, Macos and Linux."
 msgstr "Gaphor funguje na všech hlavních platformách: Windows, macOS a Linux."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/02-opensource.md.filt
 #, no-wrap
 msgid "Open Source"
@@ -648,7 +644,7 @@ msgstr "Otevřený zdrojový kód"
 msgid "No vendor lock-in: Gaphor written in Python and is 100% Open Source, available under a friendly Apache 2 license."
 msgstr "Žádný vendor lock-in: Gaphor je napsán v jazyce Python a je 100% open source, dostupný pod přátelskou licencí Apache 2."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/03-beginner-pro.md.filt
 #, no-wrap
 msgid "Beginner or Pro"
@@ -659,7 +655,7 @@ msgstr "Začátečník nebo profesionál"
 msgid "Whether you're a casual modeler documenting a project or a Model Driven Development expert, Gaphor has got you covered."
 msgstr "Ať už jste příležitostný modelář, který dokumentuje projekt, nebo expert na vývoj řízený modelem, Gaphor vám pomůže."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/04-consistent.md.filt
 #, no-wrap
 msgid "Consistent"
@@ -670,7 +666,7 @@ msgstr "Konzistentní"
 msgid "UML is a graphical modeling language, so all information you put in the model is visible in the diagrams. For example, stereotypes are modeled in diagrams.  No hidden panels and property pages. Just diagrams!"
 msgstr "UML je grafický modelovací jazyk, takže všechny informace, které do modelu vložíte, jsou viditelné v diagramech. Například stereotypy jsou modelovány v diagramech.  Žádné skryté panely a stránky vlastností. Jen diagramy!"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/05-extensible.md.filt
 #, no-wrap
 msgid "Extensible"
@@ -681,7 +677,7 @@ msgstr "Rozšiřitelný"
 msgid "Gaphor is extensible. Plug-in a code generator or export your diagrams for documentation.  Create your own extensions and access them through the GUI or CLI."
 msgstr "Gaphor je rozšiřitelný. Připojte generátor kódu nebo exportujte svá schémata pro dokumentaci.  Vytvořte si vlastní rozšíření a přistupujte k nim prostřednictvím grafického uživatelského rozhraní nebo rozhraní CLI."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/06-standard.md.filt
 #, no-wrap
 msgid "Standards Compliant"
@@ -699,14 +695,8 @@ msgstr "Chtěli byste se podílet na vývoji Gaphoru? (Pokud si myslíte, že je
 
 #. type: Plain text
 #: contribute.md.filt
-msgid "Our technical documentation is hosted on the wonderful service that is Read the Docs.  Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
-msgstr ""
-"Naše technická dokumentace je umístěna na skvělé službě Read the Docs.  "
-"Nejenže obsahuje podrobnosti potřebné k tomu, abyste mohli do Gaphoru "
-"přispívat kódem, ale popisuje i spoustu dalších způsobů, jak můžete "
-"přispívat (včetně aktualizací této webové stránky). V neposlední řadě "
-"poskytuje průvodce našimi procesy a očekáváními pro různé typy příspěvků, "
-"které můžete do Gaphoru vložit."
+msgid "Our technical documentation is hosted on the wonderful service that is Read the Docs. Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
+msgstr "Naše technická dokumentace je umístěna na skvělé službě Read the Docs. Nejenže obsahuje podrobnosti potřebné k tomu, abyste mohli do Gaphoru přispívat kódem, ale popisuje i spoustu dalších způsobů, jak můžete přispívat (včetně aktualizací této webové stránky). V neposlední řadě poskytuje průvodce našimi procesy a očekáváními pro různé typy příspěvků, které můžete do Gaphoru vložit."
 
 #. type: Plain text
 #: contribute.md.filt
@@ -814,9 +804,19 @@ msgstr ""
 msgid "Advanced topics"
 msgstr "Pokročilá témata"
 
+#. type: Bullet: '- '
+#: tutorials.md.filt
+msgid "Extend your models with stereotypes"
+msgstr ""
+
+#. type: Bullet: '- '
+#: tutorials.md.filt
+msgid "Writing a plugin"
+msgstr "Psaní zásuvného modulu"
+
 #. type: Plain text
 #: tutorials.md.filt
-msgid "- Extend your models with stereotypes - Writing a plugin - Technical and architectural documentation for contributors and plugin developers"
+msgid "- Technical and architectural documentation for contributors and plugin developers"
 msgstr "- Rozšiřování modelů pomocí stereotypů - Psaní zásuvného modulu - Technická a architektonická dokumentace pro přispěvatele a vývojáře zásuvných modulů"
 
 #. type: Title ##
@@ -844,24 +844,29 @@ msgstr "Arjan vystoupil na konferenci GUADEC 2021 s přednáškou na téma Velk�
 #: tutorials.md.filt
 #, no-wrap
 msgid "What other people say"
-msgstr "Co říkají ostatní"
+msgstr ""
 
 #. type: Plain text
 #: tutorials.md.filt
 msgid "There are some 10+ year old articles on Gaphor on the web. Some more recent articles are:"
 msgstr ""
-"Na webu je několik více než 10 let starých článků o Gaphoru. Některé novější "
-"články jsou:"
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: tutorials.md.filt
-msgid "- Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.  - It's FOSS has a short write-up on Gaphor (~2.8-ish?).  - Ubuntu Pit has a nice article on Gaphor (~2.8-ish?)."
+msgid "Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10."
 msgstr ""
-"- Webové stránky Metody a nástroje přezkoumaly verzi Gaphor 2.7.1 v prosinci "
-"2021 na Window 10.  - It's FOSS má krátký zápis o Gaphor (~2.8-ish?).  - "
-"Ubuntu Pit má pěkný článek o Gaphoru (~2.8-ish?)."
 
-#. type: YAML Front Matter: title
+#. type: Bullet: '- '
+#: tutorials.md.filt
+msgid "It's FOSS has a short write-up on Gaphor (~2.8-ish?)."
+msgstr ""
+
+#. type: Bullet: '- '
+#: tutorials.md.filt
+msgid "Ubuntu Pit has a nice article on Gaphor (~2.8-ish?)."
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
 #: download.md.filt
 #, no-wrap
 msgid "Download Gaphor"
@@ -869,7 +874,7 @@ msgstr "Stáhnout Gaphor"
 
 #. type: Plain text
 #: download.md.filt
-msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."
+msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
 msgstr "Existuje mnoho způsobů instalace systému Gaphor. Nejjednodušší je stáhnout si oficiální instalační program pro Windows nebo macOS. Pro Linux můžete Gaphor nainstalovat pomocí FlatHubu.  Můžete také použít vestavěný nástroj `pip` pro Python, pokud máte nainstalovány všechny potřebné závislosti."
 
 #. type: Plain text
@@ -894,17 +899,73 @@ msgstr "**Stránka nebyla nalezena :(**\n"
 msgid "The requested page could not be found."
 msgstr "Požadovanou stránku se nepodařilo najít."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: index.md.filt
 #, no-wrap
 msgid "Modeling for Everyone"
 msgstr "Modeling pro každého"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: blog.md.filt
 #, no-wrap
 msgid "Blog and News"
 msgstr "Blog a Zprávy"
+
+#, fuzzy, no-wrap
+#~| msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."
+#~ msgid ""
+#~ "There are many ways to install Gaphor.\n"
+#~ "The simplest is to download the official installer for Windows or macOS.\n"
+#~ "For Linux you can install Gaphor using FlatHub.\n"
+#~ "You can also use Python's built-in `pip` tool as long as you have all the\n"
+#~ "required dependencies installed.\n"
+#~ msgstr "Existuje mnoho způsobů instalace systému Gaphor. Nejjednodušší je stáhnout si oficiální instalační program pro Windows nebo macOS. Pro Linux můžete Gaphor nainstalovat pomocí FlatHubu.  Můžete také použít vestavěný nástroj `pip` pro Python, pokud máte nainstalovány všechny potřebné závislosti."
+
+#, fuzzy, no-wrap
+#~| msgid "Tutorials"
+#~ msgid "Tutorials\n"
+#~ msgstr "Tutoriály"
+
+#, fuzzy, no-wrap
+#~| msgid "Get in touch"
+#~ msgid "Get in touch\n"
+#~ msgstr "Spojte se s námi"
+
+#, fuzzy, no-wrap
+#~| msgid "Contribute"
+#~ msgid "Contribute\n"
+#~ msgstr "Přispět"
+
+#, fuzzy, no-wrap
+#~| msgid "Navigation"
+#~ msgid "Navigation\n"
+#~ msgstr "Navigace"
+
+#, fuzzy, no-wrap
+#~| msgid "Get started with Gaphor"
+#~ msgid "Get started with Gaphor\n"
+#~ msgstr "Začněte s aplikací Gaphor"
+
+#, fuzzy, no-wrap
+#~| msgid "Your First Model"
+#~ msgid "Your First Model\n"
+#~ msgstr "Váš první model"
+
+#, fuzzy, no-wrap
+#~| msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."
+#~ msgid ""
+#~ "There are many ways to install Gaphor. The simplest is to download the official\n"
+#~ "installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.\n"
+#~ "You can also use Python's built-in `pip` tool as long as you have all the\n"
+#~ "required dependencies installed.\n"
+#~ msgstr "Existuje mnoho způsobů instalace systému Gaphor. Nejjednodušší je stáhnout si oficiální instalační program pro Windows nebo macOS. Pro Linux můžete Gaphor nainstalovat pomocí FlatHubu.  Můžete také použít vestavěný nástroj `pip` pro Python, pokud máte nainstalovány všechny potřebné závislosti."
+
+#~ msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."
+#~ msgstr "Existuje mnoho způsobů instalace systému Gaphor. Nejjednodušší je stáhnout si oficiální instalační program pro Windows nebo macOS. Pro Linux můžete Gaphor nainstalovat pomocí FlatHubu.  Můžete také použít vestavěný nástroj `pip` pro Python, pokud máte nainstalovány všechny potřebné závislosti."
+
+#~| msgid "There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."
+#~ msgid "Love dark mode? We can do that too.  There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed.  Do you want to know what's going on with Gaphor? Read our blog!"
+#~ msgstr "Existuje mnoho způsobů instalace systému Gaphor.  Nejjednodušší je stáhnout si oficiální instalační program pro Windows nebo macOS.  Na Linux je možné nainstalovat Gaphor pomocí FlatHubu.  Můžete také použít vestavěný nástroj `pip` pro Python, pokud máte nainstalovány všechny potřebné závislosti."
 
 #~ msgid "Install Flatpak"
 #~ msgstr "Nainstalovat Flatpak"

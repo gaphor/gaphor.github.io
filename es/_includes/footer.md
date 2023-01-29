@@ -1,12 +1,29 @@
-{% capture love %} We love to hear from you {% endcapture %}
+{% capture love %}
 
-{% capture open-issue %} Open an issue on GitHub {% endcapture %}
+Nos encantaría saber de usted
 
-{% capture tech-docs %}
- Tech docs
 {% endcapture %}
 
-{% capture copyright %} Copyright &copy; 2020-2022 Arjan Molenaar and Dan
-Yeaw.  {% endcapture %}
+{% capture open-issue %}
 
-{% capture theme %} Theme {% endcapture %}
+Abrir una incidencia en GitHub
+
+{% endcapture %}
+
+{% capture tech-docs %}
+
+Documentación técnica
+
+{% endcapture %}
+
+{% capture copyright %}
+
+Copyright &copy; 2020-2022 Arjan Molenaar y Dan Yeaw.
+
+{% endcapture %}
+
+{% capture theme %}
+
+Tema
+
+{% endcapture %}

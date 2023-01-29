@@ -5,6 +5,7 @@ layout: article
 redirect_from: /pages/writing-a-plugin.html
 title: 'Escribir un plugin'
 ---
+
 Gaphor está diseñado para ser extensible mediante el uso de plugins que
 permiten ampliar la funcionalidad.
 

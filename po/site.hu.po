@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-01-15 21:11-0300\n"
+"POT-Creation-Date: 2023-01-22 16:01-0500\n"
 "PO-Revision-Date: 2022-10-21 04:02+0000\n"
 "Last-Translator: ovari <ovari123@zoho.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hu/>\n"
@@ -29,19 +29,18 @@ msgstr "Probléma megnyitása a GitHubon"
 
 #. type: Plain text
 #: _includes/footer.md.filt
-#, no-wrap
-msgid " Tech docs\n"
-msgstr " Műszaki dokumentumok\n"
+msgid "Tech docs"
+msgstr ""
 
 #. type: Plain text
 #: _includes/footer.md.filt
-msgid "Copyright &copy; 2020-2022 Arjan Molenaar and Dan Yeaw."
+msgid "Copyright &copy; 2020-2023 Arjan Molenaar and Dan Yeaw."
 msgstr "Szerzői jog &copy; 2020-2022 Molenaar Arjan és Yeaw Dániel."
 
 #. type: Plain text
 #: _includes/footer.md.filt
 msgid "Theme"
-msgstr "Téma"
+msgstr ""
 
 #. type: Plain text
 #: _includes/content.md.filt
@@ -75,7 +74,7 @@ msgstr ""
 
 #. type: Plain text
 #: _includes/content.md.filt
-msgid "There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."
+msgid "There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
 msgstr ""
 
 #. type: Plain text
@@ -95,8 +94,10 @@ msgstr "Napló megtekintése"
 
 #. type: Plain text
 #: _includes/content.md.filt
+#, fuzzy
+#| msgid "Learn more"
 msgid "Read more"
-msgstr ""
+msgstr "További tájékoztatás"
 
 #. type: Plain text
 #: _includes/content.md.filt
@@ -113,7 +114,7 @@ msgstr "További tájékoztatás"
 msgid "About"
 msgstr "Rólunk"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _includes/content.md.filt tutorials.md.filt
 #, no-wrap
 msgid "Tutorials"
@@ -124,23 +125,23 @@ msgstr "Oktatóanyagok"
 msgid "Blog"
 msgstr "Napló"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _includes/content.md.filt discuss.md.filt
 #, no-wrap
 msgid "Get in touch"
 msgstr "Kapcsolatfelvétel"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _includes/content.md.filt contribute.md.filt
 #, no-wrap
 msgid "Contribute"
 msgstr "Közreműködés"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _platforms/01-windows.md.filt
 #, no-wrap
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #. type: Plain text
 #: _platforms/01-windows.md.filt
@@ -159,11 +160,11 @@ msgstr ""
 msgid " Download portable version\n"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _platforms/02-macos.md.filt
 #, no-wrap
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #. type: Plain text
 #: _platforms/02-macos.md.filt
@@ -180,24 +181,24 @@ msgstr ""
 #: _platforms/02-macos.md.filt
 #, no-wrap
 msgid "Homebrew"
-msgstr ""
+msgstr "Homebrew"
 
 #. type: Plain text
 #: _platforms/02-macos.md.filt
 msgid "Pour Gaphor from a homebrew cask:"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _platforms/03-linux.md.filt
 #, no-wrap
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #. type: Title ###
 #: _platforms/03-linux.md.filt
 #, no-wrap
 msgid "Flatpak"
-msgstr ""
+msgstr "Flatpak"
 
 #. type: Plain text
 #: _platforms/03-linux.md.filt
@@ -242,7 +243,7 @@ msgstr ""
 msgid "Gaphor can be installed from an AUR package."
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _platforms/04-python.md.filt
 #, no-wrap
 msgid "Python"
@@ -255,10 +256,10 @@ msgstr ""
 
 #. type: Plain text
 #: _platforms/04-python.md.filt
-msgid "If you don't have the latest stable version of Python and the Gaphor dependencies installed, follow the development environment installation instructions section, but do not clone the repository.  Optionally, create a virtual environment.  Then execute the following:"
+msgid "If you don't have the latest stable version of Python and the Gaphor dependencies installed, follow the development environment installation instructions section, but do not clone the repository. Optionally, create a virtual environment.  Then execute the following:"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: tutorials/plugins.md.filt
 #, no-wrap
 msgid "Writing a Plugin"
@@ -308,7 +309,7 @@ msgstr ""
 
 #. type: Plain text
 #: tutorials/plugins.md.filt
-msgid "`query` is a lambda function with the element as parameter. For example, to fetch all of the Class instances from the element factory:"
+msgid "`query` is a lambda function with the element as parameter. For example, to fetch all the Class instances from the element factory:"
 msgstr ""
 
 #. type: Title ##
@@ -348,7 +349,7 @@ msgstr ""
 msgid "An example Hello World plugin is hosted on GitHub."
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: tutorials/report-bugs.md.filt
 #, no-wrap
 msgid "How to report a bug in Gaphor"
@@ -421,7 +422,7 @@ msgstr ""
 
 #. type: Plain text
 #: tutorials/report-bugs.md.filt
-msgid "Use plain and simple language to describe the problem and, if helpful, break it down into steps so developers can easily recreate the issue. Please don't assume we'll understand what you were trying to achieve -- honestly, it's best if you try to imagine we (the developers) are a bunch of clever 5-year-olds.  Try to explain *everything* about the problem and don't assume we know what you mean. We won't mind!"
+msgid "Use plain and simple language to describe the problem and, if helpful, break it down into steps so developers can easily recreate the issue. Please don't assume we'll understand what you were trying to achieve -- honestly, it's best if you try to imagine we (the developers) are a bunch of clever 5-year-olds. Try to explain *everything* about the problem and don't assume we know what you mean.  We won't mind!"
 msgstr ""
 
 #. type: Plain text
@@ -577,7 +578,7 @@ msgstr ""
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
-msgid "Gaphor does not make any assumptions about which elements should be placed on a diagram. A diagram is a diagram. UML defines all different kinds of diagrams, such as Class diagrams, Component diagrams, Action diagrams, Sequence diagrams. But Gaphor does not place any restrictions."
+msgid "Gaphor does not make any assumptions about which elements should be placed on a diagram. A diagram is a diagram. UML defines all different kinds of diagrams, such as Class diagrams, Component diagrams, Action diagrams, Sequence diagrams.  But Gaphor does not place any restrictions."
 msgstr ""
 
 #. type: Title ##
@@ -588,7 +589,7 @@ msgstr ""
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
-msgid "To create a new diagram, use the Navigation section. Select an element that can contain a diagram (a Package or Profile) and right-click. Select New diagram and a new diagram is created. As of Gaphor 1.1.0 a buttion is available in the header bar. Select a package and you'll notice the button is not grayed out and can be clicked, resulting in a new diagram being added to the model."
+msgid "To create a new diagram, use the Navigation section. Select an element that can contain a diagram (a Package or Profile) and right-click. Select New diagram and a new diagram is created. As of Gaphor 1.1.0 a buttion is available in the header bar. Select a package, and you'll notice the button is not grayed out and can be clicked, resulting in a new diagram being added to the model."
 msgstr ""
 
 #. type: Title ##
@@ -604,7 +605,7 @@ msgstr ""
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
-msgid "This way you can easely create visual copies of the same (underlaying) model element."
+msgid "This way you can easily create visual copies of the same (underlying) model element."
 msgstr ""
 
 #. type: Title ##
@@ -623,7 +624,7 @@ msgstr ""
 msgid "Elements can also be dragged within the Navigation section. This way classes and packages can be rearranged for example."
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/01-platform.md.filt
 #, no-wrap
 msgid "Multi-platform"
@@ -634,7 +635,7 @@ msgstr "Többplatformos"
 msgid "Gaphor works on all major platforms: Windows, Macos and Linux."
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/02-opensource.md.filt
 #, no-wrap
 msgid "Open Source"
@@ -645,7 +646,7 @@ msgstr "Nyílt forráskódú"
 msgid "No vendor lock-in: Gaphor written in Python and is 100% Open Source, available under a friendly Apache 2 license."
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/03-beginner-pro.md.filt
 #, no-wrap
 msgid "Beginner or Pro"
@@ -656,7 +657,7 @@ msgstr "Kezdő vagy szakmai"
 msgid "Whether you're a casual modeler documenting a project or a Model Driven Development expert, Gaphor has got you covered."
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/04-consistent.md.filt
 #, no-wrap
 msgid "Consistent"
@@ -667,7 +668,7 @@ msgstr "Egységes"
 msgid "UML is a graphical modeling language, so all information you put in the model is visible in the diagrams. For example, stereotypes are modeled in diagrams.  No hidden panels and property pages. Just diagrams!"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/05-extensible.md.filt
 #, no-wrap
 msgid "Extensible"
@@ -678,7 +679,7 @@ msgstr "Bővíthető"
 msgid "Gaphor is extensible. Plug-in a code generator or export your diagrams for documentation.  Create your own extensions and access them through the GUI or CLI."
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/06-standard.md.filt
 #, no-wrap
 msgid "Standards Compliant"
@@ -696,7 +697,7 @@ msgstr ""
 
 #. type: Plain text
 #: contribute.md.filt
-msgid "Our technical documentation is hosted on the wonderful service that is Read the Docs.  Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
+msgid "Our technical documentation is hosted on the wonderful service that is Read the Docs. Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
 msgstr ""
 
 #. type: Plain text
@@ -801,9 +802,19 @@ msgstr ""
 msgid "Advanced topics"
 msgstr ""
 
+#. type: Bullet: '- '
+#: tutorials.md.filt
+msgid "Extend your models with stereotypes"
+msgstr ""
+
+#. type: Bullet: '- '
+#: tutorials.md.filt
+msgid "Writing a plugin"
+msgstr ""
+
 #. type: Plain text
 #: tutorials.md.filt
-msgid "- Extend your models with stereotypes - Writing a plugin - Technical and architectural documentation for contributors and plugin developers"
+msgid "- Technical and architectural documentation for contributors and plugin developers"
 msgstr ""
 
 #. type: Title ##
@@ -838,12 +849,22 @@ msgstr ""
 msgid "There are some 10+ year old articles on Gaphor on the web. Some more recent articles are:"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: tutorials.md.filt
-msgid "- Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.  - It's FOSS has a short write-up on Gaphor (~2.8-ish?).  - Ubuntu Pit has a nice article on Gaphor (~2.8-ish?)."
+msgid "Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10."
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Bullet: '- '
+#: tutorials.md.filt
+msgid "It's FOSS has a short write-up on Gaphor (~2.8-ish?)."
+msgstr ""
+
+#. type: Bullet: '- '
+#: tutorials.md.filt
+msgid "Ubuntu Pit has a nice article on Gaphor (~2.8-ish?)."
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
 #: download.md.filt
 #, no-wrap
 msgid "Download Gaphor"
@@ -851,7 +872,7 @@ msgstr "A Gaphor letöltése"
 
 #. type: Plain text
 #: download.md.filt
-msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."
+msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
 msgstr ""
 
 #. type: Plain text
@@ -876,34 +897,14 @@ msgstr ""
 msgid "The requested page could not be found."
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: index.md.filt
 #, no-wrap
 msgid "Modeling for Everyone"
 msgstr "Műszaki modellezés mindenki számára"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: blog.md.filt
 #, no-wrap
 msgid "Blog and News"
 msgstr "Napló és hírek"
-
-#, fuzzy, no-wrap
-#~| msgid " Download installer\n"
-#~ msgid "  Download\n"
-#~ msgstr " Telepítő letöltése\n"
-
-#, fuzzy, no-wrap
-#~| msgid "Tutorials"
-#~ msgid "  Tutorials\n"
-#~ msgstr "Oktatóanyagok"
-
-#, fuzzy, no-wrap
-#~| msgid "Get in touch"
-#~ msgid "  Get in touch\n"
-#~ msgstr "Kapcsolatfelvétel"
-
-#, fuzzy, no-wrap
-#~| msgid "Contribute"
-#~ msgid "  Contribute\n"
-#~ msgstr "Közreműködés"

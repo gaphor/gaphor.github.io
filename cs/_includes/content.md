@@ -1,59 +1,123 @@
-{% capture thousand-words %} A picture is worth a thousand words. Describe
-and document your applications and systems with Gaphor to enhance knowledge
-sharing.  {% endcapture %}
+{% capture thousand-words %}
 
-{% capture about-content %} Gaphor is a UML, SysML, RAAML, and C4 modeling
-application. It is designed to be easy to use, while still being
-powerful. Gaphor implements a fully-compliant UML 2 data model, so it is
-much more than a picture drawing tool. You can use Gaphor to quickly
-visualize different aspects of a system as well as create complete, highly
-complex models.
+Obrázek vydá za tisíc slov. Popište a zdokumentujte své aplikace a systémy
+pomocí nástroje Gaphor, abyste zlepšili sdílení znalostí.
 
 {% endcapture %}
 
-{% capture build %} Build Class, Interaction, and State Machine diagrams for
-software or Block Definition and Requirements diagrams for systems. Model
-the elements you need. If you want to mix and match, you can even add
-different diagram items to the same diagram to get the view you need.  {%
-endcapture %}
+{% capture about-content %}
 
-{% capture styling-engine %} Customize the diagrams you create with our
-built-in styling engine.  {% endcapture %}
+Gaphor je aplikace pro modelování v jazycích UML, SysML, RAAML a C4. Je
+navržen tak, aby se snadno používal a zároveň byl výkonný. Gaphor
+implementuje plně kompatibilní datový model UML 2, takže je mnohem víc než
+jen nástrojem pro kreslení obrázků. Pomocí aplikace Gaphor můžete rychle
+vizualizovat různé aspekty systému i vytvářet kompletní, velmi složité
+modely.
 
-{% capture treeview %} Easily find all element of your model in the tree
-view.  {% endcapture %}
+{% endcapture %}
 
-{% capture dark-mode %} Love dark mode? We can do that too.  {% endcapture
-%}
+{% capture build %}
 
-{% capture download-content %} There are many ways to install Gaphor.  The
-simplest is to download the official installer for Windows or macOS.  For
-Linux you can install Gaphor using FlatHub.  You can also use Python's
-built-in `pip` tool as long as you have all of the required dependencies
-installed.  {% endcapture %}
+Sestavte diagramy tříd, interakcí a stavových strojů pro software nebo
+diagramy definic bloků a požadavků pro systémy. Modelujte prvky, které
+potřebujete. Chcete-li je kombinovat, můžete dokonce přidávat různé prvky
+diagramu do stejného diagramu, abyste získali potřebný pohled.
 
-{% capture blog-content %} Do you want to know what's going on with Gaphor?
-Read our blog!
+{% endcapture %}
+
+{% capture styling-engine %}
+
+Vytvořené diagramy si můžete přizpůsobit pomocí integrovaného stylovacího
+nástroje.
+
+{% endcapture %}
+
+{% capture treeview %}
+
+Snadné vyhledání všech prvků modelu ve stromovém zobrazení.
+
+{% endcapture %}
+
+{% capture dark-mode %}
+
+Milujete tmavý režim? I ten umíme.
+
+{% endcapture %}
+
+{% capture download-content %}
+
+Existuje mnoho způsobů instalace systému Gaphor. Nejjednodušší je stáhnout
+si oficiální instalační program pro Windows nebo macOS. Pro Linux můžete
+Gaphor nainstalovat pomocí FlatHubu.  Můžete také použít vestavěný nástroj
+`pip` pro Python, pokud máte nainstalovány všechny potřebné závislosti.
+
+{% endcapture %}
+
+{% capture blog-content %}
+
+Chcete vědět, co se děje s Gaphorem? Přečtěte si náš blog!
 
 [Contact the team]({% link discuss.md %})  if you want to share content
-related to Gaphor.  {% endcapture %}
+related to Gaphor.
 
-{% capture see-blog %} See blog {% endcapture %}
+{% endcapture %}
 
-{% capture read-more %} Read more {% endcapture %}
+{% capture see-blog %}
 
-{% capture download %} Download {% endcapture %}
+Zobrazit blog
 
-{% capture learn %} Learn more {% endcapture %}
+{% endcapture %}
 
-{% capture about %} About {% endcapture %}
+{% capture read-more %}
 
-{% capture download %} Download {% endcapture %}
+Přečtěte si více
 
-{% capture tutorials %} Tutorials {% endcapture %}
+{% endcapture %}
 
-{% capture blog %} Blog {% endcapture %}
+{% capture download %}
 
-{% capture discuss %} Get in touch {% endcapture %}
+Stáhnout
 
-{% capture contribute %} Contribute {% endcapture %}
+{% endcapture %}
+
+{% capture learn %}
+
+Zjistěte více
+
+{% endcapture %}
+
+{% capture about %}
+
+O nás
+
+{% endcapture %}
+
+{% capture download %}
+
+Stáhnout
+
+{% endcapture %}
+
+{% capture tutorials %}
+
+Tutoriály
+
+{% endcapture %}
+
+{% capture blog %}
+
+Blog
+
+{% endcapture %}
+
+{% capture discuss %}
+
+Spojte se s námi
+
+{% endcapture %}
+
+{% capture contribute %}
+
+Přispět
+
+{% endcapture %}

@@ -7,9 +7,9 @@ language.
 3. Remove filt files created with the filter-markdown.py script.
 """
 
-import pathlib
 import re
 import subprocess
+from pathlib import Path
 
 # HTML tags like <img src="images/matrix_org.svg" alt="matrix.org" style="height: 1em" />
 html_tags = r"(<!--.*?-->|<[^>]*>)"
@@ -35,15 +35,15 @@ def strip_markdown_urls(markdown):
 
 
 def replace_language_string():
-    conf_file = pathlib.Path("po") / "po4a.conf"
+    conf_file = Path("po") / "po4a.conf"
     with conf_file.open() as f:
         line = f.readline()
         pattern = "\[po4a_langs\] (.*)"
         match = re.search(pattern, line)
-        languages = match.group(1).split()
+        languages = match[1].split()
 
     for language in languages:
-        markdown_files = pathlib.Path(language).glob("**/*.md")
+        markdown_files = Path(language).glob("**/*.md")
         for file in markdown_files:
             with file.open("r") as f:
                 lines = f.readlines()
@@ -55,14 +55,14 @@ def replace_language_string():
 
 
 def cleanup_filt_files():
-    filt_files = pathlib.Path(".").glob("**/*.filt")
+    filt_files = Path(".").glob("**/*.filt")
     for file in filt_files:
         file.unlink()
 
 
 if __name__ == "__main__":
     print("Filtering markdown before po4a conversion")
-    p = pathlib.Path(__file__).parent.parent.resolve()
+    p = Path(__file__).parent.parent.resolve()
     for f in p.glob("**/*.md"):
         stripped = strip_markdown_urls(f.read_text(encoding="utf-8"))
         compiled_re = re.compile("|".join(re_list), re.MULTILINE)

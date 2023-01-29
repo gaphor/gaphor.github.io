@@ -43,8 +43,8 @@ Use plain and simple language to describe the problem and, if helpful, break
 it down into steps so developers can easily recreate the issue. Please don't
 assume we'll understand what you were trying to achieve -- honestly, it's
 best if you try to imagine we (the developers) are a bunch of clever
-5-year-olds.  Try to explain *everything* about the problem and don't assume
-we know what you mean. We won't mind!
+5-year-olds. Try to explain *everything* about the problem and don't assume
+we know what you mean.  We won't mind!
 
 If you would like to get more involved in the development of Gaphor, we'd
 love to welcome you via the [Gaphor developer's

@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-01-15 21:11-0300\n"
-"PO-Revision-Date: 2023-01-26 02:05+0000\n"
+"POT-Creation-Date: 2023-01-22 16:01-0500\n"
+"PO-Revision-Date: 2022-10-21 04:02+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/gaphor/"
 "gaphor-github-io/hr/>\n"
@@ -31,13 +31,12 @@ msgstr "Prijavi problem na GitHubu"
 
 #. type: Plain text
 #: _includes/footer.md.filt
-#, no-wrap
-msgid " Tech docs\n"
-msgstr " Tehnička dokumentacija\n"
+msgid "Tech docs"
+msgstr "Tehnička dokumentacija"
 
 #. type: Plain text
 #: _includes/footer.md.filt
-msgid "Copyright &copy; 2020-2022 Arjan Molenaar and Dan Yeaw."
+msgid "Copyright &copy; 2020-2023 Arjan Molenaar and Dan Yeaw."
 msgstr "Autorska prava &copy; 2020. – 2022. Arjan Molenaar i Dan Yeaw."
 
 #. type: Plain text
@@ -77,7 +76,7 @@ msgstr "Voliš tamni modus? Omogućujemo i to."
 
 #. type: Plain text
 #: _includes/content.md.filt
-msgid "There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."
+msgid "There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
 msgstr "Postoji mnogo načina za instaliranje Gaphora. Najjednostavnije je preuzeti službeni instalacijski program za Windows ili macOS. Za Linux se Gaphor može instalirati koristeći FlatHub. Također je moguće koristiti Pythonov ugrađeni `pip` alat ukoliko su sve potrebne ovisnosti instalirane."
 
 #. type: Plain text
@@ -115,7 +114,7 @@ msgstr "Saznaj više"
 msgid "About"
 msgstr "Informacije"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _includes/content.md.filt tutorials.md.filt
 #, no-wrap
 msgid "Tutorials"
@@ -126,19 +125,19 @@ msgstr "Vježbe"
 msgid "Blog"
 msgstr "Blog"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _includes/content.md.filt discuss.md.filt
 #, no-wrap
 msgid "Get in touch"
 msgstr "Kontaktiraj zajednicu"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _includes/content.md.filt contribute.md.filt
 #, no-wrap
 msgid "Contribute"
 msgstr "Doprinesi"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _platforms/01-windows.md.filt
 #, no-wrap
 msgid "Windows"
@@ -161,7 +160,7 @@ msgstr "Alternativno možeš preuzeti prenosivu verziju Gaphora."
 msgid " Download portable version\n"
 msgstr " Preuzmi prenosivu verziju\n"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _platforms/02-macos.md.filt
 #, no-wrap
 msgid "macOS"
@@ -189,7 +188,7 @@ msgstr "Homebrew"
 msgid "Pour Gaphor from a homebrew cask:"
 msgstr "Instaliraj Gaphor iz jednog homebrew cask:"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _platforms/03-linux.md.filt
 #, no-wrap
 msgid "Linux"
@@ -246,7 +245,7 @@ msgstr "Arch Linux"
 msgid "Gaphor can be installed from an AUR package."
 msgstr "Gaphor se može instalirati iz jednog AUR paketa."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _platforms/04-python.md.filt
 #, no-wrap
 msgid "Python"
@@ -259,10 +258,10 @@ msgstr "Ako imaš instaliranu najnoviju stabilnu verziju Pythona i ovisnosti za 
 
 #. type: Plain text
 #: _platforms/04-python.md.filt
-msgid "If you don't have the latest stable version of Python and the Gaphor dependencies installed, follow the development environment installation instructions section, but do not clone the repository.  Optionally, create a virtual environment.  Then execute the following:"
+msgid "If you don't have the latest stable version of Python and the Gaphor dependencies installed, follow the development environment installation instructions section, but do not clone the repository. Optionally, create a virtual environment.  Then execute the following:"
 msgstr "Ako nemaš instaliranu najnoviju stabilnu verziju Pythona i ovisnosti za Gaphor, slijedi upute u odjeljku za instalaciju razvojnog okruženja, ali nemoj izraditi klon repozitorija. Opcionalno, stvori virtualno okruženje. Zatim izvrši sljedeće:"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: tutorials/plugins.md.filt
 #, no-wrap
 msgid "Writing a Plugin"
@@ -312,7 +311,7 @@ msgstr "`lselect(query=None)` -> vraća popis"
 
 #. type: Plain text
 #: tutorials/plugins.md.filt
-msgid "`query` is a lambda function with the element as parameter. For example, to fetch all of the Class instances from the element factory:"
+msgid "`query` is a lambda function with the element as parameter. For example, to fetch all the Class instances from the element factory:"
 msgstr "`query` je lambda funkcija s elementom kao parametrom. Na primjer, za dohvaćanje svih instanci klasa iz tvornice elemenata:"
 
 #. type: Title ##
@@ -352,7 +351,7 @@ msgstr "Primjer dodatka"
 msgid "An example Hello World plugin is hosted on GitHub."
 msgstr "Primjer dodatka „Hello World” nalazi se na GitHubu."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: tutorials/report-bugs.md.filt
 #, no-wrap
 msgid "How to report a bug in Gaphor"
@@ -425,7 +424,7 @@ msgstr "Tehničke detalje kao što su verzija korištenog Gaphora, verzija OS-a 
 
 #. type: Plain text
 #: tutorials/report-bugs.md.filt
-msgid "Use plain and simple language to describe the problem and, if helpful, break it down into steps so developers can easily recreate the issue. Please don't assume we'll understand what you were trying to achieve -- honestly, it's best if you try to imagine we (the developers) are a bunch of clever 5-year-olds.  Try to explain *everything* about the problem and don't assume we know what you mean. We won't mind!"
+msgid "Use plain and simple language to describe the problem and, if helpful, break it down into steps so developers can easily recreate the issue. Please don't assume we'll understand what you were trying to achieve -- honestly, it's best if you try to imagine we (the developers) are a bunch of clever 5-year-olds. Try to explain *everything* about the problem and don't assume we know what you mean.  We won't mind!"
 msgstr "Koristi jednostavan jezik za opisivanje problema i, ako treba, navedi radnje prije pojavljivanja problema korak po korak, kako bi programeri mogli reproducirati problem. Nemoj pretpostavljati da ćemo razumjeti što si pokušavao/la postići – iskreno rečeno, najbolje je ako pokušaš zamisliti da smo mi (programeri) gomila pametnih petogodišnjaka. Pokušaj objasniti *sve* o problemu i nemoj pretpostavljati da znamo što misliš. Nećemo imati ništa protiv!"
 
 #. type: Plain text
@@ -581,7 +580,7 @@ msgstr "Neki elementi nisu izravno vidljivi. Odjeljak u kutiji alata je skloplje
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
-msgid "Gaphor does not make any assumptions about which elements should be placed on a diagram. A diagram is a diagram. UML defines all different kinds of diagrams, such as Class diagrams, Component diagrams, Action diagrams, Sequence diagrams. But Gaphor does not place any restrictions."
+msgid "Gaphor does not make any assumptions about which elements should be placed on a diagram. A diagram is a diagram. UML defines all different kinds of diagrams, such as Class diagrams, Component diagrams, Action diagrams, Sequence diagrams.  But Gaphor does not place any restrictions."
 msgstr "Gaphor ne pretpostavlja koji se elementi trebaju postaviti na dijagram. Dijagram je dijagram. UML definira sve različite vrste dijagrama, kao što su dijagrami klasa, dijagrami komponenti, dijagrami radnji, dijagrami sekvenci. Ali Gaphor ne postavlja nikakva ograničenja."
 
 #. type: Title ##
@@ -592,7 +591,7 @@ msgstr "Stvaranje novih dijagrama"
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
-msgid "To create a new diagram, use the Navigation section. Select an element that can contain a diagram (a Package or Profile) and right-click. Select New diagram and a new diagram is created. As of Gaphor 1.1.0 a buttion is available in the header bar. Select a package and you'll notice the button is not grayed out and can be clicked, resulting in a new diagram being added to the model."
+msgid "To create a new diagram, use the Navigation section. Select an element that can contain a diagram (a Package or Profile) and right-click. Select New diagram and a new diagram is created. As of Gaphor 1.1.0 a buttion is available in the header bar. Select a package, and you'll notice the button is not grayed out and can be clicked, resulting in a new diagram being added to the model."
 msgstr "Za stvaranje novog dijagrama koristi odjeljak „Navigacija”. Odaberi element koji može sadržavati dijagram (paket ili profil) i pritisni za desnom tipkom miša. Odaberi „Novi dijagram” i stvorit će se novi dijagram. Uvođenjem Gaphora verzije 1.1.0, postoji gumb u traci zaglavlja. Odaberi paket i primijetit ćeš da gumb nije neaktivan i da ga se može pritisnuti. Pritiskom gumba modelu se dodaje novi dijagram."
 
 #. type: Title ##
@@ -608,7 +607,7 @@ msgstr "Elementi u dijagramu mogu se kopirati i umetnuti (u istom ili jednom dru
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
-msgid "This way you can easely create visual copies of the same (underlaying) model element."
+msgid "This way you can easily create visual copies of the same (underlying) model element."
 msgstr "Na taj način možeš jednostavno stvoriti virtualne kopije istog (podmetnutog) elementa modela."
 
 #. type: Title ##
@@ -627,7 +626,7 @@ msgstr "Dodavanje postojećeg elementa dijagramu je jednostavno: povuci element 
 msgid "Elements can also be dragged within the Navigation section. This way classes and packages can be rearranged for example."
 msgstr "Elementi se također mogu povlačiti unutar odjeljka „Navigacija”. Na taj se način na primjer mogu prerasporediti klase i paketi."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/01-platform.md.filt
 #, no-wrap
 msgid "Multi-platform"
@@ -638,7 +637,7 @@ msgstr "Višeplatformski"
 msgid "Gaphor works on all major platforms: Windows, Macos and Linux."
 msgstr "Gaphor radi na svim glavnim platformama: Windows, Macos i Linux."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/02-opensource.md.filt
 #, no-wrap
 msgid "Open Source"
@@ -649,7 +648,7 @@ msgstr "Otvoreni kod"
 msgid "No vendor lock-in: Gaphor written in Python and is 100% Open Source, available under a friendly Apache 2 license."
 msgstr "Bez ograničenja od strane proizvođača: Gaphor je napisan u Pythonu, 100 % otvorenog koda, dostupan pod licencom Apache 2."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/03-beginner-pro.md.filt
 #, no-wrap
 msgid "Beginner or Pro"
@@ -660,7 +659,7 @@ msgstr "Za početnike ili profesionalace"
 msgid "Whether you're a casual modeler documenting a project or a Model Driven Development expert, Gaphor has got you covered."
 msgstr "Svejedno jesi li običan modelar koji dokumentira projekte ili stručnjak za softverski razvoj modela, Gaphor sadrži sve što trebaš."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/04-consistent.md.filt
 #, no-wrap
 msgid "Consistent"
@@ -671,7 +670,7 @@ msgstr "Dosljedan"
 msgid "UML is a graphical modeling language, so all information you put in the model is visible in the diagrams. For example, stereotypes are modeled in diagrams.  No hidden panels and property pages. Just diagrams!"
 msgstr "UML je jezik za grafičko modeliranje, tako da su sve u model unesene informacije vidljive u dijagramima. Na primjer, stereotipi se modeliraju u dijagramima. Nema skrivenih ploča i stranica sa svojstvima. Samo dijagrami!"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/05-extensible.md.filt
 #, no-wrap
 msgid "Extensible"
@@ -682,7 +681,7 @@ msgstr "Proširiv"
 msgid "Gaphor is extensible. Plug-in a code generator or export your diagrams for documentation.  Create your own extensions and access them through the GUI or CLI."
 msgstr "Gaphor je proširiv. Dodaj generator koda ili izvezi dijagrame za dokumentaciju. Stvori vlastita proširenja i pristupi im putem grafičkog sučelja ili putem naredbenog retka."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/06-standard.md.filt
 #, no-wrap
 msgid "Standards Compliant"
@@ -814,9 +813,19 @@ msgstr ""
 msgid "Advanced topics"
 msgstr "Napredne teme"
 
+#. type: Bullet: '- '
+#: tutorials.md.filt
+msgid "Extend your models with stereotypes"
+msgstr ""
+
+#. type: Bullet: '- '
+#: tutorials.md.filt
+msgid "Writing a plugin"
+msgstr "Pisanje dodatka"
+
 #. type: Plain text
 #: tutorials.md.filt
-msgid "- Extend your models with stereotypes - Writing a plugin - Technical and architectural documentation for contributors and plugin developers"
+msgid "- Technical and architectural documentation for contributors and plugin developers"
 msgstr "- Proširi svoje modele sa stereotipima - Pisanje dodatka - Tehnička i arhitektonska dokumentacija za doprinositelje i programere dodataka"
 
 #. type: Title ##
@@ -853,12 +862,22 @@ msgstr ""
 "Na webu postoje članci o Gaphoru koji su stari više od 10 godina. Neki "
 "noviji članci su:"
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: tutorials.md.filt
-msgid "- Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.  - It's FOSS has a short write-up on Gaphor (~2.8-ish?).  - Ubuntu Pit has a nice article on Gaphor (~2.8-ish?)."
+msgid "Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10."
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Bullet: '- '
+#: tutorials.md.filt
+msgid "It's FOSS has a short write-up on Gaphor (~2.8-ish?)."
+msgstr ""
+
+#. type: Bullet: '- '
+#: tutorials.md.filt
+msgid "Ubuntu Pit has a nice article on Gaphor (~2.8-ish?)."
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
 #: download.md.filt
 #, no-wrap
 msgid "Download Gaphor"
@@ -866,7 +885,7 @@ msgstr "Preuzmi Gaphor"
 
 #. type: Plain text
 #: download.md.filt
-msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."
+msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
 msgstr "Postoji mnogo načina za instaliranje Gaphora. Najjednostavnije je preuzeti službeni instalacijski program za Windows ili macOS. Za Linux se Gaphor može instalirati koristeći FlatHub. Također je moguće koristiti Pythonov ugrađeni `pip` alat ukoliko su sve potrebne ovisnosti instalirane."
 
 #. type: Plain text
@@ -891,17 +910,73 @@ msgstr "**Stranica nije pronađena :(**\n"
 msgid "The requested page could not be found."
 msgstr "Zatražena stranica nije pronađena."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: index.md.filt
 #, no-wrap
 msgid "Modeling for Everyone"
 msgstr "Modeliranje za svakoga"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: blog.md.filt
 #, no-wrap
 msgid "Blog and News"
 msgstr "Blog i Novosti"
+
+#, fuzzy, no-wrap
+#~| msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."
+#~ msgid ""
+#~ "There are many ways to install Gaphor.\n"
+#~ "The simplest is to download the official installer for Windows or macOS.\n"
+#~ "For Linux you can install Gaphor using FlatHub.\n"
+#~ "You can also use Python's built-in `pip` tool as long as you have all the\n"
+#~ "required dependencies installed.\n"
+#~ msgstr "Postoji mnogo načina za instaliranje Gaphora. Najjednostavnije je preuzeti službeni instalacijski program za Windows ili macOS. Za Linux se Gaphor može instalirati koristeći FlatHub. Također je moguće koristiti Pythonov ugrađeni `pip` alat ukoliko su sve potrebne ovisnosti instalirane."
+
+#, fuzzy, no-wrap
+#~| msgid "Tutorials"
+#~ msgid "Tutorials\n"
+#~ msgstr "Vježbe"
+
+#, fuzzy, no-wrap
+#~| msgid "Get in touch"
+#~ msgid "Get in touch\n"
+#~ msgstr "Kontaktiraj zajednicu"
+
+#, fuzzy, no-wrap
+#~| msgid "Contribute"
+#~ msgid "Contribute\n"
+#~ msgstr "Doprinesi"
+
+#, fuzzy, no-wrap
+#~| msgid "Navigation"
+#~ msgid "Navigation\n"
+#~ msgstr "Navigacija"
+
+#, fuzzy, no-wrap
+#~| msgid "Get started with Gaphor"
+#~ msgid "Get started with Gaphor\n"
+#~ msgstr "Počni raditi s Gaphorom"
+
+#, fuzzy, no-wrap
+#~| msgid "Your First Model"
+#~ msgid "Your First Model\n"
+#~ msgstr "Tvoj prvi model"
+
+#, fuzzy, no-wrap
+#~| msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."
+#~ msgid ""
+#~ "There are many ways to install Gaphor. The simplest is to download the official\n"
+#~ "installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.\n"
+#~ "You can also use Python's built-in `pip` tool as long as you have all the\n"
+#~ "required dependencies installed.\n"
+#~ msgstr "Postoji mnogo načina za instaliranje Gaphora. Najjednostavnije je preuzeti službeni instalacijski program za Windows ili macOS. Za Linux se Gaphor može instalirati koristeći FlatHub. Također je moguće koristiti Pythonov ugrađeni `pip` alat ukoliko su sve potrebne ovisnosti instalirane."
+
+#~ msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."
+#~ msgstr "Postoji mnogo načina za instaliranje Gaphora. Najjednostavnije je preuzeti službeni instalacijski program za Windows ili macOS. Za Linux se Gaphor može instalirati koristeći FlatHub. Također je moguće koristiti Pythonov ugrađeni `pip` alat ukoliko su sve potrebne ovisnosti instalirane."
+
+#~| msgid "There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."
+#~ msgid "Love dark mode? We can do that too.  There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed.  Do you want to know what's going on with Gaphor? Read our blog!"
+#~ msgstr "Postoji mnogo načina za instaliranje Gaphora. Najjednostavnije je preuzeti službeni instalacijski program za Windows ili macOS. Za Linux se Gaphor može instalirati koristeći FlatHub. Također je moguće koristiti Pythonov ugrađeni `pip` alat ukoliko su sve potrebne ovisnosti instalirane."
 
 #~ msgid "Install Flatpak"
 #~ msgstr "Instaliraj Flatpak"

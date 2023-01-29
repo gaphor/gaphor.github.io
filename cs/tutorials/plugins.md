@@ -5,6 +5,7 @@ layout: article
 redirect_from: /pages/writing-a-plugin.html
 title: 'Psaní zásuvného modulu'
 ---
+
 Gaphor je navržen tak, aby byl rozšiřitelný pomocí zásuvných modulů, které
 vám umožní rozšířit jeho funkce.
 
