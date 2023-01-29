@@ -7,15 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-15 21:11-0300\n"
-"PO-Revision-Date: 2022-10-21 04:02+0000\n"
+"PO-Revision-Date: 2023-01-26 02:05+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
-"Language-Team: Croatian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hr/>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/gaphor/"
+"gaphor-github-io/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.2-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #. type: Plain text
 #: _includes/footer.md.filt
@@ -174,7 +176,7 @@ msgstr " Preuzmi .dmg\n"
 #. type: Plain text
 #: _platforms/02-macos.md.filt
 msgid "Gaphor requires **macOS 10.15** or newer."
-msgstr ""
+msgstr "Gaphor zahtijeva **macOS 10.15** ili noviju verziju."
 
 #. type: Title ###
 #: _platforms/02-macos.md.filt
@@ -230,6 +232,8 @@ msgstr " Preuzmi AppImage\n"
 #: _platforms/03-linux.md.filt
 msgid "If you're using Wayland and the AppImage crashes, you can force it to use the X11 backend instead."
 msgstr ""
+"Ako koristiš Wayland i ako AppImage ne radi, možeš prisiliti Wayland da "
+"umjesto toga koristi pozadinu X11."
 
 #. type: Title ###
 #: _platforms/03-linux.md.filt
@@ -696,10 +700,13 @@ msgstr "Želiš doprinijeti razvoju Gaphora? Ako misliš da je ovo samo za iskus
 
 #. type: Plain text
 #: contribute.md.filt
-#, fuzzy
-#| msgid "Our technical documentation is hosted on the wonderful service that is Read the Docs. Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
 msgid "Our technical documentation is hosted on the wonderful service that is Read the Docs.  Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
-msgstr "Naša se tehnička dokumentacija čuva na usluzi „Read the Docs”. Ne samo da sadrži potrebne pojedinosti za doprinošenje kodu Gaphora, već opisuje i mnoge druge načine za doprinošenje (uključujući aktualiziranje ove web-stranice). Na kraju krajeva, pruža vodič za naše procese i očekivanja za različite vrste doprinosa Gaphoru."
+msgstr ""
+"Naša se tehnička dokumentacija čuva na usluzi „Read the Docs”. Ne samo da "
+"sadrži potrebne pojedinosti za doprinošenje kodu Gaphora, već opisuje i "
+"mnoge druge načine za doprinošenje (uključujući aktualiziranje ove web-"
+"stranice). Na kraju krajeva, pruža vodič za naše procese i očekivanja za "
+"različite vrste doprinosa Gaphoru."
 
 #. type: Plain text
 #: contribute.md.filt
@@ -837,12 +844,14 @@ msgstr "Arjan je na GUADEC-u 2021. govorio o velikom GUI programu s Pythonom i G
 #: tutorials.md.filt
 #, no-wrap
 msgid "What other people say"
-msgstr ""
+msgstr "Što kažu drugi"
 
 #. type: Plain text
 #: tutorials.md.filt
 msgid "There are some 10+ year old articles on Gaphor on the web. Some more recent articles are:"
 msgstr ""
+"Na webu postoje članci o Gaphoru koji su stari više od 10 godina. Neki "
+"noviji članci su:"
 
 #. type: Plain text
 #: tutorials.md.filt
