@@ -7,15 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-22 16:01-0500\n"
-"PO-Revision-Date: 2022-08-23 03:44+0000\n"
-"Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/es/>\n"
+"PO-Revision-Date: 2023-01-31 19:42+0000\n"
+"Last-Translator: Óscar Fernández Díaz <oscfdezdz@users.noreply.hosted.weblate"
+".org>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/gaphor/"
+"gaphor-github-io/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #. type: Plain text
 #: _includes/footer.md.filt
@@ -173,7 +175,7 @@ msgstr " Descargar .dmg\n"
 #. type: Plain text
 #: _platforms/02-macos.md.filt
 msgid "Gaphor requires **macOS 10.15** or newer."
-msgstr ""
+msgstr "Gaphor requiere **macOS 10.15** o posterior."
 
 #. type: Title ###
 #: _platforms/02-macos.md.filt
@@ -229,6 +231,8 @@ msgstr " Descargar AppImage\n"
 #: _platforms/03-linux.md.filt
 msgid "If you're using Wayland and the AppImage crashes, you can force it to use the X11 backend instead."
 msgstr ""
+"Si usa Wayland y la AppImage falla, puede forzarla a usar el backend X11 en "
+"su lugar."
 
 #. type: Title ###
 #: _platforms/03-linux.md.filt
@@ -807,7 +811,7 @@ msgstr "Temas avanzados"
 #. type: Bullet: '- '
 #: tutorials.md.filt
 msgid "Extend your models with stereotypes"
-msgstr ""
+msgstr "Amplíe sus modelos con estereotipos"
 
 #. type: Bullet: '- '
 #: tutorials.md.filt
@@ -844,27 +848,31 @@ msgstr "Arjan habló en GUADEC 2021 sobre Aplicaciones con interfaz de gran tama
 #: tutorials.md.filt
 #, no-wrap
 msgid "What other people say"
-msgstr ""
+msgstr "Qué dicen los demás"
 
 #. type: Plain text
 #: tutorials.md.filt
 msgid "There are some 10+ year old articles on Gaphor on the web. Some more recent articles are:"
 msgstr ""
+"Hay algunos artículos de hace más de 10 años sobre Gaphor en la web. Algunos "
+"artículos más recientes son:"
 
 #. type: Bullet: '- '
 #: tutorials.md.filt
 msgid "Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10."
 msgstr ""
+"El sitio web Métodos y Herramientas revisó la versión 2.7.1 de Gaphor en "
+"diciembre de 2021 en un Windows 10."
 
 #. type: Bullet: '- '
 #: tutorials.md.filt
 msgid "It's FOSS has a short write-up on Gaphor (~2.8-ish?)."
-msgstr ""
+msgstr "It's FOSS tiene una breve reseña sobre Gaphor (~2.8)."
 
 #. type: Bullet: '- '
 #: tutorials.md.filt
 msgid "Ubuntu Pit has a nice article on Gaphor (~2.8-ish?)."
-msgstr ""
+msgstr "Ubuntu Pit tiene un buen artículo sobre Gaphor (~2.8)."
 
 #. type: Yaml Front Matter Hash Value: title
 #: download.md.filt
