@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-22 16:01-0500\n"
-"PO-Revision-Date: 2023-02-06 20:36+0000\n"
+"PO-Revision-Date: 2023-02-12 12:35+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/gaphor/"
 "gaphor-github-io/hr/>\n"
@@ -866,16 +866,18 @@ msgstr ""
 #: tutorials.md.filt
 msgid "Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10."
 msgstr ""
+"Web-mjesto „Methods & Tools” pregledalo je Gaphor verziju 2.7.1 u prosincu "
+"2021. na Windowsu 10."
 
 #. type: Bullet: '- '
 #: tutorials.md.filt
 msgid "It's FOSS has a short write-up on Gaphor (~2.8-ish?)."
-msgstr ""
+msgstr "„It's FOSS” ima kratak opis Gaphora (ca. verzija 2.8?)."
 
 #. type: Bullet: '- '
 #: tutorials.md.filt
 msgid "Ubuntu Pit has a nice article on Gaphor (~2.8-ish?)."
-msgstr ""
+msgstr "„Ubuntu Pit” ima lijep članak o Gaphoru (ca. verzija 2.8?)."
 
 #. type: Yaml Front Matter Hash Value: title
 #: download.md.filt
