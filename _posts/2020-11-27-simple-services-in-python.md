@@ -12,7 +12,7 @@ plug-in/add-ons/extension mechanism. Therefore, it is a good idea to think of
 this early in the project.
 
 For those of us that build applications in Python, extensibility is like a walk
-in the part. It's part of the Python ecosystem, thanks to [entry
+in the park. It's part of the Python ecosystem, thanks to [entry
 points](https://packaging.python.org/specifications/entry-points/).
 
 <!--break-->
@@ -33,7 +33,9 @@ which is part of the Python standard library since Python 3.8. For older
 versions (Python 3.6 and 3.7) a library
 [`importlib_metadata`](https://pypi.org/project/importlib-metadata/) (notice
 the underscore) can be used instead, providing the same
-functionality<sup>[1](#note-1)</sup>.
+functionality. If you go back in history even more, 
+setuptools' [`pkg_resources`](https://setuptools.readthedocs.io/en/latest/pkg_resources.html)
+was used to provide this functionality.
 
 To view all entry points available in your python installation:
 
@@ -74,7 +76,7 @@ A plugin can also be loaded:
 <class 'gaphor.services.componentregistry.ComponentRegistry'>
 ```
 
-In this case, it will resolve to a class, but it can also resolve to a module
+In this case, it will resolve to a class, but it can also resolve to a variable
 or function depending on what is defined in the entry point.
 
 As we have seen, it is straight forward to load an entry point. Next, lets look
@@ -112,10 +114,3 @@ take other services as an argument. We will discuss that some other time :).
 To conclude: every application can be made extensible in Python. Extensibility
 is basically free with entry points. Think about extensibility early in your
 project.
-
----
-Notes
-
-1. <a name="note-1"></a>In Python 2,
-[`pkg_resources`](https://setuptools.readthedocs.io/en/latest/pkg_resources.html)
-in setuptools is used to provide this functionality.
