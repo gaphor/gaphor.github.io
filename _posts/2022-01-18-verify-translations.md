@@ -7,11 +7,12 @@ image_attribution: https://www.freepik.com/
 language: en
 ---
 
-Gaphor has translations in more than a dozen languages. Not all translations
-are 100%, and in most cases that’s not a problem. Thanks to the power of Open
-Source, everyone can contribute with translations for your project.
+For desktop applications and websites it's good practice to allow users to use
+them in their native language. For Open Source applications everyone can
+contribute with translations for your project.
 
-After our latest release we found out, by a user, that one of the translations
+After a release we found out, by a user, that Gaphor would not start, but only
+if it was used with a particular language. One of the translations
 had an error. “An error?”, I hear you ask, “How is that possible?”
 
 <!--break-->
@@ -30,12 +31,12 @@ msgstr "Ik ben een bericht"
 
 The `msgid` contains the original text. For most applications that’s the text
 in American English. The `msgstr` contains the translated text. If `msgstr`
-contains no translation (it’s and empty string `""`), the original text is
+contains no translation (it’s an empty string `""`), the original text is
 used.
 
 Translated text is not only _just text_. Sometimes this text contains
 placeholders that have to be filled in by the application. Think of things like
-version numbers, or a file name. We learned that hard way that an error is
+version numbers, or a file name. We learned the hard way that an error is
 easily made.
 
 The way placeholders are formatted depends on the language. In C, texts contain
@@ -46,14 +47,15 @@ C-style can be used (old style) as well as curly-bracket placehodlers with the
 
 Now assume the text `I counted {count} items` has to be translated. The term
 `count` is case-sensitive. For example, a slight error in the Dutch translation
-could cause an unintended error in the application: `Ik telde {Count} items`.
+could cause an unintended error in the application: `Ik telde {Count} items`
+(with capital C).
 
 To avoid errors we created [a small
-script](https://github.com/gaphor/gaphor/blob/master/po/check-babel.py), using
+script](https://github.com/gaphor/gaphor/blob/master/po/check-babel.py), utilizing
 [Babel](http://babel.pocoo.org/). Babel is a Python based internationalization
 library. Using babel, we read the translations from a `.po` file and check if
 all placeholders from the original text (`{count}`) are in the translated text.
-A simple check, one that ensures that placeholders in translated text can
+A simple check that ensures placeholders in translated text can
 always be filled in. This script can also check for other conventions you want
 to uphold in your translatable text. For example, you may not want to use empty
 placeholders `{}` or explicitly check for `%`-based placeholders. In our case
