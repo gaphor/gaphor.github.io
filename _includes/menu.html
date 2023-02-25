@@ -7,12 +7,12 @@
     <div class="row">
       <div class="col-10 col-lg-3">
         <a href="{{ site.url }}{% if page.language != 'en' %}/{{ page.language }}/{% endif %}" title="{{ site.title[page.language] }}" class="header-logo">
+          {% if include.show_subtitle %}
+          <img src="{{ site.full_logo }}" alt="Gaphor logo" />
+          {% else %}
           <img src="{{ site.logo }}" alt="Gaphor logo" />
-          Gaphor
-        </a>
-        {% if include.show_subtitle %}
-        <div class="header-subtitle">UML/SysML Modeling</div>
-        {% endif %}
+          {% endif %}
+          </a>
       </div>
       <div class="col-2 col-lg-9">
         <label for="menu-toggle" class="open-responsive-menu"><i class="fa fa-bars"></i></label>
