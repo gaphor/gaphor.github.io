@@ -6,11 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-01-22 16:01-0500\n"
+"POT-Creation-Date: 2023-03-04 18:05-0500\n"
 "PO-Revision-Date: 2023-01-31 19:42+0000\n"
 "Last-Translator: vikdevelop <super-vik1@protonmail.com>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/"
-"gaphor-github-io/cs/>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -229,9 +228,7 @@ msgstr " Stáhnout AppImage\n"
 #. type: Plain text
 #: _platforms/03-linux.md.filt
 msgid "If you're using Wayland and the AppImage crashes, you can force it to use the X11 backend instead."
-msgstr ""
-"Pokud používáte Wayland a AppImage se zhroutí, můžete jej vynutit, aby místo "
-"toho použil backend X11."
+msgstr "Pokud používáte Wayland a AppImage se zhroutí, můžete jej vynutit, aby místo toho použil backend X11."
 
 #. type: Title ###
 #: _platforms/03-linux.md.filt
@@ -329,16 +326,6 @@ msgstr "Po získání některých tříd je běžné projít několik souvisejí
 msgid "Using the `[:]` operator items can be traversed more easily:"
 msgstr "Pomocí operátoru `[:]` lze položky procházet snadněji:"
 
-#. type: Plain text
-#: tutorials/plugins.md.filt
-msgid "It's also possible to provide a query as part of the selection:"
-msgstr "V rámci výběru je také možné zadat dotaz:"
-
-#. type: Plain text
-#: tutorials/plugins.md.filt
-msgid "The variable `it` in the query refers to the evaluated object (in this case all operations with a return parameter are taken into account)."
-msgstr "Proměnná `it` v dotazu odkazuje na vyhodnocovaný objekt (v tomto případě se berou v úvahu všechny operace s návratovým parametrem)."
-
 #. type: Title ##
 #: tutorials/plugins.md.filt
 #, no-wrap
@@ -431,125 +418,16 @@ msgstr "Problém popište jednoduchým a srozumitelným jazykem, a pokud je to u
 msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the Gaphor developer's website."
 msgstr "Pokud byste se chtěli více zapojit do vývoje programu Gaphor, rádi vás přivítáme na webových stránkách vývojářů Gaphoru."
 
-#. type: Bullet: '1. '
-#: tutorials/get-started-with-gaphor.md.filt tutorials.md.filt
+#. type: Yaml Front Matter Hash Value: title
+#: tutorials/get-started-with-gaphor.md.filt
 #, no-wrap
 msgid "Get started with Gaphor"
 msgstr "Začněte s aplikací Gaphor"
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt
-msgid "Once Gaphor is launched, it provides you an almost empty user interface.  A new model is already created and the diagram is opened."
-msgstr "Po spuštění aplikace Gaphor se zobrazí téměř prázdné uživatelské rozhraní.  Nový model je již vytvořen a diagram je otevřen."
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "The layout of the Gaphor interface is divided into four sections, namely:"
-msgstr "Rozložení rozhraní Gaphor je rozděleno do čtyř částí, a to:"
-
-#. type: Title ##
-#: tutorials/get-started-with-gaphor.md.filt
-#, no-wrap
-msgid "Navigation"
-msgstr "Navigace"
-
-#. type: Bullet: '-   '
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Diagrams"
-msgstr "Diagramy"
-
-#. type: Bullet: '-   '
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Diagram Element Toolbox"
-msgstr "Sada nástrojů Diagram Element Toolbox"
-
-#. type: Bullet: '-   '
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Properties pane"
-msgstr "Podokno vlastností"
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Each section has its own specific function."
-msgstr "Každá sekce má svou specifickou funkci."
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "The navigation section of the interface displays a hierarchical view of your model. Every model element you create will be inserted into the navigation section. This view acts as a tree where you can expand and collapse different elements of your model. This provides an easy way to view the elements of your model from an elided perspective. That is, you can collapse those model elements that are irrelevant to the task at hand."
-msgstr "V navigační části rozhraní se zobrazuje hierarchické zobrazení modelu. Do navigační sekce se vloží každý vytvořený prvek modelu. Toto zobrazení funguje jako strom, ve kterém můžete rozbalovat a sbalovat různé prvky modelu. To poskytuje snadný způsob, jak zobrazit prvky vašeho modelu z elidované perspektivy. To znamená, že můžete sbalit ty prvky modelu, které jsou pro danou úlohu nepodstatné."
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt tutorials/your-first-model.md.filt
-msgid "!image"
-msgstr "!image"
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "In the figure above, you will see that there are three elements in the navigation view. The root element, _New Model_ is a package. Notice the small arrow beside _New Model_ that is pointing downward. This indicates that the element is expanded. You will also notice the two sub-elements are slightly indented in relation to _New Model_. The _NewClass_ element is a class and the _main_ element is a diagram."
-msgstr "Na obrázku výše vidíte, že v navigačním zobrazení jsou tři prvky. Kořenový prvek _New Model_ je balíček. Všimněte si malé šipky vedle _New Model_, která směřuje dolů. To znamená, že prvek je rozbalený. Všimněte si také, že dva dílčí prvky jsou mírně odsazené vzhledem k _New Model_. Element _NewClass_ je třída a element _main_ je diagram."
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "In the navigation view, you can also right-click the model elements to get a context menu. This context menu allows you to delete model elements, and to refresh the navigation view."
-msgstr "V navigačním zobrazení můžete také kliknout pravým tlačítkem myši na prvky modelu a zobrazit kontextovou nabídku. Tato kontextová nabídka umožňuje odstraňovat prvky modelu a obnovovat navigační zobrazení."
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Double clicking on a diagram element will open it in the Diagram section. Elements such as classes and packages can be dragged from the tree view on the diagrams."
-msgstr "Dvojklikem na prvek diagramu jej otevřete v části Diagram. Prvky, jako jsou třídy a balíčky, lze přetahovat ze stromového zobrazení na diagramy."
-
-#. type: Title ##
-#: tutorials/get-started-with-gaphor.md.filt
-#, no-wrap
-msgid "Diagram Section"
-msgstr "Sekce schémat/diagramů"
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "The diagram section takes up the most space. Multiple diagrams can be opened at once: they are shown in tabs. Tabs can be closed from the file menu (Close) and by pressing Ctrl+w."
-msgstr "Nejvíce místa zabírá část s diagramy. Lze otevřít více diagramů najednou: zobrazují se na kartách. Karty lze zavřít z nabídky souboru (Zavřít) a stisknutím klávesové zkratky Ctrl+w."
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Most elements have hot zones, shown as gray rectangles that are only visible when the item is selected. Double clicking on those rectangles allows you to directly edit the item. E.g. change its name."
-msgstr "Většina prvků má tzv. horké zóny, zobrazené jako šedé obdélníky, které jsou viditelné pouze tehdy, když je prvek vybrán. Dvojitým kliknutím na tyto obdélníky můžete prvek přímo upravovat. Např. změnit jeho název."
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Changes you make can be undone by pressing Ctrl+z. To re-do a change, hit Ctrl+Shift+z."
-msgstr "Provedené změny lze zrušit stisknutím klávesové zkratky Ctrl+z. Chcete-li změnu provést znovu, stiskněte kombinaci kláves Ctrl+Shift+z."
-
-#. type: Title ##
-#: tutorials/get-started-with-gaphor.md.filt
-#, no-wrap
-msgid "Toolbox"
-msgstr "Toolbox"
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "The toolbox is mainly used to add new items to a diagram. Select the element you want to add by clicking on it. When you click on the diagram, the selected element is created. The arrow is selected again, so the element can be manipulated."
-msgstr "Sada nástrojů slouží především k přidávání nových položek do diagramu. Vyberte prvek, který chcete přidat, kliknutím na něj. Po kliknutí na diagram se vybraný prvek vytvoří. Šipka je opět vybrána, takže s prvkem lze manipulovat."
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Tools can be selected by simply clicking on them. By default the pointer tool is selected after every item placement. This can be changed by disabling the \"Reset tool\" option in the Preferences window. Tools can also be selected by a keyboard shortcut. The actual character is displayed as part of the tooltip. Finally it is also possible to drag elements on the canvas from the toolbox."
-msgstr "Nástroje lze vybrat pouhým kliknutím na ně. Ve výchozím nastavení je po každém umístění položky vybrán nástroj ukazatele. To lze změnit vypnutím možnosti \"Obnovit nástroj\" v okně Předvolby. Nástroje lze vybírat také pomocí klávesové zkratky. Aktuální znak je zobrazen jako součást nápovědy k nástroji. Konečně je také možné přetahovat prvky na plátně ze sady nástrojů."
-
-#. type: Title ##
-#: tutorials/get-started-with-gaphor.md.filt
-#, no-wrap
-msgid "Element Editor"
-msgstr "Editor prvků"
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "The Element editor can be unfolded by pressing the pensil button. This will reveal a utility window that shows all characteristics of the selected element.  Things like name, attributes and stereotypes. It can be opened with Ctrl+e."
-msgstr "Editor prvků lze rozbalit stisknutím tlačítka \"pensil\". Tím se zobrazí okno utility, které zobrazuje všechny charakteristiky vybraného prvku.  Například název, atributy a stereotypy. Lze jej otevřít pomocí klávesové zkratky Ctrl+e."
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "The properties shown depend on the element that is selected."
-msgstr "Zobrazené vlastnosti závisí na vybraném prvku."
+msgid "This page has moved to https:."
+msgstr ""
 
 #. type: Bullet: '2. '
 #: tutorials/your-first-model.md.filt tutorials.md.filt
@@ -559,71 +437,8 @@ msgstr "Váš první model"
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
-msgid "Once Gaphor is started a new empty model is automatically created. The main diagram is already open in the Diagram section."
-msgstr "Po spuštění aplikace Gaphor se automaticky vytvoří nový prázdný model. Hlavní diagram je již otevřen v sekci Diagram."
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "Select an element you want to place (e.g. a class) by clicking on the icon in the Toolbox and click on the diagram. This will place a new Class item instance on the diagram and add a new Class to the model (it shows up in the Navigation.  The selected tool will reset itself to the Pointer tool after the element is placed on the diagram."
-msgstr "Vyberte prvek, který chcete umístit (např. třídu), kliknutím na ikonu ve skupině nástrojů a klikněte na diagram. Tím se na diagram umístí nová instance prvku Class a do modelu se přidá nová třída (zobrazí se v navigaci.  Vybraný nástroj se po umístění prvku na diagram přenastaví na nástroj Ukazatel."
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "It's simple to add elements to a diagram."
-msgstr "Přidání prvků do diagramu je jednoduché."
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "Some elements are not directly visible. The section in the toolbox is collapsed and needs to be clicked first to reveal its contents."
-msgstr "Některé prvky nejsou přímo viditelné. Sekce ve schránce nástrojů je sbalená a pro zobrazení jejího obsahu je třeba na ni nejprve kliknout."
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "Gaphor does not make any assumptions about which elements should be placed on a diagram. A diagram is a diagram. UML defines all different kinds of diagrams, such as Class diagrams, Component diagrams, Action diagrams, Sequence diagrams.  But Gaphor does not place any restrictions."
-msgstr "Gaphor nevytváří žádné předpoklady o tom, které prvky by měly být umístěny v diagramu. Diagram je diagram. UML definuje všechny různé druhy diagramů, jako jsou diagramy tříd, diagramy komponent, diagramy akcí, diagramy sekvencí. Gaphor však neklade žádná omezení."
-
-#. type: Title ##
-#: tutorials/your-first-model.md.filt
-#, no-wrap
-msgid "Creating New Diagrams"
-msgstr "Vytváření nových diagramů"
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "To create a new diagram, use the Navigation section. Select an element that can contain a diagram (a Package or Profile) and right-click. Select New diagram and a new diagram is created. As of Gaphor 1.1.0 a buttion is available in the header bar. Select a package, and you'll notice the button is not grayed out and can be clicked, resulting in a new diagram being added to the model."
-msgstr "Chcete-li vytvořit nový diagram, použijte část Navigace. Vyberte prvek, který může obsahovat diagram (balíček nebo profil) a klikněte pravým tlačítkem. Vyberte Nový diagram a vytvoří se nový diagram. Od Verze Gaphor 1.1.0 je v záhlaví k dispozici buttion. Vyberte balíček a všimnete si, že tlačítko není zobrazeno šedě a lze na něj kliknout, což má za následek přidání nového diagramu do modelu."
-
-#. type: Title ##
-#: tutorials/your-first-model.md.filt
-#, no-wrap
-msgid "Copy and Paste"
-msgstr "Kopírovat a vložit"
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "Items in a diagram can be copied and pasted (in the same diagram or another). A paste will create new items in the diagrams, the items they represent (e.g. the Class that's shown in the Navigation) is *not* copied (call it a shallow copy if you like)."
-msgstr "Položky v diagramu lze kopírovat a vkládat (do stejného nebo jiného diagramu). Vložením se vytvoří nové položky v diagramech, položky, které představují (např. třída, která je zobrazena v navigaci), se *ne* zkopírují (chcete-li, říkejte tomu mělké kopírování)."
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "This way you can easily create visual copies of the same (underlying) model element."
-msgstr "Tímto způsobem můžete snadno vytvářet vizuální kopie stejného (podkladového) prvku modelu."
-
-#. type: Title ##
-#: tutorials/your-first-model.md.filt
-#, no-wrap
-msgid "Drag and Drop"
-msgstr "Drag and Drop"
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "Adding an existing element to a diagram is simple: drag the element from the Navigation section onto a diagram. Not all elements that show up in the Navigation can be added: Diagrams and attribute/operations of a Class can not be added."
-msgstr "Přidání existujícího prvku do diagramu je jednoduché: přetáhněte prvek z části Navigace do diagramu. Ne všechny prvky, které se zobrazují v části Navigace, lze přidat: Diagramy a atributy/operace třídy nelze přidat."
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "Elements can also be dragged within the Navigation section. This way classes and packages can be rearranged for example."
-msgstr "Prvky lze přetahovat také v rámci sekce Navigace. Tímto způsobem lze například přeskupovat třídy a balíčky."
+msgid "This page has been moved to https:."
+msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/01-platform.md.filt
@@ -787,14 +602,26 @@ msgstr "Chceme, aby naše komunita byla bezpečným, přívětivým a přátelsk
 msgid "Each tutorial is a self-contained lesson, explaining a specific aspect of Gaphor, so you have the skills needed to achieve your learning and modeling goals."
 msgstr "Každý výukový kurz je samostatnou lekcí, která vysvětluje konkrétní aspekt programu Gaphor, takže získáte dovednosti potřebné k dosažení cílů učení a modelování."
 
+#. type: Bullet: '1. '
+#: tutorials.md.filt
+#, fuzzy
+#| msgid "Get started with Gaphor"
+msgid "Get Started with Gaphor"
+msgstr "Začněte s aplikací Gaphor"
+
 #. type: Plain text
 #: tutorials.md.filt
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "3.  Introduction to Gaphor and\n"
+#| "SysML, presented by Dan at the\n"
+#| "Michigan Python meetup.\n"
+#| "4. How to report a bug in Gaphor\n"
 msgid ""
 "3.  Introduction to Gaphor and\n"
 "SysML, presented by Dan at the\n"
 "Michigan Python meetup.\n"
-"4. How to report a bug in Gaphor\n"
+"1. How to report a bug in Gaphor\n"
 msgstr ""
 "3.  Úvod do Gaphor a\n"
 "SysML, který prezentoval Dan na konferenci\n"
@@ -852,16 +679,12 @@ msgstr "Co říkají ostatní lidé"
 #. type: Plain text
 #: tutorials.md.filt
 msgid "There are some 10+ year old articles on Gaphor on the web. Some more recent articles are:"
-msgstr ""
-"Na webu je několik více než 10 let starých článků o Gaphoru. Některé novější "
-"články jsou:"
+msgstr "Na webu je několik více než 10 let starých článků o Gaphoru. Některé novější články jsou:"
 
 #. type: Bullet: '- '
 #: tutorials.md.filt
 msgid "Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10."
-msgstr ""
-"Webové stránky Metody a nástroje přezkoumaly verzi Gaphor 2.7.1 v prosinci "
-"2021 na Window 10."
+msgstr "Webové stránky Metody a nástroje přezkoumaly verzi Gaphor 2.7.1 v prosinci 2021 na Window 10."
 
 #. type: Bullet: '- '
 #: tutorials.md.filt
@@ -917,6 +740,124 @@ msgstr "Modeling pro každého"
 #, no-wrap
 msgid "Blog and News"
 msgstr "Blog a Zprávy"
+
+#~ msgid "It's also possible to provide a query as part of the selection:"
+#~ msgstr "V rámci výběru je také možné zadat dotaz:"
+
+#~ msgid "The variable `it` in the query refers to the evaluated object (in this case all operations with a return parameter are taken into account)."
+#~ msgstr "Proměnná `it` v dotazu odkazuje na vyhodnocovaný objekt (v tomto případě se berou v úvahu všechny operace s návratovým parametrem)."
+
+#~ msgid "Once Gaphor is launched, it provides you an almost empty user interface.  A new model is already created and the diagram is opened."
+#~ msgstr "Po spuštění aplikace Gaphor se zobrazí téměř prázdné uživatelské rozhraní.  Nový model je již vytvořen a diagram je otevřen."
+
+#~ msgid "The layout of the Gaphor interface is divided into four sections, namely:"
+#~ msgstr "Rozložení rozhraní Gaphor je rozděleno do čtyř částí, a to:"
+
+#, no-wrap
+#~ msgid "Navigation"
+#~ msgstr "Navigace"
+
+#~ msgid "Diagrams"
+#~ msgstr "Diagramy"
+
+#~ msgid "Diagram Element Toolbox"
+#~ msgstr "Sada nástrojů Diagram Element Toolbox"
+
+#~ msgid "Properties pane"
+#~ msgstr "Podokno vlastností"
+
+#~ msgid "Each section has its own specific function."
+#~ msgstr "Každá sekce má svou specifickou funkci."
+
+#~ msgid "The navigation section of the interface displays a hierarchical view of your model. Every model element you create will be inserted into the navigation section. This view acts as a tree where you can expand and collapse different elements of your model. This provides an easy way to view the elements of your model from an elided perspective. That is, you can collapse those model elements that are irrelevant to the task at hand."
+#~ msgstr "V navigační části rozhraní se zobrazuje hierarchické zobrazení modelu. Do navigační sekce se vloží každý vytvořený prvek modelu. Toto zobrazení funguje jako strom, ve kterém můžete rozbalovat a sbalovat různé prvky modelu. To poskytuje snadný způsob, jak zobrazit prvky vašeho modelu z elidované perspektivy. To znamená, že můžete sbalit ty prvky modelu, které jsou pro danou úlohu nepodstatné."
+
+#~ msgid "!image"
+#~ msgstr "!image"
+
+#~ msgid "In the figure above, you will see that there are three elements in the navigation view. The root element, _New Model_ is a package. Notice the small arrow beside _New Model_ that is pointing downward. This indicates that the element is expanded. You will also notice the two sub-elements are slightly indented in relation to _New Model_. The _NewClass_ element is a class and the _main_ element is a diagram."
+#~ msgstr "Na obrázku výše vidíte, že v navigačním zobrazení jsou tři prvky. Kořenový prvek _New Model_ je balíček. Všimněte si malé šipky vedle _New Model_, která směřuje dolů. To znamená, že prvek je rozbalený. Všimněte si také, že dva dílčí prvky jsou mírně odsazené vzhledem k _New Model_. Element _NewClass_ je třída a element _main_ je diagram."
+
+#~ msgid "In the navigation view, you can also right-click the model elements to get a context menu. This context menu allows you to delete model elements, and to refresh the navigation view."
+#~ msgstr "V navigačním zobrazení můžete také kliknout pravým tlačítkem myši na prvky modelu a zobrazit kontextovou nabídku. Tato kontextová nabídka umožňuje odstraňovat prvky modelu a obnovovat navigační zobrazení."
+
+#~ msgid "Double clicking on a diagram element will open it in the Diagram section. Elements such as classes and packages can be dragged from the tree view on the diagrams."
+#~ msgstr "Dvojklikem na prvek diagramu jej otevřete v části Diagram. Prvky, jako jsou třídy a balíčky, lze přetahovat ze stromového zobrazení na diagramy."
+
+#, no-wrap
+#~ msgid "Diagram Section"
+#~ msgstr "Sekce schémat/diagramů"
+
+#~ msgid "The diagram section takes up the most space. Multiple diagrams can be opened at once: they are shown in tabs. Tabs can be closed from the file menu (Close) and by pressing Ctrl+w."
+#~ msgstr "Nejvíce místa zabírá část s diagramy. Lze otevřít více diagramů najednou: zobrazují se na kartách. Karty lze zavřít z nabídky souboru (Zavřít) a stisknutím klávesové zkratky Ctrl+w."
+
+#~ msgid "Most elements have hot zones, shown as gray rectangles that are only visible when the item is selected. Double clicking on those rectangles allows you to directly edit the item. E.g. change its name."
+#~ msgstr "Většina prvků má tzv. horké zóny, zobrazené jako šedé obdélníky, které jsou viditelné pouze tehdy, když je prvek vybrán. Dvojitým kliknutím na tyto obdélníky můžete prvek přímo upravovat. Např. změnit jeho název."
+
+#~ msgid "Changes you make can be undone by pressing Ctrl+z. To re-do a change, hit Ctrl+Shift+z."
+#~ msgstr "Provedené změny lze zrušit stisknutím klávesové zkratky Ctrl+z. Chcete-li změnu provést znovu, stiskněte kombinaci kláves Ctrl+Shift+z."
+
+#, no-wrap
+#~ msgid "Toolbox"
+#~ msgstr "Toolbox"
+
+#~ msgid "The toolbox is mainly used to add new items to a diagram. Select the element you want to add by clicking on it. When you click on the diagram, the selected element is created. The arrow is selected again, so the element can be manipulated."
+#~ msgstr "Sada nástrojů slouží především k přidávání nových položek do diagramu. Vyberte prvek, který chcete přidat, kliknutím na něj. Po kliknutí na diagram se vybraný prvek vytvoří. Šipka je opět vybrána, takže s prvkem lze manipulovat."
+
+#~ msgid "Tools can be selected by simply clicking on them. By default the pointer tool is selected after every item placement. This can be changed by disabling the \"Reset tool\" option in the Preferences window. Tools can also be selected by a keyboard shortcut. The actual character is displayed as part of the tooltip. Finally it is also possible to drag elements on the canvas from the toolbox."
+#~ msgstr "Nástroje lze vybrat pouhým kliknutím na ně. Ve výchozím nastavení je po každém umístění položky vybrán nástroj ukazatele. To lze změnit vypnutím možnosti \"Obnovit nástroj\" v okně Předvolby. Nástroje lze vybírat také pomocí klávesové zkratky. Aktuální znak je zobrazen jako součást nápovědy k nástroji. Konečně je také možné přetahovat prvky na plátně ze sady nástrojů."
+
+#, no-wrap
+#~ msgid "Element Editor"
+#~ msgstr "Editor prvků"
+
+#~ msgid "The Element editor can be unfolded by pressing the pensil button. This will reveal a utility window that shows all characteristics of the selected element.  Things like name, attributes and stereotypes. It can be opened with Ctrl+e."
+#~ msgstr "Editor prvků lze rozbalit stisknutím tlačítka \"pensil\". Tím se zobrazí okno utility, které zobrazuje všechny charakteristiky vybraného prvku.  Například název, atributy a stereotypy. Lze jej otevřít pomocí klávesové zkratky Ctrl+e."
+
+#~ msgid "The properties shown depend on the element that is selected."
+#~ msgstr "Zobrazené vlastnosti závisí na vybraném prvku."
+
+#~ msgid "Once Gaphor is started a new empty model is automatically created. The main diagram is already open in the Diagram section."
+#~ msgstr "Po spuštění aplikace Gaphor se automaticky vytvoří nový prázdný model. Hlavní diagram je již otevřen v sekci Diagram."
+
+#~ msgid "Select an element you want to place (e.g. a class) by clicking on the icon in the Toolbox and click on the diagram. This will place a new Class item instance on the diagram and add a new Class to the model (it shows up in the Navigation.  The selected tool will reset itself to the Pointer tool after the element is placed on the diagram."
+#~ msgstr "Vyberte prvek, který chcete umístit (např. třídu), kliknutím na ikonu ve skupině nástrojů a klikněte na diagram. Tím se na diagram umístí nová instance prvku Class a do modelu se přidá nová třída (zobrazí se v navigaci.  Vybraný nástroj se po umístění prvku na diagram přenastaví na nástroj Ukazatel."
+
+#~ msgid "It's simple to add elements to a diagram."
+#~ msgstr "Přidání prvků do diagramu je jednoduché."
+
+#~ msgid "Some elements are not directly visible. The section in the toolbox is collapsed and needs to be clicked first to reveal its contents."
+#~ msgstr "Některé prvky nejsou přímo viditelné. Sekce ve schránce nástrojů je sbalená a pro zobrazení jejího obsahu je třeba na ni nejprve kliknout."
+
+#~ msgid "Gaphor does not make any assumptions about which elements should be placed on a diagram. A diagram is a diagram. UML defines all different kinds of diagrams, such as Class diagrams, Component diagrams, Action diagrams, Sequence diagrams.  But Gaphor does not place any restrictions."
+#~ msgstr "Gaphor nevytváří žádné předpoklady o tom, které prvky by měly být umístěny v diagramu. Diagram je diagram. UML definuje všechny různé druhy diagramů, jako jsou diagramy tříd, diagramy komponent, diagramy akcí, diagramy sekvencí. Gaphor však neklade žádná omezení."
+
+#, no-wrap
+#~ msgid "Creating New Diagrams"
+#~ msgstr "Vytváření nových diagramů"
+
+#~ msgid "To create a new diagram, use the Navigation section. Select an element that can contain a diagram (a Package or Profile) and right-click. Select New diagram and a new diagram is created. As of Gaphor 1.1.0 a buttion is available in the header bar. Select a package, and you'll notice the button is not grayed out and can be clicked, resulting in a new diagram being added to the model."
+#~ msgstr "Chcete-li vytvořit nový diagram, použijte část Navigace. Vyberte prvek, který může obsahovat diagram (balíček nebo profil) a klikněte pravým tlačítkem. Vyberte Nový diagram a vytvoří se nový diagram. Od Verze Gaphor 1.1.0 je v záhlaví k dispozici buttion. Vyberte balíček a všimnete si, že tlačítko není zobrazeno šedě a lze na něj kliknout, což má za následek přidání nového diagramu do modelu."
+
+#, no-wrap
+#~ msgid "Copy and Paste"
+#~ msgstr "Kopírovat a vložit"
+
+#~ msgid "Items in a diagram can be copied and pasted (in the same diagram or another). A paste will create new items in the diagrams, the items they represent (e.g. the Class that's shown in the Navigation) is *not* copied (call it a shallow copy if you like)."
+#~ msgstr "Položky v diagramu lze kopírovat a vkládat (do stejného nebo jiného diagramu). Vložením se vytvoří nové položky v diagramech, položky, které představují (např. třída, která je zobrazena v navigaci), se *ne* zkopírují (chcete-li, říkejte tomu mělké kopírování)."
+
+#~ msgid "This way you can easily create visual copies of the same (underlying) model element."
+#~ msgstr "Tímto způsobem můžete snadno vytvářet vizuální kopie stejného (podkladového) prvku modelu."
+
+#, no-wrap
+#~ msgid "Drag and Drop"
+#~ msgstr "Drag and Drop"
+
+#~ msgid "Adding an existing element to a diagram is simple: drag the element from the Navigation section onto a diagram. Not all elements that show up in the Navigation can be added: Diagrams and attribute/operations of a Class can not be added."
+#~ msgstr "Přidání existujícího prvku do diagramu je jednoduché: přetáhněte prvek z části Navigace do diagramu. Ne všechny prvky, které se zobrazují v části Navigace, lze přidat: Diagramy a atributy/operace třídy nelze přidat."
+
+#~ msgid "Elements can also be dragged within the Navigation section. This way classes and packages can be rearranged for example."
+#~ msgstr "Prvky lze přetahovat také v rámci sekce Navigace. Tímto způsobem lze například přeskupovat třídy a balíčky."
 
 #, fuzzy, no-wrap
 #~| msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."

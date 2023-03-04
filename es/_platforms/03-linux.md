@@ -33,8 +33,8 @@ chmod +x Gaphor-{{ site.gaphor_version }}-x86_64.AppImage
 ./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage
 ```
 
-If you're using Wayland and the AppImage crashes, you can force it to use
-the X11 backend instead.
+Si usa Wayland y la AppImage falla, puede forzarla a usar el backend X11 en
+su lugar.
 
 ```bash
 GDK_BACKEND=x11 ./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage

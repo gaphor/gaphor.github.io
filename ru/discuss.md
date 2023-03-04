@@ -3,7 +3,7 @@ handle: /discuss
 language: ru
 layout: article
 redirect_from: /pages/discuss.html
-title: 'Get in touch'
+title: 'Связь с нами'
 ---
 
 It's good to talk, share knowledge and learn from other users of

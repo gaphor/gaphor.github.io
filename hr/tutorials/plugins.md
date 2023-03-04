@@ -65,16 +65,6 @@ for o in classes.ownedOperation[:].ownedParameter:
     do_something(p)
 ```
 
-Također je moguće zadati upit kao dio odabira:
-
-```python
-for o in classes.ownedOperation['it.returnParameter'].ownedParameter:
-    do_something(p)
-```
-
-Varijabla `it` u upitu odnosi se na ocijenjeni objekt (u tom slučaju se
-uzimaju u obzir sve operacije s povratnim parametrom).
-
 ## Primjer dodatka
 
 An example Hello World plugin is hosted on

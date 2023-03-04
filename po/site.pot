@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-01-22 16:13-0500\n"
+"POT-Creation-Date: 2023-03-04 18:05-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -364,18 +364,6 @@ msgstr ""
 msgid "Using the `[:]` operator items can be traversed more easily:"
 msgstr ""
 
-#. type: Plain text
-#: tutorials/plugins.md.filt
-#, markdown-text
-msgid "It's also possible to provide a query as part of the selection:"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/plugins.md.filt
-#, markdown-text
-msgid "The variable `it` in the query refers to the evaluated object (in this case all operations with a return parameter are taken into account)."
-msgstr ""
-
 #. type: Title ##
 #: tutorials/plugins.md.filt
 #, markdown-text, no-wrap
@@ -484,142 +472,16 @@ msgstr ""
 msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the Gaphor developer's website."
 msgstr ""
 
-#. type: Bullet: '1. '
-#: tutorials/get-started-with-gaphor.md.filt tutorials.md.filt
-#, markdown-text, no-wrap
+#. type: Yaml Front Matter Hash Value: title
+#: tutorials/get-started-with-gaphor.md.filt
+#, no-wrap
 msgid "Get started with Gaphor"
 msgstr ""
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt
 #, markdown-text
-msgid "Once Gaphor is launched, it provides you an almost empty user interface.  A new model is already created and the diagram is opened."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-#, markdown-text
-msgid "The layout of the Gaphor interface is divided into four sections, namely:"
-msgstr ""
-
-#. type: Title ##
-#: tutorials/get-started-with-gaphor.md.filt
-#, markdown-text, no-wrap
-msgid "Navigation"
-msgstr ""
-
-#. type: Bullet: '-   '
-#: tutorials/get-started-with-gaphor.md.filt
-#, markdown-text
-msgid "Diagrams"
-msgstr ""
-
-#. type: Bullet: '-   '
-#: tutorials/get-started-with-gaphor.md.filt
-#, markdown-text
-msgid "Diagram Element Toolbox"
-msgstr ""
-
-#. type: Bullet: '-   '
-#: tutorials/get-started-with-gaphor.md.filt
-#, markdown-text
-msgid "Properties pane"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-#, markdown-text
-msgid "Each section has its own specific function."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-#, markdown-text
-msgid "The navigation section of the interface displays a hierarchical view of your model. Every model element you create will be inserted into the navigation section. This view acts as a tree where you can expand and collapse different elements of your model. This provides an easy way to view the elements of your model from an elided perspective. That is, you can collapse those model elements that are irrelevant to the task at hand."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt tutorials/your-first-model.md.filt
-#, markdown-text
-msgid "!image"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-#, markdown-text
-msgid "In the figure above, you will see that there are three elements in the navigation view. The root element, _New Model_ is a package. Notice the small arrow beside _New Model_ that is pointing downward. This indicates that the element is expanded. You will also notice the two sub-elements are slightly indented in relation to _New Model_. The _NewClass_ element is a class and the _main_ element is a diagram."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-#, markdown-text
-msgid "In the navigation view, you can also right-click the model elements to get a context menu. This context menu allows you to delete model elements, and to refresh the navigation view."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-#, markdown-text
-msgid "Double clicking on a diagram element will open it in the Diagram section. Elements such as classes and packages can be dragged from the tree view on the diagrams."
-msgstr ""
-
-#. type: Title ##
-#: tutorials/get-started-with-gaphor.md.filt
-#, markdown-text, no-wrap
-msgid "Diagram Section"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-#, markdown-text
-msgid "The diagram section takes up the most space. Multiple diagrams can be opened at once: they are shown in tabs. Tabs can be closed from the file menu (Close) and by pressing Ctrl+w."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-#, markdown-text
-msgid "Most elements have hot zones, shown as gray rectangles that are only visible when the item is selected. Double clicking on those rectangles allows you to directly edit the item. E.g. change its name."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-#, markdown-text
-msgid "Changes you make can be undone by pressing Ctrl+z. To re-do a change, hit Ctrl+Shift+z."
-msgstr ""
-
-#. type: Title ##
-#: tutorials/get-started-with-gaphor.md.filt
-#, markdown-text, no-wrap
-msgid "Toolbox"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-#, markdown-text
-msgid "The toolbox is mainly used to add new items to a diagram. Select the element you want to add by clicking on it. When you click on the diagram, the selected element is created. The arrow is selected again, so the element can be manipulated."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-#, markdown-text
-msgid "Tools can be selected by simply clicking on them. By default the pointer tool is selected after every item placement. This can be changed by disabling the \"Reset tool\" option in the Preferences window. Tools can also be selected by a keyboard shortcut. The actual character is displayed as part of the tooltip. Finally it is also possible to drag elements on the canvas from the toolbox."
-msgstr ""
-
-#. type: Title ##
-#: tutorials/get-started-with-gaphor.md.filt
-#, markdown-text, no-wrap
-msgid "Element Editor"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-#, markdown-text
-msgid "The Element editor can be unfolded by pressing the pensil button. This will reveal a utility window that shows all characteristics of the selected element.  Things like name, attributes and stereotypes. It can be opened with Ctrl+e."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-#, markdown-text
-msgid "The properties shown depend on the element that is selected."
+msgid "This page has moved to https:."
 msgstr ""
 
 #. type: Bullet: '2. '
@@ -631,79 +493,7 @@ msgstr ""
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
 #, markdown-text
-msgid "Once Gaphor is started a new empty model is automatically created. The main diagram is already open in the Diagram section."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-#, markdown-text
-msgid "Select an element you want to place (e.g. a class) by clicking on the icon in the Toolbox and click on the diagram. This will place a new Class item instance on the diagram and add a new Class to the model (it shows up in the Navigation.  The selected tool will reset itself to the Pointer tool after the element is placed on the diagram."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-#, markdown-text
-msgid "It's simple to add elements to a diagram."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-#, markdown-text
-msgid "Some elements are not directly visible. The section in the toolbox is collapsed and needs to be clicked first to reveal its contents."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-#, markdown-text
-msgid "Gaphor does not make any assumptions about which elements should be placed on a diagram. A diagram is a diagram. UML defines all different kinds of diagrams, such as Class diagrams, Component diagrams, Action diagrams, Sequence diagrams.  But Gaphor does not place any restrictions."
-msgstr ""
-
-#. type: Title ##
-#: tutorials/your-first-model.md.filt
-#, markdown-text, no-wrap
-msgid "Creating New Diagrams"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-#, markdown-text
-msgid "To create a new diagram, use the Navigation section. Select an element that can contain a diagram (a Package or Profile) and right-click. Select New diagram and a new diagram is created. As of Gaphor 1.1.0 a buttion is available in the header bar. Select a package, and you'll notice the button is not grayed out and can be clicked, resulting in a new diagram being added to the model."
-msgstr ""
-
-#. type: Title ##
-#: tutorials/your-first-model.md.filt
-#, markdown-text, no-wrap
-msgid "Copy and Paste"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-#, markdown-text
-msgid "Items in a diagram can be copied and pasted (in the same diagram or another). A paste will create new items in the diagrams, the items they represent (e.g. the Class that's shown in the Navigation) is *not* copied (call it a shallow copy if you like)."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-#, markdown-text
-msgid "This way you can easily create visual copies of the same (underlying) model element."
-msgstr ""
-
-#. type: Title ##
-#: tutorials/your-first-model.md.filt
-#, markdown-text, no-wrap
-msgid "Drag and Drop"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-#, markdown-text
-msgid "Adding an existing element to a diagram is simple: drag the element from the Navigation section onto a diagram. Not all elements that show up in the Navigation can be added: Diagrams and attribute/operations of a Class can not be added."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-#, markdown-text
-msgid "Elements can also be dragged within the Navigation section. This way classes and packages can be rearranged for example."
+msgid "This page has been moved to https:."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
@@ -886,6 +676,12 @@ msgstr ""
 msgid "Each tutorial is a self-contained lesson, explaining a specific aspect of Gaphor, so you have the skills needed to achieve your learning and modeling goals."
 msgstr ""
 
+#. type: Bullet: '1. '
+#: tutorials.md.filt
+#, markdown-text
+msgid "Get Started with Gaphor"
+msgstr ""
+
 #. type: Plain text
 #: tutorials.md.filt
 #, markdown-text, no-wrap
@@ -893,7 +689,7 @@ msgid ""
 "3.  Introduction to Gaphor and\n"
 "SysML, presented by Dan at the\n"
 "Michigan Python meetup.\n"
-"4. How to report a bug in Gaphor\n"
+"1. How to report a bug in Gaphor\n"
 msgstr ""
 
 #. type: Title ##

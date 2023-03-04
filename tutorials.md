@@ -10,8 +10,8 @@ Each tutorial is a self-contained lesson, explaining a specific aspect of
 Gaphor, so you have the skills needed to achieve your learning and modeling
 goals.
 
-1. [Get Started with Gaphor](https://gaphor.readthedocs.io/en/latest/getting_started.html)
-2. [Your First Model](https://gaphor.readthedocs.io/en/latest/first_model.html)
+1. [Get Started with Gaphor](https://docs.gaphor.org/en/latest/getting_started.html)
+2. [Your First Model](https://docs.gaphor.org/en/latest/first_model.html)
 3. <i class="fab fa-youtube"></i> [Introduction to Gaphor and
 SysML](https://www.youtube.com/watch?v=J1k9GTmYwkc), presented by Dan at the
 Michigan Python meetup.
@@ -20,9 +20,9 @@ Michigan Python meetup.
 
 ## Advanced topics
 
-- [Extend your models with stereotypes](https://gaphor.readthedocs.io/en/latest/stereotypes.html)
+- [Extend your models with stereotypes](https://docs.gaphor.org/en/latest/stereotypes.html)
 - [Writing a plugin]({% link tutorials/plugins.md %})
-- [Technical and architectural documentation](https://gaphor.readthedocs.io/)
+- [Technical and architectural documentation](https://docs.gaphor.org)
 for contributors and plugin developers
 
 ## Talks

@@ -3,7 +3,7 @@ handle: /tutorials/report-bugs
 language: ru
 layout: article
 redirect_from: /pages/how-to-report-a-bug-in-gaphor.html
-title: 'How to report a bug in Gaphor'
+title: 'Как сообщить об ошибке в Gaphor'
 ---
 
 If you've ever written a line of code, you'll know that all software has
@@ -48,4 +48,4 @@ we know what you mean.  We won't mind!
 
 If you would like to get more involved in the development of Gaphor, we'd
 love to welcome you via the [Gaphor developer's
-website](http://gaphor.readthedocs.io/).
+website](http://docs.gaphor.org).

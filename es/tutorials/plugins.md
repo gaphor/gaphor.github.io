@@ -66,16 +66,6 @@ for o in classes.ownedOperation[:].ownedParameter:
     do_something(p)
 ```
 
-También es posible proporcionar una consulta como parte de la selección:
-
-```python
-for o in classes.ownedOperation['it.returnParameter'].ownedParameter:
-    do_something(p)
-```
-
-La variable `it` en la consulta se refiere al objeto evaluado (en este caso
-se tienen en cuenta todas las operaciones con parámetro de retorno).
-
 ## Ejemplo de plugin
 
 An example Hello World plugin is hosted on

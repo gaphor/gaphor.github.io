@@ -1,12 +1,12 @@
 {% capture love %}
 
-We love to hear from you
+Мы рады услышать вас
 
 {% endcapture %}
 
 {% capture open-issue %}
 
-Open an issue on GitHub
+Открыть проблему на GitHub
 
 {% endcapture %}
 
@@ -24,6 +24,6 @@ Copyright &copy; 2020-2023 Arjan Molenaar and Dan Yeaw.
 
 {% capture theme %}
 
-Theme
+Тема
 
 {% endcapture %}

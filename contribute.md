@@ -11,7 +11,7 @@ is only something for experienced developers, please reconsider, there are
 plenty of ways to contribute to Gaphor, no matter your level of experience or
 skill set.
 
-Our [technical documentation](https://gaphor.readthedocs.io) is hosted on the
+Our [technical documentation](https://docs.gaphor.org) is hosted on the
 wonderful service that is [Read the Docs](https://readthedocs.com/). Not only
 does it contain details needed in order to make code contributions to Gaphor,
 but it outlines plenty of other ways in which you can contribute (including

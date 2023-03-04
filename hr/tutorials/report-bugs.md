@@ -50,4 +50,4 @@ protiv!
 
 If you would like to get more involved in the development of Gaphor, we'd
 love to welcome you via the [Gaphor developer's
-website](http://gaphor.readthedocs.io/).
+website](http://docs.gaphor.org).

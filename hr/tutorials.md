@@ -10,22 +10,22 @@ Svaka vježba je samostalna lekcija koja objašnjava određeni aspekt Gaphora,
 tako da naučiš potrebne vještine za postizanje tvojih ciljeva učenja i
 modeliranja.
 
-1. <a href="get-started-with-gaphor">Get started with Gaphor</a>
-2. <a href="your-first-model">Your First Model</a>
+1. [Get Started with
+   Gaphor](https://docs.gaphor.org/en/latest/getting_started.html)
+2. [Your First Model](https://docs.gaphor.org/en/latest/first_model.html)
 3. <i class="fab fa-youtube"></i> [Introduction to Gaphor and
 SysML](https://www.youtube.com/watch?v=J1k9GTmYwkc), presented by Dan at the
 Michigan Python meetup.
-4. <a href="report-bugs">How to report a bug in Gaphor</a>
+1. <a href="report-bugs">How to report a bug in Gaphor</a>
 
 
 ## Napredne teme
 
 - [Extend your models with
-  stereotypes](https://gaphor.readthedocs.io/en/latest/stereotypes.html)
+  stereotypes](https://docs.gaphor.org/en/latest/stereotypes.html)
 - [Writing a plugin]({% link tutorials/plugins.md %})
-- [Technical and architectural
-documentation](https://gaphor.readthedocs.io/)  for contributors and plugin
-developers
+- [Technical and architectural documentation](https://docs.gaphor.org)  for
+contributors and plugin developers
 
 ## Predavanja
 
@@ -40,10 +40,10 @@ developers
   [Large GUI application with Python and
   GTK](https://events.gnome.org/event/9/contributions/188/).
 
-## What other people say
+## Što kažu drugi
 
-There are some 10+ year old articles on Gaphor on the web. Some more recent
-articles are:
+Na webu postoje članci o Gaphoru koji su stari više od 10 godina. Neki
+noviji članci su:
 
 - [Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on
   a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)

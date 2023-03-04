@@ -6,17 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-01-22 16:01-0500\n"
+"POT-Creation-Date: 2023-03-04 18:05-0500\n"
 "PO-Revision-Date: 2023-02-12 12:35+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
-"Language-Team: Croatian <https://hosted.weblate.org/projects/gaphor/"
-"gaphor-github-io/hr/>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.16-dev\n"
 
 #. type: Plain text
@@ -230,9 +228,7 @@ msgstr " Preuzmi AppImage\n"
 #. type: Plain text
 #: _platforms/03-linux.md.filt
 msgid "If you're using Wayland and the AppImage crashes, you can force it to use the X11 backend instead."
-msgstr ""
-"Ako koristiš Wayland i ako AppImage ne radi, možeš prisiliti Wayland da "
-"umjesto toga koristi pozadinu X11."
+msgstr "Ako koristiš Wayland i ako AppImage ne radi, možeš prisiliti Wayland da umjesto toga koristi pozadinu X11."
 
 #. type: Title ###
 #: _platforms/03-linux.md.filt
@@ -330,16 +326,6 @@ msgstr "Kad se dobiju neke klase, mora se proći kroz nekoliko povezanih objekat
 msgid "Using the `[:]` operator items can be traversed more easily:"
 msgstr "Operator `[:]` olakšava prolaženje kroz elemente:"
 
-#. type: Plain text
-#: tutorials/plugins.md.filt
-msgid "It's also possible to provide a query as part of the selection:"
-msgstr "Također je moguće zadati upit kao dio odabira:"
-
-#. type: Plain text
-#: tutorials/plugins.md.filt
-msgid "The variable `it` in the query refers to the evaluated object (in this case all operations with a return parameter are taken into account)."
-msgstr "Varijabla `it` u upitu odnosi se na ocijenjeni objekt (u tom slučaju se uzimaju u obzir sve operacije s povratnim parametrom)."
-
 #. type: Title ##
 #: tutorials/plugins.md.filt
 #, no-wrap
@@ -432,125 +418,16 @@ msgstr "Koristi jednostavan jezik za opisivanje problema i, ako treba, navedi ra
 msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the Gaphor developer's website."
 msgstr "Ako se želiš uključiti u razvoj Gaphora, pridruži nam se na Gaphor web-stranici za programere."
 
-#. type: Bullet: '1. '
-#: tutorials/get-started-with-gaphor.md.filt tutorials.md.filt
+#. type: Yaml Front Matter Hash Value: title
+#: tutorials/get-started-with-gaphor.md.filt
 #, no-wrap
 msgid "Get started with Gaphor"
 msgstr "Počni raditi s Gaphorom"
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt
-msgid "Once Gaphor is launched, it provides you an almost empty user interface.  A new model is already created and the diagram is opened."
-msgstr "Nakon pokretanja Gaphora, program pruža gotovo prazno korisničko sučelje. Novi model je već stvoren i dijagram otvoren."
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "The layout of the Gaphor interface is divided into four sections, namely:"
-msgstr "Izgled sučelja Gaphora je podijeljen u četiri odjeljka, naime:"
-
-#. type: Title ##
-#: tutorials/get-started-with-gaphor.md.filt
-#, no-wrap
-msgid "Navigation"
-msgstr "Navigacija"
-
-#. type: Bullet: '-   '
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Diagrams"
-msgstr "Dijagrami"
-
-#. type: Bullet: '-   '
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Diagram Element Toolbox"
-msgstr "Kutija alata za elemente dijagrama"
-
-#. type: Bullet: '-   '
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Properties pane"
-msgstr "Ploča svojstava"
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Each section has its own specific function."
-msgstr "Svaki odjeljak ima vlastitu specifičnu funkciju."
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "The navigation section of the interface displays a hierarchical view of your model. Every model element you create will be inserted into the navigation section. This view acts as a tree where you can expand and collapse different elements of your model. This provides an easy way to view the elements of your model from an elided perspective. That is, you can collapse those model elements that are irrelevant to the task at hand."
-msgstr "Odjeljak navigacije prikazuje hijerarhijski pogled na model. Svaki element modela koji stvaraš umetnut će se u odjeljak navigacije. Ovaj pogled djeluje kao stablo u kojem možeš rasklopiti i sklopiti različite elemente modela. To pruža jednostavan način za pregled elemenata modela iz perspektive izostavljanja, odnosno možeš sklopiti elemente modela koji nisu važni za zadatak."
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt tutorials/your-first-model.md.filt
-msgid "!image"
-msgstr "!Slika"
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "In the figure above, you will see that there are three elements in the navigation view. The root element, _New Model_ is a package. Notice the small arrow beside _New Model_ that is pointing downward. This indicates that the element is expanded. You will also notice the two sub-elements are slightly indented in relation to _New Model_. The _NewClass_ element is a class and the _main_ element is a diagram."
-msgstr "U gornjoj slici vidjet ćeš da postoje tri elementa u prikazu navigacije. Osnovni element, _Novi model_ je paket. Obrati pažnju na malu strelicu pored _Novi model_ koja je usmjerena prema dolje. To znači da je element rasklopljen. Također ćeš primijetiti da su dva podelementa malo uvučena u odnosu na _Novi model_. Element _Nova klasa_ je klasa, a element _glavni_ je dijagram."
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "In the navigation view, you can also right-click the model elements to get a context menu. This context menu allows you to delete model elements, and to refresh the navigation view."
-msgstr "U prikazu navigacije također možeš desnom tipkom miša pritisnuti elemente modela za dobivanje kontekstnog izbornika. Ovaj kontekstni izbornik omogućuje brisanje elemenata modela i aktualiziranje prikaza navigacije."
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Double clicking on a diagram element will open it in the Diagram section. Elements such as classes and packages can be dragged from the tree view on the diagrams."
-msgstr "Dvostrukim pritiskom na element dijagrama, element će se otvorit u odjeljku „Dijagram”. Elementi kao što su klase i paketi, mogu se povući iz stablastog prikaza na dijagrame."
-
-#. type: Title ##
-#: tutorials/get-started-with-gaphor.md.filt
-#, no-wrap
-msgid "Diagram Section"
-msgstr "Odjeljak dijagrama"
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "The diagram section takes up the most space. Multiple diagrams can be opened at once: they are shown in tabs. Tabs can be closed from the file menu (Close) and by pressing Ctrl+w."
-msgstr "Odjeljak dijagrama zauzima najviše prostora. Više dijagrama se mogu otvoriti odjednom: prikazuju se u karticama. Kartice se mogu zatvoriti putem izbornika datoteka (Zatvori) i pritiskom tipki Ctrl+w."
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Most elements have hot zones, shown as gray rectangles that are only visible when the item is selected. Double clicking on those rectangles allows you to directly edit the item. E.g. change its name."
-msgstr "Većina elemenata ima vruće zone, koji se prikazuju kao sivi pravokutnici i koji su vidljivi samo kad je element odabran. Dvostrukim pritiskom na te pravokutnike omogućuje izravno uređivanje elementa. Npr. promijeniti ime."
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Changes you make can be undone by pressing Ctrl+z. To re-do a change, hit Ctrl+Shift+z."
-msgstr "Promjene možeš poništiti pritiskom tipki Ctrl+z. Za ponavljanje promjene, pritisni tipke Ctrl+Shift+z."
-
-#. type: Title ##
-#: tutorials/get-started-with-gaphor.md.filt
-#, no-wrap
-msgid "Toolbox"
-msgstr "Kutija alata"
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "The toolbox is mainly used to add new items to a diagram. Select the element you want to add by clicking on it. When you click on the diagram, the selected element is created. The arrow is selected again, so the element can be manipulated."
-msgstr "Kutija alata se uglavnom koristi za dodavanje novih elemenata dijagramu. Odaberi element koji želiš dodati pritiskom na njega. Kad pritisneš na dijagram, stvara se odabrani element. Strelica se ponovno bira, tako da se elementom može manipulirati."
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Tools can be selected by simply clicking on them. By default the pointer tool is selected after every item placement. This can be changed by disabling the \"Reset tool\" option in the Preferences window. Tools can also be selected by a keyboard shortcut. The actual character is displayed as part of the tooltip. Finally it is also possible to drag elements on the canvas from the toolbox."
-msgstr "Alati se mogu odabrati jednostavnim pritiskom. Prema standardnim postavkama pokazivač se bira nakon svakog postavljanja elementa. To se može promijeniti deaktiviranjem opcije „Resetiraj alat” u prozoru „Postavke”. Alati se također mogu odabrati tipkovnim prečacem. Stvarni znak se prikazuje kao dio savjeta alata. Na kraju krajeva, elementi se također mogu povući na platno iz kutije alata."
-
-#. type: Title ##
-#: tutorials/get-started-with-gaphor.md.filt
-#, no-wrap
-msgid "Element Editor"
-msgstr "Uređivač elemenata"
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "The Element editor can be unfolded by pressing the pensil button. This will reveal a utility window that shows all characteristics of the selected element.  Things like name, attributes and stereotypes. It can be opened with Ctrl+e."
-msgstr "Uređivač elemenata može se otvoriti pritiskom na tipku olovke. Ovo će otkriti prozor uslužnog programa koji prikazuje sve karakteristike odabranog elementa. Stvari poput imena, atributa i stereotipa. Može se otvoriti pomoću Ctrl+e."
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "The properties shown depend on the element that is selected."
-msgstr "Prikazana svojstva ovise o elementu koji je odabran."
+msgid "This page has moved to https:."
+msgstr ""
 
 #. type: Bullet: '2. '
 #: tutorials/your-first-model.md.filt tutorials.md.filt
@@ -560,71 +437,8 @@ msgstr "Tvoj prvi model"
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
-msgid "Once Gaphor is started a new empty model is automatically created. The main diagram is already open in the Diagram section."
-msgstr "Kad se Gaphor pokrene, automatski se stvara novi prazan model. Glavni dijagram je već otvoren u odjeljku „Dijagram”."
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "Select an element you want to place (e.g. a class) by clicking on the icon in the Toolbox and click on the diagram. This will place a new Class item instance on the diagram and add a new Class to the model (it shows up in the Navigation.  The selected tool will reset itself to the Pointer tool after the element is placed on the diagram."
-msgstr "Odaberi element koji želiš postaviti (npr. klasu) pritiskom na ikonu u kutiji alata i pritisni dijagram. To će postaviti novu instancu elementa klase u dijagram i dodati novu klasu modelu (pojavljuje se u navigaciji). Odabrani alat će se resetirati na alat pokazivača nakon što se element postavi na dijagram."
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "It's simple to add elements to a diagram."
-msgstr "Elementi se mogu jednostavno dodati dijagramu."
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "Some elements are not directly visible. The section in the toolbox is collapsed and needs to be clicked first to reveal its contents."
-msgstr "Neki elementi nisu izravno vidljivi. Odjeljak u kutiji alata je sklopljen i mora se pritisnuti da bi se otkrio njegov sadržaj."
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "Gaphor does not make any assumptions about which elements should be placed on a diagram. A diagram is a diagram. UML defines all different kinds of diagrams, such as Class diagrams, Component diagrams, Action diagrams, Sequence diagrams.  But Gaphor does not place any restrictions."
-msgstr "Gaphor ne pretpostavlja koji se elementi trebaju postaviti na dijagram. Dijagram je dijagram. UML definira sve različite vrste dijagrama, kao što su dijagrami klasa, dijagrami komponenti, dijagrami radnji, dijagrami sekvenci. Ali Gaphor ne postavlja nikakva ograničenja."
-
-#. type: Title ##
-#: tutorials/your-first-model.md.filt
-#, no-wrap
-msgid "Creating New Diagrams"
-msgstr "Stvaranje novih dijagrama"
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "To create a new diagram, use the Navigation section. Select an element that can contain a diagram (a Package or Profile) and right-click. Select New diagram and a new diagram is created. As of Gaphor 1.1.0 a buttion is available in the header bar. Select a package, and you'll notice the button is not grayed out and can be clicked, resulting in a new diagram being added to the model."
-msgstr "Za stvaranje novog dijagrama koristi odjeljak „Navigacija”. Odaberi element koji može sadržavati dijagram (paket ili profil) i pritisni za desnom tipkom miša. Odaberi „Novi dijagram” i stvorit će se novi dijagram. Uvođenjem Gaphora verzije 1.1.0, postoji gumb u traci zaglavlja. Odaberi paket i primijetit ćeš da gumb nije neaktivan i da ga se može pritisnuti. Pritiskom gumba modelu se dodaje novi dijagram."
-
-#. type: Title ##
-#: tutorials/your-first-model.md.filt
-#, no-wrap
-msgid "Copy and Paste"
-msgstr "Kopiraj i umetni"
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "Items in a diagram can be copied and pasted (in the same diagram or another). A paste will create new items in the diagrams, the items they represent (e.g. the Class that's shown in the Navigation) is *not* copied (call it a shallow copy if you like)."
-msgstr "Elementi u dijagramu mogu se kopirati i umetnuti (u istom ili jednom drugom dijagramu). Umetanje će stvoriti nove elemente u dijagramima, elemente koje predstavljaju (npr. klasa koja je prikazana u odjeljku „Navigacija”) se *ne* kopiraju."
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "This way you can easily create visual copies of the same (underlying) model element."
-msgstr "Na taj način možeš jednostavno stvoriti virtualne kopije istog (podmetnutog) elementa modela."
-
-#. type: Title ##
-#: tutorials/your-first-model.md.filt
-#, no-wrap
-msgid "Drag and Drop"
-msgstr "Povuci i ispusti"
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "Adding an existing element to a diagram is simple: drag the element from the Navigation section onto a diagram. Not all elements that show up in the Navigation can be added: Diagrams and attribute/operations of a Class can not be added."
-msgstr "Dodavanje postojećeg elementa dijagramu je jednostavno: povuci element iz odjeljka „Navigacija” na dijagram. Ne mogu se dodati svi elementi koji se pojavljuju u odjeljku „Navigacija”: dijagrami i atributi/operacije klase se ne mogu dodati."
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "Elements can also be dragged within the Navigation section. This way classes and packages can be rearranged for example."
-msgstr "Elementi se također mogu povlačiti unutar odjeljka „Navigacija”. Na taj se način na primjer mogu prerasporediti klase i paketi."
+msgid "This page has been moved to https:."
+msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/01-platform.md.filt
@@ -699,13 +513,10 @@ msgstr "Želiš doprinijeti razvoju Gaphora? Ako misliš da je ovo samo za iskus
 
 #. type: Plain text
 #: contribute.md.filt
-msgid "Our technical documentation is hosted on the wonderful service that is Read the Docs.  Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
-msgstr ""
-"Naša se tehnička dokumentacija čuva na usluzi „Read the Docs”. Ne samo da "
-"sadrži potrebne pojedinosti za doprinošenje kodu Gaphora, već opisuje i "
-"mnoge druge načine za doprinošenje (uključujući aktualiziranje ove web-"
-"stranice). Na kraju krajeva, pruža vodič za naše procese i očekivanja za "
-"različite vrste doprinosa Gaphoru."
+#, fuzzy
+#| msgid "Our technical documentation is hosted on the wonderful service that is Read the Docs.  Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
+msgid "Our technical documentation is hosted on the wonderful service that is Read the Docs. Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
+msgstr "Naša se tehnička dokumentacija čuva na usluzi „Read the Docs”. Ne samo da sadrži potrebne pojedinosti za doprinošenje kodu Gaphora, već opisuje i mnoge druge načine za doprinošenje (uključujući aktualiziranje ove web-stranice). Na kraju krajeva, pruža vodič za naše procese i očekivanja za različite vrste doprinosa Gaphoru."
 
 #. type: Plain text
 #: contribute.md.filt
@@ -793,14 +604,26 @@ msgstr "Želimo da naša zajednica bude sigurno, gostoljubivo i prijateljsko mje
 msgid "Each tutorial is a self-contained lesson, explaining a specific aspect of Gaphor, so you have the skills needed to achieve your learning and modeling goals."
 msgstr "Svaka vježba je samostalna lekcija koja objašnjava određeni aspekt Gaphora, tako da naučiš potrebne vještine za postizanje tvojih ciljeva učenja i modeliranja."
 
+#. type: Bullet: '1. '
+#: tutorials.md.filt
+#, fuzzy
+#| msgid "Get started with Gaphor"
+msgid "Get Started with Gaphor"
+msgstr "Počni raditi s Gaphorom"
+
 #. type: Plain text
 #: tutorials.md.filt
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "3.  Introduction to Gaphor and\n"
+#| "SysML, presented by Dan at the\n"
+#| "Michigan Python meetup.\n"
+#| "4. How to report a bug in Gaphor\n"
 msgid ""
 "3.  Introduction to Gaphor and\n"
 "SysML, presented by Dan at the\n"
 "Michigan Python meetup.\n"
-"4. How to report a bug in Gaphor\n"
+"1. How to report a bug in Gaphor\n"
 msgstr ""
 "3. Uvod u Gaphor i\n"
 "SysML, koji je predstavio Dan na\n"
@@ -858,16 +681,12 @@ msgstr "Što kažu drugi"
 #. type: Plain text
 #: tutorials.md.filt
 msgid "There are some 10+ year old articles on Gaphor on the web. Some more recent articles are:"
-msgstr ""
-"Na webu postoje članci o Gaphoru koji su stari više od 10 godina. Neki "
-"noviji članci su:"
+msgstr "Na webu postoje članci o Gaphoru koji su stari više od 10 godina. Neki noviji članci su:"
 
 #. type: Bullet: '- '
 #: tutorials.md.filt
 msgid "Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10."
-msgstr ""
-"Web-mjesto „Methods & Tools” pregledalo je Gaphor verziju 2.7.1 u prosincu "
-"2021. na Windowsu 10."
+msgstr "Web-mjesto „Methods & Tools” pregledalo je Gaphor verziju 2.7.1 u prosincu 2021. na Windowsu 10."
 
 #. type: Bullet: '- '
 #: tutorials.md.filt
@@ -923,6 +742,124 @@ msgstr "Modeliranje za svakoga"
 #, no-wrap
 msgid "Blog and News"
 msgstr "Blog i Novosti"
+
+#~ msgid "It's also possible to provide a query as part of the selection:"
+#~ msgstr "Također je moguće zadati upit kao dio odabira:"
+
+#~ msgid "The variable `it` in the query refers to the evaluated object (in this case all operations with a return parameter are taken into account)."
+#~ msgstr "Varijabla `it` u upitu odnosi se na ocijenjeni objekt (u tom slučaju se uzimaju u obzir sve operacije s povratnim parametrom)."
+
+#~ msgid "Once Gaphor is launched, it provides you an almost empty user interface.  A new model is already created and the diagram is opened."
+#~ msgstr "Nakon pokretanja Gaphora, program pruža gotovo prazno korisničko sučelje. Novi model je već stvoren i dijagram otvoren."
+
+#~ msgid "The layout of the Gaphor interface is divided into four sections, namely:"
+#~ msgstr "Izgled sučelja Gaphora je podijeljen u četiri odjeljka, naime:"
+
+#, no-wrap
+#~ msgid "Navigation"
+#~ msgstr "Navigacija"
+
+#~ msgid "Diagrams"
+#~ msgstr "Dijagrami"
+
+#~ msgid "Diagram Element Toolbox"
+#~ msgstr "Kutija alata za elemente dijagrama"
+
+#~ msgid "Properties pane"
+#~ msgstr "Ploča svojstava"
+
+#~ msgid "Each section has its own specific function."
+#~ msgstr "Svaki odjeljak ima vlastitu specifičnu funkciju."
+
+#~ msgid "The navigation section of the interface displays a hierarchical view of your model. Every model element you create will be inserted into the navigation section. This view acts as a tree where you can expand and collapse different elements of your model. This provides an easy way to view the elements of your model from an elided perspective. That is, you can collapse those model elements that are irrelevant to the task at hand."
+#~ msgstr "Odjeljak navigacije prikazuje hijerarhijski pogled na model. Svaki element modela koji stvaraš umetnut će se u odjeljak navigacije. Ovaj pogled djeluje kao stablo u kojem možeš rasklopiti i sklopiti različite elemente modela. To pruža jednostavan način za pregled elemenata modela iz perspektive izostavljanja, odnosno možeš sklopiti elemente modela koji nisu važni za zadatak."
+
+#~ msgid "!image"
+#~ msgstr "!Slika"
+
+#~ msgid "In the figure above, you will see that there are three elements in the navigation view. The root element, _New Model_ is a package. Notice the small arrow beside _New Model_ that is pointing downward. This indicates that the element is expanded. You will also notice the two sub-elements are slightly indented in relation to _New Model_. The _NewClass_ element is a class and the _main_ element is a diagram."
+#~ msgstr "U gornjoj slici vidjet ćeš da postoje tri elementa u prikazu navigacije. Osnovni element, _Novi model_ je paket. Obrati pažnju na malu strelicu pored _Novi model_ koja je usmjerena prema dolje. To znači da je element rasklopljen. Također ćeš primijetiti da su dva podelementa malo uvučena u odnosu na _Novi model_. Element _Nova klasa_ je klasa, a element _glavni_ je dijagram."
+
+#~ msgid "In the navigation view, you can also right-click the model elements to get a context menu. This context menu allows you to delete model elements, and to refresh the navigation view."
+#~ msgstr "U prikazu navigacije također možeš desnom tipkom miša pritisnuti elemente modela za dobivanje kontekstnog izbornika. Ovaj kontekstni izbornik omogućuje brisanje elemenata modela i aktualiziranje prikaza navigacije."
+
+#~ msgid "Double clicking on a diagram element will open it in the Diagram section. Elements such as classes and packages can be dragged from the tree view on the diagrams."
+#~ msgstr "Dvostrukim pritiskom na element dijagrama, element će se otvorit u odjeljku „Dijagram”. Elementi kao što su klase i paketi, mogu se povući iz stablastog prikaza na dijagrame."
+
+#, no-wrap
+#~ msgid "Diagram Section"
+#~ msgstr "Odjeljak dijagrama"
+
+#~ msgid "The diagram section takes up the most space. Multiple diagrams can be opened at once: they are shown in tabs. Tabs can be closed from the file menu (Close) and by pressing Ctrl+w."
+#~ msgstr "Odjeljak dijagrama zauzima najviše prostora. Više dijagrama se mogu otvoriti odjednom: prikazuju se u karticama. Kartice se mogu zatvoriti putem izbornika datoteka (Zatvori) i pritiskom tipki Ctrl+w."
+
+#~ msgid "Most elements have hot zones, shown as gray rectangles that are only visible when the item is selected. Double clicking on those rectangles allows you to directly edit the item. E.g. change its name."
+#~ msgstr "Većina elemenata ima vruće zone, koji se prikazuju kao sivi pravokutnici i koji su vidljivi samo kad je element odabran. Dvostrukim pritiskom na te pravokutnike omogućuje izravno uređivanje elementa. Npr. promijeniti ime."
+
+#~ msgid "Changes you make can be undone by pressing Ctrl+z. To re-do a change, hit Ctrl+Shift+z."
+#~ msgstr "Promjene možeš poništiti pritiskom tipki Ctrl+z. Za ponavljanje promjene, pritisni tipke Ctrl+Shift+z."
+
+#, no-wrap
+#~ msgid "Toolbox"
+#~ msgstr "Kutija alata"
+
+#~ msgid "The toolbox is mainly used to add new items to a diagram. Select the element you want to add by clicking on it. When you click on the diagram, the selected element is created. The arrow is selected again, so the element can be manipulated."
+#~ msgstr "Kutija alata se uglavnom koristi za dodavanje novih elemenata dijagramu. Odaberi element koji želiš dodati pritiskom na njega. Kad pritisneš na dijagram, stvara se odabrani element. Strelica se ponovno bira, tako da se elementom može manipulirati."
+
+#~ msgid "Tools can be selected by simply clicking on them. By default the pointer tool is selected after every item placement. This can be changed by disabling the \"Reset tool\" option in the Preferences window. Tools can also be selected by a keyboard shortcut. The actual character is displayed as part of the tooltip. Finally it is also possible to drag elements on the canvas from the toolbox."
+#~ msgstr "Alati se mogu odabrati jednostavnim pritiskom. Prema standardnim postavkama pokazivač se bira nakon svakog postavljanja elementa. To se može promijeniti deaktiviranjem opcije „Resetiraj alat” u prozoru „Postavke”. Alati se također mogu odabrati tipkovnim prečacem. Stvarni znak se prikazuje kao dio savjeta alata. Na kraju krajeva, elementi se također mogu povući na platno iz kutije alata."
+
+#, no-wrap
+#~ msgid "Element Editor"
+#~ msgstr "Uređivač elemenata"
+
+#~ msgid "The Element editor can be unfolded by pressing the pensil button. This will reveal a utility window that shows all characteristics of the selected element.  Things like name, attributes and stereotypes. It can be opened with Ctrl+e."
+#~ msgstr "Uređivač elemenata može se otvoriti pritiskom na tipku olovke. Ovo će otkriti prozor uslužnog programa koji prikazuje sve karakteristike odabranog elementa. Stvari poput imena, atributa i stereotipa. Može se otvoriti pomoću Ctrl+e."
+
+#~ msgid "The properties shown depend on the element that is selected."
+#~ msgstr "Prikazana svojstva ovise o elementu koji je odabran."
+
+#~ msgid "Once Gaphor is started a new empty model is automatically created. The main diagram is already open in the Diagram section."
+#~ msgstr "Kad se Gaphor pokrene, automatski se stvara novi prazan model. Glavni dijagram je već otvoren u odjeljku „Dijagram”."
+
+#~ msgid "Select an element you want to place (e.g. a class) by clicking on the icon in the Toolbox and click on the diagram. This will place a new Class item instance on the diagram and add a new Class to the model (it shows up in the Navigation.  The selected tool will reset itself to the Pointer tool after the element is placed on the diagram."
+#~ msgstr "Odaberi element koji želiš postaviti (npr. klasu) pritiskom na ikonu u kutiji alata i pritisni dijagram. To će postaviti novu instancu elementa klase u dijagram i dodati novu klasu modelu (pojavljuje se u navigaciji). Odabrani alat će se resetirati na alat pokazivača nakon što se element postavi na dijagram."
+
+#~ msgid "It's simple to add elements to a diagram."
+#~ msgstr "Elementi se mogu jednostavno dodati dijagramu."
+
+#~ msgid "Some elements are not directly visible. The section in the toolbox is collapsed and needs to be clicked first to reveal its contents."
+#~ msgstr "Neki elementi nisu izravno vidljivi. Odjeljak u kutiji alata je sklopljen i mora se pritisnuti da bi se otkrio njegov sadržaj."
+
+#~ msgid "Gaphor does not make any assumptions about which elements should be placed on a diagram. A diagram is a diagram. UML defines all different kinds of diagrams, such as Class diagrams, Component diagrams, Action diagrams, Sequence diagrams.  But Gaphor does not place any restrictions."
+#~ msgstr "Gaphor ne pretpostavlja koji se elementi trebaju postaviti na dijagram. Dijagram je dijagram. UML definira sve različite vrste dijagrama, kao što su dijagrami klasa, dijagrami komponenti, dijagrami radnji, dijagrami sekvenci. Ali Gaphor ne postavlja nikakva ograničenja."
+
+#, no-wrap
+#~ msgid "Creating New Diagrams"
+#~ msgstr "Stvaranje novih dijagrama"
+
+#~ msgid "To create a new diagram, use the Navigation section. Select an element that can contain a diagram (a Package or Profile) and right-click. Select New diagram and a new diagram is created. As of Gaphor 1.1.0 a buttion is available in the header bar. Select a package, and you'll notice the button is not grayed out and can be clicked, resulting in a new diagram being added to the model."
+#~ msgstr "Za stvaranje novog dijagrama koristi odjeljak „Navigacija”. Odaberi element koji može sadržavati dijagram (paket ili profil) i pritisni za desnom tipkom miša. Odaberi „Novi dijagram” i stvorit će se novi dijagram. Uvođenjem Gaphora verzije 1.1.0, postoji gumb u traci zaglavlja. Odaberi paket i primijetit ćeš da gumb nije neaktivan i da ga se može pritisnuti. Pritiskom gumba modelu se dodaje novi dijagram."
+
+#, no-wrap
+#~ msgid "Copy and Paste"
+#~ msgstr "Kopiraj i umetni"
+
+#~ msgid "Items in a diagram can be copied and pasted (in the same diagram or another). A paste will create new items in the diagrams, the items they represent (e.g. the Class that's shown in the Navigation) is *not* copied (call it a shallow copy if you like)."
+#~ msgstr "Elementi u dijagramu mogu se kopirati i umetnuti (u istom ili jednom drugom dijagramu). Umetanje će stvoriti nove elemente u dijagramima, elemente koje predstavljaju (npr. klasa koja je prikazana u odjeljku „Navigacija”) se *ne* kopiraju."
+
+#~ msgid "This way you can easily create visual copies of the same (underlying) model element."
+#~ msgstr "Na taj način možeš jednostavno stvoriti virtualne kopije istog (podmetnutog) elementa modela."
+
+#, no-wrap
+#~ msgid "Drag and Drop"
+#~ msgstr "Povuci i ispusti"
+
+#~ msgid "Adding an existing element to a diagram is simple: drag the element from the Navigation section onto a diagram. Not all elements that show up in the Navigation can be added: Diagrams and attribute/operations of a Class can not be added."
+#~ msgstr "Dodavanje postojećeg elementa dijagramu je jednostavno: povuci element iz odjeljka „Navigacija” na dijagram. Ne mogu se dodati svi elementi koji se pojavljuju u odjeljku „Navigacija”: dijagrami i atributi/operacije klase se ne mogu dodati."
+
+#~ msgid "Elements can also be dragged within the Navigation section. This way classes and packages can be rearranged for example."
+#~ msgstr "Elementi se također mogu povlačiti unutar odjeljka „Navigacija”. Na taj se način na primjer mogu prerasporediti klase i paketi."
 
 #, fuzzy, no-wrap
 #~| msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."

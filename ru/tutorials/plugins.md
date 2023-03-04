@@ -3,7 +3,7 @@ handle: /tutorials/plugins
 language: ru
 layout: article
 redirect_from: /pages/writing-a-plugin.html
-title: 'Writing a Plugin'
+title: 'Написание Плагина'
 ---
 
 Gaphor is designed to be extensible by using plugins that allow you to
@@ -64,16 +64,6 @@ Using the `[:]` operator items can be traversed more easily:
 for o in classes.ownedOperation[:].ownedParameter:
     do_something(p)
 ```
-
-It's also possible to provide a query as part of the selection:
-
-```python
-for o in classes.ownedOperation['it.returnParameter'].ownedParameter:
-    do_something(p)
-```
-
-The variable `it` in the query refers to the evaluated object (in this case
-all operations with a return parameter are taken into account).
 
 ## Example Plugin
 

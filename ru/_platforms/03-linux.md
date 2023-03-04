@@ -12,7 +12,7 @@ Linux. If you don't have it setup already, follow the instructions to
 
 <a href='https://flathub.org/apps/details/org.gaphor.Gaphor'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>
 
-To manually install Gaphor:
+Чтобы установить Gaphor вручную:
 
 ```bash
 flatpak remote-add --user --if-not-exists \

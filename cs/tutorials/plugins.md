@@ -64,16 +64,6 @@ for o in classes.ownedOperation[:].ownedParameter:
     do_something(p)
 ```
 
-V rámci výběru je také možné zadat dotaz:
-
-```python
-for o in classes.ownedOperation['it.returnParameter'].ownedParameter:
-    do_something(p)
-```
-
-Proměnná `it` v dotazu odkazuje na vyhodnocovaný objekt (v tomto případě se
-berou v úvahu všechny operace s návratovým parametrem).
-
 ## Příklad pluginu
 
 An example Hello World plugin is hosted on

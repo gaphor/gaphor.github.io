@@ -10,22 +10,22 @@ Každý výukový kurz je samostatnou lekcí, která vysvětluje konkrétní asp
 programu Gaphor, takže získáte dovednosti potřebné k dosažení cílů učení a
 modelování.
 
-1. <a href="get-started-with-gaphor">Get started with Gaphor</a>
-2. <a href="your-first-model">Your First Model</a>
+1. [Get Started with
+   Gaphor](https://docs.gaphor.org/en/latest/getting_started.html)
+2. [Your First Model](https://docs.gaphor.org/en/latest/first_model.html)
 3. <i class="fab fa-youtube"></i> [Introduction to Gaphor and
 SysML](https://www.youtube.com/watch?v=J1k9GTmYwkc), presented by Dan at the
 Michigan Python meetup.
-4. <a href="report-bugs">How to report a bug in Gaphor</a>
+1. <a href="report-bugs">How to report a bug in Gaphor</a>
 
 
 ## Pokročilá témata
 
 - [Extend your models with
-  stereotypes](https://gaphor.readthedocs.io/en/latest/stereotypes.html)
+  stereotypes](https://docs.gaphor.org/en/latest/stereotypes.html)
 - [Writing a plugin]({% link tutorials/plugins.md %})
-- [Technical and architectural
-documentation](https://gaphor.readthedocs.io/)  for contributors and plugin
-developers
+- [Technical and architectural documentation](https://docs.gaphor.org)  for
+contributors and plugin developers
 
 ## Rozhovory
 
@@ -40,10 +40,10 @@ developers
   [Large GUI application with Python and
   GTK](https://events.gnome.org/event/9/contributions/188/).
 
-## What other people say
+## Co říkají ostatní lidé
 
-There are some 10+ year old articles on Gaphor on the web. Some more recent
-articles are:
+Na webu je několik více než 10 let starých článků o Gaphoru. Některé novější
+články jsou:
 
 - [Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on
   a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)

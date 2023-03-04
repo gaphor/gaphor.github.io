@@ -7,47 +7,50 @@
 
 {% capture about-content %}
 
-Gaphor is a UML, SysML, RAAML, and C4 modeling application. It is designed
-to be easy to use, while still being powerful. Gaphor implements a
-fully-compliant UML 2 data model, so it is much more than a picture drawing
-tool. You can use Gaphor to quickly visualize different aspects of a system
-as well as create complete, highly complex models.
+Gaphor - это приложение для моделирования на основе UML, SysML, RAAML и
+C4. Оно создано простым в использовании, но при этом является мощным. Gaphor
+реализует полностью совместимую с UML 2 модель данных, поэтому это гораздо
+больше, чем инструмент для рисования картинок. Вы можете использовать Gaphor
+для быстрой визуализации различных аспектов системы, а также для создания
+полных, очень сложных моделей.
 
 {% endcapture %}
 
 {% capture build %}
 
-Build Class, Interaction, and State Machine diagrams for software or Block
-Definition and Requirements diagrams for systems. Model the elements you
-need. If you want to mix and match, you can even add different diagram items
-to the same diagram to get the view you need.
+Стройте диаграммы Классов, Взаимодействий и Машин Состояний для программного
+обеспечения или диаграммы Определения Блоков и Требований для
+систем. Моделируйте необходимые вам элементы. Если вы хотите смешивать и
+сочетать, вы можете даже добавить элементы различных диаграмм в одну и ту же
+диаграмму, чтобы получить нужное вам представление.
 
 {% endcapture %}
 
 {% capture styling-engine %}
 
-Customize the diagrams you create with our built-in styling engine.
+Настраивайте создаваемые диаграммы с помощью встроенного механизма
+стилизации.
 
 {% endcapture %}
 
 {% capture treeview %}
 
-Easily find all element of your model in the tree view.
+Легко находите все элементы модели в древовидном представлении.
 
 {% endcapture %}
 
 {% capture dark-mode %}
 
-Love dark mode? We can do that too.
+Любите тёмный режим? Это мы тоже умеем.
 
 {% endcapture %}
 
 {% capture download-content %}
 
-There are many ways to install Gaphor.  The simplest is to download the
-official installer for Windows or macOS.  For Linux you can install Gaphor
-using FlatHub.  You can also use Python's built-in `pip` tool as long as you
-have all the required dependencies installed.
+Есть много способов установить Gaphor.  Самый простой — скачать официальный
+установщик для Windows или macOS.  Для Linux вы можете установить Gaphor с
+помощью FlatHub.  Вы также можете использовать встроенный в Python
+инструмент pip, если у вас установлены все необходимые зависимости.
 
 {% endcapture %}
 
@@ -62,13 +65,13 @@ related to Gaphor.
 
 {% capture see-blog %}
 
-See blog
+Смотреть блог
 
 {% endcapture %}
 
 {% capture read-more %}
 
-Read more
+Узнать больше
 
 {% endcapture %}
 
@@ -86,7 +89,7 @@ Read more
 
 {% capture about %}
 
-About
+О нас
 
 {% endcapture %}
 
@@ -98,7 +101,7 @@ About
 
 {% capture tutorials %}
 
-Tutorials
+Руководство
 
 {% endcapture %}
 
@@ -110,7 +113,7 @@ Tutorials
 
 {% capture discuss %}
 
-Get in touch
+Связь с нами
 
 {% endcapture %}
 

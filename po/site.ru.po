@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-01-22 16:01-0500\n"
+"POT-Creation-Date: 2023-03-04 18:05-0500\n"
 "PO-Revision-Date: 2023-01-18 14:49+0000\n"
 "Last-Translator: BrainKicker <peter.sabanov@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/ru/>\n"
@@ -14,8 +14,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.16-dev\n"
 
 #. type: Plain text
@@ -30,13 +29,16 @@ msgstr "Открыть проблему на GitHub"
 
 #. type: Plain text
 #: _includes/footer.md.filt
-#, no-wrap
-msgid " Tech docs\n"
+#, fuzzy
+#| msgid " Tech docs\n"
+msgid "Tech docs"
 msgstr " Техническая документация\n"
 
 #. type: Plain text
 #: _includes/footer.md.filt
-msgid "Copyright &copy; 2020-2022 Arjan Molenaar and Dan Yeaw."
+#, fuzzy
+#| msgid "Copyright &copy; 2020-2022 Arjan Molenaar and Dan Yeaw."
+msgid "Copyright &copy; 2020-2023 Arjan Molenaar and Dan Yeaw."
 msgstr "Авторское право &copy; 2001-2022 Arjan Molenaar и Dan Yeaw."
 
 #. type: Plain text
@@ -52,30 +54,17 @@ msgstr "Картинка стоит тысячи слов. Описывайте 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "Gaphor is a UML, SysML, RAAML, and C4 modeling application. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models."
-msgstr ""
-"Gaphor - это приложение для моделирования на основе UML, SysML, RAAML и C4. "
-"Оно создано простым в использовании, но при этом является мощным. Gaphor "
-"реализует полностью совместимую с UML 2 модель данных, поэтому это гораздо "
-"больше, чем инструмент для рисования картинок. Вы можете использовать Gaphor "
-"для быстрой визуализации различных аспектов системы, а также для создания "
-"полных, очень сложных моделей."
+msgstr "Gaphor - это приложение для моделирования на основе UML, SysML, RAAML и C4. Оно создано простым в использовании, но при этом является мощным. Gaphor реализует полностью совместимую с UML 2 модель данных, поэтому это гораздо больше, чем инструмент для рисования картинок. Вы можете использовать Gaphor для быстрой визуализации различных аспектов системы, а также для создания полных, очень сложных моделей."
 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "Build Class, Interaction, and State Machine diagrams for software or Block Definition and Requirements diagrams for systems. Model the elements you need. If you want to mix and match, you can even add different diagram items to the same diagram to get the view you need."
-msgstr ""
-"Стройте диаграммы Классов, Взаимодействий и Машин Состояний для программного "
-"обеспечения или диаграммы Определения Блоков и Требований для систем. "
-"Моделируйте необходимые вам элементы. Если вы хотите смешивать и сочетать, "
-"вы можете даже добавить элементы различных диаграмм в одну и ту же "
-"диаграмму, чтобы получить нужное вам представление."
+msgstr "Стройте диаграммы Классов, Взаимодействий и Машин Состояний для программного обеспечения или диаграммы Определения Блоков и Требований для систем. Моделируйте необходимые вам элементы. Если вы хотите смешивать и сочетать, вы можете даже добавить элементы различных диаграмм в одну и ту же диаграмму, чтобы получить нужное вам представление."
 
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "Customize the diagrams you create with our built-in styling engine."
-msgstr ""
-"Настраивайте создаваемые диаграммы с помощью встроенного механизма "
-"стилизации."
+msgstr "Настраивайте создаваемые диаграммы с помощью встроенного механизма стилизации."
 
 #. type: Plain text
 #: _includes/content.md.filt
@@ -90,11 +79,7 @@ msgstr "Любите тёмный режим? Это мы тоже умеем."
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
-msgstr ""
-"Есть много способов установить Gaphor.  Самый простой — скачать официальный "
-"установщик для Windows или macOS.  Для Linux вы можете установить Gaphor с "
-"помощью FlatHub.  Вы также можете использовать встроенный в Python "
-"инструмент pip, если у вас установлены все необходимые зависимости."
+msgstr "Есть много способов установить Gaphor.  Самый простой — скачать официальный установщик для Windows или macOS.  Для Linux вы можете установить Gaphor с помощью FlatHub.  Вы также можете использовать встроенный в Python инструмент pip, если у вас установлены все необходимые зависимости."
 
 #. type: Plain text
 #: _includes/content.md.filt
@@ -104,9 +89,7 @@ msgstr "Хотите знать, что происходит с Gaphor? Чита
 #. type: Plain text
 #: _includes/content.md.filt
 msgid "Contact the team if you want to share content related to Gaphor."
-msgstr ""
-"Свяжитесь с командой, если вы хотите поделиться контентом, связанным с "
-"Gaphor."
+msgstr "Свяжитесь с командой, если вы хотите поделиться контентом, связанным с Gaphor."
 
 #. type: Plain text
 #: _includes/content.md.filt
@@ -347,16 +330,6 @@ msgstr ""
 msgid "Using the `[:]` operator items can be traversed more easily:"
 msgstr ""
 
-#. type: Plain text
-#: tutorials/plugins.md.filt
-msgid "It's also possible to provide a query as part of the selection:"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/plugins.md.filt
-msgid "The variable `it` in the query refers to the evaluated object (in this case all operations with a return parameter are taken into account)."
-msgstr ""
-
 #. type: Title ##
 #: tutorials/plugins.md.filt
 #, no-wrap
@@ -449,124 +422,15 @@ msgstr ""
 msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the Gaphor developer's website."
 msgstr ""
 
-#. type: Bullet: '1. '
-#: tutorials/get-started-with-gaphor.md.filt tutorials.md.filt
+#. type: Yaml Front Matter Hash Value: title
+#: tutorials/get-started-with-gaphor.md.filt
 #, no-wrap
 msgid "Get started with Gaphor"
 msgstr "Начните работу с Gaphor"
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt
-msgid "Once Gaphor is launched, it provides you an almost empty user interface.  A new model is already created and the diagram is opened."
-msgstr "Как только Gaphor запущен, он предоставляет вам почти пустой пользовательский интерфейс.  Новая модель уже создана, и диаграмма открыта."
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "The layout of the Gaphor interface is divided into four sections, namely:"
-msgstr "Структура интерфейса Gaphor разделена на четыре секции, а именно:"
-
-#. type: Title ##
-#: tutorials/get-started-with-gaphor.md.filt
-#, no-wrap
-msgid "Navigation"
-msgstr "Навигация"
-
-#. type: Bullet: '-   '
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Diagrams"
-msgstr "Диаграммы"
-
-#. type: Bullet: '-   '
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Diagram Element Toolbox"
-msgstr "Панель Элементов Диаграммы"
-
-#. type: Bullet: '-   '
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Properties pane"
-msgstr "Панель свойств"
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Each section has its own specific function."
-msgstr "Каждая секция имеет свою определённую функцию."
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "The navigation section of the interface displays a hierarchical view of your model. Every model element you create will be inserted into the navigation section. This view acts as a tree where you can expand and collapse different elements of your model. This provides an easy way to view the elements of your model from an elided perspective. That is, you can collapse those model elements that are irrelevant to the task at hand."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt tutorials/your-first-model.md.filt
-msgid "!image"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "In the figure above, you will see that there are three elements in the navigation view. The root element, _New Model_ is a package. Notice the small arrow beside _New Model_ that is pointing downward. This indicates that the element is expanded. You will also notice the two sub-elements are slightly indented in relation to _New Model_. The _NewClass_ element is a class and the _main_ element is a diagram."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "In the navigation view, you can also right-click the model elements to get a context menu. This context menu allows you to delete model elements, and to refresh the navigation view."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Double clicking on a diagram element will open it in the Diagram section. Elements such as classes and packages can be dragged from the tree view on the diagrams."
-msgstr ""
-
-#. type: Title ##
-#: tutorials/get-started-with-gaphor.md.filt
-#, no-wrap
-msgid "Diagram Section"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "The diagram section takes up the most space. Multiple diagrams can be opened at once: they are shown in tabs. Tabs can be closed from the file menu (Close) and by pressing Ctrl+w."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Most elements have hot zones, shown as gray rectangles that are only visible when the item is selected. Double clicking on those rectangles allows you to directly edit the item. E.g. change its name."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Changes you make can be undone by pressing Ctrl+z. To re-do a change, hit Ctrl+Shift+z."
-msgstr ""
-
-#. type: Title ##
-#: tutorials/get-started-with-gaphor.md.filt
-#, no-wrap
-msgid "Toolbox"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "The toolbox is mainly used to add new items to a diagram. Select the element you want to add by clicking on it. When you click on the diagram, the selected element is created. The arrow is selected again, so the element can be manipulated."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "Tools can be selected by simply clicking on them. By default the pointer tool is selected after every item placement. This can be changed by disabling the \"Reset tool\" option in the Preferences window. Tools can also be selected by a keyboard shortcut. The actual character is displayed as part of the tooltip. Finally it is also possible to drag elements on the canvas from the toolbox."
-msgstr ""
-
-#. type: Title ##
-#: tutorials/get-started-with-gaphor.md.filt
-#, no-wrap
-msgid "Element Editor"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "The Element editor can be unfolded by pressing the pensil button. This will reveal a utility window that shows all characteristics of the selected element.  Things like name, attributes and stereotypes. It can be opened with Ctrl+e."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md.filt
-msgid "The properties shown depend on the element that is selected."
+msgid "This page has moved to https:."
 msgstr ""
 
 #. type: Bullet: '2. '
@@ -577,70 +441,7 @@ msgstr ""
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
-msgid "Once Gaphor is started a new empty model is automatically created. The main diagram is already open in the Diagram section."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "Select an element you want to place (e.g. a class) by clicking on the icon in the Toolbox and click on the diagram. This will place a new Class item instance on the diagram and add a new Class to the model (it shows up in the Navigation.  The selected tool will reset itself to the Pointer tool after the element is placed on the diagram."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "It's simple to add elements to a diagram."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "Some elements are not directly visible. The section in the toolbox is collapsed and needs to be clicked first to reveal its contents."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "Gaphor does not make any assumptions about which elements should be placed on a diagram. A diagram is a diagram. UML defines all different kinds of diagrams, such as Class diagrams, Component diagrams, Action diagrams, Sequence diagrams.  But Gaphor does not place any restrictions."
-msgstr ""
-
-#. type: Title ##
-#: tutorials/your-first-model.md.filt
-#, no-wrap
-msgid "Creating New Diagrams"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "To create a new diagram, use the Navigation section. Select an element that can contain a diagram (a Package or Profile) and right-click. Select New diagram and a new diagram is created. As of Gaphor 1.1.0 a buttion is available in the header bar. Select a package, and you'll notice the button is not grayed out and can be clicked, resulting in a new diagram being added to the model."
-msgstr ""
-
-#. type: Title ##
-#: tutorials/your-first-model.md.filt
-#, no-wrap
-msgid "Copy and Paste"
-msgstr "Копирование и Вставка"
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "Items in a diagram can be copied and pasted (in the same diagram or another). A paste will create new items in the diagrams, the items they represent (e.g. the Class that's shown in the Navigation) is *not* copied (call it a shallow copy if you like)."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "This way you can easily create visual copies of the same (underlying) model element."
-msgstr ""
-
-#. type: Title ##
-#: tutorials/your-first-model.md.filt
-#, no-wrap
-msgid "Drag and Drop"
-msgstr "Перетаскивание"
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "Adding an existing element to a diagram is simple: drag the element from the Navigation section onto a diagram. Not all elements that show up in the Navigation can be added: Diagrams and attribute/operations of a Class can not be added."
-msgstr ""
-
-#. type: Plain text
-#: tutorials/your-first-model.md.filt
-msgid "Elements can also be dragged within the Navigation section. This way classes and packages can be rearranged for example."
+msgid "This page has been moved to https:."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
@@ -805,6 +606,13 @@ msgstr ""
 msgid "Each tutorial is a self-contained lesson, explaining a specific aspect of Gaphor, so you have the skills needed to achieve your learning and modeling goals."
 msgstr ""
 
+#. type: Bullet: '1. '
+#: tutorials.md.filt
+#, fuzzy
+#| msgid "Get started with Gaphor"
+msgid "Get Started with Gaphor"
+msgstr "Начните работу с Gaphor"
+
 #. type: Plain text
 #: tutorials.md.filt
 #, no-wrap
@@ -812,7 +620,7 @@ msgid ""
 "3.  Introduction to Gaphor and\n"
 "SysML, presented by Dan at the\n"
 "Michigan Python meetup.\n"
-"4. How to report a bug in Gaphor\n"
+"1. How to report a bug in Gaphor\n"
 msgstr ""
 
 #. type: Title ##
@@ -927,3 +735,33 @@ msgstr "Моделирование для Всех"
 #, no-wrap
 msgid "Blog and News"
 msgstr "Блог и Новости"
+
+#~ msgid "Once Gaphor is launched, it provides you an almost empty user interface.  A new model is already created and the diagram is opened."
+#~ msgstr "Как только Gaphor запущен, он предоставляет вам почти пустой пользовательский интерфейс.  Новая модель уже создана, и диаграмма открыта."
+
+#~ msgid "The layout of the Gaphor interface is divided into four sections, namely:"
+#~ msgstr "Структура интерфейса Gaphor разделена на четыре секции, а именно:"
+
+#, no-wrap
+#~ msgid "Navigation"
+#~ msgstr "Навигация"
+
+#~ msgid "Diagrams"
+#~ msgstr "Диаграммы"
+
+#~ msgid "Diagram Element Toolbox"
+#~ msgstr "Панель Элементов Диаграммы"
+
+#~ msgid "Properties pane"
+#~ msgstr "Панель свойств"
+
+#~ msgid "Each section has its own specific function."
+#~ msgstr "Каждая секция имеет свою определённую функцию."
+
+#, no-wrap
+#~ msgid "Copy and Paste"
+#~ msgstr "Копирование и Вставка"
+
+#, no-wrap
+#~ msgid "Drag and Drop"
+#~ msgstr "Перетаскивание"

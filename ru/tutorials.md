@@ -3,29 +3,29 @@ handle: /tutorials
 language: ru
 layout: article
 redirect_from: /pages/how-to.html
-title: Tutorials
+title: Руководство
 ---
 
 Each tutorial is a self-contained lesson, explaining a specific aspect of
 Gaphor, so you have the skills needed to achieve your learning and modeling
 goals.
 
-1. <a href="get-started-with-gaphor">Get started with Gaphor</a>
-2. <a href="your-first-model">Your First Model</a>
+1. [Get Started with
+   Gaphor](https://docs.gaphor.org/en/latest/getting_started.html)
+2. [Your First Model](https://docs.gaphor.org/en/latest/first_model.html)
 3. <i class="fab fa-youtube"></i> [Introduction to Gaphor and
 SysML](https://www.youtube.com/watch?v=J1k9GTmYwkc), presented by Dan at the
 Michigan Python meetup.
-4. <a href="report-bugs">How to report a bug in Gaphor</a>
+1. <a href="report-bugs">How to report a bug in Gaphor</a>
 
 
 ## Advanced topics
 
 - [Extend your models with
-  stereotypes](https://gaphor.readthedocs.io/en/latest/stereotypes.html)
+  stereotypes](https://docs.gaphor.org/en/latest/stereotypes.html)
 - [Writing a plugin]({% link tutorials/plugins.md %})
-- [Technical and architectural
-documentation](https://gaphor.readthedocs.io/)  for contributors and plugin
-developers
+- [Technical and architectural documentation](https://docs.gaphor.org)  for
+contributors and plugin developers
 
 ## Talks
 
