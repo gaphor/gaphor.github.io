@@ -10,12 +10,12 @@ Each tutorial is a self-contained lesson, explaining a specific aspect of
 Gaphor, so you have the skills needed to achieve your learning and modeling
 goals.
 
-1. <a href="get-started-with-gaphor">Get started with Gaphor</a>
-2. <a href="your-first-model">Your First Model</a>
+1. [Get Started with Gaphor](https://gaphor.readthedocs.io/en/latest/getting_started.html)
+2. [Your First Model](https://gaphor.readthedocs.io/en/latest/first_model.html)
 3. <i class="fab fa-youtube"></i> [Introduction to Gaphor and
 SysML](https://www.youtube.com/watch?v=J1k9GTmYwkc), presented by Dan at the
 Michigan Python meetup.
-4. <a href="report-bugs">How to report a bug in Gaphor</a>
+1. <a href="report-bugs">How to report a bug in Gaphor</a>
 
 
 ## Advanced topics
