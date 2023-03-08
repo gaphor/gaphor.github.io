@@ -22,11 +22,6 @@ Entry points form the basis for plugin libraries like
 library, you may want to consider what it takes to make your application
 extensible.
 
-To be honest, it is not that hard to provide a simple plugin mechanism. In
-Gaphor it takes [around 60 lines of
-code](https://github.com/gaphor/gaphor/blob/master/gaphor/entrypoint.py). Not
-enough code for a library even.
-
 It all starts with
 [`importlib.metadata`](https://docs.python.org/3/library/importlib.metadata.html),
 which is part of the Python standard library since Python 3.8. For older
@@ -50,7 +45,6 @@ distutils.setup_keywords
 egg_info.writers
 flake8.extension
 flake8.report
-gaphor.services
 pytest11
 setuptools.finalize_distribution_options
 setuptools.installation
@@ -59,57 +53,99 @@ virtualenv.create
 ```
 
 As you can see, we have quite a few entry points available. Some are for
-distutils and one is for pytest. Flake8, setuptools, and gaphor also provide
+distutils and one is for pytest. Sphinx, Flake8, and setuptools also provide
 extension points. Even though they are shown above as text, they can also be
 iterated:
 
 ```python
->>> entry_point = importlib.metadata.entry_points()["gaphor.services"]
+>>> entry_point = importlib.metadata.entry_points()["distutils.commands"]
 >>> entry_point
-(EntryPoint(name='component_registry', value='gaphor.services.componentregistry:ComponentRegistry', group='gaphor.services'), ...)
+[EntryPoint(name='build', value='setuptools.command.build:build', group='distutils.commands'),
+...
+EntryPoint(name='test', value='setuptools.command.test:test', group='distutils.commands'),
+EntryPoint(name='upload_docs', value='setuptools.command.upload_docs:upload_docs', group='distutils.commands')]
 ```
 
 A plugin can also be loaded:
 
 ```python
 >>> entry_point[0].load()
-<class 'gaphor.services.componentregistry.ComponentRegistry'>
+<class 'setuptools.command.build.build'>
 ```
 
 In this case, it will resolve to a class, but it can also resolve to a variable
 or function depending on what is defined in the entry point.
 
+Entry points can also point to modules, as is the case with Sphinx themes:
+
+```python
+>>> entry_point = importlib.metadata.entry_points()["sphinx.html_themes"]
+>>> entry_point
+[EntryPoint(name='alabaster', value='alabaster', group='sphinx.html_themes')]
+>>> entry_point[0].load()
+<module 'alabaster' from '/usr/lib/python3.11/site-packages/alabaster/__init__.py'>
+```
+
+Note that the colon (`:`) is missing from the entry point value, so it loads the module.
+
 As we have seen, it is straight forward to load an entry point. Next, lets look
 at how to define our own.
 
-This is what it would take to add an entry point for Gaphor using `setup.py`:
+First we need something that acts as entry point. Let's create a new project with a file
+`myapp/module.py`. In this file we create a little class:
 
 ```python
-from setuptools import setup, find_packages
-
-setup(
-    ...
-    entry_points = {
-        'gaphor.services': [
-            'helloworld = gaphor.plugins.helloworld:HelloWorldPlugin',
-        ]
-    }
-)
+# myapp/module.py
+class MyClass:
+    pass
 ```
 
-Using the more modern Poetry config (`pyproject.toml`), we can also define
-entry points:
+This is what it takes to add our entry point to a `pyproject.toml` when you're using setuptools:
 
 ```toml
-...
-[tool.poetry.plugins."gaphor.services"]
-"helloworld" = "gaphor_helloworld_plugin:HelloWorldPlugin"
-...
+[project]
+name = "myapp"
+version = "0.0.1"
+
+[project.entry-points."myapp"]
+my_class = "myapp.module:MyClass"
 ```
 
-So... if reading entry points takes about 2 lines of code, what are the other
-58 lines about? Most of it is dependency resolution: In Gaphor services can
-take other services as an argument. We will discuss that some other time :).
+Now, let's create and activate a simple virtual environment and install our new package:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -e .
+```
+
+If you prefer [Poetry](https://python-poetry.org/), the `pyproject.toml` config looks like this:
+
+```toml
+[tool.poetry]
+name = "myapp"
+version = "0.0.1"
+description = "Entry points demo"
+authors = ["Arjan Molenaar"]
+
+[tool.poetry.plugins."myapp"]
+"my_class" = "myapp.module:MyClass"
+```
+
+Poetry takes care of creating a virtual environment, so you can simply call:
+
+```bash
+poetry install
+poetry shell
+```
+
+Now, let's load our newly created entry points:
+
+```python
+>>> import importlib.metadata
+>>> entry_point = importlib.metadata.entry_points()["myapp"]
+[EntryPoint(name='my_class', value='myapp.module:MyClass', group='myapp')]
+```
 
 To conclude: every application can be made extensible in Python. Extensibility
 is basically free with entry points. Think about extensibility early in your
