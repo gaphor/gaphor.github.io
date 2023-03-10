@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-03-04 18:05-0500\n"
-"PO-Revision-Date: 2023-03-09 23:03+0000\n"
+"PO-Revision-Date: 2023-03-11 10:37+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/gaphor/gaphor-"
-"github-io/nl/>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/gaphor/"
+"gaphor-github-io/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -738,6 +738,13 @@ msgid ""
 "focused project, and we have created a couple of online spaces where the "
 "community can come together."
 msgstr ""
+"Het is goed om te praten, kennis te delen en te leren van andere gebruikers "
+"van Gaphor. Misschien heeft u een vraag, probleem of weet u niet zeker hoe u "
+"iets met Gaphor moet doen? Het bespreken van zulke dingen in een "
+"ondersteunende omgeving is een goede manier om vooruitgang te boeken, "
+"vrienden te maken en te helpen. Simpel gezegd is Gaphor een project dat "
+"gericht is op de gemeenschap, en we hebben een aantal online ruimtes "
+"gecreëerd waar de gemeenschap samen kan komen."
 
 #. type: Plain text
 #: discuss.md.filt
@@ -746,6 +753,9 @@ msgid ""
 "gender, religion, race, or sexuality. If you’re thinking, \"but they don't "
 "mean me\", then we especially mean YOU."
 msgstr ""
+"Bijdragen zijn welkom van iedereen, ongeacht leeftijd, geslacht, religie, "
+"ras of seksualiteit. Als u denkt, “Maar mij bedoelen ze niet”, dan bedoelen "
+"we VOORAL u."
 
 #. type: Title ##
 #: discuss.md.filt
@@ -796,6 +806,9 @@ msgid ""
 "bugs.  Before submitting a GitHub issue please review our page about how to "
 "report a bug in Gaphor."
 msgstr ""
+"Gebruik onze issue tracker op GitHub voor algemene vragen en het rapporteren "
+"van fouten. Voordat u een GitHub-issue indient, bekijk dan onze pagina over "
+"hoe u een fout in Gaphor rapporteert."
 
 #. type: Plain text
 #: discuss.md.filt
@@ -823,6 +836,12 @@ msgid ""
 "arises, we will endeavour to act in a discreet, sympathetic and fair manner "
 "to all concerned."
 msgstr ""
+"Wij willen dat onze gemeenschap een veilige, gastvrije en vriendelijke "
+"plaats is. Wij zullen niet aarzelen om een duidelijke waarschuwing te geven "
+"en, indien deze wordt genegeerd, mensen te verbannen die zich niet aan de "
+"gedragscode houden. Als zich een gedragsgerelateerde situatie voordoet, "
+"zullen wij trachten op een discrete, sympathieke en eerlijke manier te "
+"handelen tegenover alle betrokkenen."
 
 #. type: Plain text
 #: tutorials.md.filt
