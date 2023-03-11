@@ -3,11 +3,13 @@ languages:
     url: "/"
   - title: Español
     url: "/es"
+  - title: Čeština
+    url: "/cs"
+  - title: Nederlands
+    url: "/nl"
   - title: Hrvatski
     url: "/hr"
   - title: Magyar
     url: "/hu"
-  - title: Čeština
-    url: "/cs"
   - title: Русский
     url: "/ru"

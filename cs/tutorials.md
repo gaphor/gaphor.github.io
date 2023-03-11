@@ -14,8 +14,8 @@ modelování.
    Gaphor](https://docs.gaphor.org/en/latest/getting_started.html)
 2. [Your First Model](https://docs.gaphor.org/en/latest/first_model.html)
 3. <i class="fab fa-youtube"></i> [Introduction to Gaphor and
-SysML](https://www.youtube.com/watch?v=J1k9GTmYwkc), presented by Dan at the
-Michigan Python meetup.
+   SysML](https://youtu.be/PnWKsr2csXg), presented by Dan at a joint INCOSE
+   Michigan and Michigan Python event.
 1. <a href="report-bugs">How to report a bug in Gaphor</a>
 
 
