@@ -7,9 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-03-11 13:10-0500\n"
-"PO-Revision-Date: 2023-03-11 10:37+0000\n"
+"PO-Revision-Date: 2023-03-13 10:41+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/nl/>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/gaphor/"
+"gaphor-github-io/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -609,19 +610,15 @@ msgstr "Aan de slag met Gaphor"
 
 #. type: Plain text
 #: tutorials.md.filt
-#, fuzzy, no-wrap
-#| msgid ""
-#| "3.  Introduction to Gaphor and\n"
-#| "SysML, presented by Dan at the\n"
-#| "Michigan Python meetup.\n"
-#| "1. How to report a bug in Gaphor\n"
+#, no-wrap
 msgid ""
 "3.  Introduction to Gaphor and\n"
 "   SysML, presented by Dan at a joint INCOSE\n"
 "   Michigan and Michigan Python event.\n"
 "1. How to report a bug in Gaphor\n"
 msgstr ""
-"3. Introductie tot Gaphor en SysML, gepresenteerd door Dan op de Michigan Python meetup.\n"
+"3. Introductie tot Gaphor en SysML, gepresenteerd door Dan op en "
+"gecombineerd event van INCOSE Michigan en Michigan Python.\n"
 "1. Hoe u een fout in Gaphor rapporteert\n"
 
 #. type: Title ##
