@@ -7,15 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-03-11 13:10-0500\n"
-"PO-Revision-Date: 2023-01-31 19:42+0000\n"
+"PO-Revision-Date: 2023-03-13 10:41+0000\n"
 "Last-Translator: vikdevelop <super-vik1@protonmail.com>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/cs/>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/"
+"gaphor-github-io/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 
 #. type: Plain text
 #: _includes/footer.md.filt
@@ -427,7 +428,7 @@ msgstr "Začněte s aplikací Gaphor"
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt
 msgid "This page has moved to https:."
-msgstr ""
+msgstr "Tato stránka byla přesunuta na https:."
 
 #. type: Bullet: '2. '
 #: tutorials/your-first-model.md.filt tutorials.md.filt
@@ -438,7 +439,7 @@ msgstr "Váš první model"
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
 msgid "This page has been moved to https:."
-msgstr ""
+msgstr "Tato stránka byla přesunuta na https:."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/01-platform.md.filt
@@ -604,29 +605,22 @@ msgstr "Každý výukový kurz je samostatnou lekcí, která vysvětluje konkré
 
 #. type: Bullet: '1. '
 #: tutorials.md.filt
-#, fuzzy
-#| msgid "Get started with Gaphor"
 msgid "Get Started with Gaphor"
 msgstr "Začněte s aplikací Gaphor"
 
 #. type: Plain text
 #: tutorials.md.filt
-#, fuzzy, no-wrap
-#| msgid ""
-#| "3.  Introduction to Gaphor and\n"
-#| "SysML, presented by Dan at the\n"
-#| "Michigan Python meetup.\n"
-#| "4. How to report a bug in Gaphor\n"
+#, no-wrap
 msgid ""
 "3.  Introduction to Gaphor and\n"
 "   SysML, presented by Dan at a joint INCOSE\n"
 "   Michigan and Michigan Python event.\n"
 "1. How to report a bug in Gaphor\n"
 msgstr ""
-"3.  Úvod do Gaphor a\n"
-"SysML, který prezentoval Dan na konferenci\n"
-"Michigan Python meetup.\n"
-"4. Jak nahlásit chybu v Gaphoru\n"
+"3.  Úvod do Gaphoru a\n"
+"   SysML, který Dan prezentoval na společném zasedání INCOSE.\n"
+"   Michigan a Michigan Python.\n"
+"1. Jak nahlásit chybu v programu Gaphor\n"
 
 #. type: Title ##
 #: tutorials.md.filt
