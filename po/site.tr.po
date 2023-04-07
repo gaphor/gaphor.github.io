@@ -7,37 +7,40 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-03-11 13:10-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-04-08 20:52+0000\n"
+"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/gaphor/"
+"gaphor-github-io/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #. type: Plain text
 #: _includes/footer.md.filt
 #, markdown-text
 msgid "We love to hear from you"
-msgstr ""
+msgstr "Sizden haber almak isteriz"
 
 #. type: Plain text
 #: _includes/footer.md.filt
 #, markdown-text
 msgid "Open an issue on GitHub"
-msgstr ""
+msgstr "GitHub'da bir hata bildirin"
 
 #. type: Plain text
 #: _includes/footer.md.filt
 #, markdown-text
 msgid "Tech docs"
-msgstr ""
+msgstr "Teknik belgeler"
 
 #. type: Plain text
 #: _includes/footer.md.filt
 #, markdown-text
 msgid "Copyright &copy; 2020-2023 Arjan Molenaar and Dan Yeaw."
-msgstr ""
+msgstr "Telif hakkı &copy; 2020-2023 Arjan Molenaar ve Dan Yeaw."
 
 #. type: Plain text
 #: _includes/footer.md.filt
@@ -157,7 +160,7 @@ msgstr ""
 #: _platforms/01-windows.md.filt
 #, no-wrap
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #. type: Plain text
 #: _platforms/01-windows.md.filt
@@ -181,7 +184,7 @@ msgstr ""
 #: _platforms/02-macos.md.filt
 #, no-wrap
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #. type: Plain text
 #: _platforms/02-macos.md.filt
@@ -199,7 +202,7 @@ msgstr ""
 #: _platforms/02-macos.md.filt
 #, markdown-text, no-wrap
 msgid "Homebrew"
-msgstr ""
+msgstr "Homebrew"
 
 #. type: Plain text
 #: _platforms/02-macos.md.filt
@@ -211,13 +214,13 @@ msgstr ""
 #: _platforms/03-linux.md.filt
 #, no-wrap
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #. type: Title ###
 #: _platforms/03-linux.md.filt
 #, markdown-text, no-wrap
 msgid "Flatpak"
-msgstr ""
+msgstr "Flatpak"
 
 #. type: Plain text
 #: _platforms/03-linux.md.filt
@@ -235,7 +238,7 @@ msgstr ""
 #: _platforms/03-linux.md.filt
 #, markdown-text, no-wrap
 msgid "AppImage"
-msgstr ""
+msgstr "AppImage"
 
 #. type: Plain text
 #: _platforms/03-linux.md.filt
@@ -259,7 +262,7 @@ msgstr ""
 #: _platforms/03-linux.md.filt
 #, markdown-text, no-wrap
 msgid "Arch Linux"
-msgstr ""
+msgstr "Arch Linux"
 
 #. type: Plain text
 #: _platforms/03-linux.md.filt
@@ -271,7 +274,7 @@ msgstr ""
 #: _platforms/04-python.md.filt
 #, no-wrap
 msgid "Python"
-msgstr ""
+msgstr "Python"
 
 #. type: Plain text
 #: _platforms/04-python.md.filt
