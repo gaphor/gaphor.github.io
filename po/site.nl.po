@@ -6,135 +6,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-03-11 13:10-0500\n"
+"POT-Creation-Date: 2023-04-08 18:18-0400\n"
 "PO-Revision-Date: 2023-03-13 10:41+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/gaphor/"
-"gaphor-github-io/nl/>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.2-dev\n"
-
-#. type: Plain text
-#: _includes/footer.md.filt
-msgid "We love to hear from you"
-msgstr "We horen graag van u"
-
-#. type: Plain text
-#: _includes/footer.md.filt
-msgid "Open an issue on GitHub"
-msgstr "Een issue openen op GitHub"
-
-#. type: Plain text
-#: _includes/footer.md.filt
-msgid "Tech docs"
-msgstr "Technische documentatie"
-
-#. type: Plain text
-#: _includes/footer.md.filt
-msgid "Copyright &copy; 2020-2023 Arjan Molenaar and Dan Yeaw."
-msgstr "Copyright &copy; 2020-2023, Arjan Molenaar en Dan Yeaw"
-
-#. type: Plain text
-#: _includes/footer.md.filt
-msgid "Theme"
-msgstr "Thema"
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "A picture is worth a thousand words. Describe and document your applications and systems with Gaphor to enhance knowledge sharing."
-msgstr "Eén beeld zegt meer dan duizend woorden. Beschrijf en documenteer uw apps en systemen met Gaphor om het delen van kennis te verbeteren."
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Gaphor is a UML, SysML, RAAML, and C4 modeling application. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models."
-msgstr "Gaphor is een modelleer-app voor UML, SysML, RAAML en C4. Het is ontworpen om gemakkelijk te gebruiken en toch krachtig te zijn. Gaphor implementeert een gegevensmodel dat volledig compatibel is met UML 2, en is dus veel meer dan een tekenprogramma. U kunt Gaphor gebruiken om snel verschillende aspecten van een systeem te visualiseren, maar ook om complete, zeer complexe modellen te maken."
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Build Class, Interaction, and State Machine diagrams for software or Block Definition and Requirements diagrams for systems. Model the elements you need. If you want to mix and match, you can even add different diagram items to the same diagram to get the view you need."
-msgstr "Bouw klasse-, interactie- en toestands­machine­diagrammen voor software, of blok­definitie- en eisen­diagrammen voor systemen. Modelleer de elementen die u nodig heeft. Als u wilt mixen en matchen, kunt u zelfs verschillende diagram­onderdelen aan hetzelfde diagram toevoegen om het gewenste beeld te krijgen."
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Customize the diagrams you create with our built-in styling engine."
-msgstr "Pas de diagrammen die u maakt aan met onze ingebouwde stijlmotor."
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Easily find all element of your model in the tree view."
-msgstr "Vind gemakkelijk alle elementen van uw model in het boomoverzicht."
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Love dark mode? We can do that too."
-msgstr "Fan van donkere modus? Die is er ook."
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
-msgstr "Er zijn vele manieren om Gaphor te installeren. De eenvoudigste is om de officiële installer voor Windows of macOS te downloaden. Voor Linux kunt u Gaphor installeren via Flathub. U kunt ook de ingebouwde `pip`-tool van Python gebruiken, zolang u alle vereiste afhankelijkheden heeft geïnstalleerd."
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Do you want to know what's going on with Gaphor? Read our blog!"
-msgstr "Wilt u op de hoogte blijven van ontwikkelingen binnen Gaphor? Lees dan onze blog!"
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Contact the team if you want to share content related to Gaphor."
-msgstr "Neem contact op met het team als u inhoud met betrekking tot Gaphor wilt delen."
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "See blog"
-msgstr "Blog bekijken"
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Read more"
-msgstr "Meer lezen"
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Download"
-msgstr "Downloaden"
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Learn more"
-msgstr "Meer te weten komen"
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "About"
-msgstr "Over"
-
-#. type: Yaml Front Matter Hash Value: title
-#: _includes/content.md.filt tutorials.md.filt
-#, no-wrap
-msgid "Tutorials"
-msgstr "Handleidingen"
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Blog"
-msgstr "Blog"
-
-#. type: Yaml Front Matter Hash Value: title
-#: _includes/content.md.filt discuss.md.filt
-#, no-wrap
-msgid "Get in touch"
-msgstr "Contact opnemen"
-
-#. type: Yaml Front Matter Hash Value: title
-#: _includes/content.md.filt contribute.md.filt
-#, no-wrap
-msgid "Contribute"
-msgstr "Bijdragen"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/01-windows.md.filt
@@ -431,7 +312,7 @@ msgid "This page has moved to https:."
 msgstr "Deze pagina is verhuisd naar https."
 
 #. type: Bullet: '2. '
-#: tutorials/your-first-model.md.filt tutorials.md.filt
+#: tutorials/your-first-model.md.filt _pages/tutorials.md.filt
 #, no-wrap
 msgid "Your First Model"
 msgstr "Uw eerste model"
@@ -449,8 +330,8 @@ msgstr "Multi-platform"
 
 #. type: Plain text
 #: _usps/01-platform.md.filt
-msgid "Gaphor works on all major platforms: Windows, Macos and Linux."
-msgstr "Gaphor werkt op alle grote platformen: Windows, macOS en Linux."
+msgid "Gaphor works on all major platforms: [Windows]({{ \"/download/#windows\" | prepend: site.baseurl }} %}), [Macos]({{ \"/download/#macos\" | prepend: site.baseurl }} %} and [Linux]({{ \"/download/#linux\" | prepend: site.baseurl }} %}."
+msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/02-opensource.md.filt
@@ -507,109 +388,127 @@ msgstr "Conform de normen"
 msgid "Gaphor implements the UML, SysML, and RAAML OMG standards. It also includes support for the C4 model for visualizing software architectures."
 msgstr "Gaphor implementeert de OMG-standaarden UML, SysML en RAAML. Het bevat ook ondersteuning voor C4-modellen voor het visualiseren van software-architecturen."
 
+#. type: Yaml Front Matter Hash Value: title
+#: _pages/contribute.md.filt
+#, no-wrap
+msgid "Contribute"
+msgstr "Bijdragen"
+
 #. type: Plain text
-#: contribute.md.filt
+#: _pages/contribute.md.filt
 msgid "Would you like to contribute to the development of Gaphor? (If you think this is only something for experienced developers, please reconsider, there are plenty of ways to contribute to Gaphor, no matter your level of experience or skill set."
 msgstr "Wilt u bijdragen aan de ontwikkeling van Gaphor? (Als u denkt dat dit alleen iets is voor ervaren ontwikkelaars, denk er dan nog eens over na; er zijn genoeg manieren om bij te dragen aan Gaphor, ongeacht uw ervaringsniveau of vaardigheden.)"
 
 #. type: Plain text
-#: contribute.md.filt
+#: _pages/contribute.md.filt
 msgid "Our technical documentation is hosted on the wonderful service that is Read the Docs. Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
 msgstr "Onze technische documentatie wordt gehost op de prachtige dienst Read the Docs. Het bevat niet alleen details die nodig zijn om code bij te dragen aan Gaphor, maar het schetst ook tal van andere manieren waarop u kunt bijdragen (inclusief deze website bijwerken). Tenslotte biedt het een gids voor onze processen en verwachtingen voor de verschillende soorten bijdragen die u kunt leveren aan Gaphor."
 
 #. type: Plain text
-#: contribute.md.filt
+#: _pages/contribute.md.filt
 msgid "The source code is hosted on GitHub."
 msgstr "De broncode is beschikbaar op GitHub."
 
 #. type: Plain text
-#: contribute.md.filt
+#: _pages/contribute.md.filt
 msgid "If in doubt, just ask in our discussion area and someone will be able to point you in the right direction."
 msgstr "Bij twijfel, vraag rond in onze discussieruimte en iemand zal u in de juiste richting kunnen wijzen."
 
+#. type: Yaml Front Matter Hash Value: title
+#: _pages/discuss.md.filt
+#, no-wrap
+msgid "Get in touch"
+msgstr "Contact opnemen"
+
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 msgid "It's good to talk, share knowledge and learn from other users of Gaphor. Perhaps you have a question, problem or are unsure how to do something with Gaphor? Discussing such things in a supportive environment is a good way to make progress, make friends, and help. Put simply, Gaphor is a community focused project, and we have created a couple of online spaces where the community can come together."
 msgstr "Het is goed om te praten, kennis te delen en te leren van andere gebruikers van Gaphor. Misschien heeft u een vraag, probleem of weet u niet zeker hoe u iets met Gaphor moet doen? Het bespreken van zulke dingen in een ondersteunende omgeving is een goede manier om vooruitgang te boeken, vrienden te maken en te helpen. Simpel gezegd is Gaphor een project dat gericht is op de gemeenschap, en we hebben een aantal online ruimtes gecreëerd waar de gemeenschap samen kan komen."
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 msgid "Contributions are welcome without prejudice from anyone irrespective of age, gender, religion, race, or sexuality. If you’re thinking, \"but they don't mean me\", then we especially mean YOU."
 msgstr "Bijdragen zijn welkom van iedereen, ongeacht leeftijd, geslacht, religie, ras of seksualiteit. Als u denkt, “Maar mij bedoelen ze niet”, dan bedoelen we VOORAL u."
 
 #. type: Title ##
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, no-wrap
 msgid "Chat on Gitter"
 msgstr "Praat mee op Gitter"
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 msgid "Our real-time conversations are on Gitter and are bridged to Matrix.  Matrix is the preferred way, since it's more use friendly than bare Gitter."
 msgstr "Onze realtime gesprekken gaan via Gitter en worden overbrugd naar Matrix. Matrix heeft de voorkeur, omdat deze gebruiksvriendelijker is dan Gitter."
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, no-wrap
 msgid " Join Matrix with Element.io\n"
 msgstr " Deelnemen aan Matrix via Element\n"
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, no-wrap
 msgid " Join Gitter Chat\n"
 msgstr " Deelnemen aan Gitter-chat\n"
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 msgid "NB. If you're using a mobile device, use the Element app (for Matrix), the Gitter app is no longer supported."
 msgstr "N.B. Als u een mobiel apparaat gebruikt, gebruik dan de Element-app (voor Matrix), de Gitter-app wordt niet langer ondersteund."
 
 #. type: Title ##
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, no-wrap
 msgid "Submit an Issue on GitHub"
 msgstr "Een issue op GitHub indienen"
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 msgid "Please use our GitHub issue tracker for general questions and reporting bugs.  Before submitting a GitHub issue please review our page about how to report a bug in Gaphor."
 msgstr "Gebruik onze issue tracker op GitHub voor algemene vragen en het rapporteren van fouten. Voordat u een GitHub-issue indient, bekijk dan onze pagina over hoe u een fout in Gaphor rapporteert."
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, no-wrap
 msgid " Submit an Issue on GitHub\n"
 msgstr " Een issue op GitHub indienen\n"
 
 #. type: Title ##
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, no-wrap
 msgid "Community Conduct"
 msgstr "Communautair gedrag"
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 msgid "We expect contributors to follow the Code of Conduct."
 msgstr "We verwachten dat bijdragers zich aan de gedragscode houden."
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 msgid "We want our community to be a safe, welcoming and friendly place.  We won't hesitate to issue a clear warning and, if ignored, ban people who don't behave in the spirit of the code of conduct. If a conduct related situation arises, we will endeavour to act in a discreet, sympathetic and fair manner to all concerned."
 msgstr "Wij willen dat onze gemeenschap een veilige, gastvrije en vriendelijke plaats is. Wij zullen niet aarzelen om een duidelijke waarschuwing te geven en, indien deze wordt genegeerd, mensen te verbannen die zich niet aan de gedragscode houden. Als zich een gedragsgerelateerde situatie voordoet, zullen wij trachten op een discrete, sympathieke en eerlijke manier te handelen tegenover alle betrokkenen."
 
+#. type: Yaml Front Matter Hash Value: title
+#: _pages/tutorials.md.filt
+#, no-wrap
+msgid "Tutorials"
+msgstr "Handleidingen"
+
 #. type: Plain text
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Each tutorial is a self-contained lesson, explaining a specific aspect of Gaphor, so you have the skills needed to achieve your learning and modeling goals."
 msgstr "Elke tutorial is een op zichzelf staande les, waarin een specifiek aspect van Gaphor wordt uitgelegd, zodat u de vaardigheden heeft die nodig zijn om uw leer- en modelleringsdoelen te bereiken."
 
 #. type: Bullet: '1. '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Get Started with Gaphor"
 msgstr "Aan de slag met Gaphor"
 
 #. type: Plain text
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, no-wrap
 msgid ""
 "3.  Introduction to Gaphor and\n"
@@ -617,119 +516,181 @@ msgid ""
 "   Michigan and Michigan Python event.\n"
 "1. How to report a bug in Gaphor\n"
 msgstr ""
-"3. Introductie tot Gaphor en SysML, gepresenteerd door Dan op en "
-"gecombineerd event van INCOSE Michigan en Michigan Python.\n"
+"3. Introductie tot Gaphor en SysML, gepresenteerd door Dan op en gecombineerd event van INCOSE Michigan en Michigan Python.\n"
 "1. Hoe u een fout in Gaphor rapporteert\n"
 
 #. type: Title ##
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, no-wrap
 msgid "Advanced topics"
 msgstr "Geavanceerde onderwerpen"
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Extend your models with stereotypes"
 msgstr "Breid uw model uit met stereotypen"
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Writing a plugin"
 msgstr "Plug-ins schrijven"
 
 #. type: Plain text
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "- Technical and architectural documentation for contributors and plugin developers"
 msgstr "- Technische en architectonische documentatie voor bijdragers en plug-in-ontwikkelaars"
 
 #. type: Title ##
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, no-wrap
 msgid "Talks"
 msgstr "Presentaties"
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Dan and Arjan spoke at Linux App Summit 2021 about how Gaphor is made available to all desktop platforms Linux/Windows/macOS."
 msgstr "Dan en Arjan spraken op de Linux App Summit van 2021 over hoe Gaphor beschikbaar wordt gemaakt voor alle desktop-platforms; Linux/Windows/macOS."
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Dan spoke at the 2021 MIT STAMP Workshop about _Open STPA with RAAML and Gaphor_."
 msgstr "Dan sprak op de MIT STAMP Workshop van 2021 over _Open STPA met RAAML en Gaphor_."
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Arjan spoke at GUADEC 2021 about Large GUI application with Python and GTK."
 msgstr "Arjan sprak op GUADEC 2021 over grote apps met Python en GTK."
 
 #. type: Title ##
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, no-wrap
 msgid "What other people say"
 msgstr "Wat anderen zeggen"
 
 #. type: Plain text
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "There are some 10+ year old articles on Gaphor on the web. Some more recent articles are:"
 msgstr "Er zijn een aantal meer dan 10 jaar oude artikelen over Gaphor op het web te vinden. Enkele recentere artikelen zijn:"
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10."
 msgstr "De website Methods & Tools beoordeelde Gaphor versie 2.7.1 in december 2021 op Windows 10."
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "It's FOSS has a short write-up on Gaphor (~2.8-ish?)."
 msgstr "It's FOSS heeft een kort artikel over Gaphor (rond 2.8)."
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Ubuntu Pit has a nice article on Gaphor (~2.8-ish?)."
 msgstr "Ubuntu Pit heeft een leuk artikel over Gaphor (rond 2.8)."
 
 #. type: Yaml Front Matter Hash Value: title
-#: download.md.filt
+#: _pages/download.md.filt
 #, no-wrap
 msgid "Download Gaphor"
 msgstr "Gaphor downloaden"
 
 #. type: Plain text
-#: download.md.filt
+#: _pages/download.md.filt
 msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
 msgstr "Er zijn vele manieren om Gaphor te installeren. De eenvoudigste is om de officiële installer voor Windows of macOS te downloaden. Voor Linux kunt u Gaphor installeren met behulp van Flathub. U kunt ook de ingebouwde `pip`-tool van Python gebruiken, zolang u alle vereiste afhankelijkheden geïnstalleerd hebt."
 
 #. type: Plain text
-#: download.md.filt
+#: _pages/download.md.filt
 msgid "If you're a developer, you can find the source code on GitHub."
 msgstr "Als u een ontwikkelaar bent, kunt u de broncode vinden op GitHub."
 
 #. type: Title #
-#: 404.md.filt
+#: _pages/404.md.filt
 #, no-wrap
 msgid "404"
 msgstr "404"
 
 #. type: Plain text
-#: 404.md.filt
+#: _pages/404.md.filt
 #, no-wrap
 msgid "**Page not found :(**\n"
 msgstr "**Pagina niet gevonden :(**\n"
 
 #. type: Plain text
-#: 404.md.filt
+#: _pages/404.md.filt
 msgid "The requested page could not be found."
 msgstr "De opgevraagde pagina kon niet worden gevonden."
 
 #. type: Yaml Front Matter Hash Value: title
-#: index.md.filt
+#: _pages/index.md.filt
 #, no-wrap
 msgid "Modeling for Everyone"
 msgstr "Modelleren voor iedereen"
 
 #. type: Yaml Front Matter Hash Value: title
-#: blog.md.filt
+#: _pages/blog.md.filt
 #, no-wrap
 msgid "Blog and News"
 msgstr "Blog en nieuws"
+
+#~ msgid "We love to hear from you"
+#~ msgstr "We horen graag van u"
+
+#~ msgid "Open an issue on GitHub"
+#~ msgstr "Een issue openen op GitHub"
+
+#~ msgid "Tech docs"
+#~ msgstr "Technische documentatie"
+
+#~ msgid "Copyright &copy; 2020-2023 Arjan Molenaar and Dan Yeaw."
+#~ msgstr "Copyright &copy; 2020-2023, Arjan Molenaar en Dan Yeaw"
+
+#~ msgid "Theme"
+#~ msgstr "Thema"
+
+#~ msgid "A picture is worth a thousand words. Describe and document your applications and systems with Gaphor to enhance knowledge sharing."
+#~ msgstr "Eén beeld zegt meer dan duizend woorden. Beschrijf en documenteer uw apps en systemen met Gaphor om het delen van kennis te verbeteren."
+
+#~ msgid "Gaphor is a UML, SysML, RAAML, and C4 modeling application. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models."
+#~ msgstr "Gaphor is een modelleer-app voor UML, SysML, RAAML en C4. Het is ontworpen om gemakkelijk te gebruiken en toch krachtig te zijn. Gaphor implementeert een gegevensmodel dat volledig compatibel is met UML 2, en is dus veel meer dan een tekenprogramma. U kunt Gaphor gebruiken om snel verschillende aspecten van een systeem te visualiseren, maar ook om complete, zeer complexe modellen te maken."
+
+#~ msgid "Build Class, Interaction, and State Machine diagrams for software or Block Definition and Requirements diagrams for systems. Model the elements you need. If you want to mix and match, you can even add different diagram items to the same diagram to get the view you need."
+#~ msgstr "Bouw klasse-, interactie- en toestands­machine­diagrammen voor software, of blok­definitie- en eisen­diagrammen voor systemen. Modelleer de elementen die u nodig heeft. Als u wilt mixen en matchen, kunt u zelfs verschillende diagram­onderdelen aan hetzelfde diagram toevoegen om het gewenste beeld te krijgen."
+
+#~ msgid "Customize the diagrams you create with our built-in styling engine."
+#~ msgstr "Pas de diagrammen die u maakt aan met onze ingebouwde stijlmotor."
+
+#~ msgid "Easily find all element of your model in the tree view."
+#~ msgstr "Vind gemakkelijk alle elementen van uw model in het boomoverzicht."
+
+#~ msgid "Love dark mode? We can do that too."
+#~ msgstr "Fan van donkere modus? Die is er ook."
+
+#~ msgid "There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
+#~ msgstr "Er zijn vele manieren om Gaphor te installeren. De eenvoudigste is om de officiële installer voor Windows of macOS te downloaden. Voor Linux kunt u Gaphor installeren via Flathub. U kunt ook de ingebouwde `pip`-tool van Python gebruiken, zolang u alle vereiste afhankelijkheden heeft geïnstalleerd."
+
+#~ msgid "Do you want to know what's going on with Gaphor? Read our blog!"
+#~ msgstr "Wilt u op de hoogte blijven van ontwikkelingen binnen Gaphor? Lees dan onze blog!"
+
+#~ msgid "Contact the team if you want to share content related to Gaphor."
+#~ msgstr "Neem contact op met het team als u inhoud met betrekking tot Gaphor wilt delen."
+
+#~ msgid "See blog"
+#~ msgstr "Blog bekijken"
+
+#~ msgid "Read more"
+#~ msgstr "Meer lezen"
+
+#~ msgid "Download"
+#~ msgstr "Downloaden"
+
+#~ msgid "Learn more"
+#~ msgstr "Meer te weten komen"
+
+#~ msgid "About"
+#~ msgstr "Over"
+
+#~ msgid "Blog"
+#~ msgstr "Blog"
+
+#~ msgid "Gaphor works on all major platforms: Windows, Macos and Linux."
+#~ msgstr "Gaphor werkt op alle grote platformen: Windows, macOS en Linux."

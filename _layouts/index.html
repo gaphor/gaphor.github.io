@@ -17,9 +17,9 @@ layout: bare
                     </div>
                     <div class="col-sm-8 offset-sm-2">
                         <div class="section-description">
-                            <p>{{ thousand-words }}</p>
+                            <p>{{ site.data.strings.index.thousand-words }}</p>
                         </div>
-                        <a href="{% link index.md %}#about" title="{{ learn }}" class="btn header-button-one">{{ learn }}</a>
+                        <a href="{{ '/#about' | prepend: site.baseurl }}" title="{{ learn }}" class="btn header-button-one">{{ learn }}</a>
                         <a href="download" title="{{ download }}" class="btn header-button-two">{{ download }}</a>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ layout: bare
 <section class="container">
     <div class="row mb-4">
         <div class="col-12 col-md-6">
-            <img src="{% link images/screenshot-interaction.png %}" alt="interaction" />
+            <img src="{{ '/images/screenshot-interaction.png' | prepend: site.baseurl }}" alt="interaction" />
         </div>
         <p class="col-12 align-items-center text-center col-md-6 d-md-flex text-md-left col-lg-4 offset-lg-1">
             {{ build }}
@@ -42,7 +42,7 @@ layout: bare
     </div>
     <div class="row mb-4 flex-row-reverse">
         <div class=" col-12 col-md-6 offset-lg-1">
-            <img src="{% link images/screenshot-styles.png %}" alt="styles" />
+            <img src="{{ '/images/screenshot-styles.png' | prepend: site.baseurl }}" alt="styles" />
         </div>
         <p class="col-12 align-items-center text-center col-md-6 d-md-flex text-md-right col-lg-4 offset-lg-1">
             {{ styling-engine }}
@@ -50,7 +50,7 @@ layout: bare
     </div>
     <div class="row mb-4">
         <div class="col-12 col-md-6">
-            <img src="{% link images/screenshot-namespace.png %}" alt="Tree view detail" />
+            <img src="{{ '/images/screenshot-namespace.png' | prepend: site.baseurl }}" alt="Tree view detail" />
         </div>
         <p class="col-12 align-items-center text-center col-md-6 d-md-flex text-md-left col-lg-4 offset-lg-1">
             {{ treeview }}
@@ -58,7 +58,7 @@ layout: bare
     </div>
     <div class="row mb-4 flex-row-reverse">
         <div class="col-12 col-md-6 offset-lg-1">
-            <img src="{% link images/screenshot-dark-mode.png %}" alt="styles" />
+            <img src="{{ '/images/screenshot-dark-mode.png' | prepend: site.baseurl }}" alt="styles" />
         </div>
         <p class="col-12 align-items-center text-center col-md-6 d-md-flex text-md-right col-lg-4 offset-lg-1">
             {{ dark-mode }}

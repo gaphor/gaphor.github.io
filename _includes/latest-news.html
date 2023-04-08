@@ -2,7 +2,7 @@
   {% include content.md %}
   {% include section-header.html title="Blog and News" description=blog-content %}
 
-  <a href="{% link blog.md %}" title="See blog" class="latest-news-button"><i
+  <a href="{{ '/blog/' | prepend: site.baseurl }}" title="See blog" class="latest-news-button"><i
       class="fa fa-chevron-circle-right"></i>{{ see-blog }}</a>
 
   <div class="section-content">

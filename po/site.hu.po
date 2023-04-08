@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-03-11 13:10-0500\n"
+"POT-Creation-Date: 2023-04-08 18:18-0400\n"
 "PO-Revision-Date: 2022-10-21 04:02+0000\n"
 "Last-Translator: ovari <ovari123@zoho.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hu/>\n"
@@ -16,126 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.14.2-dev\n"
-
-#. type: Plain text
-#: _includes/footer.md.filt
-msgid "We love to hear from you"
-msgstr ""
-
-#. type: Plain text
-#: _includes/footer.md.filt
-msgid "Open an issue on GitHub"
-msgstr "Probléma megnyitása a GitHubon"
-
-#. type: Plain text
-#: _includes/footer.md.filt
-msgid "Tech docs"
-msgstr ""
-
-#. type: Plain text
-#: _includes/footer.md.filt
-msgid "Copyright &copy; 2020-2023 Arjan Molenaar and Dan Yeaw."
-msgstr "Szerzői jog &copy; 2020-2022 Molenaar Arjan és Yeaw Dániel."
-
-#. type: Plain text
-#: _includes/footer.md.filt
-msgid "Theme"
-msgstr ""
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "A picture is worth a thousand words. Describe and document your applications and systems with Gaphor to enhance knowledge sharing."
-msgstr "Egy kép többet ér ezer szónál. Ismertesse és dokumentálja alkalmazásait és rendszereit a Gaphor segítségével a tudásmegosztás javítása érdekében."
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Gaphor is a UML, SysML, RAAML, and C4 modeling application. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models."
-msgstr "A Gaphor egy UML-, SysML-, RAAML- és C4-modellező-alkalmazás. Úgy tervezték, hogy könnyen használható legyen, ugyanakkor erős legyen. A Gaphor egy teljesen kompatibilis UML 2 adatmodellt valósít meg, tehát sokkal több, mint egy képrajzoló eszköz. A Gaphor segítségével gyorsan megjelenítheti a rendszer különböző aspektusait, valamint komplett, rendkívül összetett modelleket hozhat létre."
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Build Class, Interaction, and State Machine diagrams for software or Block Definition and Requirements diagrams for systems. Model the elements you need. If you want to mix and match, you can even add different diagram items to the same diagram to get the view you need."
-msgstr ""
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Customize the diagrams you create with our built-in styling engine."
-msgstr ""
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Easily find all element of your model in the tree view."
-msgstr ""
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Love dark mode? We can do that too."
-msgstr ""
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
-msgstr ""
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Do you want to know what's going on with Gaphor? Read our blog!"
-msgstr "Szeretnéd tudni, mi történik Gaphorral? Olvassa el naplónkat!"
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Contact the team if you want to share content related to Gaphor."
-msgstr ""
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "See blog"
-msgstr "Napló megtekintése"
-
-#. type: Plain text
-#: _includes/content.md.filt
-#, fuzzy
-#| msgid "Learn more"
-msgid "Read more"
-msgstr "További tájékoztatás"
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Download"
-msgstr "Letöltés"
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Learn more"
-msgstr "További tájékoztatás"
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "About"
-msgstr "Rólunk"
-
-#. type: Yaml Front Matter Hash Value: title
-#: _includes/content.md.filt tutorials.md.filt
-#, no-wrap
-msgid "Tutorials"
-msgstr "Oktatóanyagok"
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Blog"
-msgstr "Napló"
-
-#. type: Yaml Front Matter Hash Value: title
-#: _includes/content.md.filt discuss.md.filt
-#, no-wrap
-msgid "Get in touch"
-msgstr "Kapcsolatfelvétel"
-
-#. type: Yaml Front Matter Hash Value: title
-#: _includes/content.md.filt contribute.md.filt
-#, no-wrap
-msgid "Contribute"
-msgstr "Közreműködés"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/01-windows.md.filt
@@ -156,9 +36,10 @@ msgstr ""
 
 #. type: Plain text
 #: _platforms/01-windows.md.filt
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid " Download installer\n"
 msgid " Download portable version\n"
-msgstr ""
+msgstr " Telepítő letöltése\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/02-macos.md.filt
@@ -168,9 +49,10 @@ msgstr "macOS"
 
 #. type: Plain text
 #: _platforms/02-macos.md.filt
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid " Download AppImage\n"
 msgid " Download .dmg\n"
-msgstr ""
+msgstr " Az AppImage letöltése\n"
 
 #. type: Plain text
 #: _platforms/02-macos.md.filt
@@ -234,9 +116,10 @@ msgstr ""
 
 #. type: Title ###
 #: _platforms/03-linux.md.filt
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid "Linux"
 msgid "Arch Linux"
-msgstr ""
+msgstr "Linux"
 
 #. type: Plain text
 #: _platforms/03-linux.md.filt
@@ -432,7 +315,7 @@ msgid "This page has moved to https:."
 msgstr ""
 
 #. type: Bullet: '2. '
-#: tutorials/your-first-model.md.filt tutorials.md.filt
+#: tutorials/your-first-model.md.filt _pages/tutorials.md.filt
 #, no-wrap
 msgid "Your First Model"
 msgstr ""
@@ -450,7 +333,7 @@ msgstr "Többplatformos"
 
 #. type: Plain text
 #: _usps/01-platform.md.filt
-msgid "Gaphor works on all major platforms: Windows, Macos and Linux."
+msgid "Gaphor works on all major platforms: [Windows]({{ \"/download/#windows\" | prepend: site.baseurl }} %}), [Macos]({{ \"/download/#macos\" | prepend: site.baseurl }} %} and [Linux]({{ \"/download/#linux\" | prepend: site.baseurl }} %}."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
@@ -508,109 +391,129 @@ msgstr "Szabványmegfelelőség"
 msgid "Gaphor implements the UML, SysML, and RAAML OMG standards. It also includes support for the C4 model for visualizing software architectures."
 msgstr ""
 
+#. type: Yaml Front Matter Hash Value: title
+#: _pages/contribute.md.filt
+#, no-wrap
+msgid "Contribute"
+msgstr "Közreműködés"
+
 #. type: Plain text
-#: contribute.md.filt
+#: _pages/contribute.md.filt
 msgid "Would you like to contribute to the development of Gaphor? (If you think this is only something for experienced developers, please reconsider, there are plenty of ways to contribute to Gaphor, no matter your level of experience or skill set."
 msgstr ""
 
 #. type: Plain text
-#: contribute.md.filt
+#: _pages/contribute.md.filt
 msgid "Our technical documentation is hosted on the wonderful service that is Read the Docs. Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
 msgstr ""
 
 #. type: Plain text
-#: contribute.md.filt
+#: _pages/contribute.md.filt
 msgid "The source code is hosted on GitHub."
 msgstr ""
 
 #. type: Plain text
-#: contribute.md.filt
+#: _pages/contribute.md.filt
 msgid "If in doubt, just ask in our discussion area and someone will be able to point you in the right direction."
 msgstr ""
 
+#. type: Yaml Front Matter Hash Value: title
+#: _pages/discuss.md.filt
+#, no-wrap
+msgid "Get in touch"
+msgstr "Kapcsolatfelvétel"
+
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 msgid "It's good to talk, share knowledge and learn from other users of Gaphor. Perhaps you have a question, problem or are unsure how to do something with Gaphor? Discussing such things in a supportive environment is a good way to make progress, make friends, and help. Put simply, Gaphor is a community focused project, and we have created a couple of online spaces where the community can come together."
 msgstr ""
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 msgid "Contributions are welcome without prejudice from anyone irrespective of age, gender, religion, race, or sexuality. If you’re thinking, \"but they don't mean me\", then we especially mean YOU."
 msgstr ""
 
 #. type: Title ##
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, no-wrap
 msgid "Chat on Gitter"
 msgstr ""
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 msgid "Our real-time conversations are on Gitter and are bridged to Matrix.  Matrix is the preferred way, since it's more use friendly than bare Gitter."
 msgstr ""
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, no-wrap
 msgid " Join Matrix with Element.io\n"
 msgstr ""
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, no-wrap
 msgid " Join Gitter Chat\n"
 msgstr ""
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 msgid "NB. If you're using a mobile device, use the Element app (for Matrix), the Gitter app is no longer supported."
 msgstr ""
 
 #. type: Title ##
-#: discuss.md.filt
-#, no-wrap
+#: _pages/discuss.md.filt
+#, fuzzy, no-wrap
+#| msgid "Open an issue on GitHub"
 msgid "Submit an Issue on GitHub"
-msgstr ""
+msgstr "Probléma megnyitása a GitHubon"
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 msgid "Please use our GitHub issue tracker for general questions and reporting bugs.  Before submitting a GitHub issue please review our page about how to report a bug in Gaphor."
 msgstr ""
 
 #. type: Plain text
-#: discuss.md.filt
-#, no-wrap
+#: _pages/discuss.md.filt
+#, fuzzy, no-wrap
+#| msgid "Open an issue on GitHub"
 msgid " Submit an Issue on GitHub\n"
-msgstr ""
+msgstr "Probléma megnyitása a GitHubon"
 
 #. type: Title ##
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, no-wrap
 msgid "Community Conduct"
 msgstr ""
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 msgid "We expect contributors to follow the Code of Conduct."
 msgstr ""
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 msgid "We want our community to be a safe, welcoming and friendly place.  We won't hesitate to issue a clear warning and, if ignored, ban people who don't behave in the spirit of the code of conduct. If a conduct related situation arises, we will endeavour to act in a discreet, sympathetic and fair manner to all concerned."
 msgstr ""
 
+#. type: Yaml Front Matter Hash Value: title
+#: _pages/tutorials.md.filt
+#, no-wrap
+msgid "Tutorials"
+msgstr "Oktatóanyagok"
+
 #. type: Plain text
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Each tutorial is a self-contained lesson, explaining a specific aspect of Gaphor, so you have the skills needed to achieve your learning and modeling goals."
 msgstr ""
 
 #. type: Bullet: '1. '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Get Started with Gaphor"
 msgstr ""
 
 #. type: Plain text
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, no-wrap
 msgid ""
 "3.  Introduction to Gaphor and\n"
@@ -620,117 +523,149 @@ msgid ""
 msgstr ""
 
 #. type: Title ##
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, no-wrap
 msgid "Advanced topics"
 msgstr ""
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Extend your models with stereotypes"
 msgstr ""
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Writing a plugin"
 msgstr ""
 
 #. type: Plain text
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "- Technical and architectural documentation for contributors and plugin developers"
 msgstr ""
 
 #. type: Title ##
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, no-wrap
 msgid "Talks"
 msgstr ""
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Dan and Arjan spoke at Linux App Summit 2021 about how Gaphor is made available to all desktop platforms Linux/Windows/macOS."
 msgstr ""
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Dan spoke at the 2021 MIT STAMP Workshop about _Open STPA with RAAML and Gaphor_."
 msgstr ""
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Arjan spoke at GUADEC 2021 about Large GUI application with Python and GTK."
 msgstr ""
 
 #. type: Title ##
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, no-wrap
 msgid "What other people say"
 msgstr ""
 
 #. type: Plain text
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "There are some 10+ year old articles on Gaphor on the web. Some more recent articles are:"
 msgstr ""
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10."
 msgstr ""
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "It's FOSS has a short write-up on Gaphor (~2.8-ish?)."
 msgstr ""
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Ubuntu Pit has a nice article on Gaphor (~2.8-ish?)."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
-#: download.md.filt
+#: _pages/download.md.filt
 #, no-wrap
 msgid "Download Gaphor"
 msgstr "A Gaphor letöltése"
 
 #. type: Plain text
-#: download.md.filt
+#: _pages/download.md.filt
 msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
 msgstr ""
 
 #. type: Plain text
-#: download.md.filt
+#: _pages/download.md.filt
 msgid "If you're a developer, you can find the source code on GitHub."
 msgstr ""
 
 #. type: Title #
-#: 404.md.filt
+#: _pages/404.md.filt
 #, no-wrap
 msgid "404"
 msgstr ""
 
 #. type: Plain text
-#: 404.md.filt
+#: _pages/404.md.filt
 #, no-wrap
 msgid "**Page not found :(**\n"
 msgstr ""
 
 #. type: Plain text
-#: 404.md.filt
+#: _pages/404.md.filt
 msgid "The requested page could not be found."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
-#: index.md.filt
+#: _pages/index.md.filt
 #, no-wrap
 msgid "Modeling for Everyone"
 msgstr "Műszaki modellezés mindenki számára"
 
 #. type: Yaml Front Matter Hash Value: title
-#: blog.md.filt
+#: _pages/blog.md.filt
 #, no-wrap
 msgid "Blog and News"
 msgstr "Napló és hírek"
+
+#~ msgid "Copyright &copy; 2020-2023 Arjan Molenaar and Dan Yeaw."
+#~ msgstr "Szerzői jog &copy; 2020-2022 Molenaar Arjan és Yeaw Dániel."
+
+#~ msgid "A picture is worth a thousand words. Describe and document your applications and systems with Gaphor to enhance knowledge sharing."
+#~ msgstr "Egy kép többet ér ezer szónál. Ismertesse és dokumentálja alkalmazásait és rendszereit a Gaphor segítségével a tudásmegosztás javítása érdekében."
+
+#~ msgid "Gaphor is a UML, SysML, RAAML, and C4 modeling application. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models."
+#~ msgstr "A Gaphor egy UML-, SysML-, RAAML- és C4-modellező-alkalmazás. Úgy tervezték, hogy könnyen használható legyen, ugyanakkor erős legyen. A Gaphor egy teljesen kompatibilis UML 2 adatmodellt valósít meg, tehát sokkal több, mint egy képrajzoló eszköz. A Gaphor segítségével gyorsan megjelenítheti a rendszer különböző aspektusait, valamint komplett, rendkívül összetett modelleket hozhat létre."
+
+#~ msgid "Do you want to know what's going on with Gaphor? Read our blog!"
+#~ msgstr "Szeretnéd tudni, mi történik Gaphorral? Olvassa el naplónkat!"
+
+#~ msgid "See blog"
+#~ msgstr "Napló megtekintése"
+
+#, fuzzy
+#~| msgid "Learn more"
+#~ msgid "Read more"
+#~ msgstr "További tájékoztatás"
+
+#~ msgid "Download"
+#~ msgstr "Letöltés"
+
+#~ msgid "Learn more"
+#~ msgstr "További tájékoztatás"
+
+#~ msgid "About"
+#~ msgstr "Rólunk"
+
+#~ msgid "Blog"
+#~ msgstr "Napló"
 
 #, no-wrap
 #~ msgid "Copy and Paste"

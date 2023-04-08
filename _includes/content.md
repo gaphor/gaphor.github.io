@@ -57,7 +57,7 @@ required dependencies installed.
 
 Do you want to know what's going on with Gaphor? Read our blog!
 
-[Contact the team]({% link discuss.md %})
+[Contact the team]({{ "/discuss/" | prepend: site.baseurl }})
 if you want to share content related to Gaphor.
 
 {% endcapture %}

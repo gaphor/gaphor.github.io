@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-03-11 13:10-0500\n"
+"POT-Creation-Date: 2023-04-08 18:18-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,144 +15,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#. type: Plain text
-#: _includes/footer.md.filt
-#, markdown-text
-msgid "We love to hear from you"
-msgstr ""
-
-#. type: Plain text
-#: _includes/footer.md.filt
-#, markdown-text
-msgid "Open an issue on GitHub"
-msgstr ""
-
-#. type: Plain text
-#: _includes/footer.md.filt
-#, markdown-text
-msgid "Tech docs"
-msgstr ""
-
-#. type: Plain text
-#: _includes/footer.md.filt
-#, markdown-text
-msgid "Copyright &copy; 2020-2023 Arjan Molenaar and Dan Yeaw."
-msgstr ""
-
-#. type: Plain text
-#: _includes/footer.md.filt
-#, markdown-text
-msgid "Theme"
-msgstr ""
-
-#. type: Plain text
-#: _includes/content.md.filt
-#, markdown-text
-msgid "A picture is worth a thousand words. Describe and document your applications and systems with Gaphor to enhance knowledge sharing."
-msgstr ""
-
-#. type: Plain text
-#: _includes/content.md.filt
-#, markdown-text
-msgid "Gaphor is a UML, SysML, RAAML, and C4 modeling application. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models."
-msgstr ""
-
-#. type: Plain text
-#: _includes/content.md.filt
-#, markdown-text
-msgid "Build Class, Interaction, and State Machine diagrams for software or Block Definition and Requirements diagrams for systems. Model the elements you need. If you want to mix and match, you can even add different diagram items to the same diagram to get the view you need."
-msgstr ""
-
-#. type: Plain text
-#: _includes/content.md.filt
-#, markdown-text
-msgid "Customize the diagrams you create with our built-in styling engine."
-msgstr ""
-
-#. type: Plain text
-#: _includes/content.md.filt
-#, markdown-text
-msgid "Easily find all element of your model in the tree view."
-msgstr ""
-
-#. type: Plain text
-#: _includes/content.md.filt
-#, markdown-text
-msgid "Love dark mode? We can do that too."
-msgstr ""
-
-#. type: Plain text
-#: _includes/content.md.filt
-#, markdown-text
-msgid "There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
-msgstr ""
-
-#. type: Plain text
-#: _includes/content.md.filt
-#, markdown-text
-msgid "Do you want to know what's going on with Gaphor? Read our blog!"
-msgstr ""
-
-#. type: Plain text
-#: _includes/content.md.filt
-#, markdown-text
-msgid "Contact the team if you want to share content related to Gaphor."
-msgstr ""
-
-#. type: Plain text
-#: _includes/content.md.filt
-#, markdown-text
-msgid "See blog"
-msgstr ""
-
-#. type: Plain text
-#: _includes/content.md.filt
-#, markdown-text
-msgid "Read more"
-msgstr ""
-
-#. type: Plain text
-#: _includes/content.md.filt
-#, markdown-text
-msgid "Download"
-msgstr ""
-
-#. type: Plain text
-#: _includes/content.md.filt
-#, markdown-text
-msgid "Learn more"
-msgstr ""
-
-#. type: Plain text
-#: _includes/content.md.filt
-#, markdown-text
-msgid "About"
-msgstr ""
-
-#. type: Yaml Front Matter Hash Value: title
-#: _includes/content.md.filt tutorials.md.filt
-#, markdown-text, no-wrap
-msgid "Tutorials"
-msgstr ""
-
-#. type: Plain text
-#: _includes/content.md.filt
-#, markdown-text
-msgid "Blog"
-msgstr ""
-
-#. type: Yaml Front Matter Hash Value: title
-#: _includes/content.md.filt discuss.md.filt
-#, markdown-text, no-wrap
-msgid "Get in touch"
-msgstr ""
-
-#. type: Yaml Front Matter Hash Value: title
-#: _includes/content.md.filt contribute.md.filt
-#, markdown-text, no-wrap
-msgid "Contribute"
-msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/01-windows.md.filt
@@ -485,7 +347,7 @@ msgid "This page has moved to https:."
 msgstr ""
 
 #. type: Bullet: '2. '
-#: tutorials/your-first-model.md.filt tutorials.md.filt
+#: tutorials/your-first-model.md.filt _pages/tutorials.md.filt
 #, markdown-text, no-wrap
 msgid "Your First Model"
 msgstr ""
@@ -505,7 +367,7 @@ msgstr ""
 #. type: Plain text
 #: _usps/01-platform.md.filt
 #, markdown-text
-msgid "Gaphor works on all major platforms: Windows, Macos and Linux."
+msgid "Gaphor works on all major platforms: [Windows]({{ \"/download/#windows\" | prepend: site.baseurl }} %}), [Macos]({{ \"/download/#macos\" | prepend: site.baseurl }} %} and [Linux]({{ \"/download/#linux\" | prepend: site.baseurl }} %}."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
@@ -568,122 +430,140 @@ msgstr ""
 msgid "Gaphor implements the UML, SysML, and RAAML OMG standards. It also includes support for the C4 model for visualizing software architectures."
 msgstr ""
 
+#. type: Yaml Front Matter Hash Value: title
+#: _pages/contribute.md.filt
+#, no-wrap
+msgid "Contribute"
+msgstr ""
+
 #. type: Plain text
-#: contribute.md.filt
+#: _pages/contribute.md.filt
 #, markdown-text
 msgid "Would you like to contribute to the development of Gaphor? (If you think this is only something for experienced developers, please reconsider, there are plenty of ways to contribute to Gaphor, no matter your level of experience or skill set."
 msgstr ""
 
 #. type: Plain text
-#: contribute.md.filt
+#: _pages/contribute.md.filt
 #, markdown-text
 msgid "Our technical documentation is hosted on the wonderful service that is Read the Docs. Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
 msgstr ""
 
 #. type: Plain text
-#: contribute.md.filt
+#: _pages/contribute.md.filt
 #, markdown-text
 msgid "The source code is hosted on GitHub."
 msgstr ""
 
 #. type: Plain text
-#: contribute.md.filt
+#: _pages/contribute.md.filt
 #, markdown-text
 msgid "If in doubt, just ask in our discussion area and someone will be able to point you in the right direction."
 msgstr ""
 
+#. type: Yaml Front Matter Hash Value: title
+#: _pages/discuss.md.filt
+#, no-wrap
+msgid "Get in touch"
+msgstr ""
+
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, markdown-text
 msgid "It's good to talk, share knowledge and learn from other users of Gaphor. Perhaps you have a question, problem or are unsure how to do something with Gaphor? Discussing such things in a supportive environment is a good way to make progress, make friends, and help. Put simply, Gaphor is a community focused project, and we have created a couple of online spaces where the community can come together."
 msgstr ""
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, markdown-text
 msgid "Contributions are welcome without prejudice from anyone irrespective of age, gender, religion, race, or sexuality. If you’re thinking, \"but they don't mean me\", then we especially mean YOU."
 msgstr ""
 
 #. type: Title ##
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, markdown-text, no-wrap
 msgid "Chat on Gitter"
 msgstr ""
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, markdown-text
 msgid "Our real-time conversations are on Gitter and are bridged to Matrix.  Matrix is the preferred way, since it's more use friendly than bare Gitter."
 msgstr ""
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, markdown-text, no-wrap
 msgid " Join Matrix with Element.io\n"
 msgstr ""
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, markdown-text, no-wrap
 msgid " Join Gitter Chat\n"
 msgstr ""
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, markdown-text
 msgid "NB. If you're using a mobile device, use the Element app (for Matrix), the Gitter app is no longer supported."
 msgstr ""
 
 #. type: Title ##
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, markdown-text, no-wrap
 msgid "Submit an Issue on GitHub"
 msgstr ""
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, markdown-text
 msgid "Please use our GitHub issue tracker for general questions and reporting bugs.  Before submitting a GitHub issue please review our page about how to report a bug in Gaphor."
 msgstr ""
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, markdown-text, no-wrap
 msgid " Submit an Issue on GitHub\n"
 msgstr ""
 
 #. type: Title ##
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, markdown-text, no-wrap
 msgid "Community Conduct"
 msgstr ""
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, markdown-text
 msgid "We expect contributors to follow the Code of Conduct."
 msgstr ""
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, markdown-text
 msgid "We want our community to be a safe, welcoming and friendly place.  We won't hesitate to issue a clear warning and, if ignored, ban people who don't behave in the spirit of the code of conduct. If a conduct related situation arises, we will endeavour to act in a discreet, sympathetic and fair manner to all concerned."
 msgstr ""
 
+#. type: Yaml Front Matter Hash Value: title
+#: _pages/tutorials.md.filt
+#, no-wrap
+msgid "Tutorials"
+msgstr ""
+
 #. type: Plain text
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, markdown-text
 msgid "Each tutorial is a self-contained lesson, explaining a specific aspect of Gaphor, so you have the skills needed to achieve your learning and modeling goals."
 msgstr ""
 
 #. type: Bullet: '1. '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, markdown-text
 msgid "Get Started with Gaphor"
 msgstr ""
 
 #. type: Plain text
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, markdown-text, no-wrap
 msgid ""
 "3.  Introduction to Gaphor and\n"
@@ -693,127 +573,127 @@ msgid ""
 msgstr ""
 
 #. type: Title ##
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, markdown-text, no-wrap
 msgid "Advanced topics"
 msgstr ""
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, markdown-text
 msgid "Extend your models with stereotypes"
 msgstr ""
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, markdown-text
 msgid "Writing a plugin"
 msgstr ""
 
 #. type: Plain text
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, markdown-text
 msgid "- Technical and architectural documentation for contributors and plugin developers"
 msgstr ""
 
 #. type: Title ##
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, markdown-text, no-wrap
 msgid "Talks"
 msgstr ""
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, markdown-text
 msgid "Dan and Arjan spoke at Linux App Summit 2021 about how Gaphor is made available to all desktop platforms Linux/Windows/macOS."
 msgstr ""
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, markdown-text
 msgid "Dan spoke at the 2021 MIT STAMP Workshop about _Open STPA with RAAML and Gaphor_."
 msgstr ""
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, markdown-text
 msgid "Arjan spoke at GUADEC 2021 about Large GUI application with Python and GTK."
 msgstr ""
 
 #. type: Title ##
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, markdown-text, no-wrap
 msgid "What other people say"
 msgstr ""
 
 #. type: Plain text
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, markdown-text
 msgid "There are some 10+ year old articles on Gaphor on the web. Some more recent articles are:"
 msgstr ""
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, markdown-text
 msgid "Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10."
 msgstr ""
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, markdown-text
 msgid "It's FOSS has a short write-up on Gaphor (~2.8-ish?)."
 msgstr ""
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, markdown-text
 msgid "Ubuntu Pit has a nice article on Gaphor (~2.8-ish?)."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
-#: download.md.filt
+#: _pages/download.md.filt
 #, no-wrap
 msgid "Download Gaphor"
 msgstr ""
 
 #. type: Plain text
-#: download.md.filt
+#: _pages/download.md.filt
 #, markdown-text
 msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
 msgstr ""
 
 #. type: Plain text
-#: download.md.filt
+#: _pages/download.md.filt
 #, markdown-text
 msgid "If you're a developer, you can find the source code on GitHub."
 msgstr ""
 
 #. type: Title #
-#: 404.md.filt
+#: _pages/404.md.filt
 #, markdown-text, no-wrap
 msgid "404"
 msgstr ""
 
 #. type: Plain text
-#: 404.md.filt
+#: _pages/404.md.filt
 #, markdown-text, no-wrap
 msgid "**Page not found :(**\n"
 msgstr ""
 
 #. type: Plain text
-#: 404.md.filt
+#: _pages/404.md.filt
 #, markdown-text
 msgid "The requested page could not be found."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
-#: index.md.filt
+#: _pages/index.md.filt
 #, no-wrap
 msgid "Modeling for Everyone"
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
-#: blog.md.filt
+#: _pages/blog.md.filt
 #, no-wrap
 msgid "Blog and News"
 msgstr ""
