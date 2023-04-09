@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-08 18:18-0400\n"
+"POT-Creation-Date: 2023-04-08 22:11-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -367,7 +367,7 @@ msgstr ""
 #. type: Plain text
 #: _usps/01-platform.md.filt
 #, markdown-text
-msgid "Gaphor works on all major platforms: [Windows]({{ \"/download/#windows\" | prepend: site.baseurl }} %}), [Macos]({{ \"/download/#macos\" | prepend: site.baseurl }} %} and [Linux]({{ \"/download/#linux\" | prepend: site.baseurl }} %}."
+msgid "Gaphor works on all major platforms: Windows, Macos, and Linux."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
@@ -379,7 +379,7 @@ msgstr ""
 #. type: Plain text
 #: _usps/02-opensource.md.filt
 #, markdown-text
-msgid "No vendor lock-in: Gaphor written in Python and is 100% Open Source, available under a friendly Apache 2 license."
+msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly Apache 2 license."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title

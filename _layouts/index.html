@@ -19,8 +19,8 @@ layout: bare
                         <div class="section-description">
                             <p>{{ site.data.strings.index.thousand-words }}</p>
                         </div>
-                        <a href="{{ '/#about' | prepend: site.baseurl }}" title="{{ learn }}" class="btn header-button-one">{{ learn }}</a>
-                        <a href="download" title="{{ download }}" class="btn header-button-two">{{ download }}</a>
+                        <a href="{{ '/#about' | prepend: site.baseurl }}" title="{{ site.data.strings.index.learn }}" class="btn header-button-one">{{ site.data.strings.index.learn }}</a>
+                        <a href="download" title="{{ site.data.strings.menu.download }}" class="btn header-button-two">{{ site.data.strings.menu.download }}</a>
                     </div>
                 </div>
             </div>
@@ -28,7 +28,7 @@ layout: bare
     </header>
 </div>
 
-{% include services.html id="about" title=about description=about-content services=site.usps %}
+{% include services.html id="about" title=site.data.strings.menu.about description=site.data.strings.index.about-content services=site.usps %}
 
 <section class="container">
     <div class="row mb-4">
@@ -36,7 +36,7 @@ layout: bare
             <img src="{{ '/images/screenshot-interaction.png' | prepend: site.baseurl }}" alt="interaction" />
         </div>
         <p class="col-12 align-items-center text-center col-md-6 d-md-flex text-md-left col-lg-4 offset-lg-1">
-            {{ build }}
+            {{ site.data.strings.index.build }}
         </p>
 
     </div>
@@ -45,7 +45,7 @@ layout: bare
             <img src="{{ '/images/screenshot-styles.png' | prepend: site.baseurl }}" alt="styles" />
         </div>
         <p class="col-12 align-items-center text-center col-md-6 d-md-flex text-md-right col-lg-4 offset-lg-1">
-            {{ styling-engine }}
+            {{ site.data.strings.index.styling-engine }}
         </p>
     </div>
     <div class="row mb-4">
@@ -53,7 +53,7 @@ layout: bare
             <img src="{{ '/images/screenshot-namespace.png' | prepend: site.baseurl }}" alt="Tree view detail" />
         </div>
         <p class="col-12 align-items-center text-center col-md-6 d-md-flex text-md-left col-lg-4 offset-lg-1">
-            {{ treeview }}
+            {{ site.data.strings.index.treeview }}
         </p>
     </div>
     <div class="row mb-4 flex-row-reverse">
@@ -61,14 +61,14 @@ layout: bare
             <img src="{{ '/images/screenshot-dark-mode.png' | prepend: site.baseurl }}" alt="styles" />
         </div>
         <p class="col-12 align-items-center text-center col-md-6 d-md-flex text-md-right col-lg-4 offset-lg-1">
-            {{ dark-mode }}
+            {{ site.data.strings.index.dark-mode }}
         </p>
     </div>
 </section>
 
 <section id="download" class="front-page-section">
 
-    {% include section-header.html title=download description=download-content %}
+    {% include section-header.html title=site.data.strings.menu.download description=site.data.strings.index.download-content %}
 
     <div class="section-content">
         <div class="container">

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-08 18:18-0400\n"
+"POT-Creation-Date: 2023-04-08 22:05-0400\n"
 "PO-Revision-Date: 2023-03-13 10:41+0000\n"
 "Last-Translator: Óscar Fernández Díaz <oscfdezdz@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/es/>\n"
@@ -18,27 +18,27 @@ msgstr ""
 "X-Generator: Weblate 4.16.2-dev\n"
 
 #. type: Yaml Front Matter Hash Value: title
-#: _platforms/01-windows.md.filt
+#: _platforms/01-windows.md
 #, no-wrap
 msgid "Windows"
 msgstr "Windows"
 
 #. type: Plain text
-#: _platforms/01-windows.md.filt
+#: _platforms/01-windows.md
 #, no-wrap
-msgid " Download installer\n"
-msgstr " Descargar instalador\n"
+msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-installer.exe\"><i class=\"fa fa-download\"></i> Download installer</a>\n"
+msgstr ""
 
 #. type: Plain text
-#: _platforms/01-windows.md.filt
+#: _platforms/01-windows.md
 msgid "Alternatively a portable version of Gaphor can be downloaded."
 msgstr "También se puede descargar una versión portable de Gaphor."
 
 #. type: Plain text
-#: _platforms/01-windows.md.filt
+#: _platforms/01-windows.md
 #, no-wrap
-msgid " Download portable version\n"
-msgstr " Descargar versión portable\n"
+msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-portable.exe\"><i class=\"fa fa-download\"></i> Download portable version</a>\n"
+msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/02-macos.md.filt
@@ -323,14 +323,14 @@ msgid "This page has been moved to https:."
 msgstr "Esta página se ha movido a https:."
 
 #. type: Yaml Front Matter Hash Value: title
-#: _usps/01-platform.md.filt
+#: _usps/01-platform.md
 #, no-wrap
 msgid "Multi-platform"
 msgstr "Multiplataforma"
 
 #. type: Plain text
-#: _usps/01-platform.md.filt
-msgid "Gaphor works on all major platforms: [Windows]({{ \"/download/#windows\" | prepend: site.baseurl }} %}), [Macos]({{ \"/download/#macos\" | prepend: site.baseurl }} %} and [Linux]({{ \"/download/#linux\" | prepend: site.baseurl }} %}."
+#: _usps/01-platform.md
+msgid "Gaphor works on all major platforms: [Windows]({{ \"/download/#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download/#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download/#linux\" | prepend: site.baseurl }})."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
@@ -341,7 +341,9 @@ msgstr "Código abierto"
 
 #. type: Plain text
 #: _usps/02-opensource.md.filt
-msgid "No vendor lock-in: Gaphor written in Python and is 100% Open Source, available under a friendly Apache 2 license."
+#, fuzzy
+#| msgid "No vendor lock-in: Gaphor written in Python and is 100% Open Source, available under a friendly Apache 2 license."
+msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly Apache 2 license."
 msgstr "No hay bloqueo de proveedores: Gaphor está escrito en Python y es 100% de código abierto, disponible bajo una amigable licencia Apache 2."
 
 #. type: Yaml Front Matter Hash Value: title
@@ -634,6 +636,19 @@ msgstr "Modelado para todos"
 msgid "Blog and News"
 msgstr "Blog y noticias"
 
+#, no-wrap
+#~ msgid " Download installer\n"
+#~ msgstr " Descargar instalador\n"
+
+#, no-wrap
+#~ msgid " Download portable version\n"
+#~ msgstr " Descargar versión portable\n"
+
+#, fuzzy
+#~| msgid "Gaphor works on all major platforms: Windows, Macos and Linux."
+#~ msgid "Gaphor works on all major platforms: Windows, Macos, and Linux."
+#~ msgstr "Gaphor funciona en las principales plataformas: Windows, Macos y Linux."
+
 #~ msgid "We love to hear from you"
 #~ msgstr "Nos encantaría saber de usted"
 
@@ -693,9 +708,6 @@ msgstr "Blog y noticias"
 
 #~ msgid "Blog"
 #~ msgstr "Blog"
-
-#~ msgid "Gaphor works on all major platforms: Windows, Macos and Linux."
-#~ msgstr "Gaphor funciona en las principales plataformas: Windows, Macos y Linux."
 
 #~ msgid "It's also possible to provide a query as part of the selection:"
 #~ msgstr "También es posible proporcionar una consulta como parte de la selección:"

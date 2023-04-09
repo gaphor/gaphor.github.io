@@ -1,4 +1,47 @@
 index:
   thousand-words: >
-    A picture is worth a thousand words. Describe and document your applications and
-    systems with Gaphor to enhance knowledge sharing.
+    A picture is worth a thousand words. Describe and document your
+    applications and systems with Gaphor to enhance knowledge sharing.
+  learn: Learn more
+  about-content: >
+    Gaphor is a UML, SysML, RAAML, and C4 modeling application. It is designed
+    to be easy to use, while still being powerful. Gaphor implements a
+    fully-compliant UML 2 data model, so it is much more than a picture drawing
+    tool. You can use Gaphor to quickly visualize different aspects of a system
+    as well as create complete, highly complex models.
+  build: >
+    Build Class, Interaction, and State Machine diagrams for software or Block
+    Definition and Requirements diagrams for systems. Model the elements you
+    need. If you want to mix and match, you can even add different diagram
+    items to the same diagram to get the view you need.
+  styling-engine: Customize the diagrams you create with our built-in styling engine.
+  treeview: Easily find all element of your model in the tree view.
+  dark-mode: Love dark mode? We can do that too.
+  download-content: >
+    There are many ways to install Gaphor. The simplest is to download the
+    official installer for Windows or macOS. For Linux you can install Gaphor
+    using FlatHub. You can also use Python's built-in `pip` tool as long as you
+    have all the required dependencies installed.
+latest-news:
+  blog-content: |
+    Do you want to know what's going on with Gaphor? Read our blog!
+  
+    [Contact the team]({{ "/discuss/" | prepend: site.baseurl }})
+    if you want to share content related to Gaphor.
+  see-blog: See blog
+  read-more: Read more
+  download: Download
+  blog-and-news: Blog and News
+menu:
+  about: About
+  download: Download
+  tutorials: Tutorials
+  blog: Blog
+  discuss: Get in touch
+  contribute: Contribute
+footer:
+  love: We love to hear from you
+  open-issue: Open an issue on GitHub
+  tech-docs: Tech docs
+  copyright: Copyright &copy; 2020-2023 Arjan Molenaar and Dan Yeaw.
+  theme: Theme
