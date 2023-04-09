@@ -19,3 +19,4 @@ jobs:
       - uses: helaili/jekyll-action@2.5.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          pre_build_commands: python po/build.py
