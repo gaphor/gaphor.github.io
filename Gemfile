@@ -1,3 +1,6 @@
 source "https://rubygems.org"
 gem "github-pages"
-gem "jekyll-polyglot"
+
+group :jekyll_plugins do
+  gem 'jekyll-polyglot', '~> 1.5.1'
+end
