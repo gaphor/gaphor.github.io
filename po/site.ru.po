@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-08 22:05-0400\n"
+"POT-Creation-Date: 2023-04-09 12:57-0400\n"
 "PO-Revision-Date: 2023-01-18 14:49+0000\n"
 "Last-Translator: BrainKicker <peter.sabanov@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/ru/>\n"
@@ -18,27 +18,27 @@ msgstr ""
 "X-Generator: Weblate 4.16-dev\n"
 
 #. type: Yaml Front Matter Hash Value: title
-#: _platforms/01-windows.md
+#: _platforms/01-windows.md.filt
 #, no-wrap
 msgid "Windows"
 msgstr "Windows"
 
 #. type: Plain text
-#: _platforms/01-windows.md
+#: _platforms/01-windows.md.filt
 #, no-wrap
-msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-installer.exe\"><i class=\"fa fa-download\"></i> Download installer</a>\n"
-msgstr ""
+msgid " Download installer\n"
+msgstr " Скачать установщик\n"
 
 #. type: Plain text
-#: _platforms/01-windows.md
+#: _platforms/01-windows.md.filt
 msgid "Alternatively a portable version of Gaphor can be downloaded."
 msgstr "Также вы можете загрузить портативную версию Gaphor."
 
 #. type: Plain text
-#: _platforms/01-windows.md
+#: _platforms/01-windows.md.filt
 #, no-wrap
-msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-portable.exe\"><i class=\"fa fa-download\"></i> Download portable version</a>\n"
-msgstr ""
+msgid " Download portable version\n"
+msgstr " Скачать портативную версию\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/02-macos.md.filt
@@ -308,7 +308,7 @@ msgstr "Начните работу с Gaphor"
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt
-msgid "This page has moved to https:."
+msgid "This page has moved to https://gaphor.readthedocs.io/en/latest/getting_started.html."
 msgstr ""
 
 #. type: Bullet: '2. '
@@ -319,18 +319,18 @@ msgstr ""
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
-msgid "This page has been moved to https:."
+msgid "This page has been moved to https://docs.gaphor.org/en/latest/first_model.html."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
-#: _usps/01-platform.md
+#: _usps/01-platform.md.filt
 #, no-wrap
 msgid "Multi-platform"
 msgstr ""
 
 #. type: Plain text
-#: _usps/01-platform.md
-msgid "Gaphor works on all major platforms: [Windows]({{ \"/download/#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download/#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download/#linux\" | prepend: site.baseurl }})."
+#: _usps/01-platform.md.filt
+msgid "Gaphor works on all major platforms: Windows, Macos, and Linux."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
@@ -638,96 +638,3 @@ msgstr "Моделирование для Всех"
 #, no-wrap
 msgid "Blog and News"
 msgstr "Блог и Новости"
-
-#, no-wrap
-#~ msgid " Download installer\n"
-#~ msgstr " Скачать установщик\n"
-
-#, no-wrap
-#~ msgid " Download portable version\n"
-#~ msgstr " Скачать портативную версию\n"
-
-#~ msgid "We love to hear from you"
-#~ msgstr "Мы рады услышать вас"
-
-#, fuzzy
-#~| msgid " Tech docs\n"
-#~ msgid "Tech docs"
-#~ msgstr " Техническая документация\n"
-
-#, fuzzy
-#~| msgid "Copyright &copy; 2020-2022 Arjan Molenaar and Dan Yeaw."
-#~ msgid "Copyright &copy; 2020-2023 Arjan Molenaar and Dan Yeaw."
-#~ msgstr "Авторское право &copy; 2001-2022 Arjan Molenaar и Dan Yeaw."
-
-#~ msgid "Theme"
-#~ msgstr "Тема"
-
-#~ msgid "A picture is worth a thousand words. Describe and document your applications and systems with Gaphor to enhance knowledge sharing."
-#~ msgstr "Картинка стоит тысячи слов. Описывайте и документируйте свои приложения и системы с помощью Gaphor, чтобы улучшить обмен знаниями."
-
-#~ msgid "Gaphor is a UML, SysML, RAAML, and C4 modeling application. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models."
-#~ msgstr "Gaphor - это приложение для моделирования на основе UML, SysML, RAAML и C4. Оно создано простым в использовании, но при этом является мощным. Gaphor реализует полностью совместимую с UML 2 модель данных, поэтому это гораздо больше, чем инструмент для рисования картинок. Вы можете использовать Gaphor для быстрой визуализации различных аспектов системы, а также для создания полных, очень сложных моделей."
-
-#~ msgid "Build Class, Interaction, and State Machine diagrams for software or Block Definition and Requirements diagrams for systems. Model the elements you need. If you want to mix and match, you can even add different diagram items to the same diagram to get the view you need."
-#~ msgstr "Стройте диаграммы Классов, Взаимодействий и Машин Состояний для программного обеспечения или диаграммы Определения Блоков и Требований для систем. Моделируйте необходимые вам элементы. Если вы хотите смешивать и сочетать, вы можете даже добавить элементы различных диаграмм в одну и ту же диаграмму, чтобы получить нужное вам представление."
-
-#~ msgid "Customize the diagrams you create with our built-in styling engine."
-#~ msgstr "Настраивайте создаваемые диаграммы с помощью встроенного механизма стилизации."
-
-#~ msgid "Easily find all element of your model in the tree view."
-#~ msgstr "Легко находите все элементы модели в древовидном представлении."
-
-#~ msgid "Love dark mode? We can do that too."
-#~ msgstr "Любите тёмный режим? Это мы тоже умеем."
-
-#~ msgid "Do you want to know what's going on with Gaphor? Read our blog!"
-#~ msgstr "Хотите знать, что происходит с Gaphor? Читайте наш блог!"
-
-#~ msgid "Contact the team if you want to share content related to Gaphor."
-#~ msgstr "Свяжитесь с командой, если вы хотите поделиться контентом, связанным с Gaphor."
-
-#~ msgid "See blog"
-#~ msgstr "Смотреть блог"
-
-#~ msgid "Read more"
-#~ msgstr "Узнать больше"
-
-#~ msgid "Learn more"
-#~ msgstr "Узнать больше"
-
-#~ msgid "About"
-#~ msgstr "О нас"
-
-#~ msgid "Blog"
-#~ msgstr "Блог"
-
-#~ msgid "Once Gaphor is launched, it provides you an almost empty user interface.  A new model is already created and the diagram is opened."
-#~ msgstr "Как только Gaphor запущен, он предоставляет вам почти пустой пользовательский интерфейс.  Новая модель уже создана, и диаграмма открыта."
-
-#~ msgid "The layout of the Gaphor interface is divided into four sections, namely:"
-#~ msgstr "Структура интерфейса Gaphor разделена на четыре секции, а именно:"
-
-#, no-wrap
-#~ msgid "Navigation"
-#~ msgstr "Навигация"
-
-#~ msgid "Diagrams"
-#~ msgstr "Диаграммы"
-
-#~ msgid "Diagram Element Toolbox"
-#~ msgstr "Панель Элементов Диаграммы"
-
-#~ msgid "Properties pane"
-#~ msgstr "Панель свойств"
-
-#~ msgid "Each section has its own specific function."
-#~ msgstr "Каждая секция имеет свою определённую функцию."
-
-#, no-wrap
-#~ msgid "Copy and Paste"
-#~ msgstr "Копирование и Вставка"
-
-#, no-wrap
-#~ msgid "Drag and Drop"
-#~ msgstr "Перетаскивание"

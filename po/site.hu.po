@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-08 22:05-0400\n"
+"POT-Creation-Date: 2023-04-09 12:57-0400\n"
 "PO-Revision-Date: 2022-10-21 04:02+0000\n"
 "Last-Translator: ovari <ovari123@zoho.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hu/>\n"
@@ -18,26 +18,26 @@ msgstr ""
 "X-Generator: Weblate 4.14.2-dev\n"
 
 #. type: Yaml Front Matter Hash Value: title
-#: _platforms/01-windows.md
+#: _platforms/01-windows.md.filt
 #, no-wrap
 msgid "Windows"
 msgstr "Windows"
 
 #. type: Plain text
-#: _platforms/01-windows.md
+#: _platforms/01-windows.md.filt
 #, no-wrap
-msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-installer.exe\"><i class=\"fa fa-download\"></i> Download installer</a>\n"
-msgstr ""
+msgid " Download installer\n"
+msgstr " Telepítő letöltése\n"
 
 #. type: Plain text
-#: _platforms/01-windows.md
+#: _platforms/01-windows.md.filt
 msgid "Alternatively a portable version of Gaphor can be downloaded."
 msgstr ""
 
 #. type: Plain text
-#: _platforms/01-windows.md
+#: _platforms/01-windows.md.filt
 #, no-wrap
-msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-portable.exe\"><i class=\"fa fa-download\"></i> Download portable version</a>\n"
+msgid " Download portable version\n"
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
@@ -48,10 +48,9 @@ msgstr "macOS"
 
 #. type: Plain text
 #: _platforms/02-macos.md.filt
-#, fuzzy, no-wrap
-#| msgid " Download AppImage\n"
+#, no-wrap
 msgid " Download .dmg\n"
-msgstr " Az AppImage letöltése\n"
+msgstr ""
 
 #. type: Plain text
 #: _platforms/02-macos.md.filt
@@ -115,10 +114,9 @@ msgstr ""
 
 #. type: Title ###
 #: _platforms/03-linux.md.filt
-#, fuzzy, no-wrap
-#| msgid "Linux"
+#, no-wrap
 msgid "Arch Linux"
-msgstr "Linux"
+msgstr "Arch Linux"
 
 #. type: Plain text
 #: _platforms/03-linux.md.filt
@@ -310,7 +308,7 @@ msgstr ""
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt
-msgid "This page has moved to https:."
+msgid "This page has moved to https://gaphor.readthedocs.io/en/latest/getting_started.html."
 msgstr ""
 
 #. type: Bullet: '2. '
@@ -321,18 +319,18 @@ msgstr ""
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
-msgid "This page has been moved to https:."
+msgid "This page has been moved to https://docs.gaphor.org/en/latest/first_model.html."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
-#: _usps/01-platform.md
+#: _usps/01-platform.md.filt
 #, no-wrap
 msgid "Multi-platform"
 msgstr "Többplatformos"
 
 #. type: Plain text
-#: _usps/01-platform.md
-msgid "Gaphor works on all major platforms: [Windows]({{ \"/download/#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download/#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download/#linux\" | prepend: site.baseurl }})."
+#: _usps/01-platform.md.filt
+msgid "Gaphor works on all major platforms: Windows, Macos, and Linux."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
@@ -462,10 +460,9 @@ msgstr ""
 
 #. type: Title ##
 #: _pages/discuss.md.filt
-#, fuzzy, no-wrap
-#| msgid "Open an issue on GitHub"
+#, no-wrap
 msgid "Submit an Issue on GitHub"
-msgstr "Probléma megnyitása a GitHubon"
+msgstr ""
 
 #. type: Plain text
 #: _pages/discuss.md.filt
@@ -474,10 +471,9 @@ msgstr ""
 
 #. type: Plain text
 #: _pages/discuss.md.filt
-#, fuzzy, no-wrap
-#| msgid "Open an issue on GitHub"
+#, no-wrap
 msgid " Submit an Issue on GitHub\n"
-msgstr "Probléma megnyitása a GitHubon"
+msgstr ""
 
 #. type: Title ##
 #: _pages/discuss.md.filt
@@ -633,48 +629,3 @@ msgstr "Műszaki modellezés mindenki számára"
 #, no-wrap
 msgid "Blog and News"
 msgstr "Napló és hírek"
-
-#, no-wrap
-#~ msgid " Download installer\n"
-#~ msgstr " Telepítő letöltése\n"
-
-#, fuzzy, no-wrap
-#~| msgid " Download installer\n"
-#~ msgid " Download portable version\n"
-#~ msgstr " Telepítő letöltése\n"
-
-#~ msgid "Copyright &copy; 2020-2023 Arjan Molenaar and Dan Yeaw."
-#~ msgstr "Szerzői jog &copy; 2020-2022 Molenaar Arjan és Yeaw Dániel."
-
-#~ msgid "A picture is worth a thousand words. Describe and document your applications and systems with Gaphor to enhance knowledge sharing."
-#~ msgstr "Egy kép többet ér ezer szónál. Ismertesse és dokumentálja alkalmazásait és rendszereit a Gaphor segítségével a tudásmegosztás javítása érdekében."
-
-#~ msgid "Gaphor is a UML, SysML, RAAML, and C4 modeling application. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models."
-#~ msgstr "A Gaphor egy UML-, SysML-, RAAML- és C4-modellező-alkalmazás. Úgy tervezték, hogy könnyen használható legyen, ugyanakkor erős legyen. A Gaphor egy teljesen kompatibilis UML 2 adatmodellt valósít meg, tehát sokkal több, mint egy képrajzoló eszköz. A Gaphor segítségével gyorsan megjelenítheti a rendszer különböző aspektusait, valamint komplett, rendkívül összetett modelleket hozhat létre."
-
-#~ msgid "Do you want to know what's going on with Gaphor? Read our blog!"
-#~ msgstr "Szeretnéd tudni, mi történik Gaphorral? Olvassa el naplónkat!"
-
-#~ msgid "See blog"
-#~ msgstr "Napló megtekintése"
-
-#, fuzzy
-#~| msgid "Learn more"
-#~ msgid "Read more"
-#~ msgstr "További tájékoztatás"
-
-#~ msgid "Download"
-#~ msgstr "Letöltés"
-
-#~ msgid "Learn more"
-#~ msgstr "További tájékoztatás"
-
-#~ msgid "About"
-#~ msgstr "Rólunk"
-
-#~ msgid "Blog"
-#~ msgstr "Napló"
-
-#, no-wrap
-#~ msgid "Copy and Paste"
-#~ msgstr "Másolás és beillesztés"

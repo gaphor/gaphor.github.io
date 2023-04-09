@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-08 22:05-0400\n"
+"POT-Creation-Date: 2023-04-09 12:57-0400\n"
 "PO-Revision-Date: 2023-03-13 10:41+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/nl/>\n"
@@ -18,27 +18,27 @@ msgstr ""
 "X-Generator: Weblate 4.16.2-dev\n"
 
 #. type: Yaml Front Matter Hash Value: title
-#: _platforms/01-windows.md
+#: _platforms/01-windows.md.filt
 #, no-wrap
 msgid "Windows"
 msgstr "Windows"
 
 #. type: Plain text
-#: _platforms/01-windows.md
+#: _platforms/01-windows.md.filt
 #, no-wrap
-msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-installer.exe\"><i class=\"fa fa-download\"></i> Download installer</a>\n"
-msgstr ""
+msgid " Download installer\n"
+msgstr " Installer downloaden\n"
 
 #. type: Plain text
-#: _platforms/01-windows.md
+#: _platforms/01-windows.md.filt
 msgid "Alternatively a portable version of Gaphor can be downloaded."
 msgstr "Als alternatief kan een portable versie van Gaphor worden gedownload."
 
 #. type: Plain text
-#: _platforms/01-windows.md
+#: _platforms/01-windows.md.filt
 #, no-wrap
-msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-portable.exe\"><i class=\"fa fa-download\"></i> Download portable version</a>\n"
-msgstr ""
+msgid " Download portable version\n"
+msgstr " Portable versie downloaden\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/02-macos.md.filt
@@ -308,8 +308,8 @@ msgstr "Aan de slag met Gaphor"
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt
-msgid "This page has moved to https:."
-msgstr "Deze pagina is verhuisd naar https."
+msgid "This page has moved to https://gaphor.readthedocs.io/en/latest/getting_started.html."
+msgstr "Deze pagina is verhuisd naar https://gaphor.readthedocs.io/en/latest/getting_started.html."
 
 #. type: Bullet: '2. '
 #: tutorials/your-first-model.md.filt _pages/tutorials.md.filt
@@ -319,19 +319,19 @@ msgstr "Uw eerste model"
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
-msgid "This page has been moved to https:."
-msgstr "Deze pagina is verhuisd naar https."
+msgid "This page has been moved to https://docs.gaphor.org/en/latest/first_model.html."
+msgstr "Deze pagina is verhuisd naar https://docs.gaphor.org/en/latest/first_model.html."
 
 #. type: Yaml Front Matter Hash Value: title
-#: _usps/01-platform.md
+#: _usps/01-platform.md.filt
 #, no-wrap
 msgid "Multi-platform"
 msgstr "Multi-platform"
 
 #. type: Plain text
-#: _usps/01-platform.md
-msgid "Gaphor works on all major platforms: [Windows]({{ \"/download/#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download/#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download/#linux\" | prepend: site.baseurl }})."
-msgstr ""
+#: _usps/01-platform.md.filt
+msgid "Gaphor works on all major platforms: Windows, Macos, and Linux."
+msgstr "Gaphor werkt op alle grote platformen: Windows, macOS en Linux."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/02-opensource.md.filt
@@ -341,8 +341,6 @@ msgstr "Open source"
 
 #. type: Plain text
 #: _usps/02-opensource.md.filt
-#, fuzzy
-#| msgid "No vendor lock-in: Gaphor written in Python and is 100% Open Source, available under a friendly Apache 2 license."
 msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly Apache 2 license."
 msgstr "Geen vendor lock-in: Gaphor is geschreven in Python, is 100% open source en is beschikbaar onder de vriendelijke licentie Apache 2."
 
@@ -633,76 +631,3 @@ msgstr "Modelleren voor iedereen"
 #, no-wrap
 msgid "Blog and News"
 msgstr "Blog en nieuws"
-
-#, no-wrap
-#~ msgid " Download installer\n"
-#~ msgstr " Installer downloaden\n"
-
-#, no-wrap
-#~ msgid " Download portable version\n"
-#~ msgstr " Portable versie downloaden\n"
-
-#, fuzzy
-#~| msgid "Gaphor works on all major platforms: Windows, Macos and Linux."
-#~ msgid "Gaphor works on all major platforms: Windows, Macos, and Linux."
-#~ msgstr "Gaphor werkt op alle grote platformen: Windows, macOS en Linux."
-
-#~ msgid "We love to hear from you"
-#~ msgstr "We horen graag van u"
-
-#~ msgid "Open an issue on GitHub"
-#~ msgstr "Een issue openen op GitHub"
-
-#~ msgid "Tech docs"
-#~ msgstr "Technische documentatie"
-
-#~ msgid "Copyright &copy; 2020-2023 Arjan Molenaar and Dan Yeaw."
-#~ msgstr "Copyright &copy; 2020-2023, Arjan Molenaar en Dan Yeaw"
-
-#~ msgid "Theme"
-#~ msgstr "Thema"
-
-#~ msgid "A picture is worth a thousand words. Describe and document your applications and systems with Gaphor to enhance knowledge sharing."
-#~ msgstr "Eén beeld zegt meer dan duizend woorden. Beschrijf en documenteer uw apps en systemen met Gaphor om het delen van kennis te verbeteren."
-
-#~ msgid "Gaphor is a UML, SysML, RAAML, and C4 modeling application. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models."
-#~ msgstr "Gaphor is een modelleer-app voor UML, SysML, RAAML en C4. Het is ontworpen om gemakkelijk te gebruiken en toch krachtig te zijn. Gaphor implementeert een gegevensmodel dat volledig compatibel is met UML 2, en is dus veel meer dan een tekenprogramma. U kunt Gaphor gebruiken om snel verschillende aspecten van een systeem te visualiseren, maar ook om complete, zeer complexe modellen te maken."
-
-#~ msgid "Build Class, Interaction, and State Machine diagrams for software or Block Definition and Requirements diagrams for systems. Model the elements you need. If you want to mix and match, you can even add different diagram items to the same diagram to get the view you need."
-#~ msgstr "Bouw klasse-, interactie- en toestands­machine­diagrammen voor software, of blok­definitie- en eisen­diagrammen voor systemen. Modelleer de elementen die u nodig heeft. Als u wilt mixen en matchen, kunt u zelfs verschillende diagram­onderdelen aan hetzelfde diagram toevoegen om het gewenste beeld te krijgen."
-
-#~ msgid "Customize the diagrams you create with our built-in styling engine."
-#~ msgstr "Pas de diagrammen die u maakt aan met onze ingebouwde stijlmotor."
-
-#~ msgid "Easily find all element of your model in the tree view."
-#~ msgstr "Vind gemakkelijk alle elementen van uw model in het boomoverzicht."
-
-#~ msgid "Love dark mode? We can do that too."
-#~ msgstr "Fan van donkere modus? Die is er ook."
-
-#~ msgid "There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
-#~ msgstr "Er zijn vele manieren om Gaphor te installeren. De eenvoudigste is om de officiële installer voor Windows of macOS te downloaden. Voor Linux kunt u Gaphor installeren via Flathub. U kunt ook de ingebouwde `pip`-tool van Python gebruiken, zolang u alle vereiste afhankelijkheden heeft geïnstalleerd."
-
-#~ msgid "Do you want to know what's going on with Gaphor? Read our blog!"
-#~ msgstr "Wilt u op de hoogte blijven van ontwikkelingen binnen Gaphor? Lees dan onze blog!"
-
-#~ msgid "Contact the team if you want to share content related to Gaphor."
-#~ msgstr "Neem contact op met het team als u inhoud met betrekking tot Gaphor wilt delen."
-
-#~ msgid "See blog"
-#~ msgstr "Blog bekijken"
-
-#~ msgid "Read more"
-#~ msgstr "Meer lezen"
-
-#~ msgid "Download"
-#~ msgstr "Downloaden"
-
-#~ msgid "Learn more"
-#~ msgstr "Meer te weten komen"
-
-#~ msgid "About"
-#~ msgstr "Over"
-
-#~ msgid "Blog"
-#~ msgstr "Blog"

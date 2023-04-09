@@ -23,10 +23,7 @@ code_block = r"^(?:\ {4}.+\n)+(?!)|^```(?:[^`]+|`(?!``))*```"
 # Note links with [1](#note1)
 note_link = r"\[\d\]\(#[^ ]+(?: '.+')?\)"
 
-# Redirects like redirect_from: /pages/download.html
-redirects = r"\/.+?.html"
-
-re_list = [html_tags, liquid_capture, code_block, note_link, redirects]
+re_list = [html_tags, liquid_capture, code_block, note_link]
 
 
 def strip_markdown_urls(markdown):
