@@ -838,9 +838,9 @@ msgstr "Blog i Novosti"
 #~ msgstr "Postoji mnogo načina za instaliranje Gaphora. Najjednostavnije je preuzeti službeni instalacijski program za Windows ili macOS. Za Linux se Gaphor može instalirati koristeći FlatHub. Također je moguće koristiti Pythonov ugrađeni `pip` alat ukoliko su sve potrebne ovisnosti instalirane."
 
 #, fuzzy, no-wrap
-#~| msgid "Tutorials"
-#~ msgid "Tutorials\n"
-#~ msgstr "Vježbe"
+#~| msgid "tutorials"
+#~ msgid "tutorials\n"
+#~ msgstr "vježbe"
 
 #, fuzzy, no-wrap
 #~| msgid "Get in touch"
