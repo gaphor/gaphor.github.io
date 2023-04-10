@@ -45,6 +45,8 @@ defaults:
 
 permalink: pretty
 
+include:
+  - "_pages"
 collections:
   usps:
   platforms:
@@ -59,11 +61,29 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-polyglot
 
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - CONTRIBUTING.md
   - LICENSE.txt
+  - Makefile
   - images/*.xcf
-  - '*.filt'
+
+languages: ["en", "cs", "es", "hr", "hu", "nl", "ru", "tr"]
+parallel_localization: true
+lang_from_path: true
+# Specifying the default language as "_" forces polyglot to generate a
+# en/ subdirectory too (with correct links). See
+# https://github.com/untra/polyglot/issues/60
+default_lang: "_"
+# exclude these regexp chunks based on what is in the href=""
+exclude_from_localization:
+  - .editorconfig
+  - .gitignore
+  - CNAME
+  - css/
+  - images
+  - po/

@@ -1,7 +1,7 @@
 <nav class="col-12 d-flex justify-content-end language-navigation">
  <ul>
  {% for item in site.data.languages.languages %}
-  <li><a href="{{ site.baseurl | append: item.url }}">{{ item.title }}</a></li>
+  <li><a {% static_href %}href="{{ site.baseurl | append: item.url | append: page.url }}"{% endstatic_href %}>{{ item.title }}</a></li>
  {% endfor %}
  </ul>
 </nav>

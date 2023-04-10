@@ -7,3 +7,9 @@ Gemfile.lock
 
 # Filter files from po/filter-markdown.py
 *.filt
+
+# Translated markdown files
+_platforms/[a-z][a-z]/*.md
+_pages/[a-z][a-z]/*.md
+_usps/[a-z][a-z]/*.md
+tutorials/[a-z][a-z]/*.md

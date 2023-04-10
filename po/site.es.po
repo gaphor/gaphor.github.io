@@ -6,136 +6,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-03-11 13:10-0500\n"
+"POT-Creation-Date: 2023-04-09 12:57-0400\n"
 "PO-Revision-Date: 2023-03-13 10:41+0000\n"
-"Last-Translator: Óscar Fernández Díaz <oscfdezdz@users.noreply.hosted.weblate"
-".org>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/gaphor/"
-"gaphor-github-io/es/>\n"
+"Last-Translator: Óscar Fernández Díaz <oscfdezdz@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.2-dev\n"
-
-#. type: Plain text
-#: _includes/footer.md.filt
-msgid "We love to hear from you"
-msgstr "Nos encantaría saber de usted"
-
-#. type: Plain text
-#: _includes/footer.md.filt
-msgid "Open an issue on GitHub"
-msgstr "Abrir una incidencia en GitHub"
-
-#. type: Plain text
-#: _includes/footer.md.filt
-msgid "Tech docs"
-msgstr "Documentación técnica"
-
-#. type: Plain text
-#: _includes/footer.md.filt
-msgid "Copyright &copy; 2020-2023 Arjan Molenaar and Dan Yeaw."
-msgstr "Copyright &copy; 2020-2022 Arjan Molenaar y Dan Yeaw."
-
-#. type: Plain text
-#: _includes/footer.md.filt
-msgid "Theme"
-msgstr "Tema"
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "A picture is worth a thousand words. Describe and document your applications and systems with Gaphor to enhance knowledge sharing."
-msgstr "Una imagen vale más que mil palabras. Describa y documente sus aplicaciones y sistemas con Gaphor para mejorar el intercambio de conocimientos."
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Gaphor is a UML, SysML, RAAML, and C4 modeling application. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models."
-msgstr "Gaphor es una aplicación de modelado UML, SysML, RAAML y C4. Está diseñado para ser fácil de usar, sin dejar de ser potente. Gaphor implementa un modelo de datos UML 2 totalmente compatible, por lo que es mucho más que una herramienta de dibujo. Puede usar Gaphor para visualizar rápidamente diferentes aspectos de un sistema, así como para crear modelos completos y muy complejos."
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Build Class, Interaction, and State Machine diagrams for software or Block Definition and Requirements diagrams for systems. Model the elements you need. If you want to mix and match, you can even add different diagram items to the same diagram to get the view you need."
-msgstr "Construya diagramas de clases, interacción y máquinas de estado para el software o diagramas de definición de bloques y requisitos para los sistemas. Modele los elementos que necesite. Si quiere mezclar y combinar, puede incluso añadir diferentes elementos de diagrama al mismo diagrama para obtener la vista que necesita."
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Customize the diagrams you create with our built-in styling engine."
-msgstr "Personalice los diagramas que crea con nuestro motor de estilo incorporado."
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Easily find all element of your model in the tree view."
-msgstr "Encuentre fácilmente todos los elementos de su modelo en la vista de árbol."
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Love dark mode? We can do that too."
-msgstr "¿Le gusta el modo oscuro? También podemos hacerlo."
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
-msgstr "Hay muchas maneras de instalar Gaphor. La más sencilla es descargar el instalador oficial para Windows o macOS. Para Linux puede instalar Gaphor usando FlatHub.  También puede utilizar la herramienta incorporada de Python `pip` siempre que tenga instaladas todas las dependencias necesarias."
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Do you want to know what's going on with Gaphor? Read our blog!"
-msgstr "¿Quiere saber qué pasa con Gaphor? ¡Lea nuestro blog!"
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Contact the team if you want to share content related to Gaphor."
-msgstr "Póngase en contacto con el equipo si quiere compartir contenidos relacionados con Gaphor."
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "See blog"
-msgstr "Ver blog"
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Read more"
-msgstr "Leer más"
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Download"
-msgstr "Descargar"
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Learn more"
-msgstr "Saber más"
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "About"
-msgstr "Acerca de"
-
-#. type: Yaml Front Matter Hash Value: title
-#: _includes/content.md.filt tutorials.md.filt
-#, no-wrap
-msgid "Tutorials"
-msgstr "Tutoriales"
-
-#. type: Plain text
-#: _includes/content.md.filt
-msgid "Blog"
-msgstr "Blog"
-
-#. type: Yaml Front Matter Hash Value: title
-#: _includes/content.md.filt discuss.md.filt
-#, no-wrap
-msgid "Get in touch"
-msgstr "Póngase en contacto"
-
-#. type: Yaml Front Matter Hash Value: title
-#: _includes/content.md.filt contribute.md.filt
-#, no-wrap
-msgid "Contribute"
-msgstr "Contribuir"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/01-windows.md.filt
@@ -428,19 +308,19 @@ msgstr "Empezar con Gaphor"
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md.filt
-msgid "This page has moved to https:."
-msgstr "Esta página se ha movido a https:."
+msgid "This page has moved to https://gaphor.readthedocs.io/en/latest/getting_started.html."
+msgstr "Esta página se ha movido a https://gaphor.readthedocs.io/en/latest/getting_started.html."
 
 #. type: Bullet: '2. '
-#: tutorials/your-first-model.md.filt tutorials.md.filt
+#: tutorials/your-first-model.md.filt _pages/tutorials.md.filt
 #, no-wrap
 msgid "Your First Model"
 msgstr "Su primer modelo"
 
 #. type: Plain text
 #: tutorials/your-first-model.md.filt
-msgid "This page has been moved to https:."
-msgstr "Esta página se ha movido a https:."
+msgid "This page has been moved to https://docs.gaphor.org/en/latest/first_model.html."
+msgstr "Esta página se ha movido a https://docs.gaphor.org/en/latest/first_model.html."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/01-platform.md.filt
@@ -450,7 +330,7 @@ msgstr "Multiplataforma"
 
 #. type: Plain text
 #: _usps/01-platform.md.filt
-msgid "Gaphor works on all major platforms: Windows, Macos and Linux."
+msgid "Gaphor works on all major platforms: Windows, Macos, and Linux."
 msgstr "Gaphor funciona en las principales plataformas: Windows, Macos y Linux."
 
 #. type: Yaml Front Matter Hash Value: title
@@ -461,7 +341,7 @@ msgstr "Código abierto"
 
 #. type: Plain text
 #: _usps/02-opensource.md.filt
-msgid "No vendor lock-in: Gaphor written in Python and is 100% Open Source, available under a friendly Apache 2 license."
+msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly Apache 2 license."
 msgstr "No hay bloqueo de proveedores: Gaphor está escrito en Python y es 100% de código abierto, disponible bajo una amigable licencia Apache 2."
 
 #. type: Yaml Front Matter Hash Value: title
@@ -508,109 +388,127 @@ msgstr "Conforme a los estándares"
 msgid "Gaphor implements the UML, SysML, and RAAML OMG standards. It also includes support for the C4 model for visualizing software architectures."
 msgstr "Gaphor implementa los estándares UML, SysML y RAAML OMG. También incluye soporte para el modelo C4 para la visualización de arquitecturas de software."
 
+#. type: Yaml Front Matter Hash Value: title
+#: _pages/contribute.md.filt
+#, no-wrap
+msgid "Contribute"
+msgstr "Contribuir"
+
 #. type: Plain text
-#: contribute.md.filt
+#: _pages/contribute.md.filt
 msgid "Would you like to contribute to the development of Gaphor? (If you think this is only something for experienced developers, please reconsider, there are plenty of ways to contribute to Gaphor, no matter your level of experience or skill set."
 msgstr "¿Le gustaría contribuir al desarrollo de Gaphor? (Si cree que esto es sólo algo para desarrolladores experimentados, por favor reconsidérelo, hay muchas maneras de contribuir a Gaphor, sin importar su nivel de experiencia o habilidades."
 
 #. type: Plain text
-#: contribute.md.filt
+#: _pages/contribute.md.filt
 msgid "Our technical documentation is hosted on the wonderful service that is Read the Docs. Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
 msgstr "Nuestra documentación técnica está alojada en el maravilloso servicio Read the Docs. No sólo contiene los detalles necesarios para hacer contribuciones de código a Gaphor, sino que describe muchas otras formas en las que puede contribuir (incluyendo hacer actualizaciones a este sitio web). Por último, proporciona una guía de nuestros procesos y expectativas para los distintos tipos de contribución que puede hacer a Gaphor."
 
 #. type: Plain text
-#: contribute.md.filt
+#: _pages/contribute.md.filt
 msgid "The source code is hosted on GitHub."
 msgstr "El código fuente está alojado en GitHub."
 
 #. type: Plain text
-#: contribute.md.filt
+#: _pages/contribute.md.filt
 msgid "If in doubt, just ask in our discussion area and someone will be able to point you in the right direction."
 msgstr "En caso de duda, pregunte en nuestra área de debate y alguien podrá indicarle la dirección correcta."
 
+#. type: Yaml Front Matter Hash Value: title
+#: _pages/discuss.md.filt
+#, no-wrap
+msgid "Get in touch"
+msgstr "Póngase en contacto"
+
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 msgid "It's good to talk, share knowledge and learn from other users of Gaphor. Perhaps you have a question, problem or are unsure how to do something with Gaphor? Discussing such things in a supportive environment is a good way to make progress, make friends, and help. Put simply, Gaphor is a community focused project, and we have created a couple of online spaces where the community can come together."
 msgstr "Es bueno hablar, compartir conocimientos y aprender de otros usuarios de Gaphor. ¿Tal vez usted tiene una pregunta, un problema o no está seguro de cómo hacer algo con Gaphor? Discutir estas cosas en un entorno de apoyo es una buena manera de progresar, hacer amigos y ayudar. En pocas palabras, Gaphor es un proyecto centrado en la comunidad, y hemos creado un par de espacios en línea donde la comunidad puede reunirse."
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 msgid "Contributions are welcome without prejudice from anyone irrespective of age, gender, religion, race, or sexuality. If you’re thinking, \"but they don't mean me\", then we especially mean YOU."
 msgstr "Las contribuciones son bienvenidas sin prejuicios, independientemente de la edad, el sexo, la religión, la raza o la sexualidad. Si está pensando \"pero no se refieren a mí\", entonces nos referimos especialmente a USTED."
 
 #. type: Title ##
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, no-wrap
 msgid "Chat on Gitter"
 msgstr "Chat en Gitter"
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 msgid "Our real-time conversations are on Gitter and are bridged to Matrix.  Matrix is the preferred way, since it's more use friendly than bare Gitter."
 msgstr "Nuestras conversaciones en tiempo real están en Gitter y se conectan a Matrix.  Matrix es la forma preferida, ya que es más fácil de usar que Gitter."
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, no-wrap
 msgid " Join Matrix with Element.io\n"
 msgstr " Únase a Matrix con Element.io\n"
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, no-wrap
 msgid " Join Gitter Chat\n"
 msgstr " Únase al chat de Gitter\n"
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 msgid "NB. If you're using a mobile device, use the Element app (for Matrix), the Gitter app is no longer supported."
 msgstr "NOTA. Si usa un dispositivo móvil, use la aplicación Element (para Matrix), la aplicación Gitter ya no es compatible."
 
 #. type: Title ##
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, no-wrap
 msgid "Submit an Issue on GitHub"
 msgstr "Enviar una incidencia en GitHub"
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 msgid "Please use our GitHub issue tracker for general questions and reporting bugs.  Before submitting a GitHub issue please review our page about how to report a bug in Gaphor."
 msgstr "Por favor, use nuestro rastreador de incidencias de GitHub para preguntas generales y para informar de errores.  Antes de enviar una incidencia a GitHub, consulta nuestra página sobre cómo informar de un error en Gaphor."
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, no-wrap
 msgid " Submit an Issue on GitHub\n"
 msgstr " Enviar una incidencia en GitHub\n"
 
 #. type: Title ##
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 #, no-wrap
 msgid "Community Conduct"
 msgstr "Conducta de la comunidad"
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 msgid "We expect contributors to follow the Code of Conduct."
 msgstr "Esperamos que los colaboradores sigan el Código de conducta."
 
 #. type: Plain text
-#: discuss.md.filt
+#: _pages/discuss.md.filt
 msgid "We want our community to be a safe, welcoming and friendly place.  We won't hesitate to issue a clear warning and, if ignored, ban people who don't behave in the spirit of the code of conduct. If a conduct related situation arises, we will endeavour to act in a discreet, sympathetic and fair manner to all concerned."
 msgstr "Queremos que nuestra comunidad sea un lugar seguro, acogedor y amigable.  No dudaremos en emitir una advertencia clara y, si se ignora, prohibir a las personas que no se comporten de acuerdo con el espíritu del código de conducta. Si se produce una situación relacionada con la conducta, nos esforzaremos por actuar de forma discreta, comprensiva y justa con todos los implicados."
 
+#. type: Yaml Front Matter Hash Value: title
+#: _pages/tutorials.md.filt
+#, no-wrap
+msgid "Tutorials"
+msgstr "Tutoriales"
+
 #. type: Plain text
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Each tutorial is a self-contained lesson, explaining a specific aspect of Gaphor, so you have the skills needed to achieve your learning and modeling goals."
 msgstr "Cada tutorial es una lección independiente, que explica un aspecto específico de Gaphor, para que tenga los conocimientos necesarios para alcanzar sus objetivos de aprendizaje y modelado."
 
 #. type: Bullet: '1. '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Get Started with Gaphor"
 msgstr "Introducción a Gaphor"
 
 #. type: Plain text
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, no-wrap
 msgid ""
 "3.  Introduction to Gaphor and\n"
@@ -624,291 +522,114 @@ msgstr ""
 "1. Cómo informar de un error en Gaphor\n"
 
 #. type: Title ##
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, no-wrap
 msgid "Advanced topics"
 msgstr "Temas avanzados"
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Extend your models with stereotypes"
 msgstr "Amplíe sus modelos con estereotipos"
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Writing a plugin"
 msgstr "Escribir un plugin"
 
 #. type: Plain text
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "- Technical and architectural documentation for contributors and plugin developers"
 msgstr "- Extender sus modelos con estereotipos - Escribir un plugin - Documentación técnica y arquitectónica para colaboradores y desarrolladores de plugins"
 
 #. type: Title ##
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, no-wrap
 msgid "Talks"
 msgstr "Charlas"
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Dan and Arjan spoke at Linux App Summit 2021 about how Gaphor is made available to all desktop platforms Linux/Windows/macOS."
 msgstr "Dan y Arjan hablaron en el Linux App Summit 2021 sobre cómo Gaphor está disponible para todas las plataformas de escritorio Linux/Windows/macOS."
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Dan spoke at the 2021 MIT STAMP Workshop about _Open STPA with RAAML and Gaphor_."
 msgstr "Dan habló en el taller STAMP del MIT de 2021 sobre _Open STPA con RAAML y Gaphor_."
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Arjan spoke at GUADEC 2021 about Large GUI application with Python and GTK."
 msgstr "Arjan habló en GUADEC 2021 sobre Aplicaciones con interfaz de gran tamaño con Python y GTK."
 
 #. type: Title ##
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 #, no-wrap
 msgid "What other people say"
 msgstr "Qué dicen los demás"
 
 #. type: Plain text
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "There are some 10+ year old articles on Gaphor on the web. Some more recent articles are:"
 msgstr "Hay algunos artículos de hace más de 10 años sobre Gaphor en la web. Algunos artículos más recientes son:"
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10."
 msgstr "El sitio web Métodos y Herramientas revisó la versión 2.7.1 de Gaphor en diciembre de 2021 en un Windows 10."
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "It's FOSS has a short write-up on Gaphor (~2.8-ish?)."
 msgstr "It's FOSS tiene una breve reseña sobre Gaphor (~2.8)."
 
 #. type: Bullet: '- '
-#: tutorials.md.filt
+#: _pages/tutorials.md.filt
 msgid "Ubuntu Pit has a nice article on Gaphor (~2.8-ish?)."
 msgstr "Ubuntu Pit tiene un buen artículo sobre Gaphor (~2.8)."
 
 #. type: Yaml Front Matter Hash Value: title
-#: download.md.filt
+#: _pages/download.md.filt
 #, no-wrap
 msgid "Download Gaphor"
 msgstr "Descargar Gaphor"
 
 #. type: Plain text
-#: download.md.filt
+#: _pages/download.md.filt
 msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
 msgstr "Hay muchas maneras de instalar Gaphor. La más sencilla es descargar el instalador oficial para Windows o macOS. Para Linux puede instalar Gaphor usando FlatHub.  También puede utilizar la herramienta incorporada de Python `pip` siempre que tenga instaladas todas las dependencias necesarias."
 
 #. type: Plain text
-#: download.md.filt
+#: _pages/download.md.filt
 msgid "If you're a developer, you can find the source code on GitHub."
 msgstr "Si es desarrollador, puede encontrar el código fuente en GitHub."
 
 #. type: Title #
-#: 404.md.filt
+#: _pages/404.md.filt
 #, no-wrap
 msgid "404"
 msgstr "404"
 
 #. type: Plain text
-#: 404.md.filt
+#: _pages/404.md.filt
 #, no-wrap
 msgid "**Page not found :(**\n"
 msgstr "**Página no encontrada :(**\n"
 
 #. type: Plain text
-#: 404.md.filt
+#: _pages/404.md.filt
 msgid "The requested page could not be found."
 msgstr "No se ha podido encontrar la página solicitada."
 
 #. type: Yaml Front Matter Hash Value: title
-#: index.md.filt
+#: _pages/index.md.filt
 #, no-wrap
 msgid "Modeling for Everyone"
 msgstr "Modelado para todos"
 
 #. type: Yaml Front Matter Hash Value: title
-#: blog.md.filt
+#: _pages/blog.md.filt
 #, no-wrap
 msgid "Blog and News"
 msgstr "Blog y noticias"
-
-#~ msgid "It's also possible to provide a query as part of the selection:"
-#~ msgstr "También es posible proporcionar una consulta como parte de la selección:"
-
-#~ msgid "The variable `it` in the query refers to the evaluated object (in this case all operations with a return parameter are taken into account)."
-#~ msgstr "La variable `it` en la consulta se refiere al objeto evaluado (en este caso se tienen en cuenta todas las operaciones con parámetro de retorno)."
-
-#~ msgid "Once Gaphor is launched, it provides you an almost empty user interface.  A new model is already created and the diagram is opened."
-#~ msgstr "Una vez que se lanza Gaphor, le ofrece una interfaz de usuario casi vacía.  Ya se ha creado un modelo nuevo y se ha abierto el diagrama."
-
-#~ msgid "The layout of the Gaphor interface is divided into four sections, namely:"
-#~ msgstr "El diseño de la interfaz de Gaphor se divide en cuatro secciones, que son:"
-
-#, no-wrap
-#~ msgid "Navigation"
-#~ msgstr "Navegación"
-
-#~ msgid "Diagrams"
-#~ msgstr "Diagramas"
-
-#~ msgid "Diagram Element Toolbox"
-#~ msgstr "Caja de herramientas de elementos de diagrama"
-
-#~ msgid "Properties pane"
-#~ msgstr "Panel de propiedades"
-
-#~ msgid "Each section has its own specific function."
-#~ msgstr "Cada sección tiene su función específica."
-
-#~ msgid "The navigation section of the interface displays a hierarchical view of your model. Every model element you create will be inserted into the navigation section. This view acts as a tree where you can expand and collapse different elements of your model. This provides an easy way to view the elements of your model from an elided perspective. That is, you can collapse those model elements that are irrelevant to the task at hand."
-#~ msgstr "La sección de navegación de la interfaz muestra una vista jerárquica de su modelo. Cada elemento del modelo que cree se insertará en la sección de navegación. Esta vista actúa como un árbol en el que puede expandir y colapsar diferentes elementos de su modelo. Esto proporciona una manera fácil de ver los elementos de su modelo desde una perspectiva elidida. Es decir, puede contraer aquellos elementos del modelo que son irrelevantes para la tarea que está realizando."
-
-#~ msgid "!image"
-#~ msgstr "!imagen"
-
-#~ msgid "In the figure above, you will see that there are three elements in the navigation view. The root element, _New Model_ is a package. Notice the small arrow beside _New Model_ that is pointing downward. This indicates that the element is expanded. You will also notice the two sub-elements are slightly indented in relation to _New Model_. The _NewClass_ element is a class and the _main_ element is a diagram."
-#~ msgstr "En la figura anterior, verá que hay tres elementos en la vista de navegación. El elemento raíz, _Modelo nuevo_ es un paquete. Observe la pequeña flecha al lado de _Modelo nuevo_ que apunta hacia abajo. Esto indica que el elemento está expandido. También observará que los dos subelementos están ligeramente sangrados en relación con _Modelo nuevo_. El elemento _NewClass_ es una clase y el elemento _main_ es un diagrama."
-
-#~ msgid "In the navigation view, you can also right-click the model elements to get a context menu. This context menu allows you to delete model elements, and to refresh the navigation view."
-#~ msgstr "En la vista de navegación, también puede hacer clic con el botón derecho en los elementos del modelo para obtener un menú contextual. Este menú contextual permite eliminar elementos del modelo y actualizar la vista de navegación."
-
-#~ msgid "Double clicking on a diagram element will open it in the Diagram section. Elements such as classes and packages can be dragged from the tree view on the diagrams."
-#~ msgstr "Al hacer doble clic en un elemento del diagrama, éste se abrirá en la sección de diagramas. Los elementos como las clases y los paquetes pueden ser arrastrados desde la vista de árbol en los diagramas."
-
-#, no-wrap
-#~ msgid "Diagram Section"
-#~ msgstr "Sección de diagramas"
-
-#~ msgid "The diagram section takes up the most space. Multiple diagrams can be opened at once: they are shown in tabs. Tabs can be closed from the file menu (Close) and by pressing Ctrl+w."
-#~ msgstr "La sección de diagramas es la que más espacio ocupa. Se pueden abrir varios diagramas a la vez: se muestran en pestañas. Las pestañas pueden cerrarse desde el menú Archivo (Cerrar) y pulsando Ctrl+w."
-
-#~ msgid "Most elements have hot zones, shown as gray rectangles that are only visible when the item is selected. Double clicking on those rectangles allows you to directly edit the item. E.g. change its name."
-#~ msgstr "La mayoría de los elementos tienen zonas calientes, mostradas como rectángulos grises que sólo son visibles cuando el elemento está seleccionado. Haciendo doble clic en esos rectángulos se puede editar directamente el elemento. Por ejemplo, cambiar su nombre."
-
-#~ msgid "Changes you make can be undone by pressing Ctrl+z. To re-do a change, hit Ctrl+Shift+z."
-#~ msgstr "Los cambios que haga pueden deshacerse pulsando Ctrl+z. Para rehacer un cambio, pulse Ctrl+Mayús+z."
-
-#, no-wrap
-#~ msgid "Toolbox"
-#~ msgstr "Caja de herramientas"
-
-#~ msgid "The toolbox is mainly used to add new items to a diagram. Select the element you want to add by clicking on it. When you click on the diagram, the selected element is created. The arrow is selected again, so the element can be manipulated."
-#~ msgstr "La caja de herramientas se usa principalmente para añadir elementos nuevos a un diagrama. Seleccione el elemento que desee añadir haciendo clic sobre él. Al hacer clic en el diagrama, se crea el elemento seleccionado. La flecha se selecciona de nuevo, por lo que el elemento puede ser manipulado."
-
-#~ msgid "Tools can be selected by simply clicking on them. By default the pointer tool is selected after every item placement. This can be changed by disabling the \"Reset tool\" option in the Preferences window. Tools can also be selected by a keyboard shortcut. The actual character is displayed as part of the tooltip. Finally it is also possible to drag elements on the canvas from the toolbox."
-#~ msgstr "Las herramientas se pueden seleccionar simplemente haciendo clic sobre ellas. Por defecto, la herramienta del puntero se selecciona después de la colocación de cada elemento. Esto puede cambiarse desactivando la opción \"Reiniciar herramienta\" en la ventana de Preferencias. Las herramientas también pueden seleccionarse mediante un atajo del teclado. El carácter real se muestra como parte de la información sobre la herramienta. Por último, también es posible arrastrar elementos al lienzo desde la caja de herramientas."
-
-#, no-wrap
-#~ msgid "Element Editor"
-#~ msgstr "Editor de elementos"
-
-#~ msgid "The Element editor can be unfolded by pressing the pensil button. This will reveal a utility window that shows all characteristics of the selected element.  Things like name, attributes and stereotypes. It can be opened with Ctrl+e."
-#~ msgstr "El editor de elementos puede desplegarse pulsando el botón lápiz. Esto revelará una ventana de utilidad que muestra todas las características del elemento seleccionado.  Cosas como el nombre, los atributos y los estereotipos. Se puede abrir con Ctrl+e."
-
-#~ msgid "The properties shown depend on the element that is selected."
-#~ msgstr "Las propiedades mostradas dependen del elemento seleccionado."
-
-#~ msgid "Once Gaphor is started a new empty model is automatically created. The main diagram is already open in the Diagram section."
-#~ msgstr "Una vez que se inicia Gaphor, se crea automáticamente un modelo nuevo vacío. El diagrama principal ya está abierto en la sección Diagrama."
-
-#~ msgid "Select an element you want to place (e.g. a class) by clicking on the icon in the Toolbox and click on the diagram. This will place a new Class item instance on the diagram and add a new Class to the model (it shows up in the Navigation.  The selected tool will reset itself to the Pointer tool after the element is placed on the diagram."
-#~ msgstr "Seleccione un elemento que desee colocar (por ejemplo, una clase) haciendo clic en el icono de la caja de herramientas y haga clic en el diagrama. Esto colocará una nueva instancia de elemento de clase en el diagrama y añadirá una nueva clase al modelo (se muestra en la Navegación.  La herramienta seleccionada se restablecerá a la herramienta puntero después de que el elemento sea colocado en el diagrama."
-
-#~ msgid "It's simple to add elements to a diagram."
-#~ msgstr "Es sencillo añadir elementos a un diagrama."
-
-#~ msgid "Some elements are not directly visible. The section in the toolbox is collapsed and needs to be clicked first to reveal its contents."
-#~ msgstr "Algunos elementos no son directamente visibles. La sección de la caja de herramientas está colapsada y es necesario hacer clic primero para revelar su contenido."
-
-#~ msgid "Gaphor does not make any assumptions about which elements should be placed on a diagram. A diagram is a diagram. UML defines all different kinds of diagrams, such as Class diagrams, Component diagrams, Action diagrams, Sequence diagrams.  But Gaphor does not place any restrictions."
-#~ msgstr "Gaphor no hace ninguna suposición sobre los elementos que deben colocarse en un diagrama. Un diagrama es un diagrama. UML define todos los diferentes tipos de diagramas, tales como diagramas de clase, diagramas de componentes, diagramas de acción, diagramas de secuencia. Pero Gaphor no pone ninguna restricción."
-
-#, no-wrap
-#~ msgid "Creating New Diagrams"
-#~ msgstr "Crear diagramas nuevos"
-
-#~ msgid "To create a new diagram, use the Navigation section. Select an element that can contain a diagram (a Package or Profile) and right-click. Select New diagram and a new diagram is created. As of Gaphor 1.1.0 a buttion is available in the header bar. Select a package, and you'll notice the button is not grayed out and can be clicked, resulting in a new diagram being added to the model."
-#~ msgstr "Para crear un diagrama nuevo, use la sección de Navegación. Seleccione un elemento que pueda contener un diagrama (un paquete o un perfil) y haga clic con el botón derecho del ratón. Seleccione Diagrama nuevo y se creará un nuevo diagrama. A partir de Gaphor 1.1.0 hay un botón disponible en la barra de encabezado. Seleccione un paquete y notará que el botón no está en gris y puede ser pulsado, lo que resulta en un nuevo diagrama que se añade al modelo."
-
-#, no-wrap
-#~ msgid "Copy and Paste"
-#~ msgstr "Copiar y pegar"
-
-#~ msgid "Items in a diagram can be copied and pasted (in the same diagram or another). A paste will create new items in the diagrams, the items they represent (e.g. the Class that's shown in the Navigation) is *not* copied (call it a shallow copy if you like)."
-#~ msgstr "Los elementos de un diagrama pueden copiarse y pegarse (en el mismo diagrama o en otro). Un pegado creará elementos nuevos en los diagramas, los elementos que representan (por ejemplo, la clase que se muestra en la navegación) no se *copian* (llámelo copia superficial si lo desea)."
-
-#~ msgid "This way you can easily create visual copies of the same (underlying) model element."
-#~ msgstr "De este modo, puede crear fácilmente copias visuales del mismo elemento del modelo (subyacente)."
-
-#, no-wrap
-#~ msgid "Drag and Drop"
-#~ msgstr "Arrastrar y soltar"
-
-#~ msgid "Adding an existing element to a diagram is simple: drag the element from the Navigation section onto a diagram. Not all elements that show up in the Navigation can be added: Diagrams and attribute/operations of a Class can not be added."
-#~ msgstr "Añadir un elemento existente a un diagrama es sencillo: arrastre el elemento desde la sección de Navegación a un diagrama. No todos los elementos que aparecen en la Navegación pueden ser añadidos: Los diagramas y atributos/operaciones de una clase no pueden ser añadidos."
-
-#~ msgid "Elements can also be dragged within the Navigation section. This way classes and packages can be rearranged for example."
-#~ msgstr "Los elementos también se pueden arrastrar dentro de la sección de navegación. De esta manera se pueden reordenar, por ejemplo, las clases y los paquetes."
-
-#, fuzzy, no-wrap
-#~| msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."
-#~ msgid ""
-#~ "There are many ways to install Gaphor.\n"
-#~ "The simplest is to download the official installer for Windows or macOS.\n"
-#~ "For Linux you can install Gaphor using FlatHub.\n"
-#~ "You can also use Python's built-in `pip` tool as long as you have all the\n"
-#~ "required dependencies installed.\n"
-#~ msgstr "Hay muchas maneras de instalar Gaphor. La más sencilla es descargar el instalador oficial para Windows o macOS. Para Linux puede instalar Gaphor usando FlatHub.  También puede utilizar la herramienta incorporada de Python `pip` siempre que tenga instaladas todas las dependencias necesarias."
-
-#, fuzzy, no-wrap
-#~| msgid "Tutorials"
-#~ msgid "Tutorials\n"
-#~ msgstr "Tutoriales"
-
-#, fuzzy, no-wrap
-#~| msgid "Get in touch"
-#~ msgid "Get in touch\n"
-#~ msgstr "Póngase en contacto"
-
-#, fuzzy, no-wrap
-#~| msgid "Contribute"
-#~ msgid "Contribute\n"
-#~ msgstr "Contribuir"
-
-#, fuzzy, no-wrap
-#~| msgid "Navigation"
-#~ msgid "Navigation\n"
-#~ msgstr "Navegación"
-
-#, fuzzy, no-wrap
-#~| msgid "Get started with Gaphor"
-#~ msgid "Get started with Gaphor\n"
-#~ msgstr "Empezar con Gaphor"
-
-#, fuzzy, no-wrap
-#~| msgid "Your First Model"
-#~ msgid "Your First Model\n"
-#~ msgstr "Su primer modelo"
-
-#, fuzzy, no-wrap
-#~| msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."
-#~ msgid ""
-#~ "There are many ways to install Gaphor. The simplest is to download the official\n"
-#~ "installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.\n"
-#~ "You can also use Python's built-in `pip` tool as long as you have all the\n"
-#~ "required dependencies installed.\n"
-#~ msgstr "Hay muchas maneras de instalar Gaphor. La más sencilla es descargar el instalador oficial para Windows o macOS. Para Linux puede instalar Gaphor usando FlatHub.  También puede utilizar la herramienta incorporada de Python `pip` siempre que tenga instaladas todas las dependencias necesarias."
-
-#~ msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."
-#~ msgstr "Hay muchas maneras de instalar Gaphor. La más sencilla es descargar el instalador oficial para Windows o macOS. Para Linux puede instalar Gaphor usando FlatHub.  También puede utilizar la herramienta incorporada de Python `pip` siempre que tenga instaladas todas las dependencias necesarias."
-
-#~| msgid "There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed."
-#~ msgid "Love dark mode? We can do that too.  There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all of the required dependencies installed.  Do you want to know what's going on with Gaphor? Read our blog!"
-#~ msgstr "Hay muchas maneras de instalar Gaphor.  La más sencilla es descargar el instalador oficial para Windows o macOS.  Para Linux puede instalar Gaphor usando FlatHub.  También puede usar la herramienta incorporada de Python `pip` siempre que tenga instaladas todas las dependencias necesarias."
-
-#~ msgid "Install Flatpak"
-#~ msgstr "Instalar Flatpak"

@@ -1,16 +1,14 @@
 <section id="latest-news" class="front-page-section">
-  {% include content.md %}
-  {% include section-header.html title="Blog and News" description=blog-content %}
+  <p>
+  {% include section-header.html title=site.data.strings.latest-news.blog-and-news description=site.data.strings.latest-news.blog-content %}
 
-  <a href="{% link blog.md %}" title="See blog" class="latest-news-button"><i
-      class="fa fa-chevron-circle-right"></i>{{ see-blog }}</a>
+  <a href="{{ '/blog/' | prepend: site.baseurl }}" title=site.data.strings.latest-news.see-blog class="latest-news-button"><i
+      class="fa fa-chevron-circle-right"></i>{{ site.data.strings.latest-news.see-blog }}</a>
 
   <div class="section-content">
     <div class="container">
       <div class="row blog-carousel">
-        {% assign latest_news = site.posts
-            | where_exp:"post", "post.language == page.language"
-            | limit: 3 %}
+        {% assign latest_news = site.posts | limit: 3 %}
         {% for post in latest_news limit: 3 %}
         <div class="blog-post col-12 col-lg-4">
           <div class="post">

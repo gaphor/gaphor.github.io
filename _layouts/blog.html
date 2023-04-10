@@ -3,7 +3,6 @@ layout: article
 ---
 
 {% for post in site.posts %}
-  {% if post.language == page.language %}
     <h2><a href="{{ post.url }}" style="text-decoration: none;">{{ post.title }}</a></h2>
     <p class="credits">By {{ post.author }} on {{ post.date | date: "%B %d, %Y" }}</p>
     {{ post.content | split:'<!--break-->' | first }}
@@ -14,8 +13,7 @@ layout: article
                 Read more
             </a>
         </p>
-    {% endif %}
 
-  {% endif %}
+    {% endif %}
 
 {% endfor %}

@@ -1,0 +1,48 @@
+index:
+  thousand-words: >
+    Eén beeld zegt meer dan duizend woorden. Beschrijf en documenteer uw apps
+    en systemen met Gaphor om het delen van kennis te verbeteren.
+  learn: Meer te weten komen
+  about-content: >
+    Gaphor is een modelleer-app voor UML, SysML, RAAML en C4. Het is ontworpen
+    om gemakkelijk te gebruiken en toch krachtig te zijn. Gaphor implementeert
+    een gegevensmodel dat volledig compatibel is met UML 2, en is dus veel meer
+    dan een tekenprogramma. U kunt Gaphor gebruiken om snel verschillende
+    aspecten van een systeem te visualiseren, maar ook om complete, zeer
+    complexe modellen te maken.
+  build: >
+    Bouw klasse-, interactie- en toestands machine diagrammen voor software, of
+    blok definitie- en eisen diagrammen voor systemen. Modelleer de elementen
+    die u nodig heeft. Als u wilt mixen en matchen, kunt u zelfs verschillende
+    diagram onderdelen aan hetzelfde diagram toevoegen om het gewenste beeld te
+    krijgen.
+  styling-engine: Pas de diagrammen die u maakt aan met onze ingebouwde stijlmotor.
+  treeview: Vind gemakkelijk alle elementen van uw model in het boomoverzicht.
+  dark-mode: Fan van donkere modus? Die is er ook.
+  download-content: >
+    Er zijn vele manieren om Gaphor te installeren. De eenvoudigste is om de
+    officiële installer voor Windows of macOS te downloaden. Voor Linux kunt u
+    Gaphor installeren via Flathub. U kunt ook de ingebouwde `pip`-tool van
+    Python gebruiken, zolang u alle vereiste afhankelijkheden heeft
+    geïnstalleerd.
+latest-news:
+  blog-content: |
+    Wilt u op de hoogte blijven van ontwikkelingen binnen Gaphor? Lees dan onze blog!
+  
+    [Neem contact](/discuss) op met het team als u inhoud met betrekking tot Gaphor wilt delen.
+  see-blog: Blog bekijken
+  read-more: Meer lezen
+  blog-and-news: Blog en Nieuws
+menu:
+  about: Over
+  download: Downloaden
+  tutorials: Handleidingen
+  blog: Blog
+  discuss: Contact opnemen
+  contribute: Bijdragen
+footer:
+  love: We horen graag van u
+  open-issue: Een issue openen op GitHub
+  tech-docs: Technische documentatie
+  copyright: Copyright &copy; 2020-2023 Arjan Molenaar en Dan Yeaw.
+  theme: Thema

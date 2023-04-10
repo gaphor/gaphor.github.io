@@ -23,10 +23,7 @@ code_block = r"^(?:\ {4}.+\n)+(?!)|^```(?:[^`]+|`(?!``))*```"
 # Note links with [1](#note1)
 note_link = r"\[\d\]\(#[^ ]+(?: '.+')?\)"
 
-# Redirects like redirect_from: /pages/download.html
-redirects = r"\/.+?.html"
-
-re_list = [html_tags, liquid_capture, code_block, note_link, redirects]
+re_list = [html_tags, liquid_capture, code_block, note_link]
 
 
 def strip_markdown_urls(markdown):
@@ -42,16 +39,19 @@ def replace_language_string():
         match = re.search(pattern, line)
         languages = match[1].split()
 
-    for language in languages:
-        markdown_files = Path(language).glob("**/*.md")
-        for file in markdown_files:
-            with file.open("r") as f:
-                lines = f.readlines()
-            with file.open("w") as f:
-                for line in lines:
-                    if "language: en" in line:
-                        line = line.replace("language: en", f"language: {language}")
-                    f.write(line)
+    blogs_and_pages = ["_pages", "tutorials", "_usps"]
+    for folder in blogs_and_pages:
+        for language in languages:
+            lang_folder = Path(folder) / language
+            markdown_files = lang_folder.glob('*.md')
+            for file in markdown_files:
+                with file.open("r") as f:
+                    lines = f.readlines()
+                with file.open("w") as f:
+                    for line in lines:
+                        if "language: en" in line:
+                            line = line.replace("language: en", f"language: {language}")
+                        f.write(line)
 
 
 def cleanup_filt_files():

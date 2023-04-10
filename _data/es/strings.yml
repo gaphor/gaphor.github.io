@@ -1,0 +1,49 @@
+index:
+  thousand-words: >
+    una imagen vale más que mil palabras. Describa y documente sus aplicaciones
+    y sistemas con Gaphor para mejorar el intercambio de conocimientos.
+  learn: learn more
+  about-content: >
+    gaphor es una aplicación de modelado UML, SysML, RAAML y C4. Está diseñado
+    para ser fácil de usar, sin dejar de ser potente. Gaphor implementa un
+    modelo de datos UML 2 totalmente compatible, por lo que es mucho más que
+    una herramienta de dibujo. Puede usar Gaphor para visualizar rápidamente
+    diferentes aspectos de un sistema, así como para crear modelos completos y
+    muy complejos.
+  build: >
+    construya diagramas de clases, interacción y máquinas de estado para el
+    software o diagramas de definición de bloques y requisitos para los
+    sistemas. Modele los elementos que necesite. Si quiere mezclar y combinar,
+    puede incluso añadir diferentes elementos de diagrama al mismo diagrama
+    para obtener la vista que necesita.
+  styling-engine: >
+    personalice los diagramas que crea con nuestro motor de estilo incorporado.
+  treeview: encuentre fácilmente todos los elementos de su modelo en la vista de árbol.
+  dark-mode: ¿Le gusta el modo oscuro? También podemos hacerlo.
+  download-content: >
+    Hay muchas maneras de instalar Gaphor. La más sencilla es descargar el
+    instalador oficial para Windows o macOS. Para Linux puede instalar Gaphor
+    usando FlatHub.  También puede utilizar la herramienta incorporada de
+    Python `pip` siempre que tenga instaladas todas las dependencias
+    necesarias.
+latest-news:
+  blog-content: |
+    ¿Quiere saber qué pasa con Gaphor? ¡Lea nuestro blog!
+    
+    [Póngase en contacto](/discuss) con el equipo si quiere compartir contenidos relacionados con Gaphor.
+  see-blog: Ver blog
+  read-more: Leer más
+  blog-and-news: Blog y Noticias
+menu:
+  about: Acerca de
+  download: Descargar
+  tutorials: Tutoriales
+  blog: Blog
+  discuss: Póngase en contacto
+  contribute: Contribuir
+footer:
+  love: Nos encantaría saber de usted
+  open-issue: Abrir una incidencia en GitHub
+  tech-docs: Documentación técnica
+  copyright: Copyright &copy; 2020-2023 Arjan Molenaar y Dan Yeaw.
+  theme: Tema

@@ -1,1 +1,47 @@
-{}
+index:
+  thousand-words: >
+    Slika vrijedi tisuću riječi. Opiši i dokumentiraj svoje programe i sustave
+    s Gaphorom za poboljšavanje dijeljenja znanja.
+  learn: Learn more
+  about-content: >
+    Gaphor je UML, SYSML, Raaml i C4 program za modeliranje. Izrađen je kao
+    jednostavan i moćan program. Gaphor implementira potpuno sukladan UML 2
+    model podataka, tako da je program više od običnog alata za crtanje slike.
+    Koristi Gaphor za brzo vizualiziranje različitih aspekata sustava, kao i za
+    stvaranje potpunih, vrlo složenih modela.
+  build: >
+    Izradi klase, interakciju i dijagrame stanja uređaja za softver ili
+    dijagrame definicija blokova i dijagrame preduvjeta za sustave. Modeliraj
+    elemente koje trebaš. Ako želiš miješati i uskladiti, za dobivanje željenog
+    prikaza istom dijagramu možeš čak dodati različite elemente dijagrama.
+  styling-engine: >
+    Prilagodi dijagrame koje stvaraš pomoću našeg ugrađenog mehanizma za
+    stiliziranje.
+  treeview: Pronađi sve elemente tvog modela na jednostavan način u prikazu stabla.
+  dark-mode: Voliš tamni modus? Omogućujemo i to.
+  download-content: >
+    Postoji mnogo načina za instaliranje Gaphora. Najjednostavnije je preuzeti
+    službeni instalacijski program za Windows ili macOS. Za Linux se Gaphor
+    može instalirati koristeći FlatHub. Također je moguće koristiti Pythonov
+    ugrađeni `pip` alat ukoliko su sve potrebne ovisnosti instalirane.
+latest-news:
+  blog-content: |
+    Želiš znati što se događa s Gaphorom? Čitaj naš blog!
+    
+    [Obrati se timu](/discuss) ako želiš obavijestiti o nečemu u vezi s Gaphorom.
+  see-blog: Pogledaj blog
+  read-more: Saznaj više
+  blog-and-news: Blog i Novosti
+menu:
+  about: Informacije
+  download: Preuzmi
+  tutorials: Vježbe
+  blog: Blog
+  discuss: Kontaktiraj zajednicu
+  contribute: Doprinesi
+footer:
+  love: Radujemo se tvom javljanju
+  open-issue: Prijavi problem na GitHubu
+  tech-docs: Tehnička dokumentacija
+  copyright: Autorska prava &copy; 2020. - 2023. Arjan Molenaar i Dan Yeaw.
+  theme: Tema
