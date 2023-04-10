@@ -8,9 +8,7 @@
   <div class="section-content">
     <div class="container">
       <div class="row blog-carousel">
-        {% assign latest_news = site.posts
-            | where_exp:"post", "post.language == page.language"
-            | limit: 3 %}
+        {% assign latest_news = site.posts | limit: 3 %}
         {% for post in latest_news limit: 3 %}
         <div class="blog-post col-12 col-lg-4">
           <div class="post">
