@@ -28,8 +28,7 @@ latest-news:
   blog-content: |
     Želiš znati što se događa s Gaphorom? Čitaj naš blog!
     
-    [Obrati se timu]({{ "/discuss/" | prepend: site.baseurl }})
-    ako želiš obavijestiti o nečemu u vezi s Gaphorom.
+    [Obrati se timu](/discuss) ako želiš obavijestiti o nečemu u vezi s Gaphorom.
   see-blog: Pogledaj blog
   read-more: Saznaj više
   blog-and-news: Blog i Novosti

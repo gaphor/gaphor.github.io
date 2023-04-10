@@ -29,8 +29,7 @@ latest-news:
   blog-content: |
     Wilt u op de hoogte blijven van ontwikkelingen binnen Gaphor? Lees dan onze blog!
   
-    [Neem contact]({{ "/discuss/" | prepend: site.baseurl }})
-    op met het team als u inhoud met betrekking tot Gaphor wilt delen.
+    [Neem contact](/discuss) op met het team als u inhoud met betrekking tot Gaphor wilt delen.
   see-blog: Blog bekijken
   read-more: Meer lezen
   blog-and-news: Blog en Nieuws

@@ -27,8 +27,7 @@ latest-news:
   blog-content: |
     Szeretnéd tudni, mi történik Gaphorral? Olvassa el naplónkat!
   
-    [Contact the team]({{ "/discuss/" | prepend: site.baseurl }})
-    if you want to share content related to Gaphor.
+    [Contact the team](/discuss) if you want to share content related to Gaphor.
   see-blog: Napló megtekintése
   read-more: Read more
   blog-and-news: Blog and News

@@ -26,8 +26,10 @@ index:
     Gaphor nainstalovat pomocí FlatHubu.  Můžete také použít vestavěný nástroj
     `pip` pro Python, pokud máte nainstalovány všechny potřebné závislosti.
 latest-news:
-  blog-content: Chcete vědět, co se děje s Gaphorem? Přečtěte si náš blog!
-  share-content: obsah týkající se Gaphoru, kontaktujte tým.
+  blog-content: |
+    Chcete vědět, co se děje s Gaphorem? Přečtěte si náš blog!
+    
+    [obsah týkající](/discuss) se Gaphoru, kontaktujte tým.
   see-blog: Zobrazit blog
   read-more: Přečtěte si více
   blog-and-news: Blog and News

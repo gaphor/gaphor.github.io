@@ -30,8 +30,7 @@ latest-news:
   blog-content: |
     ¿Quiere saber qué pasa con Gaphor? ¡Lea nuestro blog!
     
-    [Póngase en contacto]({{ "/discuss/" | prepend: site.baseurl }})
-    con el equipo si quiere compartir contenidos relacionados con Gaphor.
+    [Póngase en contacto](/discuss) con el equipo si quiere compartir contenidos relacionados con Gaphor.
   see-blog: Ver blog
   read-more: Leer más
   blog-and-news: Blog y Noticias
