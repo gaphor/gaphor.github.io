@@ -13,3 +13,5 @@ languages:
     url: "/hu"
   - title: Русский
     url: "/ru"
+  - title: Türkçe
+    url: "/tr"

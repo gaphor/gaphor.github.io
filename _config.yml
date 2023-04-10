@@ -63,7 +63,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-polyglot
 
-languages: ["en", "cs", "es", "hr", "hu", "nl", "ru"]
+languages: ["en", "cs", "es", "hr", "hu", "nl", "ru", "tr"]
 parallel_localization: true
 lang_from_path: true
 # Specifying the default language as "_" forces polyglot to generate a
