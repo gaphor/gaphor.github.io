@@ -63,6 +63,15 @@ plugins:
   - jekyll-redirect-from
   - jekyll-polyglot
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE.txt
+  - Makefile
+  - images/*.xcf
+
 languages: ["en", "cs", "es", "hr", "hu", "nl", "ru", "tr"]
 parallel_localization: true
 lang_from_path: true
@@ -75,13 +84,6 @@ exclude_from_localization:
   - .editorconfig
   - .gitignore
   - CNAME
-  - CONTRIBUTING\.md
-  - LICENSE\.txt
-  - Makefile
-  - README\.md
-  - Gemfile
-  - Gemfile\.lock
   - css/
   - images
   - po/
-  - images/*.xcf
