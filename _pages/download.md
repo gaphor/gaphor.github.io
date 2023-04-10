@@ -6,7 +6,6 @@ redirect_from:
 - /install-gaphor-in-macos.html
 - /install-gaphor-in-linux.html
 - /install-gaphor-using-python-packaging.html
-language: en
 handle: /download
 permalink: /download
 ---

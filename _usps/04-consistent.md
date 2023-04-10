@@ -1,7 +1,6 @@
 ---
 title: Consistent
 icon: eye
-language: en
 ---
 
 UML is a graphical modeling language, so all information you put in the model

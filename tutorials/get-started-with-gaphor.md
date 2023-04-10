@@ -1,7 +1,6 @@
 ---
 title: Get started with Gaphor
 redirect_from: /pages/your-first-model.html
-language: en
 handle: /tutorials/get-started-with-gaphor
 redirect_to: gaphor.readthedocs.io/en/latest/getting_started.html
 ---

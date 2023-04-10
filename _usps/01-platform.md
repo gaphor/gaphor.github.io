@@ -1,7 +1,6 @@
 ---
 title: Multi-platform
 icon: desktop
-language: en
 ---
 
 Gaphor works on all major platforms:
