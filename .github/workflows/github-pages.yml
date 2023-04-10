@@ -40,7 +40,6 @@ jobs:
           enable_cache: true
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: ${{ runner.os }}-gems-
-          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
