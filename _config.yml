@@ -64,6 +64,7 @@ plugins:
   - jekyll-polyglot
 
 exclude:
+  - vendor # Fix invalid date format on GH Actions: https://github.com/jekyll/jekyll/issues/5267
   - Gemfile
   - Gemfile.lock
   - README.md
