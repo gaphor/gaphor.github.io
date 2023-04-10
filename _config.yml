@@ -84,3 +84,4 @@ exclude_from_localization:
   - css/
   - images
   - po/
+  - images/*.xcf
