@@ -31,6 +31,26 @@ def strip_markdown_urls(markdown):
     return re.sub(r"\[([^0-9].*?\n?.+?)\]\(.+?\)", r"\1", markdown)
 
 
+def replace_language_string():
+    conf_file = Path("po") / "po4a.conf"
+    with conf_file.open() as f:
+        line = f.readline()
+        pattern = "\[po4a_langs\] (.*)"
+        match = re.search(pattern, line)
+        languages = match[1].split()
+
+    for language in languages:
+        markdown_files = Path(language).glob("**/*.md")
+        for file in markdown_files:
+            with file.open("r") as f:
+                lines = f.readlines()
+            with file.open("w") as f:
+                for line in lines:
+                    if "language: en" in line:
+                        line = line.replace("language: en", f"language: {language}")
+                    f.write(line)
+
+
 def cleanup_filt_files():
     filt_files = Path(".").glob("**/*.filt")
     for file in filt_files:
@@ -50,5 +70,7 @@ if __name__ == "__main__":
     print("Running po4a to build po files for translation")
     result = subprocess.run(["po4a", "-v", "-f", "po/po4a.conf"])
     print(result)
+    # print("Replace language header info on markdown files")
+    # replace_language_string()
     print("Clean up filt files")
     cleanup_filt_files()

@@ -1,6 +1,7 @@
 ---
 title: How to report a bug in Gaphor
 redirect_from: /pages/how-to-report-a-bug-in-gaphor.html
+language: en
 handle: /tutorials/report-bugs
 layout: article
 ---

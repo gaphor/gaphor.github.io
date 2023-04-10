@@ -2,6 +2,7 @@
 title: Get in touch
 layout: article
 redirect_from: /pages/discuss.html
+language: en
 handle: /discuss
 permalink: /discuss
 ---

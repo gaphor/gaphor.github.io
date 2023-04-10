@@ -1,6 +1,7 @@
 ---
 title: Writing a Plugin
 redirect_from: /pages/writing-a-plugin.html
+language: en
 handle: /tutorials/plugins
 layout: article
 ---
