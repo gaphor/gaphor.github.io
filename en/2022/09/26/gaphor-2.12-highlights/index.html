@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gaphor.org" />
+    <meta property="og:site_name" content="Gaphor, the UML/SysML modeling tool" />
+    <link rel='dns-prefetch' href='//fonts.bunny.net' />
+    <link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+    <link rel="shortcut icon" href="/images/gaphor-24x24.png" />
+
+    <link defer crossorigin="anonymous" rel='stylesheet'
+        href='https://fonts.bunny.net/css?family=open-sans:400,700|mulish:300,800,900'
+        type='text/css' media='all' />
+    <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" media='all' />
+    <link rel='stylesheet' href='/css/main.css' type='text/css' />
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Gaphor 2.12 is out | Gaphor</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Gaphor 2.12 is out" />
+<meta name="author" content="Arjan Molenaar" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The last update was in January, when Gaphor 2.8 was released. However, we’ve been working hard to improve all aspects of Gaphor." />
+<meta property="og:description" content="The last update was in January, when Gaphor 2.8 was released. However, we’ve been working hard to improve all aspects of Gaphor." />
+<link rel="canonical" href="https://gaphor.org/en/2022/09/26/gaphor-2.12-highlights/" />
+<meta property="og:url" content="https://gaphor.org/2022/09/26/gaphor-2.12-highlights/" />
+<meta property="og:site_name" content="Gaphor" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-09-26T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Gaphor 2.12 is out" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Arjan Molenaar"},"dateModified":"2022-09-26T00:00:00+00:00","datePublished":"2022-09-26T00:00:00+00:00","description":"The last update was in January, when Gaphor 2.8 was released. However, we’ve been working hard to improve all aspects of Gaphor.","headline":"Gaphor 2.12 is out","mainEntityOfPage":{"@type":"WebPage","@id":"https://gaphor.org/2022/09/26/gaphor-2.12-highlights/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://gaphor.org/images/gaphor-logo-white.svg"},"name":"Arjan Molenaar"},"url":"https://gaphor.org/2022/09/26/gaphor-2.12-highlights/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+</head>
+
+
+<body>
+
+	<div class="top-header">
+  <div class="container">
+    <div class="row">
+      <nav class="col-12 d-flex justify-content-end language-navigation">
+ <ul>
+ 
+  <li><a href="/en/2022/09/26/gaphor-2.12-highlights/">English</a></li>
+ 
+  <li><a href="/es/2022/09/26/gaphor-2.12-highlights/">Español</a></li>
+ 
+  <li><a href="/cs/2022/09/26/gaphor-2.12-highlights/">Čeština</a></li>
+ 
+  <li><a href="/nl/2022/09/26/gaphor-2.12-highlights/">Nederlands</a></li>
+ 
+  <li><a href="/hr/2022/09/26/gaphor-2.12-highlights/">Hrvatski</a></li>
+ 
+  <li><a href="/hu/2022/09/26/gaphor-2.12-highlights/">Magyar</a></li>
+ 
+  <li><a href="/ru/2022/09/26/gaphor-2.12-highlights/">Русский</a></li>
+ 
+  <li><a href="/tr/2022/09/26/gaphor-2.12-highlights/">Türkçe</a></li>
+ 
+ </ul>
+</nav>
+
+    </div>
+    <div class="row">
+      <div class="col-10 col-lg-3">
+        <a href="https://gaphor.org" title="" class="header-logo">
+          
+          <img src="/images/gaphor-logo-white.svg" alt="Gaphor logo" />
+          
+          </a>
+      </div>
+      <div class="col-2 col-lg-9">
+        <label for="menu-toggle" class="open-responsive-menu"><i class="fa fa-bars"></i></label>
+        <nav class="header-navigation">
+          <ul>
+            <li><a href="/en/#about">About</a></li>
+            <li><a href="/en/download">Download</a></li>
+            <li><a href="/en/tutorials">Tutorials</a></li>
+            <li><a href="/en/blog">Blog</a></li>
+            <li><a href="/en/discuss">Get in touch</a></li>
+            <li><a href="/en/contribute">Contribute</a></li>
+            <li><a href="https://github.com/gaphor/gaphor"><i class='fab fa-github' style='font-size: 168%' title='GitHub repository'></i></a>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+<input id="menu-toggle" type="checkbox" hidden></input>
+<nav class="responsive-menu">
+  <label for="menu-toggle" class="close-responsive-menu"><i class="fa fa-times"></i></label>
+  <ul>
+    <li><a href="/en/">Home</a></li>
+    <li><a href="/en/#about"></a></li>
+    <li><a href="/en/download"></a></li>
+    <li><a href="/en/tutorials"></a></li>
+    <li><a href="/en/blog"></a></li>
+    <li><a href="/en/discuss"></a></li>
+    <li><a href="/en/contribute"></a></li>
+    <li><a href="https://github.com/gaphor/gaphor"><i class='fab fa-github' style='font-size: 168%' title='GitHub repository'></i></a>
+  </ul>
+</nav>
+
+
+<div class="default-page">
+<section id="static-page-content">
+    <div class="section-header"
+	 style="background-color: ; background-image: url(/images/gaphor-2.12-highlights/bg.jpg); background-size: cover; background-position: center; height: 38vh"
+     >
+    </div>
+    <p class="image-attribution"><a href="https://unsplash.com/photos/ms5KaYqstdQ">Image attribution</a></p>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10 offset-sm-1">
+                <h1>Gaphor 2.12 is out</h1>
+                <p class="credits">By Arjan Molenaar on September 26, 2022</p>
+                <p>The last update was in January, when Gaphor 2.8 was released. However, we’ve
+been working hard to improve all aspects of Gaphor.</p>
+
+<p>The biggest highlight by far is the move to <a href="https://gtk.org">GTK4</a>. At this
+point we support GTK4 only for Flatpak on Linux, but as support for Windows and
+macOS improves, we will also move those over. The biggest advantage is that GTK4
+is a <em>lot</em> faster.</p>
+
+<p>But there’s more&amp;ellipsis;</p>
+
+<!--break-->
+
+<h2 id="modeling-improvements">Modeling improvements</h2>
+
+<p>A lot of new features have been added to the models:</p>
+
+<ul>
+  <li>Activity diagrams now support pins, and have separate object and control flow relations.</li>
+  <li>State machines have been improved by adding region support, along with support for all types of pseudo elements.</li>
+  <li>Stereotypes can now be inherited, for those of you that make heavy use of stereotypes.</li>
+  <li>Attributes in classes and the like now support generic and union syntax, making them much more versatile.</li>
+</ul>
+
+<p><img src="/images/gaphor-2.12-highlights/state-machine.png" alt="Improved state machines" /></p>
+
+<p>One of the big improvements is an application wide approach to grouping
+(containment) of elements. This means that you can group elements in the tree
+view by dragging one on the other. You can also perform the grouping visually in
+a diagram. The result is the same.</p>
+
+<p>One of the more exotic improvements is that it’s now possible to associate
+activities with classifiers. This is useful if you want to express where
+activities will take place (e.g. which component).</p>
+
+<p>Elements can also now be added to a diagram by double-clicking them. There’s no
+need to drag elements on the diagram anymore. Now everything in Gaphor can be
+accomplished without relying on drag-and-drop. You can even <strong>run Gaphor on a Chromebook!</strong></p>
+
+<h2 id="extensive-testing">Extensive testing</h2>
+
+<p>In gaphor 2.9 we introduced <a href="https://hypothesis.works/">Hypothesis</a>, a property
+based test framework. This helped us tremendously to improve the stability of
+Gaphor. Quite a few (obscure) issues were exposed. Those have been fixed over
+the past months.</p>
+
+<p>We’ve also implemented a self-test feature. This allows us to test the
+installation of Gaphor, and we can check if the application will actually run on
+a clean system. This gives us a lot of confidence the application will actually
+work, and we do not have to check that by hand on all supported platforms.</p>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<link rel='stylesheet' href='/css/highlight.css' type='text/css' media='all' />
+
+</div>
+
+	<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-10 offset-sm-1">
+                <h5>We love to hear from you</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-10 offset-sm-1 col-md-6 col-lg-4">
+                <ul class="fa-ul">
+                    <li><a href="https://gitter.im/gaphor/Lobby"><i class="fa-li fa fa-angle-right"></i>
+                            <i class="fab fa-gitter"></i> Gitter</a></li>
+                    <li><a href="https://twitter.com/modelwithgaphor"><i class="fa-li fa fa-angle-right"></i>
+                            <i class="fab fa-twitter"></i> Twitter</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-10 offset-sm-1 col-md-6 col-lg-4">
+                <ul class="fa-ul">
+                    <li><a href="https://github.com/gaphor"><i class="fa-li fa fa-angle-right"></i>
+                            <i class="fab fa-github"></i> GitHub</a></li>
+                    <li><a href="https://github.com/gaphor/gaphor/issues"><i class="fa-li fa fa-angle-right"></i>
+                            <i class="fas fa-band-aid"></i>Open an issue on GitHub</a>
+                    </li>
+                    <li><a href="https://gaphor.readthedocs.io/"><i class="fa-li fa fa-angle-right"></i>
+                            <i class="fas fa-drafting-compass"></i>Tech docs</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-footer">
+        <div class="container">
+            <p class="copyright">
+                <span>Theme: <a href="https://colorlib.com/illdy" title="Illdy">Illdy</a>.</span>
+                <span class="bottom-copyright">Copyright &copy; 2020-2023 Arjan Molenaar and Dan Yeaw.</span>
+            </p>
+        </div>
+    </div>
+
+</footer>
+
+<!-- page.url is / or /XX/ for translations -->
+
+
+
+    <script type="application/javascript">
+var codeBlocks = document.querySelectorAll('pre.highlight');
+
+codeBlocks.forEach(function (codeBlock) {
+  var copyButton = document.createElement('button');
+  copyButton.className = 'copy';
+  copyButton.type = 'button';
+  copyButton.ariaLabel = 'Copy code to clipboard';
+  copyButton.innerText = 'Copy';
+
+  codeBlock.append(copyButton);
+
+  copyButton.addEventListener('click', function () {
+    var code = codeBlock.querySelector('code').innerText.trim();
+    window.navigator.clipboard.writeText(code);
+
+    copyButton.innerText = 'Copied';
+    var fourSeconds = 4000;
+
+    setTimeout(function () {
+      copyButton.innerText = 'Copy';
+    }, fourSeconds);
+  });
+});
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,631 @@
+# Czech translations for PACKAGE package
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-04-12 01:02+0000\n"
+"PO-Revision-Date: 2023-04-09 12:02-0400\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#. type: YAML Front Matter: title
+#: _platforms/01-windows.md.filt
+#, no-wrap
+msgid "Windows"
+msgstr "Windows"
+
+#. type: Plain text
+#: _platforms/01-windows.md.filt
+#, no-wrap
+msgid " Download installer\n"
+msgstr ""
+
+#. type: Plain text
+#: _platforms/01-windows.md.filt
+msgid "Alternatively a portable version of Gaphor can be downloaded."
+msgstr ""
+
+#. type: Plain text
+#: _platforms/01-windows.md.filt
+#, no-wrap
+msgid " Download portable version\n"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _platforms/02-macos.md.filt
+#, no-wrap
+msgid "macOS"
+msgstr "macOS"
+
+#. type: Plain text
+#: _platforms/02-macos.md.filt
+#, no-wrap
+msgid " Download .dmg\n"
+msgstr " Stáhnout .dmg\n"
+
+#. type: Plain text
+#: _platforms/02-macos.md.filt
+msgid "Gaphor requires **macOS 10.15** or newer."
+msgstr "Gaphor vyžaduje **macOS 10.15** nebo novější."
+
+#. type: Title ###
+#: _platforms/02-macos.md.filt
+#, no-wrap
+msgid "Homebrew"
+msgstr "Homebrew"
+
+#. type: Plain text
+#: _platforms/02-macos.md.filt
+msgid "Pour Gaphor from a homebrew cask:"
+msgstr "Nalijte Gaphor z domácího sudu:"
+
+#. type: YAML Front Matter: title
+#: _platforms/03-linux.md.filt
+#, no-wrap
+msgid "Linux"
+msgstr "Linux"
+
+#. type: Title ###
+#: _platforms/03-linux.md.filt
+#, no-wrap
+msgid "Flatpak"
+msgstr "Flatpak"
+
+#. type: Plain text
+#: _platforms/03-linux.md.filt
+msgid "Flatpak is the recommended way to install Gaphor in Linux. If you don't have it setup already, follow the instructions to install Flatpak."
+msgstr "Flatpak je doporučený způsob instalace Gaphoru na Linuxu. Pokud jej ještě nemáte nastavený, postupujte podle pokynů k instalaci Flatpaku."
+
+#. type: Plain text
+#: _platforms/03-linux.md.filt
+msgid "To manually install Gaphor:"
+msgstr "Ruční instalace aplikace Gaphor:"
+
+#. type: Title ###
+#: _platforms/03-linux.md.filt
+#, no-wrap
+msgid "AppImage"
+msgstr "AppImage"
+
+#. type: Plain text
+#: _platforms/03-linux.md.filt
+msgid "The other option if you are running a recent Linux distribution is to use the AppImage. It is built using Ubuntu 18.04 and most likely won't work on older versions."
+msgstr "Druhou možností, pokud používáte nejnovější distribuci Linuxu, je použít AppImage. Je sestaven s použitím Ubuntu 18.04 a na starších verzích pravděpodobně nebude fungovat."
+
+#. type: Plain text
+#: _platforms/03-linux.md.filt
+#, no-wrap
+msgid " Download AppImage\n"
+msgstr " Stáhnout AppImage\n"
+
+#. type: Plain text
+#: _platforms/03-linux.md.filt
+msgid "If you're using Wayland and the AppImage crashes, you can force it to use the X11 backend instead."
+msgstr "Pokud používáte Wayland a AppImage se zhroutí, můžete jej vynutit, aby místo toho použil backend X11."
+
+#. type: Title ###
+#: _platforms/03-linux.md.filt
+#, no-wrap
+msgid "Arch Linux"
+msgstr "Arch Linux"
+
+#. type: Plain text
+#: _platforms/03-linux.md.filt
+msgid "Gaphor can be installed from an AUR package."
+msgstr "Gaphor lze nainstalovat jako balíček z AUR repositáře."
+
+#. type: YAML Front Matter: title
+#: _platforms/04-python.md.filt
+#, no-wrap
+msgid "Python"
+msgstr "Python"
+
+#. type: Plain text
+#: _platforms/04-python.md.filt
+msgid "If you have the latest stable version of Python installed and the Gaphor dependencies installed, you can also install Gaphor using a wheel from PyPI."
+msgstr "Pokud máte nainstalovanou nejnovější stabilní verzi Pythonu a závislosti Gaphoru, můžete Gaphor nainstalovat také pomocí wheel z PyPI."
+
+#. type: Plain text
+#: _platforms/04-python.md.filt
+msgid "If you don't have the latest stable version of Python and the Gaphor dependencies installed, follow the development environment installation instructions section, but do not clone the repository. Optionally, create a virtual environment.  Then execute the following:"
+msgstr "Pokud nemáte nainstalovanou nejnovější stabilní verzi Pythonu a závislostí Gaphor, postupujte podle pokynů pro instalaci vývojového prostředí, ale neklonujte úložiště.  Případně vytvořte virtuální prostředí.  Poté proveďte následující příkaz:"
+
+#. type: YAML Front Matter: title
+#: tutorials/plugins.md.filt
+#, no-wrap
+msgid "Writing a Plugin"
+msgstr "Psaní zásuvného modulu"
+
+#. type: Plain text
+#: tutorials/plugins.md.filt
+msgid "Gaphor is designed to be extensible by using plugins that allow you to extend the functionality."
+msgstr "Gaphor je navržen tak, aby byl rozšiřitelný pomocí zásuvných modulů, které vám umožní rozšířit jeho funkce."
+
+#. type: Title ##
+#: tutorials/plugins.md.filt
+#, no-wrap
+msgid "Accessing Model Related Data"
+msgstr "Přístup k datům souvisejícím s modelem"
+
+#. type: Plain text
+#: tutorials/plugins.md.filt
+msgid "The datamodel classes are located in the `gaphor.UML` module. Data objects can be accessed through the ElementFactory. This is a special class for creating and managing data objects. Items can be queried using this element factory, which is registered in the application as `element_factory`. When writing a service or plugin the element factory can be injected into the service like this:"
+msgstr "Třídy datového modelu se nacházejí v modulu `gaphor.UML`. K datovým objektům lze přistupovat prostřednictvím ElementFactory. Jedná se o speciální třídu pro vytváření a správu datových objektů. Na prvky se lze dotazovat pomocí této továrny na prvky, která je v aplikaci registrována jako `element_factory`. Při psaní služby nebo zásuvného modulu lze továrnu na prvky injektovat do služby takto:"
+
+#. type: Plain text
+#: tutorials/plugins.md.filt
+msgid "In the console window services can be retrieved by using the `service()` function. For example:"
+msgstr "V okně konzole lze služby načíst pomocí funkce `service()`. For example:"
+
+#. type: Title ##
+#: tutorials/plugins.md.filt
+#, no-wrap
+msgid "Querying the Data Model"
+msgstr "Dotazování na datový model"
+
+#. type: Plain text
+#: tutorials/plugins.md.filt
+msgid "Two methods are used for querying:"
+msgstr "Pro dotazování se používají dvě metody:"
+
+#. type: Bullet: '-   '
+#: tutorials/plugins.md.filt
+msgid "`select(query=None)` -> returns an iterator"
+msgstr "`select(query=None)` -> vrací iterátor"
+
+#. type: Bullet: '-   '
+#: tutorials/plugins.md.filt
+msgid "`lselect(query=None)` -> returns a list"
+msgstr "`lselect(query=None)` -> vrací seznam"
+
+#. type: Plain text
+#: tutorials/plugins.md.filt
+msgid "`query` is a lambda function with the element as parameter. For example, to fetch all the Class instances from the element factory:"
+msgstr "`dotaz` je lambda funkce s prvkem jako parametrem. Například pro načtení všech instancí třídy z továrny na prvky:"
+
+#. type: Title ##
+#: tutorials/plugins.md.filt
+#, no-wrap
+msgid "Traversing Data Instances"
+msgstr "Procházení datových instancí"
+
+#. type: Plain text
+#: tutorials/plugins.md.filt
+msgid "Once some classes are obtained, it is common to traverse through a few related objects in order to get the required information. For example: to iterate through all parameters related to a class' operations:"
+msgstr "Po získání některých tříd je běžné projít několik souvisejících objektů, aby bylo možné získat požadované informace. Například: iterovat přes všechny parametry související s operacemi třídy:"
+
+#. type: Plain text
+#: tutorials/plugins.md.filt
+msgid "Using the `[:]` operator items can be traversed more easily:"
+msgstr "Pomocí operátoru `[:]` lze položky procházet snadněji:"
+
+#. type: Title ##
+#: tutorials/plugins.md.filt
+#, no-wrap
+msgid "Example Plugin"
+msgstr "Příklad pluginu"
+
+#. type: Plain text
+#: tutorials/plugins.md.filt
+msgid "An example Hello World plugin is hosted on GitHub."
+msgstr "Příklad zásuvného modulu Hello World je umístěn na GitHubu."
+
+#. type: YAML Front Matter: title
+#: tutorials/report-bugs.md.filt
+#, no-wrap
+msgid "How to report a bug in Gaphor"
+msgstr "Jak nahlásit chybu v aplikaci Gaphor"
+
+#. type: Plain text
+#: tutorials/report-bugs.md.filt
+msgid "If you've ever written a line of code, you'll know that all software has bugs.  This will also be the case with Gaphor. If you think you have found a bug, simply click on the link below (you'll need to have an account on GitHub) and then click the green \"New Issue\" button found at the top right hand side of the page:"
+msgstr "Pokud jste někdy napsali řádek kódu, víte, že každý software má chyby.  Stejně tomu bude i v případě aplikace Gaphor. Pokud si myslíte, že jste našli chybu, jednoduše klikněte na odkaz níže (musíte mít účet na GitHubu) a poté klikněte na zelené tlačítko \"New Issue\", které najdete v pravém horním rohu stránky:"
+
+#. type: Plain text
+#: tutorials/report-bugs.md.filt
+msgid "Report a Bug in Gaphor"
+msgstr "Nahlášení chyby v aplikaci Gaphor"
+
+#. type: Plain text
+#: tutorials/report-bugs.md.filt
+msgid "When you create a new issue it will be given a number and the volunteer developers, who write and maintain the code, will be informed by email. They may annotate questions to your issue, if things are not clear. They may immediately close it and mark it as \"duplicate\" (someone else has already reported the bug -- and they'll reference the original issue). Sometimes they'll close the bug and say \"won't fix\", because they disagree that it's a bug *or* it's too trivial in order to invest any time."
+msgstr "Při vytvoření nového problému mu bude přiděleno číslo a dobrovolní vývojáři, kteří píší a udržují kód, budou informováni e-mailem. Ti mohou k vašemu problému připojit poznámky, pokud vám něco není jasné. Mohou jej okamžitě uzavřít a označit jako \"duplicitní\" (chybu již nahlásil někdo jiný - a odkáží na původní problém). Někdy chybu uzavřou a řeknou \"nebude se opravovat\", protože nesouhlasí s tím, že jde o chybu *nebo* je příliš triviální, aby do ní investovali čas."
+
+#. type: Plain text
+#: tutorials/report-bugs.md.filt
+msgid "There are generally two sorts of bugs:"
+msgstr "Obecně existují dva druhy chyb:"
+
+#. type: Bullet: '* '
+#: tutorials/report-bugs.md.filt
+msgid "Technical: the code has a mistake in it which causes the program to break."
+msgstr "Technická: v kódu je chyba, která způsobí přerušení programu."
+
+#. type: Bullet: '* '
+#: tutorials/report-bugs.md.filt
+msgid "Behavioural: the code works correctly, but is doing the wrong thing."
+msgstr "Chování: kód funguje správně, ale dělá špatnou věc."
+
+#. type: Plain text
+#: tutorials/report-bugs.md.filt
+msgid "In both cases, for us to be able to fix the bug, we need **as much information as possible**. When you create a new issue you should try to include, where relevant, the following sorts of information:"
+msgstr "V obou případech, abychom mohli chybu opravit, potřebujeme **co nejvíce informací**. Při vytváření nového problému byste se měli pokusit uvést, pokud je to relevantní, následující druhy informací:"
+
+#. type: Bullet: '* '
+#: tutorials/report-bugs.md.filt
+msgid "What you were trying to do,"
+msgstr "O co jste se snažili,"
+
+#. type: Bullet: '* '
+#: tutorials/report-bugs.md.filt
+msgid "What steps you took to make this happen,"
+msgstr "Jaké kroky jste podnikli, aby se tak stalo,"
+
+#. type: Bullet: '* '
+#: tutorials/report-bugs.md.filt
+msgid "What you expected to happen,"
+msgstr "Co jste očekávali, že se stane,"
+
+#. type: Bullet: '* '
+#: tutorials/report-bugs.md.filt
+msgid "What actually happened,"
+msgstr "Co se vlastně stalo,"
+
+#. type: Bullet: '* '
+#: tutorials/report-bugs.md.filt
+msgid "Why this difference is problematic (it may not be a bug!),"
+msgstr "Proč je tento rozdíl problematický (nemusí to být chyba!),"
+
+#. type: Bullet: '* '
+#: tutorials/report-bugs.md.filt
+msgid "Technical details like the version of Gaphor you're using, your OS version and other aspects of the context in which Gaphor was running."
+msgstr "Technické údaje, jako je verze programu Gaphor, kterou používáte, verze operačního systému a další aspekty kontextu, ve kterém byl program Gaphor spuštěn."
+
+#. type: Plain text
+#: tutorials/report-bugs.md.filt
+msgid "Use plain and simple language to describe the problem and, if helpful, break it down into steps so developers can easily recreate the issue. Please don't assume we'll understand what you were trying to achieve -- honestly, it's best if you try to imagine we (the developers) are a bunch of clever 5-year-olds. Try to explain *everything* about the problem and don't assume we know what you mean.  We won't mind!"
+msgstr "Problém popište jednoduchým a srozumitelným jazykem, a pokud je to užitečné, rozdělte jej do jednotlivých kroků, aby vývojáři mohli problém snadno znovu vytvořit. Nepředpokládejte, že pochopíme, čeho jste se snažili dosáhnout - upřímně řečeno, nejlepší bude, když si zkusíte představit, že my (vývojáři) jsme banda chytrých pětiletých dětí.  Pokuste se vysvětlit *vše* o problému a nepředpokládejte, že víme, co máte na mysli. Nebude nám to vadit!"
+
+#. type: Plain text
+#: tutorials/report-bugs.md.filt
+msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the Gaphor developer's website."
+msgstr "Pokud byste se chtěli více zapojit do vývoje programu Gaphor, rádi vás přivítáme na webových stránkách vývojářů Gaphoru."
+
+#. type: YAML Front Matter: title
+#: tutorials/get-started-with-gaphor.md.filt
+#, no-wrap
+msgid "Get started with Gaphor"
+msgstr "Začněte s aplikací Gaphor"
+
+#. type: Plain text
+#: tutorials/get-started-with-gaphor.md.filt
+msgid "This page has moved to https://gaphor.readthedocs.io/en/latest/getting_started.html."
+msgstr "Tato stránka byla přesunuta na https://gaphor.readthedocs.io/en/latest/getting_started.html."
+
+#. type: Bullet: '2. '
+#: tutorials/your-first-model.md.filt _pages/tutorials.md.filt
+#, no-wrap
+msgid "Your First Model"
+msgstr "Váš první model"
+
+#. type: Plain text
+#: tutorials/your-first-model.md.filt
+msgid "This page has been moved to https://docs.gaphor.org/en/latest/first_model.html."
+msgstr "Tato stránka byla přesunuta na https://gaphor.readthedocs.io/en/latest/getting_started.html."
+
+#. type: YAML Front Matter: title
+#: _usps/01-platform.md.filt
+#, no-wrap
+msgid "Multi-platform"
+msgstr "Multiplatformní"
+
+#. type: Plain text
+#: _usps/01-platform.md.filt
+msgid "Gaphor works on all major platforms: Windows, Macos, and Linux."
+msgstr "Gaphor funguje na všech hlavních platformách: Windows, Macos, and Linux."
+
+#. type: YAML Front Matter: title
+#: _usps/02-opensource.md.filt
+#, no-wrap
+msgid "Open Source"
+msgstr "Otevřený zdrojový kód"
+
+#. type: Plain text
+#: _usps/02-opensource.md.filt
+msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly Apache 2 license."
+msgstr "Žádný vendor lock-in: Gaphor je napsán v jazyce Python a je 100% open source, dostupný pod přátelskou licencí Apache 2."
+
+#. type: YAML Front Matter: title
+#: _usps/03-beginner-pro.md.filt
+#, no-wrap
+msgid "Beginner or Pro"
+msgstr "Začátečník nebo profesionál"
+
+#. type: Plain text
+#: _usps/03-beginner-pro.md.filt
+msgid "Whether you're a casual modeler documenting a project or a Model Driven Development expert, Gaphor has got you covered."
+msgstr "Ať už jste příležitostný modelář, který dokumentuje projekt, nebo expert na vývoj řízený modelem, Gaphor vám pomůže."
+
+#. type: YAML Front Matter: title
+#: _usps/04-consistent.md.filt
+#, no-wrap
+msgid "Consistent"
+msgstr "Konzistentní"
+
+#. type: Plain text
+#: _usps/04-consistent.md.filt
+msgid "UML is a graphical modeling language, so all information you put in the model is visible in the diagrams. For example, stereotypes are modeled in diagrams.  No hidden panels and property pages. Just diagrams!"
+msgstr "UML je grafický modelovací jazyk, takže všechny informace, které do modelu vložíte, jsou viditelné v diagramech. Například stereotypy jsou modelovány v diagramech.  Žádné skryté panely a stránky vlastností. Jen diagramy!"
+
+#. type: YAML Front Matter: title
+#: _usps/05-extensible.md.filt
+#, no-wrap
+msgid "Extensible"
+msgstr "Rozšiřitelný"
+
+#. type: Plain text
+#: _usps/05-extensible.md.filt
+msgid "Gaphor is extensible. Plug-in a code generator or export your diagrams for documentation.  Create your own extensions and access them through the GUI or CLI."
+msgstr "Gaphor je rozšiřitelný. Připojte generátor kódu nebo exportujte svá schémata pro dokumentaci.  Vytvořte si vlastní rozšíření a přistupujte k nim prostřednictvím grafického uživatelského rozhraní nebo rozhraní CLI."
+
+#. type: YAML Front Matter: title
+#: _usps/06-standard.md.filt
+#, no-wrap
+msgid "Standards Compliant"
+msgstr "V souladu s normami"
+
+#. type: Plain text
+#: _usps/06-standard.md.filt
+msgid "Gaphor implements the UML, SysML, and RAAML OMG standards. It also includes support for the C4 model for visualizing software architectures."
+msgstr "Gaphor implementuje standardy UML, SysML a RAAML OMG. Obsahuje také podporu modelu C4 pro vizualizaci softwarových architektur."
+
+#. type: YAML Front Matter: title
+#: _pages/contribute.md.filt
+#, no-wrap
+msgid "Contribute"
+msgstr "Přispět"
+
+#. type: Plain text
+#: _pages/contribute.md.filt
+msgid "Would you like to contribute to the development of Gaphor? (If you think this is only something for experienced developers, please reconsider, there are plenty of ways to contribute to Gaphor, no matter your level of experience or skill set."
+msgstr "Chtěli byste se podílet na vývoji Gaphoru? (Pokud si myslíte, že je to něco jen pro zkušené vývojáře, zvažte to prosím znovu, existuje spousta způsobů, jak přispět ke Gaphoru, bez ohledu na úroveň vašich zkušeností nebo dovedností."
+
+#. type: Plain text
+#: _pages/contribute.md.filt
+msgid "Our technical documentation is hosted on the wonderful service that is Read the Docs. Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
+msgstr "Naše technická dokumentace je umístěna na skvělé službě Read the Docs. Nejenže obsahuje podrobnosti potřebné k tomu, abyste mohli do Gaphoru přispívat kódem, ale popisuje i spoustu dalších způsobů, jak můžete přispívat (včetně aktualizací této webové stránky). V neposlední řadě poskytuje průvodce našimi procesy a očekáváními pro různé typy příspěvků, které můžete do Gaphoru vložit."
+
+#. type: Plain text
+#: _pages/contribute.md.filt
+msgid "The source code is hosted on GitHub."
+msgstr "Zdrojový kód je umístěn na GitHubu."
+
+#. type: Plain text
+#: _pages/contribute.md.filt
+msgid "If in doubt, just ask in our discussion area and someone will be able to point you in the right direction."
+msgstr "Pokud máte pochybnosti, zeptejte se v naší diskuzi a někdo vás navede správným směrem."
+
+#. type: YAML Front Matter: title
+#: _pages/discuss.md.filt
+#, no-wrap
+msgid "Get in touch"
+msgstr "Spojte se s námi"
+
+#. type: Plain text
+#: _pages/discuss.md.filt
+msgid "It's good to talk, share knowledge and learn from other users of Gaphor. Perhaps you have a question, problem or are unsure how to do something with Gaphor? Discussing such things in a supportive environment is a good way to make progress, make friends, and help. Put simply, Gaphor is a community focused project, and we have created a couple of online spaces where the community can come together."
+msgstr "Je dobré si povídat, sdílet znalosti a učit se od ostatních uživatelů Gaphoru. Možná máte nějakou otázku, problém nebo si nejste jisti, jak něco s Gaphorem udělat? Diskuse o takových věcech v podpůrném prostředí je dobrý způsob, jak pokročit, získat přátele a pomoci. Jednoduše řečeno, Gaphor je projekt zaměřený na komunitu a my jsme vytvořili několik online prostorů, kde se komunita může scházet."
+
+#. type: Plain text
+#: _pages/discuss.md.filt
+msgid "Contributions are welcome without prejudice from anyone irrespective of age, gender, religion, race, or sexuality. If you’re thinking, \"but they don't mean me\", then we especially mean YOU."
+msgstr "Příspěvky jsou vítány bez předsudků od kohokoli bez ohledu na věk, pohlaví, náboženství, rasu nebo sexualitu. Pokud si říkáte: \"ale mě tím nemyslí\", pak tím myslíme především VÁS."
+
+#. type: Title ##
+#: _pages/discuss.md.filt
+#, no-wrap
+msgid "Chat on Gitter"
+msgstr "Chat na Gitteru"
+
+#. type: Plain text
+#: _pages/discuss.md.filt
+msgid "Our real-time conversations are on Gitter and are bridged to Matrix.  Matrix is the preferred way, since it's more use friendly than bare Gitter."
+msgstr "Naše konverzace v reálném čase probíhají na Gitteru a jsou propojeny s Matrixem.  Matrix je preferovaný způsob, protože je uživatelsky přívětivější než holý Gitter."
+
+#. type: Plain text
+#: _pages/discuss.md.filt
+#, no-wrap
+msgid " Join Matrix with Element.io\n"
+msgstr " Připojení přes Matrix pomocí Element.io\n"
+
+#. type: Plain text
+#: _pages/discuss.md.filt
+#, no-wrap
+msgid " Join Gitter Chat\n"
+msgstr " Připojte se k chatu Gitter\n"
+
+#. type: Plain text
+#: _pages/discuss.md.filt
+msgid "NB. If you're using a mobile device, use the Element app (for Matrix), the Gitter app is no longer supported."
+msgstr "POZN. Pokud používáte mobilní zařízení, použijte aplikaci Element (pro Matrix), aplikace Gitter již není podporována."
+
+#. type: Title ##
+#: _pages/discuss.md.filt
+#, no-wrap
+msgid "Submit an Issue on GitHub"
+msgstr "Odeslání problému na GitHubu"
+
+#. type: Plain text
+#: _pages/discuss.md.filt
+msgid "Please use our GitHub issue tracker for general questions and reporting bugs.  Before submitting a GitHub issue please review our page about how to report a bug in Gaphor."
+msgstr "Pro obecné dotazy a hlášení chyb používejte náš issue tracker na GitHubu.  Před odesláním problému na GitHub si prosím přečtěte naši stránku o tom, jak nahlásit chybu v Gaphoru."
+
+#. type: Plain text
+#: _pages/discuss.md.filt
+#, no-wrap
+msgid " Submit an Issue on GitHub\n"
+msgstr " Odešlete problém na GitHubu\n"
+
+#. type: Title ##
+#: _pages/discuss.md.filt
+#, no-wrap
+msgid "Community Conduct"
+msgstr "Chování komunity"
+
+#. type: Plain text
+#: _pages/discuss.md.filt
+msgid "We expect contributors to follow the Code of Conduct."
+msgstr "Očekáváme, že přispěvatelé budou dodržovat Kodex chování."
+
+#. type: Plain text
+#: _pages/discuss.md.filt
+msgid "We want our community to be a safe, welcoming and friendly place.  We won't hesitate to issue a clear warning and, if ignored, ban people who don't behave in the spirit of the code of conduct. If a conduct related situation arises, we will endeavour to act in a discreet, sympathetic and fair manner to all concerned."
+msgstr "Chceme, aby naše komunita byla bezpečným, přívětivým a přátelským místem.  Nebudeme váhat vydat jasné varování a v případě ignorování vykázat osoby, které se nechovají v duchu kodexu chování. Pokud dojde k situaci související s chováním, budeme se snažit jednat diskrétně, vstřícně a spravedlivě vůči všem zúčastněným."
+
+#. type: YAML Front Matter: title
+#: _pages/tutorials.md.filt
+#, no-wrap
+msgid "Tutorials"
+msgstr "Tutoriály"
+
+#. type: Plain text
+#: _pages/tutorials.md.filt
+msgid "Each tutorial is a self-contained lesson, explaining a specific aspect of Gaphor, so you have the skills needed to achieve your learning and modeling goals."
+msgstr "Každý výukový kurz je samostatnou lekcí, která vysvětluje konkrétní aspekt programu Gaphor, takže získáte dovednosti potřebné k dosažení cílů učení a modelování."
+
+#. type: Bullet: '1. '
+#: _pages/tutorials.md.filt
+msgid "Get Started with Gaphor"
+msgstr "Začněte s aplikací Gaphor"
+
+#. type: Plain text
+#: _pages/tutorials.md.filt
+#, no-wrap
+msgid ""
+"3.  Introduction to Gaphor and\n"
+"   SysML, presented by Dan at a joint INCOSE\n"
+"   Michigan and Michigan Python event.\n"
+"1. How to report a bug in Gaphor\n"
+msgstr ""
+"3.  Úvod do Gaphoru a\n"
+"   SysML, který Dan prezentoval na společném zasedání INCOSE.\n"
+"   Michigan a Michigan Python.\n"
+"1. Jak nahlásit chybu v programu Gaphor\n"
+
+#. type: Title ##
+#: _pages/tutorials.md.filt
+#, no-wrap
+msgid "Advanced topics"
+msgstr "Pokročilá témata"
+
+#. type: Plain text
+#: _pages/tutorials.md.filt
+#, fuzzy
+#| msgid "- Technical and architectural documentation for contributors and plugin developers"
+msgid "- Extend your models with stereotypes - Writing a plugin - Technical and architectural documentation for contributors and plugin developers"
+msgstr "- Rozšiřování modelů pomocí stereotypů - Psaní zásuvného modulu - Technická a architektonická dokumentace pro přispěvatele a vývojáře zásuvných modulů"
+
+#. type: Title ##
+#: _pages/tutorials.md.filt
+#, no-wrap
+msgid "Talks"
+msgstr "Rozhovory"
+
+#. type: Bullet: '- '
+#: _pages/tutorials.md.filt
+msgid "Dan and Arjan spoke at Linux App Summit 2021 about how Gaphor is made available to all desktop platforms Linux/Windows/macOS."
+msgstr "Dan a Arjan hovořili na konferenci Linux App Summit 2021 o tom, jak je Gaphor dostupný pro všechny desktopové platformy Linux/Windows/macOS."
+
+#. type: Bullet: '- '
+#: _pages/tutorials.md.filt
+msgid "Dan spoke at the 2021 MIT STAMP Workshop about _Open STPA with RAAML and Gaphor_."
+msgstr "Dan přednášel na semináři MIT STAMP 2021 o _Open STPA s RAAML a Gaphor_."
+
+#. type: Bullet: '- '
+#: _pages/tutorials.md.filt
+msgid "Arjan spoke at GUADEC 2021 about Large GUI application with Python and GTK."
+msgstr "Arjan vystoupil na konferenci GUADEC 2021 s přednáškou na téma Velké GUI aplikace s Pythonem a GTK."
+
+#. type: Title ##
+#: _pages/tutorials.md.filt
+#, no-wrap
+msgid "What other people say"
+msgstr "Co říkají ostatní lidé"
+
+#. type: Plain text
+#: _pages/tutorials.md.filt
+msgid "There are some 10+ year old articles on Gaphor on the web. Some more recent articles are:"
+msgstr "Na webu je několik více než 10 let starých článků o Gaphoru. Některé novější články jsou:"
+
+#. type: Plain text
+#: _pages/tutorials.md.filt
+msgid "- Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.  - It's FOSS has a short write-up on Gaphor (~2.8-ish?).  - Ubuntu Pit has a nice article on Gaphor (~2.8-ish?)."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _pages/download.md.filt
+#, no-wrap
+msgid "Download Gaphor"
+msgstr "Stáhnout Gaphor"
+
+#. type: Plain text
+#: _pages/download.md.filt
+msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
+msgstr "Existuje mnoho způsobů instalace systému Gaphor. Nejjednodušší je stáhnout si oficiální instalační program pro Windows nebo macOS. Pro Linux můžete Gaphor nainstalovat pomocí FlatHubu.  Můžete také použít vestavěný nástroj `pip` pro Python, pokud máte nainstalovány všechny potřebné závislosti."
+
+#. type: Plain text
+#: _pages/download.md.filt
+msgid "If you're a developer, you can find the source code on GitHub."
+msgstr "Pokud jste vývojář, zdrojový kód najdete na GitHubu."
+
+#. type: Title #
+#: _pages/404.md.filt
+#, no-wrap
+msgid "404"
+msgstr "404"
+
+#. type: Plain text
+#: _pages/404.md.filt
+#, no-wrap
+msgid "**Page not found :(**\n"
+msgstr "**Stránka nebyla nalezena :(**\n"
+
+#. type: Plain text
+#: _pages/404.md.filt
+msgid "The requested page could not be found."
+msgstr "Požadovanou stránku se nepodařilo najít."
+
+#. type: YAML Front Matter: title
+#: _pages/index.md.filt
+#, no-wrap
+msgid "Modeling for Everyone"
+msgstr "Modeling pro každého"
+
+#. type: YAML Front Matter: title
+#: _pages/blog.md.filt
+#, no-wrap
+msgid "Blog and News"
+msgstr "Blog a Zprávy"
+
+#~ msgid "Extend your models with stereotypes"
+#~ msgstr "Rozšiřte své modely o stereotypy"
+
+#~ msgid "Writing a plugin"
+#~ msgstr "Psaní zásuvného modulu"
+
+#~ msgid "Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10."
+#~ msgstr "Webové stránky Metody a nástroje přezkoumaly verzi Gaphor 2.7.1 v prosinci 2021 na Window 10."
+
+#~ msgid "It's FOSS has a short write-up on Gaphor (~2.8-ish?)."
+#~ msgstr "Je to FOSS má krátký write-up na Gaphor (~ 2.8-ish?)."
+
+#~ msgid "Ubuntu Pit has a nice article on Gaphor (~2.8-ish?)."
+#~ msgstr "Ubuntu Pit má pěkný článek o Gaphoru (~2.8-ish?)."

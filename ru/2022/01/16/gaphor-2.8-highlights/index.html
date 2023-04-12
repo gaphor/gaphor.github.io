@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gaphor.org" />
+    <meta property="og:site_name" content="Gaphor, the UML/SysML modeling tool" />
+    <link rel='dns-prefetch' href='//fonts.bunny.net' />
+    <link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+    <link rel="shortcut icon" href="/images/gaphor-24x24.png" />
+
+    <link defer crossorigin="anonymous" rel='stylesheet'
+        href='https://fonts.bunny.net/css?family=open-sans:400,700|mulish:300,800,900'
+        type='text/css' media='all' />
+    <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" media='all' />
+    <link rel='stylesheet' href='/css/main.css' type='text/css' />
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Gaphor 2.8 is out | Gaphor</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Gaphor 2.8 is out" />
+<meta name="author" content="Arjan Molenaar" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Roughly a month after our 2.7 release we’re happy to announce Gaphor 2.8." />
+<meta property="og:description" content="Roughly a month after our 2.7 release we’re happy to announce Gaphor 2.8." />
+<link rel="canonical" href="https://gaphor.org/ru/2022/01/16/gaphor-2.8-highlights/" />
+<meta property="og:url" content="https://gaphor.org/2022/01/16/gaphor-2.8-highlights/" />
+<meta property="og:site_name" content="Gaphor" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-01-16T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Gaphor 2.8 is out" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Arjan Molenaar"},"dateModified":"2022-01-16T00:00:00+00:00","datePublished":"2022-01-16T00:00:00+00:00","description":"Roughly a month after our 2.7 release we’re happy to announce Gaphor 2.8.","headline":"Gaphor 2.8 is out","mainEntityOfPage":{"@type":"WebPage","@id":"https://gaphor.org/2022/01/16/gaphor-2.8-highlights/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://gaphor.org/images/gaphor-logo-white.svg"},"name":"Arjan Molenaar"},"url":"https://gaphor.org/2022/01/16/gaphor-2.8-highlights/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+</head>
+
+
+<body>
+
+	<div class="top-header">
+  <div class="container">
+    <div class="row">
+      <nav class="col-12 d-flex justify-content-end language-navigation">
+ <ul>
+ 
+  <li><a href="/en/2022/01/16/gaphor-2.8-highlights/">English</a></li>
+ 
+  <li><a href="/es/2022/01/16/gaphor-2.8-highlights/">Español</a></li>
+ 
+  <li><a href="/cs/2022/01/16/gaphor-2.8-highlights/">Čeština</a></li>
+ 
+  <li><a href="/nl/2022/01/16/gaphor-2.8-highlights/">Nederlands</a></li>
+ 
+  <li><a href="/hr/2022/01/16/gaphor-2.8-highlights/">Hrvatski</a></li>
+ 
+  <li><a href="/hu/2022/01/16/gaphor-2.8-highlights/">Magyar</a></li>
+ 
+  <li><a href="/ru/2022/01/16/gaphor-2.8-highlights/">Русский</a></li>
+ 
+  <li><a href="/tr/2022/01/16/gaphor-2.8-highlights/">Türkçe</a></li>
+ 
+ </ul>
+</nav>
+
+    </div>
+    <div class="row">
+      <div class="col-10 col-lg-3">
+        <a href="https://gaphor.org" title="" class="header-logo">
+          
+          <img src="/images/gaphor-logo-white.svg" alt="Gaphor logo" />
+          
+          </a>
+      </div>
+      <div class="col-2 col-lg-9">
+        <label for="menu-toggle" class="open-responsive-menu"><i class="fa fa-bars"></i></label>
+        <nav class="header-navigation">
+          <ul>
+            <li><a href="/ru/#about">О нас</a></li>
+            <li><a href="/ru/download">Download</a></li>
+            <li><a href="/ru/tutorials">Руководство</a></li>
+            <li><a href="/ru/blog">Блог</a></li>
+            <li><a href="/ru/discuss">Связь с нами</a></li>
+            <li><a href="/ru/contribute">Участвовать</a></li>
+            <li><a href="https://github.com/gaphor/gaphor"><i class='fab fa-github' style='font-size: 168%' title='GitHub repository'></i></a>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+<input id="menu-toggle" type="checkbox" hidden></input>
+<nav class="responsive-menu">
+  <label for="menu-toggle" class="close-responsive-menu"><i class="fa fa-times"></i></label>
+  <ul>
+    <li><a href="/ru/">Home</a></li>
+    <li><a href="/ru/#about"></a></li>
+    <li><a href="/ru/download"></a></li>
+    <li><a href="/ru/tutorials"></a></li>
+    <li><a href="/ru/blog"></a></li>
+    <li><a href="/ru/discuss"></a></li>
+    <li><a href="/ru/contribute"></a></li>
+    <li><a href="https://github.com/gaphor/gaphor"><i class='fab fa-github' style='font-size: 168%' title='GitHub repository'></i></a>
+  </ul>
+</nav>
+
+
+<div class="default-page">
+<section id="static-page-content">
+    <div class="section-header"
+	 style="background-color: ; background-image: url(/images/gaphor-2.8-highlights/bg.jpg); background-size: cover; background-position: center; height: 38vh"
+     >
+    </div>
+    <p class="image-attribution"><a href="https://www.flickr.com/photos/thaths/4775487939/">Image attribution</a></p>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10 offset-sm-1">
+                <h1>Gaphor 2.8 is out</h1>
+                <p class="credits">By Arjan Molenaar on January 16, 2022</p>
+                <p>Roughly a month after our 2.7 release we’re happy to announce Gaphor 2.8.</p>
+
+<p>Gaphor 2.7 added a Sphinx extension and better support for sequence diagrams.
+2.8 adds a whole set of new features, starting with a welcome screen and a couple
+of project templates to bootstrap your models.</p>
+
+<p>Here are some highlights.</p>
+
+<!--break-->
+
+<h2 id="welcome-screen">Welcome screen</h2>
+
+<p>To get your modeling started, Gaphor now provides a few templates:</p>
+
+<ul>
+  <li><em>UML</em>, a basic UML project structure.</li>
+  <li><em>SysML</em>, a basic SysML project structure using 3 abstraction levels.</li>
+  <li><em>RAAML</em>, a basic RAAML project structure for FTA and STPA.</li>
+  <li><em>C4 model</em>, with the model layers as described on https://c4model.com.</li>
+  <li><em>Generic</em>, a blank starting model.</li>
+</ul>
+
+<p>The <a href="https://omg.org">OMG</a> gave us permission to use the official logos. Really cool!</p>
+
+<p><img src="/images/gaphor-2.8-highlights/welcome-screen.png" alt="Welcome screen" /></p>
+
+<p>This is just a start. If you’re using a template you think would be useful to
+have available in Gaphor (and you think it will be equally useful to other
+users), please <a href="https://github.com/gaphor/gaphor/issues">open a feature
+request</a>.</p>
+
+<h2 id="diagram-types">Diagram types</h2>
+
+<p>Previously, Gaphor had only one generic diagram type. To provide you with a
+little more guidance (and because you asked for it), we introduced support for
+different diagram types. Each diagram type has a preferred set of tools in the
+toolbox, and when you open a diagram it will automatically collapse the less
+frequently used ones. For UML there is Class diagram, Sequence diagram, and
+Activity diagram types, to name a few.</p>
+
+<p><img src="/images/gaphor-2.8-highlights/diagram-types.png" alt="Welcome screen" /></p>
+
+<h2 id="magnet-tool">Magnet tool</h2>
+
+<p>A new tool “magnet” has been introduced. It can be used as a, well, magnet, to
+push and pull the right or lower section of your diagram. This allows you to
+make a little room somewhere in the middle of your diagram, or close a gap in
+your diagram.</p>
+
+<h2 id="keep-model-elements-around">Keep model elements around</h2>
+
+<p>Previously, Gaphor always tried to keep the underlying model in sync with the
+contents of its diagrams. For Gaphor 2.8 we relaxed this requirement a little.
+It is now possible to keep model elements around even if they aren’t used on any
+diagram, by changing a setting in the preference section. The default setting is
+still to keep both in sync. This setting is on a per-model basis.</p>
+
+<p>While we were busy we also improved the behavior when it comes to deleting
+diagrams. Instead of showing you a confirmation dialog, Gaphor will just do as
+you ask (remove the diagram). A notification is shown to make you aware elements
+have been removed from the model. This same message will also appear whenever
+something is implicitly removed from the model.</p>
+
+<h2 id="appimage-and-homebrew">AppImage and Homebrew</h2>
+
+<p>The Gaphor <a href="/download/#appimage %}">AppImage</a> has been built against Ubuntu
+18.04. This means that, unless your running a really ancient version of Linux,
+you should be able to run Gaphor from an AppImage.</p>
+
+<p>For macOS users: Gaphor can now also be installed via
+<a href="https://formulae.brew.sh/cask/gaphor">Homebrew</a>.</p>
+
+<h2 id="other-stuff">Other stuff</h2>
+
+<p>Many improvements have been made in model consistency. We rebuilt our code
+generator that creates the underlying data for models, made improvements to how
+Gaphor saves and loads models, and improved undo functionality.</p>
+
+<p>For a full list, check the <a href="https://github.com/gaphor/gaphor/releases">release on
+GitHub</a>.</p>
+
+<p>All in all this is a pretty good release. Although a lot of features have been
+added, the code has become more concise and clean. A sign that Gaphor is on the
+right track.</p>
+
+<p>Many thanks to all who contributed!</p>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<link rel='stylesheet' href='/css/highlight.css' type='text/css' media='all' />
+
+</div>
+
+	<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-10 offset-sm-1">
+                <h5>Мы рады услышать вас</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-10 offset-sm-1 col-md-6 col-lg-4">
+                <ul class="fa-ul">
+                    <li><a href="https://gitter.im/gaphor/Lobby"><i class="fa-li fa fa-angle-right"></i>
+                            <i class="fab fa-gitter"></i> Gitter</a></li>
+                    <li><a href="https://twitter.com/modelwithgaphor"><i class="fa-li fa fa-angle-right"></i>
+                            <i class="fab fa-twitter"></i> Twitter</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-10 offset-sm-1 col-md-6 col-lg-4">
+                <ul class="fa-ul">
+                    <li><a href="https://github.com/gaphor"><i class="fa-li fa fa-angle-right"></i>
+                            <i class="fab fa-github"></i> GitHub</a></li>
+                    <li><a href="https://github.com/gaphor/gaphor/issues"><i class="fa-li fa fa-angle-right"></i>
+                            <i class="fas fa-band-aid"></i>Open an issue on GitHub</a>
+                    </li>
+                    <li><a href="https://gaphor.readthedocs.io/"><i class="fa-li fa fa-angle-right"></i>
+                            <i class="fas fa-drafting-compass"></i>Техническая документация</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-footer">
+        <div class="container">
+            <p class="copyright">
+                <span>Тема: <a href="https://colorlib.com/illdy" title="Illdy">Illdy</a>.</span>
+                <span class="bottom-copyright">Авторское право &copy; 2001-2022 Arjan Molenaar и Dan Yeaw.</span>
+            </p>
+        </div>
+    </div>
+
+</footer>
+
+<!-- page.url is / or /XX/ for translations -->
+
+
+
+    <script type="application/javascript">
+var codeBlocks = document.querySelectorAll('pre.highlight');
+
+codeBlocks.forEach(function (codeBlock) {
+  var copyButton = document.createElement('button');
+  copyButton.className = 'copy';
+  copyButton.type = 'button';
+  copyButton.ariaLabel = 'Copy code to clipboard';
+  copyButton.innerText = 'Copy';
+
+  codeBlock.append(copyButton);
+
+  copyButton.addEventListener('click', function () {
+    var code = codeBlock.querySelector('code').innerText.trim();
+    window.navigator.clipboard.writeText(code);
+
+    copyButton.innerText = 'Copied';
+    var fourSeconds = 4000;
+
+    setTimeout(function () {
+      copyButton.innerText = 'Copy';
+    }, fourSeconds);
+  });
+});
+</script>
+
+
+</body>
+
+</html>
