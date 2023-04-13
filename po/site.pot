@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-12 11:12+0000\n"
+"POT-Creation-Date: 2023-04-13 01:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,13 +31,31 @@ msgstr ""
 #. type: Plain text
 #: _platforms/01-windows.md.filt
 #, markdown-text
-msgid "Alternatively a portable version of Gaphor can be downloaded."
+msgid "Alternatively, a portable version of Gaphor can be downloaded."
 msgstr ""
 
 #. type: Plain text
 #: _platforms/01-windows.md.filt
 #, markdown-text, no-wrap
 msgid " Download portable version\n"
+msgstr ""
+
+#. type: Title ###
+#: _platforms/01-windows.md.filt
+#, markdown-text, no-wrap
+msgid "Winget"
+msgstr ""
+
+#. type: Plain text
+#: _platforms/01-windows.md.filt
+#, markdown-text
+msgid "Install Gaphor from winget:"
+msgstr ""
+
+#. type: Plain text
+#: _platforms/01-windows.md.filt
+#, markdown-text
+msgid "To check out the latest release notes and other details:"
 msgstr ""
 
 #. type: YAML Front Matter: title

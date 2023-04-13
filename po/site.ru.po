@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-12 11:12+0000\n"
+"POT-Creation-Date: 2023-04-13 01:26+0000\n"
 "PO-Revision-Date: 2023-01-18 14:49+0000\n"
 "Last-Translator: BrainKicker <peter.sabanov@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/ru/>\n"
@@ -31,7 +31,9 @@ msgstr " Скачать установщик\n"
 
 #. type: Plain text
 #: _platforms/01-windows.md.filt
-msgid "Alternatively a portable version of Gaphor can be downloaded."
+#, fuzzy
+#| msgid "Alternatively a portable version of Gaphor can be downloaded."
+msgid "Alternatively, a portable version of Gaphor can be downloaded."
 msgstr "Также вы можете загрузить портативную версию Gaphor."
 
 #. type: Plain text
@@ -39,6 +41,22 @@ msgstr "Также вы можете загрузить портативную �
 #, no-wrap
 msgid " Download portable version\n"
 msgstr " Скачать портативную версию\n"
+
+#. type: Title ###
+#: _platforms/01-windows.md.filt
+#, no-wrap
+msgid "Winget"
+msgstr ""
+
+#. type: Plain text
+#: _platforms/01-windows.md.filt
+msgid "Install Gaphor from winget:"
+msgstr ""
+
+#. type: Plain text
+#: _platforms/01-windows.md.filt
+msgid "To check out the latest release notes and other details:"
+msgstr ""
 
 #. type: YAML Front Matter: title
 #: _platforms/02-macos.md.filt
