@@ -1,20 +1,20 @@
 <nav class="col-12 d-flex justify-content-end language-navigation">
 
-<form action="{{ site.baseurl }}{{ page.url }}" method="get">
+    <form action="{{ site.baseurl }}{{ page.url }}" method="get">
 
-  <select id="language-chooser-select" name="lang" autocomplete="off">
-    {% for lang in site.languages %}
-    <option value="{{ lang }}" {% if lang == site.active_lang %}selected="selected"{% endif %}>
-      {{ site.data.languagenames[lang] }}
-    </option>
-    {% endfor %}
-  </select>
+        <select id="language-chooser-select" name="lang" autocomplete="off">
+            {% for lang in site.languages %}
+            <option value="{{ lang }}" {% if lang== site.active_lang %}selected="selected" {% endif %}>
+                {{ site.data.languagenames[lang] }}
+            </option>
+            {% endfor %}
+        </select>
 
-  <script src="js/languages.js" async></script>
+        <script src="js/languages.js" async></script>
 
-  <noscript>
-    <input id="language-chooser-submit" type="submit" value="{{ site.data.strings.languages.change }}" />
-  </noscript>
+        <noscript>
+            <input id="language-chooser-submit" type="submit" value="{{ site.data.strings.languages.change }}"/>
+        </noscript>
 
-</form>
+    </form>
 </nav>
