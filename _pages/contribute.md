@@ -20,5 +20,7 @@ and expectations for the various types of contribution you can make to Gaphor.
 
 The source code is hosted on [GitHub](https://github.com/gaphor/gaphor).
 
+Help translate Gaphor on [Weblate](https://hosted.weblate.org/engage/gaphor/).
+
 If in doubt, just ask in our <a href="../discuss">discussion area</a> and
 someone will be able to point you in the right direction.
