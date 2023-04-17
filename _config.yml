@@ -47,6 +47,7 @@ permalink: pretty
 
 include:
   - "_pages"
+  - "js"
 collections:
   usps:
   platforms:
@@ -86,5 +87,6 @@ exclude_from_localization:
   - .gitignore
   - CNAME
   - css/
+  - js/
   - images
   - po/
