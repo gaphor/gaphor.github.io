@@ -7,15 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-04-15 14:54-0400\n"
-"PO-Revision-Date: 2023-04-15 11:51+0000\n"
+"PO-Revision-Date: 2023-04-18 09:49+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
-"Language-Team: Croatian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hr/>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/gaphor/"
+"gaphor-github-io/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.17\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/01-windows.md
@@ -44,30 +46,31 @@ msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gap
 #: _platforms/01-windows.md
 #, no-wrap
 msgid "Winget"
-msgstr ""
+msgstr "Winget"
 
 #. type: Plain text
 #: _platforms/01-windows.md
 msgid "Install Gaphor from [winget](https://github.com/microsoft/winget-pkgs/tree/master/manifests/g/gaphor/gaphor):"
 msgstr ""
+"Instaliraj Gaphor sa stranice [winget](https://github.com/microsoft/"
+"winget-pkgs/tree/master/manifests/g/gaphor/gaphor):"
 
 #. type: Fenced code block (bash)
 #: _platforms/01-windows.md
-#, fuzzy, no-wrap
-#| msgid "To manually install Gaphor:"
+#, no-wrap
 msgid "winget install gaphor\n"
-msgstr "Za ručno instaliranje Gaphora:"
+msgstr "winget install gaphor\n"
 
 #. type: Plain text
 #: _platforms/01-windows.md
 msgid "To check out the latest release notes and other details:"
-msgstr ""
+msgstr "Zaprikaz najnovijih napomena o izdanju i drugih detalja:"
 
 #. type: Fenced code block (bash)
 #: _platforms/01-windows.md
 #, no-wrap
 msgid "winget show gaphor\n"
-msgstr ""
+msgstr "winget show gaphor\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/02-macos.md
@@ -80,6 +83,9 @@ msgstr "macOS"
 #, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Download .dmg</a>\n"
 msgstr ""
+"<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/"
+"releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}."
+"dmg\"><i class=\"fa fa-download\"></i> Preuzmi .dmg</a>\n"
 
 #. type: Plain text
 #: _platforms/02-macos.md
@@ -101,7 +107,7 @@ msgstr "Instaliraj Gaphor iz jednog [homebrew cask](https://formulae.brew.sh/cas
 #: _platforms/02-macos.md
 #, no-wrap
 msgid "brew install --cask gaphor\n"
-msgstr ""
+msgstr "brew install --cask gaphor\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/03-linux.md
@@ -125,6 +131,9 @@ msgstr "[Flatpak](https://flatpak.org/) je preporučeni način za instaliranje G
 #, no-wrap
 msgid "<a href='https://flathub.org/apps/details/org.gaphor.Gaphor'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>\n"
 msgstr ""
+"<a href='https://flathub.org/apps/details/org.gaphor.Gaphor'><img "
+"width='240' alt='Preuzmi s Flathuba' src='https://flathub.org/assets/badges/"
+"flathub-badge-en.png'/></a>\n"
 
 #. type: Plain text
 #: _platforms/03-linux.md
@@ -139,6 +148,9 @@ msgid ""
 "    flathub https://dl.flathub.org/repo/flathub.flatpakrepo\n"
 "flatpak install --user flathub org.gaphor.Gaphor\n"
 msgstr ""
+"flatpak remote-add --user --if-not-exists \\\n"
+"    flathub https://dl.flathub.org/repo/flathub.flatpakrepo\n"
+"flatpak install --user flathub org.gaphor.Gaphor\n"
 
 #. type: Title ###
 #: _platforms/03-linux.md
@@ -156,6 +168,9 @@ msgstr "Ako koristiš nedavnu distribuciju Linuxa, druga mogućnost je korišten
 #, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\"><i class=\"fa fa-download\"></i> Download AppImage</a>\n"
 msgstr ""
+"<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/"
+"releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version "
+"}}-x86_64.AppImage\"><i class=\"fa fa-download\"></i> Preuzmi AppImage</a>\n"
 
 #. type: Fenced code block (bash)
 #: _platforms/03-linux.md
@@ -164,6 +179,8 @@ msgid ""
 "chmod +x Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
 "./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
 msgstr ""
+"chmod +x Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
+"./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
 
 #. type: Plain text
 #: _platforms/03-linux.md
@@ -174,7 +191,7 @@ msgstr "Ako koristiš Wayland i ako AppImage ne radi, možeš prisiliti Wayland 
 #: _platforms/03-linux.md
 #, no-wrap
 msgid "GDK_BACKEND=x11 ./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-msgstr ""
+msgstr "GDK_BACKEND=x11 ./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
 
 #. type: Title ###
 #: _platforms/03-linux.md
@@ -196,7 +213,10 @@ msgstr "Python"
 #. type: Plain text
 #: _platforms/04-python.md
 msgid "If you have the latest stable version of Python installed and the Gaphor dependencies installed, you can also install Gaphor using a wheel from [PyPI](https://pypi.org/project/gaphor/)."
-msgstr "Ako imaš instaliranu najnoviju stabilnu verziju Pythona i ovisnosti za Gaphor, Gaphor možeš instalirati i pomoću kotača iz [PyPI-ja](https://pypi.org/project/gaphor/)."
+msgstr ""
+"Ako imaš instaliranu najnoviju stabilnu verziju Pythona i ovisnosti za "
+"Gaphor, Gaphor možeš instalirati i pomoću [PyPI](https://pypi.org/project/"
+"gaphor/)."
 
 #. type: Plain text
 #: _platforms/04-python.md
@@ -210,6 +230,8 @@ msgid ""
 "pip install gaphor\n"
 "gaphor\n"
 msgstr ""
+"pip install gaphor\n"
+"gaphor\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: tutorials/plugins.md
@@ -242,6 +264,10 @@ msgid ""
 "        element_factory = Application.get_service('element_factory')\n"
 "        items = element_factory.select()\n"
 msgstr ""
+"class MyThing:\n"
+"    def do_something(self):\n"
+"        element_factory = Application.get_service('element_factory')\n"
+"        items = element_factory.select()\n"
 
 #. type: Plain text
 #: tutorials/plugins.md
@@ -252,7 +278,7 @@ msgstr "U prozoru konzole, usluge se mogu dohvatiti korištenjem funkcije `servi
 #: tutorials/plugins.md
 #, no-wrap
 msgid "ef = service('element_factory')\n"
-msgstr ""
+msgstr "ef = service('element_factory')\n"
 
 #. type: Title ##
 #: tutorials/plugins.md
@@ -284,7 +310,7 @@ msgstr "`query` je lambda funkcija s elementom kao parametrom. Na primjer, za do
 #: tutorials/plugins.md
 #, no-wrap
 msgid "element_factory.select(lambda e: e.isKindOf(UML.Class))\n"
-msgstr ""
+msgstr "element_factory.select(lambda e: e.isKindOf(UML.Class))\n"
 
 #. type: Title ##
 #: tutorials/plugins.md
@@ -305,6 +331,9 @@ msgid ""
 "    for p in o.ownedParameter:\n"
 "        do_something(p)\n"
 msgstr ""
+"for o in classes.ownedOperation:\n"
+"    for p in o.ownedParameter:\n"
+"        do_something(p)\n"
 
 #. type: Plain text
 #: tutorials/plugins.md
@@ -318,6 +347,8 @@ msgid ""
 "for o in classes.ownedOperation[:].ownedParameter:\n"
 "    do_something(p)\n"
 msgstr ""
+"for o in classes.ownedOperation[:].ownedParameter:\n"
+"    do_something(p)\n"
 
 #. type: Title ##
 #: tutorials/plugins.md
@@ -344,7 +375,7 @@ msgstr "Svatko tko je ikada napisao redak koda, zna, da svaki softver sadrži gr
 #. type: Plain text
 #: tutorials/report-bugs.md
 msgid "[Report a Bug in Gaphor](https://github.com/gaphor/gaphor/issues)"
-msgstr ""
+msgstr "[Prijavi grešku u Gaphoru](https://github.com/gaphor/gaphor/issues)"
 
 #. type: Plain text
 #: tutorials/report-bugs.md
@@ -443,6 +474,10 @@ msgstr "Višeplatformski"
 #: _usps/01-platform.md
 msgid "Gaphor works on all major platforms: [Windows]({{ \"/download/#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download/#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download/#linux\" | prepend: site.baseurl }})."
 msgstr ""
+"Gaphor radi na svim glavnim platformama: [Windows]({{ \"/download/#windows\" "
+"| prepend: site.baseurl }}), [Macos]({{ \"/download/#macos\" | prepend: "
+"site.baseurl } }) i [Linux]({{ \"/download/#linux\" | prepend: site.baseurl "
+"}})."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/02-opensource.md
@@ -453,7 +488,10 @@ msgstr "Otvoreni kod"
 #. type: Plain text
 #: _usps/02-opensource.md
 msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/master/LICENSE.txt)."
-msgstr "Bez ograničenja od strane proizvođača: Gaphor je napisan u Pythonu, 100% otvorenog koda, dostupan pod [licencom Apache 2](nder a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/master/LICENSE.txt)."
+msgstr ""
+"Neovisno o proizvođaču: Gaphor je napisan u Pythonu, 100 % otvorenog koda, "
+"dostupan pod [Apache 2 licencom](https://github.com/gaphor/gaphor/blob/"
+"master/LICENSE.txt)."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/03-beginner-pro.md
@@ -522,12 +560,14 @@ msgstr "Izvorni kod se nalazi na [GitHubu](https://github.com/gaphor/gaphor)."
 
 #. type: Plain text
 #: _pages/contribute.md
-#, fuzzy, no-wrap
-#| msgid "If in doubt, just ask in our discussion area and someone will be able to point you in the right direction."
+#, no-wrap
 msgid ""
 "If in doubt, just ask in our <a href=\"../discuss\">discussion area</a> and\n"
 "someone will be able to point you in the right direction.\n"
-msgstr "Ako si u nedoumici, jednostavno postavi pitanje u našem području za raspravu i netko će te sigurno moći usmjeriti u pravom smjeru."
+msgstr ""
+"Zatraži pomoć pri problemima na stranici <a href=\"../discuss\">kontaktiraj "
+"zajednicu</a> i \n"
+"netko će te sigurno moći usmjeriti u pravom smjeru.\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/discuss.md
@@ -581,13 +621,16 @@ msgstr "Prijavi problem na GitHubu"
 
 #. type: Plain text
 #: _pages/discuss.md
-#, fuzzy, no-wrap
-#| msgid "Please use our GitHub issue tracker for general questions and reporting bugs.  Before submitting a GitHub issue please review our page about how to report a bug in Gaphor."
+#, no-wrap
 msgid ""
 "Please use our GitHub issue tracker for general questions and reporting bugs.\n"
 "Before submitting a GitHub issue please review our page about\n"
 "<a href=\"../tutorials/report-bugs\">how to report a bug in Gaphor</a>.\n"
-msgstr "Koristi naš sustav za praćenje problema na GitHubu za opća pitanja i prijavljivanje grešaka. Prije nego što pošalješ problem na GitHubu, pregledaj našu stranicu o tome kako prijaviti grešku u Gaphoru."
+msgstr ""
+"Koristi naš sustav za praćenje problema na GitHubu za opća pitanja i "
+"prijavljivanje grešaka. \n"
+"Prije nego što pošalješ problem na GitHub, pregledaj našu stranicu o tome\n"
+"<a href=\"../tutorials/report-bugs\">kako prijaviti grešku u Gaphoru</a>.\n"
 
 #. type: Plain text
 #: _pages/discuss.md
@@ -625,12 +668,14 @@ msgstr "Svaka vježba je samostalna lekcija koja objašnjava određeni aspekt Ga
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
 msgid "[Get Started with Gaphor](https://docs.gaphor.org/en/latest/getting_started.html)"
-msgstr "[Ova je stranica premještena na Gaphoru](https://gaphor.readthedocs.io/en/latest/getting_started.html)."
+msgstr ""
+"[Počni raditi s Gaphorom](https://gaphor.readthedocs.io/en/latest/"
+"getting_started.html)"
 
 #. type: Bullet: '2. '
 #: _pages/tutorials.md
 msgid "[Your First Model](https://docs.gaphor.org/en/latest/first_model.html)"
-msgstr ""
+msgstr "[Tvoj prvi model](https://docs.gaphor.org/en/latest/first_model.html)"
 
 #. type: Bullet: '3. '
 #: _pages/tutorials.md
@@ -652,11 +697,14 @@ msgstr "Napredne teme"
 #: _pages/tutorials.md
 msgid "[Extend your models with stereotypes](https://docs.gaphor.org/en/latest/stereotypes.html)"
 msgstr ""
+"[Proširi svoje modele sa stereotipima](https://docs.gaphor.org/en/latest/"
+"stereotypes.html)"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "[Writing a plugin]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
 msgstr ""
+"[Pisanje dodataka]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
 
 #. type: Plain text
 #: _pages/tutorials.md
@@ -703,12 +751,16 @@ msgstr "[Web-mjesto „Methods & Tools” pregledalo je Gaphor verziju 2.7.1 u p
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
-msgstr "[„It's FOSS” ima kratak opis Gaphora (ca. verzija 2.8?).](https://itsfoss.com/gaphor-modeling-tool/)"
+msgstr ""
+"[Na stranici „It's FOSS” postoji kratak članak o Gaphoru (ca. verzija 2."
+"8?).](https://itsfoss.com/gaphor-modeling-tool/)"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
 msgstr ""
+"[Ubuntu Pit sadrži članak o Gaphoru (ca. verzija 2.8?).](https://www."
+"ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/download.md
