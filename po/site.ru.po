@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-18 11:33+0000\n"
+"POT-Creation-Date: 2023-04-18 11:40+0000\n"
 "PO-Revision-Date: 2023-01-18 14:49+0000\n"
 "Last-Translator: BrainKicker <peter.sabanov@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/ru/>\n"
@@ -423,7 +423,7 @@ msgstr "Начните работу с Gaphor"
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md
-msgid "This page has moved to https://gaphor.readthedocs.io/en/latest/getting_started.html."
+msgid "This page has moved to https://docs.gaphor.org/en/latest/getting_started.html."
 msgstr ""
 
 #. type: YAML Front Matter: title
@@ -445,7 +445,7 @@ msgstr ""
 
 #. type: Plain text
 #: _usps/01-platform.md
-msgid "Gaphor works on all major platforms: [Windows]({{ \"/download/#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download/#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download/#linux\" | prepend: site.baseurl }})."
+msgid "Gaphor works on all major platforms: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
 msgstr ""
 
 #. type: YAML Front Matter: title
@@ -585,11 +585,7 @@ msgstr "Открыть проблему на GitHub"
 
 #. type: Plain text
 #: _pages/discuss.md
-#, no-wrap
-msgid ""
-"Please use our GitHub issue tracker for general questions and reporting bugs.\n"
-"Before submitting a GitHub issue please review our page about\n"
-"<a href=\"../tutorials/report-bugs\">how to report a bug in Gaphor</a>.\n"
+msgid "Please use our GitHub issue tracker for general questions and reporting bugs.  Before submitting a GitHub issue please review our page about [how to report a bug in Gaphor](/tutorials/report-bugs)."
 msgstr ""
 
 #. type: Plain text
