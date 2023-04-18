@@ -2,7 +2,7 @@
 
 
 
-The theme is based on the [Illdy theme](https://colorlib.com/illdy/).
+The theme is based on the [Illdy theme](https://colorlib.com/wp/themes/illdy/).
 
 
 ## Development Environment with Linux

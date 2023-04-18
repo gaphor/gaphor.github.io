@@ -7,8 +7,7 @@ redirect_from:
 - /install-gaphor-in-linux.html
 - /install-gaphor-using-python-packaging.html
 language: en
-handle: /download
-permalink: /download
+permalink: /download/
 ---
 
 There are many ways to install Gaphor. The simplest is to download the official

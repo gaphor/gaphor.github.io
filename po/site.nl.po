@@ -6,11 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-15 14:35-0400\n"
+"POT-Creation-Date: 2023-04-18 07:37-0400\n"
 "PO-Revision-Date: 2023-04-18 09:49+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/gaphor/"
-"gaphor-github-io/nl/>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,11 +27,7 @@ msgstr "Windows"
 #: _platforms/01-windows.md
 #, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-installer.exe\"><i class=\"fa fa-download\"></i> Download installer</a>\n"
-msgstr ""
-"<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/"
-"releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version "
-"}}-installer.exe\"><i class=\"fa fa-download\"></i> Installer downloaden</a>"
-"\n"
+msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-installer.exe\"><i class=\"fa fa-download\"></i> Installer downloaden</a>\n"
 
 #. type: Plain text
 #: _platforms/01-windows.md
@@ -43,11 +38,7 @@ msgstr "Als alternatief kan een portable versie van Gaphor worden gedownload."
 #: _platforms/01-windows.md
 #, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-portable.exe\"><i class=\"fa fa-download\"></i> Download portable version</a>\n"
-msgstr ""
-"<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/"
-"releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version "
-"}}-portable.exe\"><i class=\"fa fa-download\"></i>Portable versie "
-"downloaden</a>\n"
+msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-portable.exe\"><i class=\"fa fa-download\"></i>Portable versie downloaden</a>\n"
 
 #. type: Title ###
 #: _platforms/01-windows.md
@@ -58,9 +49,7 @@ msgstr "Winget"
 #. type: Plain text
 #: _platforms/01-windows.md
 msgid "Install Gaphor from [winget](https://github.com/microsoft/winget-pkgs/tree/master/manifests/g/gaphor/gaphor):"
-msgstr ""
-"Installeer Gaphor via [winget](https://github.com/microsoft/winget-pkgs/tree/"
-"master/manifests/g/gaphor/gaphor):"
+msgstr "Installeer Gaphor via [winget](https://github.com/microsoft/winget-pkgs/tree/master/manifests/g/gaphor/gaphor):"
 
 #. type: Fenced code block (bash)
 #: _platforms/01-windows.md
@@ -449,7 +438,9 @@ msgstr "Aan de slag met Gaphor"
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md
-msgid "This page has moved to https://gaphor.readthedocs.io/en/latest/getting_started.html."
+#, fuzzy
+#| msgid "This page has moved to https://gaphor.readthedocs.io/en/latest/getting_started.html."
+msgid "This page has moved to https://docs.gaphor.org/en/latest/getting_started.html."
 msgstr "Deze pagina is verhuisd naar https://gaphor.readthedocs.io/en/latest/getting_started.html."
 
 #. type: Yaml Front Matter Hash Value: title
@@ -471,7 +462,7 @@ msgstr "Multi-platform"
 
 #. type: Plain text
 #: _usps/01-platform.md
-msgid "Gaphor works on all major platforms: [Windows]({{ \"/download/#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download/#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download/#linux\" | prepend: site.baseurl }})."
+msgid "Gaphor works on all major platforms: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
@@ -619,12 +610,9 @@ msgstr "Een issue op GitHub indienen"
 
 #. type: Plain text
 #: _pages/discuss.md
-#, fuzzy, no-wrap
+#, fuzzy
 #| msgid "Please use our GitHub issue tracker for general questions and reporting bugs.  Before submitting a GitHub issue please review our page about how to report a bug in Gaphor."
-msgid ""
-"Please use our GitHub issue tracker for general questions and reporting bugs.\n"
-"Before submitting a GitHub issue please review our page about\n"
-"<a href=\"../tutorials/report-bugs\">how to report a bug in Gaphor</a>.\n"
+msgid "Please use our GitHub issue tracker for general questions and reporting bugs.  Before submitting a GitHub issue please review our page about [how to report a bug in Gaphor](/tutorials/report-bugs)."
 msgstr "Gebruik onze issue tracker op GitHub voor algemene vragen en het rapporteren van fouten. Voordat u een GitHub-issue indient, bekijk dan onze pagina over hoe u een fout in Gaphor rapporteert."
 
 #. type: Plain text
@@ -666,9 +654,7 @@ msgstr "Elke tutorial is een op zichzelf staande les, waarin een specifiek aspec
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
 msgid "[Get Started with Gaphor](https://docs.gaphor.org/en/latest/getting_started.html)"
-msgstr ""
-"[Beginnen met het gebruiken van Gaphor](https://docs.gaphor.org/en/latest/"
-"getting_started.html)"
+msgstr "[Beginnen met het gebruiken van Gaphor](https://docs.gaphor.org/en/latest/getting_started.html)"
 
 #. type: Bullet: '2. '
 #: _pages/tutorials.md

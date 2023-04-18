@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-15 14:35-0400\n"
+"POT-Creation-Date: 2023-04-18 07:37-0400\n"
 "PO-Revision-Date: 2023-03-13 10:41+0000\n"
 "Last-Translator: Óscar Fernández Díaz <oscfdezdz@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/es/>\n"
@@ -437,7 +437,9 @@ msgstr "Empezar con Gaphor"
 
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md
-msgid "This page has moved to https://gaphor.readthedocs.io/en/latest/getting_started.html."
+#, fuzzy
+#| msgid "This page has moved to https://gaphor.readthedocs.io/en/latest/getting_started.html."
+msgid "This page has moved to https://docs.gaphor.org/en/latest/getting_started.html."
 msgstr "Esta página se ha movido a https://gaphor.readthedocs.io/en/latest/getting_started.html."
 
 #. type: Yaml Front Matter Hash Value: title
@@ -459,7 +461,7 @@ msgstr "Multiplataforma"
 
 #. type: Plain text
 #: _usps/01-platform.md
-msgid "Gaphor works on all major platforms: [Windows]({{ \"/download/#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download/#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download/#linux\" | prepend: site.baseurl }})."
+msgid "Gaphor works on all major platforms: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
@@ -607,12 +609,9 @@ msgstr "Enviar una incidencia en GitHub"
 
 #. type: Plain text
 #: _pages/discuss.md
-#, fuzzy, no-wrap
+#, fuzzy
 #| msgid "Please use our GitHub issue tracker for general questions and reporting bugs.  Before submitting a GitHub issue please review our page about how to report a bug in Gaphor."
-msgid ""
-"Please use our GitHub issue tracker for general questions and reporting bugs.\n"
-"Before submitting a GitHub issue please review our page about\n"
-"<a href=\"../tutorials/report-bugs\">how to report a bug in Gaphor</a>.\n"
+msgid "Please use our GitHub issue tracker for general questions and reporting bugs.  Before submitting a GitHub issue please review our page about [how to report a bug in Gaphor](/tutorials/report-bugs)."
 msgstr "Por favor, use nuestro rastreador de incidencias de GitHub para preguntas generales y para informar de errores.  Antes de enviar una incidencia a GitHub, consulta nuestra página sobre cómo informar de un error en Gaphor."
 
 #. type: Plain text

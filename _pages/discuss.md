@@ -3,8 +3,7 @@ title: Get in touch
 layout: article
 redirect_from: /pages/discuss.html
 language: en
-handle: /discuss
-permalink: /discuss
+permalink: /discuss/
 ---
 
 It's good to talk, share knowledge and learn from other users of Gaphor. Perhaps
@@ -33,7 +32,7 @@ NB. If you're using a mobile device, use the [Element app](https://element.io/ge
 
 Please use our GitHub issue tracker for general questions and reporting bugs.
 Before submitting a GitHub issue please review our page about
-<a href="../tutorials/report-bugs">how to report a bug in Gaphor</a>.
+[how to report a bug in Gaphor](/tutorials/report-bugs).
 
 [<i class="fab fa-github"></i> Submit an Issue on GitHub](https://github.com/gaphor/gaphor/issues)
 

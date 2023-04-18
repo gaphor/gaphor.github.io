@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-15 14:54-0400\n"
+"POT-Creation-Date: 2023-04-18 07:37-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -455,7 +455,7 @@ msgstr ""
 #. type: Plain text
 #: tutorials/get-started-with-gaphor.md
 #, markdown-text
-msgid "This page has moved to https://gaphor.readthedocs.io/en/latest/getting_started.html."
+msgid "This page has moved to https://docs.gaphor.org/en/latest/getting_started.html."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
@@ -479,7 +479,7 @@ msgstr ""
 #. type: Plain text
 #: _usps/01-platform.md
 #, markdown-text
-msgid "Gaphor works on all major platforms: [Windows]({{ \"/download/#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download/#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download/#linux\" | prepend: site.baseurl }})."
+msgid "Gaphor works on all major platforms: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
@@ -630,11 +630,8 @@ msgstr ""
 
 #. type: Plain text
 #: _pages/discuss.md
-#, markdown-text, no-wrap
-msgid ""
-"Please use our GitHub issue tracker for general questions and reporting bugs.\n"
-"Before submitting a GitHub issue please review our page about\n"
-"<a href=\"../tutorials/report-bugs\">how to report a bug in Gaphor</a>.\n"
+#, markdown-text
+msgid "Please use our GitHub issue tracker for general questions and reporting bugs.  Before submitting a GitHub issue please review our page about [how to report a bug in Gaphor](/tutorials/report-bugs)."
 msgstr ""
 
 #. type: Plain text
