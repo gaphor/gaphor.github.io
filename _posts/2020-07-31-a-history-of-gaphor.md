@@ -23,7 +23,7 @@ Looking back, I'm still happy with that decision.
 The main component of a diagramming tool is the canvas. I worked on Linux at the time and
 the most complete diagramming application at the time was Dia. I could not reuse their
 canvas component, though, since it was interwoven with the rest of the application.
-The initial canvas component for Gaphor I called [Diacanvas](http://diacanvas.sourceforge.net/).
+The initial canvas component for Gaphor I called [Diacanvas](https://diacanvas.sourceforge.net/).
 It mimics the behavior of Dia (and Visio) and was used to build the first couple of versions of Gaphor.
 
 The Diacanvas library was written in C. Gaphor was written in Python from the start.
