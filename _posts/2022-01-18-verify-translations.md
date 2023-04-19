@@ -52,7 +52,7 @@ could cause an unintended error in the application: `Ik telde {Count} items`
 
 To avoid errors we created [a small
 script](https://github.com/gaphor/gaphor/blob/main/po/check-babel.py), utilizing
-[Babel](http://babel.pocoo.org/). Babel is a Python based internationalization
+[Babel](https://babel.pocoo.org/). Babel is a Python based internationalization
 library. Using babel, we read the translations from a `.po` file and check if
 all placeholders from the original text (`{count}`) are in the translated text.
 A simple check that ensures placeholders in translated text can
