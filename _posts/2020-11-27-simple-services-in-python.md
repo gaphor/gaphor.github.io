@@ -2,8 +2,7 @@
 title: Simple services in Python
 author: Arjan Molenaar
 image_url: /images/wikipedia-angolan-python.jpg
-image_attribution: >
- https://commons.wikimedia.org/wiki/File:Angolan_python_(Python_anchietae)_head.jpg
+image_attribution: https://commons.wikimedia.org/wiki/File:Angolan_python_(Python_anchietae)_head.jpg
 language: en
 ---
 
