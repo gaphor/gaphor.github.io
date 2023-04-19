@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-18 07:37-0400\n"
+"POT-Creation-Date: 2023-04-18 21:26-0400\n"
 "PO-Revision-Date: 2023-04-18 09:49+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hr/>\n"
@@ -459,7 +459,7 @@ msgstr "Višeplatformski"
 #. type: Plain text
 #: _usps/01-platform.md
 msgid "Gaphor works on all major platforms: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
-msgstr "Gaphor radi na svim glavnim platformama: [Windows]({{ \"/download/#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download/#macos\" | prepend: site.baseurl } }) i [Linux]({{ \"/download/#linux\" | prepend: site.baseurl }})."
+msgstr "Gaphor radi na svim glavnim platformama: [Windows]({{ \"/download/#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download#macos\" | prepend: site.baseurl }} }) i [Linux]({{ \"/download/#linux\" | prepend: site.baseurl }})."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/02-opensource.md
@@ -469,7 +469,9 @@ msgstr "Otvoreni kod"
 
 #. type: Plain text
 #: _usps/02-opensource.md
-msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/master/LICENSE.txt)."
+#, fuzzy
+#| msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/master/LICENSE.txt)."
+msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
 msgstr "Neovisno o proizvođaču: Gaphor je napisan u Pythonu, 100 % otvorenog koda, dostupan pod [Apache 2 licencom](https://github.com/gaphor/gaphor/blob/master/LICENSE.txt)."
 
 #. type: Yaml Front Matter Hash Value: title

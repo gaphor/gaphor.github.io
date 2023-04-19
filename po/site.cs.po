@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-18 07:37-0400\n"
+"POT-Creation-Date: 2023-04-18 21:26-0400\n"
 "PO-Revision-Date: 2023-04-13 18:51+0000\n"
 "Last-Translator: vikdevelop <super-vik1@protonmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/cs/>\n"
@@ -472,7 +472,9 @@ msgstr "Otevřený zdrojový kód"
 
 #. type: Plain text
 #: _usps/02-opensource.md
-msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/master/LICENSE.txt)."
+#, fuzzy
+#| msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/master/LICENSE.txt)."
+msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
 msgstr "Žádný vendor lock-in: Gaphor je napsán v jazyce Python a je 100% open source, dostupný pod přátelskou [licencí Apache 2](https://github.com/gaphor/gaphor/blob/master/LICENSE.txt)."
 
 #. type: Yaml Front Matter Hash Value: title

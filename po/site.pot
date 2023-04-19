@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-18 07:37-0400\n"
+"POT-Creation-Date: 2023-04-18 21:31-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -491,7 +491,7 @@ msgstr ""
 #. type: Plain text
 #: _usps/02-opensource.md
 #, markdown-text
-msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/master/LICENSE.txt)."
+msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title

@@ -42,7 +42,7 @@ easily made.
 The way placeholders are formatted depends on the language. In C, texts contain
 `%`-mark expressions (`I counted %d items`). Javascript uses a different
 format: `I counted ${count} items`<sup>[1](#note1)</sup>. In Python the
-C-style can be used (old style) as well as curly-bracket placehodlers with the
+C-style can be used (old style) as well as curly-bracket placeholders with the
 `str.format()` method: `I counted {count} items`.
 
 Now assume the text `I counted {count} items` has to be translated. The term
@@ -51,7 +51,7 @@ could cause an unintended error in the application: `Ik telde {Count} items`
 (with capital C).
 
 To avoid errors we created [a small
-script](https://github.com/gaphor/gaphor/blob/master/po/check-babel.py), utilizing
+script](https://github.com/gaphor/gaphor/blob/main/po/check-babel.py), utilizing
 [Babel](http://babel.pocoo.org/). Babel is a Python based internationalization
 library. Using babel, we read the translations from a `.po` file and check if
 all placeholders from the original text (`{count}`) are in the translated text.
@@ -68,4 +68,3 @@ file that could prevent Gaphor from launching, will be caught automatically.
 
 1. <a name="note1"></a>This is actually a template string in Javascript. It
    takes some extra effort to make those translatable.
-
