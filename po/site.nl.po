@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-18 11:40+0000\n"
+"POT-Creation-Date: 2023-04-19 02:07+0000\n"
 "PO-Revision-Date: 2023-04-18 09:49+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/nl/>\n"
@@ -475,7 +475,7 @@ msgstr "Open source"
 #: _usps/02-opensource.md
 #, fuzzy
 #| msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly Apache 2 license."
-msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/master/LICENSE.txt)."
+msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
 msgstr "Geen vendor lock-in: Gaphor is geschreven in Python, is 100% open source en is beschikbaar onder de vriendelijke licentie Apache 2."
 
 #. type: YAML Front Matter: title

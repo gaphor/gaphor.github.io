@@ -11,8 +11,8 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://gaphor.org" />
     <meta property="og:site_name" content="Gaphor, the UML/SysML modeling tool" />
-    <link rel='dns-prefetch' href='//fonts.bunny.net' />
-    <link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+    <link rel='dns-prefetch' href='https://fonts.bunny.net' />
+    <link rel='dns-prefetch' href='https://cdnjs.cloudflare.com' />
     <link rel="shortcut icon" href="/images/gaphor-24x24.png" />
 
     <link defer crossorigin="anonymous" rel='stylesheet'
@@ -162,7 +162,7 @@ easily made.</p>
 <p>The way placeholders are formatted depends on the language. In C, texts contain
 <code class="language-plaintext highlighter-rouge">%</code>-mark expressions (<code class="language-plaintext highlighter-rouge">I counted %d items</code>). Javascript uses a different
 format: <code class="language-plaintext highlighter-rouge">I counted ${count} items</code><sup><a href="#note1">1</a></sup>. In Python the
-C-style can be used (old style) as well as curly-bracket placehodlers with the
+C-style can be used (old style) as well as curly-bracket placeholders with the
 <code class="language-plaintext highlighter-rouge">str.format()</code> method: <code class="language-plaintext highlighter-rouge">I counted {count} items</code>.</p>
 
 <p>Now assume the text <code class="language-plaintext highlighter-rouge">I counted {count} items</code> has to be translated. The term
@@ -170,9 +170,9 @@ C-style can be used (old style) as well as curly-bracket placehodlers with the
 could cause an unintended error in the application: <code class="language-plaintext highlighter-rouge">Ik telde {Count} items</code>
 (with capital C).</p>
 
-<p>To avoid errors we created <a href="https://github.com/gaphor/gaphor/blob/master/po/check-babel.py">a small
+<p>To avoid errors we created <a href="https://github.com/gaphor/gaphor/blob/main/po/check-babel.py">a small
 script</a>, utilizing
-<a href="http://babel.pocoo.org/">Babel</a>. Babel is a Python based internationalization
+<a href="https://babel.pocoo.org/">Babel</a>. Babel is a Python based internationalization
 library. Using babel, we read the translations from a <code class="language-plaintext highlighter-rouge">.po</code> file and check if
 all placeholders from the original text (<code class="language-plaintext highlighter-rouge">{count}</code>) are in the translated text.
 A simple check that ensures placeholders in translated text can
@@ -190,7 +190,6 @@ file that could prevent Gaphor from launching, will be caught automatically.</p>
   <li><a name="note1"></a>This is actually a template string in Javascript. It
 takes some extra effort to make those translatable.</li>
 </ol>
-
 
             </div>
         </div>
