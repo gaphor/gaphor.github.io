@@ -47,6 +47,7 @@ permalink: pretty
 
 include:
   - "_pages"
+  - .well-known
 collections:
   usps:
   platforms:
