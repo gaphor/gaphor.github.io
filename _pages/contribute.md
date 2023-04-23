@@ -2,7 +2,7 @@
 title: Contribute
 layout: article
 redirect_from: /pages/developers.html
-language: en
+lang: en
 permalink: /contribute/
 ---
 

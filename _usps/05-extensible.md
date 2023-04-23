@@ -1,7 +1,7 @@
 ---
 title: Extensible
 icon: plug
-language: en
+lang: en
 ---
 
 Gaphor is extensible. Plug-in a code generator or export your diagrams for documentation.

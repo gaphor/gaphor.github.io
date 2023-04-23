@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-18 21:26-0400\n"
+"POT-Creation-Date: 2023-04-23 11:41-0400\n"
 "PO-Revision-Date: 2023-01-18 14:49+0000\n"
 "Last-Translator: BrainKicker <peter.sabanov@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/ru/>\n"
@@ -412,29 +412,7 @@ msgstr ""
 
 #. type: Plain text
 #: tutorials/report-bugs.md
-msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the [Gaphor developer's website](https://docs.gaphor.org)."
-msgstr ""
-
-#. type: Yaml Front Matter Hash Value: title
-#: tutorials/get-started-with-gaphor.md
-#, no-wrap
-msgid "Get started with Gaphor"
-msgstr "Начните работу с Gaphor"
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md
-msgid "This page has moved to https://docs.gaphor.org/en/latest/getting_started.html."
-msgstr ""
-
-#. type: Yaml Front Matter Hash Value: title
-#: tutorials/your-first-model.md
-#, no-wrap
-msgid "Your First Model"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/your-first-model.md
-msgid "This page has been moved to https://docs.gaphor.org/en/latest/first_model.html."
+msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the [Gaphor developer's website](https://docs.gaphor.org/en/latest)."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
@@ -659,9 +637,9 @@ msgstr ""
 msgid "[Writing a plugin]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: _pages/tutorials.md
-msgid "- [Technical and architectural documentation](https://docs.gaphor.org)  for contributors and plugin developers"
+msgid "[Technical and architectural documentation](https://docs.gaphor.org/en/latest) for contributors and plugin developers"
 msgstr ""
 
 #. type: Title ##
@@ -758,6 +736,10 @@ msgstr "Моделирование для Всех"
 #, no-wrap
 msgid "Blog and News"
 msgstr "Блог и Новости"
+
+#, no-wrap
+#~ msgid "Get started with Gaphor"
+#~ msgstr "Начните работу с Gaphor"
 
 #, no-wrap
 #~ msgid " Download installer\n"

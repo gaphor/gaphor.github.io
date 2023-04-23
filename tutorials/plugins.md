@@ -1,8 +1,8 @@
 ---
 title: Writing a Plugin
 redirect_from: /pages/writing-a-plugin.html
-language: en
-permalink: /tutorials/plugins
+lang: en
+permalink: /tutorials/plugins/
 layout: article
 ---
 

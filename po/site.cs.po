@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-18 21:26-0400\n"
+"POT-Creation-Date: 2023-04-23 11:41-0400\n"
 "PO-Revision-Date: 2023-04-13 18:51+0000\n"
 "Last-Translator: vikdevelop <super-vik1@protonmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/cs/>\n"
@@ -426,32 +426,8 @@ msgstr "Problém popište jednoduchým a srozumitelným jazykem, a pokud je to u
 #: tutorials/report-bugs.md
 #, fuzzy
 #| msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the Gaphor developer's website."
-msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the [Gaphor developer's website](https://docs.gaphor.org)."
+msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the [Gaphor developer's website](https://docs.gaphor.org/en/latest)."
 msgstr "Pokud byste se chtěli více zapojit do vývoje programu Gaphor, rádi vás přivítáme na webových stránkách vývojářů Gaphoru."
-
-#. type: Yaml Front Matter Hash Value: title
-#: tutorials/get-started-with-gaphor.md
-#, no-wrap
-msgid "Get started with Gaphor"
-msgstr "Začněte s aplikací Gaphor"
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md
-#, fuzzy
-#| msgid "This page has moved to https://gaphor.readthedocs.io/en/latest/getting_started.html."
-msgid "This page has moved to https://docs.gaphor.org/en/latest/getting_started.html."
-msgstr "Tato stránka byla přesunuta na https://gaphor.readthedocs.io/en/latest/getting_started.html."
-
-#. type: Yaml Front Matter Hash Value: title
-#: tutorials/your-first-model.md
-#, no-wrap
-msgid "Your First Model"
-msgstr "Váš první model"
-
-#. type: Plain text
-#: tutorials/your-first-model.md
-msgid "This page has been moved to https://docs.gaphor.org/en/latest/first_model.html."
-msgstr "Tato stránka byla přesunuta na https://gaphor.readthedocs.io/en/latest/getting_started.html."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/01-platform.md
@@ -704,11 +680,11 @@ msgstr "Tato stránka byla přesunuta na https://gaphor.readthedocs.io/en/latest
 msgid "[Writing a plugin]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: _pages/tutorials.md
 #, fuzzy
 #| msgid "- Technical and architectural documentation for contributors and plugin developers"
-msgid "- [Technical and architectural documentation](https://docs.gaphor.org)  for contributors and plugin developers"
+msgid "[Technical and architectural documentation](https://docs.gaphor.org/en/latest) for contributors and plugin developers"
 msgstr "- Rozšiřování modelů pomocí stereotypů - Psaní zásuvného modulu - Technická a architektonická dokumentace pro přispěvatele a vývojáře zásuvných modulů"
 
 #. type: Title ##
@@ -814,6 +790,22 @@ msgstr "Modeling pro každého"
 #, no-wrap
 msgid "Blog and News"
 msgstr "Blog a Zprávy"
+
+#, no-wrap
+#~ msgid "Get started with Gaphor"
+#~ msgstr "Začněte s aplikací Gaphor"
+
+#, fuzzy
+#~| msgid "This page has moved to https://gaphor.readthedocs.io/en/latest/getting_started.html."
+#~ msgid "This page has moved to https://docs.gaphor.org/en/latest/getting_started.html."
+#~ msgstr "Tato stránka byla přesunuta na https://gaphor.readthedocs.io/en/latest/getting_started.html."
+
+#, no-wrap
+#~ msgid "Your First Model"
+#~ msgstr "Váš první model"
+
+#~ msgid "This page has been moved to https://docs.gaphor.org/en/latest/first_model.html."
+#~ msgstr "Tato stránka byla přesunuta na https://gaphor.readthedocs.io/en/latest/getting_started.html."
 
 #, no-wrap
 #~ msgid " Download installer\n"

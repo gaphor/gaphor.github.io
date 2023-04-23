@@ -6,17 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-18 21:26-0400\n"
+"POT-Creation-Date: 2023-04-23 11:41-0400\n"
 "PO-Revision-Date: 2023-04-20 10:50+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
-"Language-Team: Croatian <https://hosted.weblate.org/projects/gaphor/"
-"gaphor-github-io/hr/>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.18-dev\n"
 
 #. type: Yaml Front Matter Hash Value: title
@@ -425,32 +423,10 @@ msgstr "Koristi jednostavan jezik za opisivanje problema i, ako treba, navedi ra
 
 #. type: Plain text
 #: tutorials/report-bugs.md
-msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the [Gaphor developer's website](https://docs.gaphor.org)."
+#, fuzzy
+#| msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the [Gaphor developer's website](https://docs.gaphor.org)."
+msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the [Gaphor developer's website](https://docs.gaphor.org/en/latest)."
 msgstr "Ako se želiš uključiti u razvoj Gaphora, pridruži nam se na Gaphor [web-stranici za programere](https://docs.gaphor.org)."
-
-#. type: Yaml Front Matter Hash Value: title
-#: tutorials/get-started-with-gaphor.md
-#, no-wrap
-msgid "Get started with Gaphor"
-msgstr "Počni raditi s Gaphorom"
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md
-msgid "This page has moved to https://docs.gaphor.org/en/latest/getting_started.html."
-msgstr ""
-"Ova je stranica premještena na https://docs.gaphor.org/en/latest/"
-"getting_started.html."
-
-#. type: Yaml Front Matter Hash Value: title
-#: tutorials/your-first-model.md
-#, no-wrap
-msgid "Your First Model"
-msgstr "Tvoj prvi model"
-
-#. type: Plain text
-#: tutorials/your-first-model.md
-msgid "This page has been moved to https://docs.gaphor.org/en/latest/first_model.html."
-msgstr "Ova je stranica premještena na https://docs.gaphor.org/en/latest/first_model.html."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/01-platform.md
@@ -472,10 +448,7 @@ msgstr "Otvoreni kod"
 #. type: Plain text
 #: _usps/02-opensource.md
 msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
-msgstr ""
-"Neovisno o proizvođaču: Gaphor je napisan u Pythonu, 100 % otvorenog koda, "
-"dostupan pod [Apache 2 licencom](https://github.com/gaphor/gaphor/blob/main/"
-"LICENSE.txt)."
+msgstr "Neovisno o proizvođaču: Gaphor je napisan u Pythonu, 100 % otvorenog koda, dostupan pod [Apache 2 licencom](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/03-beginner-pro.md
@@ -605,11 +578,7 @@ msgstr "Prijavi problem na GitHubu"
 #. type: Plain text
 #: _pages/discuss.md
 msgid "Please use our GitHub issue tracker for general questions and reporting bugs.  Before submitting a GitHub issue please review our page about [how to report a bug in Gaphor](/tutorials/report-bugs)."
-msgstr ""
-"Koristi naš sustav za praćenje problema na GitHubu za opća pitanja i "
-"prijavljivanje grešaka.  Prije nego što pošalješ problem na GitHub, "
-"pregledaj našu stranicu o tome [kako prijaviti grešku u Gaphoru](/tutorials/"
-"report-bugs)."
+msgstr "Koristi naš sustav za praćenje problema na GitHubu za opća pitanja i prijavljivanje grešaka.  Prije nego što pošalješ problem na GitHub, pregledaj našu stranicu o tome [kako prijaviti grešku u Gaphoru](/tutorials/report-bugs)."
 
 #. type: Plain text
 #: _pages/discuss.md
@@ -680,9 +649,11 @@ msgstr "[Proširi svoje modele sa stereotipima](https://docs.gaphor.org/en/lates
 msgid "[Writing a plugin]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
 msgstr "[Pisanje dodataka]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: _pages/tutorials.md
-msgid "- [Technical and architectural documentation](https://docs.gaphor.org)  for contributors and plugin developers"
+#, fuzzy
+#| msgid "- [Technical and architectural documentation](https://docs.gaphor.org)  for contributors and plugin developers"
+msgid "[Technical and architectural documentation](https://docs.gaphor.org/en/latest) for contributors and plugin developers"
 msgstr "- [Tehnička i arhitektonska dokumentacija](https://docs.gaphor.org)  za doprinositelje i programere dodataka"
 
 #. type: Title ##
@@ -776,6 +747,20 @@ msgstr "Modeliranje za svakoga"
 #, no-wrap
 msgid "Blog and News"
 msgstr "Blog i novosti"
+
+#, no-wrap
+#~ msgid "Get started with Gaphor"
+#~ msgstr "Počni raditi s Gaphorom"
+
+#~ msgid "This page has moved to https://docs.gaphor.org/en/latest/getting_started.html."
+#~ msgstr "Ova je stranica premještena na https://docs.gaphor.org/en/latest/getting_started.html."
+
+#, no-wrap
+#~ msgid "Your First Model"
+#~ msgstr "Tvoj prvi model"
+
+#~ msgid "This page has been moved to https://docs.gaphor.org/en/latest/first_model.html."
+#~ msgstr "Ova je stranica premještena na https://docs.gaphor.org/en/latest/first_model.html."
 
 #, no-wrap
 #~ msgid " Download installer\n"

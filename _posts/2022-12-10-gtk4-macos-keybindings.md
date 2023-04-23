@@ -4,7 +4,7 @@ author: Arjan Molenaar
 image_url: /images/gtk4-macos-keybindings/bg.jpg
 image_background: #f0f0f0
 image_attribution: https://www.istockphoto.com/en/photo/laptop-keyboard-gm491528360-75794947
-language: en
+lang: en
 ---
 
 [GTK](https://gtk.org) is a cross-platform toolkit. It's a key component for the

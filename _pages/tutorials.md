@@ -2,7 +2,7 @@
 title: Tutorials
 redirect_from: /pages/how-to.html
 layout: article
-language: en
+lang: en
 handle: /tutorials
 permalink: /tutorials
 ---

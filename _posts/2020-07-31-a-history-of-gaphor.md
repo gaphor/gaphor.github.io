@@ -3,7 +3,7 @@ title: A history of Gaphor
 author: Arjan Molenaar
 image_url: /images/roitberg-clocks.jpg
 image_attribution: https://www.flickr.com/photos/roitberg/5603167669
-language: en
+lang: en
 ---
 
 Gaphor as a project has been around for almost 19 years.

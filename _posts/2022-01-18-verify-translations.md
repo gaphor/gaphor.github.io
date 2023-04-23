@@ -4,7 +4,7 @@ author: Arjan Molenaar
 image_url: /images/translations.jpg
 image_background: #f0f0f0
 image_attribution: https://www.freepik.com/
-language: en
+lang: en
 ---
 
 For desktop applications and websites it's good practice to allow users to use
