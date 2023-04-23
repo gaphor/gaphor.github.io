@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-23 14:24+0000\n"
+"POT-Creation-Date: 2023-04-23 16:08+0000\n"
 "PO-Revision-Date: 2023-04-18 09:49+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/nl/>\n"
@@ -211,7 +211,7 @@ msgstr "Als u de laatste stabiele versie van Python en de afhankelijkheden van G
 #: _platforms/04-python.md
 #, fuzzy
 #| msgid "If you don't have the latest stable version of Python and the Gaphor dependencies installed, follow the development environment installation instructions section, but do not clone the repository. Optionally, create a virtual environment.  Then execute the following:"
-msgid "If you don't have the latest stable version of Python and the Gaphor dependencies installed, follow the development environment [installation instructions](https://docs.gaphor.org) section, but do not clone the repository. Optionally, create a [virtual environment](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments).  Then execute the following:"
+msgid "If you don't have the latest stable version of Python and the Gaphor dependencies installed, follow the development environment [installation instructions](https://docs.gaphor.org/en/latest) section, but do not clone the repository. Optionally, create a [virtual environment](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments).  Then execute the following:"
 msgstr "Als u niet de laatste stabiele versie van Python en de afhankelijkheden van Gaphor heeft geïnstalleerd, volg dan de instructies voor de installatie van de ontwikkelomgeving, maar kloon de repository niet. Maak eventueel een virtuele omgeving aan. Voer dan het volgende uit:"
 
 #. type: Fenced code block (bash)
@@ -427,32 +427,8 @@ msgstr "Gebruik duidelijke en eenvoudige taal om het probleem te beschrijven en,
 #: tutorials/report-bugs.md
 #, fuzzy
 #| msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the Gaphor developer's website."
-msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the [Gaphor developer's website](https://docs.gaphor.org)."
+msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the [Gaphor developer's website](https://docs.gaphor.org/en/latest)."
 msgstr "Als u meer betrokken wilt raken bij de ontwikkeling van Gaphor, verwelkomen wij u graag via de ontwikkelaarswebsite van Gaphor."
-
-#. type: YAML Front Matter: title
-#: tutorials/get-started-with-gaphor.md
-#, no-wrap
-msgid "Get started with Gaphor"
-msgstr "Aan de slag met Gaphor"
-
-#. type: Plain text
-#: tutorials/get-started-with-gaphor.md
-#, fuzzy
-#| msgid "This page has moved to https://gaphor.readthedocs.io/en/latest/getting_started.html."
-msgid "This page has moved to https://docs.gaphor.org/en/latest/getting_started.html."
-msgstr "Deze pagina is verhuisd naar https://gaphor.readthedocs.io/en/latest/getting_started.html."
-
-#. type: YAML Front Matter: title
-#: tutorials/your-first-model.md
-#, no-wrap
-msgid "Your First Model"
-msgstr "Uw eerste model"
-
-#. type: Plain text
-#: tutorials/your-first-model.md
-msgid "This page has been moved to https://docs.gaphor.org/en/latest/first_model.html."
-msgstr "Deze pagina is verhuisd naar https://docs.gaphor.org/en/latest/first_model.html."
 
 #. type: YAML Front Matter: title
 #: _usps/01-platform.md
@@ -537,7 +513,7 @@ msgstr "Wilt u bijdragen aan de ontwikkeling van Gaphor? (Als u denkt dat dit al
 #: _pages/contribute.md
 #, fuzzy
 #| msgid "Our technical documentation is hosted on the wonderful service that is Read the Docs. Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
-msgid "Our [technical documentation](https://docs.gaphor.org) is hosted on the wonderful service that is [Read the Docs](https://readthedocs.com/). Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
+msgid "Our [technical documentation](https://docs.gaphor.org/en/latest) is hosted on the wonderful service that is [Read the Docs](https://readthedocs.com/). Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
 msgstr "Onze technische documentatie wordt gehost op de prachtige dienst Read the Docs. Het bevat niet alleen details die nodig zijn om code bij te dragen aan Gaphor, maar het schetst ook tal van andere manieren waarop u kunt bijdragen (inclusief deze website bijwerken). Tenslotte biedt het een gids voor onze processen en verwachtingen voor de verschillende soorten bijdragen die u kunt leveren aan Gaphor."
 
 #. type: Plain text
@@ -689,7 +665,7 @@ msgstr "Geavanceerde onderwerpen"
 
 #. type: Plain text
 #: _pages/tutorials.md
-msgid "- [Extend your models with stereotypes](https://docs.gaphor.org/en/latest/stereotypes.html)  - [Writing a plugin]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})  - [Technical and architectural documentation](https://docs.gaphor.org)  for contributors and plugin developers"
+msgid "- [Extend your models with stereotypes](https://docs.gaphor.org/en/latest/stereotypes.html)  - [Writing a plugin]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})  - [Technical and architectural documentation](https://docs.gaphor.org/en/latest) for contributors and plugin developers"
 msgstr ""
 
 #. type: Title ##
@@ -789,7 +765,7 @@ msgstr "Blog en nieuws"
 
 #, fuzzy
 #~| msgid "- Technical and architectural documentation for contributors and plugin developers"
-#~ msgid "- [Technical and architectural documentation](https://docs.gaphor.org)  for contributors and plugin developers"
+#~ msgid "[Technical and architectural documentation](https://docs.gaphor.org/en/latest) for contributors and plugin developers"
 #~ msgstr "- Technische en architectonische documentatie voor bijdragers en plug-in-ontwikkelaars"
 
 #, fuzzy
@@ -801,6 +777,22 @@ msgstr "Blog en nieuws"
 #~| msgid "It's FOSS has a short write-up on Gaphor (~2.8-ish?)."
 #~ msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
 #~ msgstr "It's FOSS heeft een kort artikel over Gaphor (rond 2.8)."
+
+#, no-wrap
+#~ msgid "Get started with Gaphor"
+#~ msgstr "Aan de slag met Gaphor"
+
+#, fuzzy
+#~| msgid "This page has moved to https://gaphor.readthedocs.io/en/latest/getting_started.html."
+#~ msgid "This page has moved to https://docs.gaphor.org/en/latest/getting_started.html."
+#~ msgstr "Deze pagina is verhuisd naar https://gaphor.readthedocs.io/en/latest/getting_started.html."
+
+#, no-wrap
+#~ msgid "Your First Model"
+#~ msgstr "Uw eerste model"
+
+#~ msgid "This page has been moved to https://docs.gaphor.org/en/latest/first_model.html."
+#~ msgstr "Deze pagina is verhuisd naar https://docs.gaphor.org/en/latest/first_model.html."
 
 #, no-wrap
 #~ msgid " Download installer\n"

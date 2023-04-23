@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gaphor.org" />
+    <meta property="og:site_name" content="Gaphor, the UML/SysML modeling tool" />
+    <link rel='dns-prefetch' href='https://fonts.bunny.net' />
+    <link rel='dns-prefetch' href='https://cdnjs.cloudflare.com' />
+    <link rel="shortcut icon" href="/images/gaphor-24x24.png" />
+
+    <link defer crossorigin="anonymous" rel='stylesheet'
+        href='https://fonts.bunny.net/css?family=open-sans:400,700|mulish:300,800,900'
+        type='text/css' media='all' />
+    <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" media='all' />
+    <link rel='stylesheet' href='/css/main.css' type='text/css' />
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Kako prijaviti grešku u Gaphoru | Gaphor</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Kako prijaviti grešku u Gaphoru" />
+<meta property="og:locale" content="hr" />
+<meta name="description" content="Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models." />
+<meta property="og:description" content="Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models." />
+<link rel="canonical" href="https://gaphor.org/hr/tutorials/report-bugs/" />
+<meta property="og:url" content="https://gaphor.org/tutorials/report-bugs/" />
+<meta property="og:site_name" content="Gaphor" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Kako prijaviti grešku u Gaphoru" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models.","headline":"Kako prijaviti grešku u Gaphoru","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://gaphor.org/images/gaphor-logo-white.svg"}},"url":"https://gaphor.org/tutorials/report-bugs/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+</head>
+
+
+<body>
+
+	<div class="top-header">
+  <div class="container">
+    <div class="row">
+      <nav class="col-12 d-flex justify-content-end language-navigation">
+ <ul>
+ 
+  <li><a href="/en/tutorials/report-bugs/">English</a></li>
+ 
+  <li><a href="/es/tutorials/report-bugs/">Español</a></li>
+ 
+  <li><a href="/cs/tutorials/report-bugs/">Čeština</a></li>
+ 
+  <li><a href="/nl/tutorials/report-bugs/">Nederlands</a></li>
+ 
+  <li><a href="/hr/tutorials/report-bugs/">Hrvatski</a></li>
+ 
+  <li><a href="/hu/tutorials/report-bugs/">Magyar</a></li>
+ 
+  <li><a href="/ru/tutorials/report-bugs/">Русский</a></li>
+ 
+  <li><a href="/tr/tutorials/report-bugs/">Türkçe</a></li>
+ 
+ </ul>
+</nav>
+
+    </div>
+    <div class="row">
+      <div class="col-10 col-lg-3">
+        <a href="/hr/" title="" class="header-logo">
+          
+          <img src="/images/gaphor-logo-white.svg" alt="Gaphor logo" />
+          
+          </a>
+      </div>
+      <div class="col-2 col-lg-9">
+        <label for="menu-toggle" class="open-responsive-menu"><i class="fa fa-bars"></i></label>
+        <nav class="header-navigation">
+          <ul>
+            <li><a href="/hr/#about">Informacije</a></li>
+            <li><a href="/hr/download">Preuzmi</a></li>
+            <li><a href="/hr/tutorials">Vježbe</a></li>
+            <li><a href="/hr/pages">Blog</a></li>
+            <li><a href="/hr/discuss">Kontaktiraj zajednicu</a></li>
+            <li><a href="/hr/contribute">Doprinesi</a></li>
+            <li><a href="https://github.com/gaphor/gaphor"><i class='fab fa-github' style='font-size: 168%' title='GitHub repository'></i></a>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+<input id="menu-toggle" type="checkbox" hidden></input>
+<nav class="responsive-menu">
+  <label for="menu-toggle" class="close-responsive-menu"><i class="fa fa-times"></i></label>
+  <ul>
+    <li><a href="/hr/">Home</a></li>
+    <li><a href="/hr/#about">Informacije</a></li>
+    <li><a href="/hr/download">Preuzmi</a></li>
+    <li><a href="/hr/tutorials">Vježbe</a></li>
+    <li><a href="/hr/blog">Blog</a></li>
+    <li><a href="/hr/discuss">Kontaktiraj zajednicu</a></li>
+    <li><a href="/hr/contribute">Doprinesi</a></li>
+    <li><a href="https://github.com/gaphor/gaphor"><i class='fab fa-github' style='font-size: 168%' title='GitHub repository'></i></a>
+  </ul>
+</nav>
+
+
+<div class="default-page">
+<section>
+    <div class="section-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 offset-sm-1">
+                    <h1>Kako prijaviti grešku u Gaphoru</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10 offset-sm-1">
+                <p>Svatko tko je ikada napisao redak koda, zna, da svaki softver sadrži
+greške. To će biti slučaj i s Gaphorom. Ako misliš da si pronašao/la grešku,
+jednostavno pritisni na donju poveznicu (moraš imati račun na GitHubu), a
+zatim pritisni zeleni gumb „New Issue” (Novi problem) koji se nalazi u
+gornjem desnom kutu stranice:</p>
+
+<p><a href="https://github.com/gaphor/gaphor/issues">Prijavi grešku u Gaphoru</a></p>
+
+<p>Kad stvoriš novi problem on će dobiti broj, a programeri volonteri koji pišu
+i održavaju kod će dobiti obavijest putem e-maila. U slučaju da nešto nije
+jasno, oni mogu dodati pitanja o tvom problemu. Mogu ga odmah zatvoriti i
+označiti kao „duplicate” (duplikat) (što znači da je netko drugi već
+prijavio istu grešku – tada će se pozvati na izvorni problem). Ponekad će
+zatvoriti problem s komentarom „won’t fix” (neće se ispraviti), jer se ne
+slažu da se radi o grešci <em>ili</em> da je problem prejednostavan da bi ulagali
+vrijeme u rješavanje problema.</p>
+
+<p>Općenito postoje dvije vrste grešaka:</p>
+
+<ul>
+  <li>Tehnička greška: kod ima grešku koja uzrokuje prekid programa.</li>
+  <li>Greška u ponašanju programa: kod radi ispravno, ali radi krive stvari.</li>
+</ul>
+
+<p>U oba slučaja, da bismo mogli ispraviti grešku, trebamo <strong>što više
+informacija</strong>. Kad stvoriš novi problem, uključi, gdje je važno, sljedeće
+vrste informacija:</p>
+
+<ul>
+  <li>Što si pokušao/la uraditi,</li>
+  <li>Navedi korake koje si poduzeo/la prije pojavljivanja problema,</li>
+  <li>Što si očekivao/la da će se dogoditi,</li>
+  <li>Što se dogodilo,</li>
+  <li>Zašto je ova razlika problematična (možda se ne radi o grešci!),</li>
+  <li>Tehničke detalje kao što su verzija korištenog Gaphora, verzija OS-a i
+druge aspekte konteksta u kojem je Gaphor radio.</li>
+</ul>
+
+<p>Koristi jednostavan jezik za opisivanje problema i, ako treba, navedi radnje
+prije pojavljivanja problema korak po korak, kako bi programeri mogli
+reproducirati problem. Nemoj pretpostavljati da ćemo razumjeti što si
+pokušavao/la postići – iskreno rečeno, najbolje je ako pokušaš zamisliti da
+smo mi (programeri) gomila pametnih petogodišnjaka. Pokušaj objasniti <em>sve</em>
+o problemu i nemoj pretpostavljati da znamo što misliš. Nećemo imati ništa
+protiv!</p>
+
+<p>Ako se želiš uključiti u razvoj Gaphora, pridruži nam se na Gaphor
+<a href="https://docs.gaphor.org/hr/latest">web-stranici za programere</a>.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<link rel='stylesheet' href='/css/highlight.css' type='text/css' media='all' />
+
+</div>
+
+	<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-10 offset-sm-1">
+                <h5>Radujemo se tvom javljanju</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-10 offset-sm-1 col-md-6 col-lg-4">
+                <ul class="fa-ul">
+                    <li><a href="https://gitter.im/gaphor/Lobby"><i class="fa-li fa fa-angle-right"></i>
+                            <i class="fab fa-gitter"></i> Gitter</a></li>
+                    <li><a href="https://twitter.com/modelwithgaphor"><i class="fa-li fa fa-angle-right"></i>
+                            <i class="fab fa-twitter"></i> Twitter</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-10 offset-sm-1 col-md-6 col-lg-4">
+                <ul class="fa-ul">
+                    <li><a href="https://github.com/gaphor"><i class="fa-li fa fa-angle-right"></i>
+                            <i class="fab fa-github"></i> GitHub</a></li>
+                    <li><a href="https://github.com/gaphor/gaphor/issues"><i class="fa-li fa fa-angle-right"></i>
+                            <i class="fas fa-band-aid"></i>Prijavi problem na GitHubu</a>
+                    </li>
+                    <li><a href="https://gaphor.readthedocs.io/"><i class="fa-li fa fa-angle-right"></i>
+                            <i class="fas fa-drafting-compass"></i>Tehnička dokumentacija</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-footer">
+        <div class="container">
+            <p class="copyright">
+                <span>Dizajn: <a href="https://colorlib.com/illdy" title="Illdy">Illdy</a>.</span>
+                <span class="bottom-copyright">Autorska prava &copy; 2020. - 2023. Arjan Molenaar i Dan Yeaw.</span>
+            </p>
+        </div>
+    </div>
+
+</footer>
+
+<!-- page.url is / or /XX/ for translations -->
+
+
+
+    <script type="application/javascript">
+var codeBlocks = document.querySelectorAll('pre.highlight');
+
+codeBlocks.forEach(function (codeBlock) {
+  var copyButton = document.createElement('button');
+  copyButton.className = 'copy';
+  copyButton.type = 'button';
+  copyButton.ariaLabel = 'Copy code to clipboard';
+  copyButton.innerText = 'Copy';
+
+  codeBlock.append(copyButton);
+
+  copyButton.addEventListener('click', function () {
+    var code = codeBlock.querySelector('code').innerText.trim();
+    window.navigator.clipboard.writeText(code);
+
+    copyButton.innerText = 'Copied';
+    var fourSeconds = 4000;
+
+    setTimeout(function () {
+      copyButton.innerText = 'Copy';
+    }, fourSeconds);
+  });
+});
+</script>
+
+
+</body>
+
+</html>

@@ -29,8 +29,8 @@ def replace_language_string():
                     lines = f.readlines()
                 with file.open("w") as f:
                     for line in lines:
-                        if "language: en" in line:
-                            line = line.replace("language: en", f"language: {language}")
+                        if "lang: en" in line:
+                            line = line.replace("lang: en", f"lang: {language}")
                         f.write(line)
 
 
