@@ -1,15 +1,37 @@
 index:
   thousand-words: >
-  learn: ''
+    Ein Bild sagt mehr als tausend Worte. Beschreiben und dokumentieren Sie Ihre Anwendungen
+    und Systeme mit Gaphor, um den Wissensaustausch zu verbessern.
+  learn: 'Mehr erfahren'
   about-content: >
+    Gaphor ist eine UML-, SysML-, RAAML- und C4-Modellierungsanwendung. Sie ist so
+    konzipiert, dass es einfach zu bedienen ist und dennoch leistungsstark ist. Gaphor
+    implementiert ein vollständig kompatibles UML 2-Datenmodell und ist daher viel
+    mehr als ein Werkzeug zum Zeichnen von Bildern. Sie können Gaphor verwenden, um
+    schnell verschiedene Aspekte eines Systems zu visualisieren und vollständige,
+    hochkomplexe Modelle zu erstellen.
   build: >
-  styling-engine: ''
-  treeview: ''
-  dark-mode: ''
+    Erstellen Sie Klassen-, Interaktions- und Zustandsmaschinendiagramme für Software
+    oder Blockdefinitions- und Anforderungsdiagramme für Systeme. Modellieren Sie
+    die Elemente, die Sie benötigen. Wenn Sie mischen und anpassen möchten, können
+    Sie sogar verschiedene Diagrammelemente zu demselben Diagramm hinzufügen, um die
+    gewünschte Ansicht zu erhalten.
+  styling-engine: 'Passen Sie die von Ihnen erstellten Diagramme mit unserer integrierten
+    Styling-Engine an.'
+  treeview: 'Finden Sie alle Elemente Ihres Modells in der Baumansicht.'
+  dark-mode: 'Sie lieben den dunklen Modus? Das bieten wir auch.'
   download-content: >
+    Es gibt viele Möglichkeiten, Gaphor zu installieren. Am einfachsten ist es, den
+    offiziellen Installer für Windows oder macOS herunterzuladen. Für Linux können
+    Sie Gaphor mit FlatHub installieren. Sie können auch das in Python eingebaute
+    `pip`-Tool verwenden, solange Sie alle erforderlichen Abhängigkeiten installiert
+    haben.
 latest-news:
   blog-content: |
-  see-blog: ''
+    Wollen Sie wissen, was mit Gaphor los ist? Lesen Sie unseren Blog!
+
+    [Kontaktieren Sie das Team](/discuss), wenn Sie Inhalte im Zusammenhang mit Gaphor teilen möchten.
+  see-blog: 'Blog ansehen'
   read-more: ''
   blog-and-news: ''
 menu:
