@@ -38,9 +38,10 @@ menu:
   blog: Blog
   discuss: Kontaktiraj zajednicu
   contribute: Doprinesi
+  home: Početna stranica
 footer:
   love: Radujemo se tvom javljanju
   open-issue: Prijavi problem na GitHubu
   tech-docs: Tehnička dokumentacija
-  copyright: Autorska prava &copy; 2020. - 2023. Arjan Molenaar i Dan Yeaw.
+  copyright: Autorska prava &copy; 2020. – 2023. Arjan Molenaar i Dan Yeaw.
   theme: Dizajn
