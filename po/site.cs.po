@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-23 16:24+0000\n"
+"POT-Creation-Date: 2023-04-23 16:26+0000\n"
 "PO-Revision-Date: 2023-04-13 18:51+0000\n"
 "Last-Translator: vikdevelop <super-vik1@protonmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/cs/>\n"
@@ -638,14 +638,14 @@ msgstr "Každý výukový kurz je samostatnou lekcí, která vysvětluje konkré
 msgid "[Get Started with Gaphor](https://docs.gaphor.org/en/latest/getting_started.html)"
 msgstr "Tato stránka byla přesunuta na https://gaphor.readthedocs.io/en/latest/getting_started.html."
 
-#. type: Bullet: '2. '
+#. type: Bullet: '1. '
 #: _pages/tutorials.md
 #, fuzzy
 #| msgid "This page has been moved to https://docs.gaphor.org/en/latest/first_model.html."
 msgid "[Your First Model](https://docs.gaphor.org/en/latest/first_model.html)"
 msgstr "Tato stránka byla přesunuta na https://gaphor.readthedocs.io/en/latest/getting_started.html."
 
-#. type: Bullet: '3. '
+#. type: Bullet: '1. '
 #: _pages/tutorials.md
 #, fuzzy
 #| msgid ""
@@ -662,10 +662,8 @@ msgstr ""
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
-#, fuzzy
-#| msgid "How to report a bug in Gaphor"
-msgid "<a href=\"report-bugs\">How to report a bug in Gaphor</a>"
-msgstr "Jak nahlásit chybu v aplikaci Gaphor"
+msgid "[How to report a bug in Gaphor]({{ \"/tutorials/report-bugs/\" | prepend: site.baseurl }})"
+msgstr ""
 
 #. type: Title ##
 #: _pages/tutorials.md
@@ -767,6 +765,11 @@ msgstr "Modeling pro každého"
 #, no-wrap
 msgid "Blog and News"
 msgstr "Blog a Zprávy"
+
+#, fuzzy
+#~| msgid "How to report a bug in Gaphor"
+#~ msgid "<a href=\"report-bugs\">How to report a bug in Gaphor</a>"
+#~ msgstr "Jak nahlásit chybu v aplikaci Gaphor"
 
 #, fuzzy
 #~| msgid "This page has been moved to https://docs.gaphor.org/en/latest/first_model.html."

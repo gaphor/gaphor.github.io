@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-23 16:24+0000\n"
+"POT-Creation-Date: 2023-04-23 16:26+0000\n"
 "PO-Revision-Date: 2023-03-13 10:41+0000\n"
 "Last-Translator: Óscar Fernández Díaz <oscfdezdz@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/es/>\n"
@@ -638,14 +638,14 @@ msgstr "Cada tutorial es una lección independiente, que explica un aspecto espe
 msgid "[Get Started with Gaphor](https://docs.gaphor.org/en/latest/getting_started.html)"
 msgstr "Esta página se ha movido a https://gaphor.readthedocs.io/en/latest/getting_started.html."
 
-#. type: Bullet: '2. '
+#. type: Bullet: '1. '
 #: _pages/tutorials.md
 #, fuzzy
 #| msgid "This page has been moved to https://docs.gaphor.org/en/latest/first_model.html."
 msgid "[Your First Model](https://docs.gaphor.org/en/latest/first_model.html)"
 msgstr "Esta página se ha movido a https://docs.gaphor.org/en/latest/first_model.html."
 
-#. type: Bullet: '3. '
+#. type: Bullet: '1. '
 #: _pages/tutorials.md
 #, fuzzy
 #| msgid ""
@@ -662,10 +662,8 @@ msgstr ""
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
-#, fuzzy
-#| msgid "How to report a bug in Gaphor"
-msgid "<a href=\"report-bugs\">How to report a bug in Gaphor</a>"
-msgstr "Cómo informar de un error en Gaphor"
+msgid "[How to report a bug in Gaphor]({{ \"/tutorials/report-bugs/\" | prepend: site.baseurl }})"
+msgstr ""
 
 #. type: Title ##
 #: _pages/tutorials.md
@@ -767,6 +765,11 @@ msgstr "Modelado para todos"
 #, no-wrap
 msgid "Blog and News"
 msgstr "Blog y noticias"
+
+#, fuzzy
+#~| msgid "How to report a bug in Gaphor"
+#~ msgid "<a href=\"report-bugs\">How to report a bug in Gaphor</a>"
+#~ msgstr "Cómo informar de un error en Gaphor"
 
 #, fuzzy
 #~| msgid "This page has been moved to https://docs.gaphor.org/en/latest/first_model.html."
