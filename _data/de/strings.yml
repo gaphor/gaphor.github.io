@@ -1,0 +1,30 @@
+index:
+  thousand-words: >
+  learn: ''
+  about-content: >
+  build: >
+  styling-engine: ''
+  treeview: ''
+  dark-mode: ''
+  download-content: >
+latest-news:
+  blog-content: |
+  see-blog: ''
+  read-more: ''
+  blog-and-news: ''
+menu:
+  home: ''
+  about: ''
+  download: ''
+  tutorials: ''
+  blog: ''
+  discuss: ''
+  contribute: ''
+footer:
+  love: ''
+  open-issue: ''
+  tech-docs: ''
+  copyright: ''
+  theme: ''
+languages:
+  change: ''
