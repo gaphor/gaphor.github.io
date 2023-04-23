@@ -23,8 +23,7 @@ goals.
 
 - [Extend your models with stereotypes](https://docs.gaphor.org/en/latest/stereotypes.html)
 - [Writing a plugin]({{ "/tutorials/plugins/" | prepend: site.baseurl }})
-- [Technical and architectural documentation](https://docs.gaphor.org)
-for contributors and plugin developers
+- [Technical and architectural documentation](https://docs.gaphor.org/en/latest) for contributors and plugin developers
 
 ## Talks
 

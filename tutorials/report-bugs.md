@@ -2,7 +2,7 @@
 title: How to report a bug in Gaphor
 redirect_from: /pages/how-to-report-a-bug-in-gaphor.html
 language: en
-handle: /tutorials/report-bugs
+permalink: /tutorials/report-bugs
 layout: article
 ---
 
@@ -48,4 +48,4 @@ We won't mind!
 
 If you would like to get more involved in the development of Gaphor, we'd love
 to welcome you via the [Gaphor developer's
-website](https://docs.gaphor.org).
+website](https://docs.gaphor.org/en/latest).
