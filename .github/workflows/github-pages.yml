@@ -2,8 +2,6 @@ name: Build and deploy Jekyll site to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
 
   # Allows running this workflow manually from the Actions tab
   workflow_dispatch:
@@ -37,8 +35,17 @@ jobs:
           enable_cache: true
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: ${{ runner.os }}-gems-
+      - name: Check Links
+        run: >
+          bundle exec htmlproofer
+          --disable-external true
+          --enforce-https false
+          --allow-missing-href true
+          --check-internal-hash false 
+          --checks Links ./_site
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
