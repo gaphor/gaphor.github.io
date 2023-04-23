@@ -12,11 +12,11 @@ Gaphor, so you have the skills needed to achieve your learning and modeling
 goals.
 
 1. [Get Started with Gaphor](https://docs.gaphor.org/en/latest/getting_started.html)
-2. [Your First Model](https://docs.gaphor.org/en/latest/first_model.html)
-3. <i class="fab fa-youtube"></i> [Introduction to Gaphor and
+1. [Your First Model](https://docs.gaphor.org/en/latest/first_model.html)
+1. <i class="fab fa-youtube"></i> [Introduction to Gaphor and
    SysML](https://youtu.be/PnWKsr2csXg), presented by Dan at a joint INCOSE
    Michigan and Michigan Python event.
-1. <a href="report-bugs">How to report a bug in Gaphor</a>
+1. [How to report a bug in Gaphor]({{ "/tutorials/report-bugs/" | prepend: site.baseurl }})
 
 
 ## Advanced topics
