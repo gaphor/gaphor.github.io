@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-23 11:41-0400\n"
+"POT-Creation-Date: 2023-04-23 12:33-0400\n"
 "PO-Revision-Date: 2023-04-18 09:49+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/nl/>\n"
@@ -637,12 +637,12 @@ msgstr "Elke tutorial is een op zichzelf staande les, waarin een specifiek aspec
 msgid "[Get Started with Gaphor](https://docs.gaphor.org/en/latest/getting_started.html)"
 msgstr "[Beginnen met het gebruiken van Gaphor](https://docs.gaphor.org/en/latest/getting_started.html)"
 
-#. type: Bullet: '2. '
+#. type: Bullet: '1. '
 #: _pages/tutorials.md
 msgid "[Your First Model](https://docs.gaphor.org/en/latest/first_model.html)"
 msgstr "[Uw eerste model](https://docs.gaphor.org/en/latest/first_model.html)"
 
-#. type: Bullet: '3. '
+#. type: Bullet: '1. '
 #: _pages/tutorials.md
 #, fuzzy
 #| msgid ""
@@ -657,10 +657,8 @@ msgstr ""
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
-#, fuzzy
-#| msgid "How to report a bug in Gaphor"
-msgid "<a href=\"report-bugs\">How to report a bug in Gaphor</a>"
-msgstr "Hoe u een fout in Gaphor kunt melden"
+msgid "[How to report a bug in Gaphor]({{ \"/tutorials/report-bugs/\" | prepend: site.baseurl }})"
+msgstr ""
 
 #. type: Title ##
 #: _pages/tutorials.md
@@ -790,6 +788,11 @@ msgstr "Modelleren voor iedereen"
 #, no-wrap
 msgid "Blog and News"
 msgstr "Blog en nieuws"
+
+#, fuzzy
+#~| msgid "How to report a bug in Gaphor"
+#~ msgid "<a href=\"report-bugs\">How to report a bug in Gaphor</a>"
+#~ msgstr "Hoe u een fout in Gaphor kunt melden"
 
 #, no-wrap
 #~ msgid "Get started with Gaphor"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-23 11:44-0400\n"
+"POT-Creation-Date: 2023-04-23 12:33-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -658,13 +658,13 @@ msgstr ""
 msgid "[Get Started with Gaphor](https://docs.gaphor.org/en/latest/getting_started.html)"
 msgstr ""
 
-#. type: Bullet: '2. '
+#. type: Bullet: '1. '
 #: _pages/tutorials.md
 #, markdown-text
 msgid "[Your First Model](https://docs.gaphor.org/en/latest/first_model.html)"
 msgstr ""
 
-#. type: Bullet: '3. '
+#. type: Bullet: '1. '
 #: _pages/tutorials.md
 #, markdown-text
 msgid "<i class=\"fab fa-youtube\"></i> [Introduction to Gaphor and SysML](https://youtu.be/PnWKsr2csXg), presented by Dan at a joint INCOSE Michigan and Michigan Python event."
@@ -673,7 +673,7 @@ msgstr ""
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
 #, markdown-text
-msgid "<a href=\"report-bugs\">How to report a bug in Gaphor</a>"
+msgid "[How to report a bug in Gaphor]({{ \"/tutorials/report-bugs/\" | prepend: site.baseurl }})"
 msgstr ""
 
 #. type: Title ##
