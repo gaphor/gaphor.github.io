@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-23 16:26+0000\n"
+"POT-Creation-Date: 2023-04-23 16:34+0000\n"
 "PO-Revision-Date: 2023-04-20 10:50+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hr/>\n"
@@ -731,11 +731,11 @@ msgstr "Modeliranje za svakoga"
 msgid "Blog and News"
 msgstr "Blog i novosti"
 
-#~ msgid "<a href=\"report-bugs\">How to report a bug in Gaphor</a>"
-#~ msgstr "<a href=\"report-bugs\">Kako prijaviti grešku u Gaphoru</a>"
-
 #~ msgid "[Extend your models with stereotypes](https://docs.gaphor.org/en/latest/stereotypes.html)"
 #~ msgstr "[Proširi svoje modele sa stereotipima](https://docs.gaphor.org/hr/latest/stereotypes.html)"
+
+#~ msgid "[Writing a plugin]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
+#~ msgstr "[Pisanje dodataka]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
 
 #~ msgid "[Technical and architectural documentation](https://docs.gaphor.org/en/latest) for contributors and plugin developers"
 #~ msgstr "[Tehnička i arhitektonska dokumentacija](https://docs.gaphor.org/hr/latest) za doprinositelje i programere dodataka"
@@ -748,6 +748,9 @@ msgstr "Blog i novosti"
 
 #~ msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
 #~ msgstr "[Ubuntu Pit sadrži članak o Gaphoru (ca. verzija 2.8?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
+
+#~ msgid "<a href=\"report-bugs\">How to report a bug in Gaphor</a>"
+#~ msgstr "<a href=\"report-bugs\">Kako prijaviti grešku u Gaphoru</a>"
 
 #, no-wrap
 #~ msgid "Get started with Gaphor"

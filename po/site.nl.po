@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-23 16:26+0000\n"
+"POT-Creation-Date: 2023-04-23 16:34+0000\n"
 "PO-Revision-Date: 2023-04-18 09:49+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/nl/>\n"
@@ -762,11 +762,6 @@ msgid "Blog and News"
 msgstr "Blog en nieuws"
 
 #, fuzzy
-#~| msgid "How to report a bug in Gaphor"
-#~ msgid "<a href=\"report-bugs\">How to report a bug in Gaphor</a>"
-#~ msgstr "Hoe u een fout in Gaphor kunt melden"
-
-#, fuzzy
 #~| msgid "This page has been moved to https://docs.gaphor.org/en/latest/first_model.html."
 #~ msgid "[Extend your models with stereotypes](https://docs.gaphor.org/en/latest/stereotypes.html)"
 #~ msgstr "Deze pagina is verhuisd naar https://docs.gaphor.org/en/latest/first_model.html."
@@ -785,6 +780,11 @@ msgstr "Blog en nieuws"
 #~| msgid "It's FOSS has a short write-up on Gaphor (~2.8-ish?)."
 #~ msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
 #~ msgstr "It's FOSS heeft een kort artikel over Gaphor (rond 2.8)."
+
+#, fuzzy
+#~| msgid "How to report a bug in Gaphor"
+#~ msgid "<a href=\"report-bugs\">How to report a bug in Gaphor</a>"
+#~ msgstr "Hoe u een fout in Gaphor kunt melden"
 
 #, no-wrap
 #~ msgid "Get started with Gaphor"
