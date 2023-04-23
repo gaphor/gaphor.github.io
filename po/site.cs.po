@@ -524,6 +524,11 @@ msgstr "Zdrojový kód je umístěn na GitHubu."
 
 #. type: Plain text
 #: _pages/contribute.md
+msgid "Help translate Gaphor on [Weblate](https://hosted.weblate.org/engage/gaphor/)."
+msgstr ""
+
+#. type: Plain text
+#: _pages/contribute.md
 #, fuzzy, no-wrap
 #| msgid "If in doubt, just ask in our discussion area and someone will be able to point you in the right direction."
 msgid ""

@@ -544,6 +544,12 @@ msgstr ""
 
 #. type: Plain text
 #: _pages/contribute.md
+#, markdown-text
+msgid "Help translate Gaphor on [Weblate](https://hosted.weblate.org/engage/gaphor/)."
+msgstr ""
+
+#. type: Plain text
+#: _pages/contribute.md
 #, markdown-text, no-wrap
 msgid ""
 "If in doubt, just ask in our <a href=\"../discuss\">discussion area</a> and\n"
