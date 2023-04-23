@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-23 16:08+0000\n"
+"POT-Creation-Date: 2023-04-23 16:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -540,6 +540,12 @@ msgstr ""
 #: _pages/contribute.md
 #, markdown-text
 msgid "The source code is hosted on [GitHub](https://github.com/gaphor/gaphor)."
+msgstr ""
+
+#. type: Plain text
+#: _pages/contribute.md
+#, markdown-text
+msgid "Help translate Gaphor on [Weblate](https://hosted.weblate.org/engage/gaphor/)."
 msgstr ""
 
 #. type: Plain text

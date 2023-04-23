@@ -52,25 +52,52 @@
   <div class="container">
     <div class="row">
       <nav class="col-12 d-flex justify-content-end language-navigation">
- <ul>
- 
-  <li><a href="/en/2021/07/02/gaphor-2.5-highlights/">English</a></li>
- 
-  <li><a href="/es/2021/07/02/gaphor-2.5-highlights/">Español</a></li>
- 
-  <li><a href="/cs/2021/07/02/gaphor-2.5-highlights/">Čeština</a></li>
- 
-  <li><a href="/nl/2021/07/02/gaphor-2.5-highlights/">Nederlands</a></li>
- 
-  <li><a href="/hr/2021/07/02/gaphor-2.5-highlights/">Hrvatski</a></li>
- 
-  <li><a href="/hu/2021/07/02/gaphor-2.5-highlights/">Magyar</a></li>
- 
-  <li><a href="/ru/2021/07/02/gaphor-2.5-highlights/">Русский</a></li>
- 
-  <li><a href="/tr/2021/07/02/gaphor-2.5-highlights/">Türkçe</a></li>
- 
- </ul>
+
+    <form action="/2021/07/02/gaphor-2.5-highlights/" method="get">
+
+        <select id="language-chooser-select" name="lang" autocomplete="off">
+            
+            <option value="en" >
+                English
+            </option>
+            
+            <option value="cs" >
+                Čeština
+            </option>
+            
+            <option value="es" >
+                Español
+            </option>
+            
+            <option value="hr" selected="selected" >
+                Hrvatski
+            </option>
+            
+            <option value="hu" >
+                Magyar
+            </option>
+            
+            <option value="nl" >
+                Nederlands
+            </option>
+            
+            <option value="ru" >
+                Русский
+            </option>
+            
+            <option value="tr" >
+                Türkçe
+            </option>
+            
+        </select>
+
+        <script src="/js/languages.js" async></script>
+
+        <noscript>
+            <input id="language-chooser-submit" type="submit" value="Change"/>
+        </noscript>
+
+    </form>
 </nav>
 
     </div>

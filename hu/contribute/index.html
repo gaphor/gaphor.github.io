@@ -50,25 +50,52 @@
   <div class="container">
     <div class="row">
       <nav class="col-12 d-flex justify-content-end language-navigation">
- <ul>
- 
-  <li><a href="/en/contribute/">English</a></li>
- 
-  <li><a href="/es/contribute/">Español</a></li>
- 
-  <li><a href="/cs/contribute/">Čeština</a></li>
- 
-  <li><a href="/nl/contribute/">Nederlands</a></li>
- 
-  <li><a href="/hr/contribute/">Hrvatski</a></li>
- 
-  <li><a href="/hu/contribute/">Magyar</a></li>
- 
-  <li><a href="/ru/contribute/">Русский</a></li>
- 
-  <li><a href="/tr/contribute/">Türkçe</a></li>
- 
- </ul>
+
+    <form action="/contribute/" method="get">
+
+        <select id="language-chooser-select" name="lang" autocomplete="off">
+            
+            <option value="en" >
+                English
+            </option>
+            
+            <option value="cs" >
+                Čeština
+            </option>
+            
+            <option value="es" >
+                Español
+            </option>
+            
+            <option value="hr" >
+                Hrvatski
+            </option>
+            
+            <option value="hu" selected="selected" >
+                Magyar
+            </option>
+            
+            <option value="nl" >
+                Nederlands
+            </option>
+            
+            <option value="ru" >
+                Русский
+            </option>
+            
+            <option value="tr" >
+                Türkçe
+            </option>
+            
+        </select>
+
+        <script src="/js/languages.js" async></script>
+
+        <noscript>
+            <input id="language-chooser-submit" type="submit" value="Change"/>
+        </noscript>
+
+    </form>
 </nav>
 
     </div>
@@ -142,6 +169,9 @@ website). Finally, it provides a guide to our processes and expectations for
 the various types of contribution you can make to Gaphor.</p>
 
 <p>The source code is hosted on <a href="https://github.com/gaphor/gaphor">GitHub</a>.</p>
+
+<p>Help translate Gaphor on
+<a href="https://hosted.weblate.org/engage/gaphor/">Weblate</a>.</p>
 
 <p>If in doubt, just ask in our <a href="../discuss">discussion area</a> and
 someone will be able to point you in the right direction.</p>

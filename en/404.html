@@ -50,25 +50,52 @@
   <div class="container">
     <div class="row">
       <nav class="col-12 d-flex justify-content-end language-navigation">
- <ul>
- 
-  <li><a href="/en/404.html">English</a></li>
- 
-  <li><a href="/es/404.html">Español</a></li>
- 
-  <li><a href="/cs/404.html">Čeština</a></li>
- 
-  <li><a href="/nl/404.html">Nederlands</a></li>
- 
-  <li><a href="/hr/404.html">Hrvatski</a></li>
- 
-  <li><a href="/hu/404.html">Magyar</a></li>
- 
-  <li><a href="/ru/404.html">Русский</a></li>
- 
-  <li><a href="/tr/404.html">Türkçe</a></li>
- 
- </ul>
+
+    <form action="/404.html" method="get">
+
+        <select id="language-chooser-select" name="lang" autocomplete="off">
+            
+            <option value="en" selected="selected" >
+                English
+            </option>
+            
+            <option value="cs" >
+                Čeština
+            </option>
+            
+            <option value="es" >
+                Español
+            </option>
+            
+            <option value="hr" >
+                Hrvatski
+            </option>
+            
+            <option value="hu" >
+                Magyar
+            </option>
+            
+            <option value="nl" >
+                Nederlands
+            </option>
+            
+            <option value="ru" >
+                Русский
+            </option>
+            
+            <option value="tr" >
+                Türkçe
+            </option>
+            
+        </select>
+
+        <script src="/js/languages.js" async></script>
+
+        <noscript>
+            <input id="language-chooser-submit" type="submit" value="Change"/>
+        </noscript>
+
+    </form>
 </nav>
 
     </div>

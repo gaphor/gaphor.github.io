@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-23 16:08+0000\n"
+"POT-Creation-Date: 2023-04-23 16:11+0000\n"
 "PO-Revision-Date: 2023-04-18 09:49+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/nl/>\n"
@@ -522,6 +522,11 @@ msgstr "Onze technische documentatie wordt gehost op de prachtige dienst Read th
 #| msgid "The source code is hosted on GitHub."
 msgid "The source code is hosted on [GitHub](https://github.com/gaphor/gaphor)."
 msgstr "De broncode is beschikbaar op GitHub."
+
+#. type: Plain text
+#: _pages/contribute.md
+msgid "Help translate Gaphor on [Weblate](https://hosted.weblate.org/engage/gaphor/)."
+msgstr ""
 
 #. type: Plain text
 #: _pages/contribute.md

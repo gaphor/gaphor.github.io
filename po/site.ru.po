@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-23 16:08+0000\n"
+"POT-Creation-Date: 2023-04-23 16:11+0000\n"
 "PO-Revision-Date: 2023-01-18 14:49+0000\n"
 "Last-Translator: BrainKicker <peter.sabanov@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/ru/>\n"
@@ -500,6 +500,11 @@ msgstr ""
 #. type: Plain text
 #: _pages/contribute.md
 msgid "The source code is hosted on [GitHub](https://github.com/gaphor/gaphor)."
+msgstr ""
+
+#. type: Plain text
+#: _pages/contribute.md
+msgid "Help translate Gaphor on [Weblate](https://hosted.weblate.org/engage/gaphor/)."
 msgstr ""
 
 #. type: Plain text

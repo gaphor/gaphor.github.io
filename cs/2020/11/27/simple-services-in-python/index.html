@@ -52,25 +52,52 @@
   <div class="container">
     <div class="row">
       <nav class="col-12 d-flex justify-content-end language-navigation">
- <ul>
- 
-  <li><a href="/en/2020/11/27/simple-services-in-python/">English</a></li>
- 
-  <li><a href="/es/2020/11/27/simple-services-in-python/">Español</a></li>
- 
-  <li><a href="/cs/2020/11/27/simple-services-in-python/">Čeština</a></li>
- 
-  <li><a href="/nl/2020/11/27/simple-services-in-python/">Nederlands</a></li>
- 
-  <li><a href="/hr/2020/11/27/simple-services-in-python/">Hrvatski</a></li>
- 
-  <li><a href="/hu/2020/11/27/simple-services-in-python/">Magyar</a></li>
- 
-  <li><a href="/ru/2020/11/27/simple-services-in-python/">Русский</a></li>
- 
-  <li><a href="/tr/2020/11/27/simple-services-in-python/">Türkçe</a></li>
- 
- </ul>
+
+    <form action="/2020/11/27/simple-services-in-python/" method="get">
+
+        <select id="language-chooser-select" name="lang" autocomplete="off">
+            
+            <option value="en" >
+                English
+            </option>
+            
+            <option value="cs" selected="selected" >
+                Čeština
+            </option>
+            
+            <option value="es" >
+                Español
+            </option>
+            
+            <option value="hr" >
+                Hrvatski
+            </option>
+            
+            <option value="hu" >
+                Magyar
+            </option>
+            
+            <option value="nl" >
+                Nederlands
+            </option>
+            
+            <option value="ru" >
+                Русский
+            </option>
+            
+            <option value="tr" >
+                Türkçe
+            </option>
+            
+        </select>
+
+        <script src="/js/languages.js" async></script>
+
+        <noscript>
+            <input id="language-chooser-submit" type="submit" value="Change"/>
+        </noscript>
+
+    </form>
 </nav>
 
     </div>

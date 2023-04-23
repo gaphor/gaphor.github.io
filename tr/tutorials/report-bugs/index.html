@@ -50,25 +50,52 @@
   <div class="container">
     <div class="row">
       <nav class="col-12 d-flex justify-content-end language-navigation">
- <ul>
- 
-  <li><a href="/en/tutorials/report-bugs/">English</a></li>
- 
-  <li><a href="/es/tutorials/report-bugs/">Español</a></li>
- 
-  <li><a href="/cs/tutorials/report-bugs/">Čeština</a></li>
- 
-  <li><a href="/nl/tutorials/report-bugs/">Nederlands</a></li>
- 
-  <li><a href="/hr/tutorials/report-bugs/">Hrvatski</a></li>
- 
-  <li><a href="/hu/tutorials/report-bugs/">Magyar</a></li>
- 
-  <li><a href="/ru/tutorials/report-bugs/">Русский</a></li>
- 
-  <li><a href="/tr/tutorials/report-bugs/">Türkçe</a></li>
- 
- </ul>
+
+    <form action="/tutorials/report-bugs/" method="get">
+
+        <select id="language-chooser-select" name="lang" autocomplete="off">
+            
+            <option value="en" >
+                English
+            </option>
+            
+            <option value="cs" >
+                Čeština
+            </option>
+            
+            <option value="es" >
+                Español
+            </option>
+            
+            <option value="hr" >
+                Hrvatski
+            </option>
+            
+            <option value="hu" >
+                Magyar
+            </option>
+            
+            <option value="nl" >
+                Nederlands
+            </option>
+            
+            <option value="ru" >
+                Русский
+            </option>
+            
+            <option value="tr" selected="selected" >
+                Türkçe
+            </option>
+            
+        </select>
+
+        <script src="/js/languages.js" async></script>
+
+        <noscript>
+            <input id="language-chooser-submit" type="submit" value="Change"/>
+        </noscript>
+
+    </form>
 </nav>
 
     </div>
