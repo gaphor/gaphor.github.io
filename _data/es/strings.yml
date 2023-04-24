@@ -29,7 +29,7 @@ index:
 latest-news:
   blog-content: |
     ¿Quiere saber qué pasa con Gaphor? ¡Lea nuestro blog!
-    
+
     [Póngase en contacto](/discuss) con el equipo si quiere compartir contenidos relacionados con Gaphor.
   see-blog: Ver blog
   read-more: Leer más
@@ -41,9 +41,12 @@ menu:
   blog: Blog
   discuss: Póngase en contacto
   contribute: Contribuir
+  home: Inicio
 footer:
   love: Nos encantaría saber de usted
   open-issue: Abrir una incidencia en GitHub
   tech-docs: Documentación técnica
   copyright: Copyright &copy; 2020-2023 Arjan Molenaar y Dan Yeaw.
   theme: Tema
+languages:
+  change: Cambio
