@@ -11,26 +11,26 @@ index:
     megjelenítheti a rendszer különböző aspektusait, valamint komplett,
     rendkívül összetett modelleket hozhat létre.
   build: >
-    Build Class, Interaction, and State Machine diagrams for software or Block
-    Definition and Requirements diagrams for systems. Model the elements you
-    need. If you want to mix and match, you can even add different diagram
-    items to the same diagram to get the view you need.
-  styling-engine: Customize the diagrams you create with our built-in styling engine.
-  treeview: Easily find all element of your model in the tree view.
-  dark-mode: Love dark mode? We can do that too.
+    Építési osztály, interakció és állapotgép ábrák szoftverekhez vagy blokkdefiníciók
+    és követelmények abrakjai rendszerek számára. Modellezze a szükséges elemeket.
+    Ha keverni szeretné, akár különböző ábraelemeket is hozzáadhat ugyanahhoz az ábrához,
+    hogy a kívánt nézetet kapja.
+  styling-engine: Ábrák testreszabása a beépített stílusmotorunkkal.
+  treeview: Könnyen megtalálhatja a modell összes elemét a fanézetben.
+  dark-mode: Tetszik a sötét mód? Azt is megtehetjük.
   download-content: >
-    There are many ways to install Gaphor. The simplest is to download the
-    official installer for Windows or macOS. For Linux you can install Gaphor
-    using FlatHub. You can also use Python's built-in `pip` tool as long as you
-    have all the required dependencies installed.
+    A Gaphor telepítésének számos módja van. A legegyszerűbb a hivatalos telepítő
+    letöltése Windows vagy macOS rendszerhez. GNU/Linux esetén a Gaphort a FlatHub
+    segítségével telepítheti. Használhatja a Python beépített `pip` eszközét is, amennyiben
+    az összes szükséges függőség telepítve van.
 latest-news:
   blog-content: |
     Szeretnéd tudni, mi történik Gaphorral? Olvassa el naplónkat!
 
-    [Contact the team](/discuss) if you want to share content related to Gaphor.
+    [Forduljon a csoporthoz](/discuss), ha a Gaphorhoz kapcsolódó tartalmat szeretnél megosztani.
   see-blog: Napló megtekintése
-  read-more: Read more
-  blog-and-news: Blog and News
+  read-more: Olvass tovább
+  blog-and-news: Napló és hírek
 menu:
   about: Rólunk
   download: Letöltés
@@ -40,10 +40,10 @@ menu:
   contribute: Közreműködés
   home: Kezdőlap
 footer:
-  love: We love to hear from you
-  open-issue: Open an issue on GitHub
-  tech-docs: Tech docs
+  love: Szeretnénk hallani felőled
+  open-issue: GitHub probléma megnyitása
+  tech-docs: Műszaki dokumentumok
   copyright: Szerzői jog &copy; 2020-2022 Molenaar Arjan és Yeaw Dániel.
-  theme: Theme
+  theme: Téma
 languages:
   change: Változás
