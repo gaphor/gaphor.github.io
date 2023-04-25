@@ -7,49 +7,63 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-04-23 12:33-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-04-25 15:49+0000\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/gaphor/"
+"gaphor-github-io/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/01-windows.md
 #, no-wrap
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #. type: Plain text
 #: _platforms/01-windows.md
 #, markdown-text, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-installer.exe\"><i class=\"fa fa-download\"></i> Download installer</a>\n"
 msgstr ""
+"<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/"
+"releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version "
+"}}-installer.exe\"><i class=\"fa fa-download\"></i> Installer "
+"heruntergeladen</a>\n"
 
 #. type: Plain text
 #: _platforms/01-windows.md
 #, markdown-text
 msgid "Alternatively, a portable version of Gaphor can be downloaded."
 msgstr ""
+"Alternativ kann eine portable Version von Gaphor heruntergeladen werden."
 
 #. type: Plain text
 #: _platforms/01-windows.md
 #, markdown-text, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-portable.exe\"><i class=\"fa fa-download\"></i> Download portable version</a>\n"
 msgstr ""
+"<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/"
+"releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version "
+"}}-portable.exe\"><i class=\"fa fa-download\"></i> Portable Version "
+"heruntergeladen</a>\n"
 
 #. type: Title ###
 #: _platforms/01-windows.md
 #, markdown-text, no-wrap
 msgid "Winget"
-msgstr ""
+msgstr "Winget"
 
 #. type: Plain text
 #: _platforms/01-windows.md
 #, markdown-text
 msgid "Install Gaphor from [winget](https://github.com/microsoft/winget-pkgs/tree/master/manifests/g/gaphor/gaphor):"
 msgstr ""
+"Installieren Sie Gaphor von [winget](https://github.com/microsoft/"
+"winget-pkgs/tree/master/manifests/g/gaphor/gaphor):"
 
 #. type: Fenced code block (bash)
 #: _platforms/01-windows.md
@@ -73,7 +87,7 @@ msgstr ""
 #: _platforms/02-macos.md
 #, no-wrap
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #. type: Plain text
 #: _platforms/02-macos.md
@@ -85,13 +99,13 @@ msgstr ""
 #: _platforms/02-macos.md
 #, markdown-text
 msgid "Gaphor requires **macOS 10.15** or newer."
-msgstr ""
+msgstr "Gaphor benötigt **macOS 10.15** oder neuere Version."
 
 #. type: Title ###
 #: _platforms/02-macos.md
 #, markdown-text, no-wrap
 msgid "Homebrew"
-msgstr ""
+msgstr "Homebrew"
 
 #. type: Plain text
 #: _platforms/02-macos.md
@@ -103,19 +117,19 @@ msgstr ""
 #: _platforms/02-macos.md
 #, no-wrap
 msgid "brew install --cask gaphor\n"
-msgstr ""
+msgstr "brew install --cask gaphor\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/03-linux.md
 #, no-wrap
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #. type: Title ###
 #: _platforms/03-linux.md
 #, markdown-text, no-wrap
 msgid "Flatpak"
-msgstr ""
+msgstr "Flatpak"
 
 #. type: Plain text
 #: _platforms/03-linux.md
@@ -148,7 +162,7 @@ msgstr ""
 #: _platforms/03-linux.md
 #, markdown-text, no-wrap
 msgid "AppImage"
-msgstr ""
+msgstr "AppImage"
 
 #. type: Plain text
 #: _platforms/03-linux.md
@@ -180,13 +194,13 @@ msgstr ""
 #: _platforms/03-linux.md
 #, no-wrap
 msgid "GDK_BACKEND=x11 ./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-msgstr ""
+msgstr "GDK_BACKEND=x11 ./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
 
 #. type: Title ###
 #: _platforms/03-linux.md
 #, markdown-text, no-wrap
 msgid "Arch Linux"
-msgstr ""
+msgstr "Linux Architektur"
 
 #. type: Plain text
 #: _platforms/03-linux.md
@@ -198,7 +212,7 @@ msgstr ""
 #: _platforms/04-python.md
 #, no-wrap
 msgid "Python"
-msgstr ""
+msgstr "Python"
 
 #. type: Plain text
 #: _platforms/04-python.md
@@ -219,6 +233,8 @@ msgid ""
 "pip install gaphor\n"
 "gaphor\n"
 msgstr ""
+"pip install gaphor\n"
+"gaphor\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: tutorials/plugins.md
@@ -264,7 +280,7 @@ msgstr ""
 #: tutorials/plugins.md
 #, no-wrap
 msgid "ef = service('element_factory')\n"
-msgstr ""
+msgstr "ef = service('element_factory')\n"
 
 #. type: Title ##
 #: tutorials/plugins.md

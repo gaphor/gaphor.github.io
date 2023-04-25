@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-25 01:39+0000\n"
-"PO-Revision-Date: 2023-04-24 01:34+0000\n"
+"POT-Creation-Date: 2023-04-25 22:51+0000\n"
+"PO-Revision-Date: 2023-04-25 15:49+0000\n"
 "Last-Translator: ovari <ovari123@zoho.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hu/>\n"
 "Language: hu\n"
@@ -435,7 +435,7 @@ msgstr "Többplatformos"
 #. type: Plain text
 #: _usps/01-platform.md
 msgid "Gaphor works on all major platforms: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
-msgstr "A Gaphor az összes főbb platformon működik: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download#macos\" | prepend: site.baseurl }}) , és [GNU/Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
+msgstr "A Gaphor az összes főbb platformon működik: [GNU/Linux]({{ \"/download#linux\" | prepend: site.baseurl }}), [macOS]({{ \"/download#macos\" | prepend: site.baseurl }}) és [Windows]({{ \"/download#windows\" | prepend: site.baseurl }})."
 
 #. type: YAML Front Matter: title
 #: _usps/02-opensource.md
@@ -446,7 +446,7 @@ msgstr "Nyílt forráskódú"
 #. type: Plain text
 #: _usps/02-opensource.md
 msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
-msgstr "Nincs szállítói bekötés: A Gaphor Python nyelven íródott, és 100%-ban nyílt forráskódú, barátságos [Apache 2 licenc] (https://github.com/gaphor/gaphor/blob/main/LICENSE.txt) alatt érhető el."
+msgstr "Nincs szállítói bekötés: A Gaphor Python nyelven íródott, és 100%-ban nyílt forráskódú, barátságos [Apache 2 licenc](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt) alatt érhető el."
 
 #. type: YAML Front Matter: title
 #: _usps/03-beginner-pro.md
@@ -656,7 +656,7 @@ msgstr "Beszélgetések"
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "Dan and Arjan spoke at [Linux App Summit 2021](https://linuxappsummit.org/)  about [how Gaphor is made available to all desktop platforms Linux/Windows/macOS](https://www.youtube.com/watch?v=vLwAT-TLmZU)."
-msgstr "Dan és Arjan a [Linux alkalmazások csúcstalálkozója 2021](https://linuxappsummit.org/) rendezvényen arról beszélt, hogy [Hogyan érhető el a Gaphor minden asztali platformon: GNU/Linux, Windows és macOS](https://www.youtube.com/watch ?v=vLwAT-TLmZU)."
+msgstr "Dan és Arjan a [Linux alkalmazások csúcstalálkozója 2021](https://linuxappsummit.org/) rendezvényen arról beszélt, hogy [Hogyan érhető el a Gaphor minden asztali platformon: GNU/Linux, macOS és Windows](https://www.youtube.com/watch ?v=vLwAT-TLmZU)."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
