@@ -28,7 +28,7 @@ index:
 latest-news:
   blog-content: |
     Wilt u op de hoogte blijven van ontwikkelingen binnen Gaphor? Lees dan onze blog!
-  
+
     [Neem contact](/discuss) op met het team als u inhoud met betrekking tot Gaphor wilt delen.
   see-blog: Blog bekijken
   read-more: Meer lezen
@@ -40,9 +40,12 @@ menu:
   blog: Blog
   discuss: Contact opnemen
   contribute: Bijdragen
+  home: Start
 footer:
   love: We horen graag van u
   open-issue: Een issue openen op GitHub
   tech-docs: Technische documentatie
   copyright: Copyright &copy; 2020-2023 Arjan Molenaar en Dan Yeaw.
   theme: Thema
+languages:
+  change: Wijzigen
