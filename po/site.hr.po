@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-04-23 12:33-0400\n"
-"PO-Revision-Date: 2023-04-23 22:01+0000\n"
+"PO-Revision-Date: 2023-04-29 13:23+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/gaphor/"
 "gaphor-github-io/hr/>\n"
@@ -602,7 +602,9 @@ msgstr "Kodeks zajednice"
 #. type: Plain text
 #: _pages/discuss.md
 msgid "We expect contributors to follow the GNOME [Code of Conduct](https://wiki.gnome.org/Foundation/CodeOfConduct)."
-msgstr "Očekujemo od doprinositelja da se GNOME [pridržavaju kodeksa](https://wiki.gnome.org/Foundation/CodeOfConduct)."
+msgstr ""
+"Očekujemo od doprinositelja da se [pridržavaju GNOME-ovog "
+"kodeksa](https://wiki.gnome.org/Foundation/CodeOfConduct)."
 
 #. type: Plain text
 #: _pages/discuss.md
