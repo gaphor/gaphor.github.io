@@ -661,7 +661,7 @@ msgid ""
 "If in doubt, just ask in our <a href=\"../discuss\">discussion area</a> and\n"
 "someone will be able to point you in the right direction.\n"
 msgstr ""
-"Im Zweifelsfall fragen Sie einfach in unserem <a href=\"../diskuss\""
+"Im Zweifelsfall fragen Sie einfach in unserem <a href=\"../discuss\""
 ">Diskussionsbereich</a> nach und\n"
 "jemand wird Ihnen den richtigen Weg weisen können.\n"
 
