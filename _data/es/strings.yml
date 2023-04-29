@@ -16,16 +16,15 @@ index:
     sistemas. Modele los elementos que necesite. Si quiere mezclar y combinar,
     puede incluso añadir diferentes elementos de diagrama al mismo diagrama
     para obtener la vista que necesita.
-  styling-engine: >
+  styling-engine: >-
     personalice los diagramas que crea con nuestro motor de estilo incorporado.
   treeview: encuentre fácilmente todos los elementos de su modelo en la vista de árbol.
   dark-mode: ¿Le gusta el modo oscuro? También podemos hacerlo.
   download-content: >
-    Hay muchas maneras de instalar Gaphor. La más sencilla es descargar el
-    instalador oficial para Windows o macOS. Para Linux puede instalar Gaphor
-    usando FlatHub.  También puede utilizar la herramienta incorporada de
-    Python `pip` siempre que tenga instaladas todas las dependencias
-    necesarias.
+    Hay muchas formas de instalar Gaphor. La más sencilla es descargar el instalador
+    oficial para Windows o macOS. Para Linux puede instalar Gaphor usando FlatHub.
+    También puede utilizar la herramienta integrada `pip` de Python, siempre y cuando
+    tenga instaladas todas las dependencias necesarias.
 latest-news:
   blog-content: |
     ¿Quiere saber qué pasa con Gaphor? ¡Lea nuestro blog!
