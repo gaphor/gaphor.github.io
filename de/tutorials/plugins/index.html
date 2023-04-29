@@ -34,9 +34,9 @@
     <link rel="alternate" hreflang="tr" href="https://gaphor.org/tr/tutorials/plugins/"/>
 
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Writing a Plugin | Gaphor</title>
+<title>Ein Plugin schreiben | Gaphor</title>
 <meta name="generator" content="Jekyll v3.9.3" />
-<meta property="og:title" content="Writing a Plugin" />
+<meta property="og:title" content="Ein Plugin schreiben" />
 <meta property="og:locale" content="de" />
 <meta name="description" content="Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models." />
 <meta property="og:description" content="Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models." />
@@ -45,9 +45,9 @@
 <meta property="og:site_name" content="Gaphor" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Writing a Plugin" />
+<meta property="twitter:title" content="Ein Plugin schreiben" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models.","headline":"Writing a Plugin","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://gaphor.org/images/gaphor-logo-white.svg"}},"url":"https://gaphor.org/tutorials/plugins/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models.","headline":"Ein Plugin schreiben","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://gaphor.org/images/gaphor-logo-white.svg"}},"url":"https://gaphor.org/tutorials/plugins/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -161,7 +161,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-10 offset-sm-1">
-                    <h1>Writing a Plugin</h1>
+                    <h1>Ein Plugin schreiben</h1>
                 </div>
             </div>
         </div>
@@ -169,17 +169,17 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-10 offset-sm-1">
-                <p>Gaphor is designed to be extensible by using plugins that allow you to
-extend the functionality.</p>
+                <p>Gaphor ist so konzipiert, dass die Funktionalität mit Hilfe von Plugins
+erweitert werden kann.</p>
 
-<h2 id="accessing-model-related-data">Accessing Model Related Data</h2>
+<h2 id="zugriff-auf-modellbezogene-daten">Zugriff auf modellbezogene Daten</h2>
 
-<p>The datamodel classes are located in the <code class="language-plaintext highlighter-rouge">gaphor.UML</code> module. Data objects
-can be accessed through the ElementFactory. This is a special class for
-creating and managing data objects. Items can be queried using this element
-factory, which is registered in the application as <code class="language-plaintext highlighter-rouge">element_factory</code>. When
-writing a service or plugin the element factory can be injected into the
-service like this:</p>
+<p>Die Datenmodellklassen befinden sich im Modul <code class="language-plaintext highlighter-rouge">gaphor.UML</code>. Auf Datenobjekte
+kann über die ElementFactory zugegriffen werden. Dies ist eine spezielle
+Klasse zur Erstellung und Verwaltung von Datenobjekten. Elemente können über
+diese ElementFactory abgefragt werden, die in der Anwendung als
+<code class="language-plaintext highlighter-rouge">element_factory</code> registriert ist. Beim Schreiben eines Dienstes oder
+Plugins kann die ElementFactory wie folgt in den Dienst injiziert werden:</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">MyThing</span><span class="p">:</span>
     <span class="k">def</span> <span class="nf">do_something</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
@@ -187,8 +187,8 @@ service like this:</p>
         <span class="n">items</span> <span class="o">=</span> <span class="n">element_factory</span><span class="p">.</span><span class="n">select</span><span class="p">()</span>
 </code></pre></div></div>
 
-<p>In the console window services can be retrieved by using the <code class="language-plaintext highlighter-rouge">service()</code>
-function. For example:</p>
+<p>Im Konsolenfenster können Dienste mit Hilfe der Funktion <code class="language-plaintext highlighter-rouge">service()</code>
+abgerufen werden. Zum Beispiel:</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">ef</span> <span class="o">=</span> <span class="n">service</span><span class="p">(</span><span class="s">'element_factory'</span><span class="p">)</span>
 </code></pre></div></div>
