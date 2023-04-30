@@ -28,7 +28,7 @@ index:
 latest-news:
   blog-content: |
     Chcete vědět, co se děje s Gaphorem? Přečtěte si náš blog!
-    
+
     [obsah týkající](/discuss) se Gaphoru, kontaktujte tým.
   see-blog: Zobrazit blog
   read-more: Přečtěte si více
@@ -40,9 +40,12 @@ menu:
   blog: Blog
   discuss: Spojte se s námi
   contribute: Přispět
+  home: Domovská stránka
 footer:
   love: Rádi vás uslyšíme
   open-issue: Otevřete problém na GitHubu
   tech-docs: Technické dokumenty
   copyright: Copyright &copy; 2020-2023 Arjan Molenaar a Dan Yeaw.
   theme: Téma
+languages:
+  change: Změnit
