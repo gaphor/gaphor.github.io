@@ -1,45 +1,48 @@
 index:
   thousand-words: >
-    A picture is worth a thousand words. Describe and document your
-    applications and systems with Gaphor to enhance knowledge sharing.
-  learn: Learn more
+    Bir resim bin kelimeye bedeldir. Bilgi paylaşımını artırmak için uygulamalarınızı
+    ve sistemlerinizi Gaphor ile tanımlayın ve belgeleyin.
+  learn: Daha çoğunu öğren
   about-content: >
-    Gaphor is a UML, SysML, RAAML, and C4 modeling application. It is designed
-    to be easy to use, while still being powerful. Gaphor implements a
-    fully-compliant UML 2 data model, so it is much more than a picture drawing
-    tool. You can use Gaphor to quickly visualize different aspects of a system
-    as well as create complete, highly complex models.
+    Gaphor bir UML, SysML, RAAML ve C4 modelleme uygulamasıdır. Güçlü olmasına rağmen
+    kullanımı kolay olacak şekilde tasarlanmıştır. Gaphor tam uyumlu bir UML 2 veri
+    modeli uygular, bu nedenle bir resim çizim aracından çok daha fazlasıdır. Gaphor'u
+    bir sistemin farklı yönlerini hızlı bir şekilde görselleştirmek ve eksiksiz, oldukça
+    karmaşık modeller oluşturmak için kullanabilirsiniz.
   build: >
-    Build Class, Interaction, and State Machine diagrams for software or Block
-    Definition and Requirements diagrams for systems. Model the elements you
-    need. If you want to mix and match, you can even add different diagram
-    items to the same diagram to get the view you need.
-  styling-engine: Customize the diagrams you create with our built-in styling engine.
-  treeview: Easily find all element of your model in the tree view.
-  dark-mode: Love dark mode? We can do that too.
+    Yazılım için Sınıf, Etkileşim ve Durum Makinesi diyagramları veya sistemler için
+    Blok Tanımı ve Gereksinim diyagramları oluşturun. İhtiyacınız olan ögeleri modelleyin.
+    Karıştırmak ve eşleştirmek istiyorsanız, ihtiyacınız olan görünümü elde etmek
+    için aynı diyagrama farklı diyagram öğeleri bile ekleyebilirsiniz.
+  styling-engine: Yerleşik stil motorumuz ile oluşturduğunuz diyagramları özelleştirin.
+  treeview: Modelinizin tüm ögelerini ağaç görünümünde kolayca bulun.
+  dark-mode: Karanlık kipi seviyor musunuz? Onu da kullanabilirsiniz.
   download-content: >
-    There are many ways to install Gaphor. The simplest is to download the
-    official installer for Windows or macOS. For Linux you can install Gaphor
-    using FlatHub. You can also use Python's built-in `pip` tool as long as you
-    have all the required dependencies installed.
+    Gaphor'u yüklemenin birçok yolu vardır. En basit olanı Windows veya macOS için
+    resmi yükleyiciyi indirmektir. Linux için FlatHub kullanarak Gaphor'u kurabilirsiniz.
+    Gerekli tüm bağımlılıkları yüklediğiniz sürece Python'un yerleşik `pip` aracını
+    da kullanabilirsiniz.
 latest-news:
   blog-content: |
-    Do you want to know what's going on with Gaphor? Read our blog!
-  
-    [Contact the team](/discuss) if you want to share content related to Gaphor.
-  see-blog: See blog
-  read-more: Read more
-  blog-and-news: Blog and News
+    Gaphor'da neler olup bittiğini öğrenmek ister misiniz? Blogumuzu okuyun!
+
+    Gaphor ile ilgili içerik paylaşmak istiyorsanız [Ekiple iletişime geçin](/discuss).
+  see-blog: Blog'a bak
+  read-more: Daha çoğunu oku
+  blog-and-news: Blog ve Haberler
 menu:
-  about: About
+  about: Hakkında
   download: Download
-  tutorials: Tutorials
+  tutorials: Dersler
   blog: Blog
-  discuss: Get in touch
-  contribute: Contribute
+  discuss: İletişime geç
+  contribute: Katkıda bulunun
+  home: Ev
 footer:
   love: Sizden haber almak isteriz
   open-issue: GitHub'da bir hata bildirin
   tech-docs: Teknik belgeler
   copyright: Telif hakkı &copy; 2020-2023 Arjan Molenaar ve Dan Yeaw.
   theme: Theme
+languages:
+  change: Değiştir
