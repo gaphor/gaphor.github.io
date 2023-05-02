@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-04-23 12:33-0400\n"
-"PO-Revision-Date: 2023-05-01 07:47+0000\n"
+"PO-Revision-Date: 2023-05-03 14:48+0000\n"
 "Last-Translator: vikdevelop <super-vik1@protonmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/"
 "gaphor-github-io/cs/>\n"
@@ -697,30 +697,23 @@ msgstr ""
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
-#, fuzzy
-#| msgid "This page has been moved to https://docs.gaphor.org/en/latest/first_model.html."
 msgid "[Your First Model](https://docs.gaphor.org/en/latest/first_model.html)"
-msgstr "Tato stránka byla přesunuta na https://gaphor.readthedocs.io/en/latest/getting_started.html."
+msgstr "[Váš první model](https://docs.gaphor.org/en/latest/first_model.html)"
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
-#, fuzzy
-#| msgid ""
-#| "3.  Introduction to Gaphor and\n"
-#| "   SysML, presented by Dan at a joint INCOSE\n"
-#| "   Michigan and Michigan Python event.\n"
-#| "1. How to report a bug in Gaphor\n"
 msgid "<i class=\"fab fa-youtube\"></i> [Introduction to Gaphor and SysML](https://youtu.be/PnWKsr2csXg), presented by Dan at a joint INCOSE Michigan and Michigan Python event."
 msgstr ""
-"3.  Úvod do Gaphoru a\n"
-"   SysML, který Dan prezentoval na společném zasedání INCOSE.\n"
-"   Michigan a Michigan Python.\n"
-"1. Jak nahlásit chybu v programu Gaphor\n"
+"<i class=\"fab fa-youtube\"></i> [Úvod do Gaphoru a SysML](https://youtu.be/"
+"PnWKsr2csXg), kterou Dan prezentoval na společné akci INCOSE Michigan and "
+"Michigan Python."
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
 msgid "[How to report a bug in Gaphor]({{ \"/tutorials/report-bugs/\" | prepend: site.baseurl }})"
 msgstr ""
+"[Jak nahlásit chybu v Gaphoru]({{ \"/tutorials/report-bugs/\" | prepend: "
+"site.baseurl }})"
 
 #. type: Title ##
 #: _pages/tutorials.md
@@ -730,22 +723,23 @@ msgstr "Pokročilá témata"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-#, fuzzy
-#| msgid "This page has been moved to https://docs.gaphor.org/en/latest/first_model.html."
 msgid "[Extend your models with stereotypes](https://docs.gaphor.org/en/latest/stereotypes.html)"
-msgstr "Tato stránka byla přesunuta na https://gaphor.readthedocs.io/en/latest/getting_started.html."
+msgstr ""
+"[Rozšiřte své modely pomocí stereotypů](https://docs.gaphor.org/en/latest/"
+"stereotypes.html)"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "[Writing a plugin]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
 msgstr ""
+"[Napsání pluginu]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-#, fuzzy
-#| msgid "- Technical and architectural documentation for contributors and plugin developers"
 msgid "[Technical and architectural documentation](https://docs.gaphor.org/en/latest) for contributors and plugin developers"
-msgstr "- Rozšiřování modelů pomocí stereotypů - Psaní zásuvného modulu - Technická a architektonická dokumentace pro přispěvatele a vývojáře zásuvných modulů"
+msgstr ""
+"[Technická a architektonická dokumentace](https://docs.gaphor.org/en/latest) "
+"pro přispěvatele a vývojáře pluginů"
 
 #. type: Title ##
 #: _pages/tutorials.md
@@ -755,24 +749,26 @@ msgstr "Rozhovory"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-#, fuzzy
-#| msgid "Dan and Arjan spoke at Linux App Summit 2021 about how Gaphor is made available to all desktop platforms Linux/Windows/macOS."
 msgid "Dan and Arjan spoke at [Linux App Summit 2021](https://linuxappsummit.org/)  about [how Gaphor is made available to all desktop platforms Linux/Windows/macOS](https://www.youtube.com/watch?v=vLwAT-TLmZU)."
-msgstr "Dan a Arjan hovořili na konferenci Linux App Summit 2021 o tom, jak je Gaphor dostupný pro všechny desktopové platformy Linux/Windows/macOS."
+msgstr ""
+"Dan a Arjan mluvili na [Linux App Summit 2021](https://linuxappsummit.org/)  "
+"o [tom jak je Gaphor dostupný pro všechny platformy Linux/Windows/"
+"macOS](https://www.youtube.com/watch?v=vLwAT-TLmZU)."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-#, fuzzy
-#| msgid "Dan spoke at the 2021 MIT STAMP Workshop about _Open STPA with RAAML and Gaphor_."
 msgid "Dan spoke at the 2021 [MIT STAMP Workshop](https://psas.scripts.mit.edu/home/2021-stamp-workshop-program/)  about _Open STPA with RAAML and Gaphor_."
-msgstr "Dan přednášel na semináři MIT STAMP 2021 o _Open STPA s RAAML a Gaphor_."
+msgstr ""
+"Dan mluvil na 2021 [MIT STAMP Workshop](https://psas.scripts.mit.edu/home/"
+"2021-stamp-workshop-program/) o _Open STPA s RAAML a Gaphor_."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-#, fuzzy
-#| msgid "Arjan spoke at GUADEC 2021 about Large GUI application with Python and GTK."
 msgid "Arjan spoke at [GUADEC 2021](https://events.gnome.org/event/9/) about [Large GUI application with Python and GTK](https://events.gnome.org/event/9/contributions/188/)."
-msgstr "Arjan vystoupil na konferenci GUADEC 2021 s přednáškou na téma Velké GUI aplikace s Pythonem a GTK."
+msgstr ""
+"Arjan mluvil na [GUADEC 2021](https://events.gnome.org/event/9/) o [obrovské "
+"GUI aplikaci s Python a GTK](https://events.gnome.org/event/9/contributions/"
+"188/)."
 
 #. type: Title ##
 #: _pages/tutorials.md
@@ -787,22 +783,24 @@ msgstr "Na webu je několik více než 10 let starých článků o Gaphoru. Něk
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-#, fuzzy
-#| msgid "Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10."
 msgid "[Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)"
-msgstr "Webové stránky Metody a nástroje přezkoumaly verzi Gaphor 2.7.1 v prosinci 2021 na Window 10."
+msgstr ""
+"[Webové stránky Metody a nástroje recenzovaly verzi Gaphor 2.7.1 v prosinci "
+"2021 na Window 10.] (https://www.methodsandtools.com/tools/gaphor.php)"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-#, fuzzy
-#| msgid "It's FOSS has a short write-up on Gaphor (~2.8-ish?)."
 msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
-msgstr "Je to FOSS má krátký write-up na Gaphor (~ 2.8-ish?)."
+msgstr ""
+"[It's FOSS má krátký write-up na Gaphor (~2.8-ish?).](https://itsfoss.com/"
+"gaphor-modeling-tool/)"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
 msgstr ""
+"[Ubuntu Pit má pěkný článek o Gaphoru (~2.8-ish?).](https://www.ubuntupit."
+"com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/download.md
@@ -817,10 +815,10 @@ msgstr "Existuje mnoho způsobů instalace systému Gaphor. Nejjednodušší je 
 
 #. type: Plain text
 #: _pages/download.md
-#, fuzzy
-#| msgid "If you're a developer, you can find the source code on GitHub."
 msgid "If you're a developer, you can find the source code [on GitHub](https://github.com/gaphor/gaphor)."
-msgstr "Pokud jste vývojář, zdrojový kód najdete na GitHubu."
+msgstr ""
+"Pokud jste vývojář, můžete najít zdrojový kód [na GitHubu](https://github."
+"com/gaphor/gaphor)."
 
 #. type: Title #
 #: _pages/404.md
