@@ -4,13 +4,13 @@ layout: article
 
 {% for post in site.posts %}
     <h2><a href="{{ post.url }}" style="text-decoration: none;">{{ post.title }}</a></h2>
-    <p class="credits">By {{ post.author }} on {{ post.date | date: "%B %d, %Y" }}</p>
+    <p class="credits">{{ site.data.strings.latest-news-and-blog.by }} {{ post.author }} on {{ post.date | date: "%B %d, %Y" }}</p>
     {{ post.content | split:'<!--break-->' | first }}
     {% if post.content contains '<!--break-->' %}
         <p>
             <a href="{{ post.url }}" title="Read more" class="post-button">
                 <i class="fa fa-chevron-circle-right"></i>
-                Read more
+                {{ site.data.strings.latest-news-and-blog.read-more }}
             </a>
         </p>
 

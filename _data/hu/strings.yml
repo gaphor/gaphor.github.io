@@ -23,7 +23,7 @@ index:
     letöltése Windows vagy macOS rendszerhez. GNU/Linux esetén a Gaphort a FlatHub
     segítségével telepítheti. Használhatja a Python beépített `pip` eszközét is, amennyiben
     az összes szükséges függőség telepítve van.
-latest-news:
+latest-news-and-blog:
   blog-content: |
     Szeretnéd tudni, mi történik Gaphorral? Olvassa el naplónkat!
 

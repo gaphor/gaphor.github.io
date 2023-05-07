@@ -23,7 +23,7 @@ index:
     službeni instalacijski program za Windows ili macOS. Za Linux se Gaphor
     može instalirati koristeći FlatHub. Također je moguće koristiti Pythonov
     ugrađeni `pip` alat ukoliko su sve potrebne ovisnosti instalirane.
-latest-news:
+latest-news-and-blog:
   blog-content: |
     Želiš znati što se događa s Gaphorom? Čitaj naš blog!
 

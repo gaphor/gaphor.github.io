@@ -25,7 +25,7 @@ index:
     oficial para Windows o macOS. Para Linux puede instalar Gaphor usando FlatHub.
     También puede utilizar la herramienta integrada `pip` de Python, siempre y cuando
     tenga instaladas todas las dependencias necesarias.
-latest-news:
+latest-news-and-blog:
   blog-content: |
     ¿Quiere saber qué pasa con Gaphor? ¡Lea nuestro blog!
 

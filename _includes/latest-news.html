@@ -1,9 +1,9 @@
 <section id="latest-news" class="front-page-section">
   <p>
-  {% include section-header.html title=site.data.strings.latest-news.blog-and-news description=site.data.strings.latest-news.blog-content %}
+  {% include section-header.html title=site.data.strings.latest-news-and-blog.blog-and-news description=site.data.strings.latest-news-and-blog.blog-content %}
 
-  <a href="{{ '/blog/' | prepend: site.baseurl }}" title=site.data.strings.latest-news.see-blog class="latest-news-button"><i
-      class="fa fa-chevron-circle-right"></i>{{ site.data.strings.latest-news.see-blog }}</a>
+  <a href="{{ '/blog/' | prepend: site.baseurl }}" title=site.data.strings.latest-news-and-blog.see-blog class="latest-news-and-blog-button"><i
+      class="fa fa-chevron-circle-right"></i>{{ site.data.strings.latest-news-and-blog.see-blog }}</a>
 
   <div class="section-content">
     <div class="container">
@@ -19,7 +19,7 @@
             <h5 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>
             <div class="post-entry">{{ post.content | split:'<!--break-->' | first }}</div>
             <a href="{{ post.url }}" title="Read more" class="post-button"><i
-                class="fa fa-chevron-circle-right"></i>{{ read-more }}</a>
+                class="fa fa-chevron-circle-right"></i>{{ site.data.strings.latest-news-and-blog.read-more }}</a>
           </div>
         </div>
         {% endfor %}

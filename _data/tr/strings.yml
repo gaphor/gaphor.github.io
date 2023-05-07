@@ -22,7 +22,7 @@ index:
     resmi yükleyiciyi indirmektir. Linux için FlatHub kullanarak Gaphor'u kurabilirsiniz.
     Gerekli tüm bağımlılıkları yüklediğiniz sürece Python'un yerleşik `pip` aracını
     da kullanabilirsiniz.
-latest-news:
+latest-news-and-blog:
   blog-content: |
     Gaphor'da neler olup bittiğini öğrenmek ister misiniz? Blogumuzu okuyun!
 
