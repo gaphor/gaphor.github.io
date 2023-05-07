@@ -190,21 +190,21 @@ GitHub</a>.</p>
                     Windows
                 </h2>
                 <div class="section-description">
-                    <p><a class="btn btn-primary btn-lg" href="https://github.com/gaphor/gaphor/releases/download/2.18.0/gaphor-2.18.0-installer.exe"><i class="fa fa-download"></i> Download installer</a></p>
+                    <p><a class="btn btn-primary btn-lg" href="https://github.com/gaphor/gaphor/releases/download/2.18.0/gaphor-2.18.0-installer.exe"><i class="fa fa-download"></i> Installer downloaden</a></p>
 
-<p>Alternatively, a portable version of Gaphor can be downloaded.</p>
+<p>Als alternatief kan een portable versie van Gaphor worden gedownload.</p>
 
-<p><a class="btn btn-primary btn-lg" href="https://github.com/gaphor/gaphor/releases/download/2.18.0/gaphor-2.18.0-portable.exe"><i class="fa fa-download"></i> Download portable version</a></p>
+<p><a class="btn btn-primary btn-lg" href="https://github.com/gaphor/gaphor/releases/download/2.18.0/gaphor-2.18.0-portable.exe"><i class="fa fa-download"></i>Portable versie downloaden</a></p>
 
 <h3 id="winget">Winget</h3>
 
-<p>Install Gaphor from
+<p>Installeer Gaphor via
 <a href="https://github.com/microsoft/winget-pkgs/tree/master/manifests/g/gaphor/gaphor">winget</a>:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>winget <span class="nb">install </span>gaphor
 </code></pre></div></div>
 
-<p>To check out the latest release notes and other details:</p>
+<p>Om de meest recente uitgave-opmerkingen en andere details te bekijken:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>winget show gaphor
 </code></pre></div></div>
@@ -221,13 +221,14 @@ GitHub</a>.</p>
                     macOS
                 </h2>
                 <div class="section-description">
-                    <p><a class="btn btn-primary btn-lg" href="https://github.com/gaphor/gaphor/releases/download/2.18.0/Gaphor-2.18.0.dmg"><i class="fa fa-download"></i> Download .dmg</a></p>
+                    <p><a class="btn btn-primary btn-lg" href="https://github.com/gaphor/gaphor/releases/download/2.18.0/Gaphor-2.18.0.dmg"><i class="fa fa-download"></i>.dmg downloaden</a></p>
 
-<p>Gaphor requires <strong>macOS 10.15</strong> or newer.</p>
+<p>Gaphor vereist <strong>macOS 10.15</strong> of nieuwer.</p>
 
 <h3 id="homebrew">Homebrew</h3>
 
-<p>Pour Gaphor from a <a href="https://formulae.brew.sh/cask/gaphor">homebrew cask</a>:</p>
+<p>Download Gaphor via een
+<a href="https://formulae.brew.sh/cask/gaphor">homebrew-cask</a>:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew <span class="nb">install</span> <span class="nt">--cask</span> gaphor
 </code></pre></div></div>
@@ -246,13 +247,13 @@ GitHub</a>.</p>
                 <div class="section-description">
                     <h3 id="flatpak">Flatpak</h3>
 
-<p><a href="https://flatpak.org/">Flatpak</a> is the recommended way to install Gaphor in
-Linux. If you don’t have it setup already, follow the instructions to
-<a href="https://flatpak.org/setup">install Flatpak</a>.</p>
+<p><a href="https://flatpak.org/">Flatpak</a> is de aanbevolen manier om Gaphor op Linux
+te installeren. Als deze nog niet is geïnstalleerd, volg dan <a href="https://flatpak.org/setup">de instructies
+om Flatpak te installeren</a>.</p>
 
 <p><a href="https://flathub.org/apps/details/org.gaphor.Gaphor"><img width="240" alt="Download on Flathub" src="https://flathub.org/assets/badges/flathub-badge-en.png" /></a></p>
 
-<p>To manually install Gaphor:</p>
+<p>Om Gaphor handmatig te installeren:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>flatpak remote-add <span class="nt">--user</span> <span class="nt">--if-not-exists</span> <span class="se">\</span>
     flathub https://dl.flathub.org/repo/flathub.flatpakrepo
@@ -261,26 +262,26 @@ flatpak <span class="nb">install</span> <span class="nt">--user</span> flathub o
 
 <h3 id="appimage">AppImage</h3>
 
-<p>The other option if you are running a recent Linux distribution is to use
-the <a href="https://appimage.org/">AppImage</a>. It is built using Ubuntu 18.04 and
-most likely won’t work on older versions.</p>
+<p>De andere optie als u een recente Linux-distributie draait, is om de
+<a href="https://appimage.org/">AppImage</a> te gebruiken. Het is gebouwd met Ubuntu
+18.04 en zal waarschijnlijk niet werken op oudere versies.</p>
 
-<p><a class="btn btn-primary btn-lg" href="https://github.com/gaphor/gaphor/releases/download/2.18.0/Gaphor-2.18.0-x86_64.AppImage"><i class="fa fa-download"></i> Download AppImage</a></p>
+<p><a class="btn btn-primary btn-lg" href="https://github.com/gaphor/gaphor/releases/download/2.18.0/Gaphor-2.18.0-x86_64.AppImage"><i class="fa fa-download"></i> AppImage downloaden</a></p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">chmod</span> +x Gaphor-2.18.0-x86_64.AppImage
 ./Gaphor-2.18.0-x86_64.AppImage
 </code></pre></div></div>
 
-<p>If you’re using Wayland and the AppImage crashes, you can force it to use
-the X11 backend instead.</p>
+<p>Als u gebruik maakt van Wayland en de AppImage crasht, kunt u deze afdwingen
+om de X11-backend te gebruiken.</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">GDK_BACKEND</span><span class="o">=</span>x11 ./Gaphor-2.18.0-x86_64.AppImage
 </code></pre></div></div>
 
 <h3 id="arch-linux">Arch Linux</h3>
 
-<p>Gaphor can be installed from an <a href="https://aur.archlinux.org/packages/python-gaphor/">AUR
-package</a>.</p>
+<p>Gaphor kan worden geïnstalleerd via een
+<a href="https://aur.archlinux.org/packages/python-gaphor/">AUR-pakket</a>.</p>
 
                 </div>
             </div>
@@ -294,16 +295,17 @@ package</a>.</p>
                     Python
                 </h2>
                 <div class="section-description">
-                    <p>If you have the latest stable version of Python installed and the Gaphor
-dependencies installed, you can also install Gaphor using a wheel from
-<a href="https://pypi.org/project/gaphor/">PyPI</a>.</p>
+                    <p>Als u de laatste stabiele versie van Python en de afhankelijkheden van
+Gaphor heeft geïnstalleerd, kunt u Gaphor ook installeren met behulp van een
+<a href="https://pypi.org/project/gaphor/">PyPI-wheel</a>.</p>
 
-<p>If you don’t have the latest stable version of Python and the Gaphor
-dependencies installed, follow the development environment <a href="https://docs.gaphor.org/en/latest">installation
-instructions</a> section, but do not clone
-the repository. Optionally, create a <a href="https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments">virtual
-environment</a>.
-Then execute the following:</p>
+<p>Als u niet de laatste stabiele versie van Python en de afhankelijkheden van
+Gaphor heeft geïnstalleerd, volg dan de
+<a href="https://docs.gaphor.org/en/latest">installatie-instructies</a> van de
+ontwikkelomgeving, maar kloon de repository niet. Maak eventueel een
+<a href="https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments">virtuele
+omgeving</a>
+aan. Voer dan het volgende uit:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>gaphor
 gaphor
