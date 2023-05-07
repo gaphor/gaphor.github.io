@@ -19,7 +19,7 @@ def replace_language_string():
         match = re.search(pattern, line)
         languages = match[1].split()
 
-    blogs_and_pages = ["_pages", "tutorials", "_usps"]
+    blogs_and_pages = ["_pages", "tutorials", "_usps", "_platforms"]
     for folder in blogs_and_pages:
         for language in languages:
             lang_folder = Path(folder) / language
