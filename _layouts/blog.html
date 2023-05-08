@@ -4,7 +4,7 @@ layout: article
 
 {% for post in site.posts %}
     <h2><a href="{{ post.url }}" style="text-decoration: none;">{{ post.title }}</a></h2>
-    <p class="credits">{{ site.data.strings.latest-news-and-blog.by }} {{ post.author }} on {{ post.date | date: "%B %d, %Y" }}</p>
+    <p class="credits">{{ site.data.strings.latest-news-and-blog.by }} {{ post.author }} on {{ post.date | date: "%Y-%m-%d" }}</p>
     {{ post.content | split:'<!--break-->' | first }}
     {% if post.content contains '<!--break-->' %}
         <p>
