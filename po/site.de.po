@@ -6,11 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-23 12:33-0400\n"
+"POT-Creation-Date: 2023-05-10 08:31-0400\n"
 "PO-Revision-Date: 2023-04-29 13:23+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/gaphor/"
-"gaphor-github-io/de/>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,44 +25,31 @@ msgstr "Windows"
 
 #. type: Plain text
 #: _platforms/01-windows.md
-#, markdown-text, no-wrap
+#, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-installer.exe\"><i class=\"fa fa-download\"></i> Download installer</a>\n"
-msgstr ""
-"<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/"
-"releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version "
-"}}-installer.exe\"><i class=\"fa fa-download\"></i> Installer "
-"heruntergeladen</a>\n"
+msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-installer.exe\"><i class=\"fa fa-download\"></i> Installer heruntergeladen</a>\n"
 
 #. type: Plain text
 #: _platforms/01-windows.md
-#, markdown-text
 msgid "Alternatively, a portable version of Gaphor can be downloaded."
-msgstr ""
-"Alternativ kann eine portable Version von Gaphor heruntergeladen werden."
+msgstr "Alternativ kann eine portable Version von Gaphor heruntergeladen werden."
 
 #. type: Plain text
 #: _platforms/01-windows.md
-#, markdown-text, no-wrap
+#, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-portable.exe\"><i class=\"fa fa-download\"></i> Download portable version</a>\n"
-msgstr ""
-"<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/"
-"releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version "
-"}}-portable.exe\"><i class=\"fa fa-download\"></i> Portable Version "
-"heruntergeladen</a>\n"
+msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-portable.exe\"><i class=\"fa fa-download\"></i> Portable Version heruntergeladen</a>\n"
 
 #. type: Title ###
 #: _platforms/01-windows.md
-#, markdown-text, no-wrap
+#, no-wrap
 msgid "Winget"
 msgstr "Winget"
 
 #. type: Plain text
 #: _platforms/01-windows.md
-#, markdown-text
 msgid "Install Gaphor from [winget](https://github.com/microsoft/winget-pkgs/tree/master/manifests/g/gaphor/gaphor):"
-msgstr ""
-"Installieren Sie Gaphor von [winget](https://github.com/microsoft/"
-"winget-pkgs/tree/master/manifests/g/gaphor/gaphor):"
+msgstr "Installieren Sie Gaphor von [winget](https://github.com/microsoft/winget-pkgs/tree/master/manifests/g/gaphor/gaphor):"
 
 #. type: Fenced code block (bash)
 #: _platforms/01-windows.md
@@ -73,7 +59,6 @@ msgstr "winget install gaphor\n"
 
 #. type: Plain text
 #: _platforms/01-windows.md
-#, markdown-text
 msgid "To check out the latest release notes and other details:"
 msgstr "Um die neuesten Versionshinweise und andere Details zu sehen:"
 
@@ -91,32 +76,25 @@ msgstr "macOS"
 
 #. type: Plain text
 #: _platforms/02-macos.md
-#, markdown-text, no-wrap
+#, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Download .dmg</a>\n"
-msgstr ""
-"<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/"
-"releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}."
-"dmg\"><i class=\"fa fa-download\"></i> .dmg herunterladen</a>\n"
+msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> .dmg herunterladen</a>\n"
 
 #. type: Plain text
 #: _platforms/02-macos.md
-#, markdown-text
 msgid "Gaphor requires **macOS 10.15** or newer."
 msgstr "Gaphor benötigt **macOS 10.15** oder neuere Version."
 
 #. type: Title ###
 #: _platforms/02-macos.md
-#, markdown-text, no-wrap
+#, no-wrap
 msgid "Homebrew"
 msgstr "Homebrew"
 
 #. type: Plain text
 #: _platforms/02-macos.md
-#, markdown-text
 msgid "Pour Gaphor from a [homebrew cask](https://formulae.brew.sh/cask/gaphor):"
-msgstr ""
-"Installiren Sie Gaphor von einem [homebrew cask](https://formulae.brew.sh/"
-"cask/gaphor):"
+msgstr "Installiren Sie Gaphor von einem [homebrew cask](https://formulae.brew.sh/cask/gaphor):"
 
 #. type: Fenced code block (bash)
 #: _platforms/02-macos.md
@@ -132,31 +110,23 @@ msgstr "Linux"
 
 #. type: Title ###
 #: _platforms/03-linux.md
-#, markdown-text, no-wrap
+#, no-wrap
 msgid "Flatpak"
 msgstr "Flatpak"
 
 #. type: Plain text
 #: _platforms/03-linux.md
-#, markdown-text
 msgid "[Flatpak](https://flatpak.org/) is the recommended way to install Gaphor in Linux. If you don't have it setup already, follow the instructions to [install Flatpak](https://flatpak.org/setup)."
-msgstr ""
-"[Flatpak](https://flatpak.org/) ist der empfohlene Weg, um Gaphor unter "
-"Linux zu installieren. Wenn Sie es noch nicht eingerichtet haben, folgen Sie "
-"den Anweisungen um [Flatpak zu installieren](https://flatpak.org/setup)."
+msgstr "[Flatpak](https://flatpak.org/) ist der empfohlene Weg, um Gaphor unter Linux zu installieren. Wenn Sie es noch nicht eingerichtet haben, folgen Sie den Anweisungen um [Flatpak zu installieren](https://flatpak.org/setup)."
 
 #. type: Plain text
 #: _platforms/03-linux.md
-#, markdown-text, no-wrap
+#, no-wrap
 msgid "<a href='https://flathub.org/apps/details/org.gaphor.Gaphor'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>\n"
-msgstr ""
-"<a href='https://flathub.org/apps/details/org.gaphor.Gaphor'><img "
-"width='240' alt='Von Flathub herunterladen' src='https://flathub.org/assets/"
-"badges/flathub-badge-en.png'/></a>\n"
+msgstr "<a href='https://flathub.org/apps/details/org.gaphor.Gaphor'><img width='240' alt='Von Flathub herunterladen' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>\n"
 
 #. type: Plain text
 #: _platforms/03-linux.md
-#, markdown-text
 msgid "To manually install Gaphor:"
 msgstr "Um Gaphor manuell zu installieren:"
 
@@ -174,67 +144,14 @@ msgstr ""
 
 #. type: Title ###
 #: _platforms/03-linux.md
-#, markdown-text, no-wrap
-msgid "AppImage"
-msgstr "AppImage"
-
-#. type: Plain text
-#: _platforms/03-linux.md
-#, markdown-text
-msgid "The other option if you are running a recent Linux distribution is to use the [AppImage](https://appimage.org/). It is built using Ubuntu 18.04 and most likely won't work on older versions."
-msgstr ""
-"Die andere Möglichkeit, wenn Sie eine aktuelle Linux-Distribution verwenden, "
-"ist die Verwendung des [AppImage](https://appimage.org/). Es wurde mit "
-"Ubuntu 18.04 erstellt und funktioniert höchstwahrscheinlich nicht mit "
-"älteren Versionen."
-
-#. type: Plain text
-#: _platforms/03-linux.md
-#, markdown-text, no-wrap
-msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\"><i class=\"fa fa-download\"></i> Download AppImage</a>\n"
-msgstr ""
-"<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/"
-"releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version "
-"}}-x86_64.AppImage\"><i class=\"fa fa-download\"></i> AppImage "
-"herunterladen</a>\n"
-
-#. type: Fenced code block (bash)
-#: _platforms/03-linux.md
 #, no-wrap
-msgid ""
-"chmod +x Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-"./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-msgstr ""
-"chmod +x Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-"./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-
-#. type: Plain text
-#: _platforms/03-linux.md
-#, markdown-text
-msgid "If you're using Wayland and the AppImage crashes, you can force it to use the X11 backend instead."
-msgstr ""
-"Wenn Sie Wayland verwenden und das AppImage abstürzt, können Sie es zwingen, "
-"stattdessen das X11-Backend zu verwenden."
-
-#. type: Fenced code block (bash)
-#: _platforms/03-linux.md
-#, no-wrap
-msgid "GDK_BACKEND=x11 ./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-msgstr "GDK_BACKEND=x11 ./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-
-#. type: Title ###
-#: _platforms/03-linux.md
-#, markdown-text, no-wrap
 msgid "Arch Linux"
 msgstr "Linux Architektur"
 
 #. type: Plain text
 #: _platforms/03-linux.md
-#, markdown-text
 msgid "Gaphor can be installed from an [AUR package](https://aur.archlinux.org/packages/python-gaphor/)."
-msgstr ""
-"Gaphor kann aus einem [AUR-Paket](https://aur.archlinux.org/packages/"
-"python-gaphor/) installiert werden."
+msgstr "Gaphor kann aus einem [AUR-Paket](https://aur.archlinux.org/packages/python-gaphor/) installiert werden."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/04-python.md
@@ -244,25 +161,13 @@ msgstr "Python"
 
 #. type: Plain text
 #: _platforms/04-python.md
-#, markdown-text
 msgid "If you have the latest stable version of Python installed and the Gaphor dependencies installed, you can also install Gaphor using a wheel from [PyPI](https://pypi.org/project/gaphor/)."
-msgstr ""
-"Wenn Sie die neueste stabile Version von Python und die Gaphor-"
-"Abhängigkeiten installiert haben, können Sie Gaphor auch von "
-"[PyPI](https://pypi.org/project/gaphor/) installieren."
+msgstr "Wenn Sie die neueste stabile Version von Python und die Gaphor-Abhängigkeiten installiert haben, können Sie Gaphor auch von [PyPI](https://pypi.org/project/gaphor/) installieren."
 
 #. type: Plain text
 #: _platforms/04-python.md
-#, markdown-text
 msgid "If you don't have the latest stable version of Python and the Gaphor dependencies installed, follow the development environment [installation instructions](https://docs.gaphor.org/en/latest) section, but do not clone the repository. Optionally, create a [virtual environment](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments).  Then execute the following:"
-msgstr ""
-"Wenn Sie nicht die neueste stabile Version von Python und die Gaphor-"
-"Abhängigkeiten installiert haben, folgen Sie dem Abschnitt "
-"[Installationsanweisungen](https://docs.gaphor.org/en/latest) für die "
-"Entwicklungsumgebung, aber klonen Sie nicht das Repository. Optional können "
-"Sie eine [virtuelle Umgebung](https://packaging.python.org/tutorials/"
-"installing-packages/#creating-virtual-environments) erstellen.  Führen Sie "
-"dann folgenden Befehl aus:"
+msgstr "Wenn Sie nicht die neueste stabile Version von Python und die Gaphor-Abhängigkeiten installiert haben, folgen Sie dem Abschnitt [Installationsanweisungen](https://docs.gaphor.org/en/latest) für die Entwicklungsumgebung, aber klonen Sie nicht das Repository. Optional können Sie eine [virtuelle Umgebung](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments) erstellen.  Führen Sie dann folgenden Befehl aus:"
 
 #. type: Fenced code block (bash)
 #: _platforms/04-python.md
@@ -282,29 +187,19 @@ msgstr "Ein Plugin schreiben"
 
 #. type: Plain text
 #: tutorials/plugins.md
-#, markdown-text
 msgid "Gaphor is designed to be extensible by using plugins that allow you to extend the functionality."
-msgstr ""
-"Gaphor ist so konzipiert, dass die Funktionalität mit Hilfe von Plugins "
-"erweitert werden kann."
+msgstr "Gaphor ist so konzipiert, dass die Funktionalität mit Hilfe von Plugins erweitert werden kann."
 
 #. type: Title ##
 #: tutorials/plugins.md
-#, markdown-text, no-wrap
+#, no-wrap
 msgid "Accessing Model Related Data"
 msgstr "Zugriff auf modellbezogene Daten"
 
 #. type: Plain text
 #: tutorials/plugins.md
-#, markdown-text
 msgid "The datamodel classes are located in the `gaphor.UML` module. Data objects can be accessed through the ElementFactory. This is a special class for creating and managing data objects. Items can be queried using this element factory, which is registered in the application as `element_factory`. When writing a service or plugin the element factory can be injected into the service like this:"
-msgstr ""
-"Die Datenmodellklassen befinden sich im Modul `gaphor.UML`. Auf Datenobjekte "
-"kann über die ElementFactory zugegriffen werden. Dies ist eine spezielle "
-"Klasse zur Erstellung und Verwaltung von Datenobjekten. Elemente können über "
-"diese ElementFactory abgefragt werden, die in der Anwendung als "
-"`element_factory` registriert ist. Beim Schreiben eines Dienstes oder "
-"Plugins kann die ElementFactory wie folgt in den Dienst injiziert werden:"
+msgstr "Die Datenmodellklassen befinden sich im Modul `gaphor.UML`. Auf Datenobjekte kann über die ElementFactory zugegriffen werden. Dies ist eine spezielle Klasse zur Erstellung und Verwaltung von Datenobjekten. Elemente können über diese ElementFactory abgefragt werden, die in der Anwendung als `element_factory` registriert ist. Beim Schreiben eines Dienstes oder Plugins kann die ElementFactory wie folgt in den Dienst injiziert werden:"
 
 #. type: Fenced code block (python)
 #: tutorials/plugins.md
@@ -322,11 +217,8 @@ msgstr ""
 
 #. type: Plain text
 #: tutorials/plugins.md
-#, markdown-text
 msgid "In the console window services can be retrieved by using the `service()` function. For example:"
-msgstr ""
-"Im Konsolenfenster können Dienste mit Hilfe der Funktion `service()` "
-"abgerufen werden. Zum Beispiel:"
+msgstr "Im Konsolenfenster können Dienste mit Hilfe der Funktion `service()` abgerufen werden. Zum Beispiel:"
 
 #. type: Fenced code block (python)
 #: tutorials/plugins.md
@@ -336,31 +228,27 @@ msgstr "ef = service('element_factory')\n"
 
 #. type: Title ##
 #: tutorials/plugins.md
-#, markdown-text, no-wrap
+#, no-wrap
 msgid "Querying the Data Model"
 msgstr ""
 
 #. type: Plain text
 #: tutorials/plugins.md
-#, markdown-text
 msgid "Two methods are used for querying:"
 msgstr ""
 
 #. type: Bullet: '-   '
 #: tutorials/plugins.md
-#, markdown-text
 msgid "`select(query=None)` -> returns an iterator"
 msgstr ""
 
 #. type: Bullet: '-   '
 #: tutorials/plugins.md
-#, markdown-text
 msgid "`lselect(query=None)` -> returns a list"
 msgstr ""
 
 #. type: Plain text
 #: tutorials/plugins.md
-#, markdown-text
 msgid "`query` is a lambda function with the element as parameter. For example, to fetch all the Class instances from the element factory:"
 msgstr ""
 
@@ -372,13 +260,12 @@ msgstr ""
 
 #. type: Title ##
 #: tutorials/plugins.md
-#, markdown-text, no-wrap
+#, no-wrap
 msgid "Traversing Data Instances"
 msgstr ""
 
 #. type: Plain text
 #: tutorials/plugins.md
-#, markdown-text
 msgid "Once some classes are obtained, it is common to traverse through a few related objects in order to get the required information. For example: to iterate through all parameters related to a class' operations:"
 msgstr ""
 
@@ -393,7 +280,6 @@ msgstr ""
 
 #. type: Plain text
 #: tutorials/plugins.md
-#, markdown-text
 msgid "Using the `[:]` operator items can be traversed more easily:"
 msgstr ""
 
@@ -407,13 +293,12 @@ msgstr ""
 
 #. type: Title ##
 #: tutorials/plugins.md
-#, markdown-text, no-wrap
+#, no-wrap
 msgid "Example Plugin"
 msgstr ""
 
 #. type: Plain text
 #: tutorials/plugins.md
-#, markdown-text
 msgid "An example Hello World plugin is hosted on [GitHub](https://github.com/gaphor/gaphor.plugins.helloworld)."
 msgstr ""
 
@@ -425,96 +310,76 @@ msgstr "Fehler in Gaphor melden"
 
 #. type: Plain text
 #: tutorials/report-bugs.md
-#, markdown-text
 msgid "If you've ever written a line of code, you'll know that all software has bugs.  This will also be the case with Gaphor. If you think you have found a bug, simply click on the link below (you'll need to have an account on GitHub) and then click the green \"New Issue\" button found at the top right hand side of the page:"
-msgstr ""
-"Wenn Sie jemals eine Zeile Code geschrieben haben, wissen Sie, dass jede "
-"Software Fehler beinhaltet. Das wird auch bei Gaphor der Fall sein. Wenn Sie "
-"glauben einen Fehler gefunden zu haben, klicken Sie einfach auf den unten "
-"stehenden Link (Sie müssen ein Konto bei GitHub haben) und dann auf die "
-"grüne Schaltfläche „Neues Problem“ auf der Seite oben rechts:"
+msgstr "Wenn Sie jemals eine Zeile Code geschrieben haben, wissen Sie, dass jede Software Fehler beinhaltet. Das wird auch bei Gaphor der Fall sein. Wenn Sie glauben einen Fehler gefunden zu haben, klicken Sie einfach auf den unten stehenden Link (Sie müssen ein Konto bei GitHub haben) und dann auf die grüne Schaltfläche „Neues Problem“ auf der Seite oben rechts:"
 
 #. type: Plain text
 #: tutorials/report-bugs.md
-#, markdown-text
 msgid "[Report a Bug in Gaphor](https://github.com/gaphor/gaphor/issues)"
 msgstr "[Ein Problem im Gaphor melden](https://github.com/gaphor/gaphor/issues)"
 
 #. type: Plain text
 #: tutorials/report-bugs.md
-#, markdown-text
 msgid "When you create a new issue it will be given a number and the volunteer developers, who write and maintain the code, will be informed by email. They may annotate questions to your issue, if things are not clear. They may immediately close it and mark it as \"duplicate\" (someone else has already reported the bug -- and they'll reference the original issue). Sometimes they'll close the bug and say \"won't fix\", because they disagree that it's a bug *or* it's too trivial in order to invest any time."
 msgstr ""
 
 #. type: Plain text
 #: tutorials/report-bugs.md
-#, markdown-text
 msgid "There are generally two sorts of bugs:"
 msgstr ""
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
-#, markdown-text
 msgid "Technical: the code has a mistake in it which causes the program to break."
 msgstr ""
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
-#, markdown-text
 msgid "Behavioural: the code works correctly, but is doing the wrong thing."
 msgstr ""
 
 #. type: Plain text
 #: tutorials/report-bugs.md
-#, markdown-text
 msgid "In both cases, for us to be able to fix the bug, we need **as much information as possible**. When you create a new issue you should try to include, where relevant, the following sorts of information:"
 msgstr ""
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
-#, markdown-text
 msgid "What you were trying to do,"
 msgstr ""
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
-#, markdown-text
 msgid "What steps you took to make this happen,"
 msgstr ""
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
-#, markdown-text
 msgid "What you expected to happen,"
 msgstr ""
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
-#, markdown-text
 msgid "What actually happened,"
 msgstr ""
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
-#, markdown-text
 msgid "Why this difference is problematic (it may not be a bug!),"
 msgstr ""
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
-#, markdown-text
 msgid "Technical details like the version of Gaphor you're using, your OS version and other aspects of the context in which Gaphor was running."
 msgstr ""
 
 #. type: Plain text
 #: tutorials/report-bugs.md
-#, markdown-text
 msgid "Use plain and simple language to describe the problem and, if helpful, break it down into steps so developers can easily recreate the issue. Please don't assume we'll understand what you were trying to achieve -- honestly, it's best if you try to imagine we (the developers) are a bunch of clever 5-year-olds. Try to explain *everything* about the problem and don't assume we know what you mean.  We won't mind!"
 msgstr ""
 
 #. type: Plain text
 #: tutorials/report-bugs.md
-#, markdown-text
 msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the [Gaphor developer's website](https://docs.gaphor.org/en/latest)."
 msgstr ""
 
@@ -526,13 +391,8 @@ msgstr "Plattformübergreifend"
 
 #. type: Plain text
 #: _usps/01-platform.md
-#, markdown-text
 msgid "Gaphor works on all major platforms: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
-msgstr ""
-"Gaphor funktioniert auf allen wichtigen Plattformen: [Windows]({{ \""
-"/download#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download#"
-"macos\" | prepend: site.baseurl }}) und [Linux]({{ \"/download#linux\" | "
-"prepend: site.baseurl }})."
+msgstr "Gaphor funktioniert auf allen wichtigen Plattformen: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download#macos\" | prepend: site.baseurl }}) und [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/02-opensource.md
@@ -542,12 +402,8 @@ msgstr "Offener Quellcode"
 
 #. type: Plain text
 #: _usps/02-opensource.md
-#, markdown-text
 msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
-msgstr ""
-"Keine Bindung an einen bestimmten Anbieter: Gaphor ist in Python geschrieben "
-"mit 100 % offenem Quellcode, verfügbar unter der freundlichen [Apache 2 "
-"Lizenz](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
+msgstr "Keine Bindung an einen bestimmten Anbieter: Gaphor ist in Python geschrieben mit 100 % offenem Quellcode, verfügbar unter der freundlichen [Apache 2 Lizenz](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/03-beginner-pro.md
@@ -557,12 +413,8 @@ msgstr "Anfänger oder Profi"
 
 #. type: Plain text
 #: _usps/03-beginner-pro.md
-#, markdown-text
 msgid "Whether you're a casual modeler documenting a project or a Model Driven Development expert, Gaphor has got you covered."
-msgstr ""
-"Ganz gleich, ob Sie ein gelegentlicher Modellierer sind der ein Projekt "
-"dokumentiert, oder ein Experte für modellgetriebene Entwicklung, Gaphor hat "
-"alles was Sie brauchen."
+msgstr "Ganz gleich, ob Sie ein gelegentlicher Modellierer sind der ein Projekt dokumentiert, oder ein Experte für modellgetriebene Entwicklung, Gaphor hat alles was Sie brauchen."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/04-consistent.md
@@ -572,13 +424,8 @@ msgstr "Konsistent"
 
 #. type: Plain text
 #: _usps/04-consistent.md
-#, markdown-text
 msgid "UML is a graphical modeling language, so all information you put in the model is visible in the diagrams. For example, stereotypes are modeled in diagrams.  No hidden panels and property pages. Just diagrams!"
-msgstr ""
-"UML ist eine grafische Modellierungssprache, so dass alle Informationen die "
-"Sie in das Modell eingeben, in den Diagrammen sichtbar sind. Stereotypen "
-"werden zum Beispiel in Diagrammen modelliert. Keine versteckten Felder und "
-"Eigenschaftsseiten. Nur Diagramme!"
+msgstr "UML ist eine grafische Modellierungssprache, so dass alle Informationen die Sie in das Modell eingeben, in den Diagrammen sichtbar sind. Stereotypen werden zum Beispiel in Diagrammen modelliert. Keine versteckten Felder und Eigenschaftsseiten. Nur Diagramme!"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/05-extensible.md
@@ -588,13 +435,8 @@ msgstr "Erweiterbar"
 
 #. type: Plain text
 #: _usps/05-extensible.md
-#, markdown-text
 msgid "Gaphor is extensible. Plug-in a code generator or export your diagrams for documentation.  Create your own extensions and access them through the GUI or CLI."
-msgstr ""
-"Gaphor ist erweiterbar. Sie können einen Code-Generator einbinden oder Ihre "
-"Diagramme zwecks Dokumentation exportieren. Erstellen Sie Ihre eigenen "
-"Erweiterungen und greifen Sie über die grafische Benutzeroberfläche oder "
-"Befehlszeile auf sie zu."
+msgstr "Gaphor ist erweiterbar. Sie können einen Code-Generator einbinden oder Ihre Diagramme zwecks Dokumentation exportieren. Erstellen Sie Ihre eigenen Erweiterungen und greifen Sie über die grafische Benutzeroberfläche oder Befehlszeile auf sie zu."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/06-standard.md
@@ -604,11 +446,8 @@ msgstr "Normenkonform"
 
 #. type: Plain text
 #: _usps/06-standard.md
-#, markdown-text
 msgid "Gaphor implements the UML, SysML, and RAAML OMG standards. It also includes support for the C4 model for visualizing software architectures."
-msgstr ""
-"Gaphor implementiert die OMG-Standards UML, SysML und RAAML. Außerdem "
-"unterstützt es das C4-Modell zur Visualisierung von Software-Architekturen."
+msgstr "Gaphor implementiert die OMG-Standards UML, SysML und RAAML. Außerdem unterstützt es das C4-Modell zur Visualisierung von Software-Architekturen."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/contribute.md
@@ -618,51 +457,32 @@ msgstr "Beitragen"
 
 #. type: Plain text
 #: _pages/contribute.md
-#, markdown-text
 msgid "Would you like to contribute to the development of Gaphor? (If you think this is only something for experienced developers, please reconsider, there are plenty of ways to contribute to Gaphor, no matter your level of experience or skill set."
-msgstr ""
-"Möchten Sie zur Entwicklung von Gaphor beitragen? (Wenn Sie denken, dass "
-"dies nur etwas für erfahrene Entwickler ist, denken Sie bitte noch einmal "
-"darüber nach. Es gibt viele Möglichkeiten beizutragen, unabhängig von Ihrer "
-"Erfahrung oder Ihren Fähigkeiten."
+msgstr "Möchten Sie zur Entwicklung von Gaphor beitragen? (Wenn Sie denken, dass dies nur etwas für erfahrene Entwickler ist, denken Sie bitte noch einmal darüber nach. Es gibt viele Möglichkeiten beizutragen, unabhängig von Ihrer Erfahrung oder Ihren Fähigkeiten."
 
 #. type: Plain text
 #: _pages/contribute.md
-#, markdown-text
 msgid "Our [technical documentation](https://docs.gaphor.org/en/latest) is hosted on the wonderful service that is [Read the Docs](https://readthedocs.com/). Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
-msgstr ""
-"Unsere [technische Dokumentation](https://docs.gaphor.org/en/latest) wird "
-"von dem wunderbaren Dienst [Read the Docs](https://readthedocs.com/) "
-"gehostet. Sie enthält nicht nur Details die benötigt werden um Code-Beiträge "
-"für Gaphor zu leisten, sondern zeigt auch viele andere Möglichkeiten auf, "
-"wie Sie beitragen können (einschließlich der Aktualisierung dieser Website). "
-"Schließlich bietet sie einen Leitfaden für unsere Prozesse und Erwartungen "
-"für die verschiedenen Arten von Beiträgen die Sie leisten können."
+msgstr "Unsere [technische Dokumentation](https://docs.gaphor.org/en/latest) wird von dem wunderbaren Dienst [Read the Docs](https://readthedocs.com/) gehostet. Sie enthält nicht nur Details die benötigt werden um Code-Beiträge für Gaphor zu leisten, sondern zeigt auch viele andere Möglichkeiten auf, wie Sie beitragen können (einschließlich der Aktualisierung dieser Website). Schließlich bietet sie einen Leitfaden für unsere Prozesse und Erwartungen für die verschiedenen Arten von Beiträgen die Sie leisten können."
 
 #. type: Plain text
 #: _pages/contribute.md
-#, markdown-text
 msgid "The source code is hosted on [GitHub](https://github.com/gaphor/gaphor)."
-msgstr ""
-"Der Quellcode befindet sich auf [GitHub](https://github.com/gaphor/gaphor)."
+msgstr "Der Quellcode befindet sich auf [GitHub](https://github.com/gaphor/gaphor)."
 
 #. type: Plain text
 #: _pages/contribute.md
-#, markdown-text
 msgid "Help translate Gaphor on [Weblate](https://hosted.weblate.org/engage/gaphor/)."
-msgstr ""
-"Helfen Sie bei der Übersetzung von Gaphor auf [Weblate](https://hosted."
-"weblate.org/engage/gaphor/)."
+msgstr "Helfen Sie bei der Übersetzung von Gaphor auf [Weblate](https://hosted.weblate.org/engage/gaphor/)."
 
 #. type: Plain text
 #: _pages/contribute.md
-#, markdown-text, no-wrap
+#, no-wrap
 msgid ""
 "If in doubt, just ask in our <a href=\"../discuss\">discussion area</a> and\n"
 "someone will be able to point you in the right direction.\n"
 msgstr ""
-"Im Zweifelsfall fragen Sie einfach in unserem <a href=\"../discuss\""
-">Diskussionsbereich</a> nach und\n"
+"Im Zweifelsfall fragen Sie einfach in unserem <a href=\"../discuss\">Diskussionsbereich</a> nach und\n"
 "jemand wird Ihnen den richtigen Weg weisen können.\n"
 
 #. type: Yaml Front Matter Hash Value: title
@@ -673,114 +493,74 @@ msgstr "Kontakt aufnehmen"
 
 #. type: Plain text
 #: _pages/discuss.md
-#, markdown-text
 msgid "It's good to talk, share knowledge and learn from other users of Gaphor. Perhaps you have a question, problem or are unsure how to do something with Gaphor? Discussing such things in a supportive environment is a good way to make progress, make friends, and help. Put simply, Gaphor is a community focused project, and we have created a couple of online spaces where the community can come together."
-msgstr ""
-"Es ist gut, sich auszutauschen, Wissen zu teilen und von anderen Gaphor-"
-"Benutzern zu lernen. Vielleicht haben Sie eine Frage, ein Problem oder sind "
-"sich nicht sicher, wie Sie etwas mit Gaphor machen sollen? Solche Dinge in "
-"einer unterstützenden Umgebung zu besprechen, ist ein guter Weg um "
-"Fortschritte zu machen, Freunde zu finden und zu helfen. Einfach ausgedrückt:"
-" Gaphor ist ein gemeinschaftsorientiertes Projekt, und wir haben eine Reihe "
-"von Online-Räumen geschaffen, in denen die Gemeinschaft zusammenkommen kann."
+msgstr "Es ist gut, sich auszutauschen, Wissen zu teilen und von anderen Gaphor-Benutzern zu lernen. Vielleicht haben Sie eine Frage, ein Problem oder sind sich nicht sicher, wie Sie etwas mit Gaphor machen sollen? Solche Dinge in einer unterstützenden Umgebung zu besprechen, ist ein guter Weg um Fortschritte zu machen, Freunde zu finden und zu helfen. Einfach ausgedrückt: Gaphor ist ein gemeinschaftsorientiertes Projekt, und wir haben eine Reihe von Online-Räumen geschaffen, in denen die Gemeinschaft zusammenkommen kann."
 
 #. type: Plain text
 #: _pages/discuss.md
-#, markdown-text
 msgid "Contributions are welcome without prejudice from anyone irrespective of age, gender, religion, race, or sexuality. If you’re thinking, \"but they don't mean me\", then we especially mean YOU."
-msgstr ""
-"Beiträge sind jederzeit willkommen, unabhängig von Alter, Geschlecht, "
-"Religion, Rasse oder Sexualität. Wenn Sie denken, „aber die meinen doch "
-"nicht mich“, dann meinen wir vor allem SIE."
+msgstr "Beiträge sind jederzeit willkommen, unabhängig von Alter, Geschlecht, Religion, Rasse oder Sexualität. Wenn Sie denken, „aber die meinen doch nicht mich“, dann meinen wir vor allem SIE."
 
 #. type: Title ##
 #: _pages/discuss.md
-#, markdown-text, no-wrap
+#, no-wrap
 msgid "Chat on Gitter"
 msgstr "Chatten auf Gitter"
 
 #. type: Plain text
 #: _pages/discuss.md
-#, markdown-text
 msgid "Our real-time conversations are on Gitter and are bridged to Matrix.  Matrix is the preferred way, since it's more use friendly than bare Gitter."
-msgstr ""
-"Unsere Echtzeit-Unterhaltungen laufen über Gitter und sind mit Matrix "
-"verbunden. Matrix ist die bevorzugte Methode, da sie benutzerfreundlicher "
-"ist als Gitter."
+msgstr "Unsere Echtzeit-Unterhaltungen laufen über Gitter und sind mit Matrix verbunden. Matrix ist die bevorzugte Methode, da sie benutzerfreundlicher ist als Gitter."
 
 #. type: Plain text
 #: _pages/discuss.md
-#, markdown-text, no-wrap
+#, no-wrap
 msgid "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join Matrix with Element.io](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)\n"
-msgstr ""
-"[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\""
-" /> Treten Sie der Matrix mit Element.io bei](https://app.element.io/#/room/"
-"#gaphor_Lobby:gitter.im)\n"
+msgstr "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Treten Sie der Matrix mit Element.io bei](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)\n"
 
 #. type: Plain text
 #: _pages/discuss.md
-#, markdown-text, no-wrap
+#, no-wrap
 msgid "[<i class=\"fab fa-gitter\"></i> Join Gitter Chat](https://gitter.im/gaphor/lobby)\n"
-msgstr ""
-"[<i class=\"fab fa-gitter\"></i> Treten Sie dem Gitter-Chat "
-"bei](https://gitter.im/gaphor/lobby)\n"
+msgstr "[<i class=\"fab fa-gitter\"></i> Treten Sie dem Gitter-Chat bei](https://gitter.im/gaphor/lobby)\n"
 
 #. type: Plain text
 #: _pages/discuss.md
-#, markdown-text
 msgid "NB. If you're using a mobile device, use the [Element app](https://element.io/get-started) (for Matrix), the Gitter app is no longer supported."
-msgstr ""
-"ACHTUNG. Wenn Sie ein mobiles Gerät verwenden, verwenden Sie die [Element "
-"App](https://element.io/get-started) (für Matrix). Die Gitter App wird nicht "
-"mehr unterstützt."
+msgstr "ACHTUNG. Wenn Sie ein mobiles Gerät verwenden, verwenden Sie die [Element App](https://element.io/get-started) (für Matrix). Die Gitter App wird nicht mehr unterstützt."
 
 #. type: Title ##
 #: _pages/discuss.md
-#, markdown-text, no-wrap
+#, no-wrap
 msgid "Submit an Issue on GitHub"
 msgstr "Probleme auf GitHub melden"
 
 #. type: Plain text
 #: _pages/discuss.md
-#, markdown-text
 msgid "Please use our GitHub issue tracker for general questions and reporting bugs.  Before submitting a GitHub issue please review our page about [how to report a bug in Gaphor](/tutorials/report-bugs)."
-msgstr ""
-"Bitte verwenden Sie unseren GitHub Issue Tracker für allgemeine Fragen und "
-"das Melden von Fehlern. Bevor Sie ein Problem auf GitHub melden, lesen Sie "
-"bitte unsere Seite [Fehler in Gaphor melden](/tutorials/report-bugs)."
+msgstr "Bitte verwenden Sie unseren GitHub Issue Tracker für allgemeine Fragen und das Melden von Fehlern. Bevor Sie ein Problem auf GitHub melden, lesen Sie bitte unsere Seite [Fehler in Gaphor melden](/tutorials/report-bugs)."
 
 #. type: Plain text
 #: _pages/discuss.md
-#, markdown-text, no-wrap
+#, no-wrap
 msgid "[<i class=\"fab fa-github\"></i> Submit an Issue on GitHub](https://github.com/gaphor/gaphor/issues)\n"
-msgstr ""
-"[<i class=\"fab fa-github\"></i> Probleme auf GitHub melden](https://github."
-"com/gaphor/gaphor/issues)\n"
+msgstr "[<i class=\"fab fa-github\"></i> Probleme auf GitHub melden](https://github.com/gaphor/gaphor/issues)\n"
 
 #. type: Title ##
 #: _pages/discuss.md
-#, markdown-text, no-wrap
+#, no-wrap
 msgid "Community Conduct"
 msgstr "Gemeinschafts-Verhalten"
 
 #. type: Plain text
 #: _pages/discuss.md
-#, markdown-text
 msgid "We expect contributors to follow the GNOME [Code of Conduct](https://wiki.gnome.org/Foundation/CodeOfConduct)."
-msgstr ""
-"Von Mitwirkenden erwarten wir, dass sie sich an den GNOME "
-"[Verhaltenskodex](https://wiki.gnome.org/Foundation/CodeOfConduct) halten."
+msgstr "Von Mitwirkenden erwarten wir, dass sie sich an den GNOME [Verhaltenskodex](https://wiki.gnome.org/Foundation/CodeOfConduct) halten."
 
 #. type: Plain text
 #: _pages/discuss.md
-#, markdown-text
 msgid "We want our community to be a safe, welcoming and friendly place.  We won't hesitate to issue a clear warning and, if ignored, ban people who don't behave in the spirit of the code of conduct. If a conduct related situation arises, we will endeavour to act in a discreet, sympathetic and fair manner to all concerned."
-msgstr ""
-"Wir möchten, dass unsere Gemeinschaft ein sicherer, einladender und "
-"freundlicher Ort ist. Wir werden nicht zögern, bei Bedarf eine klare Warnung "
-"auszusprechen und Personen, die sie ignorieren, aus der Gemeinschaft zu "
-"entfernen. Wenn eine verhaltensbezogene Situation auftritt, werden wir uns "
-"bemühen, alle Fälle diskret, wohlwollend und fair zu lösen."
+msgstr "Wir möchten, dass unsere Gemeinschaft ein sicherer, einladender und freundlicher Ort ist. Wir werden nicht zögern, bei Bedarf eine klare Warnung auszusprechen und Personen, die sie ignorieren, aus der Gemeinschaft zu entfernen. Wenn eine verhaltensbezogene Situation auftritt, werden wir uns bemühen, alle Fälle diskret, wohlwollend und fair zu lösen."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/tutorials.md
@@ -790,145 +570,96 @@ msgstr "Anleitungen"
 
 #. type: Plain text
 #: _pages/tutorials.md
-#, markdown-text
 msgid "Each tutorial is a self-contained lesson, explaining a specific aspect of Gaphor, so you have the skills needed to achieve your learning and modeling goals."
-msgstr ""
-"Jede Anleitung ist eine in sich geschlossene Lektion, die einen bestimmten "
-"Aspekt von Gaphor erklärt, sodass Sie über die erforderlichen Fähigkeiten "
-"verfügen, um Ihre Lern- und Modellierungsziele zu erreichen."
+msgstr "Jede Anleitung ist eine in sich geschlossene Lektion, die einen bestimmten Aspekt von Gaphor erklärt, sodass Sie über die erforderlichen Fähigkeiten verfügen, um Ihre Lern- und Modellierungsziele zu erreichen."
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
-#, markdown-text
 msgid "[Get Started with Gaphor](https://docs.gaphor.org/en/latest/getting_started.html)"
-msgstr ""
-"[Erste Schritte mit Gaphor](https://docs.gaphor.org/en/latest/getting_started"
-".html)"
+msgstr "[Erste Schritte mit Gaphor](https://docs.gaphor.org/en/latest/getting_started.html)"
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
-#, markdown-text
 msgid "[Your First Model](https://docs.gaphor.org/en/latest/first_model.html)"
 msgstr "[Ihr erstes Modell](https://docs.gaphor.org/en/latest/first_model.html)"
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
-#, markdown-text
 msgid "<i class=\"fab fa-youtube\"></i> [Introduction to Gaphor and SysML](https://youtu.be/PnWKsr2csXg), presented by Dan at a joint INCOSE Michigan and Michigan Python event."
-msgstr ""
-"<i class=\"fab fa-youtube\"></i> [Einführung in Gaphor und "
-"SysML](https://youtu.be/PnWKsr2csXg), präsentiert von Dan bei einer "
-"gemeinsamen Veranstaltung von INCOSE Michigan und Michigan Python."
+msgstr "<i class=\"fab fa-youtube\"></i> [Einführung in Gaphor und SysML](https://youtu.be/PnWKsr2csXg), präsentiert von Dan bei einer gemeinsamen Veranstaltung von INCOSE Michigan und Michigan Python."
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
-#, markdown-text
 msgid "[How to report a bug in Gaphor]({{ \"/tutorials/report-bugs/\" | prepend: site.baseurl }})"
-msgstr ""
-"[Fehler in Gaphor melden]({{ \"/tutorials/report-bugs/\" | prepend: "
-"site.baseurl }})"
+msgstr "[Fehler in Gaphor melden]({{ \"/tutorials/report-bugs/\" | prepend: site.baseurl }})"
 
 #. type: Title ##
 #: _pages/tutorials.md
-#, markdown-text, no-wrap
+#, no-wrap
 msgid "Advanced topics"
 msgstr "Fortgeschrittene Themen"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-#, markdown-text
 msgid "[Extend your models with stereotypes](https://docs.gaphor.org/en/latest/stereotypes.html)"
-msgstr ""
-"[Modelle mit Stereotypen erweitern](https://docs.gaphor.org/en/latest/"
-"stereotypes.html)"
+msgstr "[Modelle mit Stereotypen erweitern](https://docs.gaphor.org/en/latest/stereotypes.html)"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-#, markdown-text
 msgid "[Writing a plugin]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
-msgstr ""
-"[Plugins schreiben]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
+msgstr "[Plugins schreiben]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-#, markdown-text
 msgid "[Technical and architectural documentation](https://docs.gaphor.org/en/latest) for contributors and plugin developers"
-msgstr ""
-"[Technische und architektonische Dokumentation](https://docs.gaphor.org/en/"
-"latest) für Mitwirkende und Plugin-Entwickler"
+msgstr "[Technische und architektonische Dokumentation](https://docs.gaphor.org/en/latest) für Mitwirkende und Plugin-Entwickler"
 
 #. type: Title ##
 #: _pages/tutorials.md
-#, markdown-text, no-wrap
+#, no-wrap
 msgid "Talks"
 msgstr "Vorlesungen"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-#, markdown-text
 msgid "Dan and Arjan spoke at [Linux App Summit 2021](https://linuxappsummit.org/)  about [how Gaphor is made available to all desktop platforms Linux/Windows/macOS](https://www.youtube.com/watch?v=vLwAT-TLmZU)."
-msgstr ""
-"Dan und Arjan hielten eine Vorlesung bei der Konferenz [Linux App Summit "
-"2021](https://linuxappsummit.org/) zum Thema [wie Gaphor allen Desktop-"
-"Plattformen Linux/Windows/macOS zur Verfügung gestellt wird](https://www."
-"youtube.com/watch?v=vLwAT-TLmZU)."
+msgstr "Dan und Arjan hielten eine Vorlesung bei der Konferenz [Linux App Summit 2021](https://linuxappsummit.org/) zum Thema [wie Gaphor allen Desktop-Plattformen Linux/Windows/macOS zur Verfügung gestellt wird](https://www.youtube.com/watch?v=vLwAT-TLmZU)."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-#, markdown-text
 msgid "Dan spoke at the 2021 [MIT STAMP Workshop](https://psas.scripts.mit.edu/home/2021-stamp-workshop-program/)  about _Open STPA with RAAML and Gaphor_."
-msgstr ""
-"Dan hielt eine Vorlesung beim 2021 [MIT STAMP Workshop](https://psas.scripts."
-"mit.edu/home/2021-stamp-workshop-program/) zum Thema _Offene STPA mit RAAML "
-"und Gaphor_."
+msgstr "Dan hielt eine Vorlesung beim 2021 [MIT STAMP Workshop](https://psas.scripts.mit.edu/home/2021-stamp-workshop-program/) zum Thema _Offene STPA mit RAAML und Gaphor_."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-#, markdown-text
 msgid "Arjan spoke at [GUADEC 2021](https://events.gnome.org/event/9/) about [Large GUI application with Python and GTK](https://events.gnome.org/event/9/contributions/188/)."
-msgstr ""
-"Arjan hielt eine Vorlesung bei der [GUADEC 2021](https://events.gnome.org/"
-"event/9/) zum Thmea [Große GUI-Anwendung mit Python und GTK](https://events."
-"gnome.org/event/9/contributions/188/)."
+msgstr "Arjan hielt eine Vorlesung bei der [GUADEC 2021](https://events.gnome.org/event/9/) zum Thmea [Große GUI-Anwendung mit Python und GTK](https://events.gnome.org/event/9/contributions/188/)."
 
 #. type: Title ##
 #: _pages/tutorials.md
-#, markdown-text, no-wrap
+#, no-wrap
 msgid "What other people say"
 msgstr "Was sagen andere Menschen"
 
 #. type: Plain text
 #: _pages/tutorials.md
-#, markdown-text
 msgid "There are some 10+ year old articles on Gaphor on the web. Some more recent articles are:"
-msgstr ""
-"Es gibt einige über 10 Jahre alte Artikel über Gaphor im Internet. Einige "
-"neuere Artikel sind:"
+msgstr "Es gibt einige über 10 Jahre alte Artikel über Gaphor im Internet. Einige neuere Artikel sind:"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-#, markdown-text
 msgid "[Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)"
-msgstr ""
-"[Die Methods & Tools-Website hat Gaphor Version 2.7.1 im Dezember 2021 auf "
-"Windows 10 überprüft.](https://www.methodsandtools.com/tools/gaphor.php)"
+msgstr "[Die Methods & Tools-Website hat Gaphor Version 2.7.1 im Dezember 2021 auf Windows 10 überprüft.](https://www.methodsandtools.com/tools/gaphor.php)"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-#, markdown-text
 msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
-msgstr ""
-"[Die Webseite „It's FOSS“ hat einen kurzen Bericht über Gaphor (ca. Version 2"
-".8?).](https://itsfoss.com/gaphor-modeling-tool/)"
+msgstr "[Die Webseite „It's FOSS“ hat einen kurzen Bericht über Gaphor (ca. Version 2.8?).](https://itsfoss.com/gaphor-modeling-tool/)"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-#, markdown-text
 msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
-msgstr ""
-"[Die Webseite „Ubuntu Pit“ hat einen netten Artikel über Gaphor (ca. Version "
-"2.8?).](https://www.ubuntupit.com/"
-"gaphor-an-open-source-simple-graphical-modeling-tool/)"
+msgstr "[Die Webseite „Ubuntu Pit“ hat einen netten Artikel über Gaphor (ca. Version 2.8?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/download.md
@@ -938,38 +669,28 @@ msgstr "Gaphor herunterladen"
 
 #. type: Plain text
 #: _pages/download.md
-#, markdown-text
 msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
-msgstr ""
-"Es gibt viele Möglichkeiten, Gaphor zu installieren. Am einfachsten ist es, "
-"den offiziellen Installer für Windows oder macOS herunterzuladen. Für Linux "
-"können Sie Gaphor via FlatHub installieren. Sie können auch das in Python "
-"eingebaute `pip`-Tool verwenden, solange Sie alle erforderlichen "
-"Abhängigkeiten installiert haben."
+msgstr "Es gibt viele Möglichkeiten, Gaphor zu installieren. Am einfachsten ist es, den offiziellen Installer für Windows oder macOS herunterzuladen. Für Linux können Sie Gaphor via FlatHub installieren. Sie können auch das in Python eingebaute `pip`-Tool verwenden, solange Sie alle erforderlichen Abhängigkeiten installiert haben."
 
 #. type: Plain text
 #: _pages/download.md
-#, markdown-text
 msgid "If you're a developer, you can find the source code [on GitHub](https://github.com/gaphor/gaphor)."
-msgstr ""
-"Wenn Sie ein Entwickler sind, finden Sie den Quellcode auf "
-"[GitHub](https://github.com/gaphor/gaphor)."
+msgstr "Wenn Sie ein Entwickler sind, finden Sie den Quellcode auf [GitHub](https://github.com/gaphor/gaphor)."
 
 #. type: Title #
 #: _pages/404.md
-#, markdown-text, no-wrap
+#, no-wrap
 msgid "404"
 msgstr "404"
 
 #. type: Plain text
 #: _pages/404.md
-#, markdown-text, no-wrap
+#, no-wrap
 msgid "**Page not found :(**\n"
 msgstr "**Seite nicht gefunden: (**\n"
 
 #. type: Plain text
 #: _pages/404.md
-#, markdown-text
 msgid "The requested page could not be found."
 msgstr "Die angeforderte Seite konnte nicht gefunden werden."
 
@@ -984,3 +705,29 @@ msgstr "Modellieren für jedermann"
 #, no-wrap
 msgid "Blog and News"
 msgstr "Blog und Neuigkeiten"
+
+#, no-wrap
+#~ msgid "AppImage"
+#~ msgstr "AppImage"
+
+#~ msgid "The other option if you are running a recent Linux distribution is to use the [AppImage](https://appimage.org/). It is built using Ubuntu 18.04 and most likely won't work on older versions."
+#~ msgstr "Die andere Möglichkeit, wenn Sie eine aktuelle Linux-Distribution verwenden, ist die Verwendung des [AppImage](https://appimage.org/). Es wurde mit Ubuntu 18.04 erstellt und funktioniert höchstwahrscheinlich nicht mit älteren Versionen."
+
+#, no-wrap
+#~ msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\"><i class=\"fa fa-download\"></i> Download AppImage</a>\n"
+#~ msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\"><i class=\"fa fa-download\"></i> AppImage herunterladen</a>\n"
+
+#, no-wrap
+#~ msgid ""
+#~ "chmod +x Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
+#~ "./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
+#~ msgstr ""
+#~ "chmod +x Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
+#~ "./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
+
+#~ msgid "If you're using Wayland and the AppImage crashes, you can force it to use the X11 backend instead."
+#~ msgstr "Wenn Sie Wayland verwenden und das AppImage abstürzt, können Sie es zwingen, stattdessen das X11-Backend zu verwenden."
+
+#, no-wrap
+#~ msgid "GDK_BACKEND=x11 ./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
+#~ msgstr "GDK_BACKEND=x11 ./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
