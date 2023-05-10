@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-05-10 12:30+0000\n"
+"POT-Creation-Date: 2023-05-10 12:35+0000\n"
 "PO-Revision-Date: 2023-05-03 14:48+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/nl/>\n"
@@ -697,6 +697,25 @@ msgstr "Modelleren voor iedereen"
 msgid "Blog and News"
 msgstr "Blog en nieuws"
 
+#~ msgid "[Extend your models with stereotypes](https://docs.gaphor.org/en/latest/stereotypes.html)"
+#~ msgstr "[Breid uw modellen uit met stereotypen](https://docs.gaphor.org/en/latest/stereotypes.html)"
+
+#~ msgid "[Writing a plugin]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
+#~ msgstr "[Een plug-in schrijven]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
+
+#~ msgid "[Technical and architectural documentation](https://docs.gaphor.org/en/latest) for contributors and plugin developers"
+#~ msgstr "[Technische en architectonische documentatie](https://docs.gaphor.org/en/latest) voor bijdragers en plug-in-ontwikkelaars"
+
+#, fuzzy
+#~| msgid "Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10."
+#~ msgid "[Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)"
+#~ msgstr "De website Methods & Tools beoordeelde Gaphor versie 2.7.1 in december 2021 op Windows 10."
+
+#, fuzzy
+#~| msgid "It's FOSS has a short write-up on Gaphor (~2.8-ish?)."
+#~ msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
+#~ msgstr "It's FOSS heeft een kort artikel over Gaphor (rond 2.8)."
+
 #, no-wrap
 #~ msgid "AppImage"
 #~ msgstr "AppImage"
@@ -722,25 +741,6 @@ msgstr "Blog en nieuws"
 #, no-wrap
 #~ msgid "GDK_BACKEND=x11 ./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
 #~ msgstr "GDK_BACKEND=x11 ./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-
-#~ msgid "[Extend your models with stereotypes](https://docs.gaphor.org/en/latest/stereotypes.html)"
-#~ msgstr "[Breid uw modellen uit met stereotypen](https://docs.gaphor.org/en/latest/stereotypes.html)"
-
-#~ msgid "[Writing a plugin]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
-#~ msgstr "[Een plug-in schrijven]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
-
-#~ msgid "[Technical and architectural documentation](https://docs.gaphor.org/en/latest) for contributors and plugin developers"
-#~ msgstr "[Technische en architectonische documentatie](https://docs.gaphor.org/en/latest) voor bijdragers en plug-in-ontwikkelaars"
-
-#, fuzzy
-#~| msgid "Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10."
-#~ msgid "[Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)"
-#~ msgstr "De website Methods & Tools beoordeelde Gaphor versie 2.7.1 in december 2021 op Windows 10."
-
-#, fuzzy
-#~| msgid "It's FOSS has a short write-up on Gaphor (~2.8-ish?)."
-#~ msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
-#~ msgstr "It's FOSS heeft een kort artikel over Gaphor (rond 2.8)."
 
 #, fuzzy
 #~| msgid "How to report a bug in Gaphor"

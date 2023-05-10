@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-05-10 12:30+0000\n"
+"POT-Creation-Date: 2023-05-10 12:35+0000\n"
 "PO-Revision-Date: 2023-04-29 13:23+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hr/>\n"
@@ -691,6 +691,24 @@ msgstr "Modeliranje za svakoga"
 msgid "Blog and News"
 msgstr "Blog i novosti"
 
+#~ msgid "[Extend your models with stereotypes](https://docs.gaphor.org/en/latest/stereotypes.html)"
+#~ msgstr "[Proširi svoje modele sa stereotipima](https://docs.gaphor.org/hr/latest/stereotypes.html)"
+
+#~ msgid "[Writing a plugin]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
+#~ msgstr "[Pisanje dodataka]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
+
+#~ msgid "[Technical and architectural documentation](https://docs.gaphor.org/en/latest) for contributors and plugin developers"
+#~ msgstr "[Tehnička i arhitektonska dokumentacija](https://docs.gaphor.org/hr/latest) za doprinositelje i programere dodataka"
+
+#~ msgid "[Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)"
+#~ msgstr "[Web-mjesto „Methods & Tools” pregledalo je Gaphor verziju 2.7.1 u prosincu 2021. na Windowsu 10.](https://www.methodsandtools.com/tools/gaphor.php)"
+
+#~ msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
+#~ msgstr "[Na stranici „It's FOSS” postoji kratak članak o Gaphoru (ca. verzija 2.8?).](https://itsfoss.com/gaphor-modeling-tool/)"
+
+#~ msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
+#~ msgstr "[Ubuntu Pit sadrži članak o Gaphoru (ca. verzija 2.8?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
+
 #, no-wrap
 #~ msgid "AppImage"
 #~ msgstr "AppImage"
@@ -716,24 +734,6 @@ msgstr "Blog i novosti"
 #, no-wrap
 #~ msgid "GDK_BACKEND=x11 ./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
 #~ msgstr "GDK_BACKEND=x11 ./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-
-#~ msgid "[Extend your models with stereotypes](https://docs.gaphor.org/en/latest/stereotypes.html)"
-#~ msgstr "[Proširi svoje modele sa stereotipima](https://docs.gaphor.org/hr/latest/stereotypes.html)"
-
-#~ msgid "[Writing a plugin]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
-#~ msgstr "[Pisanje dodataka]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
-
-#~ msgid "[Technical and architectural documentation](https://docs.gaphor.org/en/latest) for contributors and plugin developers"
-#~ msgstr "[Tehnička i arhitektonska dokumentacija](https://docs.gaphor.org/hr/latest) za doprinositelje i programere dodataka"
-
-#~ msgid "[Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)"
-#~ msgstr "[Web-mjesto „Methods & Tools” pregledalo je Gaphor verziju 2.7.1 u prosincu 2021. na Windowsu 10.](https://www.methodsandtools.com/tools/gaphor.php)"
-
-#~ msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
-#~ msgstr "[Na stranici „It's FOSS” postoji kratak članak o Gaphoru (ca. verzija 2.8?).](https://itsfoss.com/gaphor-modeling-tool/)"
-
-#~ msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
-#~ msgstr "[Ubuntu Pit sadrži članak o Gaphoru (ca. verzija 2.8?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
 
 #~ msgid "<a href=\"report-bugs\">How to report a bug in Gaphor</a>"
 #~ msgstr "<a href=\"report-bugs\">Kako prijaviti grešku u Gaphoru</a>"

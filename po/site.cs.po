@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-05-10 12:30+0000\n"
+"POT-Creation-Date: 2023-05-10 12:35+0000\n"
 "PO-Revision-Date: 2023-05-03 14:48+0000\n"
 "Last-Translator: vikdevelop <super-vik1@protonmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/cs/>\n"
@@ -691,6 +691,24 @@ msgstr "Modeling pro každého"
 msgid "Blog and News"
 msgstr "Blog a Zprávy"
 
+#~ msgid "[Extend your models with stereotypes](https://docs.gaphor.org/en/latest/stereotypes.html)"
+#~ msgstr "[Rozšiřte své modely pomocí stereotypů](https://docs.gaphor.org/en/latest/stereotypes.html)"
+
+#~ msgid "[Writing a plugin]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
+#~ msgstr "[Napsání pluginu]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
+
+#~ msgid "[Technical and architectural documentation](https://docs.gaphor.org/en/latest) for contributors and plugin developers"
+#~ msgstr "[Technická a architektonická dokumentace](https://docs.gaphor.org/en/latest) pro přispěvatele a vývojáře pluginů"
+
+#~ msgid "[Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)"
+#~ msgstr "[Webové stránky Metody a nástroje recenzovaly verzi Gaphor 2.7.1 v prosinci 2021 na Window 10.] (https://www.methodsandtools.com/tools/gaphor.php)"
+
+#~ msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
+#~ msgstr "[It's FOSS má krátký write-up na Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
+
+#~ msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
+#~ msgstr "[Ubuntu Pit má pěkný článek o Gaphoru (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
+
 #, no-wrap
 #~ msgid "AppImage"
 #~ msgstr "AppImage"
@@ -716,24 +734,6 @@ msgstr "Blog a Zprávy"
 #, no-wrap
 #~ msgid "GDK_BACKEND=x11 ./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
 #~ msgstr "GDK_BACKEND=x11 ./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-
-#~ msgid "[Extend your models with stereotypes](https://docs.gaphor.org/en/latest/stereotypes.html)"
-#~ msgstr "[Rozšiřte své modely pomocí stereotypů](https://docs.gaphor.org/en/latest/stereotypes.html)"
-
-#~ msgid "[Writing a plugin]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
-#~ msgstr "[Napsání pluginu]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
-
-#~ msgid "[Technical and architectural documentation](https://docs.gaphor.org/en/latest) for contributors and plugin developers"
-#~ msgstr "[Technická a architektonická dokumentace](https://docs.gaphor.org/en/latest) pro přispěvatele a vývojáře pluginů"
-
-#~ msgid "[Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)"
-#~ msgstr "[Webové stránky Metody a nástroje recenzovaly verzi Gaphor 2.7.1 v prosinci 2021 na Window 10.] (https://www.methodsandtools.com/tools/gaphor.php)"
-
-#~ msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
-#~ msgstr "[It's FOSS má krátký write-up na Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
-
-#~ msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
-#~ msgstr "[Ubuntu Pit má pěkný článek o Gaphoru (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
 
 #, fuzzy
 #~| msgid "How to report a bug in Gaphor"
