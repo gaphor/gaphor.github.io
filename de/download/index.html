@@ -260,25 +260,6 @@ den Anweisungen um <a href="https://flatpak.org/setup">Flatpak zu installieren</
 flatpak <span class="nb">install</span> <span class="nt">--user</span> flathub org.gaphor.Gaphor
 </code></pre></div></div>
 
-<h3 id="appimage">AppImage</h3>
-
-<p>Die andere Möglichkeit, wenn Sie eine aktuelle Linux-Distribution verwenden,
-ist die Verwendung des <a href="https://appimage.org/">AppImage</a>. Es wurde mit
-Ubuntu 18.04 erstellt und funktioniert höchstwahrscheinlich nicht mit
-älteren Versionen.</p>
-
-<p><a class="btn btn-primary btn-lg" href="https://github.com/gaphor/gaphor/releases/download/2.18.0/Gaphor-2.18.0-x86_64.AppImage"><i class="fa fa-download"></i> AppImage herunterladen</a></p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">chmod</span> +x Gaphor-2.18.0-x86_64.AppImage
-./Gaphor-2.18.0-x86_64.AppImage
-</code></pre></div></div>
-
-<p>Wenn Sie Wayland verwenden und das AppImage abstürzt, können Sie es zwingen,
-stattdessen das X11-Backend zu verwenden.</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">GDK_BACKEND</span><span class="o">=</span>x11 ./Gaphor-2.18.0-x86_64.AppImage
-</code></pre></div></div>
-
 <h3 id="linux-architektur">Linux Architektur</h3>
 
 <p>Gaphor kann aus einem

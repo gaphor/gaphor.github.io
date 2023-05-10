@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-05-10 12:14+0000\n"
+"POT-Creation-Date: 2023-05-10 12:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -143,44 +143,6 @@ msgid ""
 "flatpak remote-add --user --if-not-exists \\\n"
 "    flathub https://dl.flathub.org/repo/flathub.flatpakrepo\n"
 "flatpak install --user flathub org.gaphor.Gaphor\n"
-msgstr ""
-
-#. type: Title ###
-#: _platforms/03-linux.md
-#, markdown-text, no-wrap
-msgid "AppImage"
-msgstr ""
-
-#. type: Plain text
-#: _platforms/03-linux.md
-#, markdown-text
-msgid "The other option if you are running a recent Linux distribution is to use the [AppImage](https://appimage.org/). It is built using Ubuntu 18.04 and most likely won't work on older versions."
-msgstr ""
-
-#. type: Plain text
-#: _platforms/03-linux.md
-#, markdown-text, no-wrap
-msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\"><i class=\"fa fa-download\"></i> Download AppImage</a>\n"
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: _platforms/03-linux.md
-#, no-wrap
-msgid ""
-"chmod +x Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-"./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-msgstr ""
-
-#. type: Plain text
-#: _platforms/03-linux.md
-#, markdown-text
-msgid "If you're using Wayland and the AppImage crashes, you can force it to use the X11 backend instead."
-msgstr ""
-
-#. type: Fenced code block (bash)
-#: _platforms/03-linux.md
-#, no-wrap
-msgid "GDK_BACKEND=x11 ./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
 msgstr ""
 
 #. type: Title ###
