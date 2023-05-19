@@ -1,4 +1,4 @@
-
+name: Update Gaphor version
 on:
   workflow_dispatch:
     inputs:
@@ -26,4 +26,4 @@ jobs:
           title: Update to version ${{ github.event.inputs.version }}
           body: Update to latest release
           branch: release-${{ github.event.inputs.version }}
-          base: master
+          base: main
