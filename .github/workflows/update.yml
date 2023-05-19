@@ -6,7 +6,8 @@ on:
         description: 'New version'
         required: true
   repository_dispatch:
-
+    types: [version-update]
+    
 permissions:
   contents: write 
   pull-requests: write
