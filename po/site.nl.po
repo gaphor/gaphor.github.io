@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-05-10 08:31-0400\n"
-"PO-Revision-Date: 2023-05-21 12:51+0000\n"
+"PO-Revision-Date: 2023-05-22 13:51+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gaphor/"
 "gaphor-github-io/nl/>\n"
@@ -675,6 +675,8 @@ msgstr ""
 #: _pages/tutorials.md
 msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
 msgstr ""
+"[Ubuntu Pit heeft een interessant artikel over Gaphor (rond 2.8)](https://www"
+".ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/download.md
@@ -689,10 +691,10 @@ msgstr "Er zijn vele manieren om Gaphor te installeren. De eenvoudigste is om de
 
 #. type: Plain text
 #: _pages/download.md
-#, fuzzy
-#| msgid "If you're a developer, you can find the source code on GitHub."
 msgid "If you're a developer, you can find the source code [on GitHub](https://github.com/gaphor/gaphor)."
-msgstr "Als u een ontwikkelaar bent, kunt u de broncode vinden op GitHub."
+msgstr ""
+"Als u een ontwikkelaar bent, kunt u de broncode vinden [op "
+"GitHub](https://github.com/gaphor/gaphor)."
 
 #. type: Title #
 #: _pages/404.md
