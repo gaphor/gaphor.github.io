@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-05-19 19:37+0000\n"
-"PO-Revision-Date: 2023-05-03 14:48+0000\n"
+"POT-Creation-Date: 2023-05-22 23:12+0000\n"
+"PO-Revision-Date: 2023-05-22 13:51+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/nl/>\n"
 "Language: nl\n"
@@ -615,24 +615,18 @@ msgstr "Presentaties"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-#, fuzzy
-#| msgid "Dan and Arjan spoke at Linux App Summit 2021 about how Gaphor is made available to all desktop platforms Linux/Windows/macOS."
 msgid "Dan and Arjan spoke at [Linux App Summit 2021](https://linuxappsummit.org/)  about [how Gaphor is made available to all desktop platforms Linux/Windows/macOS](https://www.youtube.com/watch?v=vLwAT-TLmZU)."
-msgstr "Dan en Arjan spraken op de Linux App Summit van 2021 over hoe Gaphor beschikbaar wordt gemaakt voor alle desktop-platforms; Linux/Windows/macOS."
+msgstr "Dan en Arjan spraken op de [Linux App Summit van 2021](https://linuxappsummit.org/) over [hoe Gaphor beschikbaar wordt gemaakt voor alle desktop-platforms; Linux/Windows/macOS](https://www.youtube.com/watch?v=vLwAT-TLmZU)."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-#, fuzzy
-#| msgid "Dan spoke at the 2021 MIT STAMP Workshop about _Open STPA with RAAML and Gaphor_."
 msgid "Dan spoke at the 2021 [MIT STAMP Workshop](https://psas.scripts.mit.edu/home/2021-stamp-workshop-program/)  about _Open STPA with RAAML and Gaphor_."
-msgstr "Dan sprak op de MIT STAMP Workshop van 2021 over _Open STPA met RAAML en Gaphor_."
+msgstr "Dan sprak op de [MIT STAMP Workshop van 2021](https://psas.scripts.mit.edu/home/2021-stamp-workshop-program/) over _Open STPA met RAAML en Gaphor_."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-#, fuzzy
-#| msgid "Arjan spoke at GUADEC 2021 about Large GUI application with Python and GTK."
 msgid "Arjan spoke at [GUADEC 2021](https://events.gnome.org/event/9/) about [Large GUI application with Python and GTK](https://events.gnome.org/event/9/contributions/188/)."
-msgstr "Arjan sprak op GUADEC 2021 over grote apps met Python en GTK."
+msgstr "Arjan sprak op [GUADEC 2021](https://events.gnome.org/event/9/) over [grote apps met Python en GTK](https://events.gnome.org/event/9/contributions/188/)."
 
 #. type: Title ##
 #: _pages/tutorials.md
@@ -663,10 +657,8 @@ msgstr "Er zijn vele manieren om Gaphor te installeren. De eenvoudigste is om de
 
 #. type: Plain text
 #: _pages/download.md
-#, fuzzy
-#| msgid "If you're a developer, you can find the source code on GitHub."
 msgid "If you're a developer, you can find the source code [on GitHub](https://github.com/gaphor/gaphor)."
-msgstr "Als u een ontwikkelaar bent, kunt u de broncode vinden op GitHub."
+msgstr "Als u een ontwikkelaar bent, kunt u de broncode vinden [op GitHub](https://github.com/gaphor/gaphor)."
 
 #. type: Title #
 #: _pages/404.md
@@ -706,15 +698,14 @@ msgstr "Blog en nieuws"
 #~ msgid "[Technical and architectural documentation](https://docs.gaphor.org/en/latest) for contributors and plugin developers"
 #~ msgstr "[Technische en architectonische documentatie](https://docs.gaphor.org/en/latest) voor bijdragers en plug-in-ontwikkelaars"
 
-#, fuzzy
-#~| msgid "Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10."
 #~ msgid "[Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)"
-#~ msgstr "De website Methods & Tools beoordeelde Gaphor versie 2.7.1 in december 2021 op Windows 10."
+#~ msgstr "[De website Methods & Tools beoordeelde Gaphor versie 2.7.1 in december 2021 op Windows 10](https://www.methodsandtools.com/tools/gaphor.php)."
 
-#, fuzzy
-#~| msgid "It's FOSS has a short write-up on Gaphor (~2.8-ish?)."
 #~ msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
-#~ msgstr "It's FOSS heeft een kort artikel over Gaphor (rond 2.8)."
+#~ msgstr "[It's FOSS heeft een kort artikel over Gaphor (rond 2.8)](https://itsfoss.com/gaphor-modeling-tool/)."
+
+#~ msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
+#~ msgstr "[Ubuntu Pit heeft een interessant artikel over Gaphor (rond 2.8)](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)."
 
 #, no-wrap
 #~ msgid "AppImage"
