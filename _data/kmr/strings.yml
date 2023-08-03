@@ -1,0 +1,50 @@
+index:
+  thousand-words: >
+    Wêneyek hêjayî hezar peyvan e.  Bi Gaphor re serîlêdan û pergalên xwe nas bikin
+    û belge bikin da ku parvekirina zanînê zêde bikin.
+  learn: 'Bêtir hîn bibin'
+  about-content: >
+    Gaphor serîlêdana modela UML, SysML, RAAML û C4 e.  Ew hatiye dîzaynkirin ku hêzdar
+    be lê karanîna wê hêsan e.  Gaphor modelek daneya UML 2 ya bi tevahî lihevhatî
+    pêk tîne, ji ber vê yekê ew ji amûrek xêzkirina wêneyê pir wêdetir e.  Hûn dikarin
+    Gaphor-ê bikar bînin ku zû aliyên cihêreng ên pergalê xuyang bikin û modelên bêkêmasî,
+    pir tevlihev biafirînin.
+  build: >
+    Ji bo nermalavê an diagramên Pênase û Pêdiviyên Blockê ji bo pergalên diagramên
+    çîn, têkilî û makîneya dewletê biafirînin.  Tiştên ku hûn hewce ne model bikin.  Heke
+    hûn dixwazin tevlihev bikin û li hev bikin, hûn dikarin hêmanên diagramê yên cihêreng
+    jî li heman diagramê zêde bikin da ku nihêrîna ku hûn hewce ne bigirin.
+  styling-engine: 'Diagramên ku hûn bi motora şêwaza meya çêkirî diafirînin wê xweş
+    bikin.'
+  treeview: 'Di dîtina darê de bi hêsanî hemî hêmanên modela xwe bibînin.'
+  dark-mode: 'Ma hûn ji moda tarî hez dikin?  Em jî dikarin wiya bikin.'
+  download-content: >
+    Gelek awayên sazkirina Gaphor hene. Ya herî hêsan ev e ku sazkerê fermî ji bo
+    Windows an macOS dakêşin. Hûn dikarin Gaphor-ê bi karanîna FlatHub ji bo Linux
+    saz bikin. Her weha hûn dikarin amûra 'pip' ya çêkirî ya Python-ê bikar bînin
+    heya ku we hemî girêdanên pêwîst saz kirine.
+latest-news-and-blog:
+  blog-content: |
+    Ma hûn dixwazin bizanibin li Gaphor çi diqewime? Bloga me bixwînin!
+
+     Heke hûn dixwazin naveroka têkildarî Gaphor [Tîma Têkilî] (/ nîqaşkirin) parve bikin.
+  see-blog: 'blogê bibîn'
+  read-more: 'Bêtir hîn bibin'
+  blog-and-news: 'Blog û Nuçe'
+  by: ''
+menu:
+  home: ''
+  about: ''
+  download: 'Ber bi jêr'
+  tutorials: 'Hînkerîn'
+  blog: 'Blog'
+  discuss: 'Têkevin Têkilîyên'
+  contribute: 'Paraxwe dayin'
+footer:
+  love: 'Em dixwazin ji we bibihîzin'
+  open-issue: 'Pirsgirêkek li ser GitHub vekin'
+  tech-docs: 'Belgeyên teknîkî'
+  copyright: 'Copyright & kopî; 2020-2023 Arjan Molenaar û Dan Yeaw.'
+  theme: 'Mijar'
+languages:
+  change: 'Guherîn'
