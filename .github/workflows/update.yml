@@ -16,7 +16,7 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3.5.2
+      - uses: actions/checkout@v4
       - name: Update version
         run: |
           if test -z "${{ github.event.inputs.version }}${{ github.event.client_payload.version }}"; then echo "No version provided"; exit 1; fi
