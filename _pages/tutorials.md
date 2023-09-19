@@ -18,12 +18,7 @@ goals.
    Michigan and Michigan Python event.
 1. [How to report a bug in Gaphor]({{ "/tutorials/report-bugs/" | prepend: site.baseurl }})
 
-
-## Advanced topics
-
-- [Extend your models with stereotypes](https://docs.gaphor.org/en/latest/stereotypes.html)
-- [Writing a plugin]({{ "/tutorials/plugins/" | prepend: site.baseurl }})
-- [Technical and architectural documentation](https://docs.gaphor.org/en/latest) for contributors and plugin developers
+You can find a lot more info on the [Gaphor Documnentation site](https://docs.gaphor.org/).
 
 ## Talks
 
