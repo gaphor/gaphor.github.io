@@ -15,9 +15,8 @@ index:
     diagramy definic bloků a požadavků pro systémy. Modelujte prvky, které
     potřebujete. Chcete-li je kombinovat, můžete dokonce přidávat různé prvky
     diagramu do stejného diagramu, abyste získali potřebný pohled.
-  styling-engine: >
-    Vytvořené diagramy si můžete přizpůsobit pomocí integrovaného stylovacího
-    nástroje.
+  styling-engine: >-
+    Vytvořené diagramy si můžete přizpůsobit pomocí integrovaného stylovacího nástroje.
   treeview: Snadné vyhledání všech prvků modelu ve stromovém zobrazení.
   dark-mode: Milujete tmavý režim? I ten umíme.
   download-content: >
