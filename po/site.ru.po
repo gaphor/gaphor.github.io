@@ -7,15 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-05-10 08:31-0400\n"
-"PO-Revision-Date: 2023-01-18 14:49+0000\n"
-"Last-Translator: BrainKicker <peter.sabanov@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/ru/>\n"
+"PO-Revision-Date: 2023-10-13 14:02+0000\n"
+"Last-Translator: Mikalai Kukhta <mikalai.kukhta@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/gaphor/"
+"gaphor-github-io/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/01-windows.md
@@ -28,11 +30,12 @@ msgstr "Windows"
 #, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-installer.exe\"><i class=\"fa fa-download\"></i> Download installer</a>\n"
 msgstr ""
+"<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/"
+"releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version "
+"}}-installer.exe\"><i class=\"fa fa-download\"></i>Скачать установщик</a>\n"
 
 #. type: Plain text
 #: _platforms/01-windows.md
-#, fuzzy
-#| msgid "Alternatively a portable version of Gaphor can be downloaded."
 msgid "Alternatively, a portable version of Gaphor can be downloaded."
 msgstr "Также вы можете загрузить портативную версию Gaphor."
 
@@ -41,35 +44,40 @@ msgstr "Также вы можете загрузить портативную �
 #, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-portable.exe\"><i class=\"fa fa-download\"></i> Download portable version</a>\n"
 msgstr ""
+"<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/"
+"releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version "
+"}}-portable.exe\"><i class=\"fa fa-download\"></i>Скачать портативную "
+"версию</a>\n"
 
 #. type: Title ###
 #: _platforms/01-windows.md
 #, no-wrap
 msgid "Winget"
-msgstr ""
+msgstr "Winget"
 
 #. type: Plain text
 #: _platforms/01-windows.md
 msgid "Install Gaphor from [winget](https://github.com/microsoft/winget-pkgs/tree/master/manifests/g/gaphor/gaphor):"
 msgstr ""
+"Установить Gaphor используя [winget](https://github.com/microsoft/"
+"winget-pkgs/tree/master/manifests/g/gaphor/gaphor):"
 
 #. type: Fenced code block (bash)
 #: _platforms/01-windows.md
-#, fuzzy, no-wrap
-#| msgid "To manually install Gaphor:"
+#, no-wrap
 msgid "winget install gaphor\n"
-msgstr "Чтобы установить Gaphor вручную:"
+msgstr "winget install gaphor\n"
 
 #. type: Plain text
 #: _platforms/01-windows.md
 msgid "To check out the latest release notes and other details:"
-msgstr ""
+msgstr "Чтобы проверить список последних изменений:"
 
 #. type: Fenced code block (bash)
 #: _platforms/01-windows.md
 #, no-wrap
 msgid "winget show gaphor\n"
-msgstr ""
+msgstr "winget show gaphor\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/02-macos.md
@@ -82,6 +90,9 @@ msgstr "macOS"
 #, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Download .dmg</a>\n"
 msgstr ""
+"<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/"
+"releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}."
+"dmg\"><i class=\"fa fa-download\"></i> Скачать .dmg</a>\n"
 
 #. type: Plain text
 #: _platforms/02-macos.md
@@ -98,12 +109,14 @@ msgstr "Homebrew"
 #: _platforms/02-macos.md
 msgid "Pour Gaphor from a [homebrew cask](https://formulae.brew.sh/cask/gaphor):"
 msgstr ""
+"Установить Gaphor используя [homebrew cask](https://formulae.brew.sh/cask/"
+"gaphor):"
 
 #. type: Fenced code block (bash)
 #: _platforms/02-macos.md
 #, no-wrap
 msgid "brew install --cask gaphor\n"
-msgstr ""
+msgstr "brew install --cask gaphor\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/03-linux.md
@@ -121,12 +134,18 @@ msgstr "Flatpak"
 #: _platforms/03-linux.md
 msgid "[Flatpak](https://flatpak.org/) is the recommended way to install Gaphor in Linux. If you don't have it setup already, follow the instructions to [install Flatpak](https://flatpak.org/setup)."
 msgstr ""
+"Рекомендуется использовать [Flatpak](https://flatpak.org/) для установки "
+"Gaphor на Linux. Если у вас не установлен Flatpak, следуйте инструкции по ["
+"установке Flatpak](https://flatpak.org/setup)."
 
 #. type: Plain text
 #: _platforms/03-linux.md
 #, no-wrap
 msgid "<a href='https://flathub.org/apps/details/org.gaphor.Gaphor'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>\n"
 msgstr ""
+"<a href='https://flathub.org/apps/details/org.gaphor.Gaphor'><img "
+"width='240' alt='Скачать на Flathub' src='https://flathub.org/assets/badges/"
+"flathub-badge-en.png'/></a>\n"
 
 #. type: Plain text
 #: _platforms/03-linux.md
@@ -141,6 +160,9 @@ msgid ""
 "    flathub https://dl.flathub.org/repo/flathub.flatpakrepo\n"
 "flatpak install --user flathub org.gaphor.Gaphor\n"
 msgstr ""
+"flatpak remote-add --user --if-not-exists \\\n"
+"    flathub https://dl.flathub.org/repo/flathub.flatpakrepo\n"
+"flatpak install --user flathub org.gaphor.Gaphor\n"
 
 #. type: Title ###
 #: _platforms/03-linux.md
@@ -150,10 +172,10 @@ msgstr "Arch Linux"
 
 #. type: Plain text
 #: _platforms/03-linux.md
-#, fuzzy
-#| msgid "Gaphor can be installed from an AUR package."
 msgid "Gaphor can be installed from an [AUR package](https://aur.archlinux.org/packages/python-gaphor/)."
-msgstr "Gaphor может быть установлен из пакета AUR."
+msgstr ""
+"Gaphor может быть установлен из [пакета AUR](https://aur.archlinux.org/"
+"packages/python-gaphor/)."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/04-python.md
@@ -165,6 +187,9 @@ msgstr "Python"
 #: _platforms/04-python.md
 msgid "If you have the latest stable version of Python installed and the Gaphor dependencies installed, you can also install Gaphor using a wheel from [PyPI](https://pypi.org/project/gaphor/)."
 msgstr ""
+"Если у вас установлена последняя стабильная версия Python и зависимостей "
+"Gaphor, вы можете установить Gaphor использую wheel с [PyPI](https://pypi."
+"org/project/gaphor/)."
 
 #. type: Plain text
 #: _platforms/04-python.md
@@ -215,6 +240,8 @@ msgstr ""
 #: tutorials/plugins.md
 msgid "In the console window services can be retrieved by using the `service()` function. For example:"
 msgstr ""
+"Используя терминал, вы можете получить сервисы с помощью функции `service()`"
+". Пример:"
 
 #. type: Fenced code block (python)
 #: tutorials/plugins.md
@@ -525,8 +552,7 @@ msgstr ""
 
 #. type: Title ##
 #: _pages/discuss.md
-#, fuzzy, no-wrap
-#| msgid "Open an issue on GitHub"
+#, no-wrap
 msgid "Submit an Issue on GitHub"
 msgstr "Открыть проблему на GitHub"
 
@@ -658,17 +684,18 @@ msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/download.md
-#, fuzzy, no-wrap
-#| msgid "Download"
+#, no-wrap
 msgid "Download Gaphor"
-msgstr "Загрузить"
+msgstr "Загрузить Gaphor"
 
 #. type: Plain text
 #: _pages/download.md
-#, fuzzy
-#| msgid "There are many ways to install Gaphor.  The simplest is to download the official installer for Windows or macOS.  For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
 msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
-msgstr "Есть много способов установить Gaphor.  Самый простой — скачать официальный установщик для Windows или macOS.  Для Linux вы можете установить Gaphor с помощью FlatHub.  Вы также можете использовать встроенный в Python инструмент pip, если у вас установлены все необходимые зависимости."
+msgstr ""
+"Есть много способов установить Gaphor. Самый простой — загрузить официальный "
+"установщик для Windows или macOS. Для Linux вы можете установить Gaphor с "
+"помощью FlatHub. Вы также можете использовать встроенный в Python инструмент "
+"pip, если у вас установлены все необходимые зависимости."
 
 #. type: Plain text
 #: _pages/download.md
