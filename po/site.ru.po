@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-05-10 08:31-0400\n"
-"PO-Revision-Date: 2023-12-06 07:09+0000\n"
+"PO-Revision-Date: 2023-12-07 02:00+0000\n"
 "Last-Translator: Сергей <asvmail.as@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gaphor/"
 "gaphor-github-io/ru/>\n"
@@ -195,6 +195,12 @@ msgstr ""
 #: _platforms/04-python.md
 msgid "If you don't have the latest stable version of Python and the Gaphor dependencies installed, follow the development environment [installation instructions](https://docs.gaphor.org/en/latest) section, but do not clone the repository. Optionally, create a [virtual environment](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments).  Then execute the following:"
 msgstr ""
+"Если у вас не установлена последняя стабильная версия Python и зависимости "
+"Gaphor, следуйте инструкциям по установке среды разработки (https://docs."
+"gaphor.org/en/latest), но не клонируйте репозиторий. При желании создайте ["
+"виртуальную среду](https://packaging.python.org/tutorials/"
+"installing-packages/#creating-virtual-environments).  Затем выполните "
+"следующее:"
 
 #. type: Fenced code block (bash)
 #: _platforms/04-python.md
@@ -251,39 +257,41 @@ msgstr ""
 #: tutorials/plugins.md
 #, no-wrap
 msgid "ef = service('element_factory')\n"
-msgstr ""
+msgstr "ef = service('element_factory')\n"
 
 #. type: Title ##
 #: tutorials/plugins.md
 #, no-wrap
 msgid "Querying the Data Model"
-msgstr ""
+msgstr "Запрос модели данных"
 
 #. type: Plain text
 #: tutorials/plugins.md
 msgid "Two methods are used for querying:"
-msgstr ""
+msgstr "Для запроса используются два метода:"
 
 #. type: Bullet: '-   '
 #: tutorials/plugins.md
 msgid "`select(query=None)` -> returns an iterator"
-msgstr ""
+msgstr "`select(query=None)` -> возвращает итератор"
 
 #. type: Bullet: '-   '
 #: tutorials/plugins.md
 msgid "`lselect(query=None)` -> returns a list"
-msgstr ""
+msgstr "`lselect(query=None)` -> возвращает список"
 
 #. type: Plain text
 #: tutorials/plugins.md
 msgid "`query` is a lambda function with the element as parameter. For example, to fetch all the Class instances from the element factory:"
 msgstr ""
+"`query` — это лямбда-функция с элементом в качестве параметра. Например, "
+"чтобы получить все экземпляры класса из фабрики элементов:"
 
 #. type: Fenced code block (python)
 #: tutorials/plugins.md
 #, no-wrap
 msgid "element_factory.select(lambda e: e.isKindOf(UML.Class))\n"
-msgstr ""
+msgstr "element_factory.select(lambda e: e.isKindOf(UML.Class))\n"
 
 #. type: Title ##
 #: tutorials/plugins.md
