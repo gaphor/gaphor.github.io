@@ -42,9 +42,11 @@ menu:
   home: Kezdőlap
 footer:
   love: Szeretnénk hallani felőled
-  open-issue: GitHub probléma megnyitása
+  open-issue: Probléma benyújtása
   tech-docs: Műszaki dokumentumok
   copyright: Szerzői jog &copy; 2020-2022 Molenaar Arjan és Yeaw Dániel.
   theme: Téma
+  code: Kód hozzájárulása
+  chat-on: Csevegés velünk
 languages:
   change: Változás
