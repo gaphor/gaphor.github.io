@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-05-10 08:31-0400\n"
-"PO-Revision-Date: 2023-12-07 02:00+0000\n"
+"PO-Revision-Date: 2023-12-09 02:31+0000\n"
 "Last-Translator: Сергей <asvmail.as@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gaphor/"
 "gaphor-github-io/ru/>\n"
@@ -229,12 +229,18 @@ msgstr ""
 #: tutorials/plugins.md
 #, no-wrap
 msgid "Accessing Model Related Data"
-msgstr ""
+msgstr "Доступ к данным, связанным с моделью"
 
 #. type: Plain text
 #: tutorials/plugins.md
 msgid "The datamodel classes are located in the `gaphor.UML` module. Data objects can be accessed through the ElementFactory. This is a special class for creating and managing data objects. Items can be queried using this element factory, which is registered in the application as `element_factory`. When writing a service or plugin the element factory can be injected into the service like this:"
 msgstr ""
+"Классы модели данных расположены в модуле «gaphor.UML». Доступ к объектам "
+"данных можно получить через ElementFactory. Это специальный класс для "
+"создания объектов данных и управления ими. Элементы можно запрашивать с "
+"помощью этой фабрики элементов, которая зарегистрирована в приложении как "
+"«element_factory». При написании сервиса или плагина фабрику элементов можно "
+"внедрить в сервис следующим образом:"
 
 #. type: Fenced code block (python)
 #: tutorials/plugins.md
@@ -245,6 +251,10 @@ msgid ""
 "        element_factory = Application.get_service('element_factory')\n"
 "        items = element_factory.select()\n"
 msgstr ""
+"class MyThing:\n"
+"    def do_something(self):\n"
+"        element_factory = Application.get_service('element_factory')\n"
+"        items = element_factory.select()\n"
 
 #. type: Plain text
 #: tutorials/plugins.md
@@ -330,12 +340,14 @@ msgstr ""
 #: tutorials/plugins.md
 #, no-wrap
 msgid "Example Plugin"
-msgstr ""
+msgstr "Пример плагина"
 
 #. type: Plain text
 #: tutorials/plugins.md
 msgid "An example Hello World plugin is hosted on [GitHub](https://github.com/gaphor/gaphor.plugins.helloworld)."
 msgstr ""
+"Пример плагина «Hello World» размещён на [GitHub](https://github.com/gaphor/"
+"gaphor.plugins.helloworld)."
 
 #. type: Yaml Front Matter Hash Value: title
 #: tutorials/report-bugs.md
@@ -347,11 +359,16 @@ msgstr "Как сообщить об ошибке в Gaphor"
 #: tutorials/report-bugs.md
 msgid "If you've ever written a line of code, you'll know that all software has bugs.  This will also be the case with Gaphor. If you think you have found a bug, simply click on the link below (you'll need to have an account on GitHub) and then click the green \"New Issue\" button found at the top right hand side of the page:"
 msgstr ""
+"Если вы когда-либо написали хоть строчку кода, то знаете, что в любом "
+"программном обеспечении есть ошибки.  Это также относится и к Gaphor. Если "
+"вы считаете, что нашли ошибку, просто перейдите по ссылке ниже (вам "
+"потребуется учётная запись на GitHub), а затем нажмите зеленую кнопку «New "
+"Issue», расположенную в правом верхнем углу страницы:"
 
 #. type: Plain text
 #: tutorials/report-bugs.md
 msgid "[Report a Bug in Gaphor](https://github.com/gaphor/gaphor/issues)"
-msgstr ""
+msgstr "[Сообщить об ошибке в Gaphor](https://github.com/gaphor/gaphor/issues)"
 
 #. type: Plain text
 #: tutorials/report-bugs.md
@@ -361,84 +378,105 @@ msgstr ""
 #. type: Plain text
 #: tutorials/report-bugs.md
 msgid "There are generally two sorts of bugs:"
-msgstr ""
+msgstr "Обычно встречаются два типа ошибок:"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 msgid "Technical: the code has a mistake in it which causes the program to break."
-msgstr ""
+msgstr "Технический: в коде есть ошибка, которая приводит к сбою программы."
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 msgid "Behavioural: the code works correctly, but is doing the wrong thing."
-msgstr ""
+msgstr "Поведенческий: код работает правильно, но делает что-то не так."
 
 #. type: Plain text
 #: tutorials/report-bugs.md
 msgid "In both cases, for us to be able to fix the bug, we need **as much information as possible**. When you create a new issue you should try to include, where relevant, the following sorts of information:"
 msgstr ""
+"В обоих случаях, чтобы исправить ошибку, нам необходимо получить **как можно "
+"больше информации**. Когда вы создаете новое сообщение о проблеме, то "
+"следует постараться включить, где это уместно, следующую информацию:"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 msgid "What you were trying to do,"
-msgstr ""
+msgstr "Что вы пытались сделать,"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 msgid "What steps you took to make this happen,"
-msgstr ""
+msgstr "Какие шаги вы предприняли, чтобы это произошло,"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 msgid "What you expected to happen,"
-msgstr ""
+msgstr "Что вы ожидали увидеть,"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 msgid "What actually happened,"
-msgstr ""
+msgstr "Что произошло на самом деле,"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 msgid "Why this difference is problematic (it may not be a bug!),"
-msgstr ""
+msgstr "Почему это расхождение является проблемой (возможно, это не ошибка!),"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 msgid "Technical details like the version of Gaphor you're using, your OS version and other aspects of the context in which Gaphor was running."
 msgstr ""
+"Технические подробности, такие как используемая версия Gaphor, версия вашей "
+"ОС и другие аспекты окружения, в котором работало приложение Gaphor."
 
 #. type: Plain text
 #: tutorials/report-bugs.md
 msgid "Use plain and simple language to describe the problem and, if helpful, break it down into steps so developers can easily recreate the issue. Please don't assume we'll understand what you were trying to achieve -- honestly, it's best if you try to imagine we (the developers) are a bunch of clever 5-year-olds. Try to explain *everything* about the problem and don't assume we know what you mean.  We won't mind!"
 msgstr ""
+"Используйте понятный язык для описания проблемы и, по возможности, разбейте "
+"её на этапы, чтобы разработчики могли легко воссоздать проблему. Пожалуйста, "
+"не думайте, что мы сразу поймем, чего вы пытались достичь - честно говоря, "
+"будет лучше, если вы попытаетесь представить, что мы (разработчики) - кучка "
+"умных 5-летних детей. Попытайтесь разъяснить *всё* о проблеме и не думайте, "
+"что мы понимаем, что вы имеете в виду.  Мы не будем против этого!"
 
 #. type: Plain text
 #: tutorials/report-bugs.md
 msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the [Gaphor developer's website](https://docs.gaphor.org/en/latest)."
 msgstr ""
+"Если вы хотите принять более активное участие в разработке Gaphor, мы будем "
+"рады приветствовать вас на [сайте разработчика Gaphor](https://docs.gaphor."
+"org/en/latest)."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/01-platform.md
 #, no-wrap
 msgid "Multi-platform"
-msgstr ""
+msgstr "Мультиплатформенность"
 
 #. type: Plain text
 #: _usps/01-platform.md
 msgid "Gaphor works on all major platforms: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
 msgstr ""
+"Gaphor работает на всех основных платформах: [Windows]({{ \"/download#"
+"windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download#macos\" | "
+"prepend: site.baseurl }}), and [Linux]({{ \"/download#linux\" | prepend: "
+"site.baseurl }})."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/02-opensource.md
 #, no-wrap
 msgid "Open Source"
-msgstr ""
+msgstr "Открытый исходный код"
 
 #. type: Plain text
 #: _usps/02-opensource.md
 msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
 msgstr ""
+"Никакой привязки к вендору: Gaphor написан на Python и имеет 100% открытый "
+"исходный код, доступный по дружественной [лицензии Apache 2](https://github."
+"com/gaphor/gaphor/blob/main/LICENSE.txt)."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/03-beginner-pro.md
@@ -503,12 +541,14 @@ msgstr ""
 #. type: Plain text
 #: _pages/contribute.md
 msgid "The source code is hosted on [GitHub](https://github.com/gaphor/gaphor)."
-msgstr ""
+msgstr "Исходный код размещен на [GitHub](https://github.com/gaphor/gaphor)."
 
 #. type: Plain text
 #: _pages/contribute.md
 msgid "Help translate Gaphor on [Weblate](https://hosted.weblate.org/engage/gaphor/)."
 msgstr ""
+"Помочь с переводом Gaphor на [Weblate](https://hosted.weblate.org/engage/"
+"gaphor/)."
 
 #. type: Plain text
 #: _pages/contribute.md
@@ -517,6 +557,9 @@ msgid ""
 "If in doubt, just ask in our <a href=\"../discuss\">discussion area</a> and\n"
 "someone will be able to point you in the right direction.\n"
 msgstr ""
+"Если вы сомневаетесь, просто спросите на нашей <a href=\"../discuss\"> "
+"дискуссионной площадке</a> и\n"
+"кто-нибудь сможет указать вам правильное направление.\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/discuss.md
@@ -538,29 +581,40 @@ msgstr ""
 #: _pages/discuss.md
 #, no-wrap
 msgid "Chat on Gitter"
-msgstr ""
+msgstr "Общение на Gitter"
 
 #. type: Plain text
 #: _pages/discuss.md
 msgid "Our real-time conversations are on Gitter and are bridged to Matrix.  Matrix is the preferred way, since it's more use friendly than bare Gitter."
 msgstr ""
+"Наше общение в реальном времени ведётся на Gitter и связано с Matrix.  "
+"Использование Matrix более предпочтительно, поскольку это удобнее для "
+"пользователя, чем голый Gitter."
 
 #. type: Plain text
 #: _pages/discuss.md
 #, no-wrap
 msgid "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join Matrix with Element.io](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)\n"
 msgstr ""
+"[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\""
+" /> Присоединяйтесь к Matrix с помощью Element.io](https://app.element.io/#/"
+"room/#gaphor_Lobby:gitter.im)\n"
 
 #. type: Plain text
 #: _pages/discuss.md
 #, no-wrap
 msgid "[<i class=\"fab fa-gitter\"></i> Join Gitter Chat](https://gitter.im/gaphor/lobby)\n"
 msgstr ""
+"[<i class=\"fab fa-gitter\"></i> Присоединяйтесь к чату "
+"Gitter](https://gitter.im/gaphor/lobby)\n"
 
 #. type: Plain text
 #: _pages/discuss.md
 msgid "NB. If you're using a mobile device, use the [Element app](https://element.io/get-started) (for Matrix), the Gitter app is no longer supported."
 msgstr ""
+"Примечание. Если вы пользуетесь мобильным устройством, то используйте ["
+"приложение Element](https://element.io/get-started) (для Matrix), так как "
+"Gitter больше не поддерживается."
 
 #. type: Title ##
 #: _pages/discuss.md
@@ -572,12 +626,18 @@ msgstr "Открыть проблему на GitHub"
 #: _pages/discuss.md
 msgid "Please use our GitHub issue tracker for general questions and reporting bugs.  Before submitting a GitHub issue please review our page about [how to report a bug in Gaphor](/tutorials/report-bugs)."
 msgstr ""
+"Используйте нашу систему отслеживания проблем на GitHub, чтобы задавать "
+"общие вопросы и сообщать об ошибках.  Прежде чем создать сообщение о "
+"проблеме, ознакомьтесь с нашей страницей о том, [как сообщить об ошибке в "
+"Gaphor](/tutorials/report-bugs)."
 
 #. type: Plain text
 #: _pages/discuss.md
 #, no-wrap
 msgid "[<i class=\"fab fa-github\"></i> Submit an Issue on GitHub](https://github.com/gaphor/gaphor/issues)\n"
 msgstr ""
+"[<i class=\"fab fa-github\"></i> Сообщить о проблеме на "
+"GitHub](https://github.com/gaphor/gaphor/issues)\n"
 
 #. type: Title ##
 #: _pages/discuss.md
@@ -605,94 +665,127 @@ msgstr "Руководство"
 #: _pages/tutorials.md
 msgid "Each tutorial is a self-contained lesson, explaining a specific aspect of Gaphor, so you have the skills needed to achieve your learning and modeling goals."
 msgstr ""
+"Каждое учебное пособие представляет собой самостоятельный урок, объясняющий "
+"конкретный аспект Gaphor, так что у вас появляются навыки, необходимые для "
+"достижения ваших целей в области обучения и моделирования."
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
 msgid "[Get Started with Gaphor](https://docs.gaphor.org/en/latest/getting_started.html)"
 msgstr ""
+"[Начало работы с Gaphor](https://docs.gaphor.org/en/latest/getting_started."
+"html)"
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
 msgid "[Your First Model](https://docs.gaphor.org/en/latest/first_model.html)"
 msgstr ""
+"[Ваша первая модель](https://docs.gaphor.org/en/latest/first_model.html)"
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
 msgid "<i class=\"fab fa-youtube\"></i> [Introduction to Gaphor and SysML](https://youtu.be/PnWKsr2csXg), presented by Dan at a joint INCOSE Michigan and Michigan Python event."
 msgstr ""
+"<i class=\"fab fa-youtube\"></i> [Введение в Gaphor и SysML](https://youtu."
+"be/PnWKsr2csXg), представленное Dan на совместном мероприятии INCOSE "
+"Michigan и Michigan Python."
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
 msgid "[How to report a bug in Gaphor]({{ \"/tutorials/report-bugs/\" | prepend: site.baseurl }})"
 msgstr ""
+"[Как сообщить об ошибке в Gaphor]({{ \"/tutorials/report-bugs/\" | prepend: "
+"site.baseurl }})"
 
 #. type: Title ##
 #: _pages/tutorials.md
 #, no-wrap
 msgid "Advanced topics"
-msgstr ""
+msgstr "Расширенные темы"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "[Extend your models with stereotypes](https://docs.gaphor.org/en/latest/stereotypes.html)"
 msgstr ""
+"[Расширьте свои модели стереотипами](https://docs.gaphor.org/en/latest/"
+"stereotypes.html)"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "[Writing a plugin]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
 msgstr ""
+"[Написание плагина]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "[Technical and architectural documentation](https://docs.gaphor.org/en/latest) for contributors and plugin developers"
 msgstr ""
+"[Техническая и архитектурная документация](https://docs.gaphor.org/en/latest)"
+" для участников и разработчиков плагинов"
 
 #. type: Title ##
 #: _pages/tutorials.md
 #, no-wrap
 msgid "Talks"
-msgstr ""
+msgstr "Обсуждения"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "Dan and Arjan spoke at [Linux App Summit 2021](https://linuxappsummit.org/)  about [how Gaphor is made available to all desktop platforms Linux/Windows/macOS](https://www.youtube.com/watch?v=vLwAT-TLmZU)."
 msgstr ""
+"Dan и Arjan рассказали на [Linux App Summit 2021](https://linuxappsummit.org/"
+")  о том, [как Gaphor становится доступен для всех настольных платформ Linux/"
+"Windows/macOS](https://www.youtube.com/watch?v=vLwAT-TLmZU)."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "Dan spoke at the 2021 [MIT STAMP Workshop](https://psas.scripts.mit.edu/home/2021-stamp-workshop-program/)  about _Open STPA with RAAML and Gaphor_."
 msgstr ""
+"Dan рассказал в 2021 на [MIT STAMP Workshop](https://psas.scripts.mit.edu/"
+"home/2021-stamp-workshop-program/)  об _Open STPA с RAAML и Gaphor_."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "Arjan spoke at [GUADEC 2021](https://events.gnome.org/event/9/) about [Large GUI application with Python and GTK](https://events.gnome.org/event/9/contributions/188/)."
 msgstr ""
+"Arjan выступил на [GUADEC 2021](https://events.gnome.org/event/9/) с "
+"докладом [Большое приложение с графическим интерфейсом на Python и "
+"GTK](https://events.gnome.org/event/9/contributions/188/)."
 
 #. type: Title ##
 #: _pages/tutorials.md
 #, no-wrap
 msgid "What other people say"
-msgstr ""
+msgstr "Что говорят другие люди"
 
 #. type: Plain text
 #: _pages/tutorials.md
 msgid "There are some 10+ year old articles on Gaphor on the web. Some more recent articles are:"
 msgstr ""
+"В интернете есть несколько статей о Gaphor более чем десятилетней давности. "
+"Здесь наиболее свежие из них:"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "[Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)"
 msgstr ""
+"[В декабре 2021 года интернет сайт «Methods & Tools» провел обзор Gaphor "
+"версии 2.7.1 для Window 10.](https://www.methodsandtools.com/tools/gaphor."
+"php)"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
 msgstr ""
+"[На FOSS имеется краткий обзор Gaphor (~2.8-ish?).](https://itsfoss.com/"
+"gaphor-modeling-tool/)"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
 msgstr ""
+"[На Ubuntu Pit есть хорошая статья о Gaphor (~2.8-ish?).](https://www."
+"ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/download.md
@@ -713,6 +806,8 @@ msgstr ""
 #: _pages/download.md
 msgid "If you're a developer, you can find the source code [on GitHub](https://github.com/gaphor/gaphor)."
 msgstr ""
+"Если вы разработчик, то можете найти исходный код [на GitHub](https://github."
+"com/gaphor/gaphor)."
 
 #. type: Title #
 #: _pages/404.md
@@ -729,7 +824,7 @@ msgstr "**Страница не найдена :(**\n"
 #. type: Plain text
 #: _pages/404.md
 msgid "The requested page could not be found."
-msgstr ""
+msgstr "Запрашиваемая страница не найдена."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/index.md
