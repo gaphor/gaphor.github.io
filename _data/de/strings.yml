@@ -34,6 +34,7 @@ latest-news-and-blog:
   see-blog: 'Blog ansehen'
   read-more: 'Weiterlesen'
   blog-and-news: 'Blog und Neuigkeiten'
+  by: Von
 menu:
   home: 'Startseite'
   about: 'Über'
@@ -44,9 +45,11 @@ menu:
   contribute: 'Beitragen'
 footer:
   love: 'Wir freuen uns, von Ihnen zu hören'
-  open-issue: 'Öffnen Sie ein Problem auf GitHub'
-  tech-docs: 'Technische Dokumente'
-  copyright: 'Copyright &copy; 2020– 2023 Arjan Molenaar und Dan Yeaw.'
+  open-issue: 'Ein Problem melden'
+  tech-docs: 'Lesen Sie die Dokumentation'
+  copyright: 'Copyright &copy; 2020 – 2023 Arjan Molenaar und Dan Yeaw.'
   theme: 'Aussehen'
+  code: Dem Code beitragen
+  chat-on: Am Chat teilnehmen
 languages:
   change: 'Veränderung'
