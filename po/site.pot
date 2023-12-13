@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-05-10 08:31-0400\n"
+"POT-Creation-Date: 2023-12-12 20:54-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -181,135 +181,6 @@ msgstr ""
 msgid ""
 "pip install gaphor\n"
 "gaphor\n"
-msgstr ""
-
-#. type: Yaml Front Matter Hash Value: title
-#: tutorials/plugins.md
-#, no-wrap
-msgid "Writing a Plugin"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/plugins.md
-#, markdown-text
-msgid "Gaphor is designed to be extensible by using plugins that allow you to extend the functionality."
-msgstr ""
-
-#. type: Title ##
-#: tutorials/plugins.md
-#, markdown-text, no-wrap
-msgid "Accessing Model Related Data"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/plugins.md
-#, markdown-text
-msgid "The datamodel classes are located in the `gaphor.UML` module. Data objects can be accessed through the ElementFactory. This is a special class for creating and managing data objects. Items can be queried using this element factory, which is registered in the application as `element_factory`. When writing a service or plugin the element factory can be injected into the service like this:"
-msgstr ""
-
-#. type: Fenced code block (python)
-#: tutorials/plugins.md
-#, no-wrap
-msgid ""
-"class MyThing:\n"
-"    def do_something(self):\n"
-"        element_factory = Application.get_service('element_factory')\n"
-"        items = element_factory.select()\n"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/plugins.md
-#, markdown-text
-msgid "In the console window services can be retrieved by using the `service()` function. For example:"
-msgstr ""
-
-#. type: Fenced code block (python)
-#: tutorials/plugins.md
-#, no-wrap
-msgid "ef = service('element_factory')\n"
-msgstr ""
-
-#. type: Title ##
-#: tutorials/plugins.md
-#, markdown-text, no-wrap
-msgid "Querying the Data Model"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/plugins.md
-#, markdown-text
-msgid "Two methods are used for querying:"
-msgstr ""
-
-#. type: Bullet: '-   '
-#: tutorials/plugins.md
-#, markdown-text
-msgid "`select(query=None)` -> returns an iterator"
-msgstr ""
-
-#. type: Bullet: '-   '
-#: tutorials/plugins.md
-#, markdown-text
-msgid "`lselect(query=None)` -> returns a list"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/plugins.md
-#, markdown-text
-msgid "`query` is a lambda function with the element as parameter. For example, to fetch all the Class instances from the element factory:"
-msgstr ""
-
-#. type: Fenced code block (python)
-#: tutorials/plugins.md
-#, no-wrap
-msgid "element_factory.select(lambda e: e.isKindOf(UML.Class))\n"
-msgstr ""
-
-#. type: Title ##
-#: tutorials/plugins.md
-#, markdown-text, no-wrap
-msgid "Traversing Data Instances"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/plugins.md
-#, markdown-text
-msgid "Once some classes are obtained, it is common to traverse through a few related objects in order to get the required information. For example: to iterate through all parameters related to a class' operations:"
-msgstr ""
-
-#. type: Fenced code block (python)
-#: tutorials/plugins.md
-#, no-wrap
-msgid ""
-"for o in classes.ownedOperation:\n"
-"    for p in o.ownedParameter:\n"
-"        do_something(p)\n"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/plugins.md
-#, markdown-text
-msgid "Using the `[:]` operator items can be traversed more easily:"
-msgstr ""
-
-#. type: Fenced code block (python)
-#: tutorials/plugins.md
-#, no-wrap
-msgid ""
-"for o in classes.ownedOperation[:].ownedParameter:\n"
-"    do_something(p)\n"
-msgstr ""
-
-#. type: Title ##
-#: tutorials/plugins.md
-#, markdown-text, no-wrap
-msgid "Example Plugin"
-msgstr ""
-
-#. type: Plain text
-#: tutorials/plugins.md
-#, markdown-text
-msgid "An example Hello World plugin is hosted on [GitHub](https://github.com/gaphor/gaphor.plugins.helloworld)."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
@@ -539,31 +410,19 @@ msgstr ""
 #. type: Title ##
 #: _pages/discuss.md
 #, markdown-text, no-wrap
-msgid "Chat on Gitter"
+msgid "Chat on [matrix]"
 msgstr ""
 
 #. type: Plain text
 #: _pages/discuss.md
 #, markdown-text
-msgid "Our real-time conversations are on Gitter and are bridged to Matrix.  Matrix is the preferred way, since it's more use friendly than bare Gitter."
+msgid "Our real-time conversations are on [matrix]. You can join using a chat client like Element, Fractal, or one of the other many options."
 msgstr ""
 
 #. type: Plain text
 #: _pages/discuss.md
 #, markdown-text, no-wrap
-msgid "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join Matrix with Element.io](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)\n"
-msgstr ""
-
-#. type: Plain text
-#: _pages/discuss.md
-#, markdown-text, no-wrap
-msgid "[<i class=\"fab fa-gitter\"></i> Join Gitter Chat](https://gitter.im/gaphor/lobby)\n"
-msgstr ""
-
-#. type: Plain text
-#: _pages/discuss.md
-#, markdown-text
-msgid "NB. If you're using a mobile device, use the [Element app](https://element.io/get-started) (for Matrix), the Gitter app is no longer supported."
+msgid "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join [matrix]](https://matrix.to/#/#gaphor_Lobby:gitter.im)\n"
 msgstr ""
 
 #. type: Title ##
@@ -638,28 +497,10 @@ msgstr ""
 msgid "[How to report a bug in Gaphor]({{ \"/tutorials/report-bugs/\" | prepend: site.baseurl }})"
 msgstr ""
 
-#. type: Title ##
-#: _pages/tutorials.md
-#, markdown-text, no-wrap
-msgid "Advanced topics"
-msgstr ""
-
-#. type: Bullet: '- '
+#. type: Plain text
 #: _pages/tutorials.md
 #, markdown-text
-msgid "[Extend your models with stereotypes](https://docs.gaphor.org/en/latest/stereotypes.html)"
-msgstr ""
-
-#. type: Bullet: '- '
-#: _pages/tutorials.md
-#, markdown-text
-msgid "[Writing a plugin]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
-msgstr ""
-
-#. type: Bullet: '- '
-#: _pages/tutorials.md
-#, markdown-text
-msgid "[Technical and architectural documentation](https://docs.gaphor.org/en/latest) for contributors and plugin developers"
+msgid "You can find a lot more info on the [Gaphor Documnentation site](https://docs.gaphor.org/)."
 msgstr ""
 
 #. type: Title ##
