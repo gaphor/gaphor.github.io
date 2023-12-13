@@ -7,15 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-05-10 08:31-0400\n"
-"PO-Revision-Date: 2023-04-29 13:23+0000\n"
+"PO-Revision-Date: 2023-12-09 02:31+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/de/>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/gaphor/"
+"gaphor-github-io/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.3-dev\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/01-windows.md
@@ -245,7 +246,7 @@ msgstr ""
 #. type: Bullet: '-   '
 #: tutorials/plugins.md
 msgid "`lselect(query=None)` -> returns a list"
-msgstr ""
+msgstr "`lselect(query=None)` -> gibt eine Liste zurück"
 
 #. type: Plain text
 #: tutorials/plugins.md
@@ -256,7 +257,7 @@ msgstr ""
 #: tutorials/plugins.md
 #, no-wrap
 msgid "element_factory.select(lambda e: e.isKindOf(UML.Class))\n"
-msgstr ""
+msgstr "element_factory.select(lambda e: e.isKindOf(UML.Class))\n"
 
 #. type: Title ##
 #: tutorials/plugins.md
@@ -326,62 +327,81 @@ msgstr ""
 #. type: Plain text
 #: tutorials/report-bugs.md
 msgid "There are generally two sorts of bugs:"
-msgstr ""
+msgstr "Im Allgemeinen gibt es zwei Arten von Fehlern:"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 msgid "Technical: the code has a mistake in it which causes the program to break."
 msgstr ""
+"Technisch: Der Code enthält einen Fehler, der dazu führt, dass das Programm "
+"abstürzt."
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 msgid "Behavioural: the code works correctly, but is doing the wrong thing."
-msgstr ""
+msgstr "Verhalten: Der Code funktioniert korrekt, macht aber das Falsche."
 
 #. type: Plain text
 #: tutorials/report-bugs.md
 msgid "In both cases, for us to be able to fix the bug, we need **as much information as possible**. When you create a new issue you should try to include, where relevant, the following sorts of information:"
 msgstr ""
+"In beiden Fällen benötigen wir **so viele Informationen wie möglich**, damit "
+"wir den Fehler beheben können. Wenn Sie ein neues Problem melden, geben Sie "
+"nach Möglichkeit folgende Arten von Informationen ein:"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 msgid "What you were trying to do,"
-msgstr ""
+msgstr "Was haben Sie versucht zu tun,"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 msgid "What steps you took to make this happen,"
-msgstr ""
+msgstr "Welche Schritte haben Sie unternommen die dazu führten,"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 msgid "What you expected to happen,"
-msgstr ""
+msgstr "Was sollte passieren,"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 msgid "What actually happened,"
-msgstr ""
+msgstr "Was tatsächlich passiert ist,"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 msgid "Why this difference is problematic (it may not be a bug!),"
 msgstr ""
+"Warum ist dieser Unterschied problematisch (es ist möglicherweise kein "
+"Fehler!),"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 msgid "Technical details like the version of Gaphor you're using, your OS version and other aspects of the context in which Gaphor was running."
 msgstr ""
+"Technische Details wie die von Ihnen verwendete Gaphor-Version, Ihre "
+"Betriebssystemversion und andere Faktoren in dem Gaphor ausgeführt wurde."
 
 #. type: Plain text
 #: tutorials/report-bugs.md
 msgid "Use plain and simple language to describe the problem and, if helpful, break it down into steps so developers can easily recreate the issue. Please don't assume we'll understand what you were trying to achieve -- honestly, it's best if you try to imagine we (the developers) are a bunch of clever 5-year-olds. Try to explain *everything* about the problem and don't assume we know what you mean.  We won't mind!"
 msgstr ""
+"Beschreiben Sie das Problem in einer einfacher Sprache und unterteilen Sie "
+"es am besten in einzelne Schritten, damit Entwickler das Problem problemlos "
+"reproduzieren können. Bitte gehen Sie nicht davon aus, dass wir verstehen "
+"was Sie erreichen wollten – am Besten stellen Sie sich vor, dass wir (die "
+"Entwickler) ein Haufen schlauer Fünfjähriger sind. Versuchen Sie, *alles* "
+"über das Problem zu erklären und gehen Sie nicht davon aus, dass wir wissen "
+"was Sie meinen. Je mehr Informationen wir erhalten umso besser!"
 
 #. type: Plain text
 #: tutorials/report-bugs.md
 msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the [Gaphor developer's website](https://docs.gaphor.org/en/latest)."
 msgstr ""
+"Wenn Sie sich stärker an der Entwicklung von Gaphor beteiligen möchten, "
+"nutzen Sie die [Webseite für Gaphor-Entwickler](https://docs.gaphor.org/en/"
+"latest)."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/01-platform.md

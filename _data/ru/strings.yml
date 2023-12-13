@@ -43,9 +43,11 @@ menu:
   home: Главная
 footer:
   love: Мы рады услышать вас
-  open-issue: Открыть проблему на GitHub
-  tech-docs: Техническая документация
+  open-issue: Сообщить о проблеме
+  tech-docs: Прочтите документацию
   copyright: Авторское право &copy; 2020-2023 Arjan Molenaar и Dan Yeaw.
   theme: Тема
+  code: Добавить код
+  chat-on: Общение с нами
 languages:
   change: Изменить
