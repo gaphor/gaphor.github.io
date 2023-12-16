@@ -1,0 +1,40 @@
+index:
+  thousand-words: >
+    一幅画胜过千言万语。使用Gaphor描述并记录您的应用程序和系统，以增强知识共享。
+  learn: '了解更多'
+  about-content: >
+    Gaphor是一个UML、SysML、RAAML和C4建模应用程序。它的设计便于使用，同时功能强大。Gaphor实现了一个完全兼容的UML2数据模型，因此它不仅仅是一个绘图工具。您可以使用Gaphor快速可视化系统的不同方面，并创建完整的、高度复杂的模型。
+  build: >
+    为软件构建类、交互和状态机图，或为系统构建块定义和需求图。为您需要的元素建模。如果您想混合和匹配，您甚至可以将不同的图表项添加到同一个图表中，以获得所需的视图。
+  styling-engine: '使用我们的内置样式引擎自定义您创建的图表。'
+  treeview: '在树状视图中轻松查找模型的所有元素。'
+  dark-mode: '喜欢黑暗模式？我们也可以这样做。'
+  download-content: >
+    有很多方法可以安装Gaphor。最简单的方法是下载Windows或macOS的官方安装程序。对于Linux，您可以使用FlatHub安装Gaphor。您也可以使用Python内置的“pip”工具，只要您安装了所有必需的依赖项。
+latest-news-and-blog:
+  blog-content: |
+    你想知道Gaphor怎么了吗？阅读我们的博客！
+
+    [联系团队]（/讨论）如果您想分享与Gaphor相关的内容。
+  see-blog: '查看博客'
+  read-more: '阅读更多'
+  blog-and-news: '博客和新闻'
+  by: '通过'
+menu:
+  home: '主页'
+  about: '关于'
+  download: '下载'
+  tutorials: '教程'
+  blog: '博客'
+  discuss: '联系'
+  contribute: '贡献'
+footer:
+  love: '我们很高兴收到您的消息'
+  chat-on: '与我们聊天'
+  code: '贡献代码'
+  open-issue: '提交问题'
+  tech-docs: '阅读文档'
+  copyright: '版权所有&copy; 2020-2023 Arjan Molenaar和Dan Yeaw。'
+  theme: '主题'
+languages:
+  change: '更改'
