@@ -15,7 +15,7 @@ def replace_language_string():
     conf_file = Path("po") / "po4a.conf"
     with conf_file.open() as f:
         line = f.readline()
-        pattern = "\[po4a_langs\] (.*)"
+        pattern = r"\[po4a_langs\] (.*)"
         match = re.search(pattern, line)
         languages = match[1].split()
 

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-05-10 08:31-0400\n"
+"POT-Creation-Date: 2023-12-17 00:38+0000\n"
 "PO-Revision-Date: 2023-04-25 15:49+0000\n"
 "Last-Translator: ovari <ovari123@zoho.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.18-dev\n"
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _platforms/01-windows.md
 #, no-wrap
 msgid "Windows"
@@ -68,7 +68,7 @@ msgstr "A legújabb kiadási megjegyzések és egyéb részletek megtekintéséh
 msgid "winget show gaphor\n"
 msgstr "winget show gaphor\n"
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _platforms/02-macos.md
 #, no-wrap
 msgid "macOS"
@@ -102,7 +102,7 @@ msgstr "Öntsön Gaphort egy [házi sörfőző hordóból](https://formulae.brew
 msgid "brew install --cask gaphor\n"
 msgstr "brew install --cask gaphor\n"
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _platforms/03-linux.md
 #, no-wrap
 msgid "Linux"
@@ -153,7 +153,7 @@ msgstr "Arch Linux"
 msgid "Gaphor can be installed from an [AUR package](https://aur.archlinux.org/packages/python-gaphor/)."
 msgstr "A Gaphor [AUR-csomag](https://aur.archlinux.org/packages/python-gaphor/)ból telepíthető."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _platforms/04-python.md
 #, no-wrap
 msgid "Python"
@@ -179,135 +179,7 @@ msgstr ""
 "pip install gaphor\n"
 "gaphor\n"
 
-#. type: Yaml Front Matter Hash Value: title
-#: tutorials/plugins.md
-#, no-wrap
-msgid "Writing a Plugin"
-msgstr "Beépülő modul írása"
-
-#. type: Plain text
-#: tutorials/plugins.md
-msgid "Gaphor is designed to be extensible by using plugins that allow you to extend the functionality."
-msgstr "A Gaphort úgy tervezték, hogy bővíthető legyen a funkcionalitás kiterjesztését lehetővé tevő beépülő modulokkal."
-
-#. type: Title ##
-#: tutorials/plugins.md
-#, no-wrap
-msgid "Accessing Model Related Data"
-msgstr "Modellhez kapcsolódó adatok hozzáférése"
-
-#. type: Plain text
-#: tutorials/plugins.md
-msgid "The datamodel classes are located in the `gaphor.UML` module. Data objects can be accessed through the ElementFactory. This is a special class for creating and managing data objects. Items can be queried using this element factory, which is registered in the application as `element_factory`. When writing a service or plugin the element factory can be injected into the service like this:"
-msgstr "Az adatmodell osztályok a `gaphor.UML` modulban találhatók. Az adatobjektumok az elemgyáron keresztül érhetők el. Ez egy speciális osztály adatobjektumok létrehozására és kezelésére. A tételek lekérdezhetők ezzel az elemgyárral, amely az alkalmazásban `element_factory` néven van regisztrálva. Szolgáltatás vagy bővítmény írásakor az elemgyárat így lehet beilleszteni a szolgáltatásba:"
-
-#. type: Fenced code block (python)
-#: tutorials/plugins.md
-#, no-wrap
-msgid ""
-"class MyThing:\n"
-"    def do_something(self):\n"
-"        element_factory = Application.get_service('element_factory')\n"
-"        items = element_factory.select()\n"
-msgstr ""
-"class MyThing:\n"
-"    def do_something(self):\n"
-"        element_factory = Application.get_service('element_factory')\n"
-"        items = element_factory.select()\n"
-
-#. type: Plain text
-#: tutorials/plugins.md
-msgid "In the console window services can be retrieved by using the `service()` function. For example:"
-msgstr "A parancssor ablakban a szolgáltatásokat a `service()` függvény használatával lehet lekérni. Például:"
-
-#. type: Fenced code block (python)
-#: tutorials/plugins.md
-#, no-wrap
-msgid "ef = service('element_factory')\n"
-msgstr "ef = service('element_factory')\n"
-
-#. type: Title ##
-#: tutorials/plugins.md
-#, no-wrap
-msgid "Querying the Data Model"
-msgstr "Az adatmodell lekérdezése"
-
-#. type: Plain text
-#: tutorials/plugins.md
-msgid "Two methods are used for querying:"
-msgstr "A lekérdezéshez két módszert használnak:"
-
-#. type: Bullet: '-   '
-#: tutorials/plugins.md
-msgid "`select(query=None)` -> returns an iterator"
-msgstr "`select(query=None)` → egy iterátort ad vissza"
-
-#. type: Bullet: '-   '
-#: tutorials/plugins.md
-msgid "`lselect(query=None)` -> returns a list"
-msgstr "`select(query=None)` → egy listát ad vissza"
-
-#. type: Plain text
-#: tutorials/plugins.md
-msgid "`query` is a lambda function with the element as parameter. For example, to fetch all the Class instances from the element factory:"
-msgstr "A `query` egy lambda függvény, amelynek paramétere az elem. Például az összes osztálypéldány lekéréséhez az elemgyárból:"
-
-#. type: Fenced code block (python)
-#: tutorials/plugins.md
-#, no-wrap
-msgid "element_factory.select(lambda e: e.isKindOf(UML.Class))\n"
-msgstr "element_factory.select(lambda e: e.isKindOf(UML.Class))\n"
-
-#. type: Title ##
-#: tutorials/plugins.md
-#, no-wrap
-msgid "Traversing Data Instances"
-msgstr "Adatpéldányok bejárása"
-
-#. type: Plain text
-#: tutorials/plugins.md
-msgid "Once some classes are obtained, it is common to traverse through a few related objects in order to get the required information. For example: to iterate through all parameters related to a class' operations:"
-msgstr "Miután megszereztünk néhány osztályt, gyakran áthaladunk néhány kapcsolódó objektumon, hogy megkapjuk a szükséges adatokat. Például: az osztály műveleteivel kapcsolatos összes paraméter iterálásához:"
-
-#. type: Fenced code block (python)
-#: tutorials/plugins.md
-#, no-wrap
-msgid ""
-"for o in classes.ownedOperation:\n"
-"    for p in o.ownedParameter:\n"
-"        do_something(p)\n"
-msgstr ""
-"for o in classes.ownedOperation:\n"
-"    for p in o.ownedParameter:\n"
-"        do_something(p)\n"
-
-#. type: Plain text
-#: tutorials/plugins.md
-msgid "Using the `[:]` operator items can be traversed more easily:"
-msgstr "A `[:]` operátor használatával az elemek könnyebben bejárhatók:"
-
-#. type: Fenced code block (python)
-#: tutorials/plugins.md
-#, no-wrap
-msgid ""
-"for o in classes.ownedOperation[:].ownedParameter:\n"
-"    do_something(p)\n"
-msgstr ""
-"for o in classes.ownedOperation[:].ownedParameter:\n"
-"    do_something(p)\n"
-
-#. type: Title ##
-#: tutorials/plugins.md
-#, no-wrap
-msgid "Example Plugin"
-msgstr "Beépülő modul példa"
-
-#. type: Plain text
-#: tutorials/plugins.md
-msgid "An example Hello World plugin is hosted on [GitHub](https://github.com/gaphor/gaphor.plugins.helloworld)."
-msgstr "Egy példa Hello World beépülő modult a [GitHub](https://github.com/gaphor/gaphor.plugins.helloworld) tárol."
-
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: tutorials/report-bugs.md
 #, no-wrap
 msgid "How to report a bug in Gaphor"
@@ -388,7 +260,7 @@ msgstr "Egyszerű és egyszerű nyelvezeten írja le a problémát, és ha haszn
 msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the [Gaphor developer's website](https://docs.gaphor.org/en/latest)."
 msgstr "Ha szeretne jobban részt venni a Gaphor fejlesztésében, örömmel üdvözöljük a [Gaphor fejlesztő webhelyén](https://docs.gaphor.org/)."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _usps/01-platform.md
 #, no-wrap
 msgid "Multi-platform"
@@ -399,7 +271,7 @@ msgstr "Többplatformos"
 msgid "Gaphor works on all major platforms: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
 msgstr "A Gaphor az összes főbb platformon működik: [GNU/Linux]({{ \"/download#linux\" | prepend: site.baseurl }}), [macOS]({{ \"/download#macos\" | prepend: site.baseurl }}) és [Windows]({{ \"/download#windows\" | prepend: site.baseurl }})."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _usps/02-opensource.md
 #, no-wrap
 msgid "Open Source"
@@ -410,7 +282,7 @@ msgstr "Nyílt forráskódú"
 msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
 msgstr "Nincs szállítói bekötés: A Gaphor Python nyelven íródott, és 100%-ban nyílt forráskódú, barátságos [Apache 2 licenc](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt) alatt érhető el."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _usps/03-beginner-pro.md
 #, no-wrap
 msgid "Beginner or Pro"
@@ -421,7 +293,7 @@ msgstr "Kezdő vagy szakmai"
 msgid "Whether you're a casual modeler documenting a project or a Model Driven Development expert, Gaphor has got you covered."
 msgstr "Legyen szó alkalmi modellezőről, aki egy projektet dokumentál, vagy modellvezérelt fejlesztési szakértőről van szó, a Gaphor mindent megtesz."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _usps/04-consistent.md
 #, no-wrap
 msgid "Consistent"
@@ -432,7 +304,7 @@ msgstr "Egységes"
 msgid "UML is a graphical modeling language, so all information you put in the model is visible in the diagrams. For example, stereotypes are modeled in diagrams.  No hidden panels and property pages. Just diagrams!"
 msgstr "Az UML egy grafikus modellező nyelv, így a modellbe helyezett összes adat látható az ábrákon. Például a sztereotípiákat ábrákon modellezik. Nincsenek rejtett panelek és tulajdonságoldalak. Csak ábrák!"
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _usps/05-extensible.md
 #, no-wrap
 msgid "Extensible"
@@ -443,7 +315,7 @@ msgstr "Bővíthető"
 msgid "Gaphor is extensible. Plug-in a code generator or export your diagrams for documentation.  Create your own extensions and access them through the GUI or CLI."
 msgstr "A Gaphor bővíthető. Csatlakoztasson egy kódgenerátort, vagy exportálja az ábrákat a dokumentációhoz. Hozzon létre saját bővítményeket, és érje el őket a grafikus felhasználói felületen (GUI) vagy a parancssori felületen (CLI) keresztül."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _usps/06-standard.md
 #, no-wrap
 msgid "Standards Compliant"
@@ -454,7 +326,7 @@ msgstr "Szabványmegfelelőség"
 msgid "Gaphor implements the UML, SysML, and RAAML OMG standards. It also includes support for the C4 model for visualizing software architectures."
 msgstr "A Gaphor az UML-, SysML- és RAAML OMG-szabványokat valósítja meg. Tartalmazza a C4-modell támogatását is a szoftverarchitektúrák megjelenítéséhez."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _pages/contribute.md
 #, no-wrap
 msgid "Contribute"
@@ -490,7 +362,7 @@ msgstr ""
 "Ha kétségei vannak, kérdezzen a <a href=\"../discuss\">vitaterületünkön</a>, és \n"
 "valaki meg tudja mutatni a helyes irányt.\n"
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _pages/discuss.md
 #, no-wrap
 msgid "Get in touch"
@@ -508,31 +380,22 @@ msgstr "Kortól, nemtől, vallástól, fajtól vagy szexuális hovatartozástól
 
 #. type: Title ##
 #: _pages/discuss.md
-#, no-wrap
-msgid "Chat on Gitter"
+#, fuzzy, no-wrap
+#| msgid "Chat on Gitter"
+msgid "Chat on [matrix]"
 msgstr "Csevegés a Gitteren"
 
 #. type: Plain text
 #: _pages/discuss.md
-msgid "Our real-time conversations are on Gitter and are bridged to Matrix.  Matrix is the preferred way, since it's more use friendly than bare Gitter."
-msgstr "Valós idejű beszélgetéseink a Gitteren zajlanak, és áthidalhatók a Mátrixba. A mátrix az előnyben részesített módszer, mivel ez sokkal felhasználóbarátabb, mint a csupasz Gitter."
+msgid "Our real-time conversations are on [matrix]. You can join using a chat client like Element, Fractal, or one of the other many options."
+msgstr ""
 
 #. type: Plain text
 #: _pages/discuss.md
-#, no-wrap
-msgid "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join Matrix with Element.io](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)\n"
+#, fuzzy, no-wrap
+#| msgid "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join Matrix with Element.io](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)\n"
+msgid "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join [matrix]](https://matrix.to/#/#gaphor_Lobby:gitter.im)\n"
 msgstr "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Csatlakozzon a Matrixhoz az Element.io-val](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)\n"
-
-#. type: Plain text
-#: _pages/discuss.md
-#, no-wrap
-msgid "[<i class=\"fab fa-gitter\"></i> Join Gitter Chat](https://gitter.im/gaphor/lobby)\n"
-msgstr "[<i class=\"fab fa-gitter\"></i> Csatlakozz Gitter-csevegéshez](https://gitter.im/gaphor/lobby)\n"
-
-#. type: Plain text
-#: _pages/discuss.md
-msgid "NB. If you're using a mobile device, use the [Element app](https://element.io/get-started) (for Matrix), the Gitter app is no longer supported."
-msgstr "Megjegyzés: Ha mobileszközt használ, használja az [Element alkalmazást](https://element.io/get-started) (Matrix esetén), a Gitter alkalmazás már nem támogatott."
 
 #. type: Title ##
 #: _pages/discuss.md
@@ -567,7 +430,7 @@ msgstr "A közreműködőktől elvárjuk, hogy kövessék a GNOME [Viselkedési 
 msgid "We want our community to be a safe, welcoming and friendly place.  We won't hesitate to issue a clear warning and, if ignored, ban people who don't behave in the spirit of the code of conduct. If a conduct related situation arises, we will endeavour to act in a discreet, sympathetic and fair manner to all concerned."
 msgstr "Azt akarjuk, hogy közösségünk biztonságos, barátságos és barátságos hely legyen. Habozás nélkül egyértelmű figyelmeztetést adunk, és ha figyelmen kívül hagyjuk, kitiltjuk azokat az embereket, akik nem a viselkedési szabályzat szellemében viselkednek. Ha magatartással kapcsolatos helyzet adódik, igyekszünk diszkréten, együttérzően és tisztességesen eljárni minden érintett felé."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _pages/tutorials.md
 #, no-wrap
 msgid "Tutorials"
@@ -598,26 +461,10 @@ msgstr "<i class=\"fab fa-youtube\"></i> [Gaphor és SysML bemutatása](https://
 msgid "[How to report a bug in Gaphor]({{ \"/tutorials/report-bugs/\" | prepend: site.baseurl }})"
 msgstr "[A Gaphor hibájának bejelentése]({{ \"/tutorials/report-bugs/\" | prepend: site.baseurl }})"
 
-#. type: Title ##
+#. type: Plain text
 #: _pages/tutorials.md
-#, no-wrap
-msgid "Advanced topics"
-msgstr "Haladó témák"
-
-#. type: Bullet: '- '
-#: _pages/tutorials.md
-msgid "[Extend your models with stereotypes](https://docs.gaphor.org/en/latest/stereotypes.html)"
-msgstr "[Modellek kiterjesztése sztereotípiákkal](https://docs.gaphor.org/en/latest/stereotypes.html)"
-
-#. type: Bullet: '- '
-#: _pages/tutorials.md
-msgid "[Writing a plugin]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
-msgstr "[Beépülő modul írása]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
-
-#. type: Bullet: '- '
-#: _pages/tutorials.md
-msgid "[Technical and architectural documentation](https://docs.gaphor.org/en/latest) for contributors and plugin developers"
-msgstr "[Műszaki és építészeti dokumentáció](https://docs.gaphor.org/en/latest) közreműködőknek és bővítmények fejlesztőinek"
+msgid "You can find a lot more info on the [Gaphor Documnentation site](https://docs.gaphor.org/)."
+msgstr ""
 
 #. type: Title ##
 #: _pages/tutorials.md
@@ -651,22 +498,12 @@ msgstr "Amit mások mondanak"
 msgid "There are some 10+ year old articles on Gaphor on the web. Some more recent articles are:"
 msgstr "Van néhány cikk a Gaphorról az interneten, amelyek több mint egy évtizedesek. Néhány újabb cikk a következő:"
 
-#. type: Bullet: '- '
+#. type: Plain text
 #: _pages/tutorials.md
-msgid "[Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)"
-msgstr "[A Methods & Tools webhely 2021 decemberében felülvizsgálta a Gaphor 2.7.1-es verzióját egy Window 10-en.](https://www.methodsandtools.com/tools/gaphor.php)"
+msgid "- [Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)  - [It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)  - [Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
+msgstr ""
 
-#. type: Bullet: '- '
-#: _pages/tutorials.md
-msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
-msgstr "[A FOSS-nak van egy rövid leírása a Gaphorról (~2,8).](https://itsfoss.com/gaphor-modeling-tool/)"
-
-#. type: Bullet: '- '
-#: _pages/tutorials.md
-msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
-msgstr "[Az Ubuntu Pitnek van egy szép cikke a Gaphorról (~2.8).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
-
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _pages/download.md
 #, no-wrap
 msgid "Download Gaphor"
@@ -699,48 +536,23 @@ msgstr "**Az oldal nem található :(**\n"
 msgid "The requested page could not be found."
 msgstr "Nem található a keresett oldal."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _pages/index.md
 #, no-wrap
 msgid "Modeling for Everyone"
 msgstr "Műszaki modellezés mindenki számára"
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _pages/blog.md
 #, no-wrap
 msgid "Blog and News"
 msgstr "Napló és hírek"
 
-#, no-wrap
-#~ msgid "AppImage"
-#~ msgstr "AppImage"
+#~ msgid "[Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)"
+#~ msgstr "[A Methods & Tools webhely 2021 decemberében felülvizsgálta a Gaphor 2.7.1-es verzióját egy Window 10-en.](https://www.methodsandtools.com/tools/gaphor.php)"
 
-#~ msgid "The other option if you are running a recent Linux distribution is to use the [AppImage](https://appimage.org/). It is built using Ubuntu 18.04 and most likely won't work on older versions."
-#~ msgstr "A másik lehetőség, ha friss GNU/Linux disztribúciót futtat, az [AppImage](https://appimage.org/) használata. Az Ubuntu 18.04 használatával készült, és valószínűleg nem fog működni a régebbi verziókon."
+#~ msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
+#~ msgstr "[A FOSS-nak van egy rövid leírása a Gaphorról (~2,8).](https://itsfoss.com/gaphor-modeling-tool/)"
 
-#, no-wrap
-#~ msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\"><i class=\"fa fa-download\"></i> Download AppImage</a>\n"
-#~ msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\"><i class=\"fa fa-download\"></i> AppImage letöltése</a>\n"
-
-#, no-wrap
-#~ msgid ""
-#~ "chmod +x Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-#~ "./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-#~ msgstr ""
-#~ "chmod +x Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-#~ "./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-
-#~ msgid "If you're using Wayland and the AppImage crashes, you can force it to use the X11 backend instead."
-#~ msgstr "Ha a Wayland megjelenítőkiszolgáló protokollt használja, és az AppImage összeomlik, kényszerítheti az X11 háttérprogram használatát."
-
-#, no-wrap
-#~ msgid "GDK_BACKEND=x11 ./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-#~ msgstr "GDK_BACKEND=x11 ./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-
-#, no-wrap
-#~ msgid " Download installer\n"
-#~ msgstr " Telepítő letöltése\n"
-
-#, no-wrap
-#~ msgid " Download AppImage\n"
-#~ msgstr " Az AppImage letöltése\n"
+#~ msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
+#~ msgstr "[Az Ubuntu Pitnek van egy szép cikke a Gaphorról (~2.8).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-05-10 08:31-0400\n"
+"POT-Creation-Date: 2023-12-17 00:38+0000\n"
 "PO-Revision-Date: 2023-04-29 13:23+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.18-dev\n"
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _platforms/01-windows.md
 #, no-wrap
 msgid "Windows"
@@ -68,7 +68,7 @@ msgstr "Zaprikaz najnovijih napomena o izdanju i drugih detalja:"
 msgid "winget show gaphor\n"
 msgstr "winget show gaphor\n"
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _platforms/02-macos.md
 #, no-wrap
 msgid "macOS"
@@ -102,7 +102,7 @@ msgstr "Instaliraj Gaphor iz jednog [homebrew cask](https://formulae.brew.sh/cas
 msgid "brew install --cask gaphor\n"
 msgstr "brew install --cask gaphor\n"
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _platforms/03-linux.md
 #, no-wrap
 msgid "Linux"
@@ -153,7 +153,7 @@ msgstr "Arch Linux"
 msgid "Gaphor can be installed from an [AUR package](https://aur.archlinux.org/packages/python-gaphor/)."
 msgstr "Gaphor se može instalirati iz jednog [AUR paketa](https://aur.archlinux.org/packages/python-gaphor/)."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _platforms/04-python.md
 #, no-wrap
 msgid "Python"
@@ -179,135 +179,7 @@ msgstr ""
 "pip install gaphor\n"
 "gaphor\n"
 
-#. type: Yaml Front Matter Hash Value: title
-#: tutorials/plugins.md
-#, no-wrap
-msgid "Writing a Plugin"
-msgstr "Pisanje dodatka"
-
-#. type: Plain text
-#: tutorials/plugins.md
-msgid "Gaphor is designed to be extensible by using plugins that allow you to extend the functionality."
-msgstr "Gaphor je izrađen tako da se može proširiti korištenjem dodataka koji omogućuju dodatnu funkcionalnost."
-
-#. type: Title ##
-#: tutorials/plugins.md
-#, no-wrap
-msgid "Accessing Model Related Data"
-msgstr "Pristup podacima vezanim uz model"
-
-#. type: Plain text
-#: tutorials/plugins.md
-msgid "The datamodel classes are located in the `gaphor.UML` module. Data objects can be accessed through the ElementFactory. This is a special class for creating and managing data objects. Items can be queried using this element factory, which is registered in the application as `element_factory`. When writing a service or plugin the element factory can be injected into the service like this:"
-msgstr "Klase modela podataka nalaze se u modulu `gaphor.UML`. Objektima podataka može se pristupiti putem ElementFactory. Ovo je posebna klasa za stvaranje i upravljanje objektima podataka. Elementi se mogu tražiti pomoću ove tvornice elemenata, koja je registrirana u programu kao `element_factory`. Prilikom pisanja usluge ili dodatka, tvornica elemenata može se ubaciti u uslugu na sljedeći način:"
-
-#. type: Fenced code block (python)
-#: tutorials/plugins.md
-#, no-wrap
-msgid ""
-"class MyThing:\n"
-"    def do_something(self):\n"
-"        element_factory = Application.get_service('element_factory')\n"
-"        items = element_factory.select()\n"
-msgstr ""
-"class MyThing:\n"
-"    def do_something(self):\n"
-"        element_factory = Application.get_service('element_factory')\n"
-"        items = element_factory.select()\n"
-
-#. type: Plain text
-#: tutorials/plugins.md
-msgid "In the console window services can be retrieved by using the `service()` function. For example:"
-msgstr "U prozoru konzole, usluge se mogu dohvatiti korištenjem funkcije `service()`. Na primjer:"
-
-#. type: Fenced code block (python)
-#: tutorials/plugins.md
-#, no-wrap
-msgid "ef = service('element_factory')\n"
-msgstr "ef = service('element_factory')\n"
-
-#. type: Title ##
-#: tutorials/plugins.md
-#, no-wrap
-msgid "Querying the Data Model"
-msgstr "Ispitivanje modela podataka"
-
-#. type: Plain text
-#: tutorials/plugins.md
-msgid "Two methods are used for querying:"
-msgstr "Za ispitivanje se koriste dvije metode:"
-
-#. type: Bullet: '-   '
-#: tutorials/plugins.md
-msgid "`select(query=None)` -> returns an iterator"
-msgstr "`select(query=None)` -> vraća ponavljajuće"
-
-#. type: Bullet: '-   '
-#: tutorials/plugins.md
-msgid "`lselect(query=None)` -> returns a list"
-msgstr "`lselect(query=None)` -> vraća popis"
-
-#. type: Plain text
-#: tutorials/plugins.md
-msgid "`query` is a lambda function with the element as parameter. For example, to fetch all the Class instances from the element factory:"
-msgstr "`query` je lambda funkcija s elementom kao parametrom. Na primjer, za dohvaćanje svih instanci klasa iz tvornice elemenata:"
-
-#. type: Fenced code block (python)
-#: tutorials/plugins.md
-#, no-wrap
-msgid "element_factory.select(lambda e: e.isKindOf(UML.Class))\n"
-msgstr "element_factory.select(lambda e: e.isKindOf(UML.Class))\n"
-
-#. type: Title ##
-#: tutorials/plugins.md
-#, no-wrap
-msgid "Traversing Data Instances"
-msgstr "Prolaženje kroz instance podataka"
-
-#. type: Plain text
-#: tutorials/plugins.md
-msgid "Once some classes are obtained, it is common to traverse through a few related objects in order to get the required information. For example: to iterate through all parameters related to a class' operations:"
-msgstr "Kad se dobiju neke klase, mora se proći kroz nekoliko povezanih objekata za dobivanje potrebne informacije. Na primjer: za prolaženje kroz sve parametre vezanih uz operacije klase:"
-
-#. type: Fenced code block (python)
-#: tutorials/plugins.md
-#, no-wrap
-msgid ""
-"for o in classes.ownedOperation:\n"
-"    for p in o.ownedParameter:\n"
-"        do_something(p)\n"
-msgstr ""
-"for o in classes.ownedOperation:\n"
-"    for p in o.ownedParameter:\n"
-"        do_something(p)\n"
-
-#. type: Plain text
-#: tutorials/plugins.md
-msgid "Using the `[:]` operator items can be traversed more easily:"
-msgstr "Operator `[:]` olakšava prolaženje kroz elemente:"
-
-#. type: Fenced code block (python)
-#: tutorials/plugins.md
-#, no-wrap
-msgid ""
-"for o in classes.ownedOperation[:].ownedParameter:\n"
-"    do_something(p)\n"
-msgstr ""
-"for o in classes.ownedOperation[:].ownedParameter:\n"
-"    do_something(p)\n"
-
-#. type: Title ##
-#: tutorials/plugins.md
-#, no-wrap
-msgid "Example Plugin"
-msgstr "Primjer dodatka"
-
-#. type: Plain text
-#: tutorials/plugins.md
-msgid "An example Hello World plugin is hosted on [GitHub](https://github.com/gaphor/gaphor.plugins.helloworld)."
-msgstr "Primjer dodatka „Hello World” nalazi se na GitHubu(https://github.com/gaphor/gaphor.plugins.helloworld)."
-
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: tutorials/report-bugs.md
 #, no-wrap
 msgid "How to report a bug in Gaphor"
@@ -388,7 +260,7 @@ msgstr "Koristi jednostavan jezik za opisivanje problema i, ako treba, navedi ra
 msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the [Gaphor developer's website](https://docs.gaphor.org/en/latest)."
 msgstr "Ako se želiš uključiti u razvoj Gaphora, pridruži nam se na Gaphor [web-stranici za programere](https://docs.gaphor.org/hr/latest)."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _usps/01-platform.md
 #, no-wrap
 msgid "Multi-platform"
@@ -399,7 +271,7 @@ msgstr "Višeplatformski"
 msgid "Gaphor works on all major platforms: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
 msgstr "Gaphor radi na svim glavnim platformama: [Windows]({{ \"/download/#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download#macos\" | prepend: site.baseurl }} }) i [Linux]({{ \"/download/#linux\" | prepend: site.baseurl }})."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _usps/02-opensource.md
 #, no-wrap
 msgid "Open Source"
@@ -410,7 +282,7 @@ msgstr "Otvoreni kod"
 msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
 msgstr "Neovisno o proizvođaču: Gaphor je napisan u Pythonu, 100 % otvorenog koda, dostupan pod [Apache 2 licencom](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _usps/03-beginner-pro.md
 #, no-wrap
 msgid "Beginner or Pro"
@@ -421,7 +293,7 @@ msgstr "Za početnike ili profesionalace"
 msgid "Whether you're a casual modeler documenting a project or a Model Driven Development expert, Gaphor has got you covered."
 msgstr "Svejedno jesi li običan modelar koji dokumentira projekte ili stručnjak za softverski razvoj modela, Gaphor sadrži sve što trebaš."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _usps/04-consistent.md
 #, no-wrap
 msgid "Consistent"
@@ -432,7 +304,7 @@ msgstr "Dosljedan"
 msgid "UML is a graphical modeling language, so all information you put in the model is visible in the diagrams. For example, stereotypes are modeled in diagrams.  No hidden panels and property pages. Just diagrams!"
 msgstr "UML je jezik za grafičko modeliranje, tako da su sve u model unesene informacije vidljive u dijagramima. Na primjer, stereotipi se modeliraju u dijagramima. Nema skrivenih ploča i stranica sa svojstvima. Samo dijagrami!"
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _usps/05-extensible.md
 #, no-wrap
 msgid "Extensible"
@@ -443,7 +315,7 @@ msgstr "Proširiv"
 msgid "Gaphor is extensible. Plug-in a code generator or export your diagrams for documentation.  Create your own extensions and access them through the GUI or CLI."
 msgstr "Gaphor je proširiv. Dodaj generator koda ili izvezi dijagrame za dokumentaciju. Stvori vlastita proširenja i pristupi im putem grafičkog sučelja ili putem naredbenog retka."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _usps/06-standard.md
 #, no-wrap
 msgid "Standards Compliant"
@@ -454,7 +326,7 @@ msgstr "Sukladan standardima"
 msgid "Gaphor implements the UML, SysML, and RAAML OMG standards. It also includes support for the C4 model for visualizing software architectures."
 msgstr "Gaphor implementira UML, SysML i RAAML OMG standarde. Također uključuje podršku za model C4 za vizualiziranje arhitektura softvera."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _pages/contribute.md
 #, no-wrap
 msgid "Contribute"
@@ -490,7 +362,7 @@ msgstr ""
 "Zatraži pomoć pri problemima na stranici <a href=\"../discuss\">kontaktiraj zajednicu</a> i \n"
 "netko će te sigurno moći usmjeriti u pravom smjeru.\n"
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _pages/discuss.md
 #, no-wrap
 msgid "Get in touch"
@@ -508,31 +380,22 @@ msgstr "Doprinosi su dobrodošli bez predrasuda od bilo koga, bez obzira na dob,
 
 #. type: Title ##
 #: _pages/discuss.md
-#, no-wrap
-msgid "Chat on Gitter"
+#, fuzzy, no-wrap
+#| msgid "Chat on Gitter"
+msgid "Chat on [matrix]"
 msgstr "Raspravljaj na Gitteru"
 
 #. type: Plain text
 #: _pages/discuss.md
-msgid "Our real-time conversations are on Gitter and are bridged to Matrix.  Matrix is the preferred way, since it's more use friendly than bare Gitter."
-msgstr "Naši razgovori uživo vode se na Gitteru i povezani su s Matrixom. Matrix je poželjniji način, budući da je pogodniji za korištenje od Gittera."
+msgid "Our real-time conversations are on [matrix]. You can join using a chat client like Element, Fractal, or one of the other many options."
+msgstr ""
 
 #. type: Plain text
 #: _pages/discuss.md
-#, no-wrap
-msgid "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join Matrix with Element.io](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)\n"
+#, fuzzy, no-wrap
+#| msgid "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join Matrix with Element.io](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)\n"
+msgid "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join [matrix]](https://matrix.to/#/#gaphor_Lobby:gitter.im)\n"
 msgstr "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Pridruži se Matrixu s Element.io](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)\n"
-
-#. type: Plain text
-#: _pages/discuss.md
-#, no-wrap
-msgid "[<i class=\"fab fa-gitter\"></i> Join Gitter Chat](https://gitter.im/gaphor/lobby)\n"
-msgstr "[<i class=\"fab fa-gitter\"></i> Pridruži se raspravama na Gitteru](https://gitter.im/gaphor/lobby)\n"
-
-#. type: Plain text
-#: _pages/discuss.md
-msgid "NB. If you're using a mobile device, use the [Element app](https://element.io/get-started) (for Matrix), the Gitter app is no longer supported."
-msgstr "VAŽNO. Ako koristiš mobilni uređaj, koristi [program Element](https://element.io/get-started) (za Matrix), aplikacija Gitter se više ne podržava."
 
 #. type: Title ##
 #: _pages/discuss.md
@@ -567,7 +430,7 @@ msgstr "Očekujemo od doprinositelja da se [pridržavaju GNOME-ovog kodeksa](htt
 msgid "We want our community to be a safe, welcoming and friendly place.  We won't hesitate to issue a clear warning and, if ignored, ban people who don't behave in the spirit of the code of conduct. If a conduct related situation arises, we will endeavour to act in a discreet, sympathetic and fair manner to all concerned."
 msgstr "Želimo da naša zajednica bude sigurno, gostoljubivo i prijateljsko mjesto. Nećemo oklijevati izdati jasno upozorenje i, ako se upozorenje zanemari, isključiti osobe koje se ne ponašaju u duhu kodeksa. Ako dođe do situacije u vezi s kodeksom, nastojat ćemo djelovati na diskretan, prijateljski i pošten način prema svim dotičnim osobama."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _pages/tutorials.md
 #, no-wrap
 msgid "Tutorials"
@@ -596,28 +459,12 @@ msgstr "<i class=\"fab fa-youtube\"></i> [Uvod u Gaphor i SysML](https://youtu.b
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
 msgid "[How to report a bug in Gaphor]({{ \"/tutorials/report-bugs/\" | prepend: site.baseurl }})"
-msgstr "[Kako prijaviti grešku u Gaphoru]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
+msgstr "[Kako prijaviti grešku u Gaphoru]({{ \"/tutorials/report-bugs/\" | prepend: site.baseurl }})"
 
-#. type: Title ##
+#. type: Plain text
 #: _pages/tutorials.md
-#, no-wrap
-msgid "Advanced topics"
-msgstr "Napredne teme"
-
-#. type: Bullet: '- '
-#: _pages/tutorials.md
-msgid "[Extend your models with stereotypes](https://docs.gaphor.org/en/latest/stereotypes.html)"
-msgstr "[Proširi svoje modele sa stereotipima](https://docs.gaphor.org/hr/latest/stereotypes.html)"
-
-#. type: Bullet: '- '
-#: _pages/tutorials.md
-msgid "[Writing a plugin]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
-msgstr "[Pisanje dodataka]({{ \"/tutorials/plugins/\" | prepend: site.baseurl }})"
-
-#. type: Bullet: '- '
-#: _pages/tutorials.md
-msgid "[Technical and architectural documentation](https://docs.gaphor.org/en/latest) for contributors and plugin developers"
-msgstr "[Tehnička i arhitektonska dokumentacija](https://docs.gaphor.org/hr/latest) za doprinositelje i programere dodataka"
+msgid "You can find a lot more info on the [Gaphor Documnentation site](https://docs.gaphor.org/)."
+msgstr ""
 
 #. type: Title ##
 #: _pages/tutorials.md
@@ -651,22 +498,12 @@ msgstr "Što kažu drugi"
 msgid "There are some 10+ year old articles on Gaphor on the web. Some more recent articles are:"
 msgstr "Na webu postoje članci o Gaphoru koji su stari više od 10 godina. Neki noviji članci su:"
 
-#. type: Bullet: '- '
+#. type: Plain text
 #: _pages/tutorials.md
-msgid "[Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)"
-msgstr "[Web-mjesto „Methods & Tools” pregledalo je Gaphor verziju 2.7.1 u prosincu 2021. na Windowsu 10.](https://www.methodsandtools.com/tools/gaphor.php)"
+msgid "- [Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)  - [It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)  - [Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
+msgstr ""
 
-#. type: Bullet: '- '
-#: _pages/tutorials.md
-msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
-msgstr "[Na stranici „It's FOSS” postoji kratak članak o Gaphoru (ca. verzija 2.8?).](https://itsfoss.com/gaphor-modeling-tool/)"
-
-#. type: Bullet: '- '
-#: _pages/tutorials.md
-msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
-msgstr "[Ubuntu Pit sadrži članak o Gaphoru (ca. verzija 2.8?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
-
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _pages/download.md
 #, no-wrap
 msgid "Download Gaphor"
@@ -699,103 +536,23 @@ msgstr "**Stranica nije pronađena :(**\n"
 msgid "The requested page could not be found."
 msgstr "Zatražena stranica nije pronađena."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _pages/index.md
 #, no-wrap
 msgid "Modeling for Everyone"
 msgstr "Modeliranje za svakoga"
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _pages/blog.md
 #, no-wrap
 msgid "Blog and News"
 msgstr "Blog i novosti"
 
-#, no-wrap
-#~ msgid "AppImage"
-#~ msgstr "AppImage"
+#~ msgid "[Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)"
+#~ msgstr "[Web-mjesto „Methods & Tools” pregledalo je Gaphor verziju 2.7.1 u prosincu 2021. na Windowsu 10.](https://www.methodsandtools.com/tools/gaphor.php)"
 
-#~ msgid "The other option if you are running a recent Linux distribution is to use the [AppImage](https://appimage.org/). It is built using Ubuntu 18.04 and most likely won't work on older versions."
-#~ msgstr "Ako koristiš nedavnu distribuciju Linuxa, druga mogućnost je korištenje [AppImagea](https://appimage.org/). Izgrađena je pomoću Ubuntu 18.04 i najvjerojatnije neće raditi na starijim verzijama."
+#~ msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
+#~ msgstr "[Na stranici „It's FOSS” postoji kratak članak o Gaphoru (ca. verzija 2.8?).](https://itsfoss.com/gaphor-modeling-tool/)"
 
-#, no-wrap
-#~ msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\"><i class=\"fa fa-download\"></i> Download AppImage</a>\n"
-#~ msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\"><i class=\"fa fa-download\"></i> Preuzmi AppImage</a>\n"
-
-#, no-wrap
-#~ msgid ""
-#~ "chmod +x Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-#~ "./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-#~ msgstr ""
-#~ "chmod +x Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-#~ "./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-
-#~ msgid "If you're using Wayland and the AppImage crashes, you can force it to use the X11 backend instead."
-#~ msgstr "Ako koristiš Wayland i ako AppImage ne radi, možeš prisiliti Wayland da umjesto toga koristi pozadinu X11."
-
-#, no-wrap
-#~ msgid "GDK_BACKEND=x11 ./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-#~ msgstr "GDK_BACKEND=x11 ./Gaphor-{{ site.gaphor_version }}-x86_64.AppImage\n"
-
-#~ msgid "<a href=\"report-bugs\">How to report a bug in Gaphor</a>"
-#~ msgstr "<a href=\"report-bugs\">Kako prijaviti grešku u Gaphoru</a>"
-
-#, no-wrap
-#~ msgid "Get started with Gaphor"
-#~ msgstr "Počni raditi s Gaphorom"
-
-#~ msgid "This page has moved to https://docs.gaphor.org/en/latest/getting_started.html."
-#~ msgstr "Ova je stranica premještena na https://docs.gaphor.org/en/latest/getting_started.html."
-
-#, no-wrap
-#~ msgid "Your First Model"
-#~ msgstr "Tvoj prvi model"
-
-#~ msgid "This page has been moved to https://docs.gaphor.org/en/latest/first_model.html."
-#~ msgstr "Ova je stranica premještena na https://docs.gaphor.org/en/latest/first_model.html."
-
-#, no-wrap
-#~ msgid " Download installer\n"
-#~ msgstr " Preuzmi instalacijski program\n"
-
-#, no-wrap
-#~ msgid " Download portable version\n"
-#~ msgstr " Preuzmi prenosivu verziju\n"
-
-#, no-wrap
-#~ msgid " Download .dmg\n"
-#~ msgstr " Preuzmi .dmg\n"
-
-#, no-wrap
-#~ msgid " Download AppImage\n"
-#~ msgstr " Preuzmi AppImage\n"
-
-#~ msgid "Report a Bug in Gaphor"
-#~ msgstr "Prijavi grešku u Gaphoru"
-
-#~ msgid "Gaphor works on all major platforms: Windows, Macos, and Linux."
-#~ msgstr "Gaphor radi na svim glavnim platformama: Windows, Macos i Linux."
-
-#, no-wrap
-#~ msgid " Join Matrix with Element.io\n"
-#~ msgstr " Pridruži se Matrixu s Element.io\n"
-
-#, no-wrap
-#~ msgid " Join Gitter Chat\n"
-#~ msgstr " Pridruži se raspravama na Gitteru\n"
-
-#, no-wrap
-#~ msgid " Submit an Issue on GitHub\n"
-#~ msgstr " Prijavi problem na GitHubu\n"
-
-#~ msgid "Get Started with Gaphor"
-#~ msgstr "Počni raditi s Gaphorom"
-
-#~ msgid "Extend your models with stereotypes"
-#~ msgstr "Proširi svoje modele sa stereotipima"
-
-#~ msgid "Writing a plugin"
-#~ msgstr "Pisanje dodatka"
-
-#~ msgid "Ubuntu Pit has a nice article on Gaphor (~2.8-ish?)."
-#~ msgstr "„Ubuntu Pit” ima lijep članak o Gaphoru (ca. verzija 2.8?)."
+#~ msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
+#~ msgstr "[Ubuntu Pit sadrži članak o Gaphoru (ca. verzija 2.8?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
