@@ -27,7 +27,7 @@ latest-news-and-blog:
   blog-content: |
     Želiš znati što se događa s Gaphorom? Čitaj naš blog!
 
-    [Obrati se timu](/discuss) ako želiš obavijestiti o nečemu u vezi s Gaphorom.
+    [Kontaktiraj tim](/discuss) ako želiš dijeliti sadržaj u vezi s Gaphorom.
   see-blog: Pogledaj blog
   read-more: Čitaj dalje
   blog-and-news: Blog i novosti
@@ -47,6 +47,6 @@ footer:
   copyright: Autorska prava &copy; 2020. – 2023. Arjan Molenaar i Dan Yeaw.
   theme: Dizajn
   code: Doprinesi kodu
-  chat-on: Razgovaraj s nama
+  chat-on: Diskutiraj s nama
 languages:
   change: Promijeni
