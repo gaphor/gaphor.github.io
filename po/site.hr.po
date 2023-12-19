@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-12-17 00:43+0000\n"
-"PO-Revision-Date: 2023-04-29 13:23+0000\n"
+"POT-Creation-Date: 2023-12-19 20:46+0000\n"
+"PO-Revision-Date: 2023-12-19 14:07+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hr/>\n"
 "Language: hr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: YAML Front Matter: title
 #: _platforms/01-windows.md
@@ -188,7 +188,7 @@ msgstr "Kako prijaviti grešku u Gaphoru"
 #. type: Plain text
 #: tutorials/report-bugs.md
 msgid "If you've ever written a line of code, you'll know that all software has bugs.  This will also be the case with Gaphor. If you think you have found a bug, simply click on the link below (you'll need to have an account on GitHub) and then click the green \"New Issue\" button found at the top right hand side of the page:"
-msgstr "Svatko tko je ikada napisao redak koda, zna, da svaki softver sadrži greške. To će biti slučaj i s Gaphorom. Ako misliš da si pronašao/la grešku, jednostavno pritisni na donju poveznicu (moraš imati račun na GitHubu), a zatim pritisni zeleni gumb „New Issue” (Novi problem) koji se nalazi u gornjem desnom kutu stranice:"
+msgstr "Svatko tko je ikada napisao redak koda, zna, da svaki softver sadrži greške. To će biti slučaj i s Gaphorom. Ako misliš da si pronašao/la grešku, jednostavno pritisni donju poveznicu (moraš imati račun na GitHubu) a zatim pritisni zeleni gumb „New Issue” (Novi problem) koji se nalazi u gornjem desnom kutu stranice:"
 
 #. type: Plain text
 #: tutorials/report-bugs.md
@@ -340,17 +340,17 @@ msgstr "Želiš doprinijeti razvoju Gaphora? Ako misliš da je ovo samo za iskus
 #. type: Plain text
 #: _pages/contribute.md
 msgid "Our [technical documentation](https://docs.gaphor.org/en/latest) is hosted on the wonderful service that is [Read the Docs](https://readthedocs.com/). Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
-msgstr "Naša se [tehnička dokumentacija](https://docs.gaphor.org/hr/latest) čuva na usluzi [„Read the Docs”](https://readthedocs.com/). Ne samo da sadrži potrebne pojedinosti za doprinošenje kodu Gaphora, već opisuje i mnoge druge načine za doprinošenje (uključujući aktualiziranje ove web-stranice). Na kraju krajeva, pruža vodič za naše procese i očekivanja za različite vrste doprinosa Gaphoru."
+msgstr "Naša se [tehnička dokumentacija](https://docs.gaphor.org/hr/latest) čuva na usluzi [„Read the Docs”](https://readthedocs.com/). Ne samo da sadrži potrebne detalje za doprinošenje kodu aplikacije Gaphor, već opisuje i mnoge druge načine za doprinošenje (uključujući aktualiziranje ove web-stranice). Također objašnjava naše procese i očekivanja za različite vrste doprinosa Gaphoru."
 
 #. type: Plain text
 #: _pages/contribute.md
 msgid "The source code is hosted on [GitHub](https://github.com/gaphor/gaphor)."
-msgstr "Izvorni kod se nalazi na [GitHubu](https://github.com/gaphor/gaphor)."
+msgstr "Izvorni kod se nalazi na [GitHub](https://github.com/gaphor/gaphor) platformi."
 
 #. type: Plain text
 #: _pages/contribute.md
 msgid "Help translate Gaphor on [Weblate](https://hosted.weblate.org/engage/gaphor/)."
-msgstr "Pomogni prevesti Gaphor na [Weblate](https://hosted.weblate.org/engage/gaphor/)."
+msgstr "Pomogni prevesti Gaphor na [Weblate](https://hosted.weblate.org/engage/gaphor/) platformi."
 
 #. type: Plain text
 #: _pages/contribute.md
@@ -359,7 +359,7 @@ msgid ""
 "If in doubt, just ask in our <a href=\"../discuss\">discussion area</a> and\n"
 "someone will be able to point you in the right direction.\n"
 msgstr ""
-"Zatraži pomoć pri problemima na stranici <a href=\"../discuss\">kontaktiraj zajednicu</a> i \n"
+"U nedoumici idi na stranicu za <a href=\"../discuss\">kontaktiranje zajednice</a> i \n"
 "netko će te sigurno moći usmjeriti u pravom smjeru.\n"
 
 #. type: YAML Front Matter: title
@@ -371,31 +371,29 @@ msgstr "Kontaktiraj zajednicu"
 #. type: Plain text
 #: _pages/discuss.md
 msgid "It's good to talk, share knowledge and learn from other users of Gaphor. Perhaps you have a question, problem or are unsure how to do something with Gaphor? Discussing such things in a supportive environment is a good way to make progress, make friends, and help. Put simply, Gaphor is a community focused project, and we have created a couple of online spaces where the community can come together."
-msgstr "Dobro je razgovarati, dijeliti znanje i učiti od drugih korisnika Gaphora. Možda imaš pitanje, problem ili ne znaš kako nešto učiniti s Gaphorom? Rasprava o takvim stvarima u okruženju podrške dobar je način za napredovanje, sklapanje prijateljstva i pomoć. Jednostavno rečeno, Gaphor je zajednički projekt, a mi smo stvorili nekoliko mogućnosti gdje se zajednica može okupiti."
+msgstr "Dobro je razgovarati, dijeliti znanje i učiti od drugih korisnika Gaphora. Možda imaš pitanje, problem ili ne znaš kako nešto učiniti s Gaphorom? Diskusije o takvim stvarima su dobar način za napredovanje, sklapanje prijateljstva i pomoć. Jednostavno rečeno, Gaphor je zajednički projekt, a mi smo stvorili nekoliko mogućnosti gdje se zajednica može okupiti."
 
 #. type: Plain text
 #: _pages/discuss.md
 msgid "Contributions are welcome without prejudice from anyone irrespective of age, gender, religion, race, or sexuality. If you’re thinking, \"but they don't mean me\", then we especially mean YOU."
-msgstr "Doprinosi su dobrodošli bez predrasuda od bilo koga, bez obzira na dob, spol, vjeru, rasu ili seksualno opredeljenje. Ako misliš, „ali oni ne misle na mene”, onda prije svega mislimo na TEBE."
+msgstr "Doprinosi su dobrodošli bez predrasuda od bilo koga, bez obzira na dob, spol, vjeru, rasu ili seksualno opredeljenje. Ako misliš, „ali oni ne misle na mene”, onda svakako mislimo na TEBE."
 
 #. type: Title ##
 #: _pages/discuss.md
-#, fuzzy, no-wrap
-#| msgid "Chat on Gitter"
+#, no-wrap
 msgid "Chat on [matrix]"
-msgstr "Raspravljaj na Gitteru"
+msgstr "Diskutiraj na [matrix] mreži"
 
 #. type: Plain text
 #: _pages/discuss.md
 msgid "Our real-time conversations are on [matrix]. You can join using a chat client like Element, Fractal, or one of the other many options."
-msgstr ""
+msgstr "Za razgovore uživo koristimo [matrix] mrežu. Možeš im se pridružiti pomoću aplikacija kao što su Element, Fractal ili koristi jednu od drugih mnogih opcija."
 
 #. type: Plain text
 #: _pages/discuss.md
-#, fuzzy, no-wrap
-#| msgid "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join Matrix with Element.io](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)\n"
+#, no-wrap
 msgid "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join [matrix]](https://matrix.to/#/#gaphor_Lobby:gitter.im)\n"
-msgstr "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Pridruži se Matrixu s Element.io](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)\n"
+msgstr "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Pridruži se [matrix] mreži](https://matrix.to/#/#gaphor_Lobby:gitter.im)\n"
 
 #. type: Title ##
 #: _pages/discuss.md
@@ -464,7 +462,7 @@ msgstr "[Kako prijaviti grešku u Gaphoru]({{ \"/tutorials/report-bugs/\" | prep
 #. type: Plain text
 #: _pages/tutorials.md
 msgid "You can find a lot more info on the [Gaphor Documnentation site](https://docs.gaphor.org/)."
-msgstr ""
+msgstr "Više informacija možeš pronaći na stranici [Gaphor dokumentacije](https://docs.gaphor.org/)."
 
 #. type: Title ##
 #: _pages/tutorials.md
