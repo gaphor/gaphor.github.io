@@ -7,15 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-12-12 20:54-0500\n"
-"PO-Revision-Date: 2023-12-12 08:05+0000\n"
+"PO-Revision-Date: 2023-12-30 07:07+0000\n"
 "Last-Translator: Сергей <asvmail.as@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/gaphor/"
+"gaphor-github-io/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/01-windows.md
@@ -60,7 +62,7 @@ msgstr "winget install gaphor\n"
 #. type: Plain text
 #: _platforms/01-windows.md
 msgid "To check out the latest release notes and other details:"
-msgstr "Чтобы проверить список последних изменений:"
+msgstr "Проверить список последних изменений:"
 
 #. type: Fenced code block (bash)
 #: _platforms/01-windows.md
@@ -117,7 +119,10 @@ msgstr "Flatpak"
 #. type: Plain text
 #: _platforms/03-linux.md
 msgid "[Flatpak](https://flatpak.org/) is the recommended way to install Gaphor in Linux. If you don't have it setup already, follow the instructions to [install Flatpak](https://flatpak.org/setup)."
-msgstr "Рекомендуется использовать [Flatpak](https://flatpak.org/) для установки Gaphor на Linux. Если у вас не установлен Flatpak, следуйте инструкции по [установке Flatpak](https://flatpak.org/setup)."
+msgstr ""
+"Для установки Gaphor в Linux рекомендуется использовать "
+"[Flatpak](https://flatpak.org/). Если у вас не установлен Flatpak, следуйте "
+"инструкции по [установке Flatpak](https://flatpak.org/setup)."
 
 #. type: Plain text
 #: _platforms/03-linux.md
@@ -162,12 +167,21 @@ msgstr "Python"
 #. type: Plain text
 #: _platforms/04-python.md
 msgid "If you have the latest stable version of Python installed and the Gaphor dependencies installed, you can also install Gaphor using a wheel from [PyPI](https://pypi.org/project/gaphor/)."
-msgstr "Если у вас установлена последняя стабильная версия Python и зависимостей Gaphor, вы можете установить Gaphor использую wheel с [PyPI](https://pypi.org/project/gaphor/)."
+msgstr ""
+"Если у вас установлена последняя стабильная версия Python и необходимые для "
+"Gaphor зависимости, вы можете установить Gaphor используя wheel из "
+"[PyPI](https://pypi.org/project/gaphor/)."
 
 #. type: Plain text
 #: _platforms/04-python.md
 msgid "If you don't have the latest stable version of Python and the Gaphor dependencies installed, follow the development environment [installation instructions](https://docs.gaphor.org/en/latest) section, but do not clone the repository. Optionally, create a [virtual environment](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments).  Then execute the following:"
-msgstr "Если у вас не установлена последняя стабильная версия Python и зависимости Gaphor, следуйте инструкциям по установке среды разработки (https://docs.gaphor.org/en/latest), но не клонируйте репозиторий. При желании создайте [виртуальную среду](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments).  Затем выполните следующее:"
+msgstr ""
+"Если у вас не установлена последняя стабильная версия Python и необходимые "
+"для Gaphor зависимости, следуйте [инструкциям по установке](https://docs."
+"gaphor.org/en/latest) для соответствующей среды разработки, но не клонируйте "
+"репозиторий. При желании создайте [виртуальную среду](https://packaging."
+"python.org/tutorials/installing-packages/#creating-virtual-environments).  "
+"Затем выполните:"
 
 #. type: Fenced code block (bash)
 #: _platforms/04-python.md
@@ -264,7 +278,7 @@ msgstr "Если вы хотите принять более активное у
 #: _usps/01-platform.md
 #, no-wrap
 msgid "Multi-platform"
-msgstr "Мультиплатформенность"
+msgstr "Мультиплатформенный"
 
 #. type: Plain text
 #: _usps/01-platform.md
@@ -297,34 +311,44 @@ msgstr "Независимо от того, являетесь ли вы обы�
 #: _usps/04-consistent.md
 #, no-wrap
 msgid "Consistent"
-msgstr ""
+msgstr "Последовательный"
 
 #. type: Plain text
 #: _usps/04-consistent.md
 msgid "UML is a graphical modeling language, so all information you put in the model is visible in the diagrams. For example, stereotypes are modeled in diagrams.  No hidden panels and property pages. Just diagrams!"
 msgstr ""
+"UML — это язык графического моделирования, поэтому вся информация, которую "
+"вы помещаете в модель, видна на диаграммах. Стереотипы, например, "
+"моделируются в диаграммах.  Никаких скрытых полей и страниц свойств. Только "
+"схемы!"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/05-extensible.md
 #, no-wrap
 msgid "Extensible"
-msgstr ""
+msgstr "Расширяемый"
 
 #. type: Plain text
 #: _usps/05-extensible.md
 msgid "Gaphor is extensible. Plug-in a code generator or export your diagrams for documentation.  Create your own extensions and access them through the GUI or CLI."
 msgstr ""
+"Gaphor является расширяемым. Вы можете подключить генератор кода или "
+"экспортировать диаграммы для документации.  Создавайте свои собственные "
+"расширения и получайте к ним доступ через графический интерфейс пользователя "
+"или командную строку."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/06-standard.md
 #, no-wrap
 msgid "Standards Compliant"
-msgstr ""
+msgstr "Соответствующий стандартам"
 
 #. type: Plain text
 #: _usps/06-standard.md
 msgid "Gaphor implements the UML, SysML, and RAAML OMG standards. It also includes support for the C4 model for visualizing software architectures."
 msgstr ""
+"Gaphor реализует стандарты UML, SysML и RAAML OMG. Он также поддерживает "
+"модель C4 для визуализации архитектур программного обеспечения."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/contribute.md
@@ -336,11 +360,22 @@ msgstr "Участвовать"
 #: _pages/contribute.md
 msgid "Would you like to contribute to the development of Gaphor? (If you think this is only something for experienced developers, please reconsider, there are plenty of ways to contribute to Gaphor, no matter your level of experience or skill set."
 msgstr ""
+"Хотели бы вы внести свой вклад в развитие Gaphor? (Если вы считаете, что это "
+"занятие только для опытных разработчиков, подумайте ещё раз: существует "
+"множество способов внести свой вклад в Gaphor, независимо от вашего уровня "
+"опыта или навыков."
 
 #. type: Plain text
 #: _pages/contribute.md
 msgid "Our [technical documentation](https://docs.gaphor.org/en/latest) is hosted on the wonderful service that is [Read the Docs](https://readthedocs.com/). Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
 msgstr ""
+"Наша [техническая документация](https://docs.gaphor.org/en/latest) размещена "
+"на замечательном сервисе [Read the Docs](https://readthedocs.com/). Он не "
+"только содержит подробную информацию, необходимую для внесения кода в "
+"Gaphor, но также описывает множество других способов, которыми вы можете "
+"внести свой вклад (включая обновление этого веб-сайта). Наконец, он "
+"представляет собой руководство по нашим процессам и ожиданиям в отношении "
+"различных типов вкладов, которые вы можете сделать."
 
 #. type: Plain text
 #: _pages/contribute.md
@@ -372,30 +407,44 @@ msgstr "Связь с нами"
 #: _pages/discuss.md
 msgid "It's good to talk, share knowledge and learn from other users of Gaphor. Perhaps you have a question, problem or are unsure how to do something with Gaphor? Discussing such things in a supportive environment is a good way to make progress, make friends, and help. Put simply, Gaphor is a community focused project, and we have created a couple of online spaces where the community can come together."
 msgstr ""
+"Приятно общаться, делиться знаниями и учиться у других пользователей Gaphor. "
+"Возможно, у вас есть вопрос, проблема или вы не уверены, как что-то сделать "
+"в Gaphor? Обсуждение таких вещей в благоприятной обстановке - хороший способ "
+"добиться прогресса, завести друзей и получить помощь. Проще говоря, Gaphor - "
+"это проект, ориентированный на сообщество, и мы создали пару онлайн-"
+"пространств, где сообщество может собираться вместе."
 
 #. type: Plain text
 #: _pages/discuss.md
 msgid "Contributions are welcome without prejudice from anyone irrespective of age, gender, religion, race, or sexuality. If you’re thinking, \"but they don't mean me\", then we especially mean YOU."
 msgstr ""
+"Вклады приветствуются без каких-либо предубеждений от любого лица, "
+"независимо от возраста, пола, религии, расы или сексуальной ориентации. Если "
+"вы думаете , что «они не имеют в виду меня», то мы в первую очередь имеем в "
+"виду ВАС."
 
 #. type: Title ##
 #: _pages/discuss.md
-#, fuzzy, no-wrap
-#| msgid "Chat on Gitter"
+#, no-wrap
 msgid "Chat on [matrix]"
-msgstr "Общение на Gitter"
+msgstr "Общение на [matrix]"
 
 #. type: Plain text
 #: _pages/discuss.md
 msgid "Our real-time conversations are on [matrix]. You can join using a chat client like Element, Fractal, or one of the other many options."
 msgstr ""
+"Наше общение в реальном происходит идёт на [matrix]. Вы также можете "
+"присоединиться, используя клиент обмена сообщениями, такой как Element, "
+"Fractal или один из множества других вариантов."
 
 #. type: Plain text
 #: _pages/discuss.md
-#, fuzzy, no-wrap
-#| msgid "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join Matrix with Element.io](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)\n"
+#, no-wrap
 msgid "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join [matrix]](https://matrix.to/#/#gaphor_Lobby:gitter.im)\n"
-msgstr "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Присоединяйтесь к Matrix с помощью Element.io](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)\n"
+msgstr ""
+"[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\""
+" /> Присоединяйтесь к [matrix]](https://matrix.to/#/#gaphor_Lobby:gitter.im)"
+"\n"
 
 #. type: Title ##
 #: _pages/discuss.md
@@ -418,17 +467,25 @@ msgstr "[<i class=\"fab fa-github\"></i> Сообщить о проблеме н
 #: _pages/discuss.md
 #, no-wrap
 msgid "Community Conduct"
-msgstr ""
+msgstr "Правила поведения в сообществе"
 
 #. type: Plain text
 #: _pages/discuss.md
 msgid "We expect contributors to follow the GNOME [Code of Conduct](https://wiki.gnome.org/Foundation/CodeOfConduct)."
 msgstr ""
+"Мы ожидаем, что участники будут следовать [Кодексу поведения "
+"GNOME](https://wiki.gnome.org/Foundation/CodeOfConduct)."
 
 #. type: Plain text
 #: _pages/discuss.md
 msgid "We want our community to be a safe, welcoming and friendly place.  We won't hesitate to issue a clear warning and, if ignored, ban people who don't behave in the spirit of the code of conduct. If a conduct related situation arises, we will endeavour to act in a discreet, sympathetic and fair manner to all concerned."
 msgstr ""
+"Мы хотим, чтобы наше сообщество было безопасным, гостеприимным и дружелюбным "
+"местом.  Мы без колебаний сделаем чёткое предупреждение и, если его "
+"проигнорируют, забаним людей, которые ведут себя не в духе кодекса "
+"поведения. Если возникнет ситуация, связанная с поведением, мы постараемся "
+"действовать осмотрительно, дружелюбно и справедливо по отношению ко всем "
+"заинтересованным сторонам."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/tutorials.md
@@ -465,6 +522,8 @@ msgstr "[Как сообщить об ошибке в Gaphor]({{ \"/tutorials/re
 #: _pages/tutorials.md
 msgid "You can find a lot more info on the [Gaphor Documnentation site](https://docs.gaphor.org/)."
 msgstr ""
+"Дополнительную информацию можно найти на [Gaphor Documnentation "
+"site](https://docs.gaphor.org/)."
 
 #. type: Title ##
 #: _pages/tutorials.md
