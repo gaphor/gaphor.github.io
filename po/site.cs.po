@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-12-19 20:46+0000\n"
-"PO-Revision-Date: 2023-05-03 14:48+0000\n"
+"POT-Creation-Date: 2023-12-30 13:42+0000\n"
+"PO-Revision-Date: 2023-12-30 07:07+0000\n"
 "Last-Translator: vikdevelop <super-vik1@protonmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/cs/>\n"
 "Language: cs\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #. type: YAML Front Matter: title
 #: _platforms/01-windows.md
@@ -380,22 +380,20 @@ msgstr "Příspěvky jsou vítány bez předsudků od kohokoli bez ohledu na vě
 
 #. type: Title ##
 #: _pages/discuss.md
-#, fuzzy, no-wrap
-#| msgid "Chat on Gitter"
+#, no-wrap
 msgid "Chat on [matrix]"
-msgstr "Chat na Gitteru"
+msgstr "Chat na [matrixu]"
 
 #. type: Plain text
 #: _pages/discuss.md
 msgid "Our real-time conversations are on [matrix]. You can join using a chat client like Element, Fractal, or one of the other many options."
-msgstr ""
+msgstr "Naše konverzace v reálném čase jsou na službě [matrix]. Můžete se připojit pomocí chatovacího klienta jako jsou Element, Fractal, nebo jedna z mnoha dalších možností."
 
 #. type: Plain text
 #: _pages/discuss.md
-#, fuzzy, no-wrap
-#| msgid "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join Matrix with Element.io](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)\n"
+#, no-wrap
 msgid "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join [matrix]](https://matrix.to/#/#gaphor_Lobby:gitter.im)\n"
-msgstr "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Připojte se k protokolu Matrix služby Element.io](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)\n"
+msgstr "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Připojit se na [matrixu]](https://matrix.to/#/#gaphor_Lobby:gitter.im)\n"
 
 #. type: Title ##
 #: _pages/discuss.md
@@ -464,7 +462,7 @@ msgstr "[Jak nahlásit chybu v Gaphoru]({{ \"/tutorials/report-bugs/\" | prepend
 #. type: Plain text
 #: _pages/tutorials.md
 msgid "You can find a lot more info on the [Gaphor Documnentation site](https://docs.gaphor.org/)."
-msgstr ""
+msgstr "Můžete najít spoustu dalších informací [na stránkách dokumentace programu Gaphor](https://docs.gaphor.org/)."
 
 #. type: Title ##
 #: _pages/tutorials.md
