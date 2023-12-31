@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-12-30 13:42+0000\n"
-"PO-Revision-Date: 2023-04-25 15:49+0000\n"
+"POT-Creation-Date: 2023-12-31 13:10+0000\n"
+"PO-Revision-Date: 2023-12-31 10:08+0000\n"
 "Last-Translator: ovari <ovari123@zoho.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hu/>\n"
 "Language: hu\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #. type: YAML Front Matter: title
 #: _platforms/01-windows.md
@@ -380,22 +380,20 @@ msgstr "Kortól, nemtől, vallástól, fajtól vagy szexuális hovatartozástól
 
 #. type: Title ##
 #: _pages/discuss.md
-#, fuzzy, no-wrap
-#| msgid "Chat on Gitter"
+#, no-wrap
 msgid "Chat on [matrix]"
-msgstr "Csevegés a Gitteren"
+msgstr "Csevegés a [mátrix]-on"
 
 #. type: Plain text
 #: _pages/discuss.md
 msgid "Our real-time conversations are on [matrix]. You can join using a chat client like Element, Fractal, or one of the other many options."
-msgstr ""
+msgstr "Valós idejű beszélgetéseink a [mátrix]-on zajlanak. Csatlakozhat egy csevegőügyfél, például az Element, a Fractal vagy a többi lehetőség valamelyikével."
 
 #. type: Plain text
 #: _pages/discuss.md
-#, fuzzy, no-wrap
-#| msgid "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join Matrix with Element.io](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)\n"
+#, no-wrap
 msgid "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join [matrix]](https://matrix.to/#/#gaphor_Lobby:gitter.im)\n"
-msgstr "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Csatlakozzon a Matrixhoz az Element.io-val](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)\n"
+msgstr "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Csatlakozzon [mátrix]-hoz](https://matrix.to/#/#gaphor_Lobby:gitter.im)\n"
 
 #. type: Title ##
 #: _pages/discuss.md
@@ -464,7 +462,7 @@ msgstr "[A Gaphor hibájának bejelentése]({{ \"/tutorials/report-bugs/\" | pre
 #. type: Plain text
 #: _pages/tutorials.md
 msgid "You can find a lot more info on the [Gaphor Documnentation site](https://docs.gaphor.org/)."
-msgstr ""
+msgstr "Sokkal több információt találhat a [Gaphor dokumentációs webhelyén](https://docs.gaphor.org/)."
 
 #. type: Title ##
 #: _pages/tutorials.md

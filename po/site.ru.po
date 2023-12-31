@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-12-30 13:42+0000\n"
-"PO-Revision-Date: 2023-12-30 07:07+0000\n"
+"POT-Creation-Date: 2023-12-31 13:10+0000\n"
+"PO-Revision-Date: 2023-12-31 10:08+0000\n"
 "Last-Translator: Сергей <asvmail.as@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/ru/>\n"
 "Language: ru\n"
@@ -162,7 +162,7 @@ msgstr "Python"
 #. type: Plain text
 #: _platforms/04-python.md
 msgid "If you have the latest stable version of Python installed and the Gaphor dependencies installed, you can also install Gaphor using a wheel from [PyPI](https://pypi.org/project/gaphor/)."
-msgstr "Если у вас установлена последняя стабильная версия Python и необходимые для Gaphor зависимости, вы можете установить Gaphor используя wheel из [PyPI](https://pypi.org/project/gaphor/)."
+msgstr "Если у вас установлена последняя стабильная версия Python и необходимые для Gaphor зависимости, то можете установить Gaphor используя wheel из [PyPI](https://pypi.org/project/gaphor/)."
 
 #. type: Plain text
 #: _platforms/04-python.md
@@ -387,7 +387,7 @@ msgstr "Общение на [matrix]"
 #. type: Plain text
 #: _pages/discuss.md
 msgid "Our real-time conversations are on [matrix]. You can join using a chat client like Element, Fractal, or one of the other many options."
-msgstr "Наше общение в реальном происходит идёт на [matrix]. Вы также можете присоединиться, используя клиент обмена сообщениями, такой как Element, Fractal или один из множества других вариантов."
+msgstr "Наше общение в реальном времени идёт на [matrix]. Вы также можете присоединиться, используя клиент обмена сообщениями, такой как Element, Fractal или один из множества других вариантов."
 
 #. type: Plain text
 #: _pages/discuss.md
@@ -510,7 +510,7 @@ msgstr "Загрузить Gaphor"
 #. type: Plain text
 #: _pages/download.md
 msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
-msgstr "Есть много способов установить Gaphor. Самый простой — загрузить официальный установщик для Windows или macOS. Для Linux вы можете установить Gaphor с помощью FlatHub. Вы также можете использовать встроенный в Python инструмент pip, если у вас установлены все необходимые зависимости."
+msgstr "Есть много способов установить Gaphor. Самый простой — загрузить официальный установщик для Windows или macOS. В Linux вы можете установить Gaphor с помощью FlatHub. Кроме того, можете использовать встроенный в Python инструмент pip, если у вас установлены все необходимые зависимости."
 
 #. type: Plain text
 #: _pages/download.md
