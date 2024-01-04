@@ -1,33 +1,54 @@
 index:
   thousand-words: >
-  learn: ''
+    Un'immagine vale più di mille parole. Descrivi e documenta le tue applicazioni
+    e i tuoi sistemi con Gaphor per migliorare la condivisione delle conoscenze.
+  learn: 'Scopri di più'
   about-content: >
+    Gaphor è un'applicazione di modellazione UML, SysML, RAAML e C4. È stato progettato
+    per essere facile da usare, pur essendo potente. Gaphor implementa un modello
+    di dati UML 2 pienamente conforme, quindi è molto più di uno strumento per disegnare
+    immagini. Con Gaphor è possibile visualizzare rapidamente diversi aspetti di un
+    sistema e creare modelli completi e molto complessi.
   build: >
-  styling-engine: ''
-  treeview: ''
-  dark-mode: ''
+    Crea diagrammi di classe, interazione e macchina a stati per il software o diagrammi
+    di definizione dei blocchi e requisiti per i sistemi. Modella gli elementi di
+    cui hai bisogno. Se desideri combinare diverse rappresentazioni, puoi aggiungere
+    anche elementi di diagrammi diversi allo stesso diagramma per ottenere la visualizzazione
+    desiderata.
+  styling-engine: 'Personalizza i diagrammi che crei con il nostro motore di styling
+    integrato.'
+  treeview: 'Trova facilmente tutti gli elementi del tuo modello nella visuale ad
+    albero.'
+  dark-mode: 'Ti piace la modalità scura? Anche noi possiamo farlo.'
   download-content: >
+    Esistono molti modi per installare Gaphor. Il modo più semplice è scaricare il
+    programma di installazione ufficiale per Windows o macOS. Per Linux puoi installare
+    Gaphor usando FlatHub. Puoi anche utilizzare lo strumento integrato `pip` di Python
+    purché tu abbia installato tutte le dipendenze richieste.
 latest-news-and-blog:
   blog-content: |
-  see-blog: ''
-  read-more: ''
-  blog-and-news: ''
-  by: ''
+    Vuoi sapere che sta succedendo con Gaphor? Leggi il nostro blog!
+
+    [Contatta il team](/discuss) se vuoi condividere contenuti correlato a Gaphor.
+  see-blog: 'Vedi blog'
+  read-more: 'Leggi di più'
+  blog-and-news: 'Blog e Notizie'
+  by: 'Da'
 menu:
-  home: ''
-  about: ''
-  download: ''
-  tutorials: ''
-  blog: ''
-  discuss: ''
-  contribute: ''
+  home: 'Home'
+  about: 'Informazioni'
+  download: 'Download'
+  tutorials: 'Tutorial'
+  blog: 'Blog'
+  discuss: 'Entra in contatto'
+  contribute: 'Contribuisci'
 footer:
-  love: ''
-  chat-on: ''
-  code: ''
-  open-issue: ''
-  tech-docs: ''
-  copyright: ''
-  theme: ''
+  love: 'Ci piace sentire la tua opinione'
+  chat-on: 'Chatta con noi'
+  code: 'Contribuisci al codice sorgente'
+  open-issue: 'Segnala un problema'
+  tech-docs: 'Leggi la documentazione'
+  copyright: 'Copyright &copy; 2020-2023 Arjan Molenaar e Dan Yeaw.'
+  theme: 'Tema'
 languages:
-  change: ''
+  change: 'Cambia'
