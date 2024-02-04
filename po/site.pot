@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-01-31 23:39+0000\n"
+"POT-Creation-Date: 2024-02-04 08:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -489,6 +489,12 @@ msgstr ""
 #: _pages/tutorials.md
 #, markdown-text
 msgid "<i class=\"fab fa-youtube\"></i> [Introduction to Gaphor and SysML](https://youtu.be/PnWKsr2csXg), presented by Dan at a joint INCOSE Michigan and Michigan Python event."
+msgstr ""
+
+#. type: Bullet: '1. '
+#: _pages/tutorials.md
+#, markdown-text
+msgid "<i class=\"fab fa-youtube\"></i> [Automating MBSE Models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA), presented by Dan at a Michigan Python event."
 msgstr ""
 
 #. type: Bullet: '1. '
