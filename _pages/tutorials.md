@@ -16,6 +16,8 @@ goals.
 1. <i class="fab fa-youtube"></i> [Introduction to Gaphor and
    SysML](https://youtu.be/PnWKsr2csXg), presented by Dan at a joint INCOSE
    Michigan and Michigan Python event.
+1. <i class="fab fa-youtube"></i> [Automating MBSE Models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA),
+   presented by Dan at a Michigan Python event.
 1. [How to report a bug in Gaphor]({{ "/tutorials/report-bugs/" | prepend: site.baseurl }})
 
 You can find a lot more info on the [Gaphor Documnentation site](https://docs.gaphor.org/).

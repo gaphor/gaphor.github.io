@@ -6,11 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-12-12 20:54-0500\n"
+"POT-Creation-Date: 2024-02-03 22:31-0500\n"
 "PO-Revision-Date: 2023-12-16 11:08+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/gaphor/"
-"gaphor-github-io/nl/>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -452,6 +451,13 @@ msgstr "[Uw eerste model](https://docs.gaphor.org/en/latest/first_model.html)"
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
 msgid "<i class=\"fab fa-youtube\"></i> [Introduction to Gaphor and SysML](https://youtu.be/PnWKsr2csXg), presented by Dan at a joint INCOSE Michigan and Michigan Python event."
+msgstr "<i class=\"fab fa-youtube\"></i> [Introductie tot Gaphor en SysML](https://youtu.be/PnWKsr2csXg), gepresenteerd door Dan op en gecombineerd event van INCOSE Michigan en Michigan Python."
+
+#. type: Bullet: '1. '
+#: _pages/tutorials.md
+#, fuzzy
+#| msgid "<i class=\"fab fa-youtube\"></i> [Introduction to Gaphor and SysML](https://youtu.be/PnWKsr2csXg), presented by Dan at a joint INCOSE Michigan and Michigan Python event."
+msgid "<i class=\"fab fa-youtube\"></i> [Automating MBSE Models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA), presented by Dan at a Michigan Python event."
 msgstr "<i class=\"fab fa-youtube\"></i> [Introductie tot Gaphor en SysML](https://youtu.be/PnWKsr2csXg), gepresenteerd door Dan op en gecombineerd event van INCOSE Michigan en Michigan Python."
 
 #. type: Bullet: '1. '

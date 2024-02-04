@@ -6,17 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-12-12 20:54-0500\n"
+"POT-Creation-Date: 2024-02-03 22:31-0500\n"
 "PO-Revision-Date: 2023-12-31 10:08+0000\n"
 "Last-Translator: Сергей <asvmail.as@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/gaphor/"
-"gaphor-github-io/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.4-dev\n"
 
 #. type: Yaml Front Matter Hash Value: title
@@ -511,6 +509,13 @@ msgstr "[Ваша первая модель](https://docs.gaphor.org/en/latest/f
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
 msgid "<i class=\"fab fa-youtube\"></i> [Introduction to Gaphor and SysML](https://youtu.be/PnWKsr2csXg), presented by Dan at a joint INCOSE Michigan and Michigan Python event."
+msgstr "<i class=\"fab fa-youtube\"></i> [Введение в Gaphor и SysML](https://youtu.be/PnWKsr2csXg), представленное Dan на совместном мероприятии INCOSE Michigan и Michigan Python."
+
+#. type: Bullet: '1. '
+#: _pages/tutorials.md
+#, fuzzy
+#| msgid "<i class=\"fab fa-youtube\"></i> [Introduction to Gaphor and SysML](https://youtu.be/PnWKsr2csXg), presented by Dan at a joint INCOSE Michigan and Michigan Python event."
+msgid "<i class=\"fab fa-youtube\"></i> [Automating MBSE Models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA), presented by Dan at a Michigan Python event."
 msgstr "<i class=\"fab fa-youtube\"></i> [Введение в Gaphor и SysML](https://youtu.be/PnWKsr2csXg), представленное Dan на совместном мероприятии INCOSE Michigan и Michigan Python."
 
 #. type: Bullet: '1. '
