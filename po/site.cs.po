@@ -6,15 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-02-04 08:09+0000\n"
-"PO-Revision-Date: 2023-12-30 07:07+0000\n"
+"POT-Creation-Date: 2024-02-07 00:19+0000\n"
+"PO-Revision-Date: 2024-02-06 15:01+0000\n"
 "Last-Translator: vikdevelop <super-vik1@protonmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 "X-Generator: Weblate 5.4-dev\n"
 
 #. type: YAML Front Matter: title
@@ -456,10 +456,10 @@ msgstr "<i class=\"fab fa-youtube\"></i> [Úvod do Gaphoru a SysML](https://yout
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
-#, fuzzy
-#| msgid "<i class=\"fab fa-youtube\"></i> [Introduction to Gaphor and SysML](https://youtu.be/PnWKsr2csXg), presented by Dan at a joint INCOSE Michigan and Michigan Python event."
 msgid "<i class=\"fab fa-youtube\"></i> [Automating MBSE Models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA), presented by Dan at a Michigan Python event."
-msgstr "<i class=\"fab fa-youtube\"></i> [Úvod do Gaphoru a SysML](https://youtu.be/PnWKsr2csXg), kterou Dan prezentoval na společné akci INCOSE Michigan and Michigan Python."
+msgstr ""
+"<i class=\"fab fa-youtube\"></i> [Automatické modely MBSE s programem Gaphor a Python](https://youtu.be/9BYgI1nJCBA),\n"
+"prezentováno Dan v Python event Michiganu."
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
