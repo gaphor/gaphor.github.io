@@ -44,9 +44,11 @@ menu:
   home: Start
 footer:
   love: We horen graag van u
-  open-issue: Een issue openen op GitHub
-  tech-docs: Technische documentatie
+  open-issue: Een probleem melden
+  tech-docs: Documentatie lezen
   copyright: Copyright &copy; 2020-2023 Arjan Molenaar en Dan Yeaw.
   theme: Thema
+  chat-on: Chatten met ons
+  code: Code bijdragen
 languages:
   change: Wijzigen
