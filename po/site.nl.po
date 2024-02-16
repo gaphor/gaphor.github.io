@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-02-16 02:41+0000\n"
-"PO-Revision-Date: 2023-12-16 11:08+0000\n"
+"POT-Creation-Date: 2024-02-16 21:52+0000\n"
+"PO-Revision-Date: 2024-02-16 21:01+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/nl/>\n"
 "Language: nl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4\n"
 
 #. type: YAML Front Matter: title
 #: _platforms/01-windows.md
@@ -385,14 +385,13 @@ msgstr "Praat mee op [matrix]"
 #. type: Plain text
 #: _pages/discuss.md
 msgid "Our real-time conversations are on [matrix]. You can join using a chat client like Element, Fractal, or one of the other many options."
-msgstr ""
+msgstr "Onze realtime gesprekken vinden plaats op [matrix]. U kunt deelnemen via een chat-app zoals Element, Fractal of een van de vele andere opties."
 
 #. type: Plain text
 #: _pages/discuss.md
-#, fuzzy, no-wrap
-#| msgid "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join Matrix with Element.io](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)\n"
+#, no-wrap
 msgid "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join [matrix]](https://matrix.to/#/#gaphor_Lobby:gitter.im)\n"
-msgstr "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Neem deel aan de Matrix-chat via Element.io](https://app.element.io/#/room/#gaphor_Lobby:gitter.im)\n"
+msgstr "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Deelnemen aan [matrix]](https://matrix.to/#/#gaphor_Lobby:gitter.im)\n"
 
 #. type: Title ##
 #: _pages/discuss.md
@@ -455,10 +454,8 @@ msgstr "<i class=\"fab fa-youtube\"></i> [Introductie tot Gaphor en SysML](https
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
-#, fuzzy
-#| msgid "<i class=\"fab fa-youtube\"></i> [Introduction to Gaphor and SysML](https://youtu.be/PnWKsr2csXg), presented by Dan at a joint INCOSE Michigan and Michigan Python event."
 msgid "<i class=\"fab fa-youtube\"></i> [Automating MBSE Models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA), presented by Dan at a Michigan Python event."
-msgstr "<i class=\"fab fa-youtube\"></i> [Introductie tot Gaphor en SysML](https://youtu.be/PnWKsr2csXg), gepresenteerd door Dan op en gecombineerd event van INCOSE Michigan en Michigan Python."
+msgstr "<i class=\"fab fa-youtube\"></i> [Automating MBSE Models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA), gepresenteerd door Dan op een Michigan Python-evenement."
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
@@ -468,7 +465,7 @@ msgstr "[Een probleem in Gaphor melden]({{ \"/tutorials/report-bugs/\" | prepend
 #. type: Plain text
 #: _pages/tutorials.md
 msgid "You can find a lot more info on the [Gaphor Documnentation site](https://docs.gaphor.org/)."
-msgstr ""
+msgstr "U kunt veel meer informatie vinden op de [documentatie­site](https://docs.gaphor.org/)."
 
 #. type: Title ##
 #: _pages/tutorials.md
