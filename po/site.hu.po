@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-02-16 21:52+0000\n"
-"PO-Revision-Date: 2023-12-31 10:08+0000\n"
+"POT-Creation-Date: 2024-02-26 14:28+0000\n"
+"PO-Revision-Date: 2024-02-26 10:02+0000\n"
 "Last-Translator: ovari <ovari123@zoho.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hu/>\n"
 "Language: hu\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #. type: YAML Front Matter: title
 #: _platforms/01-windows.md
@@ -456,10 +456,8 @@ msgstr "<i class=\"fab fa-youtube\"></i> [Gaphor és SysML bemutatása](https://
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
-#, fuzzy
-#| msgid "<i class=\"fab fa-youtube\"></i> [Introduction to Gaphor and SysML](https://youtu.be/PnWKsr2csXg), presented by Dan at a joint INCOSE Michigan and Michigan Python event."
 msgid "<i class=\"fab fa-youtube\"></i> [Automating MBSE Models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA), presented by Dan at a Michigan Python event."
-msgstr "<i class=\"fab fa-youtube\"></i> [Gaphor és SysML bemutatása](https://youtu.be/PnWKsr2csXg), Dan bemutatta egy közös Michigani INCOSE és Michigani Python eseményen."
+msgstr "<i class=\"fab fa-youtube\"></i> [MBSE-modellek automatizálása Gaphor és Python segítségével](https://youtu.be/9BYgI1nJCBA), Dan bemutatta egy michigani Python eseményen."
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
