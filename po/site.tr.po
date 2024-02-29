@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-02-26 14:28+0000\n"
+"POT-Creation-Date: 2024-02-29 08:00+0000\n"
 "PO-Revision-Date: 2023-04-08 20:52+0000\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/tr/>\n"
@@ -466,6 +466,16 @@ msgstr ""
 #: _pages/tutorials.md
 #, no-wrap
 msgid "Talks"
+msgstr ""
+
+#. type: Bullet: '- '
+#: _pages/tutorials.md
+msgid "Frank Vanbever spoke at [FOSDEM 2024](https://fosdem.org/2024): [Drop the docs and embrace the model with Gaphor](https://fosdem.org/2024/schedule/event/fosdem-2024-2542-drop-the-docs-and-embrace-the-model-with-gaphor/)."
+msgstr ""
+
+#. type: Bullet: '- '
+#: _pages/tutorials.md
+msgid "Dan explains how to [automate MBSE models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA)."
 msgstr ""
 
 #. type: Bullet: '- '

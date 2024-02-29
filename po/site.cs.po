@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-02-26 14:28+0000\n"
+"POT-Creation-Date: 2024-02-29 08:00+0000\n"
 "PO-Revision-Date: 2024-02-06 15:01+0000\n"
 "Last-Translator: vikdevelop <super-vik1@protonmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/cs/>\n"
@@ -476,6 +476,20 @@ msgstr "Můžete najít spoustu dalších informací [na stránkách dokumentace
 #, no-wrap
 msgid "Talks"
 msgstr "Rozhovory"
+
+#. type: Bullet: '- '
+#: _pages/tutorials.md
+msgid "Frank Vanbever spoke at [FOSDEM 2024](https://fosdem.org/2024): [Drop the docs and embrace the model with Gaphor](https://fosdem.org/2024/schedule/event/fosdem-2024-2542-drop-the-docs-and-embrace-the-model-with-gaphor/)."
+msgstr ""
+
+#. type: Bullet: '- '
+#: _pages/tutorials.md
+#, fuzzy
+#| msgid "<i class=\"fab fa-youtube\"></i> [Automating MBSE Models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA), presented by Dan at a Michigan Python event."
+msgid "Dan explains how to [automate MBSE models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA)."
+msgstr ""
+"<i class=\"fab fa-youtube\"></i> [Automatické modely MBSE s programem Gaphor a Python](https://youtu.be/9BYgI1nJCBA),\n"
+"prezentováno Dan v Python event Michiganu."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
