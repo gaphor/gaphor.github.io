@@ -23,7 +23,8 @@ goals.
 You can find a lot more info on the [Gaphor Documnentation site](https://docs.gaphor.org/).
 
 ## Talks
-
+- Frank Vanbever spoke at [FOSDEM 2024](https://fosdem.org/2024): [Drop the docs and embrace the model with Gaphor](https://fosdem.org/2024/schedule/event/fosdem-2024-2542-drop-the-docs-and-embrace-the-model-with-gaphor/).
+- Dan explains how to [automate MBSE models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA).
 - Dan and Arjan spoke at [Linux App Summit 2021](https://linuxappsummit.org/)
   about [how Gaphor is made available to all desktop platforms
   Linux/Windows/macOS](https://www.youtube.com/watch?v=vLwAT-TLmZU).
