@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-02-29 08:00+0000\n"
+"POT-Creation-Date: 2024-03-01 10:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -525,6 +525,12 @@ msgstr ""
 #: _pages/tutorials.md
 #, markdown-text
 msgid "Dan explains how to [automate MBSE models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA)."
+msgstr ""
+
+#. type: Bullet: '- '
+#: _pages/tutorials.md
+#, markdown-text
+msgid "Dan presented [Modeling Complex Systems in Python with Gaphor](https://www.youtu.be/PnWKsr2csXg) on a joint INCOSE/Python Michigan meetup."
 msgstr ""
 
 #. type: Bullet: '- '
