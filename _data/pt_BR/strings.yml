@@ -1,0 +1,52 @@
+index:
+  thousand-words: >
+    Uma imagem vale mil palavras. Descreva e documente seus aplicativos e sistemas
+    com Gaphor para melhorar o compartilhamento de conhecimento.
+  learn: 'Saiba mais'
+  about-content: >
+    Gaphor é um aplicativo de modelagem UML, SysML, RAAML e C4. Ele foi projetado
+    para ser fácil de usar e ao mesmo tempo poderoso. Gaphor implementa um modelo
+    de dados totalmente compatível com UML 2, portanto é muito mais do que uma ferramenta
+    de desenho de imagens. Você pode usar o Gaphor para visualizar rapidamente diferentes
+    aspectos de um sistema, bem como criar modelos completos e altamente complexos.
+  build: >
+    Crie diagramas de Classe, Interação e Máquina de Estados para software ou diagramas
+    de Definição de Bloco e Requisitos para sistemas. Modele os elementos que você
+    precisa. Se quiser misturar e combinar, você pode até adicionar diferentes itens
+    de diagrama ao mesmo diagrama para obter a visualização necessária.
+  styling-engine: 'Personalize os diagramas que você cria com o nosso motor de estilo
+    integrado.'
+  treeview: 'Encontre facilmente todo o elemento do seu modelo na visão de árvore.'
+  dark-mode: 'Ama modo escuro? Também podemos fazer isso.'
+  download-content: >
+    Há muitas maneiras de instalar o Gaphor. O mais simples é baixar o instalador
+    oficial para Windows ou macOS. Para Linux você pode instalar Gaphor usando FlatHub.
+    Você também pode usar a ferramenta `pip` incorporada no Python desde que você
+    tinha todas as dependências necessárias instaladas.
+latest-news-and-blog:
+  blog-content: |
+    Você quer saber o que se passa com o Gaphor? Leia nosso blog!
+
+    [Contate a equipe](/discuss) se você quiser compartilhar conteúdo relacionado com Gaphor.
+  see-blog: 'Veja o blog'
+  read-more: 'Leia mais'
+  blog-and-news: 'Blog e notícias'
+  by: 'Por'
+menu:
+  home: 'Início'
+  about: 'Sobre'
+  download: 'Baixar'
+  tutorials: 'Tutoriais'
+  blog: 'Blog'
+  discuss: 'Entre em contato'
+  contribute: 'Contribuir'
+footer:
+  love: 'Nós gostamos de ouvir de você'
+  chat-on: 'Converse conosco'
+  code: 'Contribua com código'
+  open-issue: 'Submeta um relatório de problema'
+  tech-docs: 'Leia a documentação'
+  copyright: 'Copyright &copy; 2020-2023 Arjan Molenaar e Dan Yeaw.'
+  theme: 'Tema'
+languages:
+  change: 'Alterar'
