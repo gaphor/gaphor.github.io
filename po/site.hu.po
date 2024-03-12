@@ -6,11 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-02-03 22:31-0500\n"
+"POT-Creation-Date: 2024-03-12 19:04-0400\n"
 "PO-Revision-Date: 2024-02-26 10:02+0000\n"
 "Last-Translator: ovari <ovari123@zoho.com>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/gaphor/"
-"gaphor-github-io/hu/>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -388,18 +387,13 @@ msgstr "Csevegés a [mátrix]-on"
 #. type: Plain text
 #: _pages/discuss.md
 msgid "Our real-time conversations are on [matrix]. You can join using a chat client like Element, Fractal, or one of the other many options."
-msgstr ""
-"Valós idejű beszélgetéseink a [mátrix]-on zajlanak. Csatlakozhat egy "
-"csevegőügyfél, például az Element, a Fractal vagy a többi lehetőség "
-"valamelyikével."
+msgstr "Valós idejű beszélgetéseink a [mátrix]-on zajlanak. Csatlakozhat egy csevegőügyfél, például az Element, a Fractal vagy a többi lehetőség valamelyikével."
 
 #. type: Plain text
 #: _pages/discuss.md
 #, no-wrap
 msgid "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join [matrix]](https://matrix.to/#/#gaphor_Lobby:gitter.im)\n"
-msgstr ""
-"[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\""
-" /> Csatlakozzon [mátrix]-hoz](https://matrix.to/#/#gaphor_Lobby:gitter.im)\n"
+msgstr "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Csatlakozzon [mátrix]-hoz](https://matrix.to/#/#gaphor_Lobby:gitter.im)\n"
 
 #. type: Title ##
 #: _pages/discuss.md
@@ -463,10 +457,7 @@ msgstr "<i class=\"fab fa-youtube\"></i> [Gaphor és SysML bemutatása](https://
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
 msgid "<i class=\"fab fa-youtube\"></i> [Automating MBSE Models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA), presented by Dan at a Michigan Python event."
-msgstr ""
-"<i class=\"fab fa-youtube\"></i> [MBSE-modellek automatizálása Gaphor és "
-"Python segítségével](https://youtu.be/9BYgI1nJCBA), Dan bemutatta egy "
-"michigani Python eseményen."
+msgstr "<i class=\"fab fa-youtube\"></i> [MBSE-modellek automatizálása Gaphor és Python segítségével](https://youtu.be/9BYgI1nJCBA), Dan bemutatta egy michigani Python eseményen."
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
@@ -475,16 +466,33 @@ msgstr "[A Gaphor hibájának bejelentése]({{ \"/tutorials/report-bugs/\" | pre
 
 #. type: Plain text
 #: _pages/tutorials.md
-msgid "You can find a lot more info on the [Gaphor Documnentation site](https://docs.gaphor.org/)."
-msgstr ""
-"Sokkal több információt találhat a [Gaphor dokumentációs "
-"webhelyén](https://docs.gaphor.org/)."
+#, fuzzy
+#| msgid "You can find a lot more info on the [Gaphor Documnentation site](https://docs.gaphor.org/)."
+msgid "You can find a lot more info on the [Gaphor Documentation site](https://docs.gaphor.org/)."
+msgstr "Sokkal több információt találhat a [Gaphor dokumentációs webhelyén](https://docs.gaphor.org/)."
 
 #. type: Title ##
 #: _pages/tutorials.md
 #, no-wrap
 msgid "Talks"
 msgstr "Beszélgetések"
+
+#. type: Bullet: '- '
+#: _pages/tutorials.md
+msgid "Frank Vanbever spoke at [FOSDEM 2024](https://fosdem.org/2024): [Drop the docs and embrace the model with Gaphor](https://fosdem.org/2024/schedule/event/fosdem-2024-2542-drop-the-docs-and-embrace-the-model-with-gaphor/)."
+msgstr ""
+
+#. type: Bullet: '- '
+#: _pages/tutorials.md
+#, fuzzy
+#| msgid "<i class=\"fab fa-youtube\"></i> [Automating MBSE Models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA), presented by Dan at a Michigan Python event."
+msgid "Dan explains how to [automate MBSE models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA)."
+msgstr "<i class=\"fab fa-youtube\"></i> [MBSE-modellek automatizálása Gaphor és Python segítségével](https://youtu.be/9BYgI1nJCBA), Dan bemutatta egy michigani Python eseményen."
+
+#. type: Bullet: '- '
+#: _pages/tutorials.md
+msgid "Dan presented [Modeling Complex Systems in Python with Gaphor](https://www.youtu.be/PnWKsr2csXg) on a joint INCOSE/Python Michigan meetup."
+msgstr ""
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
