@@ -20,7 +20,7 @@ goals.
    presented by Dan at a Michigan Python event.
 1. [How to report a bug in Gaphor]({{ "/tutorials/report-bugs/" | prepend: site.baseurl }})
 
-You can find a lot more info on the [Gaphor Documnentation site](https://docs.gaphor.org/).
+You can find a lot more info on the [Gaphor Documentation site](https://docs.gaphor.org/).
 
 ## Talks
 - Frank Vanbever spoke at [FOSDEM 2024](https://fosdem.org/2024): [Drop the docs and embrace the model with Gaphor](https://fosdem.org/2024/schedule/event/fosdem-2024-2542-drop-the-docs-and-embrace-the-model-with-gaphor/).
