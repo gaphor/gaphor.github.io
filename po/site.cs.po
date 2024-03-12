@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-03-12 17:15+0000\n"
+"POT-Creation-Date: 2024-03-12 21:05+0000\n"
 "PO-Revision-Date: 2024-02-06 15:01+0000\n"
 "Last-Translator: vikdevelop <super-vik1@protonmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/cs/>\n"
@@ -468,7 +468,9 @@ msgstr "[Jak nahlásit chybu v Gaphoru]({{ \"/tutorials/report-bugs/\" | prepend
 
 #. type: Plain text
 #: _pages/tutorials.md
-msgid "You can find a lot more info on the [Gaphor Documnentation site](https://docs.gaphor.org/)."
+#, fuzzy
+#| msgid "You can find a lot more info on the [Gaphor Documnentation site](https://docs.gaphor.org/)."
+msgid "You can find a lot more info on the [Gaphor Documentation site](https://docs.gaphor.org/)."
 msgstr "Můžete najít spoustu dalších informací [na stránkách dokumentace programu Gaphor](https://docs.gaphor.org/)."
 
 #. type: Title ##
