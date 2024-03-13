@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gaphor.org" />
+    <meta property="og:site_name" content="Gaphor, the UML/SysML modeling tool" />
+    <link rel='dns-prefetch' href='https://fonts.bunny.net' />
+    <link rel='dns-prefetch' href='https://cdnjs.cloudflare.com' />
+    <link rel="shortcut icon" href="/images/gaphor-24x24.png" />
+
+    <link defer crossorigin="anonymous" rel='stylesheet'
+        href='https://fonts.bunny.net/css?family=open-sans:400,700|mulish:300,800,900'
+        type='text/css' media='all' />
+    <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" media='all' />
+    <link rel='stylesheet' href='/css/main.css' type='text/css' />
+    
+    <link rel="alternate" hreflang="cs" href="https://gaphor.org/cs/2020/08/05/gaphor-2.0-highlights/"/>
+    <link rel="alternate" hreflang="de" href="https://gaphor.org/de/2020/08/05/gaphor-2.0-highlights/"/>
+    <link rel="alternate" hreflang="en" href="https://gaphor.org/en/2020/08/05/gaphor-2.0-highlights/"/>
+    <link rel="alternate" hreflang="es" href="https://gaphor.org/es/2020/08/05/gaphor-2.0-highlights/"/>
+    <link rel="alternate" hreflang="hr" href="https://gaphor.org/hr/2020/08/05/gaphor-2.0-highlights/"/>
+    <link rel="alternate" hreflang="hu" href="https://gaphor.org/hu/2020/08/05/gaphor-2.0-highlights/"/>
+    <link rel="alternate" hreflang="it" href="https://gaphor.org/it/2020/08/05/gaphor-2.0-highlights/"/>
+    <link rel="alternate" hreflang="kmr" href="https://gaphor.org/kmr/2020/08/05/gaphor-2.0-highlights/"/>
+    <link rel="alternate" hreflang="nl" href="https://gaphor.org/nl/2020/08/05/gaphor-2.0-highlights/"/>
+    <link rel="alternate" hreflang="pt_BR" href="https://gaphor.org/pt_BR/2020/08/05/gaphor-2.0-highlights/"/>
+    <link rel="alternate" hreflang="ru" href="https://gaphor.org/ru/2020/08/05/gaphor-2.0-highlights/"/>
+    <link rel="alternate" hreflang="tr" href="https://gaphor.org/tr/2020/08/05/gaphor-2.0-highlights/"/>
+    <link rel="alternate" hreflang="uk" href="https://gaphor.org/uk/2020/08/05/gaphor-2.0-highlights/"/>
+    <link rel="alternate" hreflang="zh_Hans" href="https://gaphor.org/zh_Hans/2020/08/05/gaphor-2.0-highlights/"/>
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Gaphor 2.0 highlights | Gaphor</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Gaphor 2.0 highlights" />
+<meta name="author" content="Arjan Molenaar" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Gaphor 2.0 includes some big new features. They were a long time in the making, since most of the development work for Gaphor 1.2 was to lay the groundwork for the changes we wanted to implement for 2.0." />
+<meta property="og:description" content="Gaphor 2.0 includes some big new features. They were a long time in the making, since most of the development work for Gaphor 1.2 was to lay the groundwork for the changes we wanted to implement for 2.0." />
+<link rel="canonical" href="https://gaphor.org/uk/2020/08/05/gaphor-2.0-highlights/" />
+<meta property="og:url" content="https://gaphor.org/2020/08/05/gaphor-2.0-highlights/" />
+<meta property="og:site_name" content="Gaphor" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-08-05T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Gaphor 2.0 highlights" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Arjan Molenaar"},"dateModified":"2020-08-05T00:00:00+00:00","datePublished":"2020-08-05T00:00:00+00:00","description":"Gaphor 2.0 includes some big new features. They were a long time in the making, since most of the development work for Gaphor 1.2 was to lay the groundwork for the changes we wanted to implement for 2.0.","headline":"Gaphor 2.0 highlights","mainEntityOfPage":{"@type":"WebPage","@id":"https://gaphor.org/2020/08/05/gaphor-2.0-highlights/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://gaphor.org/images/gaphor-logo-white.svg"},"name":"Arjan Molenaar"},"url":"https://gaphor.org/2020/08/05/gaphor-2.0-highlights/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+</head>
+
+
+<body>
+
+	<div class="top-header">
+  <div class="container">
+    <div class="row">
+      <nav class="col-12 d-flex justify-content-end language-navigation">
+
+    <form action="/2020/08/05/gaphor-2.0-highlights/" method="get">
+
+        <select id="language-chooser-select" name="lang" autocomplete="off">
+            
+            <option value="cs" >
+                Čeština
+            </option>
+            
+            <option value="de" >
+                Deutsch
+            </option>
+            
+            <option value="en" >
+                English
+            </option>
+            
+            <option value="es" >
+                Español
+            </option>
+            
+            <option value="hr" >
+                Hrvatski
+            </option>
+            
+            <option value="hu" >
+                magyar
+            </option>
+            
+            <option value="it" >
+                italiano
+            </option>
+            
+            <option value="kmr" >
+                کورد
+            </option>
+            
+            <option value="nl" >
+                Nederlands
+            </option>
+            
+            <option value="pt_BR" >
+                português do Brasil
+            </option>
+            
+            <option value="ru" >
+                Русский
+            </option>
+            
+            <option value="tr" >
+                Türkçe
+            </option>
+            
+            <option value="uk" selected="selected" >
+                українська
+            </option>
+            
+            <option value="zh_Hans" >
+                中文（简体）
+            </option>
+            
+        </select>
+
+        <script src="/js/languages.js" async></script>
+
+        <noscript>
+            <input id="language-chooser-submit" type="submit" value="Змінити"/>
+        </noscript>
+
+    </form>
+</nav>
+
+    </div>
+    <div class="row">
+      <div class="col-10 col-lg-3">
+        <a href="/uk/" title="" class="header-logo">
+          
+          <img src="/images/gaphor-logo-white.svg" alt="Gaphor logo" />
+          
+          </a>
+      </div>
+      <div class="col-2 col-lg-9">
+        <label for="menu-toggle" class="open-responsive-menu"><i class="fa fa-bars"></i></label>
+        <nav class="header-navigation">
+          <ul>
+            <li><a href="/uk/#about">Про нас</a></li>
+            <li><a href="/uk/download">Завантажити</a></li>
+            <li><a href="/uk/tutorials">Посібник</a></li>
+            <li><a href="/uk/blog">Блог</a></li>
+            <li><a href="/uk/discuss">Зв'яжіться з нами</a></li>
+            <li><a href="/uk/contribute">Сприяти</a></li>
+            <li><a href="https://github.com/gaphor/gaphor"><i class='fab fa-github' style='font-size: 168%' title='GitHub repository'></i></a>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+<input id="menu-toggle" type="checkbox" hidden></input>
+<nav class="responsive-menu">
+  <label for="menu-toggle" class="close-responsive-menu"><i class="fa fa-times"></i></label>
+  <ul>
+    <li><a href="/uk/">Головна</a></li>
+    <li><a href="/uk/#about">Про нас</a></li>
+    <li><a href="/uk/download">Завантажити</a></li>
+    <li><a href="/uk/tutorials">Посібник</a></li>
+    <li><a href="/uk/blog">Блог</a></li>
+    <li><a href="/uk/discuss">Зв'яжіться з нами</a></li>
+    <li><a href="/uk/contribute">Сприяти</a></li>
+    <li><a href="https://github.com/gaphor/gaphor"><i class='fab fa-github' style='font-size: 168%' title='GitHub repository'></i></a>
+  </ul>
+</nav>
+
+
+<div class="default-page">
+<section id="static-page-content">
+    <div class="section-header"
+	 style="background-color: ; background-image: url(/images/gaphor-2.0-highlights/halfmodel-van-een-loodsboot-a116f8.jpg); background-size: cover; background-position: center; height: 38vh"
+     >
+    </div>
+    <p class="image-attribution"><a href="https://www.rijksmuseum.nl/nl/collectie/NG-MC-468">Image attribution</a></p>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10 offset-sm-1">
+                <h1>Gaphor 2.0 highlights</h1>
+                <p class="credits">Від Arjan Molenaar (2020-08-05)</p>
+                <p>Gaphor 2.0 includes some big new features. They were a long time in the making,
+since most of the development work for Gaphor 1.2 was to lay the groundwork for
+the changes we wanted to implement for 2.0.</p>
+
+<p>With 49 <a href="https://github.com/gaphor/gaphor/pulls?q=is%3Apr+is%3Aclosed++milestone%3A2.0.0">Pull
+requests</a>
+on GitHub, this is by far the biggest release we’ve done so far.</p>
+
+<!--break-->
+
+<p>So, what am I excited about you ask? Well, how about:</p>
+
+<ul>
+  <li>SysML support</li>
+  <li>Customizable style</li>
+  <li>Copy/paste functionality</li>
+  <li>New application logo</li>
+</ul>
+
+<h2 id="sysml-support">SysML support</h2>
+
+<p>By introducing SysML, Gaphor now has (basic) support for systems engineering.
+This new modeling language has been added as a module to the application,
+therefore, it’s also possible to add other modeling languages, either as part of
+Gaphor or as separately distributed plugins.</p>
+
+<p><img src="/images/gaphor-2.0-highlights/sysml.png" alt="sysml screenshot" /></p>
+
+<h2 id="customizable-style">Customizable style</h2>
+
+<p>Previously, all diagrams in Gaphor were black and white. For this release, we
+added a CSS styling engine that allow you to add color to your
+diagrams. There are some powerful styling options that allow you to implement
+consistent and aesthetically pleasing styles across your model. You can find
+more examples in the <a href="https://docs.gaphor.org/en/latest/style_sheets.html">technical
+documentation</a></p>
+
+<p><img src="/images/gaphor-2.0-highlights/style-sheets.png" alt="style extravaganza" /></p>
+
+<p>I may have overdone it for the screenshot, but you get the idea, right?</p>
+
+<h2 id="copypaste-functionality">Copy/paste functionality</h2>
+
+<p>Copy/paste functionality has been part of Gaphor for some time. However, it
+only worked if you did a copy operation and then pasted it directly after. It
+would fail if you removed a couple of items, or made other changes, between the copy
+and paste. This update made the copying and pasting much more robust. Now
+Gaphor makes an internal copy of the diagram item <em>and</em> the underlying model
+element. In an upcoming version you should be able to copy/paste between
+diagrams as well.</p>
+
+<h2 id="new-application-logo">New application logo</h2>
+
+<p>It’s 2020 and the old logo dated back from the early 2000’s. So it was about
+time for a new fresh logo.</p>
+
+<p><img src="/images/gaphor-2.0-highlights/old-gaphor-logo.png" alt="the old logo" />
+<img src="/images/gaphor-2.0-highlights/new-gaphor-logo.svg" alt="the new logo" /></p>
+
+<p><em>Old and new logo, side by side.</em></p>
+
+<p>We hope you’ll enjoy using Gaphor as much as we enjoy building it. <a href="/uk/download/">Give it a
+try</a> and let us know what you think.</p>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<link rel='stylesheet' href='/css/highlight.css' type='text/css' media='all' />
+
+</div>
+
+	<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-10 offset-sm-1">
+                <h5>Ми хотіли б почути вас</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-10 offset-sm-1 col-md-6 col-lg-4">
+                <ul class="fa-ul">
+                    <li><a href="https://matrix.to/#/#gaphor_Lobby:gitter.im"><i class="fa-li fa fa-angle-right"></i>
+                        <i class="far fa-comment"></i> Поспілкуватися з нами</a></li>
+                    <li><a href="https://github.com/gaphor/gaphor/issues"><i class="fa-li fa fa-angle-right"></i>
+                        <i class="fas fa-bug"></i> Повідомити про проблему</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-10 offset-sm-1 col-md-6 col-lg-4">
+                <ul class="fa-ul">
+                    <li><a href="https://docs.gaphor.org/en/latest"><i class="fa-li fa fa-angle-right"></i>
+                            <i class="fas fa-book"></i> Читати документацію</a></li>
+                    <li><a href="https://github.com/gaphor"><i class="fa-li fa fa-angle-right"></i>
+                        <i class="fab fa-github"></i> Зробити внесок у код</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-footer">
+        <div class="container">
+            <p class="copyright">
+                <span>Тема: <a href="https://colorlib.com/wp/themes/illdy/" title="Illdy">Illdy</a>.</span>
+                <span class="bottom-copyright">Copyright &copy; 2020-2023 Arjan Molenaar та Dan Yeaw.</span>
+            </p>
+        </div>
+    </div>
+
+</footer>
+
+<!-- page.url is / or /XX/ for translations -->
+
+
+
+    <script type="application/javascript">
+var codeBlocks = document.querySelectorAll('pre.highlight');
+
+codeBlocks.forEach(function (codeBlock) {
+  var copyButton = document.createElement('button');
+  copyButton.className = 'copy';
+  copyButton.type = 'button';
+  copyButton.ariaLabel = 'Copy code to clipboard';
+  copyButton.innerText = 'Copy';
+
+  codeBlock.append(copyButton);
+
+  copyButton.addEventListener('click', function () {
+    var code = codeBlock.querySelector('code').innerText.trim();
+    window.navigator.clipboard.writeText(code);
+
+    copyButton.innerText = 'Copied';
+    var fourSeconds = 4000;
+
+    setTimeout(function () {
+      copyButton.innerText = 'Copy';
+    }, fourSeconds);
+  });
+});
+</script>
+
+
+</body>
+
+</html>
