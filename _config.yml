@@ -91,3 +91,5 @@ exclude_from_localization:
   - js/
   - images
   - po/
+
+github: [metadata]
