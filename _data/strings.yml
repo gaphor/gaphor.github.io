@@ -45,7 +45,7 @@ footer:
   code: Contribute code
   open-issue: Submit an issue
   tech-docs: Read the docs
-  copyright: Copyright &copy; 2020-2023 Arjan Molenaar and Dan Yeaw.
+  copyright: Copyright &copy; 2020, The Gaphor Development Team.
   theme: Theme
 languages:
   change: Change
