@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-03-13 02:19+0000\n"
+"POT-Creation-Date: 2024-03-13 02:33+0000\n"
 "PO-Revision-Date: 2024-03-12 17:35+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/pt_BR/>\n"
@@ -492,7 +492,7 @@ msgstr "<i class=\"fab fa-youtube\"> </i> [Automatizando modelos MBSE com Gaphor
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "Dan presented [Modeling Complex Systems in Python with Gaphor](https://www.youtu.be/PnWKsr2csXg) on a joint INCOSE/Python Michigan meetup."
-msgstr ""
+msgstr "Dan e Arjan apresentaram na [Linux App Summit 2021](https://linuxappsummit.org/) sobre [como Gaphor é disponibilizado para todas as plataformas de desktop Linux/Windows/macOS](https://www.youtube.com/watch?v=vLwAT-TLmZU)."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
