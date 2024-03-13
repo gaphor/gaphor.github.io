@@ -404,7 +404,7 @@ msgstr "Submeta um relatório de problema no GitHub"
 #. type: Plain text
 #: _pages/discuss.md
 msgid "Please use our GitHub issue tracker for general questions and reporting bugs.  Before submitting a GitHub issue please review our page about [how to report a bug in Gaphor](/tutorials/report-bugs)."
-msgstr "Por favor, use nosso rastreador de problemas no GitHub para perguntas gerais e relatórios de bugs. Antes de submeter um relatório de problema do GitHub, por favor, reveja nossa página sobre [como relatar um bug no Gaphor](/tutoriais/report-bugs)."
+msgstr "Por favor, use nosso rastreador de problemas no GitHub para perguntas gerais e relatórios de bugs. Antes de submeter um relatório de problema do GitHub, por favor, reveja nossa página sobre [como relatar um bug no Gaphor](/tutorials/report-bugs)."
 
 #. type: Plain text
 #: _pages/discuss.md
