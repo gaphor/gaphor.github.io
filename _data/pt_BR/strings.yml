@@ -46,7 +46,7 @@ footer:
   code: 'Contribua com código'
   open-issue: 'Submeta um relatório de problema'
   tech-docs: 'Leia a documentação'
-  copyright: 'Copyright &copy; 2020-2023 Arjan Molenaar e Dan Yeaw.'
+  copyright: 'Copyright &copy; 2020, A Equipe de Desenvolvimento do Gaphor.'
   theme: 'Tema'
 languages:
   change: 'Alterar'
