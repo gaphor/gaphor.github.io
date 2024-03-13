@@ -9,6 +9,18 @@ _site/
 
 # Translated markdown files
 _platforms/[a-z][a-z]/*.md
+_platforms/[a-z][a-z]_[A-Z][A-Z]/*.md
+_platforms/[a-z][a-z][a-z]/*.md
+_platforms/[a-z][a-z]_[A-Z][a-z][a-z][a-z]/*.md
 _pages/[a-z][a-z]/*.md
+_pages/[a-z][a-z]_[A-Z][A-Z]/*.md
+_pages/[a-z][a-z][a-z]/*.md
+_pages/[a-z][a-z]_[A-Z][a-z][a-z][a-z]/*.md
 _usps/[a-z][a-z]/*.md
+_usps/[a-z][a-z]_[A-Z][A-Z]/*.md
+_usps/[a-z][a-z][a-z]/*.md
+_usps/[a-z][a-z]_[A-Z][a-z][a-z][a-z]/*.md
 tutorials/[a-z][a-z]/*.md
+tutorials/[a-z][a-z]_[A-Z][A-Z]/*.md
+tutorials/[a-z][a-z][a-z]/*.md
+tutorials/[a-z][a-z]_[A-Z][a-z][a-z][a-z]/*.md

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-02-03 22:31-0500\n"
+"POT-Creation-Date: 2024-03-12 20:58-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -506,13 +506,31 @@ msgstr ""
 #. type: Plain text
 #: _pages/tutorials.md
 #, markdown-text
-msgid "You can find a lot more info on the [Gaphor Documnentation site](https://docs.gaphor.org/)."
+msgid "You can find a lot more info on the [Gaphor Documentation site](https://docs.gaphor.org/)."
 msgstr ""
 
 #. type: Title ##
 #: _pages/tutorials.md
 #, markdown-text, no-wrap
 msgid "Talks"
+msgstr ""
+
+#. type: Bullet: '- '
+#: _pages/tutorials.md
+#, markdown-text
+msgid "Frank Vanbever spoke at [FOSDEM 2024](https://fosdem.org/2024): [Drop the docs and embrace the model with Gaphor](https://fosdem.org/2024/schedule/event/fosdem-2024-2542-drop-the-docs-and-embrace-the-model-with-gaphor/)."
+msgstr ""
+
+#. type: Bullet: '- '
+#: _pages/tutorials.md
+#, markdown-text
+msgid "Dan explains how to [automate MBSE models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA)."
+msgstr ""
+
+#. type: Bullet: '- '
+#: _pages/tutorials.md
+#, markdown-text
+msgid "Dan presented [Modeling Complex Systems in Python with Gaphor](https://www.youtu.be/PnWKsr2csXg) on a joint INCOSE/Python Michigan meetup."
 msgstr ""
 
 #. type: Bullet: '- '
