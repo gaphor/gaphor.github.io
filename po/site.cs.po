@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-03-13 02:33+0000\n"
-"PO-Revision-Date: 2024-02-06 15:01+0000\n"
+"POT-Creation-Date: 2024-03-15 00:26+0000\n"
+"PO-Revision-Date: 2024-03-14 08:01+0000\n"
 "Last-Translator: vikdevelop <super-vik1@protonmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/cs/>\n"
 "Language: cs\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #. type: YAML Front Matter: title
 #: _platforms/01-windows.md
@@ -468,8 +468,6 @@ msgstr "[Jak nahlásit chybu v Gaphoru]({{ \"/tutorials/report-bugs/\" | prepend
 
 #. type: Plain text
 #: _pages/tutorials.md
-#, fuzzy
-#| msgid "You can find a lot more info on the [Gaphor Documnentation site](https://docs.gaphor.org/)."
 msgid "You can find a lot more info on the [Gaphor Documentation site](https://docs.gaphor.org/)."
 msgstr "Můžete najít spoustu dalších informací [na stránkách dokumentace programu Gaphor](https://docs.gaphor.org/)."
 
@@ -482,21 +480,17 @@ msgstr "Rozhovory"
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "Frank Vanbever spoke at [FOSDEM 2024](https://fosdem.org/2024): [Drop the docs and embrace the model with Gaphor](https://fosdem.org/2024/schedule/event/fosdem-2024-2542-drop-the-docs-and-embrace-the-model-with-gaphor/)."
-msgstr ""
+msgstr "Frank Vanbever mluvil na konferenci [FOSDEM 2024](https://fosdem.org/2024): [Odhoďte dokumenty a přijměte model s Gaphorem](https://fosdem.org/2024/schedule/event/fosdem-2024-2542-drop-the-docs-and-embrace-the-model-with-gaphor/)."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-#, fuzzy
-#| msgid "<i class=\"fab fa-youtube\"></i> [Automating MBSE Models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA), presented by Dan at a Michigan Python event."
 msgid "Dan explains how to [automate MBSE models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA)."
-msgstr ""
-"<i class=\"fab fa-youtube\"></i> [Automatické modely MBSE s programem Gaphor a Python](https://youtu.be/9BYgI1nJCBA),\n"
-"prezentováno Dan v Python event Michiganu."
+msgstr "Dan vysvětluje, jak [automatizovat modely MBSE pomocí programu Gaphor a Pythonu](https://youtu.be/9BYgI1nJCBA)."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "Dan presented [Modeling Complex Systems in Python with Gaphor](https://www.youtu.be/PnWKsr2csXg) on a joint INCOSE/Python Michigan meetup."
-msgstr ""
+msgstr "Dan prezentoval [Modelování komplexních systémů Pythonu pomocí programu Gaphor](https://www.youtu.be/PnWKsr2csXg) na setkání INCOSE/Python v Michiganu."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
