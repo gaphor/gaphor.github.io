@@ -23,7 +23,9 @@ description: >-
     fully-compliant UML 2 data model, so it is much more than a picture drawing
     tool. You can use Gaphor to quickly visualize different aspects of a system
     as well as create complete, highly complex models.
+domain: gaphor.org
 url: https://gaphor.org
+baseurl: ""
 favicon: /images/gaphor-24x24.png
 gaphor_version: 2.24.0
 
@@ -59,11 +61,11 @@ sass:
 highlighter: rouge
 
 plugins:
-  # - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-polyglot
+  - jekyll-github-metadata
 
 exclude:
   - vendor # Fix invalid date format on GH Actions: https://github.com/jekyll/jekyll/issues/5267
@@ -91,3 +93,5 @@ exclude_from_localization:
   - js/
   - images
   - po/
+
+github: [metadata]
