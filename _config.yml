@@ -25,7 +25,7 @@ description: >-
     as well as create complete, highly complex models.
 domain: gaphor.org
 url: https://gaphor.org
-baseurl: /
+baseurl: ""
 favicon: /images/gaphor-24x24.png
 gaphor_version: 2.23.2
 
@@ -61,11 +61,11 @@ sass:
 highlighter: rouge
 
 plugins:
-  # - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-polyglot
+  - jekyll-github-metadata
 
 exclude:
   - vendor # Fix invalid date format on GH Actions: https://github.com/jekyll/jekyll/issues/5267
