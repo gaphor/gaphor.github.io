@@ -34,7 +34,7 @@ footer:
   code: '贡献代码'
   open-issue: '提交问题'
   tech-docs: '阅读文档'
-  copyright: '版权所有&copy; 2020-2023 Arjan Molenaar和Dan Yeaw。'
+  copyright: '版权所有 &copy; 2020，Gaphor 开发团队。'
   theme: '主题'
 languages:
   change: '更改'
