@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-03-24 18:23+0000\n"
+"POT-Creation-Date: 2024-03-27 18:18+0000\n"
 "PO-Revision-Date: 2024-03-23 19:01+0000\n"
 "Last-Translator: Semih <semihbrn10@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/tr/>\n"
