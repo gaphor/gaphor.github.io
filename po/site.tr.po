@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-03-12 19:04-0400\n"
-"PO-Revision-Date: 2024-03-29 20:30+0000\n"
-"Last-Translator: Semih <semihbrn10@gmail.com>\n"
+"PO-Revision-Date: 2024-03-30 19:18+0000\n"
+"Last-Translator: Dan Yeaw <dan@yeaw.me>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/gaphor/"
 "gaphor-github-io/tr/>\n"
 "Language: tr\n"
@@ -172,8 +172,8 @@ msgstr "Arch Linux"
 #: _platforms/03-linux.md
 msgid "Gaphor can be installed from an [AUR package](https://aur.archlinux.org/packages/python-gaphor/)."
 msgstr ""
-"Gaphor bir [AUR paketinden] (https://aur.archlinux.org/packages/"
-"python-gaphor/) kurulabilir."
+"Gaphor bir [AUR paketinden](https://aur.archlinux.org/packages/python-gaphor/"
+") kurulabilir."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/04-python.md
@@ -316,8 +316,8 @@ msgstr ""
 msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the [Gaphor developer's website](https://docs.gaphor.org/en/latest)."
 msgstr ""
 "Gaphor'un geliştirilmesine daha fazla dahil olmak isterseniz, [Gaphor "
-"geliştirici web sitesi] (https://docs.gaphor.org/en/latest) aracılığıyla "
-"sizi ağırlamaktan memnuniyet duyarız."
+"geliştirici web sitesi](https://docs.gaphor.org/en/latest) aracılığıyla sizi "
+"ağırlamaktan memnuniyet duyarız."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/01-platform.md
@@ -345,7 +345,7 @@ msgstr "Açık Kaynak"
 msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
 msgstr ""
 "Vendor kilitlenmesi yok: Gaphor Python dilinde yazılmıştır ve %100 Açık "
-"Kaynaktır, dostane bir [Apache 2 lisansı] (https://github.com/gaphor/gaphor/"
+"Kaynaktır, dostane bir [Apache 2 lisansı](https://github.com/gaphor/gaphor/"
 "blob/main/LICENSE.txt) altında mevcuttur."
 
 #. type: Yaml Front Matter Hash Value: title
@@ -513,7 +513,7 @@ msgid "Please use our GitHub issue tracker for general questions and reporting b
 msgstr ""
 "Genel sorular ve hata bildirimi için lütfen GitHub sorun izleyicimizi "
 "kullanın. Bir GitHub sorunu göndermeden önce lütfen [Gaphor'da bir hata "
-"nasıl bildirilir] (/tutorials/report-bugs) hakkındaki sayfamızı inceleyin."
+"nasıl bildirilir](/tutorials/report-bugs) hakkındaki sayfamızı inceleyin."
 
 #. type: Plain text
 #: _pages/discuss.md
@@ -533,7 +533,7 @@ msgstr "Toplumsal Davranış"
 #: _pages/discuss.md
 msgid "We expect contributors to follow the GNOME [Code of Conduct](https://wiki.gnome.org/Foundation/CodeOfConduct)."
 msgstr ""
-"Katkıda bulunanların GNOME [Davranış Kurallarına] (https://wiki.gnome.org/"
+"Katkıda bulunanların GNOME [Davranış Kurallarına](https://wiki.gnome.org/"
 "Foundation/CodeOfConduct) uymalarını bekliyoruz."
 
 #. type: Plain text
@@ -575,7 +575,7 @@ msgstr "[İlk Modeliniz](https://docs.gaphor.org/en/latest/first_model.html)"
 #: _pages/tutorials.md
 msgid "<i class=\"fab fa-youtube\"></i> [Introduction to Gaphor and SysML](https://youtu.be/PnWKsr2csXg), presented by Dan at a joint INCOSE Michigan and Michigan Python event."
 msgstr ""
-"<i class=\"fab fa-youtube\"></i> [Gaphor ve SysML'e Giriş] (https://youtu.be/"
+"<i class=\"fab fa-youtube\"></i> [Gaphor ve SysML'e Giriş](https://youtu.be/"
 "PnWKsr2csXg), Dan tarafından INCOSE Michigan ve Michigan Python ortak "
 "etkinliğinde sunulmuştur."
 
@@ -584,7 +584,7 @@ msgstr ""
 msgid "<i class=\"fab fa-youtube\"></i> [Automating MBSE Models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA), presented by Dan at a Michigan Python event."
 msgstr ""
 "<i class=\"fab fa-youtube\"></i> [MBSE Modellerini Gaphor ve Python ile "
-"Otomatikleştirme] (https://youtu.be/9BYgI1nJCBA), Dan tarafından Michigan "
+"Otomatikleştirme](https://youtu.be/9BYgI1nJCBA), Dan tarafından Michigan "
 "Python etkinliğinde sunulmuştur."
 
 #. type: Bullet: '1. '
@@ -598,7 +598,7 @@ msgstr ""
 #: _pages/tutorials.md
 msgid "You can find a lot more info on the [Gaphor Documentation site](https://docs.gaphor.org/)."
 msgstr ""
-"Gaphor Dokümantasyon sitesinde] (https://docs.gaphor.org/) çok daha fazla "
+"Gaphor Dokümantasyon sitesinde](https://docs.gaphor.org/) çok daha fazla "
 "bilgi bulabilirsiniz."
 
 #. type: Title ##
@@ -627,7 +627,7 @@ msgstr ""
 msgid "Dan presented [Modeling Complex Systems in Python with Gaphor](https://www.youtu.be/PnWKsr2csXg) on a joint INCOSE/Python Michigan meetup."
 msgstr ""
 "Dan, INCOSE/Python Michigan ortak buluşmasında [Modeling Complex Systems in "
-"Python with Gaphor] (https://www.youtu.be/PnWKsr2csXg) başlıklı bir sunum "
+"Python with Gaphor](https://www.youtu.be/PnWKsr2csXg) başlıklı bir sunum "
 "yaptı."
 
 #. type: Bullet: '- '
@@ -643,8 +643,8 @@ msgstr ""
 #: _pages/tutorials.md
 msgid "Dan spoke at the 2021 [MIT STAMP Workshop](https://psas.scripts.mit.edu/home/2021-stamp-workshop-program/)  about _Open STPA with RAAML and Gaphor_."
 msgstr ""
-"Dan, 2021 [MIT STAMP Çalıştayı] (https://psas.scripts.mit.edu/home/"
-"2021-stamp-workshop-program/)'nda RAAML ve Gaphor_ ile _Open STPA hakkında "
+"Dan, 2021 [MIT STAMP Çalıştayı](https://psas.scripts.mit.edu/home/"
+"2021-stamp-workshop-program/) 'nda RAAML ve Gaphor_ ile _Open STPA hakkında "
 "konuştu."
 
 #. type: Bullet: '- '
@@ -686,8 +686,8 @@ msgstr ""
 #: _pages/tutorials.md
 msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
 msgstr ""
-"[Ubuntu Pit'te Gaphor (~2.8-ish?) hakkında güzel bir makale var] (https://www"
-".ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
+"[Ubuntu Pit'te Gaphor (~2.8-ish?) hakkında güzel bir makale var](https://www."
+"ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/download.md
