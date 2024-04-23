@@ -1,0 +1,35 @@
+index:
+  thousand-words: >
+    Mynd segir meira en þúsund orð. Lýstu og skjalfestu forritin og kerfin þín með
+    Gaphor til að bæta þekkingarmiðlun.
+  learn: 'Læra meira'
+  about-content: >
+  build: >
+  styling-engine: ''
+  treeview: ''
+  dark-mode: ''
+  download-content: >
+latest-news-and-blog:
+  blog-content: |
+  see-blog: ''
+  read-more: ''
+  blog-and-news: ''
+  by: ''
+menu:
+  home: ''
+  about: ''
+  download: ''
+  tutorials: ''
+  blog: ''
+  discuss: ''
+  contribute: ''
+footer:
+  love: ''
+  chat-on: ''
+  code: ''
+  open-issue: ''
+  tech-docs: ''
+  copyright: ''
+  theme: ''
+languages:
+  change: ''
