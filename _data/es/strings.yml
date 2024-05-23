@@ -18,7 +18,7 @@ index:
   styling-engine: >-
     Personalice los diagramas que crea con nuestro motor de estilo incorporado.
   treeview: Encuentre fácilmente todos los elementos de su modelo en la vista de árbol.
-  dark-mode: ¿Le gusta el modo oscuro? También podemos hacerlo.
+  dark-mode: ¿Le encanta el modo oscuro? También podemos hacerlo.
   download-content: >
     Hay muchas formas de instalar Gaphor. La más sencilla es descargar el instalador
     oficial para Windows o macOS. Para Linux puede instalar Gaphor usando FlatHub.
@@ -28,7 +28,7 @@ latest-news-and-blog:
   blog-content: |
     ¿Quiere saber qué pasa con Gaphor? ¡Lea nuestro blog!
 
-    [Póngase en contacto](/discuss) con el equipo si quiere compartir contenidos relacionados con Gaphor.
+    [Contacte al equipo](/discuss) si quiere compartir contenidos relacionados con Gaphor.
   see-blog: Ver blog
   read-more: Leer más
   blog-and-news: Blog y Noticias
@@ -42,10 +42,10 @@ menu:
   contribute: Contribuir
   home: Inicio
 footer:
-  love: Nos encantaría saber de usted
+  love: Nos encantaría escucharte
   open-issue: Enviar una incidencia
   tech-docs: Leer la documentación
-  copyright: Copyright &copy; 2020-2023 Arjan Molenaar y Dan Yeaw.
+  copyright: Copyright &copy; 2020, El Equipo de Desarrollo de Gaphor.
   theme: Tema
   code: Contribuye al código
   chat-on: Chatea con nosotros
