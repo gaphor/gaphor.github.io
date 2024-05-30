@@ -327,10 +327,10 @@ msgstr "Çoklu platform"
 
 #. type: Plain text
 #: _usps/01-platform.md
-msgid "Gaphor works on all major platforms: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
+msgid "Gaphor works on all major platforms: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [macOS]({{ \"/download#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
 msgstr ""
 "Gaphor tüm büyük platformlarda çalışır: [Windows]({{ \"/download#windows\" | "
-"prepend: site.baseurl }}), [Macos]({{ \"/download#macos\" | prepend: "
+"prepend: site.baseurl }}), [macOS]({{ \"/download#macos\" | prepend: "
 "site.baseurl }}) ve [Linux]({{ \"/download#linux\" | prepend: site.baseurl "
 "}})."
 

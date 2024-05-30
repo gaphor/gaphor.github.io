@@ -268,8 +268,8 @@ msgstr "Plattformübergreifend"
 
 #. type: Plain text
 #: _usps/01-platform.md
-msgid "Gaphor works on all major platforms: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
-msgstr "Gaphor funktioniert auf allen wichtigen Plattformen: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [Macos]({{ \"/download#macos\" | prepend: site.baseurl }}) und [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
+msgid "Gaphor works on all major platforms: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [macOS]({{ \"/download#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
+msgstr "Gaphor funktioniert auf allen wichtigen Plattformen: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [macOS]({{ \"/download#macos\" | prepend: site.baseurl }}) und [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/02-opensource.md
