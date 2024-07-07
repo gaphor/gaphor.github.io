@@ -27,7 +27,7 @@ domain: gaphor.org
 url: https://gaphor.org
 baseurl: ""
 favicon: /images/gaphor-24x24.png
-gaphor_version: 2.25.1
+gaphor_version: 2.26.0
 
 platform_list: [ "windows", "linux", "macos", "python" ]
 
