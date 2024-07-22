@@ -3,7 +3,6 @@
 _site/
 .vscode
 .jekyll-cache
-Gemfile.lock
 
 # Filter files from po/filter-markdown.py
 *.filt
