@@ -43,16 +43,15 @@ gi.require_version("Gdk", gtk_version)
 
 CI builds were run for both toolkit versions.
 
-The "keep the shop open" approach allowed us to implement new features and fix
-bugs, while simultaniously working on the GTK 4 upgrade.
-For a long time, we could only run unit tests with GTK 4. Only when enough code was upgraded, we could start Gaphor and do some interactive testing.
+The "keep the shop open" approach allowed us to implement new features and fix bugs, while simultaneously working on the
+GTK 4 upgrade. For a long time, we could only run unit tests with GTK 4. Only when enough code was upgraded, we could
+start Gaphor and do some interactive testing.
 
-Side effect of this upgrade was that it allowed to rewrite some code in a more
-library independent way, which should make future upgrades simpler.
+Side effect of this upgrade was that it allowed us to rewrite some code in a more library independent way, which should
+make future upgrades simpler.
 
-At some point everything worked and we've done GTK 4 based releases on
-all platforms. Only then we removed all version checks and changed the code to
-use the new version.
+At some point everything worked, and we've done GTK 4 based releases on all platforms. Only then we removed all version
+checks and changed the code to use the new version.
 
 This approach is not specific to Python, and may even be applicable to some
 compiled languages. I hope this post shows you that your GTK 4 upgrade doesn't have to
