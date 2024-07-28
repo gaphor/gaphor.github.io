@@ -27,9 +27,11 @@ Meson itself is built in Python. This makes it highly portable.
 
 ## meson-python
 
-C, or Rust code needs to be compiled to a library, before it can be used in Python. This poses a bit of a problem, since it breaks the easy write-run flow Python developers are used to. meson-python has us covered though: instead of installing the library directly it installs a small stub that recompiles the code before it’s loaded. Now, from a Python point of view it’s write-and-run again.
+C, or Rust code needs to be compiled to a library, before it can be used in Python. This poses a bit of a problem, since it breaks the easy write-and-run flow Python developers are used to. meson-python has us covered though: instead of installing the library directly it installs a small stub that recompiles the code before it’s loaded. Now, from a Python point of view it’s write-and-run again.
 
-However, there’s a small caveat: in order to recompile, your package needs to be installed in _non-isolated_ mode. This means that the code is compiled in your current python environment. This implies that all build dependencies have been installed before the _non-isolated_ build is performed.
+There’s a small caveat however: in order to recompile, your package needs to be installed in 
+[_non-isolated_ mode](https://pip.pypa.io/en/stable/reference/build-system/pyproject-toml/#build-isolation).
+This means that the code is compiled in your current python environment. This implies that all build dependencies have been installed before the _non-isolated_ build is performed.
 
 Doing this from the command line with pip get tedious pretty quickly. Even more if you want to customize a few Meson build settings.
 
