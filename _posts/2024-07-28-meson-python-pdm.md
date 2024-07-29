@@ -13,6 +13,8 @@ For a long time, C extensions for Python can be built with
 extension, it gets tedious if your extension needs to link to other libraries. In those cases it's often necessary to
 write custom code in `setup.py` to find and link to those libraries.
 
+<!--break-->
+
 Instead of the `setup.py` approach, you can use a build tool such as Meson. For me, Meson is favored, due to how simple
 it is to configure. The downside is, however, that Meson packages cannot be installed directly by
 [Pip](https://pip.pypa.io/), the de-facto package installer for Python. That's where
