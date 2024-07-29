@@ -43,7 +43,7 @@ _non-isolated_ build is performed.
 Doing this from the command line with pip gets tedious pretty quickly. Even more if you want to customize a few Meson
 build settings.
 
-# PDM
+## PDM
 
 PDM is a generic dependency manager. Contrary to tools like Poetry and Hatch, it’s build backend independent. It plays
 well with meson-python.
@@ -56,7 +56,7 @@ PDM also allows for installing development specific dependencies. Those are inst
 can ensure the right version of Meson is installed, as well as the meson-python build backend. Remember that we need to
 make sure the build backend should be already available if we do non-isolated builds.
 
-# Example
+## Example
 
 I've created a [small example project](https://github.com/amolenaar/meson-python-pdm-example) that shows how to
 configure PDM.
@@ -117,7 +117,7 @@ pre_install = "{pdm} sync --skip=:all --group=build --no-self"
 
 This option works because PDM is building wheels before installing and those wheels are cached.
 
-# Conclusion
+## Conclusion
 
 The trio Meson, meson-python and PDM make it possible to build extension modules for Python in any language. PDM can
 handle the (virtual) environment and allows for a smooth onboarding and developer experience.
