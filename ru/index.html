@@ -413,6 +413,68 @@ write custom code in <code class="language-plaintext highlighter-rouge">setup.py
         <div class="blog-post col-12 col-lg-4">
           <div class="post">
             
+            <h5 class="post-title"><a href="/ru/2024/07/21/gtk-upgrade-in-python/">Upgrading GTK based Python applications</a></h5>
+            <div class="post-entry"><p>A hot topic in the GNOME world is upgrading applications from GTK+ 3 to GTK 4
+and libadwaita.
+For Gaphor, we completed this task around a year ago, but I never took time
+to write how we did it.</p>
+
+<ul>
+  <li>We knew beforehand that the upgrade would take a long time.</li>
+  <li>We may even run into problems that have to be solved in GTK 4 first.</li>
+  <li>We disliked the idea of maintaining a separate branch for the GTK 4 upgrade.</li>
+</ul>
+
+<p>The upgrade itself took about two years (April 2021 - May 2023).
+In those years we made several releases.
+The code bundled both GTK+ 3 and GTK 4 code. At some point our macOS and Windows
+release was GTK+ 3, while the Linux Flatpak build was already running on GTK 4.</p>
+
+<p>Our secret sauce:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">Gtk</span><span class="p">.</span><span class="n">get_major_version</span><span class="p">()</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span>
+    <span class="p">...</span>  <span class="c1"># GTK+ 3 calls
+</span><span class="k">else</span><span class="p">:</span>
+    <span class="p">...</span>  <span class="c1"># GTK 4 equivalent
+</span></code></pre></div></div>
+
+<p>Yup. That’s all. That, and good test coverage. We made sure that the GTK code was fully
+covered.</p>
+
+<p>We could switch GTK version based on an environment variable.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">gi</span>
+
+<span class="n">gtk_version</span> <span class="o">=</span> <span class="s">"4.0"</span> <span class="k">if</span> <span class="n">os</span><span class="p">.</span><span class="n">getenv</span><span class="p">(</span><span class="s">"GAPHOR_USE_GTK"</span><span class="p">)</span> <span class="o">==</span> <span class="s">"4"</span> <span class="k">else</span> <span class="s">"3.0"</span>
+
+<span class="n">gi</span><span class="p">.</span><span class="n">require_version</span><span class="p">(</span><span class="s">"Gtk"</span><span class="p">,</span> <span class="n">gtk_version</span><span class="p">)</span>
+<span class="n">gi</span><span class="p">.</span><span class="n">require_version</span><span class="p">(</span><span class="s">"Gdk"</span><span class="p">,</span> <span class="n">gtk_version</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>CI builds were run for both toolkit versions.</p>
+
+<p>The “keep the shop open” approach allowed us to implement new features and fix bugs, while simultaneously working on the
+GTK 4 upgrade. For a long time, we could only run unit tests with GTK 4. Only when enough code was upgraded, we could
+start Gaphor and do some interactive testing.</p>
+
+<p>Side effect of this upgrade was that it allowed us to rewrite some code in a more library independent way, which should
+make future upgrades simpler.</p>
+
+<p>At some point everything worked, and we’ve done GTK 4 based releases on all platforms. Only then we removed all version
+checks and changed the code to use the new version.</p>
+
+<p>This approach is not specific to Python, and may even be applicable to some
+compiled languages. I hope this post shows you that your GTK 4 upgrade doesn’t have to
+be a big bang. Happy upgrading!</p>
+</div>
+            <a href="/ru/2024/07/21/gtk-upgrade-in-python/" title="Read more" class="post-button"><i
+                class="fa fa-chevron-circle-right"></i>Читать далее</a>
+          </div>
+        </div>
+        
+        <div class="blog-post col-12 col-lg-4">
+          <div class="post">
+            
             <div class="post-image" style="background-image: url(/images/gaphor-2.24/bg.jpg)">
             </div>
             
@@ -425,27 +487,6 @@ write custom code in <code class="language-plaintext highlighter-rouge">setup.py
 
 </div>
             <a href="/ru/2024/03/04/gaphor-2.24-updates/" title="Read more" class="post-button"><i
-                class="fa fa-chevron-circle-right"></i>Читать далее</a>
-          </div>
-        </div>
-        
-        <div class="blog-post col-12 col-lg-4">
-          <div class="post">
-            
-            <div class="post-image" style="background-image: url(/images/gaphor-2.12-highlights/bg.jpg)">
-            </div>
-            
-            <h5 class="post-title"><a href="/ru/2023/02/25/gaphor-2.17-released/">Gaphor 2.17 released</a></h5>
-            <div class="post-entry"><p>Gaphor 2.17.0 has been released.</p>
-
-<ul>
-  <li>A new metadata diagram item</li>
-</ul>
-
-<p>You can find the release notes on <a href="https://github.com/gaphor/gaphor/releases/tag/2.17.0">GitHub</a>.</p>
-
-</div>
-            <a href="/ru/2023/02/25/gaphor-2.17-released/" title="Read more" class="post-button"><i
                 class="fa fa-chevron-circle-right"></i>Читать далее</a>
           </div>
         </div>
