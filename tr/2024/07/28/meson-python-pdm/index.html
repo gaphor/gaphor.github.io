@@ -232,7 +232,7 @@ compiled in your current python environment. This implies that all build depende
 <p>Doing this from the command line with pip gets tedious pretty quickly. Even more if you want to customize a few Meson
 build settings.</p>
 
-<h1 id="pdm">PDM</h1>
+<h2 id="pdm">PDM</h2>
 
 <p>PDM is a generic dependency manager. Contrary to tools like Poetry and Hatch, it’s build backend independent. It plays
 well with meson-python.</p>
@@ -245,7 +245,7 @@ arguments are there, but in <code class="language-plaintext highlighter-rouge">p
 can ensure the right version of Meson is installed, as well as the meson-python build backend. Remember that we need to
 make sure the build backend should be already available if we do non-isolated builds.</p>
 
-<h1 id="example">Example</h1>
+<h2 id="example">Example</h2>
 
 <p>I’ve created a <a href="https://github.com/amolenaar/meson-python-pdm-example">small example project</a> that shows how to
 configure PDM.</p>
@@ -303,7 +303,7 @@ are present. Since we use the <code class="language-plaintext highlighter-rouge"
 
 <p>This option works because PDM is building wheels before installing and those wheels are cached.</p>
 
-<h1 id="conclusion">Conclusion</h1>
+<h2 id="conclusion">Conclusion</h2>
 
 <p>The trio Meson, meson-python and PDM make it possible to build extension modules for Python in any language. PDM can
 handle the (virtual) environment and allows for a smooth onboarding and developer experience.</p>
