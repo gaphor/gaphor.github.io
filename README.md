@@ -2,9 +2,6 @@
 
 
 
-The theme is based on the [Illdy theme](https://colorlib.com/wp/themes/illdy/).
-
-
 ## Development Environment with Linux
 
 Install [rbenv](https://github.com/rbenv/rbenv) and [ruby-build](https://github.com/rbenv/ruby-build)
@@ -99,3 +96,7 @@ It does not document the more simple things such as Name/URL/etc.
 * **Edit base file:** No
 * **Base file for new translations:** `po/site.pot`
 * **File format:** Gettext PO file
+
+---
+
+The theme is based on the [Illdy theme](https://colorlib.com/wp/themes/illdy/).
