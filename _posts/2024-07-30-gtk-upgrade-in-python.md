@@ -9,6 +9,8 @@ and libadwaita.
 For Gaphor, we completed this task around a year ago, but I never took time
 to write how we did it.
 
+<!--break-->
+
 * We knew beforehand that the upgrade would take a long time.
 * We may even run into problems that have to be solved in GTK 4 first.
 * We disliked the idea of maintaining a separate branch for the GTK 4 upgrade.
