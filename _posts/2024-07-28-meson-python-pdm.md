@@ -1,5 +1,5 @@
 ---
-title: Building Python packages with Meson and PDM
+title: Building Python extensions with Meson and PDM
 author: Arjan Molenaar
 lang: en
 ---
