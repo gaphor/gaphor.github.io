@@ -21,6 +21,8 @@ it is to configure. The downside is, however, that Meson packages cannot be inst
 [meson-python](https://mesonbuild.com/meson-python/) comes in: it provides the glue to seamlessly run Meson builds from
 a Python context.
 
+meson-python is the build system of choice for well known libraries such as [NumPy](https://github.com/numpy/numpy) and [Pandas](https://github.com/pandas-dev/pandas/).
+
 ## Meson
 
 Meson is a generic build tool. It can be used to build code for many languages, including C, Rust, and Python. It
