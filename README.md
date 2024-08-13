@@ -7,8 +7,8 @@
 Install [rbenv](https://github.com/rbenv/rbenv) and [ruby-build](https://github.com/rbenv/ruby-build)
 
 ```sh
-$ rbenv install 2.7.5
-$ rbenv global 2.7.5
+$ rbenv install 3.3.4
+$ rbenv global 3.3.4
 $ gem install ruby bundler
 $ bundle install
 $ bundle exec jekyll serve
