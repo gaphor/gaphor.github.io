@@ -1,6 +1,6 @@
 index:
   thousand-words: >
-    一幅画胜过千言万语。使用Gaphor描述并记录您的应用程序和系统，以增强知识共享。
+    一图胜过千言万语。使用Gaphor描述并记录您的应用程序和系统，以增强知识共享。
   learn: '了解更多'
   about-content: >
     Gaphor是一个UML、SysML、RAAML和C4建模应用程序。它的设计便于使用，同时功能强大。Gaphor实现了一个完全兼容的UML2数据模型，因此它不仅仅是一个绘图工具。您可以使用Gaphor快速可视化系统的不同方面，并创建完整的、高度复杂的模型。
