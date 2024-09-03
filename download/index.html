@@ -214,21 +214,20 @@ GitHub</a>.</p>
                     Windows
                 </h2>
                 <div class="section-description">
-                    <p><a class="btn btn-primary btn-lg" href="https://github.com/gaphor/gaphor/releases/download/2.26.0/gaphor-2.26.0-installer.exe"><i class="fa fa-download"></i> 下载安装包</a></p>
+                    <p><a class="btn btn-primary btn-lg" href="https://github.com/gaphor/gaphor/releases/download/2.26.0/gaphor-2.26.0-installer.exe"><i class="fa fa-download"></i> Download installer</a></p>
 
-<p>此外，便携式版本的Gaphor 也可以下载。</p>
+<p>Alternatively, a portable version of Gaphor can be downloaded.</p>
 
-<p><a class="btn btn-primary btn-lg" href="https://github.com/gaphor/gaphor/releases/download/2.26.0/gaphor-2.26.0-portable.exe"><i class="fa fa-download"></i> 下载便携式版本</a></p>
+<p><a class="btn btn-primary btn-lg" href="https://github.com/gaphor/gaphor/releases/download/2.26.0/gaphor-2.26.0-portable.exe"><i class="fa fa-download"></i> Download portable version</a></p>
 
 <h3 id="winget">Winget</h3>
 
-<p>通过
-<a href="https://github.com/microsoft/winget-pkgs/tree/master/manifests/g/gaphor/gaphor">winget</a>安装Gaphor：</p>
+<p>Install Gaphor from <a href="https://github.com/microsoft/winget-pkgs/tree/master/manifests/g/gaphor/gaphor">winget</a>:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>winget <span class="nb">install </span>gaphor
 </code></pre></div></div>
 
-<p>查看最新的发布说明和其他详细信息：</p>
+<p>To check out the latest release notes and other details:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>winget show gaphor
 </code></pre></div></div>
@@ -245,13 +244,13 @@ GitHub</a>.</p>
                     macOS
                 </h2>
                 <div class="section-description">
-                    <p><a class="btn btn-primary btn-lg" href="https://github.com/gaphor/gaphor/releases/download/2.26.0/Gaphor-2.26.0.dmg"><i class="fa fa-download"></i> 下载 .dmg</a></p>
+                    <p><a class="btn btn-primary btn-lg" href="https://github.com/gaphor/gaphor/releases/download/2.26.0/Gaphor-2.26.0.dmg"><i class="fa fa-download"></i> Download .dmg</a></p>
 
-<p>Graphor 需要 <strong>macOS 10.15</strong> 或更新的版本。</p>
+<p>Gaphor requires <strong>macOS 10.15</strong> or newer.</p>
 
 <h3 id="homebrew">Homebrew</h3>
 
-<p>通过 <a href="https://formulae.brew.sh/cask/gaphor">homebrew cask</a> 获取 Gaphor：</p>
+<p>Pour Gaphor from a <a href="https://formulae.brew.sh/cask/gaphor">homebrew cask</a>:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew <span class="nb">install</span> <span class="nt">--cask</span> gaphor
 </code></pre></div></div>
@@ -270,12 +269,13 @@ GitHub</a>.</p>
                 <div class="section-description">
                     <h3 id="flatpak">Flatpak</h3>
 
-<p><a href="https://flatpak.org/">Flatpak</a>是在 Linux 中安装 Gaphor
-的推荐方法。如果您还没有设置好flatpak，请按照<a href="https://flatpak.org/setup">安装 Flatpak</a>的说明进行安装。</p>
+<p><a href="https://flatpak.org/">Flatpak</a> is the recommended way to install Gaphor in
+Linux. If you don’t have it setup already, follow the instructions to <a href="https://flatpak.org/setup">install
+Flatpak</a>.</p>
 
-<p><a href="https://flathub.org/apps/details/org.gaphor.Gaphor"><img width="240" alt="在Flathub上下载" src="https://flathub.org/assets/badges/flathub-badge-en.png" /></a></p>
+<p><a href="https://flathub.org/apps/details/org.gaphor.Gaphor"><img width="240" alt="Download on Flathub" src="https://flathub.org/assets/badges/flathub-badge-en.png" /></a></p>
 
-<p>手动安装 Gaphor：</p>
+<p>To manually install Gaphor:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>flatpak remote-add <span class="nt">--user</span> <span class="nt">--if-not-exists</span> <span class="se">\</span>
     flathub https://dl.flathub.org/repo/flathub.flatpakrepo
@@ -284,7 +284,8 @@ flatpak <span class="nb">install</span> <span class="nt">--user</span> flathub o
 
 <h3 id="arch-linux">Arch Linux</h3>
 
-<p>Gaphor 可通过 <a href="https://aur.archlinux.org/packages/python-gaphor/">AUR 软件包</a>安装。</p>
+<p>Gaphor can be installed from an <a href="https://aur.archlinux.org/packages/python-gaphor/">AUR
+package</a>.</p>
 
                 </div>
             </div>
@@ -298,13 +299,16 @@ flatpak <span class="nb">install</span> <span class="nt">--user</span> flathub o
                     Python
                 </h2>
                 <div class="section-description">
-                    <p>如果您已经安装了最新的 Python 稳定版，并安装了 Gaphor 依赖项，也可以使用
-<a href="https://pypi.org/project/gaphor/">PyPI</a> 中的wheel来安装 Gaphor。</p>
+                    <p>If you have the latest stable version of Python installed and the Gaphor
+dependencies installed, you can also install Gaphor using a wheel from
+<a href="https://pypi.org/project/gaphor/">PyPI</a>.</p>
 
-<p>如果没有安装最新的 Python 稳定版和 Gaphor
-依赖项，请按照开发环境<a href="https://docs.gaphor.org/en/latest">安装说明</a> 章节操作，但不要克隆版本库。可选择创建一个
-<a href="https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments">虚拟环境</a>。
-然后执行以下操作：</p>
+<p>If you don’t have the latest stable version of Python and the Gaphor
+dependencies installed, follow the development environment <a href="https://docs.gaphor.org/en/latest">installation
+instructions</a> section, but do not
+clone the repository. Optionally, create a <a href="https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments">virtual
+environment</a>.
+Then execute the following:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>gaphor
 gaphor

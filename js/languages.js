@@ -8,12 +8,18 @@ for (let i = 0; i < chooser.children.length; i++) {
 }
 
 chooser.onchange = function() {
-    const lang = this.value;
+    let lang = this.value;
     let pageUrl = document.location.pathname;
 
     if (new RegExp('^/' + activeLang + '/').test(pageUrl)) {
         pageUrl = pageUrl.substring(activeLang.length + 1);
     }
 
-    document.location = '' + '/' + lang + pageUrl;
+    if (lang == 'en') {
+        lang = '';
+    } else {
+        lang = '/' + encodeURIComponent(lang);
+    }
+
+    document.location = lang + pageUrl;
 }
