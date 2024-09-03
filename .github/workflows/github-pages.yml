@@ -30,11 +30,10 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.3.4
-      - uses: limjh16/jekyll-action-ts@v2
-        with:
-          enable_cache: true
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: ${{ runner.os }}-gems-
+      - name: Build Pages
+        run: |
+          bundle install
+          bundle exec jekyll build
       - name: Check Links
         run: >
           bundle exec htmlproofer
