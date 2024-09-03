@@ -83,7 +83,7 @@ lang_from_path: true
 # Specifying the default language as "_" forces polyglot to generate a
 # en/ subdirectory too (with correct links). See
 # https://github.com/untra/polyglot/issues/60
-default_lang: "_"
+default_lang: "en"
 # exclude these regexp chunks based on what is in the href=""
 exclude_from_localization:
   - .editorconfig
