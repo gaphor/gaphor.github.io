@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-09-25 01:45+0000\n"
+"POT-Creation-Date: 2024-10-09 01:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _platforms/01-windows.md
 #, no-wrap
 msgid "Windows"
@@ -70,7 +70,7 @@ msgstr ""
 msgid "winget show gaphor\n"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _platforms/02-macos.md
 #, no-wrap
 msgid "macOS"
@@ -106,7 +106,7 @@ msgstr ""
 msgid "brew install --cask gaphor\n"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _platforms/03-linux.md
 #, no-wrap
 msgid "Linux"
@@ -157,7 +157,7 @@ msgstr ""
 msgid "Gaphor can be installed from an [AUR package](https://aur.archlinux.org/packages/python-gaphor/)."
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _platforms/04-python.md
 #, no-wrap
 msgid "Python"
@@ -183,7 +183,7 @@ msgid ""
 "gaphor\n"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: tutorials/report-bugs.md
 #, no-wrap
 msgid "How to report a bug in Gaphor"
@@ -279,7 +279,7 @@ msgstr ""
 msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the [Gaphor developer's website](https://docs.gaphor.org/en/latest)."
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/01-platform.md
 #, no-wrap
 msgid "Multi-platform"
@@ -291,7 +291,7 @@ msgstr ""
 msgid "Gaphor works on all major platforms: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [macOS]({{ \"/download#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/02-opensource.md
 #, no-wrap
 msgid "Open Source"
@@ -303,7 +303,7 @@ msgstr ""
 msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/03-beginner-pro.md
 #, no-wrap
 msgid "Beginner or Pro"
@@ -315,7 +315,7 @@ msgstr ""
 msgid "Whether you're a casual modeler documenting a project or a Model Driven Development expert, Gaphor has got you covered."
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/04-consistent.md
 #, no-wrap
 msgid "Consistent"
@@ -327,7 +327,7 @@ msgstr ""
 msgid "UML is a graphical modeling language, so all information you put in the model is visible in the diagrams. For example, stereotypes are modeled in diagrams.  No hidden panels and property pages. Just diagrams!"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/05-extensible.md
 #, no-wrap
 msgid "Extensible"
@@ -339,7 +339,7 @@ msgstr ""
 msgid "Gaphor is extensible. Plug-in a code generator or export your diagrams for documentation.  Create your own extensions and access them through the GUI or CLI."
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/06-standard.md
 #, no-wrap
 msgid "Standards Compliant"
@@ -351,7 +351,7 @@ msgstr ""
 msgid "Gaphor implements the UML, SysML, and RAAML OMG standards. It also includes support for the C4 model for visualizing software architectures."
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _pages/contribute.md
 #, no-wrap
 msgid "Contribute"
@@ -389,7 +389,7 @@ msgid ""
 "someone will be able to point you in the right direction.\n"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _pages/discuss.md
 #, no-wrap
 msgid "Get in touch"
@@ -461,7 +461,7 @@ msgstr ""
 msgid "We want our community to be a safe, welcoming and friendly place.  We won't hesitate to issue a clear warning and, if ignored, ban people who don't behave in the spirit of the code of conduct. If a conduct related situation arises, we will endeavour to act in a discreet, sympathetic and fair manner to all concerned."
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _pages/tutorials.md
 #, no-wrap
 msgid "Tutorials"
@@ -563,13 +563,25 @@ msgstr ""
 msgid "There are some 10+ year old articles on Gaphor on the web. Some more recent articles are:"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: _pages/tutorials.md
 #, markdown-text
-msgid "- [Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)  - [It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)  - [Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
+msgid "[Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Bullet: '- '
+#: _pages/tutorials.md
+#, markdown-text
+msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
+msgstr ""
+
+#. type: Bullet: '- '
+#: _pages/tutorials.md
+#, markdown-text
+msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
 #: _pages/download.md
 #, no-wrap
 msgid "Download Gaphor"
@@ -605,13 +617,13 @@ msgstr ""
 msgid "The requested page could not be found."
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _pages/index.md
 #, no-wrap
 msgid "Modeling for Everyone"
 msgstr ""
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _pages/blog.md
 #, no-wrap
 msgid "Blog and News"

@@ -6,10 +6,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-09-25 01:45+0000\n"
+"POT-Creation-Date: 2024-03-12 19:04-0400\n"
 "PO-Revision-Date: 2024-09-07 18:09+0000\n"
 "Last-Translator: ovari <ovari123@zoho.com>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hu/>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/gaphor/"
+"gaphor-github-io/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.8-dev\n"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _platforms/01-windows.md
 #, no-wrap
 msgid "Windows"
@@ -68,7 +69,7 @@ msgstr "A legújabb kiadási megjegyzések és egyéb részletek megtekintéséh
 msgid "winget show gaphor\n"
 msgstr "winget show gaphor\n"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _platforms/02-macos.md
 #, no-wrap
 msgid "macOS"
@@ -102,7 +103,7 @@ msgstr "Öntsön Gaphort egy [házi sörfőző hordóból](https://formulae.brew
 msgid "brew install --cask gaphor\n"
 msgstr "brew install --cask gaphor\n"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _platforms/03-linux.md
 #, no-wrap
 msgid "Linux"
@@ -153,7 +154,7 @@ msgstr "Arch Linux"
 msgid "Gaphor can be installed from an [AUR package](https://aur.archlinux.org/packages/python-gaphor/)."
 msgstr "A Gaphor [AUR-csomag](https://aur.archlinux.org/packages/python-gaphor/)ból telepíthető."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _platforms/04-python.md
 #, no-wrap
 msgid "Python"
@@ -179,7 +180,7 @@ msgstr ""
 "pip install gaphor\n"
 "gaphor\n"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: tutorials/report-bugs.md
 #, no-wrap
 msgid "How to report a bug in Gaphor"
@@ -260,7 +261,7 @@ msgstr "Egyszerű és egyszerű nyelvezeten írja le a problémát, és ha haszn
 msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the [Gaphor developer's website](https://docs.gaphor.org/en/latest)."
 msgstr "Ha szeretne jobban részt venni a Gaphor fejlesztésében, örömmel üdvözöljük a [Gaphor fejlesztő webhelyén](https://docs.gaphor.org/)."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/01-platform.md
 #, no-wrap
 msgid "Multi-platform"
@@ -271,7 +272,7 @@ msgstr "Többplatformos"
 msgid "Gaphor works on all major platforms: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [macOS]({{ \"/download#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
 msgstr "A Gaphor az összes főbb platformon működik: [GNU/Linux]({{ \"/download#linux\" | prepend: site.baseurl }}), [macOS]({{ \"/download#macos\" | prepend: site.baseurl }}) és [Windows]({{ \"/download#windows\" | prepend: site.baseurl }})."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/02-opensource.md
 #, no-wrap
 msgid "Open Source"
@@ -282,7 +283,7 @@ msgstr "Nyílt forráskódú"
 msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
 msgstr "Nincs szállítói bekötés: A Gaphor Python nyelven íródott, és 100%-ban nyílt forráskódú, barátságos [Apache 2 licenc](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt) alatt érhető el."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/03-beginner-pro.md
 #, no-wrap
 msgid "Beginner or Pro"
@@ -293,7 +294,7 @@ msgstr "Kezdő vagy szakmai"
 msgid "Whether you're a casual modeler documenting a project or a Model Driven Development expert, Gaphor has got you covered."
 msgstr "Legyen szó alkalmi modellezőről, aki egy projektet dokumentál, vagy modellvezérelt fejlesztési szakértőről van szó, a Gaphor mindent megtesz."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/04-consistent.md
 #, no-wrap
 msgid "Consistent"
@@ -304,7 +305,7 @@ msgstr "Egységes"
 msgid "UML is a graphical modeling language, so all information you put in the model is visible in the diagrams. For example, stereotypes are modeled in diagrams.  No hidden panels and property pages. Just diagrams!"
 msgstr "Az UML egy grafikus modellező nyelv, így a modellbe helyezett összes adat látható az ábrákon. Például a sztereotípiákat ábrákon modellezik. Nincsenek rejtett panelek és tulajdonságoldalak. Csak ábrák!"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/05-extensible.md
 #, no-wrap
 msgid "Extensible"
@@ -315,7 +316,7 @@ msgstr "Bővíthető"
 msgid "Gaphor is extensible. Plug-in a code generator or export your diagrams for documentation.  Create your own extensions and access them through the GUI or CLI."
 msgstr "A Gaphor bővíthető. Csatlakoztasson egy kódgenerátort, vagy exportálja az ábrákat a dokumentációhoz. Hozzon létre saját bővítményeket, és érje el őket a grafikus felhasználói felületen (GUI) vagy a parancssori felületen (CLI) keresztül."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _usps/06-standard.md
 #, no-wrap
 msgid "Standards Compliant"
@@ -326,7 +327,7 @@ msgstr "Szabványmegfelelőség"
 msgid "Gaphor implements the UML, SysML, and RAAML OMG standards. It also includes support for the C4 model for visualizing software architectures."
 msgstr "A Gaphor az UML-, SysML- és RAAML OMG-szabványokat valósítja meg. Tartalmazza a C4-modell támogatását is a szoftverarchitektúrák megjelenítéséhez."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _pages/contribute.md
 #, no-wrap
 msgid "Contribute"
@@ -362,7 +363,7 @@ msgstr ""
 "Ha kétségei vannak, kérdezzen a <a href=\"../discuss\">vitaterületünkön</a>, és \n"
 "valaki meg tudja mutatni a helyes irányt.\n"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _pages/discuss.md
 #, no-wrap
 msgid "Get in touch"
@@ -428,7 +429,7 @@ msgstr "A közreműködőktől elvárjuk, hogy kövessék a GNOME [Viselkedési 
 msgid "We want our community to be a safe, welcoming and friendly place.  We won't hesitate to issue a clear warning and, if ignored, ban people who don't behave in the spirit of the code of conduct. If a conduct related situation arises, we will endeavour to act in a discreet, sympathetic and fair manner to all concerned."
 msgstr "Azt akarjuk, hogy közösségünk biztonságos, barátságos és barátságos hely legyen. Habozás nélkül egyértelmű figyelmeztetést adunk, és ha figyelmen kívül hagyjuk, kitiltjuk azokat az embereket, akik nem a viselkedési szabályzat szellemében viselkednek. Ha magatartással kapcsolatos helyzet adódik, igyekszünk diszkréten, együttérzően és tisztességesen eljárni minden érintett felé."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _pages/tutorials.md
 #, no-wrap
 msgid "Tutorials"
@@ -467,7 +468,9 @@ msgstr "[A Gaphor hibájának bejelentése]({{ \"/tutorials/report-bugs/\" | pre
 #. type: Plain text
 #: _pages/tutorials.md
 msgid "You can find a lot more info on the [Gaphor Documentation site](https://docs.gaphor.org/)."
-msgstr "Sokkal több információt találhat a [Gaphor dokumentációs webhelyén](https://docs.gaphor.org/)."
+msgstr ""
+"Sokkal több információt találhat a [Gaphor dokumentációs "
+"webhelyén](https://docs.gaphor.org/)."
 
 #. type: Title ##
 #: _pages/tutorials.md
@@ -478,17 +481,29 @@ msgstr "Beszélgetések"
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "Frank Vanbever spoke at [FOSDEM 2024](https://fosdem.org/2024): [Drop the docs and embrace the model with Gaphor](https://fosdem.org/2024/schedule/event/fosdem-2024-2542-drop-the-docs-and-embrace-the-model-with-gaphor/)."
-msgstr "Vanbever Frank a [2024. FOSDEM (Free and Open source Software Developers’ European Meeting - Ingyenes és nyílt forráskódú szoftverfejlesztők európai találkozója)](https://fosdem.org/2024) rendezvényen beszélt: [Hagyja el a dokumentumokat, és fogadja el a modellt a Gaphor segítségével](https://fosdem.org/2024/schedule/event/fosdem-2024-2542-drop-the-docs-and-embrace-the-model-with-gaphor/)."
+msgstr ""
+"Vanbever Frank a [2024. FOSDEM (Free and Open source Software Developers’ "
+"European Meeting - Ingyenes és nyílt forráskódú szoftverfejlesztők európai "
+"találkozója)](https://fosdem.org/2024) rendezvényen beszélt: [Hagyja el a "
+"dokumentumokat, és fogadja el a modellt a Gaphor segítségével](https://fosdem"
+".org/2024/schedule/event/"
+"fosdem-2024-2542-drop-the-docs-and-embrace-the-model-with-gaphor/)."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "Dan explains how to [automate MBSE models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA)."
-msgstr "Dan elmagyarázza, hogyan lehet [automatizálni az MBSE-modelleket Gaphor és Python segítségével](https://youtu.be/9BYgI1nJCBA)."
+msgstr ""
+"Dan elmagyarázza, hogyan lehet [automatizálni az MBSE-modelleket Gaphor és "
+"Python segítségével](https://youtu.be/9BYgI1nJCBA)."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "Dan presented [Modeling Complex Systems in Python with Gaphor](https://www.youtu.be/PnWKsr2csXg) on a joint INCOSE/Python Michigan meetup."
-msgstr "Dan bemutatta [Komplex rendszerek modellezése Pythonban a Gaphor segítségével](https://www.youtu.be/PnWKsr2csXg) az INCOSE (International Council on Systems Engineering - Nemzetközi Rendszermérnöki Tanács)/Python Michigan közös találkozóján."
+msgstr ""
+"Dan bemutatta [Komplex rendszerek modellezése Pythonban a Gaphor "
+"segítségével](https://www.youtu.be/PnWKsr2csXg) az INCOSE (International "
+"Council on Systems Engineering - Nemzetközi Rendszermérnöki Tanács)/Python "
+"Michigan közös találkozóján."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
@@ -516,12 +531,22 @@ msgstr "Amit mások mondanak"
 msgid "There are some 10+ year old articles on Gaphor on the web. Some more recent articles are:"
 msgstr "Van néhány cikk a Gaphorról az interneten, amelyek több mint egy évtizedesek. Néhány újabb cikk a következő:"
 
-#. type: Plain text
+#. type: Bullet: '- '
 #: _pages/tutorials.md
-msgid "- [Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)  - [It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)  - [Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
-msgstr ""
+msgid "[Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)"
+msgstr "[A Methods & Tools webhely 2021 decemberében felülvizsgálta a Gaphor 2.7.1-es verzióját egy Window 10-en.](https://www.methodsandtools.com/tools/gaphor.php)"
 
-#. type: YAML Front Matter: title
+#. type: Bullet: '- '
+#: _pages/tutorials.md
+msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
+msgstr "[A FOSS-nak van egy rövid leírása a Gaphorról (~2,8).](https://itsfoss.com/gaphor-modeling-tool/)"
+
+#. type: Bullet: '- '
+#: _pages/tutorials.md
+msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
+msgstr "[Az Ubuntu Pitnek van egy szép cikke a Gaphorról (~2.8).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
+
+#. type: Yaml Front Matter Hash Value: title
 #: _pages/download.md
 #, no-wrap
 msgid "Download Gaphor"
@@ -554,23 +579,14 @@ msgstr "**Az oldal nem található :(**\n"
 msgid "The requested page could not be found."
 msgstr "Nem található a keresett oldal."
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _pages/index.md
 #, no-wrap
 msgid "Modeling for Everyone"
 msgstr "Műszaki modellezés mindenki számára"
 
-#. type: YAML Front Matter: title
+#. type: Yaml Front Matter Hash Value: title
 #: _pages/blog.md
 #, no-wrap
 msgid "Blog and News"
 msgstr "Napló és hírek"
-
-#~ msgid "[Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)"
-#~ msgstr "[A Methods & Tools webhely 2021 decemberében felülvizsgálta a Gaphor 2.7.1-es verzióját egy Window 10-en.](https://www.methodsandtools.com/tools/gaphor.php)"
-
-#~ msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
-#~ msgstr "[A FOSS-nak van egy rövid leírása a Gaphorról (~2,8).](https://itsfoss.com/gaphor-modeling-tool/)"
-
-#~ msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
-#~ msgstr "[Az Ubuntu Pitnek van egy szép cikke a Gaphorról (~2.8).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
