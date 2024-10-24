@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-10-09 16:28+0000\n"
+"POT-Creation-Date: 2024-10-24 17:39+0000\n"
 "PO-Revision-Date: 2024-03-14 08:01+0000\n"
 "Last-Translator: Сергей <asvmail.as@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/ru/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Weblate 5.5-dev\n"
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _platforms/01-windows.md
 #, no-wrap
 msgid "Windows"
@@ -68,7 +68,7 @@ msgstr "Проверить список последних изменений:"
 msgid "winget show gaphor\n"
 msgstr "winget show gaphor\n"
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _platforms/02-macos.md
 #, no-wrap
 msgid "macOS"
@@ -110,7 +110,7 @@ msgstr "Установить Gaphor используя [homebrew cask](https://f
 msgid "brew install --cask gaphor\n"
 msgstr "brew install --cask gaphor\n"
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _platforms/03-linux.md
 #, no-wrap
 msgid "Linux"
@@ -161,7 +161,7 @@ msgstr "Arch Linux"
 msgid "Gaphor can be installed from an [AUR package](https://aur.archlinux.org/packages/python-gaphor/)."
 msgstr "Gaphor может быть установлен из [пакета AUR](https://aur.archlinux.org/packages/python-gaphor/)."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _platforms/04-python.md
 #, no-wrap
 msgid "Python"
@@ -187,7 +187,7 @@ msgstr ""
 "pip install gaphor\n"
 "gaphor\n"
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: tutorials/report-bugs.md
 #, no-wrap
 msgid "How to report a bug in Gaphor"
@@ -268,7 +268,7 @@ msgstr "Используйте понятный язык для описания
 msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the [Gaphor developer's website](https://docs.gaphor.org/en/latest)."
 msgstr "Если вы хотите принять более активное участие в разработке Gaphor, мы будем рады приветствовать вас на [сайте разработчика Gaphor](https://docs.gaphor.org/en/latest)."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _usps/01-platform.md
 #, no-wrap
 msgid "Multi-platform"
@@ -279,7 +279,7 @@ msgstr "Мультиплатформенный"
 msgid "Gaphor works on all major platforms: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [macOS]({{ \"/download#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
 msgstr "Gaphor работает на всех основных платформах: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [macOS]({{ \"/download#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _usps/02-opensource.md
 #, no-wrap
 msgid "Open Source"
@@ -290,7 +290,7 @@ msgstr "Открытый исходный код"
 msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
 msgstr "Никакой привязки к вендору: Gaphor написан на Python и имеет 100% открытый исходный код, доступный по дружественной [лицензии Apache 2](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _usps/03-beginner-pro.md
 #, no-wrap
 msgid "Beginner or Pro"
@@ -301,7 +301,7 @@ msgstr "Новичок или профи"
 msgid "Whether you're a casual modeler documenting a project or a Model Driven Development expert, Gaphor has got you covered."
 msgstr "Независимо от того, являетесь ли вы обычным моделистом, документирующим проект, или экспертом в области разработки на основе моделей, Gaphor поможет вам."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _usps/04-consistent.md
 #, no-wrap
 msgid "Consistent"
@@ -312,7 +312,7 @@ msgstr "Последовательный"
 msgid "UML is a graphical modeling language, so all information you put in the model is visible in the diagrams. For example, stereotypes are modeled in diagrams.  No hidden panels and property pages. Just diagrams!"
 msgstr "UML — это язык графического моделирования, поэтому вся информация, которую вы помещаете в модель, видна на диаграммах. Стереотипы, например, моделируются в диаграммах.  Никаких скрытых полей и страниц свойств. Только схемы!"
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _usps/05-extensible.md
 #, no-wrap
 msgid "Extensible"
@@ -323,7 +323,7 @@ msgstr "Расширяемый"
 msgid "Gaphor is extensible. Plug-in a code generator or export your diagrams for documentation.  Create your own extensions and access them through the GUI or CLI."
 msgstr "Gaphor является расширяемым. Вы можете подключить генератор кода или экспортировать диаграммы для документации.  Создавайте свои собственные расширения и получайте к ним доступ через графический интерфейс пользователя или командную строку."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _usps/06-standard.md
 #, no-wrap
 msgid "Standards Compliant"
@@ -334,7 +334,7 @@ msgstr "Соответствующий стандартам"
 msgid "Gaphor implements the UML, SysML, and RAAML OMG standards. It also includes support for the C4 model for visualizing software architectures."
 msgstr "Gaphor реализует стандарты UML, SysML и RAAML OMG. Он также поддерживает модель C4 для визуализации архитектур программного обеспечения."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _pages/contribute.md
 #, no-wrap
 msgid "Contribute"
@@ -370,7 +370,7 @@ msgstr ""
 "Если вы сомневаетесь, просто спросите на нашей <a href=\"../discuss\"> дискуссионной площадке</a> и\n"
 "кто-нибудь сможет указать вам правильное направление.\n"
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _pages/discuss.md
 #, no-wrap
 msgid "Get in touch"
@@ -436,7 +436,7 @@ msgstr "Мы ожидаем, что участники будут следова
 msgid "We want our community to be a safe, welcoming and friendly place.  We won't hesitate to issue a clear warning and, if ignored, ban people who don't behave in the spirit of the code of conduct. If a conduct related situation arises, we will endeavour to act in a discreet, sympathetic and fair manner to all concerned."
 msgstr "Мы хотим, чтобы наше сообщество было безопасным, гостеприимным и дружелюбным местом.  Мы без колебаний сделаем чёткое предупреждение и, если его проигнорируют, забаним людей, которые ведут себя не в духе кодекса поведения. Если возникнет ситуация, связанная с поведением, мы постараемся действовать осмотрительно, дружелюбно и справедливо по отношению ко всем заинтересованным сторонам."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _pages/tutorials.md
 #, no-wrap
 msgid "Tutorials"
@@ -524,22 +524,12 @@ msgstr "Что говорят другие люди"
 msgid "There are some 10+ year old articles on Gaphor on the web. Some more recent articles are:"
 msgstr "В интернете есть несколько статей о Gaphor более чем десятилетней давности. Здесь наиболее свежие из них:"
 
-#. type: Bullet: '- '
+#. type: Plain text
 #: _pages/tutorials.md
-msgid "[Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)"
-msgstr "[В декабре 2021 года интернет сайт «Methods & Tools» провел обзор Gaphor версии 2.7.1 для Window 10.](https://www.methodsandtools.com/tools/gaphor.php)"
+msgid "- [Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)  - [It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)  - [Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
+msgstr ""
 
-#. type: Bullet: '- '
-#: _pages/tutorials.md
-msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
-msgstr "[На FOSS имеется краткий обзор Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
-
-#. type: Bullet: '- '
-#: _pages/tutorials.md
-msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
-msgstr "[На Ubuntu Pit есть хорошая статья о Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
-
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _pages/download.md
 #, no-wrap
 msgid "Download Gaphor"
@@ -572,14 +562,23 @@ msgstr "**Страница не найдена :(**\n"
 msgid "The requested page could not be found."
 msgstr "Запрашиваемая страница не найдена."
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _pages/index.md
 #, no-wrap
 msgid "Modeling for Everyone"
 msgstr "Моделирование для Всех"
 
-#. type: Yaml Front Matter Hash Value: title
+#. type: YAML Front Matter: title
 #: _pages/blog.md
 #, no-wrap
 msgid "Blog and News"
 msgstr "Блог и Новости"
+
+#~ msgid "[Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)"
+#~ msgstr "[В декабре 2021 года интернет сайт «Methods & Tools» провел обзор Gaphor версии 2.7.1 для Window 10.](https://www.methodsandtools.com/tools/gaphor.php)"
+
+#~ msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
+#~ msgstr "[На FOSS имеется краткий обзор Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
+
+#~ msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
+#~ msgstr "[На Ubuntu Pit есть хорошая статья о Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
