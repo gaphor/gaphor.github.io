@@ -1,33 +1,54 @@
 index:
   thousand-words: >
-  learn: ''
+    Une image vaut mille mots. Décrivez et documentez vos applications et systèmes
+    avec Gaphor pour améliorer le partage des connaissances.
+  learn: 'En savoir plus'
   about-content: >
+    Gaphor est une application de modélisation UML, SysML, RAAML et C4. Elle est conçue
+    pour être facile à utiliser tout en étant puissante. Gaphor implémente un modèle
+    de données UML 2 entièrement conforme, ce qui en fait bien plus qu'un simple outil
+    de dessin d'images. Vous pouvez l'utiliser pour visualiser rapidement différents
+    aspects d'un système, mais aussi pour créer des modèles complexes.
   build: >
-  styling-engine: ''
-  treeview: ''
-  dark-mode: ''
+    Créez des diagrammes de classes, d'interactions et de machines à états pour les
+    logiciels, ou des diagrammes de définition de blocs et d'exigences pour les systèmes.
+    Modélisez les éléments dont vous avez besoin. Si vous souhaitez combiner des éléments,
+    vous pouvez même ajouter différents types de diagrammes au même diagramme pour
+    obtenir la vue dont vous avez besoin.
+  styling-engine: 'Personnalisez les diagrammes que vous créez grâce à notre moteur
+    de style intégré.'
+  treeview: 'Retrouvez facilement tous les éléments de votre modèle dans l''arborescence.'
+  dark-mode: 'Vous aimez le mode sombre ? Nous pouvons aussi le faire.'
   download-content: >
+    Il existe plusieurs méthodes pour installer Gaphor. La plus simple consiste à
+    télécharger le programme d'installation officiel pour Windows ou macOS. Pour Linux,
+    vous pouvez utiliser FlatHub pour installer Gaphor. Vous pouvez également utiliser
+    l'outil intégré de Python, « pip », à condition que toutes les dépendances nécessaires
+    soient installées.
 latest-news-and-blog:
   blog-content: |
-  see-blog: ''
-  read-more: ''
-  blog-and-news: ''
-  by: ''
+    Vous voulez savoir ce qui se passe chez Gaphor ? Lisez notre blog !
+
+    [Contactez l'équipe](/discuss) si vous souhaitez partager un contenu relatif à Gaphor.
+  see-blog: 'Voir le blog'
+  read-more: 'Lire la suite'
+  blog-and-news: 'Blog et nouvelles'
+  by: 'Par'
 menu:
-  home: ''
-  about: ''
-  download: ''
-  tutorials: ''
-  blog: ''
-  discuss: ''
-  contribute: ''
+  home: 'Accueil'
+  about: 'A propos'
+  download: 'Télécharger'
+  tutorials: 'Tutoriels'
+  blog: 'Blog'
+  discuss: 'Contactez-nous'
+  contribute: 'Contribuer'
 footer:
-  love: ''
-  chat-on: ''
-  code: ''
-  open-issue: ''
-  tech-docs: ''
-  copyright: ''
-  theme: ''
+  love: 'Nous aimerions avoir de vos nouvelles'
+  chat-on: 'Chattez avec nous'
+  code: 'Contribuer au code'
+  open-issue: 'Soumettre un problème'
+  tech-docs: 'Lire la documentation'
+  copyright: 'Copyright &copy; 2020, The Gaphor Development Team.'
+  theme: 'Thème'
 languages:
-  change: ''
+  change: 'Changement'
