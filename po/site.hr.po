@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-03-12 19:04-0400\n"
-"PO-Revision-Date: 2024-06-22 16:09+0000\n"
+"PO-Revision-Date: 2024-12-18 10:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/gaphor/"
 "gaphor-github-io/hr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.6-rc\n"
+"X-Generator: Weblate 5.9.2-dev\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/01-windows.md
@@ -326,7 +326,9 @@ msgstr "Sukladan standardima"
 #. type: Plain text
 #: _usps/06-standard.md
 msgid "Gaphor implements the UML, SysML, and RAAML OMG standards. It also includes support for the C4 model for visualizing software architectures."
-msgstr "Gaphor implementira UML, SysML i RAAML OMG standarde. Također uključuje podršku za model C4 za vizualiziranje arhitektura softvera."
+msgstr ""
+"Gaphor implementira OMG standarde UML, SysML i RAAML. Također uključuje "
+"podršku za model C4 za vizualizaciju softverskih arhitektura."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/contribute.md
@@ -342,7 +344,13 @@ msgstr "Želiš doprinijeti razvoju Gaphora? Ako misliš da je ovo samo za iskus
 #. type: Plain text
 #: _pages/contribute.md
 msgid "Our [technical documentation](https://docs.gaphor.org/en/latest) is hosted on the wonderful service that is [Read the Docs](https://readthedocs.com/). Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
-msgstr "Naša se [tehnička dokumentacija](https://docs.gaphor.org/hr/latest) čuva na usluzi [„Read the Docs”](https://readthedocs.com/). Ne samo da sadrži potrebne detalje za doprinošenje kodu aplikacije Gaphor, već opisuje i mnoge druge načine za doprinošenje (uključujući aktualiziranje ove web-stranice). Također objašnjava naše procese i očekivanja za različite vrste doprinosa Gaphoru."
+msgstr ""
+"Naša se [tehnička dokumentacija](https://docs.gaphor.org/hr/latest) čuva na "
+"usluzi [„Read the Docs”](https://readthedocs.com/). Ne samo da sadrži "
+"potrebne detalje za doprinošenje kodu Gaphora, već opisuje i mnoge druge "
+"načine za doprinošenje (uključujući aktualiziranje ove web-stranice). "
+"Također objašnjava naše procese i očekivanja za razne vrste doprinosa "
+"Gaphoru."
 
 #. type: Plain text
 #: _pages/contribute.md
@@ -389,7 +397,10 @@ msgstr "Diskutiraj na [matrix] mreži"
 #. type: Plain text
 #: _pages/discuss.md
 msgid "Our real-time conversations are on [matrix]. You can join using a chat client like Element, Fractal, or one of the other many options."
-msgstr "Za razgovore uživo koristimo [matrix] mrežu. Možeš im se pridružiti pomoću aplikacija kao što su Element, Fractal ili koristi jednu od drugih mnogih opcija."
+msgstr ""
+"Za razgovore uživo koristimo [matrix]. Možeš im se pridružiti pomoću "
+"aplikacija kao što su Element, Fractal ili koristi jednu od mnogih drugih "
+"opcija."
 
 #. type: Plain text
 #: _pages/discuss.md
