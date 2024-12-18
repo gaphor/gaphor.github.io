@@ -10,10 +10,10 @@ index:
     Koristi Gaphor za brzo vizualiziranje različitih aspekata sustava, kao i za
     stvaranje potpunih, vrlo složenih modela.
   build: >
-    Izradi klase, interakciju i dijagrame stanja uređaja za softver ili dijagrame
-    definicija blokova i sustavske uvjete. Modeliraj elemente koje trebaš. Ako želiš
-    miješati i uskladiti, za dobivanje željenog prikaza, istom dijagramu možeš dodati
-    različite elemente dijagrama.
+    Izradi klase, interakciju i dijagrame automata konačnih stanja za softver ili
+    dijagrame definicija blokova i uvjeta za sustave. Modeliraj elemente koje trebaš.
+    Ako želiš miješati i uskladiti, za dobivanje željenog prikaza, istom dijagramu
+    možeš dodati različite elemente dijagrama.
   styling-engine: >-
     Prilagodi dijagrame koje stvaraš pomoću našeg ugrađenog mehanizma za stiliziranje.
   treeview: Pronađi sve elemente tvog modela na jednostavan način u prikazu stabla.
