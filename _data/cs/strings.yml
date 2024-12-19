@@ -20,10 +20,10 @@ index:
   treeview: Snadné vyhledání všech prvků modelu ve stromovém zobrazení.
   dark-mode: Milujete tmavý režim? I ten umíme.
   download-content: >
-    Existuje mnoho způsobů instalace systému Gaphor. Nejjednodušší je stáhnout
-    si oficiální instalační program pro Windows nebo macOS. Pro Linux můžete
-    Gaphor nainstalovat pomocí FlatHubu.  Můžete také použít vestavěný nástroj
-    `pip` pro Python, pokud máte nainstalovány všechny potřebné závislosti.
+    Existuje mnoho způsobů instalace systému Gaphor. Nejjednodušší je stáhnout si
+    oficiální instalační program pro Windows nebo macOS. Pro Linux můžete Gaphor nainstalovat
+    pomocí FlatHubu. Můžete také použít vestavěný nástroj `pip` pro Python, pokud
+    máte nainstalovány všechny potřebné závislosti.
 latest-news-and-blog:
   blog-content: |
     Chcete vědět, co se děje s Gaphorem? Přečtěte si náš blog!
@@ -31,7 +31,7 @@ latest-news-and-blog:
     [obsah týkající](/discuss) se Gaphoru, kontaktujte tým.
   see-blog: Zobrazit blog
   read-more: Přečtěte si více
-  blog-and-news: Blog and News
+  blog-and-news: Zprávy a blogové příspěvky
   by: Od
 menu:
   about: O nás
