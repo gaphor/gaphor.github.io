@@ -2,7 +2,7 @@ index:
   thousand-words: >
     Eén beeld zegt meer dan duizend woorden. Beschrijf en documenteer uw apps
     en systemen met Gaphor om het delen van kennis te verbeteren.
-  learn: Meer te weten komen
+  learn: Kom meer te weten
   about-content: >
     Gaphor is een modelleer-app voor UML, SysML, RAAML en C4. Het is ontworpen
     om gemakkelijk te gebruiken en toch krachtig te zijn. Gaphor implementeert
@@ -11,14 +11,13 @@ index:
     aspecten van een systeem te visualiseren, maar ook om complete, zeer
     complexe modellen te maken.
   build: >
-    Bouw klasse-, interactie- en toestands machine diagrammen voor software, of
-    blok definitie- en eisen diagrammen voor systemen. Modelleer de elementen
-    die u nodig heeft. Als u wilt mixen en matchen, kunt u zelfs verschillende
-    diagram onderdelen aan hetzelfde diagram toevoegen om het gewenste beeld te
-    krijgen.
-  styling-engine: Pas de diagrammen die u maakt aan met onze ingebouwde stijlmotor.
-  treeview: Vind gemakkelijk alle elementen van uw model in het boomoverzicht.
-  dark-mode: Fan van donkere modus? Die is er ook.
+    Bouw klasse-, interactie- en toestandsmachine-diagrammen voor software, of block
+    definition- en requirements-diagrammen voor systemen. Modelleer de elementen die
+    u nodig heeft. Als u wilt mixen en matchen, kunt u zelfs verschillende diagram
+    onderdelen aan hetzelfde diagram toevoegen om het gewenste beeld te krijgen.
+  styling-engine: Pas de diagrammen die u maakt aan met onze ingebouwde stijl-editor.
+  treeview: Vind gemakkelijk alle elementen van uw model in het overzicht.
+  dark-mode: Fan van dark-mode? Die is er ook.
   download-content: >
     Er zijn vele manieren om Gaphor te installeren. De eenvoudigste is om de
     officiële installer voor Windows of macOS te downloaden. Voor Linux kunt u
@@ -41,7 +40,7 @@ menu:
   blog: Blog
   discuss: Contact opnemen
   contribute: Bijdragen
-  home: Start
+  home: Home
 footer:
   love: We horen graag van u
   open-issue: Een probleem melden
