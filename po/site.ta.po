@@ -7,133 +7,157 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-03-12 20:58-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-12-29 10:00+0000\n"
+"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/gaphor/"
+"gaphor-github-io/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/01-windows.md
 #, no-wrap
 msgid "Windows"
-msgstr ""
+msgstr "சாளரங்கள்"
 
 #. type: Plain text
 #: _platforms/01-windows.md
 #, markdown-text, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-installer.exe\"><i class=\"fa fa-download\"></i> Download installer</a>\n"
 msgstr ""
+"<a வகுப்பு = \"btn btn-primary btn-lg\" href = \"https://github.com/gaphor/"
+"gaphor/relaess/download/ {{ site.gaphor_version }}/kaphor-{{ "
+"site.gaphor_version }}- install.exe \"> <i வகுப்பு =\" fa fa-download \"> </"
+"i> நிறுவி பதிவிறக்கம் </a>\n"
 
 #. type: Plain text
 #: _platforms/01-windows.md
 #, markdown-text
 msgid "Alternatively, a portable version of Gaphor can be downloaded."
-msgstr ""
+msgstr "மாற்றாக, காஃபரின் சிறிய பதிப்பை பதிவிறக்கம் செய்யலாம்."
 
 #. type: Plain text
 #: _platforms/01-windows.md
 #, markdown-text, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-portable.exe\"><i class=\"fa fa-download\"></i> Download portable version</a>\n"
 msgstr ""
+"<a வகுப்பு = \"btn btn-primary btn-lg\" href = \"https://github.com/gaphor/"
+"gaphor/relaess/download/ {{ site.gaphor_version }}/kaphor-{{ "
+"site.gaphor_version }}- partable.exe \"> <i வகுப்பு =\" fa fa-download \"> </"
+"i> சிறிய பதிப்பைப் பதிவிறக்குக </a>\n"
 
 #. type: Title ###
 #: _platforms/01-windows.md
 #, markdown-text, no-wrap
 msgid "Winget"
-msgstr ""
+msgstr "விங்கெட்"
 
 #. type: Plain text
 #: _platforms/01-windows.md
 #, markdown-text
 msgid "Install Gaphor from [winget](https://github.com/microsoft/winget-pkgs/tree/master/manifests/g/gaphor/gaphor):"
 msgstr ""
+"[Winget] (https://github.com/microsoft/winget-pkgs/tree/master/manifests/g/"
+"gaphor/gaphor) இலிருந்து கேஃபரை நிறுவவும்::"
 
 #. type: Fenced code block (bash)
 #: _platforms/01-windows.md
 #, no-wrap
 msgid "winget install gaphor\n"
-msgstr ""
+msgstr "விங்கெட் நிறுவல் கஃபர்\n"
 
 #. type: Plain text
 #: _platforms/01-windows.md
 #, markdown-text
 msgid "To check out the latest release notes and other details:"
-msgstr ""
+msgstr "அண்மைக் கால வெளியீட்டுக் குறிப்புகள் மற்றும் பிற விவரங்களைப் பார்க்க:"
 
 #. type: Fenced code block (bash)
 #: _platforms/01-windows.md
 #, no-wrap
 msgid "winget show gaphor\n"
-msgstr ""
+msgstr "விங்கெட் சோ காஃபர்\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/02-macos.md
 #, no-wrap
 msgid "macOS"
-msgstr ""
+msgstr "மேகோச்"
 
 #. type: Plain text
 #: _platforms/02-macos.md
 #, markdown-text, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Download .dmg</a>\n"
 msgstr ""
+"<a வகுப்பு = \"btn btn-primary btn-lg\" href = \"https://github.com/gaphor/"
+"gaphor/relaess/download/ {{ site.gaphor_version }}/caphor-{{ "
+"site.gaphor_version }}. dmg \"> <i வகுப்பு =\" fa fa-download \"> </i> "
+"பதிவிறக்கம் .dmg </a>\n"
 
 #. type: Plain text
 #: _platforms/02-macos.md
 #, markdown-text
 msgid "Gaphor requires **macOS 10.15** or newer."
-msgstr ""
+msgstr "கஃபருக்கு ** மேகோச் 10.15 ** அல்லது புதியது தேவை."
 
 #. type: Title ###
 #: _platforms/02-macos.md
 #, markdown-text, no-wrap
 msgid "Homebrew"
-msgstr ""
+msgstr "ஓம்பிரூ"
 
 #. type: Plain text
 #: _platforms/02-macos.md
 #, markdown-text
 msgid "Pour Gaphor from a [homebrew cask](https://formulae.brew.sh/cask/gaphor):"
 msgstr ""
+"ஒரு [ஓம்பிரூ காச்க்] (https://formulae.brew.sh/cask/gaphor) இலிருந்து காஃபரை "
+"ஊற்றவும்::"
 
 #. type: Fenced code block (bash)
 #: _platforms/02-macos.md
 #, no-wrap
 msgid "brew install --cask gaphor\n"
-msgstr ""
+msgstr "மருந்துநீர் நிறுவுதல் -காச்க் காஃபர்\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/03-linux.md
 #, no-wrap
 msgid "Linux"
-msgstr ""
+msgstr "லினக்ச்"
 
 #. type: Title ###
 #: _platforms/03-linux.md
 #, markdown-text, no-wrap
 msgid "Flatpak"
-msgstr ""
+msgstr "பிளாட்பாக்"
 
 #. type: Plain text
 #: _platforms/03-linux.md
 #, markdown-text
 msgid "[Flatpak](https://flatpak.org/) is the recommended way to install Gaphor in Linux. If you don't have it setup already, follow the instructions to [install Flatpak](https://flatpak.org/setup)."
 msgstr ""
+". உங்களிடம் ஏற்கனவே அமைவு இல்லையென்றால், [பிளாட்பாக் நிறுவ] (https://flatpak.org/"
+"setup) க்கான வழிமுறைகளைப் பின்பற்றவும்."
 
 #. type: Plain text
 #: _platforms/03-linux.md
 #, markdown-text, no-wrap
 msgid "<a href='https://flathub.org/apps/details/org.gaphor.Gaphor'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>\n"
 msgstr ""
+"<a href = 'https: //flathub.org/apps/details/org.gaphor.gaphor'> <img width "
+"= '240' மாற்று = 'flathub இல் பதிவிறக்கம்' src = 'https: //flathub.org/assets /"
+"badges/flathub-badge-en.png '/> </a>\n"
 
 #. type: Plain text
 #: _platforms/03-linux.md
 #, markdown-text
 msgid "To manually install Gaphor:"
-msgstr ""
+msgstr "கஃபரை கைமுறையாக நிறுவ:"
 
 #. type: Fenced code block (bash)
 #: _platforms/03-linux.md
@@ -143,36 +167,50 @@ msgid ""
 "    flathub https://dl.flathub.org/repo/flathub.flatpakrepo\n"
 "flatpak install --user flathub org.gaphor.Gaphor\n"
 msgstr ""
+"flatpak ரிமோட்-சேர்க்கை-பயன் --if-not-exists \\\n"
+" flathub https://dl.flathub.org/repo/flathub.flatpakrepo\n"
+" பிளாட்பாக் நிறுவல் -பயனர் பிளாட்டப் org.gaphor.gaphor\n"
 
 #. type: Title ###
 #: _platforms/03-linux.md
 #, markdown-text, no-wrap
 msgid "Arch Linux"
-msgstr ""
+msgstr "ஆர்ச் லினக்ச்"
 
 #. type: Plain text
 #: _platforms/03-linux.md
 #, markdown-text
 msgid "Gaphor can be installed from an [AUR package](https://aur.archlinux.org/packages/python-gaphor/)."
 msgstr ""
+"Kaphor ஒரு [AUR தொகுப்பு] (https://aur.archlinux.org/packages/python-gaphor/) "
+"இலிருந்து நிறுவப்படலாம்."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/04-python.md
 #, no-wrap
 msgid "Python"
-msgstr ""
+msgstr "பைதான்"
 
 #. type: Plain text
 #: _platforms/04-python.md
 #, markdown-text
 msgid "If you have the latest stable version of Python installed and the Gaphor dependencies installed, you can also install Gaphor using a wheel from [PyPI](https://pypi.org/project/gaphor/)."
 msgstr ""
+"பைதானின் அண்மைக் கால நிலையான பதிப்பு மற்றும் காஃபர் சார்புநிலைகள் நிறுவப்பட்டிருந்தால், "
+"[PYPI] (https://pypi.org/project/gaphor/) இலிருந்து ஒரு சக்கரத்தையும் பயன்படுத்தி "
+"காஃபரை நிறுவலாம்."
 
 #. type: Plain text
 #: _platforms/04-python.md
 #, markdown-text
 msgid "If you don't have the latest stable version of Python and the Gaphor dependencies installed, follow the development environment [installation instructions](https://docs.gaphor.org/en/latest) section, but do not clone the repository. Optionally, create a [virtual environment](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments).  Then execute the following:"
 msgstr ""
+"பைத்தானின் அண்மைக் கால நிலையான பதிப்பு மற்றும் கஃபர் சார்புநிலைகள் நிறுவப்பட்டிருந்தால், "
+"மேம்பாட்டு சூழலைப் பின்பற்றுங்கள் [நிறுவல் வழிமுறைகள்] (https://docs.gaphor.org/en/"
+"latest) பிரிவு, ஆனால் களஞ்சியத்தை நகலி செய்ய வேண்டாம். விருப்பமாக, ஒரு "
+"[மெய்நிகர் சூழலை] உருவாக்கவும் (https://packaging.python.org/tutorials/"
+"installing-packages/#creating-gatual- encensments). பின்னர் பின்வருவனவற்றை "
+"இயக்கவும்:"
 
 #. type: Fenced code block (bash)
 #: _platforms/04-python.md
@@ -181,102 +219,133 @@ msgid ""
 "pip install gaphor\n"
 "gaphor\n"
 msgstr ""
+"பிஐபி நிறுவும் கஃபர்\n"
+" kaphor\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: tutorials/report-bugs.md
 #, no-wrap
 msgid "How to report a bug in Gaphor"
-msgstr ""
+msgstr "காஃபரில் ஒரு பிழையைப் புகாரளிப்பது எப்படி"
 
 #. type: Plain text
 #: tutorials/report-bugs.md
 #, markdown-text
 msgid "If you've ever written a line of code, you'll know that all software has bugs.  This will also be the case with Gaphor. If you think you have found a bug, simply click on the link below (you'll need to have an account on GitHub) and then click the green \"New Issue\" button found at the top right hand side of the page:"
 msgstr ""
+"நீங்கள் எப்போதாவது ஒரு குறியீட்டை எழுதியிருந்தால், எல்லா மென்பொருளிலும் பிழைகள் இருப்பதை "
+"நீங்கள் அறிவீர்கள். கஃபோரிலும் இதுவும் இருக்கும். நீங்கள் ஒரு பிழையைக் கண்டுபிடித்ததாக நீங்கள் "
+"நினைத்தால், கீழேயுள்ள இணைப்பைக் சொடுக்கு செய்க (நீங்கள் கிதுபில் ஒரு கணக்கு வைத்திருக்க "
+"வேண்டும்) பின்னர் பக்கத்தின் மேல் வலது புறத்தில் காணப்படும் பச்சை \"புதிய சிக்கல்\" பொத்தானைக்"
+" சொடுக்கு செய்க:"
 
 #. type: Plain text
 #: tutorials/report-bugs.md
 #, markdown-text
 msgid "[Report a Bug in Gaphor](https://github.com/gaphor/gaphor/issues)"
-msgstr ""
+msgstr "[Report a பிழை in Gaphor](https://github.com/gaphor/gaphor/issues)"
 
 #. type: Plain text
 #: tutorials/report-bugs.md
 #, markdown-text
 msgid "When you create a new issue it will be given a number and the volunteer developers, who write and maintain the code, will be informed by email. They may annotate questions to your issue, if things are not clear. They may immediately close it and mark it as \"duplicate\" (someone else has already reported the bug -- and they'll reference the original issue). Sometimes they'll close the bug and say \"won't fix\", because they disagree that it's a bug *or* it's too trivial in order to invest any time."
 msgstr ""
+"நீங்கள் ஒரு புதிய சிக்கலை உருவாக்கும்போது அதற்கு ஒரு எண் வழங்கப்படும், மேலும் குறியீட்டை "
+"எழுதி பராமரிக்கும் தன்னார்வ உருவாக்குபவர்கள் மின்னஞ்சல் மூலம் தெரிவிக்கப்படும். விசயங்கள் "
+"தெளிவாக இல்லாவிட்டால், அவர்கள் உங்கள் பிரச்சினைக்கு கேள்விகளைக் குறிக்கலாம். அவர்கள் உடனடியா"
+"க அதை மூடி அதை \"நகல்\" என்று குறிக்கலாம் (வேறு யாரோ ஏற்கனவே பிழையைப் "
+"புகாரளித்துள்ளனர் - மேலும் அவர்கள் அசல் சிக்கலைக் குறிப்பிடுவார்கள்). சில நேரங்களில் அவர்கள் "
+"பிழையை மூடி, \"சரிசெய்ய மாட்டார்கள்\" என்று கூறுவார்கள், ஏனென்றால் இது ஒரு பிழை என்று "
+"அவர்கள் உடன்படவில்லை * அல்லது * எந்த நேரத்திலும் முதலீடு செய்வதற்கு இது மிகவும் அற்பமானது."
 
 #. type: Plain text
 #: tutorials/report-bugs.md
 #, markdown-text
 msgid "There are generally two sorts of bugs:"
-msgstr ""
+msgstr "பொதுவாக இரண்டு வகையான பிழைகள் உள்ளன:"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 #, markdown-text
 msgid "Technical: the code has a mistake in it which causes the program to break."
 msgstr ""
+"தொழில்நுட்பம்: குறியீட்டில் ஒரு தவறு உள்ளது, இது நிரலை உடைக்க காரணமாகிறது."
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 #, markdown-text
 msgid "Behavioural: the code works correctly, but is doing the wrong thing."
 msgstr ""
+"நடத்தை: குறியீடு சரியாக வேலை செய்கிறது, ஆனால் தவறான காரியத்தைச் செய்கிறது."
 
 #. type: Plain text
 #: tutorials/report-bugs.md
 #, markdown-text
 msgid "In both cases, for us to be able to fix the bug, we need **as much information as possible**. When you create a new issue you should try to include, where relevant, the following sorts of information:"
 msgstr ""
+"இரண்டு சந்தர்ப்பங்களிலும், பிழையை சரிசெய்ய, எங்களுக்கு முடிந்தவரை ** செய்தி தேவை **. "
+"நீங்கள் ஒரு புதிய சிக்கலை உருவாக்கும்போது, நீங்கள் சேர்க்க முயற்சிக்க வேண்டும், பொருத்தமான "
+"இடங்களில், பின்வரும் வகையான தகவல்கள்:"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 #, markdown-text
 msgid "What you were trying to do,"
-msgstr ""
+msgstr "நீங்கள் என்ன செய்ய முயற்சிக்கிறீர்கள்,"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 #, markdown-text
 msgid "What steps you took to make this happen,"
-msgstr ""
+msgstr "இதைச் செய்ய நீங்கள் என்ன படிகள் எடுத்தீர்கள்,"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 #, markdown-text
 msgid "What you expected to happen,"
-msgstr ""
+msgstr "நீங்கள் என்ன நடக்கும் என்று எதிர்பார்த்தீர்கள்,"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 #, markdown-text
 msgid "What actually happened,"
-msgstr ""
+msgstr "உண்மையில் என்ன நடந்தது,"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 #, markdown-text
 msgid "Why this difference is problematic (it may not be a bug!),"
-msgstr ""
+msgstr "இந்த வேறுபாடு ஏன் சிக்கலானது (இது ஒரு பிழையாக இருக்காது!),"
 
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 #, markdown-text
 msgid "Technical details like the version of Gaphor you're using, your OS version and other aspects of the context in which Gaphor was running."
 msgstr ""
+"நீங்கள் பயன்படுத்தும் காஃபரின் பதிப்பு, உங்கள் OS பதிப்பு மற்றும் காஃபர் இயங்கும் சூழலின் பிற "
+"நற்பொருத்தங்கள் போன்ற தொழில்நுட்ப விவரங்கள்."
 
 #. type: Plain text
 #: tutorials/report-bugs.md
 #, markdown-text
 msgid "Use plain and simple language to describe the problem and, if helpful, break it down into steps so developers can easily recreate the issue. Please don't assume we'll understand what you were trying to achieve -- honestly, it's best if you try to imagine we (the developers) are a bunch of clever 5-year-olds. Try to explain *everything* about the problem and don't assume we know what you mean.  We won't mind!"
 msgstr ""
+"சிக்கலை விவரிக்க எளிய மற்றும் எளிமையான மொழியைப் பயன்படுத்தவும், உதவியாக இருந்தால், அதை "
+"படிகளாக உடைக்கவும், இதனால் உருவாக்குபவர்கள் சிக்கலை எளிதாக மீண்டும் உருவாக்க முடியும். "
+"தயவுசெய்து நீங்கள் எதை அடைய முயற்சிக்கிறீர்கள் என்பதை நாங்கள் புரிந்துகொள்வோம் என்று கருத "
+"வேண்டாம்-நேர்மையாக, நாங்கள் (டெவலப்பர்கள்) புத்திசாலித்தனமான 5 அகவை சிறுவர்கள் என்று கற்பனை"
+" செய்ய முயற்சித்தால் நல்லது. பிரச்சினையைப் பற்றி * எல்லாவற்றையும் * விளக்க முயற்சி "
+"செய்யுங்கள், நீங்கள் என்ன சொல்கிறீர்கள் என்று எங்களுக்குத் தெரியும் என்று கருத வேண்டாம். நாங்கள் "
+"கவலைப்பட மாட்டோம்!"
 
 #. type: Plain text
 #: tutorials/report-bugs.md
 #, markdown-text
 msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the [Gaphor developer's website](https://docs.gaphor.org/en/latest)."
 msgstr ""
+"காஃபரின் வளர்ச்சியில் நீங்கள் அதிக ஈடுபாடு கொள்ள விரும்பினால், "
+"[கேஃபர் டெவலப்பரின் வலைத்தளம்] (https://docs.gaphor.org/en/latest) வழியாக உங்களை "
+"வரவேற்க விரும்புகிறோம்."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/01-platform.md
@@ -289,96 +358,124 @@ msgstr ""
 #, markdown-text
 msgid "Gaphor works on all major platforms: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [macOS]({{ \"/download#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
 msgstr ""
+"அனைத்து முக்கிய தளங்களிலும் காஃபர் செயல்படுகிறது: [விண்டோச்] ({{\"/பதிவிறக்கம்#விண்டோச்\""
+" | தயார்: தளம். ."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/02-opensource.md
 #, no-wrap
 msgid "Open Source"
-msgstr ""
+msgstr "திறந்த மூல"
 
 #. type: Plain text
 #: _usps/02-opensource.md
 #, markdown-text
 msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
 msgstr ""
+"விற்பனையாளர் பூட்டுதல் இல்லை: கேஃபர் பைதானில் எழுதப்பட்டுள்ளது மற்றும் 100% திறந்த "
+"மூலமாகும், இது நட்பின் கீழ் கிடைக்கிறது [அப்பாச்சி 2 உரிமம்] (https://github.com/"
+"gaphor/gaphor/blob/main/license.txt)."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/03-beginner-pro.md
 #, no-wrap
 msgid "Beginner or Pro"
-msgstr ""
+msgstr "தொடக்க அல்லது சார்பு"
 
 #. type: Plain text
 #: _usps/03-beginner-pro.md
 #, markdown-text
 msgid "Whether you're a casual modeler documenting a project or a Model Driven Development expert, Gaphor has got you covered."
 msgstr ""
+"நீங்கள் ஒரு திட்டத்தை ஆவணப்படுத்தும் ஒரு சாதாரண மாடலராக இருந்தாலும் அல்லது மாதிரி "
+"இயக்கப்படும் மேம்பாட்டு நிபுணராக இருந்தாலும், காஃபர் உங்களை மூடிமறைத்துள்ளார்."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/04-consistent.md
 #, no-wrap
 msgid "Consistent"
-msgstr ""
+msgstr "சீரானது"
 
 #. type: Plain text
 #: _usps/04-consistent.md
 #, markdown-text
 msgid "UML is a graphical modeling language, so all information you put in the model is visible in the diagrams. For example, stereotypes are modeled in diagrams.  No hidden panels and property pages. Just diagrams!"
 msgstr ""
+"யுஎம்எல் ஒரு வரைகலை மாடலிங் மொழி, எனவே நீங்கள் மாதிரியில் வைத்திருக்கும் அனைத்து "
+"தகவல்களும் வரைபடங்களில் தெரியும். எடுத்துக்காட்டாக, ச்டீரியோடைப்கள் வரைபடங்களில் "
+"வடிவமைக்கப்பட்டுள்ளன. மறைக்கப்பட்ட பேனல்கள் மற்றும் சொத்து பக்கங்கள் இல்லை. வெறும் வரைபடங்கள்!"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/05-extensible.md
 #, no-wrap
 msgid "Extensible"
-msgstr ""
+msgstr "நீட்டிக்கக்கூடிய"
 
 #. type: Plain text
 #: _usps/05-extensible.md
 #, markdown-text
 msgid "Gaphor is extensible. Plug-in a code generator or export your diagrams for documentation.  Create your own extensions and access them through the GUI or CLI."
 msgstr ""
+"கஃபர் நீட்டிக்கக்கூடியது. ஒரு குறியீடு செனரேட்டரை செருகவும் அல்லது ஆவணங்களுக்கு உங்கள் "
+"வரைபடங்களை ஏற்றுமதி செய்யவும். உங்கள் சொந்த நீட்டிப்புகளை உருவாக்கி அவற்றை GUI அல்லது CLI "
+"மூலம் அணுகவும்."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/06-standard.md
 #, no-wrap
 msgid "Standards Compliant"
-msgstr ""
+msgstr "தரநிலைகள் இணக்கமானவை"
 
 #. type: Plain text
 #: _usps/06-standard.md
 #, markdown-text
 msgid "Gaphor implements the UML, SysML, and RAAML OMG standards. It also includes support for the C4 model for visualizing software architectures."
 msgstr ""
+"Kaphor UML, SYSML மற்றும் RAAML OMG தரங்களை செயல்படுத்துகிறது. மென்பொருள் "
+"கட்டமைப்புகளைக் காட்சிப்படுத்துவதற்கான சி 4 மாடலுக்கான ஆதரவும் இதில் அடங்கும்."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/contribute.md
 #, no-wrap
 msgid "Contribute"
-msgstr ""
+msgstr "பங்களிப்பு"
 
 #. type: Plain text
 #: _pages/contribute.md
 #, markdown-text
 msgid "Would you like to contribute to the development of Gaphor? (If you think this is only something for experienced developers, please reconsider, there are plenty of ways to contribute to Gaphor, no matter your level of experience or skill set."
 msgstr ""
+"கஃபரின் வளர்ச்சிக்கு பங்களிக்க விரும்புகிறீர்களா? (இது பட்டறிவு வாய்ந்த டெவலப்பர்களுக்கு "
+"மட்டுமே என்று நீங்கள் நினைத்தால், தயவுசெய்து மறுபரிசீலனை செய்யுங்கள், உங்கள் அனுபவத்தின் நிலை"
+" அல்லது திறன் நிர்ணயிப்பைப் பொருட்படுத்தாமல், காஃபருக்கு பங்களிக்க ஏராளமான வழிகள் உள்ளன."
 
 #. type: Plain text
 #: _pages/contribute.md
 #, markdown-text
 msgid "Our [technical documentation](https://docs.gaphor.org/en/latest) is hosted on the wonderful service that is [Read the Docs](https://readthedocs.com/). Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
 msgstr ""
+"எங்கள் [தொழில்நுட்ப ஆவணங்கள்] (https://docs.gaphor.org/en/latest) அற்புதமான சேவையில் "
+"புரவலன் செய்யப்பட்டுள்ளது [டாக்சைப் படியுங்கள்] (https://readthedocs.com/). கஃபருக்கு "
+"குறியீடு பங்களிப்புகளைச் செய்வதற்கு தேவையான விவரங்கள் அதில் இருப்பது மட்டுமல்லாமல், நீங்கள் "
+"பங்களிக்கக்கூடிய பல வழிகளை இது கோடிட்டுக் காட்டுகிறது (இந்த வலைத்தளத்திற்கு "
+"புதுப்பிப்புகளைச் செய்வது உட்பட). இறுதியாக, இது எங்கள் செயல்முறைகள் மற்றும் "
+"எதிர்பார்ப்புகளுக்கு ஒரு வழிகாட்டியை வழங்குகிறது."
 
 #. type: Plain text
 #: _pages/contribute.md
 #, markdown-text
 msgid "The source code is hosted on [GitHub](https://github.com/gaphor/gaphor)."
 msgstr ""
+"மூலக் குறியீடு [github] (https://github.com/gaphor/gaphor) இல் புரவலன் "
+"செய்யப்படுகிறது."
 
 #. type: Plain text
 #: _pages/contribute.md
 #, markdown-text
 msgid "Help translate Gaphor on [Weblate](https://hosted.weblate.org/engage/gaphor/)."
 msgstr ""
+"[வெப்லேட்] (https://hosted.weblate.org/engage/gaphor/) இல் Gaphor ஐ மொழிபெயர்க்க "
+"உதவுங்கள்."
 
 #. type: Plain text
 #: _pages/contribute.md
@@ -387,243 +484,313 @@ msgid ""
 "If in doubt, just ask in our <a href=\"../discuss\">discussion area</a> and\n"
 "someone will be able to point you in the right direction.\n"
 msgstr ""
+"ஐயம் இருந்தால், எங்கள் <a href = \"../ கலந்துரையாடல்\"> கலந்துரையாடல் பகுதி </a>\n"
+" யாரோ உங்களை சரியான திசையில் சுட்டிக்காட்ட முடியும்.\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/discuss.md
 #, no-wrap
 msgid "Get in touch"
-msgstr ""
+msgstr "தொடர்பு கொள்ளுங்கள்"
 
 #. type: Plain text
 #: _pages/discuss.md
 #, markdown-text
 msgid "It's good to talk, share knowledge and learn from other users of Gaphor. Perhaps you have a question, problem or are unsure how to do something with Gaphor? Discussing such things in a supportive environment is a good way to make progress, make friends, and help. Put simply, Gaphor is a community focused project, and we have created a couple of online spaces where the community can come together."
 msgstr ""
+"கஃபோரின் பிற பயனர்களிடமிருந்து பேசுவது, அறிவைப் பகிர்ந்து கொள்வது மற்றும் கற்றுக்கொள்வது "
+"நல்லது. ஒருவேளை உங்களுக்கு ஒரு கேள்வி, சிக்கல் இருக்கலாம் அல்லது காஃபருடன் ஏதாவது "
+"செய்வது எப்படி என்று தெரியவில்லையா? இதுபோன்ற விசயங்களை ஒரு ஆதரவான சூழலில் விவாதிப்பது"
+" முன்னேற்றம், நண்பர்களை உருவாக்குதல் மற்றும் உதவ ஒரு சிறந்த வழியாகும். எளிமையாகச் "
+"சொல்வதானால், காஃபர் என்பது ஒரு சமூகத்தை மையமாகக் கொண்ட திட்டமாகும், மேலும் சமூகம் "
+"ஒன்றிணைக்கக்கூடிய இரண்டு நிகழ்நிலை இடங்களை நாங்கள் உருவாக்கியுள்ளோம்."
 
 #. type: Plain text
 #: _pages/discuss.md
 #, markdown-text
 msgid "Contributions are welcome without prejudice from anyone irrespective of age, gender, religion, race, or sexuality. If you’re thinking, \"but they don't mean me\", then we especially mean YOU."
 msgstr ""
+"அகவை, பாலினம், மதம், இனம் அல்லது பாலியல் ஆகியவற்றைப் பொருட்படுத்தாமல் யாரிடமிருந்தும் "
+"பாரபட்சம் இல்லாமல் பங்களிப்புகள் வரவேற்கப்படுகின்றன. "
+"\"ஆனால் அவை என்னை அர்த்தப்படுத்துவதில்லை\" என்று நீங்கள் நினைத்தால், நாங்கள் குறிப்பாக உங்களை "
+"அர்த்தப்படுத்துகிறோம்."
 
 #. type: Title ##
 #: _pages/discuss.md
 #, markdown-text, no-wrap
 msgid "Chat on [matrix]"
-msgstr ""
+msgstr "[மேட்ரிக்ச்] இல் அரட்டை"
 
 #. type: Plain text
 #: _pages/discuss.md
 #, markdown-text
 msgid "Our real-time conversations are on [matrix]. You can join using a chat client like Element, Fractal, or one of the other many options."
 msgstr ""
+"எங்கள் நிகழ்நேர உரையாடல்கள் [மேட்ரிக்ச்] இல் உள்ளன. உறுப்பு, ஃப்ராக்டல் அல்லது மற்ற பல "
+"விருப்பங்களில் ஒன்று போன்ற அரட்டை கிளையண்டைப் பயன்படுத்தி நீங்கள் சேரலாம்."
 
 #. type: Plain text
 #: _pages/discuss.md
 #, markdown-text, no-wrap
 msgid "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join [matrix]](https://matrix.to/#/#gaphor_Lobby:gitter.im)\n"
-msgstr ""
+msgstr ". im)\n"
 
 #. type: Title ##
 #: _pages/discuss.md
 #, markdown-text, no-wrap
 msgid "Submit an Issue on GitHub"
-msgstr ""
+msgstr "கிதுபில் ஒரு சிக்கலை சமர்ப்பிக்கவும்"
 
 #. type: Plain text
 #: _pages/discuss.md
 #, markdown-text
 msgid "Please use our GitHub issue tracker for general questions and reporting bugs.  Before submitting a GitHub issue please review our page about [how to report a bug in Gaphor](/tutorials/report-bugs)."
 msgstr ""
+"பொதுவான கேள்விகள் மற்றும் புகாரளிக்கும் பிழைகளுக்கு எங்கள் அறிவிலிமையம் வெளியீடு "
+"டிராக்கரைப் பயன்படுத்தவும். ஒரு அறிவிலிமையம் சிக்கலைச் சமர்ப்பிப்பதற்கு முன், "
+"[GAPHOR இல் ஒரு பிழையை எவ்வாறு புகாரளிப்பது] (/பயிற்சிகள்/அறிக்கை-பக்ச்) பற்றிய எங்கள் "
+"பக்கத்தை மதிப்பாய்வு செய்யவும்."
 
 #. type: Plain text
 #: _pages/discuss.md
 #, markdown-text, no-wrap
 msgid "[<i class=\"fab fa-github\"></i> Submit an Issue on GitHub](https://github.com/gaphor/gaphor/issues)\n"
 msgstr ""
+"[<i class=\"fab fa-github\"></i> Submit an சிக்கல் on GitHub](https://"
+"github.com/gaphor/gaphor/issues)\n"
 
 #. type: Title ##
 #: _pages/discuss.md
 #, markdown-text, no-wrap
 msgid "Community Conduct"
-msgstr ""
+msgstr "சமூக நடத்தை"
 
 #. type: Plain text
 #: _pages/discuss.md
 #, markdown-text
 msgid "We expect contributors to follow the GNOME [Code of Conduct](https://wiki.gnome.org/Foundation/CodeOfConduct)."
 msgstr ""
+"பங்களிப்பாளர்கள் க்னோம் [நடத்தை விதிமுறை] (https://wiki.gnome.org/foundation/"
+"codeofconduct) ஐப் பின்பற்ற வேண்டும் என்று நாங்கள் எதிர்பார்க்கிறோம்."
 
 #. type: Plain text
 #: _pages/discuss.md
 #, markdown-text
 msgid "We want our community to be a safe, welcoming and friendly place.  We won't hesitate to issue a clear warning and, if ignored, ban people who don't behave in the spirit of the code of conduct. If a conduct related situation arises, we will endeavour to act in a discreet, sympathetic and fair manner to all concerned."
 msgstr ""
+"எங்கள் சமூகம் பாதுகாப்பான, வரவேற்பு மற்றும் நட்பான இடமாக இருக்க வேண்டும் என்று நாங்கள் "
+"விரும்புகிறோம். ஒரு தெளிவான எச்சரிக்கையை வெளியிட நாங்கள் தயங்க மாட்டோம், "
+"புறக்கணிக்கப்பட்டால், நடத்தை நெறியின் மனப்பான்மையில் நடந்து கொள்ளாதவர்களை தடை செய்யுங்கள். "
+"ஒரு நடத்தை தொடர்பான நிலைமை ஏற்பட்டால், சம்பந்தப்பட்ட அனைவருக்கும் விவேகமான, இரக்கம் மற்றும் "
+"நியாயமான முறையில் செயல்பட முயற்சிப்போம்."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/tutorials.md
 #, no-wrap
 msgid "Tutorials"
-msgstr ""
+msgstr "பயிற்சிகள்"
 
 #. type: Plain text
 #: _pages/tutorials.md
 #, markdown-text
 msgid "Each tutorial is a self-contained lesson, explaining a specific aspect of Gaphor, so you have the skills needed to achieve your learning and modeling goals."
 msgstr ""
+"ஒவ்வொரு டுடோரியலும் ஒரு தன்னிறைவான பாடமாகும், இது காஃபரின் ஒரு குறிப்பிட்ட அம்சத்தை "
+"விளக்குகிறது, எனவே உங்கள் கற்றல் மற்றும் மாடலிங் இலக்குகளை அடைய தேவையான திறன்கள் உங்களிடம்"
+" உள்ளன."
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
 #, markdown-text
 msgid "[Get Started with Gaphor](https://docs.gaphor.org/en/latest/getting_started.html)"
 msgstr ""
+"[Get Started with Gaphor](https://docs.gaphor.org/en/latest/"
+"getting_started.html)"
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
 #, markdown-text
 msgid "[Your First Model](https://docs.gaphor.org/en/latest/first_model.html)"
-msgstr ""
+msgstr "[Your First Model](https://docs.gaphor.org/en/latest/first_model.html)"
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
 #, markdown-text
 msgid "<i class=\"fab fa-youtube\"></i> [Introduction to Gaphor and SysML](https://youtu.be/PnWKsr2csXg), presented by Dan at a joint INCOSE Michigan and Michigan Python event."
 msgstr ""
+"<i வகுப்பு = \"fab fa-youtube\"> </i> [Kaphor மற்றும் sysml அறிமுகம்] (https://"
+"youtu.be/pnwksr2csxg), மிச்சிகன் மற்றும் மிச்சிகன் பைதான் நிகழ்வில் ஒரு கூட்டு இன்கோச்."
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
 #, markdown-text
 msgid "<i class=\"fab fa-youtube\"></i> [Automating MBSE Models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA), presented by Dan at a Michigan Python event."
 msgstr ""
+"<i வகுப்பு = \"fab fa-youtube\"> </i> [மிச்சிகன் பைத்தான் நிகழ்வில் டான் வழங்கிய டான் "
+"வழங்கிய டான் வழங்கிய டான் வழங்கிய டான் வழங்கிய டான் வழங்கிய டான் வழங்கிய டான்."
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
 #, markdown-text
 msgid "[How to report a bug in Gaphor]({{ \"/tutorials/report-bugs/\" | prepend: site.baseurl }})"
 msgstr ""
+"[How பெறுநர் report a பிழை in Gaphor]({{ \"/tutorials/report-bugs/\" | "
+"prepend: site.baseurl }})"
 
 #. type: Plain text
 #: _pages/tutorials.md
 #, markdown-text
 msgid "You can find a lot more info on the [Gaphor Documentation site](https://docs.gaphor.org/)."
 msgstr ""
+"[Kaphor ஆவணப்படுத்தல் தளம்] (https://docs.gaphor.org/) குறித்து மேலும் பல தகவல்களைக் "
+"காணலாம்."
 
 #. type: Title ##
 #: _pages/tutorials.md
 #, markdown-text, no-wrap
 msgid "Talks"
-msgstr ""
+msgstr "பேச்சுக்கள்"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 #, markdown-text
 msgid "Frank Vanbever spoke at [FOSDEM 2024](https://fosdem.org/2024): [Drop the docs and embrace the model with Gaphor](https://fosdem.org/2024/schedule/event/fosdem-2024-2542-drop-the-docs-and-embrace-the-model-with-gaphor/)."
 msgstr ""
+"ஃபிராங்க் வான்பெவர் [fosdem 2024] (https://fosdem.org/2024) இல் பேசினார்: "
+"[டாக்சைக் கைவிட்டு மாதிரியைத் தழுவுங்கள்] (https://fosdem.org/2024/schedule/event/"
+"fosdem-2024- 2542-துளி-டாக்ச்-அண்ட்-எம்ப்ரேச்-மாடல்-வித்-கேஃபர்/)."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 #, markdown-text
 msgid "Dan explains how to [automate MBSE models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA)."
 msgstr ""
+"[கஃபர் மற்றும் பைதானுடன் MBSE மாதிரிகளை தானியக்கமாக்குவது எப்படி என்பதை டான் "
+"விளக்குகிறார் (https://youtu.be/9bygi1njcba)."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 #, markdown-text
 msgid "Dan presented [Modeling Complex Systems in Python with Gaphor](https://www.youtu.be/PnWKsr2csXg) on a joint INCOSE/Python Michigan meetup."
 msgstr ""
+"டான் [பைதானில் சிக்கலான அமைப்புகளை கஃபருடன் மாடலிங் செய்தார்] (https://www.youtu.be/"
+"pnwksr2csxg) ஒரு கூட்டு இன்கோச்/பைதான் மிச்சிகன் சந்திப்பில் வழங்கினார்."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 #, markdown-text
 msgid "Dan and Arjan spoke at [Linux App Summit 2021](https://linuxappsummit.org/)  about [how Gaphor is made available to all desktop platforms Linux/Windows/macOS](https://www.youtube.com/watch?v=vLwAT-TLmZU)."
 msgstr ""
+"டான் மற்றும் அர்சன் [லினக்ச் ஆப் உச்சி மாநாடு 2021] (https://linuxappsummit.org/) இல் "
+"பேசினர் [அனைத்து டெச்க்டாப் தளங்களுக்கும் லினக்ச்/விண்டோச்/மேகோச்] (https://"
+"www.youtube.com/watch க்கு காஃபர் எவ்வாறு கிடைக்கிறது என்பது பற்றி. ? v = vlwat-"
+"tlmzu)."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 #, markdown-text
 msgid "Dan spoke at the 2021 [MIT STAMP Workshop](https://psas.scripts.mit.edu/home/2021-stamp-workshop-program/)  about _Open STPA with RAAML and Gaphor_."
 msgstr ""
+"டான் 2021 [எம்ஐடி ச்டாம்ப் பட்டறை] (https://psas.scripts.mit.edu/home/"
+"2021-stamp-workshop-program/) இல் _ திற STPA ஐப் பற்றி RAAML மற்றும் Caphor_ இல் "
+"பேசினார்."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 #, markdown-text
 msgid "Arjan spoke at [GUADEC 2021](https://events.gnome.org/event/9/) about [Large GUI application with Python and GTK](https://events.gnome.org/event/9/contributions/188/)."
 msgstr ""
+"அர்சன் [குவாடெக் 2021] (https://events.gnome.org/event/9/) இல் பேசினார் "
+"[பைதான் மற்றும் சி.டி.கே உடன் பெரிய சி.யு.ஐ விண்ணப்பம்] ( 188/)."
 
 #. type: Title ##
 #: _pages/tutorials.md
 #, markdown-text, no-wrap
 msgid "What other people say"
-msgstr ""
+msgstr "மற்றவர்கள் என்ன சொல்கிறார்கள்"
 
 #. type: Plain text
 #: _pages/tutorials.md
 #, markdown-text
 msgid "There are some 10+ year old articles on Gaphor on the web. Some more recent articles are:"
 msgstr ""
+"வலையில் கஃபர் குறித்து சில 10+ ஆண்டுகள் பழமையான கட்டுரைகள் உள்ளன. இன்னும் சில அண்மைக் கா"
+"ல கட்டுரைகள்:"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 #, markdown-text
 msgid "[Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)"
 msgstr ""
+"[Methods & கருவிகள் website reviewed Gaphor version 2.7.1 in கா-மார்கழி 2021 "
+"on a சாளரம் 10.](https://www.methodsandtools.com/tools/gaphor.php)"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 #, markdown-text
 msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
 msgstr ""
+"[It's FOSS has a குறுக்கு write-up on Gaphor (~2.8-ish?).](https://"
+"itsfoss.com/gaphor-modeling-tool/)"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 #, markdown-text
 msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
 msgstr ""
+"[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://"
+"www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/download.md
 #, no-wrap
 msgid "Download Gaphor"
-msgstr ""
+msgstr "Kaphor ஐ பதிவிறக்கவும்"
 
 #. type: Plain text
 #: _pages/download.md
 #, markdown-text
 msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
 msgstr ""
+"கஃபரை நிறுவ பல வழிகள் உள்ளன. சாளரங்கள் அல்லது மேகோசிற்கான அதிகாரப்பூர்வ நிறுவியை "
+"பதிவிறக்குவது எளிமையானது. லினக்சுக்கு நீங்கள் பிளாட்டப்பைப் பயன்படுத்தி கஃபரை நிறுவலாம். "
+"தேவையான அனைத்து சார்புகளையும் நீங்கள் நிறுவியிருக்கும் வரை பைதானின் உள்ளமைக்கப்பட்ட `பிப்` "
+"கருவியையும் நீங்கள் பயன்படுத்தலாம்."
 
 #. type: Plain text
 #: _pages/download.md
 #, markdown-text
 msgid "If you're a developer, you can find the source code [on GitHub](https://github.com/gaphor/gaphor)."
 msgstr ""
+"நீங்கள் ஒரு டெவலப்பராக இருந்தால், மூலக் குறியீட்டை [Github இல்] (https://github.com/"
+"gaphor/gaphor) காணலாம்."
 
 #. type: Title #
 #: _pages/404.md
 #, markdown-text, no-wrap
 msgid "404"
-msgstr ""
+msgstr "404"
 
 #. type: Plain text
 #: _pages/404.md
 #, markdown-text, no-wrap
 msgid "**Page not found :(**\n"
-msgstr ""
+msgstr "** பக்கம் கிடைக்கவில்லை: (**\n"
 
 #. type: Plain text
 #: _pages/404.md
 #, markdown-text
 msgid "The requested page could not be found."
-msgstr ""
+msgstr "கோரப்பட்ட பக்கத்தைக் கண்டுபிடிக்க முடியவில்லை."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/index.md
 #, no-wrap
 msgid "Modeling for Everyone"
-msgstr ""
+msgstr "அனைவருக்கும் மாடலிங்"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/blog.md
 #, no-wrap
 msgid "Blog and News"
-msgstr ""
+msgstr "வலைப்பதிவு மற்றும் செய்தி"
