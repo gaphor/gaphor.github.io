@@ -375,11 +375,11 @@ msgstr "Open source"
 #. type: Plain text
 #: _usps/02-opensource.md
 #, markdown-text
-msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
+msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSES/apache-2.0.txt)."
 msgstr ""
 "Il n'y a pas de blocage de la part des développeurs : Gaphor est écrit en "
 "Python et est 100% Open Source, disponible sous une licence [Apache 2 "
-"license](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
+"license](https://github.com/gaphor/gaphor/blob/main/LICENSES/apache-2.0.txt)."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/03-beginner-pro.md
@@ -581,10 +581,10 @@ msgstr "Conduite de la communauté"
 #. type: Plain text
 #: _pages/discuss.md
 #, markdown-text
-msgid "We expect contributors to follow the GNOME [Code of Conduct](https://wiki.gnome.org/Foundation/CodeOfConduct)."
+msgid "We expect contributors to follow the GNOME [Code of Conduct](https://conduct.gnome.org)."
 msgstr ""
 "Nous attendons des contributeurs qu'ils respectent le [Code de "
-"conduite](https://wiki.gnome.org/Foundation/CodeOfConduct) de GNOME ."
+"conduite](https://conduct.gnome.org) de GNOME ."
 
 #. type: Plain text
 #: _pages/discuss.md
