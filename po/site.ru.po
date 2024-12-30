@@ -76,17 +76,16 @@ msgstr "macOS"
 
 #. type: Plain text
 #: _platforms/02-macos.md
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Download .dmg</a>\n"
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-arm.dmg\"><i class=\"fa fa-download\"></i> Download ARM .dmg</a>\n"
-msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Скачать .dmg</a>\n"
+msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Скачать ARM .dmg</a>\n"
 
 #. type: Plain text
 #: _platforms/02-macos.md
-#, fuzzy, no-wrap
-#| msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Download .dmg</a>\n"
+#, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-intel.dmg\"><i class=\"fa fa-download\"></i> Download Intel .dmg</a>\n"
-msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Скачать .dmg</a>\n"
+msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Скачать Intel .dmg</a>\n"
 
 #. type: Plain text
 #: _platforms/02-macos.md
