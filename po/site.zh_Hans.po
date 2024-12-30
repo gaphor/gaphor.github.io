@@ -428,8 +428,6 @@ msgstr "社区行为准则"
 
 #. type: Plain text
 #: _pages/discuss.md
-#, fuzzy
-#| msgid "We expect contributors to follow the GNOME [Code of Conduct](https://conduct.gnome.org)."
 msgid "We expect contributors to follow the GNOME [Code of Conduct](https://conduct.gnome.org/)."
 msgstr "我们希望贡献者遵守 GNOME [行为准则](https://conduct.gnome.org)。"
 

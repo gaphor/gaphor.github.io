@@ -428,8 +428,6 @@ msgstr "Toplumsal Davranış"
 
 #. type: Plain text
 #: _pages/discuss.md
-#, fuzzy
-#| msgid "We expect contributors to follow the GNOME [Code of Conduct](https://conduct.gnome.org)."
 msgid "We expect contributors to follow the GNOME [Code of Conduct](https://conduct.gnome.org/)."
 msgstr "Katkıda bulunanların GNOME [Davranış Kurallarına](https://conduct.gnome.org) uymalarını bekliyoruz."
 

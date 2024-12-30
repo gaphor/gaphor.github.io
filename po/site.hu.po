@@ -426,8 +426,6 @@ msgstr "Közösségi magatartás"
 
 #. type: Plain text
 #: _pages/discuss.md
-#, fuzzy
-#| msgid "We expect contributors to follow the GNOME [Code of Conduct](https://conduct.gnome.org)."
 msgid "We expect contributors to follow the GNOME [Code of Conduct](https://conduct.gnome.org/)."
 msgstr "A közreműködőktől elvárjuk, hogy kövessék a GNOME [Viselkedési szabályzat](https://conduct.gnome.org)."
 

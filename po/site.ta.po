@@ -428,8 +428,6 @@ msgstr "சமூக நடத்தை"
 
 #. type: Plain text
 #: _pages/discuss.md
-#, fuzzy
-#| msgid "We expect contributors to follow the GNOME [Code of Conduct](https://conduct.gnome.org)."
 msgid "We expect contributors to follow the GNOME [Code of Conduct](https://conduct.gnome.org/)."
 msgstr "பங்களிப்பாளர்கள் க்னோம் [நடத்தை விதிமுறை](https://conduct.gnome.org) ஐப் பின்பற்ற வேண்டும் என்று நாங்கள் எதிர்பார்க்கிறோம்."
 
