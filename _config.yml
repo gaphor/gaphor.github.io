@@ -77,7 +77,7 @@ exclude:
   - Makefile
   - images/*.xcf
 
-languages: ["cs", "de", "en", "es", "hr", "hu", "it", "kmr", "nl", "pt_BR", "ru", "tr", "uk", "zh_Hans"]
+languages: ["cs", "de", "en", "es", "hr", "hu", "it", "kmr", "nl", "pt_BR", "ru", "ta", "tr", "uk", "zh_Hans"]
 parallel_localization: true
 lang_from_path: true
 # Specifying the default language as "_" forces polyglot to generate a
