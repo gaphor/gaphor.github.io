@@ -8,7 +8,7 @@
   @media screen {
     background-attachment: fixed;
   }
-  
+
   // Safari on iOS does not support fixed backgrounds
   // https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout
   @supports (-webkit-touch-callout: none) {

@@ -40,7 +40,7 @@ jobs:
           --disable-external true
           --enforce-https false
           --allow-missing-href true
-          --check-internal-hash false 
+          --check-internal-hash false
           --checks Links ./_site
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4

@@ -1,0 +1,10 @@
+repos:
+- repo: https://github.com/gitleaks/gitleaks
+  rev: 5494c3ed33bff63904f7e323281686480dc4eb98  # frozen: v8.22.1
+  hooks:
+  - id: gitleaks
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: cef0300fd0fc4d2a87a85fa2093c6b283ea36f4b  # frozen: v5.0.0
+  hooks:
+  - id: end-of-file-fixer
+  - id: trailing-whitespace

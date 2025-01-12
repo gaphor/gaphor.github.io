@@ -27,7 +27,7 @@ which is part of the Python standard library since Python 3.8. For older
 versions (Python 3.6 and 3.7) a library
 [`importlib_metadata`](https://pypi.org/project/importlib-metadata/) (notice
 the underscore) can be used instead, providing the same
-functionality. If you go back in history even more, 
+functionality. If you go back in history even more,
 setuptools' [`pkg_resources`](https://setuptools.readthedocs.io/en/latest/pkg_resources.html)
 was used to provide this functionality.
 
@@ -37,7 +37,7 @@ To view all entry points available in your python installation:
 >>> import importlib.metadata
 >>> for ep in importlib.metadata.entry_points():
 ...     print(ep)
-... 
+...
 console_scripts
 distutils.commands
 distutils.setup_keywords

@@ -14,7 +14,7 @@ desktop applications. GTK 4 is the most recent major version, the long awaited
 successor of GTK+ 3. For desktop applications there's a lot to gain by porting
 to GTK 4. First and foremost because GTK 4 takes full support of your GPU.
 
-For Gaphor we provide binaries for Linux, Windows and macOS. 
+For Gaphor we provide binaries for Linux, Windows and macOS.
 
 GTK 4 no longer maps its keyboard shortcuts to macOS native keybindings. While
 <kbd>Ctrl</kbd> is used on Linux and Windows, <kbd>Command</kbd> is used on
