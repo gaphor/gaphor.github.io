@@ -131,7 +131,7 @@ msgstr ". உங்களிடம் ஏற்கனவே அமைவு இ�
 #: _platforms/03-linux.md
 #, no-wrap
 msgid "<a href=\"https://flathub.org/apps/org.gaphor.Gaphor\"><img width=\"240\" alt=\"Download on Flathub\" src=\"https://flathub.org/assets/badges/flathub-badge-en.png\"/></a>\n"
-msgstr "<a href = \"https: //flathub.org/apps/org.gaphor.Gaphor\"> <img width = \"240\" மாற்று = \"flathub இல் பதிவிறக்கம்\" src = \"https: //flathub.org/assets /badges/flathub-badge-en.png \"/> </a>\n"
+msgstr "<a href=\"https://flathub.org/apps/org.gaphor.Gaphor\"><img width=\"240\" alt=\"flathub இல் பதிவிறக்கம்\" src=\"https://flathub.org/assets/badges/flathub-badge-en.png\"/></a>\n"
 
 #. type: Plain text
 #: _platforms/03-linux.md
