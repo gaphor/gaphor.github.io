@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-01-12 17:21+0000\n"
+"POT-Creation-Date: 2025-01-11 21:49-0500\n"
 "PO-Revision-Date: 2023-04-25 15:49+0000\n"
 "Last-Translator: Jose David M <jquintana202020@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/es/>\n"
@@ -76,17 +76,15 @@ msgstr "macOS"
 
 #. type: Plain text
 #: _platforms/02-macos.md
-#, fuzzy, no-wrap
-#| msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Download .dmg</a>\n"
+#, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-arm.dmg\"><i class=\"fa fa-download\"></i> Download ARM .dmg</a>\n"
-msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Descargar .dmg</a>\n"
+msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Descargar ARM .dmg</a>\n"
 
 #. type: Plain text
 #: _platforms/02-macos.md
-#, fuzzy, no-wrap
-#| msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Download .dmg</a>\n"
+#, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-intel.dmg\"><i class=\"fa fa-download\"></i> Download Intel .dmg</a>\n"
-msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Descargar .dmg</a>\n"
+msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Descargar Intel .dmg</a>\n"
 
 #. type: Plain text
 #: _platforms/02-macos.md
@@ -130,8 +128,8 @@ msgstr "[Flatpak](https://flatpak.org/) es la forma recomendada de instalar Gaph
 #. type: Plain text
 #: _platforms/03-linux.md
 #, no-wrap
-msgid "<a href='https://flathub.org/apps/details/org.gaphor.Gaphor'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>\n"
-msgstr "<a href='https://flathub.org/apps/details/org.gaphor.Gaphor'><img width='240' alt='Descargar en Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>\n"
+msgid "<a href=\"https://flathub.org/apps/org.gaphor.Gaphor\"><img width=\"240\" alt=\"Download on Flathub\" src=\"https://flathub.org/assets/badges/flathub-badge-en.png\"/></a>\n"
+msgstr "<a href=\"https://flathub.org/apps/org.gaphor.Gaphor\"><img width=\"240\" alt=\"Descargar en Flathub\" src=\"https://flathub.org/assets/badges/flathub-badge-en.png\"/></a>\n"
 
 #. type: Plain text
 #: _platforms/03-linux.md
@@ -287,8 +285,8 @@ msgstr "Código abierto"
 
 #. type: Plain text
 #: _usps/02-opensource.md
-msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
-msgstr "Sin dependencia del proveedor: Gaphor está escrito en Python y es 100% de código abierto, disponible bajo una amigable [licencia Apache 2](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
+msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSES/apache-2.0.txt)."
+msgstr "Sin dependencia del proveedor: Gaphor está escrito en Python y es 100% de código abierto, disponible bajo una amigable [licencia Apache 2](https://github.com/gaphor/gaphor/blob/main/LICENSES/apache-2.0.txt)."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/03-beginner-pro.md
@@ -430,8 +428,8 @@ msgstr "Conducta de la comunidad"
 
 #. type: Plain text
 #: _pages/discuss.md
-msgid "We expect contributors to follow the GNOME [Code of Conduct](https://wiki.gnome.org/Foundation/CodeOfConduct)."
-msgstr "Esperamos que los colaboradores sigan el GNOME [Código de Conducta](https://wiki.gnome.org/Foundation/CodeOfConduct)."
+msgid "We expect contributors to follow the GNOME [Code of Conduct](https://conduct.gnome.org/)."
+msgstr "Esperamos que los colaboradores sigan el GNOME [Código de Conducta](https://conduct.gnome.org)."
 
 #. type: Plain text
 #: _pages/discuss.md

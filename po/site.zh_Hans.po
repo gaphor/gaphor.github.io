@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-01-12 17:21+0000\n"
+"POT-Creation-Date: 2024-12-30 13:09-0500\n"
 "PO-Revision-Date: 2024-08-17 09:09+0000\n"
 "Last-Translator: SuGotLand 苏革岚 <sugotland@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/zh_Hans/>\n"
@@ -130,8 +130,8 @@ msgstr "[Flatpak](https://flatpak.org/)是在 Linux 中安装 Gaphor 的推荐�
 #. type: Plain text
 #: _platforms/03-linux.md
 #, no-wrap
-msgid "<a href='https://flathub.org/apps/details/org.gaphor.Gaphor'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>\n"
-msgstr "<a href='https://flathub.org/apps/details/org.gaphor.Gaphor'><img width='240' alt='在Flathub上下载' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>\n"
+msgid "<a href=\"https://flathub.org/apps/org.gaphor.Gaphor\"><img width=\"240\" alt=\"Download on Flathub\" src=\"https://flathub.org/assets/badges/flathub-badge-en.png\"/></a>\n"
+msgstr "<a href=\"https://flathub.org/apps/org.gaphor.Gaphor\"><img width=\"240\" alt=\"在Flathub上下载\" src=\"https://flathub.org/assets/badges/flathub-badge-en.png\"/></a>\n"
 
 #. type: Plain text
 #: _platforms/03-linux.md
@@ -287,8 +287,8 @@ msgstr "开源"
 
 #. type: Plain text
 #: _usps/02-opensource.md
-msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
-msgstr "无厂商锁定： Gaphor 由 Python 编写，100% 开源，可在友好的[Apache 2 许可证](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)下使用。"
+msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSES/apache-2.0.txt)."
+msgstr "无厂商锁定： Gaphor 由 Python 编写，100% 开源，可在友好的[Apache 2 许可证](https://github.com/gaphor/gaphor/blob/main/LICENSES/apache-2.0.txt)下使用。"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/03-beginner-pro.md
@@ -428,8 +428,8 @@ msgstr "社区行为准则"
 
 #. type: Plain text
 #: _pages/discuss.md
-msgid "We expect contributors to follow the GNOME [Code of Conduct](https://wiki.gnome.org/Foundation/CodeOfConduct)."
-msgstr "我们希望贡献者遵守 GNOME [行为准则](https://wiki.gnome.org/Foundation/CodeOfConduct)。"
+msgid "We expect contributors to follow the GNOME [Code of Conduct](https://conduct.gnome.org/)."
+msgstr "我们希望贡献者遵守 GNOME [行为准则](https://conduct.gnome.org)。"
 
 #. type: Plain text
 #: _pages/discuss.md

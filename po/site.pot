@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-01-12 17:21+0000\n"
+"POT-Creation-Date: 2025-01-12 21:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -133,7 +133,7 @@ msgstr ""
 #. type: Plain text
 #: _platforms/03-linux.md
 #, markdown-text, no-wrap
-msgid "<a href='https://flathub.org/apps/details/org.gaphor.Gaphor'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>\n"
+msgid "<a href=\"https://flathub.org/apps/org.gaphor.Gaphor\"><img width=\"240\" alt=\"Download on Flathub\" src=\"https://flathub.org/assets/badges/flathub-badge-en.png\"/></a>\n"
 msgstr ""
 
 #. type: Plain text
@@ -306,7 +306,7 @@ msgstr ""
 #. type: Plain text
 #: _usps/02-opensource.md
 #, markdown-text
-msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
+msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSES/apache-2.0.txt)."
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
@@ -458,7 +458,7 @@ msgstr ""
 #. type: Plain text
 #: _pages/discuss.md
 #, markdown-text
-msgid "We expect contributors to follow the GNOME [Code of Conduct](https://wiki.gnome.org/Foundation/CodeOfConduct)."
+msgid "We expect contributors to follow the GNOME [Code of Conduct](https://conduct.gnome.org/)."
 msgstr ""
 
 #. type: Plain text

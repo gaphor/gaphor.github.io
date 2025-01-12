@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-01-12 17:21+0000\n"
+"POT-Creation-Date: 2024-12-30 13:09-0500\n"
 "PO-Revision-Date: 2024-03-30 19:18+0000\n"
 "Last-Translator: Dan Yeaw <dan@yeaw.me>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/tr/>\n"
@@ -130,8 +130,8 @@ msgstr "[Flatpak](https://flatpak.org/) Linux'ta Gaphor'u kurmak için önerilen
 #. type: Plain text
 #: _platforms/03-linux.md
 #, no-wrap
-msgid "<a href='https://flathub.org/apps/details/org.gaphor.Gaphor'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>\n"
-msgstr "<a href='https://flathub.org/apps/details/org.gaphor.Gaphor'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>\n"
+msgid "<a href=\"https://flathub.org/apps/org.gaphor.Gaphor\"><img width=\"240\" alt=\"Download on Flathub\" src=\"https://flathub.org/assets/badges/flathub-badge-en.png\"/></a>\n"
+msgstr "<a href=\"https://flathub.org/apps/org.gaphor.Gaphor\"><img width=\"240\" alt=\"Download on Flathub\" src=\"https://flathub.org/assets/badges/flathub-badge-en.png\"/></a>\n"
 
 #. type: Plain text
 #: _platforms/03-linux.md
@@ -287,8 +287,8 @@ msgstr "Açık Kaynak"
 
 #. type: Plain text
 #: _usps/02-opensource.md
-msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
-msgstr "Vendor kilitlenmesi yok: Gaphor Python dilinde yazılmıştır ve %100 Açık Kaynaktır, dostane bir [Apache 2 lisansı](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt) altında mevcuttur."
+msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSES/apache-2.0.txt)."
+msgstr "Vendor kilitlenmesi yok: Gaphor Python dilinde yazılmıştır ve %100 Açık Kaynaktır, dostane bir [Apache 2 lisansı](https://github.com/gaphor/gaphor/blob/main/LICENSES/apache-2.0.txt) altında mevcuttur."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/03-beginner-pro.md
@@ -428,8 +428,8 @@ msgstr "Toplumsal Davranış"
 
 #. type: Plain text
 #: _pages/discuss.md
-msgid "We expect contributors to follow the GNOME [Code of Conduct](https://wiki.gnome.org/Foundation/CodeOfConduct)."
-msgstr "Katkıda bulunanların GNOME [Davranış Kurallarına](https://wiki.gnome.org/Foundation/CodeOfConduct) uymalarını bekliyoruz."
+msgid "We expect contributors to follow the GNOME [Code of Conduct](https://conduct.gnome.org/)."
+msgstr "Katkıda bulunanların GNOME [Davranış Kurallarına](https://conduct.gnome.org) uymalarını bekliyoruz."
 
 #. type: Plain text
 #: _pages/discuss.md

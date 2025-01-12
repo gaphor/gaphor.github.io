@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gaphor.org" />
+    <meta property="og:site_name" content="Gaphor, the SysML/UML modeling tool" />
+    <link rel='dns-prefetch' href='https://fonts.bunny.net' />
+    <link rel='dns-prefetch' href='https://cdnjs.cloudflare.com' />
+    <link rel="shortcut icon" href="/images/gaphor-24x24.png" />
+
+    <link defer crossorigin="anonymous" rel='stylesheet'
+        href='https://fonts.bunny.net/css?family=open-sans:400,700|mulish:300,800,900'
+        type='text/css' media='all' />
+    <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" media='all' />
+    <link rel='stylesheet' href='/css/main.css' type='text/css' />
+    
+    <link rel="alternate" hreflang="cs" href="https://gaphor.org/cs/2021/07/02/gaphor-2.5-highlights/"/>
+    <link rel="alternate" hreflang="de" href="https://gaphor.org/de/2021/07/02/gaphor-2.5-highlights/"/>
+    <link rel="alternate" hreflang="en" href="https://gaphor.org/en/2021/07/02/gaphor-2.5-highlights/"/>
+    <link rel="alternate" hreflang="es" href="https://gaphor.org/es/2021/07/02/gaphor-2.5-highlights/"/>
+    <link rel="alternate" hreflang="fr" href="https://gaphor.org/fr/2021/07/02/gaphor-2.5-highlights/"/>
+    <link rel="alternate" hreflang="hr" href="https://gaphor.org/hr/2021/07/02/gaphor-2.5-highlights/"/>
+    <link rel="alternate" hreflang="hu" href="https://gaphor.org/hu/2021/07/02/gaphor-2.5-highlights/"/>
+    <link rel="alternate" hreflang="it" href="https://gaphor.org/it/2021/07/02/gaphor-2.5-highlights/"/>
+    <link rel="alternate" hreflang="kmr" href="https://gaphor.org/kmr/2021/07/02/gaphor-2.5-highlights/"/>
+    <link rel="alternate" hreflang="nl" href="https://gaphor.org/nl/2021/07/02/gaphor-2.5-highlights/"/>
+    <link rel="alternate" hreflang="pt_BR" href="https://gaphor.org/pt_BR/2021/07/02/gaphor-2.5-highlights/"/>
+    <link rel="alternate" hreflang="ru" href="https://gaphor.org/ru/2021/07/02/gaphor-2.5-highlights/"/>
+    <link rel="alternate" hreflang="ta" href="https://gaphor.org/ta/2021/07/02/gaphor-2.5-highlights/"/>
+    <link rel="alternate" hreflang="tr" href="https://gaphor.org/tr/2021/07/02/gaphor-2.5-highlights/"/>
+    <link rel="alternate" hreflang="uk" href="https://gaphor.org/uk/2021/07/02/gaphor-2.5-highlights/"/>
+    <link rel="alternate" hreflang="zh_Hans" href="https://gaphor.org/zh_Hans/2021/07/02/gaphor-2.5-highlights/"/>
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Gaphor 2.5 highlights | Gaphor</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Gaphor 2.5 highlights" />
+<meta name="author" content="Arjan Molenaar" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="With Gaphor 2.5 released it’s about time I write an update post. Main feature is support for STPA, a systems approach to safety engineering. Minor improvements include the ability to move diagrams freely around in the tree view, and an extra option to record notes on model elements." />
+<meta property="og:description" content="With Gaphor 2.5 released it’s about time I write an update post. Main feature is support for STPA, a systems approach to safety engineering. Minor improvements include the ability to move diagrams freely around in the tree view, and an extra option to record notes on model elements." />
+<link rel="canonical" href="https://gaphor.org/ta/2021/07/02/gaphor-2.5-highlights/" />
+<meta property="og:url" content="https://gaphor.org/2021/07/02/gaphor-2.5-highlights/" />
+<meta property="og:site_name" content="Gaphor" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-07-02T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Gaphor 2.5 highlights" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Arjan Molenaar"},"dateModified":"2021-07-02T00:00:00+00:00","datePublished":"2021-07-02T00:00:00+00:00","description":"With Gaphor 2.5 released it’s about time I write an update post. Main feature is support for STPA, a systems approach to safety engineering. Minor improvements include the ability to move diagrams freely around in the tree view, and an extra option to record notes on model elements.","headline":"Gaphor 2.5 highlights","mainEntityOfPage":{"@type":"WebPage","@id":"https://gaphor.org/2021/07/02/gaphor-2.5-highlights/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://gaphor.org/images/gaphor-logo-white.svg"},"name":"Arjan Molenaar"},"url":"https://gaphor.org/2021/07/02/gaphor-2.5-highlights/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+</head>
+
+
+<body>
+
+	<div class="top-header">
+  <div class="container">
+    <div class="row">
+      <nav class="col-12 d-flex justify-content-end language-navigation">
+
+    <form action="/2021/07/02/gaphor-2.5-highlights/" method="get">
+
+        <select id="language-chooser-select" name="lang" autocomplete="off">
+            
+            <option value="cs" >
+                Čeština
+            </option>
+            
+            <option value="de" >
+                Deutsch
+            </option>
+            
+            <option value="en" >
+                English
+            </option>
+            
+            <option value="es" >
+                Español
+            </option>
+            
+            <option value="fr" >
+                Français
+            </option>
+            
+            <option value="hr" >
+                Hrvatski
+            </option>
+            
+            <option value="hu" >
+                magyar
+            </option>
+            
+            <option value="it" >
+                italiano
+            </option>
+            
+            <option value="kmr" >
+                کورد
+            </option>
+            
+            <option value="nl" >
+                Nederlands
+            </option>
+            
+            <option value="pt_BR" >
+                português do Brasil
+            </option>
+            
+            <option value="ru" >
+                Русский
+            </option>
+            
+            <option value="ta" selected="selected" >
+                தமிழ்
+            </option>
+            
+            <option value="tr" >
+                Türkçe
+            </option>
+            
+            <option value="uk" >
+                українська
+            </option>
+            
+            <option value="zh_Hans" >
+                中文（简体）
+            </option>
+            
+        </select>
+
+        <script src="/js/languages.js" async></script>
+
+        <noscript>
+            <input id="language-chooser-submit" type="submit" value="மாற்றம்"/>
+        </noscript>
+
+    </form>
+</nav>
+
+    </div>
+    <div class="row">
+      <div class="col-10 col-lg-3">
+        <a href="/ta/" title="" class="header-logo">
+          
+          <img src="/images/gaphor-logo-white.svg" alt="Gaphor logo" />
+          
+          </a>
+      </div>
+      <div class="col-2 col-lg-9">
+        <label for="menu-toggle" class="open-responsive-menu"><i class="fa fa-bars"></i></label>
+        <nav class="header-navigation">
+          <ul>
+            <li><a href="/ta/#about">பற்றி</a></li>
+            <li><a href="/ta/download">பதிவிறக்கம்</a></li>
+            <li><a href="/ta/tutorials">பயிற்சிகள்</a></li>
+            <li><a href="/ta/blog">வலைப்பதிவு</a></li>
+            <li><a href="/ta/discuss">தொடர்பு கொள்ளுங்கள்</a></li>
+            <li><a href="/ta/contribute">பங்களிப்பு</a></li>
+            <li><a href="https://github.com/gaphor/gaphor"><i class='fab fa-github' style='font-size: 168%' title='GitHub repository'></i></a>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+<input id="menu-toggle" type="checkbox" hidden></input>
+<nav class="responsive-menu">
+  <label for="menu-toggle" class="close-responsive-menu"><i class="fa fa-times"></i></label>
+  <ul>
+    <li><a href="/ta/">வீடு</a></li>
+    <li><a href="/ta/#about">பற்றி</a></li>
+    <li><a href="/ta/download">பதிவிறக்கம்</a></li>
+    <li><a href="/ta/tutorials">பயிற்சிகள்</a></li>
+    <li><a href="/ta/blog">வலைப்பதிவு</a></li>
+    <li><a href="/ta/discuss">தொடர்பு கொள்ளுங்கள்</a></li>
+    <li><a href="/ta/contribute">பங்களிப்பு</a></li>
+    <li><a href="https://github.com/gaphor/gaphor"><i class='fab fa-github' style='font-size: 168%' title='GitHub repository'></i></a>
+  </ul>
+</nav>
+
+
+<div class="default-page">
+<section id="static-page-content">
+    <div class="section-header"
+	 style="background-color: ; background-image: url(/images/gaphor-2.5-highlights/Fresh-Fruits.jpg); background-size: cover; background-position: center; height: 38vh"
+     >
+    </div>
+    <p class="image-attribution"><a href="">Image attribution</a></p>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10 offset-sm-1">
+                <h1>Gaphor 2.5 highlights</h1>
+                <p class="credits">மூலம் Arjan Molenaar (2021-07-02)</p>
+                <p>With Gaphor 2.5 released it’s about time I write an update post. Main feature is
+support for STPA, a systems approach to safety engineering. Minor improvements
+include the ability to move diagrams freely around in the tree view, and an extra
+option to record notes on model elements.</p>
+
+<p>The internal model used by Gaphor has been simplified.</p>
+
+<p>Finally, we’ll reflect on the changes made in Gaphor 2.3 and 2.4.</p>
+
+<!--break-->
+
+<h2 id="systems-theoretic-process-analysis-stpa">Systems Theoretic Process Analysis (STPA)</h2>
+
+<p>In the RAAML section the toolbox has been extended with a whole set of items for
+building system safety models. These models help reasoning about a system, the
+possible risks and hazards and how to cope with those.</p>
+
+<p><img src="/images/gaphor-2.5-highlights/losses-hazards.png" alt="STPA aircraft risk model" /></p>
+
+<h2 id="free-diagram-movement">Free diagram movement</h2>
+
+<p>Up to Gaphor 2.5, diagrams lived in packages. They could not be put elsewhere,
+like in an interaction or state machine. This lead to a situation where diagrams
+were not easily discoverable near the model elements they represent. Now it’s
+possible to move diagrams freely around, allowing you the freedom to organize a
+model in a way that makes sense.</p>
+
+<p><img src="/images/gaphor-2.5-highlights/diagrams.png" alt="Diagrams" /></p>
+
+<h2 id="take-a-note">Take a note</h2>
+
+<p>Sometimes, when building a model, you need a little space where you can type
+some notes, to-do’s or just some thoughts. Previously, the only option was to
+create a comment and add your notes to a diagram. Of course this is still
+possible: comments are an excellent way to explain parts of a model. But, we now
+also provide a <em>private</em> place to take notes. These notes are not visible on the
+diagram.</p>
+
+<p><img src="/images/gaphor-2.5-highlights/notes.png" alt="Notes" /></p>
+
+<h2 id="internal-simplifications">Internal simplifications</h2>
+
+<p>Over the past months we (Dan and Arjan) have received some issues where models
+could not be loaded once they were saved. This is of course undesired. It proved
+very hard to replicate such issues.</p>
+
+<p>Finally, in Gaphor 2.5 items on a diagram, so called <code class="language-plaintext highlighter-rouge">Presentation</code> elements,
+are treated equally to elements that make up the semantic model (e.g., Classes,
+Associations). This is a simplification in the way Gaphor has to deal with
+models. We expect that this will add to the stability of Gaphor.</p>
+
+<p>With the simplification of the internal data model we expect to put a stop to
+these issues.</p>
+
+<p>Many thanks go to all people who helped out. Even something as simple as an
+issue report helps make this application better. If you spot an issues, please
+<a href="https://github.com/gaphor/gaphor/issues">report them</a>.</p>
+
+<h2 id="23-and-24">2.3 and 2.4</h2>
+
+<p>So, what happened with Gaphor 2.3 and 2.4. Well, quite a bit actually:</p>
+
+<ul>
+  <li>Fault Tree Analysis has been added as part of RAAML</li>
+  <li>C4 model support has been introduced in Gaphor 2.3.</li>
+  <li>The UML model has been updated to UML 2.5 and has been extended by DataType,
+ValueType, Primitive, and Enumeration. Containment has been added too.</li>
+  <li>Window state is restored when you open a previously opened model. The diagrams
+that were open are opened for you, so you can instantly continue where you
+left off.</li>
+  <li>We started with work to port Gaphor to GTK 4, which was released this winter.
+GTK 4 improves performance on Linux, Windows and macOS. To achieve this we did
+a fair amount of clean up in the GUI code.</li>
+</ul>
+
+<p>I hope you enjoy using Gaphor. Happy modeling!</p>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<link rel='stylesheet' href='/css/highlight.css' type='text/css' media='all' />
+
+</div>
+
+
+	<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-10 offset-sm-1">
+                <h5>உங்களிடமிருந்து கேட்க நாங்கள் விரும்புகிறோம்</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-10 offset-sm-1 col-md-6 col-lg-4">
+                <ul class="fa-ul">
+                    <li><a href="https://matrix.to/#/#gaphor_Lobby:gitter.im"><i class="fa-li fa fa-angle-right"></i>
+                        <i class="far fa-comment"></i> எங்களுடன் அரட்டையடிக்கவும்</a></li>
+                    <li><a href="https://github.com/gaphor/gaphor/issues"><i class="fa-li fa fa-angle-right"></i>
+                        <i class="fas fa-bug"></i> ஒரு சிக்கலை சமர்ப்பிக்கவும்</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-10 offset-sm-1 col-md-6 col-lg-4">
+                <ul class="fa-ul">
+                    <li><a href="https://docs.gaphor.org/en/latest"><i class="fa-li fa fa-angle-right"></i>
+                            <i class="fas fa-book"></i> ஆவணத்தைப் படியுங்கள்</a></li>
+                    <li><a href="https://github.com/gaphor"><i class="fa-li fa fa-angle-right"></i>
+                        <i class="fab fa-github"></i> குறியீட்டில் பங்களிக்கவும்</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-footer">
+        <div class="container">
+            <p class="copyright">
+                <span>கருப்பொருள்: <a href="https://colorlib.com/wp/themes/illdy/" title="Illdy">Illdy</a>.</span>
+                <span class="bottom-copyright">பதிப்புரிமை & நகல்; 2020, காஃபர் மேம்பாட்டுக் குழு.</span>
+            </p>
+        </div>
+    </div>
+
+</footer>
+
+<!-- page.url is / or /XX/ for translations -->
+
+
+
+    <script type="application/javascript">
+var codeBlocks = document.querySelectorAll('pre.highlight');
+
+codeBlocks.forEach(function (codeBlock) {
+  var copyButton = document.createElement('button');
+  copyButton.className = 'copy';
+  copyButton.type = 'button';
+  copyButton.ariaLabel = 'Copy code to clipboard';
+  copyButton.innerText = 'Copy';
+
+  codeBlock.append(copyButton);
+
+  copyButton.addEventListener('click', function () {
+    var code = codeBlock.querySelector('code').innerText.trim();
+    window.navigator.clipboard.writeText(code);
+
+    copyButton.innerText = 'Copied';
+    var fourSeconds = 4000;
+
+    setTimeout(function () {
+      copyButton.innerText = 'Copy';
+    }, fourSeconds);
+  });
+});
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gaphor.org" />
+    <meta property="og:site_name" content="Gaphor, the SysML/UML modeling tool" />
+    <link rel='dns-prefetch' href='https://fonts.bunny.net' />
+    <link rel='dns-prefetch' href='https://cdnjs.cloudflare.com' />
+    <link rel="shortcut icon" href="/images/gaphor-24x24.png" />
+
+    <link defer crossorigin="anonymous" rel='stylesheet'
+        href='https://fonts.bunny.net/css?family=open-sans:400,700|mulish:300,800,900'
+        type='text/css' media='all' />
+    <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" media='all' />
+    <link rel='stylesheet' href='/css/main.css' type='text/css' />
+    
+    <link rel="alternate" hreflang="cs" href="https://gaphor.org/cs/tutorials/report-bugs/"/>
+    <link rel="alternate" hreflang="de" href="https://gaphor.org/de/tutorials/report-bugs/"/>
+    <link rel="alternate" hreflang="en" href="https://gaphor.org/en/tutorials/report-bugs/"/>
+    <link rel="alternate" hreflang="es" href="https://gaphor.org/es/tutorials/report-bugs/"/>
+    <link rel="alternate" hreflang="fr" href="https://gaphor.org/fr/tutorials/report-bugs/"/>
+    <link rel="alternate" hreflang="hr" href="https://gaphor.org/hr/tutorials/report-bugs/"/>
+    <link rel="alternate" hreflang="hu" href="https://gaphor.org/hu/tutorials/report-bugs/"/>
+    <link rel="alternate" hreflang="it" href="https://gaphor.org/it/tutorials/report-bugs/"/>
+    <link rel="alternate" hreflang="kmr" href="https://gaphor.org/kmr/tutorials/report-bugs/"/>
+    <link rel="alternate" hreflang="nl" href="https://gaphor.org/nl/tutorials/report-bugs/"/>
+    <link rel="alternate" hreflang="pt_BR" href="https://gaphor.org/pt_BR/tutorials/report-bugs/"/>
+    <link rel="alternate" hreflang="ru" href="https://gaphor.org/ru/tutorials/report-bugs/"/>
+    <link rel="alternate" hreflang="ta" href="https://gaphor.org/ta/tutorials/report-bugs/"/>
+    <link rel="alternate" hreflang="tr" href="https://gaphor.org/tr/tutorials/report-bugs/"/>
+    <link rel="alternate" hreflang="uk" href="https://gaphor.org/uk/tutorials/report-bugs/"/>
+    <link rel="alternate" hreflang="zh_Hans" href="https://gaphor.org/zh_Hans/tutorials/report-bugs/"/>
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Comment signaler un bogue dans Gaphor | Gaphor</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Comment signaler un bogue dans Gaphor" />
+<meta property="og:locale" content="fr" />
+<meta name="description" content="Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models." />
+<meta property="og:description" content="Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models." />
+<link rel="canonical" href="https://gaphor.org/fr/tutorials/report-bugs/" />
+<meta property="og:url" content="https://gaphor.org/tutorials/report-bugs/" />
+<meta property="og:site_name" content="Gaphor" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Comment signaler un bogue dans Gaphor" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models.","headline":"Comment signaler un bogue dans Gaphor","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://gaphor.org/images/gaphor-logo-white.svg"}},"url":"https://gaphor.org/tutorials/report-bugs/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+</head>
+
+
+<body>
+
+	<div class="top-header">
+  <div class="container">
+    <div class="row">
+      <nav class="col-12 d-flex justify-content-end language-navigation">
+
+    <form action="/tutorials/report-bugs/" method="get">
+
+        <select id="language-chooser-select" name="lang" autocomplete="off">
+            
+            <option value="cs" >
+                Čeština
+            </option>
+            
+            <option value="de" >
+                Deutsch
+            </option>
+            
+            <option value="en" >
+                English
+            </option>
+            
+            <option value="es" >
+                Español
+            </option>
+            
+            <option value="fr" selected="selected" >
+                Français
+            </option>
+            
+            <option value="hr" >
+                Hrvatski
+            </option>
+            
+            <option value="hu" >
+                magyar
+            </option>
+            
+            <option value="it" >
+                italiano
+            </option>
+            
+            <option value="kmr" >
+                کورد
+            </option>
+            
+            <option value="nl" >
+                Nederlands
+            </option>
+            
+            <option value="pt_BR" >
+                português do Brasil
+            </option>
+            
+            <option value="ru" >
+                Русский
+            </option>
+            
+            <option value="ta" >
+                தமிழ்
+            </option>
+            
+            <option value="tr" >
+                Türkçe
+            </option>
+            
+            <option value="uk" >
+                українська
+            </option>
+            
+            <option value="zh_Hans" >
+                中文（简体）
+            </option>
+            
+        </select>
+
+        <script src="/js/languages.js" async></script>
+
+        <noscript>
+            <input id="language-chooser-submit" type="submit" value="Changement"/>
+        </noscript>
+
+    </form>
+</nav>
+
+    </div>
+    <div class="row">
+      <div class="col-10 col-lg-3">
+        <a href="/fr/" title="" class="header-logo">
+          
+          <img src="/images/gaphor-logo-white.svg" alt="Gaphor logo" />
+          
+          </a>
+      </div>
+      <div class="col-2 col-lg-9">
+        <label for="menu-toggle" class="open-responsive-menu"><i class="fa fa-bars"></i></label>
+        <nav class="header-navigation">
+          <ul>
+            <li><a href="/fr/#about">A propos</a></li>
+            <li><a href="/fr/download">Télécharger</a></li>
+            <li><a href="/fr/tutorials">Tutoriels</a></li>
+            <li><a href="/fr/blog">Blog</a></li>
+            <li><a href="/fr/discuss">Contactez-nous</a></li>
+            <li><a href="/fr/contribute">Contribuer</a></li>
+            <li><a href="https://github.com/gaphor/gaphor"><i class='fab fa-github' style='font-size: 168%' title='GitHub repository'></i></a>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+<input id="menu-toggle" type="checkbox" hidden></input>
+<nav class="responsive-menu">
+  <label for="menu-toggle" class="close-responsive-menu"><i class="fa fa-times"></i></label>
+  <ul>
+    <li><a href="/fr/">Accueil</a></li>
+    <li><a href="/fr/#about">A propos</a></li>
+    <li><a href="/fr/download">Télécharger</a></li>
+    <li><a href="/fr/tutorials">Tutoriels</a></li>
+    <li><a href="/fr/blog">Blog</a></li>
+    <li><a href="/fr/discuss">Contactez-nous</a></li>
+    <li><a href="/fr/contribute">Contribuer</a></li>
+    <li><a href="https://github.com/gaphor/gaphor"><i class='fab fa-github' style='font-size: 168%' title='GitHub repository'></i></a>
+  </ul>
+</nav>
+
+
+<div class="default-page">
+<section>
+    <div class="section-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 offset-sm-1">
+                    <h1>Comment signaler un bogue dans Gaphor</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10 offset-sm-1">
+                <p>Si vous avez déjà écrit une ligne de code, vous savez qu’aucun logiciel
+n’est jamais sans bogues.  Ce sera également le cas avec Gaphor. Si vous
+pensez avoir trouvé un bug, cliquez simplement sur le lien ci-dessous (vous
+devez avoir un compte sur GitHub), puis sur le bouton vert « New Issue »
+situé en haut à droite de la page :</p>
+
+<p><a href="https://github.com/gaphor/gaphor/issues">Signaler un bug dans Gaphor</a></p>
+
+<p>Lorsque vous créez un nouveau problème, un numéro lui est attribué et les
+développeurs bénévoles, qui écrivent et maintiennent le code, en sont
+informés par courrier électronique. Ils peuvent ajouter des questions à
+votre problème si nécessaire. Il se peut qu’ils le ferment immédiatement et
+le marquent comme « duplicate » (quelqu’un d’autre a déjà signalé le bogue -
+il fera référence au problème original). Parfois, ils le ferment et
+indiquent “ne pas le corriger”, car ils ne sont pas d’accord sur le fait
+qu’il s’agisse d’un bogue <em>ou</em> qu’il soit superflu d’y consacrer du temps.</p>
+
+<p>Il existe généralement deux sortes de bugs :</p>
+
+<ul>
+  <li>Technique : le code contient une erreur qui bloque le programme.</li>
+  <li>Comportementale : le code fonctionne correctement, mais produit une
+erreur.</li>
+</ul>
+
+<p>Dans les deux cas, pour que nous puissions corriger le bogue, nous avons
+besoin <strong>d’autant d’informations que possible</strong>. Lorsque vous créez un
+nouveau problème, vous devez essayer d’inclure, le cas échéant, les
+informations suivantes :</p>
+
+<ul>
+  <li>Ce que vous essayez de faire,</li>
+  <li>Le déroulement des actions réalisées reproduire le problème,</li>
+  <li>Le résultat attendu,</li>
+  <li>Ce qui s’est passé,</li>
+  <li>Pourquoi cette différence est-elle problématique (ce n’est peut-être pas
+un bogue !),</li>
+  <li>Des détails techniques comme la version de Gaphor que vous utilisez, la
+version de votre système d’exploitation et d’autres aspects du contexte
+dans lequel Gaphor a été exécuté.</li>
+</ul>
+
+<p>Utilisez un langage simple et clair pour décrire le problème et, si
+nécessaire, décomposez-le en étapes afin que les développeurs puissent
+facilement le reproduire. Ne supposez pas que nous comprenons ce que vous
+essayez de faire. Imaginez plutôt que nous sommes une bande d’enfants avec
+une intelligence de 5 ans. Expliquez <em>tout</em> ce qui concerne le problème et
+ne vous fiez pas à notre intelligence.  Cela ne nous dérangera pas !</p>
+
+<p>Si vous souhaitez vous impliquer davantage dans le développement de Gaphor,
+nous serions ravis de vous accueillir sur le <a href="https://docs.gaphor.org/en/latest">site web du développeur de
+Gaphor</a>.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<link rel='stylesheet' href='/css/highlight.css' type='text/css' media='all' />
+
+</div>
+
+
+	<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-10 offset-sm-1">
+                <h5>Nous aimerions avoir de vos nouvelles</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-10 offset-sm-1 col-md-6 col-lg-4">
+                <ul class="fa-ul">
+                    <li><a href="https://matrix.to/#/#gaphor_Lobby:gitter.im"><i class="fa-li fa fa-angle-right"></i>
+                        <i class="far fa-comment"></i> Chattez avec nous</a></li>
+                    <li><a href="https://github.com/gaphor/gaphor/issues"><i class="fa-li fa fa-angle-right"></i>
+                        <i class="fas fa-bug"></i> Soumettre un problème</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-10 offset-sm-1 col-md-6 col-lg-4">
+                <ul class="fa-ul">
+                    <li><a href="https://docs.gaphor.org/en/latest"><i class="fa-li fa fa-angle-right"></i>
+                            <i class="fas fa-book"></i> Lire la documentation</a></li>
+                    <li><a href="https://github.com/gaphor"><i class="fa-li fa fa-angle-right"></i>
+                        <i class="fab fa-github"></i> Contribuer au code</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-footer">
+        <div class="container">
+            <p class="copyright">
+                <span>Thème: <a href="https://colorlib.com/wp/themes/illdy/" title="Illdy">Illdy</a>.</span>
+                <span class="bottom-copyright">Copyright &copy; 2020, The Gaphor Development Team.</span>
+            </p>
+        </div>
+    </div>
+
+</footer>
+
+<!-- page.url is / or /XX/ for translations -->
+
+
+
+    <script type="application/javascript">
+var codeBlocks = document.querySelectorAll('pre.highlight');
+
+codeBlocks.forEach(function (codeBlock) {
+  var copyButton = document.createElement('button');
+  copyButton.className = 'copy';
+  copyButton.type = 'button';
+  copyButton.ariaLabel = 'Copy code to clipboard';
+  copyButton.innerText = 'Copy';
+
+  codeBlock.append(copyButton);
+
+  copyButton.addEventListener('click', function () {
+    var code = codeBlock.querySelector('code').innerText.trim();
+    window.navigator.clipboard.writeText(code);
+
+    copyButton.innerText = 'Copied';
+    var fourSeconds = 4000;
+
+    setTimeout(function () {
+      copyButton.innerText = 'Copy';
+    }, fourSeconds);
+  });
+});
+</script>
+
+
+</body>
+
+</html>
