@@ -6,17 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-03-12 19:04-0400\n"
+"POT-Creation-Date: 2024-12-30 13:09-0500\n"
 "PO-Revision-Date: 2024-03-14 08:01+0000\n"
 "Last-Translator: Сергей <asvmail.as@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/gaphor/"
-"gaphor-github-io/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Weblate 5.5-dev\n"
 
 #. type: Yaml Front Matter Hash Value: title
@@ -79,8 +77,14 @@ msgstr "macOS"
 #. type: Plain text
 #: _platforms/02-macos.md
 #, no-wrap
-msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Download .dmg</a>\n"
-msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Скачать .dmg</a>\n"
+msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-arm.dmg\"><i class=\"fa fa-download\"></i> Download ARM .dmg</a>\n"
+msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Скачать ARM .dmg</a>\n"
+
+#. type: Plain text
+#: _platforms/02-macos.md
+#, no-wrap
+msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-intel.dmg\"><i class=\"fa fa-download\"></i> Download Intel .dmg</a>\n"
+msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Скачать Intel .dmg</a>\n"
 
 #. type: Plain text
 #: _platforms/02-macos.md
@@ -124,8 +128,8 @@ msgstr "Для установки Gaphor в Linux рекомендуется и�
 #. type: Plain text
 #: _platforms/03-linux.md
 #, no-wrap
-msgid "<a href='https://flathub.org/apps/details/org.gaphor.Gaphor'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>\n"
-msgstr "<a href='https://flathub.org/apps/details/org.gaphor.Gaphor'><img width='240' alt='Скачать на Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>\n"
+msgid "<a href=\"https://flathub.org/apps/org.gaphor.Gaphor\"><img width=\"240\" alt=\"Download on Flathub\" src=\"https://flathub.org/assets/badges/flathub-badge-en.png\"/></a>\n"
+msgstr "<a href=\"https://flathub.org/apps/org.gaphor.Gaphor\"><img width=\"240\" alt=\"Скачать на Flathub\" src=\"https://flathub.org/assets/badges/flathub-badge-en.png\"/></a>\n"
 
 #. type: Plain text
 #: _platforms/03-linux.md
@@ -281,8 +285,8 @@ msgstr "Открытый исходный код"
 
 #. type: Plain text
 #: _usps/02-opensource.md
-msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
-msgstr "Никакой привязки к вендору: Gaphor написан на Python и имеет 100% открытый исходный код, доступный по дружественной [лицензии Apache 2](https://github.com/gaphor/gaphor/blob/main/LICENSE.txt)."
+msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSES/apache-2.0.txt)."
+msgstr "Никакой привязки к вендору: Gaphor написан на Python и имеет 100% открытый исходный код, доступный по дружественной [лицензии Apache 2](https://github.com/gaphor/gaphor/blob/main/LICENSES/apache-2.0.txt)."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/03-beginner-pro.md
@@ -422,8 +426,8 @@ msgstr "Правила поведения в сообществе"
 
 #. type: Plain text
 #: _pages/discuss.md
-msgid "We expect contributors to follow the GNOME [Code of Conduct](https://wiki.gnome.org/Foundation/CodeOfConduct)."
-msgstr "Мы ожидаем, что участники будут следовать [Кодексу поведения GNOME](https://wiki.gnome.org/Foundation/CodeOfConduct)."
+msgid "We expect contributors to follow the GNOME [Code of Conduct](https://conduct.gnome.org/)."
+msgstr "Мы ожидаем, что участники будут следовать [Кодексу поведения GNOME](https://conduct.gnome.org)."
 
 #. type: Plain text
 #: _pages/discuss.md
@@ -480,26 +484,17 @@ msgstr "Обсуждения"
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "Frank Vanbever spoke at [FOSDEM 2024](https://fosdem.org/2024): [Drop the docs and embrace the model with Gaphor](https://fosdem.org/2024/schedule/event/fosdem-2024-2542-drop-the-docs-and-embrace-the-model-with-gaphor/)."
-msgstr ""
-"Frank Vanbever выступил на [FOSDEM 2024](https://fosdem.org/2024): ["
-"Откажитесь от документов и используйте модель с Gaphor](https://fosdem.org/"
-"2024/schedule/event/"
-"fosdem-2024-2542-drop-the-docs-and-embrace-the-model-with-gaphor/)."
+msgstr "Frank Vanbever выступил на [FOSDEM 2024](https://fosdem.org/2024): [Откажитесь от документов и используйте модель с Gaphor](https://fosdem.org/2024/schedule/event/fosdem-2024-2542-drop-the-docs-and-embrace-the-model-with-gaphor/)."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "Dan explains how to [automate MBSE models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA)."
-msgstr ""
-"Dan объясняет, как [автоматизировать модели MBSE с помощью Gaphor и "
-"Python](https://youtu.be/9BYgI1nJCBA)."
+msgstr "Dan объясняет, как [автоматизировать модели MBSE с помощью Gaphor и Python](https://youtu.be/9BYgI1nJCBA)."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "Dan presented [Modeling Complex Systems in Python with Gaphor](https://www.youtu.be/PnWKsr2csXg) on a joint INCOSE/Python Michigan meetup."
-msgstr ""
-"Dan представил [Моделирование сложных систем на Python с помощью "
-"Gaphor](https://www.youtu.be/PnWKsr2csXg) на встрече INCOSE/Python в "
-"Мичигане."
+msgstr "Dan представил [Моделирование сложных систем на Python с помощью Gaphor](https://www.youtu.be/PnWKsr2csXg) на встрече INCOSE/Python в Мичигане."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md

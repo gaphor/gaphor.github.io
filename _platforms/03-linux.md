@@ -10,7 +10,7 @@ lang: en
 Linux. If you don't have it setup already, follow the instructions to [install
 Flatpak](https://flatpak.org/setup).
 
-<a href='https://flathub.org/apps/details/org.gaphor.Gaphor'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>
+<a href="https://flathub.org/apps/org.gaphor.Gaphor"><img width="240" alt="Download on Flathub" src="https://flathub.org/assets/badges/flathub-badge-en.png"/></a>
 
 To manually install Gaphor:
 

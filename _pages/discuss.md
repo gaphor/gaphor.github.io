@@ -35,7 +35,7 @@ Before submitting a GitHub issue please review our page about
 ## Community Conduct
 
 We expect contributors to follow the GNOME [Code of
-Conduct](https://wiki.gnome.org/Foundation/CodeOfConduct).
+Conduct](https://conduct.gnome.org/).
 
 We want our community to be a safe, welcoming and friendly place.
 We won't hesitate to issue a clear warning and, if ignored, ban people who don't
