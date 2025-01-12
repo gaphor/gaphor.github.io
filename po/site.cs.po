@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-12-30 13:09-0500\n"
+"POT-Creation-Date: 2025-01-11 21:24-0500\n"
 "PO-Revision-Date: 2024-03-14 08:01+0000\n"
 "Last-Translator: vikdevelop <super-vik1@protonmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/cs/>\n"
@@ -128,8 +128,8 @@ msgstr "[Flatpak](https://flatpak.org/) je doporučený způsob instalace Gaphor
 #. type: Plain text
 #: _platforms/03-linux.md
 #, no-wrap
-msgid "<a href='https://flathub.org/apps/details/org.gaphor.Gaphor'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>\n"
-msgstr "<a href='https://flathub.org/apps/details/org.gaphor.Gaphor'><img width='240' alt='Stáhnout na Flathubu' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>\n"
+msgid "<a href=\"https://flathub.org/apps/org.gaphor.Gaphor\"><img width=\"240\" alt=\"Download on Flathub\" src=\"https://flathub.org/assets/badges/flathub-badge-en.png\"/></a>\n"
+msgstr "<a href=\"https://flathub.org/apps/org.gaphor.Gaphor\"><img width=\"240\" alt=\"Stáhnout na Flathubu\" src=\"https://flathub.org/assets/badges/flathub-badge-en.png\"/></a>\n"
 
 #. type: Plain text
 #: _platforms/03-linux.md
