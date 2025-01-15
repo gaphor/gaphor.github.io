@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-03-12 20:58-0400\n"
-"PO-Revision-Date: 2024-12-03 06:00+0000\n"
+"PO-Revision-Date: 2025-01-14 12:17+0000\n"
 "Last-Translator: Stan SZLAPKA <stansz@free.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/gaphor/"
 "gaphor-github-io/fr/>\n"
@@ -16,13 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.9-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/01-windows.md
 #, no-wrap
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #. type: Plain text
 #: _platforms/01-windows.md
@@ -73,21 +73,25 @@ msgstr "winget show gaphor\n"
 #: _platforms/02-macos.md
 #, no-wrap
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #. type: Plain text
 #: _platforms/02-macos.md
-#, fuzzy, no-wrap
-#| msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Download .dmg</a>\n"
+#, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-arm.dmg\"><i class=\"fa fa-download\"></i> Download ARM .dmg</a>\n"
-msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Télécharger .dmg</a>\n"
+msgstr ""
+"<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/"
+"releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version "
+"}}-arm.dmg\"><i class=\"fa fa-download\"></i> Télécharger ARM.dmg</a>\n"
 
 #. type: Plain text
 #: _platforms/02-macos.md
-#, fuzzy, no-wrap
-#| msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Download .dmg</a>\n"
+#, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-intel.dmg\"><i class=\"fa fa-download\"></i> Download Intel .dmg</a>\n"
-msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Télécharger .dmg</a>\n"
+msgstr ""
+"<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/"
+"releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version "
+"}}-intel.dmg\"><i class=\"fa fa-download\"></i> Télécharger Intel.dmg</a>\n"
 
 #. type: Plain text
 #: _platforms/02-macos.md
@@ -115,13 +119,13 @@ msgstr "brew install --cask gaphor\n"
 #: _platforms/03-linux.md
 #, no-wrap
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #. type: Title ###
 #: _platforms/03-linux.md
 #, no-wrap
 msgid "Flatpak"
-msgstr ""
+msgstr "Flatpak"
 
 #. type: Plain text
 #: _platforms/03-linux.md
@@ -155,7 +159,7 @@ msgstr ""
 #: _platforms/03-linux.md
 #, no-wrap
 msgid "Arch Linux"
-msgstr ""
+msgstr "Arch Linux"
 
 #. type: Plain text
 #: _platforms/03-linux.md
@@ -166,7 +170,7 @@ msgstr "Gaphor peut être installé à partir d'un [AUR package](https://aur.arc
 #: _platforms/04-python.md
 #, no-wrap
 msgid "Python"
-msgstr ""
+msgstr "Python"
 
 #. type: Plain text
 #: _platforms/04-python.md
@@ -273,7 +277,7 @@ msgstr "Si vous souhaitez vous impliquer davantage dans le développement de Gap
 #: _usps/01-platform.md
 #, no-wrap
 msgid "Multi-platform"
-msgstr ""
+msgstr "Multiplateforme"
 
 #. type: Plain text
 #: _usps/01-platform.md
@@ -429,10 +433,10 @@ msgstr "Conduite de la communauté"
 
 #. type: Plain text
 #: _pages/discuss.md
-#, fuzzy
-#| msgid "We expect contributors to follow the GNOME [Code of Conduct](https://conduct.gnome.org)."
 msgid "We expect contributors to follow the GNOME [Code of Conduct](https://conduct.gnome.org/)."
-msgstr "Nous attendons des contributeurs qu'ils respectent le [Code de conduite](https://conduct.gnome.org) de GNOME ."
+msgstr ""
+"Nous attendons des contributeurs qu'ils respectent le [Code de conduite]"
+"(https://conduct.gnome.org/) de GNOME ."
 
 #. type: Plain text
 #: _pages/discuss.md
