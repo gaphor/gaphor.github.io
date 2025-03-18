@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-12-30 13:09-0500\n"
-"PO-Revision-Date: 2025-03-18 14:19+0000\n"
+"PO-Revision-Date: 2025-03-18 14:25+0000\n"
 "Last-Translator: Dan Yeaw <dan@yeaw.me>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/gaphor/"
 "gaphor-github-io/uk/>\n"
@@ -542,8 +542,8 @@ msgstr "Поведінка спільноти"
 #: _pages/discuss.md
 msgid "We expect contributors to follow the GNOME [Code of Conduct](https://conduct.gnome.org/)."
 msgstr ""
-"Ми очікуємо, що учасники будуть дотримуватися [Кодексу поведінки] GNOME "
-"(https://conduct.gnome.org/)."
+"Ми очікуємо, що учасники будуть дотримуватися [Кодексу поведінки](https://"
+"conduct.gnome.org/) GNOME."
 
 #. type: Plain text
 #: _pages/discuss.md
