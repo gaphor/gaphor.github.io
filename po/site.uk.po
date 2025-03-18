@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-12-30 13:09-0500\n"
-"PO-Revision-Date: 2025-03-11 16:32+0000\n"
-"Last-Translator: Максим Горпиніч <maksimgorpinic2005a@gmail.com>\n"
+"PO-Revision-Date: 2025-03-18 14:19+0000\n"
+"Last-Translator: Dan Yeaw <dan@yeaw.me>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/gaphor/"
 "gaphor-github-io/uk/>\n"
 "Language: uk\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.10.3-dev\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/01-windows.md
@@ -67,7 +67,7 @@ msgstr ""
 #: _platforms/01-windows.md
 #, no-wrap
 msgid "winget install gaphor\n"
-msgstr "крило встановити gaphor\n"
+msgstr "winget install gaphor\n"
 
 #. type: Plain text
 #: _platforms/01-windows.md
@@ -78,7 +78,7 @@ msgstr "Щоб переглянути останні примітки до ви�
 #: _platforms/01-windows.md
 #, no-wrap
 msgid "winget show gaphor\n"
-msgstr "winget шоу gaphor\n"
+msgstr "winget show gaphor\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/02-macos.md
@@ -125,7 +125,7 @@ msgstr ""
 #: _platforms/02-macos.md
 #, no-wrap
 msgid "brew install --cask gaphor\n"
-msgstr "brew встановити --cask gaphor\n"
+msgstr "brew install --cask gaphor\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/03-linux.md
@@ -171,7 +171,7 @@ msgid ""
 msgstr ""
 "flatpak remote-add --user --if-not-exists \\\n"
 "    flathub https://dl.flathub.org/repo/flathub.flatpakrepo\n"
-"flatpak встановити --user flathub org.gaphor.Gaphor\n"
+"flatpak install --user flathub org.gaphor.Gaphor\n"
 
 #. type: Title ###
 #: _platforms/03-linux.md
@@ -218,8 +218,8 @@ msgid ""
 "pip install gaphor\n"
 "gaphor\n"
 msgstr ""
-"pip встановити gaphor\n"
-"гафор\n"
+"pip install gaphor\n"
+"gaphor\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: tutorials/report-bugs.md
