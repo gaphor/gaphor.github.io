@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-12-30 13:09-0500\n"
-"PO-Revision-Date: 2025-03-18 14:25+0000\n"
+"PO-Revision-Date: 2025-03-18 14:31+0000\n"
 "Last-Translator: Dan Yeaw <dan@yeaw.me>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/gaphor/"
 "gaphor-github-io/uk/>\n"
@@ -644,8 +644,8 @@ msgstr ""
 #: _pages/tutorials.md
 msgid "Dan and Arjan spoke at [Linux App Summit 2021](https://linuxappsummit.org/)  about [how Gaphor is made available to all desktop platforms Linux/Windows/macOS](https://www.youtube.com/watch?v=vLwAT-TLmZU)."
 msgstr ""
-"Ден і Арджан розповіли на [Linux App Summit 2021] (https://"
-"linuxappsummit.org/) про те, "
+"Ден і Арджан розповіли на [Linux App Summit 2021](https://linuxappsummit.org/"
+") про те, "
 "[як Gaphor стає доступним для всіх настільних платформ Linux/Windows/macOS]"
 "(https://www.youtube.com/watch?v=vLwAT-TLmZU)."
 
@@ -653,7 +653,7 @@ msgstr ""
 #: _pages/tutorials.md
 msgid "Dan spoke at the 2021 [MIT STAMP Workshop](https://psas.scripts.mit.edu/home/2021-stamp-workshop-program/)  about _Open STPA with RAAML and Gaphor_."
 msgstr ""
-"Ден розповів на [MIT STAMP Workshop] (https://psas.scripts.mit.edu/home/"
+"Ден розповів на [MIT STAMP Workshop](https://psas.scripts.mit.edu/home/"
 "2021-stamp-workshop-program/) у 2021 році про _Open STPA з RAAML і Gaphor_."
 
 #. type: Bullet: '- '
