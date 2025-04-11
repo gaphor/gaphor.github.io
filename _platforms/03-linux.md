@@ -22,5 +22,9 @@ flatpak install --user flathub org.gaphor.Gaphor
 
 ### Arch Linux
 
-Gaphor can be installed from an [AUR
-package](https://aur.archlinux.org/packages/python-gaphor/).
+The Gaphor [Arch package](https://archlinux.org/packages/extra/any/gaphor/) can be
+installed with:
+
+```bash
+sudo pacman -S gaphor
+```
