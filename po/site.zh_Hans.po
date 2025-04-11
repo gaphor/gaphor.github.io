@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-12-30 13:09-0500\n"
+"POT-Creation-Date: 2025-04-11 13:08-0400\n"
 "PO-Revision-Date: 2024-08-17 09:09+0000\n"
 "Last-Translator: SuGotLand 苏革岚 <sugotland@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/zh_Hans/>\n"
@@ -158,8 +158,16 @@ msgstr "Arch Linux"
 
 #. type: Plain text
 #: _platforms/03-linux.md
-msgid "Gaphor can be installed from an [AUR package](https://aur.archlinux.org/packages/python-gaphor/)."
+#, fuzzy
+#| msgid "Gaphor can be installed from an [AUR package](https://aur.archlinux.org/packages/python-gaphor/)."
+msgid "The Gaphor [Arch package](https://archlinux.org/packages/extra/any/gaphor/) can be installed with:"
 msgstr "Gaphor 可通过 [AUR 软件包](https://aur.archlinux.org/packages/python-gaphor/)安装。"
+
+#. type: Fenced code block (bash)
+#: _platforms/03-linux.md
+#, no-wrap
+msgid "sudo pacman -S gaphor\n"
+msgstr "sudo pacman -S gaphor\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/04-python.md

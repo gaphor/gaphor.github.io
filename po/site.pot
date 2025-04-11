@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-11 13:56+0000\n"
+"POT-Creation-Date: 2025-04-11 17:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -160,7 +160,13 @@ msgstr ""
 #. type: Plain text
 #: _platforms/03-linux.md
 #, markdown-text
-msgid "Gaphor can be installed from an [AUR package](https://aur.archlinux.org/packages/python-gaphor/)."
+msgid "The Gaphor [Arch package](https://archlinux.org/packages/extra/any/gaphor/) can be installed with:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: _platforms/03-linux.md
+#, no-wrap
+msgid "sudo pacman -S gaphor\n"
 msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
