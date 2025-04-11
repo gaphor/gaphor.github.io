@@ -7,15 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-12-30 13:09-0500\n"
-"PO-Revision-Date: 2024-12-30 02:29+0000\n"
-"Last-Translator: Dan Yeaw <dan@yeaw.me>\n"
-"Language-Team: Tamil <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/ta/>\n"
+"PO-Revision-Date: 2025-04-07 09:03+0000\n"
+"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/gaphor/"
+"gaphor-github-io/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/01-windows.md
@@ -76,17 +77,21 @@ msgstr "மேகோச்"
 
 #. type: Plain text
 #: _platforms/02-macos.md
-#, fuzzy, no-wrap
-#| msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Download .dmg</a>\n"
+#, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-arm.dmg\"><i class=\"fa fa-download\"></i> Download ARM .dmg</a>\n"
-msgstr "<a வகுப்பு = \"btn btn-primary btn-lg\" href = \"https://github.com/gaphor/gaphor/relaess/download/ {{ site.gaphor_version }}/caphor-{{ site.gaphor_version }}. dmg \"> <i வகுப்பு =\" fa fa-download \"> </i> பதிவிறக்கம் .dmg </a>\n"
+msgstr ""
+"<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/"
+"releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version "
+"}}-arm.dmg\"><i class=\"fa fa-download\"></i> பதிவிறக்கம் ஏஆர்எம் .dmg</a>\n"
 
 #. type: Plain text
 #: _platforms/02-macos.md
-#, fuzzy, no-wrap
-#| msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}.dmg\"><i class=\"fa fa-download\"></i> Download .dmg</a>\n"
+#, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-intel.dmg\"><i class=\"fa fa-download\"></i> Download Intel .dmg</a>\n"
-msgstr "<a வகுப்பு = \"btn btn-primary btn-lg\" href = \"https://github.com/gaphor/gaphor/relaess/download/ {{ site.gaphor_version }}/caphor-{{ site.gaphor_version }}. dmg \"> <i வகுப்பு =\" fa fa-download \"> </i> பதிவிறக்கம் .dmg </a>\n"
+msgstr ""
+"<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/"
+"releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version "
+"}}-intel.dmg\"><i class=\"fa fa-download\"></i> பதிவிறக்கம் இன்டெல் .dmg</a>\n"
 
 #. type: Plain text
 #: _platforms/02-macos.md
@@ -272,12 +277,16 @@ msgstr "காஃபரின் வளர்ச்சியில் நீங�
 #: _usps/01-platform.md
 #, no-wrap
 msgid "Multi-platform"
-msgstr ""
+msgstr "பலதளம்"
 
 #. type: Plain text
 #: _usps/01-platform.md
 msgid "Gaphor works on all major platforms: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [macOS]({{ \"/download#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
 msgstr ""
+"கேஃபர் அனைத்து முக்கிய தளங்களிலும் வேலை செய்கிறது: [சாளரம்]({{ \"/download#windows\""
+" | prepend: site.baseurl }}), [மேக்இமு]({{ \"/download#macos\" | prepend: "
+"site.baseurl }}), மற்றும் [லினக்சு]({{ \"/download#linux\" | prepend: "
+"site.baseurl }})."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/02-opensource.md
@@ -402,6 +411,8 @@ msgstr "எங்கள் நிகழ்நேர உரையாடல்க�
 #, no-wrap
 msgid "[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\" /> Join [matrix]](https://matrix.to/#/#gaphor_Lobby:gitter.im)\n"
 msgstr ""
+"[<img src=\"/images/matrix_org.svg\" alt=\"matrix.org\" style=\"height: 1em\""
+" /> [அணியில் சேர்]](https://matrix.to/#/#gaphor_Lobby:gitter.im)\n"
 
 #. type: Title ##
 #: _pages/discuss.md
@@ -537,7 +548,9 @@ msgstr "[It's FOSS has a குறுக்கு write-up on Gaphor (~2.8-ish?)
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
-msgstr "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
+msgstr ""
+"[உபுண்டு பிட்டில் காஃபோர் (~2.8-ish?) பற்றி ஒரு நல்ல கட்டுரை உள்ளது.](https://"
+"www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/download.md
