@@ -7,15 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2025-04-11 13:08-0400\n"
-"PO-Revision-Date: 2024-03-14 08:01+0000\n"
-"Last-Translator: vikdevelop <super-vik1@protonmail.com>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/cs/>\n"
+"PO-Revision-Date: 2025-04-25 08:05+0000\n"
+"Last-Translator: vikdevelop <vikdevelop@proton.me>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/"
+"gaphor-github-io/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.11.1-dev\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/01-windows.md
@@ -156,10 +157,10 @@ msgstr "Arch Linux"
 
 #. type: Plain text
 #: _platforms/03-linux.md
-#, fuzzy
-#| msgid "Gaphor can be installed from an [AUR package](https://aur.archlinux.org/packages/python-gaphor/)."
 msgid "The Gaphor [Arch package](https://archlinux.org/packages/extra/any/gaphor/) can be installed with:"
-msgstr "Gaphor lze nainstalovat z balíčku [AUR](https://aur.archlinux.org/packages/python-gaphor/)."
+msgstr ""
+"Gaphor [balíček Arch] (https://archlinux.org/packages/extra/any/gaphor/) can "
+"be installed with:"
 
 #. type: Fenced code block (bash)
 #: _platforms/03-linux.md
