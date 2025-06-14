@@ -503,8 +503,8 @@ msgstr "Dan объясняет, как [автоматизировать мод�
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-msgid "Dan presented [Modeling Complex Systems in Python with Gaphor](https://www.youtu.be/PnWKsr2csXg) on a joint INCOSE/Python Michigan meetup."
-msgstr "Dan представил [Моделирование сложных систем на Python с помощью Gaphor](https://www.youtu.be/PnWKsr2csXg) на встрече INCOSE/Python в Мичигане."
+msgid "Dan presented [Modeling Complex Systems in Python with Gaphor](https://youtu.be/PnWKsr2csXg) on a joint INCOSE/Python Michigan meetup."
+msgstr "Dan представил [Моделирование сложных систем на Python с помощью Gaphor](https://youtu.be/PnWKsr2csXg) на встрече INCOSE/Python в Мичигане."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md

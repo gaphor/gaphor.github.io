@@ -502,8 +502,8 @@ msgstr "Dan explique comment [automatiser les modèles MBSE avec Gaphor et Pytho
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-msgid "Dan presented [Modeling Complex Systems in Python with Gaphor](https://www.youtu.be/PnWKsr2csXg) on a joint INCOSE/Python Michigan meetup."
-msgstr "Dan présente [Modeling Complex Systems in Python with Gaphor](https://www.youtu.be/PnWKsr2csXg) à une conférence jointe de INCOSE/Python Michigan."
+msgid "Dan presented [Modeling Complex Systems in Python with Gaphor](https://youtu.be/PnWKsr2csXg) on a joint INCOSE/Python Michigan meetup."
+msgstr "Dan présente [Modeling Complex Systems in Python with Gaphor](https://youtu.be/PnWKsr2csXg) à une conférence jointe de INCOSE/Python Michigan."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
