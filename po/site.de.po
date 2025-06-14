@@ -503,7 +503,7 @@ msgstr "<i class=\"fab fa-youtube\"></i> [MBSE-Modelle mit Gaphor und Python aut
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-msgid "Dan presented [Modeling Complex Systems in Python with Gaphor](https://www.youtu.be/PnWKsr2csXg) on a joint INCOSE/Python Michigan meetup."
+msgid "Dan presented [Modeling Complex Systems in Python with Gaphor](https://youtu.be/PnWKsr2csXg) on a joint INCOSE/Python Michigan meetup."
 msgstr ""
 
 #. type: Bullet: '- '

@@ -508,8 +508,8 @@ msgstr "[கஃபர் மற்றும் பைதானுடன் MBSE 
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
-msgid "Dan presented [Modeling Complex Systems in Python with Gaphor](https://www.youtu.be/PnWKsr2csXg) on a joint INCOSE/Python Michigan meetup."
-msgstr "டான் [பைதானில் சிக்கலான அமைப்புகளை கஃபருடன் மாடலிங் செய்தார்](https://www.youtu.be/PnWKsr2csXg) ஒரு கூட்டு இன்கோச்/பைதான் மிச்சிகன் சந்திப்பில் வழங்கினார்."
+msgid "Dan presented [Modeling Complex Systems in Python with Gaphor](https://youtu.be/PnWKsr2csXg) on a joint INCOSE/Python Michigan meetup."
+msgstr "டான் [பைதானில் சிக்கலான அமைப்புகளை கஃபருடன் மாடலிங் செய்தார்](https://youtu.be/PnWKsr2csXg) ஒரு கூட்டு இன்கோச்/பைதான் மிச்சிகன் சந்திப்பில் வழங்கினார்."
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
