@@ -1,36 +1,38 @@
 index:
   thousand-words: >
-    一图胜过千言万语。使用Gaphor描述并记录您的应用程序和系统，以增强知识共享。
+    使用 Gaphor 进行应用程序与系统建模，可显著提升知识共享效率。
   learn: '了解更多'
   about-content: >
-    Gaphor是一个UML、SysML、RAAML和C4建模应用程序。它的设计便于使用，同时功能强大。Gaphor实现了一个完全兼容的UML2数据模型，因此它不仅仅是一个绘图工具。您可以使用Gaphor快速可视化系统的不同方面，并创建完整的、高度复杂的模型。
+    Gaphor 是一款支持 UML、SysML、RAAML 和 C4 建模的专业应用程序。该工具在保持强大功能的同时，兼具易用性设计。Gaphor 实现了完全符合
+    UML 2 标准的数据模型，因此远非简单的绘图工具。您既可用其快速可视化系统的各个维度，也能构建完整且高度复杂的模型体系。
   build: >
-    为软件构建类、交互和状态机图，或为系统构建块定义和需求图。为您需要的元素建模。如果您想混合和匹配，您甚至可以将不同的图表项添加到同一个图表中，以获得所需的视图。
-  styling-engine: '使用我们的内置样式引擎自定义您创建的图表。'
-  treeview: '在树状视图中轻松查找模型的所有元素。'
-  dark-mode: '喜欢黑暗模式？我们也可以这样做。'
+    构建软件所需的类图（Class）、交互图（Interaction）和状态机图（State Machine），或创建系统架构中的模块定义图（Block Definition）与需求图（Requirements）。您可自由建模所需元素，更支持在同一图表中混搭不同建模元素，灵活构建符合需求的视图。
+  styling-engine: '通过内置样式引擎，自由定制您创建的图表。'
+  treeview: '通过树状视图，轻松定位模型中的所有元素。'
+  dark-mode: '偏好深色模式？我们同样支持。'
   download-content: >
-    有很多方法可以安装Gaphor。最简单的方法是下载Windows或macOS的官方安装程序。对于Linux，您可以使用FlatHub安装Gaphor。您也可以使用Python内置的“pip”工具，只要您安装了所有必需的依赖项。
+    Gaphor 提供多种安装方式：Windows 和 macOS 用户可直接下载官方安装包；Linux 用户可通过 FlatHub 安装；若已配置所需依赖环境，亦可使用
+    Python 内置的 `pip` 工具进行安装。
 latest-news-and-blog:
   blog-content: |
-    你想知道Gaphor怎么了吗？阅读我们的博客！
+    想了解 Gaphor 的最新动态？请阅读我们的博客！
 
-    [联系团队]（/讨论）如果您想分享与Gaphor相关的内容。
+    若您有关于 Gaphor 的内容想分享，欢迎[联系团队](/discuss)。
   see-blog: '查看博客'
   read-more: '阅读更多'
   blog-and-news: '博客和新闻'
   by: '通过'
 menu:
-  home: '主页'
+  home: '首页'
   about: '关于'
   download: '下载'
   tutorials: '教程'
   blog: '博客'
-  discuss: '联系'
-  contribute: '贡献'
+  discuss: '联系我们'
+  contribute: '参与贡献'
 footer:
-  love: '我们很高兴收到您的消息'
-  chat-on: '与我们聊天'
+  love: '我们期待您的反馈'
+  chat-on: '在线交流'
   code: '贡献代码'
   open-issue: '提交问题'
   tech-docs: '阅读文档'
