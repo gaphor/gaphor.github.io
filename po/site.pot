@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-11 13:08-0400\n"
+"POT-Creation-Date: 2025-06-14 19:07-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -167,7 +167,7 @@ msgstr ""
 #: _platforms/03-linux.md
 #, no-wrap
 msgid "sudo pacman -S gaphor\n"
-msgstr "sudo pacman -S gaphor\n"
+msgstr ""
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/04-python.md
@@ -542,7 +542,7 @@ msgstr ""
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 #, markdown-text
-msgid "Dan presented [Modeling Complex Systems in Python with Gaphor](https://www.youtu.be/PnWKsr2csXg) on a joint INCOSE/Python Michigan meetup."
+msgid "Dan presented [Modeling Complex Systems in Python with Gaphor](https://youtu.be/PnWKsr2csXg) on a joint INCOSE/Python Michigan meetup."
 msgstr ""
 
 #. type: Bullet: '- '
