@@ -41,10 +41,10 @@
     <link rel="alternate" hreflang="zh_Hans" href="https://gaphor.org/zh_Hans/tutorials/report-bugs/"/>
 
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>How to report a bug in Gaphor | Gaphor</title>
+<title>Kako prijaviti grešku u Gaphoru | Gaphor</title>
 <meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="How to report a bug in Gaphor" />
-<meta property="og:locale" content="en" />
+<meta property="og:title" content="Kako prijaviti grešku u Gaphoru" />
+<meta property="og:locale" content="hr" />
 <meta name="description" content="Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models." />
 <meta property="og:description" content="Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models." />
 <link rel="canonical" href="https://gaphor.org/hr/tutorials/report-bugs/" />
@@ -52,9 +52,9 @@
 <meta property="og:site_name" content="Gaphor" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="How to report a bug in Gaphor" />
+<meta property="twitter:title" content="Kako prijaviti grešku u Gaphoru" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models.","headline":"How to report a bug in Gaphor","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://gaphor.org/images/gaphor-logo-white.svg"}},"url":"https://gaphor.org/tutorials/report-bugs/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models.","headline":"Kako prijaviti grešku u Gaphoru","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://gaphor.org/images/gaphor-logo-white.svg"}},"url":"https://gaphor.org/tutorials/report-bugs/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -196,7 +196,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-10 offset-sm-1">
-                    <h1>How to report a bug in Gaphor</h1>
+                    <h1>Kako prijaviti grešku u Gaphoru</h1>
                 </div>
             </div>
         </div>
@@ -204,53 +204,54 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-10 offset-sm-1">
-                <p>If you’ve ever written a line of code, you’ll know that all software has bugs.
-This will also be the case with Gaphor. If you think you have found a bug,
-simply click on the link below (you’ll need to have an account on GitHub) and
-then click the green “New Issue” button found at the top right hand side of the
-page:</p>
+                <p>Svatko tko je ikada napisao redak koda, zna, da svaki softver sadrži
+greške. To će biti slučaj i s Gaphorom. Ako misliš da si pronašao/la grešku,
+jednostavno pritisni donju poveznicu (moraš imati račun na GitHubu) a zatim
+pritisni zeleni gumb „New Issue” (Novi problem) koji se nalazi u gornjem
+desnom kutu stranice:</p>
 
-<p><a href="https://github.com/gaphor/gaphor/issues">Report a Bug in Gaphor</a></p>
+<p><a href="https://github.com/gaphor/gaphor/issues">Prijavi grešku u Gaphoru</a></p>
 
-<p>When you create a new issue it will be given a number and the volunteer
-developers, who write and maintain the code, will be informed by email. They may
-annotate questions to your issue, if things are not clear. They may immediately
-close it and mark it as “duplicate” (someone else has already reported the bug
-– and they’ll reference the original issue). Sometimes they’ll close the bug
-and say “won’t fix”, because they disagree that it’s a bug <em>or</em> it’s too trivial
-in order to invest any time.</p>
+<p>Kad stvoriš novi problem on će dobiti broj, a programeri volonteri koji pišu
+i održavaju kod će dobiti obavijest putem e-maila. U slučaju da nešto nije
+jasno, oni mogu dodati pitanja o tvom problemu. Mogu ga odmah zatvoriti i
+označiti kao „duplicate” (duplikat) (što znači da je netko drugi već
+prijavio istu grešku – tada će se pozvati na izvorni problem). Ponekad će
+zatvoriti problem s komentarom „won’t fix” (neće se ispraviti), jer se ne
+slažu da se radi o grešci <em>ili</em> da je problem prejednostavan da bi ulagali
+vrijeme u rješavanje problema.</p>
 
-<p>There are generally two sorts of bugs:</p>
-
-<ul>
-  <li>Technical: the code has a mistake in it which causes the program to break.</li>
-  <li>Behavioural: the code works correctly, but is doing the wrong thing.</li>
-</ul>
-
-<p>In both cases, for us to be able to fix the bug, we need <strong>as much information
-as possible</strong>. When you create a new issue you should try to include, where
-relevant, the following sorts of information:</p>
+<p>Općenito postoje dvije vrste grešaka:</p>
 
 <ul>
-  <li>What you were trying to do,</li>
-  <li>What steps you took to make this happen,</li>
-  <li>What you expected to happen,</li>
-  <li>What actually happened,</li>
-  <li>Why this difference is problematic (it may not be a bug!),</li>
-  <li>Technical details like the version of Gaphor you’re using, your OS version and
-other aspects of the context in which Gaphor was running.</li>
+  <li>Tehnička greška: kod ima grešku koja uzrokuje prekid programa.</li>
+  <li>Greška u ponašanju programa: kod radi ispravno, ali radi krive stvari.</li>
 </ul>
 
-<p>Use plain and simple language to describe the problem and, if helpful, break it
-down into steps so developers can easily recreate the issue. Please don’t assume
-we’ll understand what you were trying to achieve – honestly, it’s best if you
-try to imagine we (the developers) are a bunch of clever 5-year-olds. Try to
-explain <em>everything</em> about the problem and don’t assume we know what you mean.
-We won’t mind!</p>
+<p>U oba slučaja, da bismo mogli ispraviti grešku, trebamo <strong>što više
+informacija</strong>. Kad stvoriš novi problem, uključi, gdje je važno, sljedeće
+vrste informacija:</p>
 
-<p>If you would like to get more involved in the development of Gaphor, we’d love
-to welcome you via the <a href="https://docs.gaphor.org/en/latest">Gaphor developer’s
-website</a>.</p>
+<ul>
+  <li>Što si pokušao/la uraditi,</li>
+  <li>Navedi korake koje si poduzeo/la prije pojavljivanja problema,</li>
+  <li>Što si očekivao/la da će se dogoditi,</li>
+  <li>Što se dogodilo,</li>
+  <li>Zašto je ova razlika problematična (možda se ne radi o grešci!),</li>
+  <li>Tehničke detalje kao što su verzija korištenog Gaphora, verzija OS-a i
+druge aspekte konteksta u kojem je Gaphor radio.</li>
+</ul>
+
+<p>Koristi jednostavan jezik za opisivanje problema i, ako treba, navedi radnje
+prije pojavljivanja problema korak po korak, kako bi programeri mogli
+reproducirati problem. Nemoj pretpostavljati da ćemo razumjeti što si
+pokušavao/la postići – iskreno rečeno, najbolje je ako pokušaš zamisliti da
+smo mi (programeri) gomila pametnih petogodišnjaka. Pokušaj objasniti <em>sve</em>
+o problemu i nemoj pretpostavljati da znamo što misliš. Nećemo imati ništa
+protiv!</p>
+
+<p>Ako se želiš uključiti u razvoj Gaphora, pridruži nam se na Gaphor
+<a href="https://docs.gaphor.org/hr/latest">web-stranici za programere</a>.</p>
 
             </div>
         </div>

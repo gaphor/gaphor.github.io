@@ -41,10 +41,10 @@
     <link rel="alternate" hreflang="zh_Hans" href="https://gaphor.org/zh_Hans/tutorials/report-bugs/"/>
 
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>How to report a bug in Gaphor | Gaphor</title>
+<title>如何报告 Gaphor 中的 Bug | Gaphor</title>
 <meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="How to report a bug in Gaphor" />
-<meta property="og:locale" content="en" />
+<meta property="og:title" content="如何报告 Gaphor 中的 Bug" />
+<meta property="og:locale" content="zh_Hans" />
 <meta name="description" content="Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models." />
 <meta property="og:description" content="Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models." />
 <link rel="canonical" href="https://gaphor.org/zh_Hans/tutorials/report-bugs/" />
@@ -52,9 +52,9 @@
 <meta property="og:site_name" content="Gaphor" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="How to report a bug in Gaphor" />
+<meta property="twitter:title" content="如何报告 Gaphor 中的 Bug" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models.","headline":"How to report a bug in Gaphor","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://gaphor.org/images/gaphor-logo-white.svg"}},"url":"https://gaphor.org/tutorials/report-bugs/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models.","headline":"如何报告 Gaphor 中的 Bug","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://gaphor.org/images/gaphor-logo-white.svg"}},"url":"https://gaphor.org/tutorials/report-bugs/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -196,7 +196,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-10 offset-sm-1">
-                    <h1>How to report a bug in Gaphor</h1>
+                    <h1>如何报告 Gaphor 中的 Bug</h1>
                 </div>
             </div>
         </div>
@@ -204,53 +204,36 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-10 offset-sm-1">
-                <p>If you’ve ever written a line of code, you’ll know that all software has bugs.
-This will also be the case with Gaphor. If you think you have found a bug,
-simply click on the link below (you’ll need to have an account on GitHub) and
-then click the green “New Issue” button found at the top right hand side of the
-page:</p>
+                <p>但凡写过代码的人都知道，所有软件都难免存在缺陷，Gaphor 也不例外。若您发现疑似问题，只需点击下方链接（需拥有 GitHub
+账户），随后点击页面右上角的绿色”New Issue”按钮即可提交：</p>
 
-<p><a href="https://github.com/gaphor/gaphor/issues">Report a Bug in Gaphor</a></p>
+<p><a href="https://github.com/gaphor/gaphor/issues">报告Gaphor中的Bug</a></p>
 
-<p>When you create a new issue it will be given a number and the volunteer
-developers, who write and maintain the code, will be informed by email. They may
-annotate questions to your issue, if things are not clear. They may immediately
-close it and mark it as “duplicate” (someone else has already reported the bug
-– and they’ll reference the original issue). Sometimes they’ll close the bug
-and say “won’t fix”, because they disagree that it’s a bug <em>or</em> it’s too trivial
-in order to invest any time.</p>
+<p>当您提交新问题时，系统会自动分配编号，编写和维护代码的志愿者开发者将通过邮件收到通知。若问题描述不够清晰，开发者可能会在您的问题下追加询问。他们可能直接关闭问题并标记为”duplicate”（表示该问题已被他人提交——开发者会附上原始问题的参考链接）。有时开发者会以”won’t
+fix” （不予修复）关闭问题，这可能是因为他们不认为这是缺陷<em>或</em>该问题过于琐碎不值得投入时间处理。</p>
 
-<p>There are generally two sorts of bugs:</p>
+<p>Bug一般分为两种：</p>
 
 <ul>
-  <li>Technical: the code has a mistake in it which causes the program to break.</li>
-  <li>Behavioural: the code works correctly, but is doing the wrong thing.</li>
+  <li>技术问题：代码中存在错误，导致程序崩溃。</li>
+  <li>行为：代码工作正常，但做了错误的事情。</li>
 </ul>
 
-<p>In both cases, for us to be able to fix the bug, we need <strong>as much information
-as possible</strong>. When you create a new issue you should try to include, where
-relevant, the following sorts of information:</p>
+<p>在这两种情况下，我们都需要<strong>尽可能多的信息</strong>才能修复Bug。在创建新Issue时，您应尽量包含以下相关信息：</p>
 
 <ul>
-  <li>What you were trying to do,</li>
-  <li>What steps you took to make this happen,</li>
-  <li>What you expected to happen,</li>
-  <li>What actually happened,</li>
-  <li>Why this difference is problematic (it may not be a bug!),</li>
-  <li>Technical details like the version of Gaphor you’re using, your OS version and
-other aspects of the context in which Gaphor was running.</li>
+  <li>您想要做什么</li>
+  <li>您采取了哪些措施来实现这一点，</li>
+  <li>您期望发生什么，</li>
+  <li>实际发生了什么，</li>
+  <li>为什么这种差异会造成问题（它可能不是一个Bug！），</li>
+  <li>技术细节，如您使用的 Gaphor 版本、操作系统版本以及 Gaphor 运行环境的其他方面信息。</li>
 </ul>
 
-<p>Use plain and simple language to describe the problem and, if helpful, break it
-down into steps so developers can easily recreate the issue. Please don’t assume
-we’ll understand what you were trying to achieve – honestly, it’s best if you
-try to imagine we (the developers) are a bunch of clever 5-year-olds. Try to
-explain <em>everything</em> about the problem and don’t assume we know what you mean.
-We won’t mind!</p>
+<p>请使用简明扼要的语言描述问题，如有可能请分步骤说明，以便开发者能轻松复现该问题。切勿假设我们理解您的预期目标——坦白说，最佳方式是把我们（开发者）想象成一群聪明的5岁小孩。请详细解释问题的<em>所有细节</em>，不要默认我们知晓您的所指。我们完全不会介意！</p>
 
-<p>If you would like to get more involved in the development of Gaphor, we’d love
-to welcome you via the <a href="https://docs.gaphor.org/en/latest">Gaphor developer’s
-website</a>.</p>
+<p>如果您想更多地参与 Gaphor 的开发，我们非常欢迎您通过访问<a href="https://docs.gaphor.org/en/latest">Gaphor
+开发者网站</a>以了解更多信息。</p>
 
             </div>
         </div>

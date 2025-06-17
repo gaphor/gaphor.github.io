@@ -41,10 +41,10 @@
     <link rel="alternate" hreflang="zh_Hans" href="https://gaphor.org/zh_Hans/tutorials/report-bugs/"/>
 
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>How to report a bug in Gaphor | Gaphor</title>
+<title>Cómo informar de un error en Gaphor | Gaphor</title>
 <meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="How to report a bug in Gaphor" />
-<meta property="og:locale" content="en" />
+<meta property="og:title" content="Cómo informar de un error en Gaphor" />
+<meta property="og:locale" content="es" />
 <meta name="description" content="Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models." />
 <meta property="og:description" content="Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models." />
 <link rel="canonical" href="https://gaphor.org/es/tutorials/report-bugs/" />
@@ -52,9 +52,9 @@
 <meta property="og:site_name" content="Gaphor" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="How to report a bug in Gaphor" />
+<meta property="twitter:title" content="Cómo informar de un error en Gaphor" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models.","headline":"How to report a bug in Gaphor","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://gaphor.org/images/gaphor-logo-white.svg"}},"url":"https://gaphor.org/tutorials/report-bugs/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python. It is designed to be easy to use, while still being powerful. Gaphor implements a fully-compliant UML 2 data model, so it is much more than a picture drawing tool. You can use Gaphor to quickly visualize different aspects of a system as well as create complete, highly complex models.","headline":"Cómo informar de un error en Gaphor","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://gaphor.org/images/gaphor-logo-white.svg"}},"url":"https://gaphor.org/tutorials/report-bugs/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -196,7 +196,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-10 offset-sm-1">
-                    <h1>How to report a bug in Gaphor</h1>
+                    <h1>Cómo informar de un error en Gaphor</h1>
                 </div>
             </div>
         </div>
@@ -204,53 +204,57 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-10 offset-sm-1">
-                <p>If you’ve ever written a line of code, you’ll know that all software has bugs.
-This will also be the case with Gaphor. If you think you have found a bug,
-simply click on the link below (you’ll need to have an account on GitHub) and
-then click the green “New Issue” button found at the top right hand side of the
-page:</p>
+                <p>Si alguna vez ha escrito una línea de código, sabrá que todo el software
+tiene errores.  Este será también el caso de Gaphor. Si cree que ha
+encontrado un error, simplemente haga clic en el siguiente enlace
+(necesitará tener una cuenta en GitHub) y luego haga clic en el botón verde
+“New Issue” que se encuentra en la parte superior derecha de la página:</p>
 
-<p><a href="https://github.com/gaphor/gaphor/issues">Report a Bug in Gaphor</a></p>
+<p><a href="https://github.com/gaphor/gaphor/issues">Informar de un error en Gaphor</a></p>
 
-<p>When you create a new issue it will be given a number and the volunteer
-developers, who write and maintain the code, will be informed by email. They may
-annotate questions to your issue, if things are not clear. They may immediately
-close it and mark it as “duplicate” (someone else has already reported the bug
-– and they’ll reference the original issue). Sometimes they’ll close the bug
-and say “won’t fix”, because they disagree that it’s a bug <em>or</em> it’s too trivial
-in order to invest any time.</p>
+<p>Cuando cree una incidencia nueva, se le asignará un número y los
+desarrolladores voluntarios, que escriben y mantienen el código, serán
+informados por correo electrónico. Podrán anotar preguntas a su cuestión, si
+las cosas no están claras. Puede que lo cierren inmediatamente y lo marquen
+como “duplicado” (otra persona ya ha informado del fallo, y harán referencia
+al problema original). A veces cerrarán el fallo y dirán “no lo arreglarán”,
+porque no están de acuerdo en que sea un fallo <em>o</em> es demasiado trivial como
+para invertir tiempo.</p>
 
-<p>There are generally two sorts of bugs:</p>
-
-<ul>
-  <li>Technical: the code has a mistake in it which causes the program to break.</li>
-  <li>Behavioural: the code works correctly, but is doing the wrong thing.</li>
-</ul>
-
-<p>In both cases, for us to be able to fix the bug, we need <strong>as much information
-as possible</strong>. When you create a new issue you should try to include, where
-relevant, the following sorts of information:</p>
+<p>Por lo general, hay dos tipos de errores:</p>
 
 <ul>
-  <li>What you were trying to do,</li>
-  <li>What steps you took to make this happen,</li>
-  <li>What you expected to happen,</li>
-  <li>What actually happened,</li>
-  <li>Why this difference is problematic (it may not be a bug!),</li>
-  <li>Technical details like the version of Gaphor you’re using, your OS version and
-other aspects of the context in which Gaphor was running.</li>
+  <li>Técnica: el código tiene un error que hace que el programa se rompa.</li>
+  <li>Comportamiento: el código funciona correctamente, pero está haciendo algo
+incorrecto.</li>
 </ul>
 
-<p>Use plain and simple language to describe the problem and, if helpful, break it
-down into steps so developers can easily recreate the issue. Please don’t assume
-we’ll understand what you were trying to achieve – honestly, it’s best if you
-try to imagine we (the developers) are a bunch of clever 5-year-olds. Try to
-explain <em>everything</em> about the problem and don’t assume we know what you mean.
-We won’t mind!</p>
+<p>En ambos casos, para que podamos solucionar el fallo, necesitamos <strong>la mayor
+cantidad de información posible</strong>. Cuando cree una incidencia nueva, intente
+incluir, cuando sea relevante, los siguientes tipos de información:</p>
 
-<p>If you would like to get more involved in the development of Gaphor, we’d love
-to welcome you via the <a href="https://docs.gaphor.org/en/latest">Gaphor developer’s
-website</a>.</p>
+<ul>
+  <li>Lo que intentaba hacer,</li>
+  <li>Los pasos que ha dado para conseguirlo,</li>
+  <li>Lo que esperaba que ocurriera,</li>
+  <li>Lo que realmente ocurrió,</li>
+  <li>Por qué esta diferencia es problemática (¡puede que no sea un error!),</li>
+  <li>Detalles técnicos como la versión de Gaphor que está usando, la versión de
+su sistema operativo y otros aspectos del contexto en el que Gaphor se
+estaba ejecutando.</li>
+</ul>
+
+<p>Use un lenguaje claro y sencillo para describir el problema y, si es útil,
+divídalo en pasos para que los desarrolladores puedan recrear fácilmente el
+problema. Por favor, no dé por sentado que vamos a entender lo que intenta
+conseguir; sinceramente, es mejor que intente imaginar que nosotros (los
+desarrolladores) somos un grupo de niños inteligentes de 5 años.  Intente
+explicar <em>todo</em> el problema y no asuma que sabemos lo que quiere decir. ¡No
+nos importará!</p>
+
+<p>Si desea implicarse más en el desarrollo de Gaphor, nos encantaría darle la
+bienvenida a través del <a href="https://docs.gaphor.org/en/latest">sitio web del desarrollador de
+Gaphor</a>.</p>
 
             </div>
         </div>
