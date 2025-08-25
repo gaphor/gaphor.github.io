@@ -7,15 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2025-04-11 13:08-0400\n"
-"PO-Revision-Date: 2024-12-18 10:01+0000\n"
+"PO-Revision-Date: 2025-08-26 13:02+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
-"Language-Team: Croatian <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/hr/>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/gaphor/"
+"gaphor-github-io/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.9.2-dev\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.13\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/01-windows.md
@@ -60,7 +62,7 @@ msgstr "winget install gaphor\n"
 #. type: Plain text
 #: _platforms/01-windows.md
 msgid "To check out the latest release notes and other details:"
-msgstr "Zaprikaz najnovijih napomena o izdanju i drugih detalja:"
+msgstr "Za prikaz najnovijih napomena o izdanju i drugih detalja:"
 
 #. type: Fenced code block (bash)
 #: _platforms/01-windows.md
@@ -156,10 +158,10 @@ msgstr "Arch Linux"
 
 #. type: Plain text
 #: _platforms/03-linux.md
-#, fuzzy
-#| msgid "Gaphor can be installed from an [AUR package](https://aur.archlinux.org/packages/python-gaphor/)."
 msgid "The Gaphor [Arch package](https://archlinux.org/packages/extra/any/gaphor/) can be installed with:"
-msgstr "Gaphor se može instalirati iz jednog [AUR paketa](https://aur.archlinux.org/packages/python-gaphor/)."
+msgstr ""
+"Gaphor [Arch paket](https://archlinux.org/packages/extra/any/gaphor/) se "
+"može instalirati sa:"
 
 #. type: Fenced code block (bash)
 #: _platforms/03-linux.md
