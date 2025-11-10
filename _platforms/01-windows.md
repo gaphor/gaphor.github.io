@@ -10,6 +10,8 @@ Alternatively, a portable version of Gaphor can be downloaded.
 
 <a class="btn btn-primary btn-lg" href="https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-portable.exe"><i class="fa fa-download"></i> Download portable version</a>
 
+Code signing provided by [SignPath.io](https://about.signpath.io), certificate by [SignPath Foundation](https://signpath.org).
+
 ### Winget
 
 Install Gaphor from [winget](https://github.com/microsoft/winget-pkgs/tree/master/manifests/g/gaphor/gaphor):
