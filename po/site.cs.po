@@ -6,11 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-11 13:08-0400\n"
+"POT-Creation-Date: 2025-11-10 17:05+0000\n"
 "PO-Revision-Date: 2025-04-25 08:05+0000\n"
 "Last-Translator: vikdevelop <vikdevelop@proton.me>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/"
-"gaphor-github-io/cs/>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,6 +39,11 @@ msgstr "Případně si můžete stáhnout přenosnou verzi programu Gaphor."
 #, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-portable.exe\"><i class=\"fa fa-download\"></i> Download portable version</a>\n"
 msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-portable.exe\"><i class=\"fa fa-download\"></i> Stáhnout přenosnou verzi</a>\n"
+
+#. type: Plain text
+#: _platforms/01-windows.md
+msgid "Code signing provided by [SignPath.io](https://about.signpath.io), certificate by [SignPath Foundation](https://signpath.org)."
+msgstr ""
 
 #. type: Title ###
 #: _platforms/01-windows.md
@@ -158,9 +162,7 @@ msgstr "Arch Linux"
 #. type: Plain text
 #: _platforms/03-linux.md
 msgid "The Gaphor [Arch package](https://archlinux.org/packages/extra/any/gaphor/) can be installed with:"
-msgstr ""
-"Gaphor [balíček Arch] (https://archlinux.org/packages/extra/any/gaphor/) can "
-"be installed with:"
+msgstr "Gaphor [balíček Arch] (https://archlinux.org/packages/extra/any/gaphor/) can be installed with:"
 
 #. type: Fenced code block (bash)
 #: _platforms/03-linux.md

@@ -6,11 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-11 13:08-0400\n"
+"POT-Creation-Date: 2025-11-10 17:05+0000\n"
 "PO-Revision-Date: 2025-06-06 13:01+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/gaphor/"
-"gaphor-github-io/nl/>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,6 +39,11 @@ msgstr "Als alternatief kan een portable versie van Gaphor worden gedownload."
 #, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-portable.exe\"><i class=\"fa fa-download\"></i> Download portable version</a>\n"
 msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-portable.exe\"><i class=\"fa fa-download\"></i>Portable versie downloaden</a>\n"
+
+#. type: Plain text
+#: _platforms/01-windows.md
+msgid "Code signing provided by [SignPath.io](https://about.signpath.io), certificate by [SignPath Foundation](https://signpath.org)."
+msgstr ""
 
 #. type: Title ###
 #: _platforms/01-windows.md
@@ -158,9 +162,7 @@ msgstr "Arch Linux"
 #. type: Plain text
 #: _platforms/03-linux.md
 msgid "The Gaphor [Arch package](https://archlinux.org/packages/extra/any/gaphor/) can be installed with:"
-msgstr ""
-"Het [Arch-pakket](https://archlinux.org/packages/extra/any/gaphor/) van "
-"Gaphor kan worden geïnstalleerd met:"
+msgstr "Het [Arch-pakket](https://archlinux.org/packages/extra/any/gaphor/) van Gaphor kan worden geïnstalleerd met:"
 
 #. type: Fenced code block (bash)
 #: _platforms/03-linux.md

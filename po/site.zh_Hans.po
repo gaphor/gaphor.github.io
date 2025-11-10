@@ -6,11 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-11 13:08-0400\n"
+"POT-Creation-Date: 2025-11-10 17:05+0000\n"
 "PO-Revision-Date: 2025-06-17 07:01+0000\n"
 "Last-Translator: Fabien Liang <zeyue.liang@gmail.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
-"projects/gaphor/gaphor-github-io/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,6 +39,11 @@ msgstr "您也可以下载 Gaphor 的便携版本。"
 #, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-portable.exe\"><i class=\"fa fa-download\"></i> Download portable version</a>\n"
 msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-portable.exe\"><i class=\"fa fa-download\"></i> 下载便携式版本</a>\n"
+
+#. type: Plain text
+#: _platforms/01-windows.md
+msgid "Code signing provided by [SignPath.io](https://about.signpath.io), certificate by [SignPath Foundation](https://signpath.org)."
+msgstr ""
 
 #. type: Title ###
 #: _platforms/01-windows.md
@@ -79,19 +83,13 @@ msgstr "macOS"
 #: _platforms/02-macos.md
 #, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-arm.dmg\"><i class=\"fa fa-download\"></i> Download ARM .dmg</a>\n"
-msgstr ""
-"<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/"
-"releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version "
-"}}-arm.dmg\"><i class=\"fa fa-download\"></i> 下载ARM .dmg</a>\n"
+msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-arm.dmg\"><i class=\"fa fa-download\"></i> 下载ARM .dmg</a>\n"
 
 #. type: Plain text
 #: _platforms/02-macos.md
 #, no-wrap
 msgid "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-intel.dmg\"><i class=\"fa fa-download\"></i> Download Intel .dmg</a>\n"
-msgstr ""
-"<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/"
-"releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version "
-"}}-intel.dmg\"><i class=\"fa fa-download\"></i> 下载Intel .dmg</a>\n"
+msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/Gaphor-{{ site.gaphor_version }}-intel.dmg\"><i class=\"fa fa-download\"></i> 下载Intel .dmg</a>\n"
 
 #. type: Plain text
 #: _platforms/02-macos.md
@@ -164,9 +162,7 @@ msgstr "Arch Linux"
 #. type: Plain text
 #: _platforms/03-linux.md
 msgid "The Gaphor [Arch package](https://archlinux.org/packages/extra/any/gaphor/) can be installed with:"
-msgstr ""
-"Gaphor 可通过 [Arch 软件包](https://aur.archlinux.org/packages/python-gaphor/"
-")安装。"
+msgstr "Gaphor 可通过 [Arch 软件包](https://aur.archlinux.org/packages/python-gaphor/)安装。"
 
 #. type: Fenced code block (bash)
 #: _platforms/03-linux.md
@@ -188,11 +184,7 @@ msgstr "如果您已经安装了最新的 Python 稳定版，并安装了 Gaphor
 #. type: Plain text
 #: _platforms/04-python.md
 msgid "If you don't have the latest stable version of Python and the Gaphor dependencies installed, follow the development environment [installation instructions](https://docs.gaphor.org/en/latest) section, but do not clone the repository. Optionally, create a [virtual environment](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments).  Then execute the following:"
-msgstr ""
-"如果您尚未安装最新的 Python 稳定版和 Gaphor 依赖项，请按照开发环境[安装说明]"
-"(https://docs.gaphor.org/en/latest) 章节操作，但不要克隆版本库。"
-"可选择创建一个 [虚拟环境](https://packaging.python.org/tutorials/"
-"installing-packages/#creating-virtual-environments)。 然后执行以下操作："
+msgstr "如果您尚未安装最新的 Python 稳定版和 Gaphor 依赖项，请按照开发环境[安装说明](https://docs.gaphor.org/en/latest) 章节操作，但不要克隆版本库。可选择创建一个 [虚拟环境](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments)。 然后执行以下操作："
 
 #. type: Fenced code block (bash)
 #: _platforms/04-python.md
@@ -213,10 +205,7 @@ msgstr "如何报告 Gaphor 中的 Bug"
 #. type: Plain text
 #: tutorials/report-bugs.md
 msgid "If you've ever written a line of code, you'll know that all software has bugs.  This will also be the case with Gaphor. If you think you have found a bug, simply click on the link below (you'll need to have an account on GitHub) and then click the green \"New Issue\" button found at the top right hand side of the page:"
-msgstr ""
-"但凡写过代码的人都知道，所有软件都难免存在缺陷，Gaphor "
-"也不例外。若您发现疑似问题，只需点击下方链接（需拥有 GitHub 账户），"
-"随后点击页面右上角的绿色\"New Issue\"按钮即可提交："
+msgstr "但凡写过代码的人都知道，所有软件都难免存在缺陷，Gaphor 也不例外。若您发现疑似问题，只需点击下方链接（需拥有 GitHub 账户），随后点击页面右上角的绿色\"New Issue\"按钮即可提交："
 
 #. type: Plain text
 #: tutorials/report-bugs.md
@@ -226,12 +215,7 @@ msgstr "[报告Gaphor中的Bug](https://github.com/gaphor/gaphor/issues)"
 #. type: Plain text
 #: tutorials/report-bugs.md
 msgid "When you create a new issue it will be given a number and the volunteer developers, who write and maintain the code, will be informed by email. They may annotate questions to your issue, if things are not clear. They may immediately close it and mark it as \"duplicate\" (someone else has already reported the bug -- and they'll reference the original issue). Sometimes they'll close the bug and say \"won't fix\", because they disagree that it's a bug *or* it's too trivial in order to invest any time."
-msgstr ""
-"当您提交新问题时，系统会自动分配编号，编写和维护代码的志愿者开发者将通过邮件"
-"收到通知。若问题描述不够清晰，开发者可能会在您的问题下追加询问。"
-"他们可能直接关闭问题并标记为\"duplicate\"（表示该问题已被他人提交——开发者会附上原始问题的参考链接）。"
-"有时开发者会以\"won't fix\" （不予修复）关闭问题，这可能是因为他们不认为这是缺陷*或*该问题过于琐碎不值得"
-"投入时间处理。"
+msgstr "当您提交新问题时，系统会自动分配编号，编写和维护代码的志愿者开发者将通过邮件收到通知。若问题描述不够清晰，开发者可能会在您的问题下追加询问。他们可能直接关闭问题并标记为\"duplicate\"（表示该问题已被他人提交——开发者会附上原始问题的参考链接）。有时开发者会以\"won't fix\" （不予修复）关闭问题，这可能是因为他们不认为这是缺陷*或*该问题过于琐碎不值得投入时间处理。"
 
 #. type: Plain text
 #: tutorials/report-bugs.md
@@ -281,24 +265,17 @@ msgstr "为什么这种差异会造成问题（它可能不是一个Bug！），
 #. type: Bullet: '* '
 #: tutorials/report-bugs.md
 msgid "Technical details like the version of Gaphor you're using, your OS version and other aspects of the context in which Gaphor was running."
-msgstr "技术细节，如您使用的 Gaphor 版本、操作系统版本以及 Gaphor "
-"运行环境的其他方面信息。"
+msgstr "技术细节，如您使用的 Gaphor 版本、操作系统版本以及 Gaphor 运行环境的其他方面信息。"
 
 #. type: Plain text
 #: tutorials/report-bugs.md
 msgid "Use plain and simple language to describe the problem and, if helpful, break it down into steps so developers can easily recreate the issue. Please don't assume we'll understand what you were trying to achieve -- honestly, it's best if you try to imagine we (the developers) are a bunch of clever 5-year-olds. Try to explain *everything* about the problem and don't assume we know what you mean.  We won't mind!"
-msgstr ""
-"请使用简明扼要的语言描述问题，如有可能请分步骤说明，以便开发者能轻松复现该问"
-"题。切勿假设我们理解您的预期目标——坦白说，最佳方式是把我们（开发者）想象成一"
-"群聪明的5岁小孩。请详细解释问题的*所有细节*，不要默认我们知晓您的所指。我们完"
-"全不会介意！"
+msgstr "请使用简明扼要的语言描述问题，如有可能请分步骤说明，以便开发者能轻松复现该问题。切勿假设我们理解您的预期目标——坦白说，最佳方式是把我们（开发者）想象成一群聪明的5岁小孩。请详细解释问题的*所有细节*，不要默认我们知晓您的所指。我们完全不会介意！"
 
 #. type: Plain text
 #: tutorials/report-bugs.md
 msgid "If you would like to get more involved in the development of Gaphor, we'd love to welcome you via the [Gaphor developer's website](https://docs.gaphor.org/en/latest)."
-msgstr ""
-"如果您想更多地参与 Gaphor 的开发，我们非常欢迎您通过访问[Gaphor 开发者网站]"
-"(https://docs.gaphor.org/en/latest)以了解更多信息。"
+msgstr "如果您想更多地参与 Gaphor 的开发，我们非常欢迎您通过访问[Gaphor 开发者网站](https://docs.gaphor.org/en/latest)以了解更多信息。"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/01-platform.md
@@ -320,9 +297,7 @@ msgstr "开源"
 #. type: Plain text
 #: _usps/02-opensource.md
 msgid "No vendor lock-in: Gaphor is written in Python and is 100% Open Source, available under a friendly [Apache 2 license](https://github.com/gaphor/gaphor/blob/main/LICENSES/apache-2.0.txt)."
-msgstr ""
-"无厂商锁定： Gaphor 基于 Python 编写，100% 开源，采用友好的[Apache 2 许可证]"
-"(https://github.com/gaphor/gaphor/blob/main/LICENSES/apache-2.0.txt)发布。"
+msgstr "无厂商锁定： Gaphor 基于 Python 编写，100% 开源，采用友好的[Apache 2 许可证](https://github.com/gaphor/gaphor/blob/main/LICENSES/apache-2.0.txt)发布。"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/03-beginner-pro.md
@@ -333,8 +308,7 @@ msgstr "初学者或专业人员"
 #. type: Plain text
 #: _usps/03-beginner-pro.md
 msgid "Whether you're a casual modeler documenting a project or a Model Driven Development expert, Gaphor has got you covered."
-msgstr "无论您是记录项目的业余建模人员，还是模型驱动开发（MDD）专家，Gaphor "
-"都能满足您的需求。"
+msgstr "无论您是记录项目的业余建模人员，还是模型驱动开发（MDD）专家，Gaphor 都能满足您的需求。"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/04-consistent.md
@@ -345,11 +319,7 @@ msgstr "一致性"
 #. type: Plain text
 #: _usps/04-consistent.md
 msgid "UML is a graphical modeling language, so all information you put in the model is visible in the diagrams. For example, stereotypes are modeled in diagrams.  No hidden panels and property pages. Just diagrams!"
-msgstr ""
-"UML "
-"作为一种图形化建模语言，您在模型中输入的所有信息都会直观呈现在图表中。例如，"
-"构造型（stereotype）就是在图表中直接建模的。没有隐藏面板，也没有属性页——一切"
-"尽在图表中！"
+msgstr "UML 作为一种图形化建模语言，您在模型中输入的所有信息都会直观呈现在图表中。例如，构造型（stereotype）就是在图表中直接建模的。没有隐藏面板，也没有属性页——一切尽在图表中！"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/05-extensible.md
@@ -360,10 +330,7 @@ msgstr "可扩展"
 #. type: Plain text
 #: _usps/05-extensible.md
 msgid "Gaphor is extensible. Plug-in a code generator or export your diagrams for documentation.  Create your own extensions and access them through the GUI or CLI."
-msgstr ""
-"Gaphor "
-"具备高度可扩展性：您既可接入代码生成器插件，亦可导出图表用于文档编制。更支持"
-"通过图形界面(GUI)或命令行(CLI)创建自定义扩展功能。"
+msgstr "Gaphor 具备高度可扩展性：您既可接入代码生成器插件，亦可导出图表用于文档编制。更支持通过图形界面(GUI)或命令行(CLI)创建自定义扩展功能。"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/06-standard.md
@@ -374,8 +341,7 @@ msgstr "标准合规"
 #. type: Plain text
 #: _usps/06-standard.md
 msgid "Gaphor implements the UML, SysML, and RAAML OMG standards. It also includes support for the C4 model for visualizing software architectures."
-msgstr "Gaphor 完整实现了 UML、SysML 和 RAAML 等 OMG 标准规范，"
-"同时支持用于软件架构可视化的 C4 模型。"
+msgstr "Gaphor 完整实现了 UML、SysML 和 RAAML 等 OMG 标准规范，同时支持用于软件架构可视化的 C4 模型。"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/contribute.md
@@ -386,19 +352,12 @@ msgstr "贡献"
 #. type: Plain text
 #: _pages/contribute.md
 msgid "Would you like to contribute to the development of Gaphor? (If you think this is only something for experienced developers, please reconsider, there are plenty of ways to contribute to Gaphor, no matter your level of experience or skill set."
-msgstr ""
-"您是否愿意参与 Gaphor "
-"的开发贡献？（如果您认为这仅限于资深开发者，请再考虑一下——无论您的经验水平或"
-"技术背景如何，都有多种方式可以为 Gaphor 贡献力量）。"
+msgstr "您是否愿意参与 Gaphor 的开发贡献？（如果您认为这仅限于资深开发者，请再考虑一下——无论您的经验水平或技术背景如何，都有多种方式可以为 Gaphor 贡献力量）。"
 
 #. type: Plain text
 #: _pages/contribute.md
 msgid "Our [technical documentation](https://docs.gaphor.org/en/latest) is hosted on the wonderful service that is [Read the Docs](https://readthedocs.com/). Not only does it contain details needed in order to make code contributions to Gaphor, but it outlines plenty of other ways in which you can contribute (including making updates to this website). Finally, it provides a guide to our processes and expectations for the various types of contribution you can make to Gaphor."
-msgstr ""
-"我们的[技术文档](https://docs.gaphor.org/en/latest)托管在优秀的"
-"[Read the Docs](https://readthedocs.com/)服务平台。该文档不仅包含了为 Gaphor "
-"进行代码贡献所需的详细信息，还概述了多种参与贡献的其他方式（包括对本网站进行"
-"更新）。最后，文档还针对不同类型的贡献，提供了我们的工作流程说明和期望标准。"
+msgstr "我们的[技术文档](https://docs.gaphor.org/en/latest)托管在优秀的[Read the Docs](https://readthedocs.com/)服务平台。该文档不仅包含了为 Gaphor 进行代码贡献所需的详细信息，还概述了多种参与贡献的其他方式（包括对本网站进行更新）。最后，文档还针对不同类型的贡献，提供了我们的工作流程说明和期望标准。"
 
 #. type: Plain text
 #: _pages/contribute.md
@@ -408,8 +367,7 @@ msgstr "源代码托管在 [GitHub](https://github.com/gaphor/gaphor) 平台。"
 #. type: Plain text
 #: _pages/contribute.md
 msgid "Help translate Gaphor on [Weblate](https://hosted.weblate.org/engage/gaphor/)."
-msgstr "通过[Weblate](https://hosted.weblate.org/engage/gaphor/)参与 Gaphor "
-"的翻译工作。"
+msgstr "通过[Weblate](https://hosted.weblate.org/engage/gaphor/)参与 Gaphor 的翻译工作。"
 
 #. type: Plain text
 #: _pages/contribute.md
@@ -463,10 +421,7 @@ msgstr "在 GitHub 上提交Issue"
 #. type: Plain text
 #: _pages/discuss.md
 msgid "Please use our GitHub issue tracker for general questions and reporting bugs.  Before submitting a GitHub issue please review our page about [how to report a bug in Gaphor](/tutorials/report-bugs)."
-msgstr ""
-"请使用我们的 GitHub 问题跟踪器来解决一般问题和报告错误。 在提交 GitHub "
-"问题之前，请查看我们的 [如何报告 Gaphor 中的Bug](/tutorials/report-"
-"bugs)页面。"
+msgstr "请使用我们的 GitHub 问题跟踪器来解决一般问题和报告错误。 在提交 GitHub 问题之前，请查看我们的 [如何报告 Gaphor 中的Bug](/tutorials/report-bugs)页面。"
 
 #. type: Plain text
 #: _pages/discuss.md
@@ -488,11 +443,7 @@ msgstr "我们希望贡献者遵守 GNOME [行为准则](https://conduct.gnome.o
 #. type: Plain text
 #: _pages/discuss.md
 msgid "We want our community to be a safe, welcoming and friendly place.  We won't hesitate to issue a clear warning and, if ignored, ban people who don't behave in the spirit of the code of conduct. If a conduct related situation arises, we will endeavour to act in a discreet, sympathetic and fair manner to all concerned."
-msgstr ""
-"我们希望我们的社区是一个安全、温馨和友好的地方。   "
-"我们会毫不犹豫地发出明确警告，如果无视警告，我们会禁止不遵守行为准则的人参加"
-"活动。如果出现与行为相关的情况，我们将努力以谨慎、同情和公平的方式对待所有相"
-"关人员。"
+msgstr "我们希望我们的社区是一个安全、温馨和友好的地方。   我们会毫不犹豫地发出明确警告，如果无视警告，我们会禁止不遵守行为准则的人参加活动。如果出现与行为相关的情况，我们将努力以谨慎、同情和公平的方式对待所有相关人员。"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/tutorials.md
@@ -503,8 +454,7 @@ msgstr "教程"
 #. type: Plain text
 #: _pages/tutorials.md
 msgid "Each tutorial is a self-contained lesson, explaining a specific aspect of Gaphor, so you have the skills needed to achieve your learning and modeling goals."
-msgstr "每篇教程都是独立的课程单元，专门讲解 Gaphor "
-"的特定领域，助您掌握实现学习目标和建模需求所需的各项技能。"
+msgstr "每篇教程都是独立的课程单元，专门讲解 Gaphor 的特定领域，助您掌握实现学习目标和建模需求所需的各项技能。"
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
@@ -519,23 +469,17 @@ msgstr "[您的第一个模型](https://docs.gaphor.org/en/latest/first_model.ht
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
 msgid "<i class=\"fab fa-youtube\"></i> [Introduction to Gaphor and SysML](https://youtu.be/PnWKsr2csXg), presented by Dan at a joint INCOSE Michigan and Michigan Python event."
-msgstr ""
-"<i class=\"fab fa-youtube\"></i> [Gaphor和SysML简介](https://youtu.be/"
-"PnWKsr2csXg)，由 Dan 在 INCOSE Michigan和Michigan Python的联合活动上介绍。"
+msgstr "<i class=\"fab fa-youtube\"></i> [Gaphor和SysML简介](https://youtu.be/PnWKsr2csXg)，由 Dan 在 INCOSE Michigan和Michigan Python的联合活动上介绍。"
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
 msgid "<i class=\"fab fa-youtube\"></i> [Automating MBSE Models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA), presented by Dan at a Michigan Python event."
-msgstr ""
-"<i class=\"fab fa-youtube\"></i> [通过Gaphor和Python自动化MBSE模型](https://"
-"youtu.be/9BYgI1nJCBA), 由Dan在一场Michigan Python活动中呈现。"
+msgstr "<i class=\"fab fa-youtube\"></i> [通过Gaphor和Python自动化MBSE模型](https://youtu.be/9BYgI1nJCBA), 由Dan在一场Michigan Python活动中呈现。"
 
 #. type: Bullet: '1. '
 #: _pages/tutorials.md
 msgid "[How to report a bug in Gaphor]({{ \"/tutorials/report-bugs/\" | prepend: site.baseurl }})"
-msgstr ""
-"[如何在Gaphor中上报Bug]({{ \"/tutorials/report-bugs/\" | prepend: "
-"site.baseurl }})"
+msgstr "[如何在Gaphor中上报Bug]({{ \"/tutorials/report-bugs/\" | prepend: site.baseurl }})"
 
 #. type: Plain text
 #: _pages/tutorials.md
@@ -551,49 +495,32 @@ msgstr "技术演讲"
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "Frank Vanbever spoke at [FOSDEM 2024](https://fosdem.org/2024): [Drop the docs and embrace the model with Gaphor](https://fosdem.org/2024/schedule/event/fosdem-2024-2542-drop-the-docs-and-embrace-the-model-with-gaphor/)."
-msgstr ""
-"Frank Vanbever在 [FOSDEM 2024](https://fosdem.org/2024)大会上发表了题为"
-"[《摒弃文档，拥抱Gaphor建模》](https://fosdem.org/2024/schedule/event/"
-"fosdem-2024-2542-drop-the-docs-and-embrace-the-model-with-gaphor/)的演讲。"
+msgstr "Frank Vanbever在 [FOSDEM 2024](https://fosdem.org/2024)大会上发表了题为[《摒弃文档，拥抱Gaphor建模》](https://fosdem.org/2024/schedule/event/fosdem-2024-2542-drop-the-docs-and-embrace-the-model-with-gaphor/)的演讲。"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "Dan explains how to [automate MBSE models with Gaphor and Python](https://youtu.be/9BYgI1nJCBA)."
-msgstr ""
-"Dan在视频中详解了[《如何使用Gaphor和Python实现MBSE模型自动化》](https://"
-"youtu.be/9BYgI1nJCBA)。"
+msgstr "Dan在视频中详解了[《如何使用Gaphor和Python实现MBSE模型自动化》](https://youtu.be/9BYgI1nJCBA)。"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "Dan presented [Modeling Complex Systems in Python with Gaphor](https://youtu.be/PnWKsr2csXg) on a joint INCOSE/Python Michigan meetup."
-msgstr ""
-"Dan在INCOSE/Python Michigan联合举办的研讨会上发表了题为"
-"[《使用Gaphor在Python中构建复杂系统模型》](https://youtu.be/"
-"PnWKsr2csXg)的技术演讲。"
+msgstr "Dan在INCOSE/Python Michigan联合举办的研讨会上发表了题为[《使用Gaphor在Python中构建复杂系统模型》](https://youtu.be/PnWKsr2csXg)的技术演讲。"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "Dan and Arjan spoke at [Linux App Summit 2021](https://linuxappsummit.org/)  about [how Gaphor is made available to all desktop platforms Linux/Windows/macOS](https://www.youtube.com/watch?v=vLwAT-TLmZU)."
-msgstr ""
-"Dan和Arjan在 [Linux App Summit 2021](https://linuxappsummit.org/)"
-"上发表了题为 [《Gaphor全平台部署方案：Linux/Windows/macOS全兼容》](https://"
-"www.youtube.com/watch?v=vLwAT-TLmZU)的技术演讲。"
+msgstr "Dan和Arjan在 [Linux App Summit 2021](https://linuxappsummit.org/)上发表了题为 [《Gaphor全平台部署方案：Linux/Windows/macOS全兼容》](https://www.youtube.com/watch?v=vLwAT-TLmZU)的技术演讲。"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "Dan spoke at the 2021 [MIT STAMP Workshop](https://psas.scripts.mit.edu/home/2021-stamp-workshop-program/)  about _Open STPA with RAAML and Gaphor_."
-msgstr ""
-"Dan在 2021 [MIT STAMP Workshop](https://psas.scripts.mit.edu/home/"
-"2021-stamp-workshop-program/"
-")上发表了题为《给予RAAML和Gaphor的开放式STPA分析》的技术演讲。"
+msgstr "Dan在 2021 [MIT STAMP Workshop](https://psas.scripts.mit.edu/home/2021-stamp-workshop-program/)上发表了题为《给予RAAML和Gaphor的开放式STPA分析》的技术演讲。"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "Arjan spoke at [GUADEC 2021](https://events.gnome.org/event/9/) about [Large GUI application with Python and GTK](https://events.gnome.org/event/9/contributions/188/)."
-msgstr ""
-"Arjan在[GUADEC 2021](https://events.gnome.org/event/9/) 大会上发表了题为 "
-"[《使用Python和GTK开发大型GUI应用》](https://events.gnome.org/event/9/"
-"contributions/188/)的技术演讲。"
+msgstr "Arjan在[GUADEC 2021](https://events.gnome.org/event/9/) 大会上发表了题为 [《使用Python和GTK开发大型GUI应用》](https://events.gnome.org/event/9/contributions/188/)的技术演讲。"
 
 #. type: Title ##
 #: _pages/tutorials.md
@@ -609,23 +536,17 @@ msgstr "网络上可找到一些十余年前关于 Gaphor 的旧文章。以下�
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "[Methods & Tools website reviewed Gaphor version 2.7.1 in December 2021 on a Window 10.](https://www.methodsandtools.com/tools/gaphor.php)"
-msgstr ""
-"[Methods & Tools网站2021年12月在Windows 10上对Gaphor version 2.7.1的评测]"
-"(https://www.methodsandtools.com/tools/gaphor.php)"
+msgstr "[Methods & Tools网站2021年12月在Windows 10上对Gaphor version 2.7.1的评测](https://www.methodsandtools.com/tools/gaphor.php)"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "[It's FOSS has a short write-up on Gaphor (~2.8-ish?).](https://itsfoss.com/gaphor-modeling-tool/)"
-msgstr ""
-"[It's FOSS 有一篇关于Gaphor (~2.8-ish?)的短评.](https://itsfoss.com/"
-"gaphor-modeling-tool/)"
+msgstr "[It's FOSS 有一篇关于Gaphor (~2.8-ish?)的短评.](https://itsfoss.com/gaphor-modeling-tool/)"
 
 #. type: Bullet: '- '
 #: _pages/tutorials.md
 msgid "[Ubuntu Pit has a nice article on Gaphor (~2.8-ish?).](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
-msgstr ""
-"[Ubuntu Pit 上的一篇关于 Gaphor (~2.8-ish?)的精彩文章.](https://"
-"www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
+msgstr "[Ubuntu Pit 上的一篇关于 Gaphor (~2.8-ish?)的精彩文章.](https://www.ubuntupit.com/gaphor-an-open-source-simple-graphical-modeling-tool/)"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _pages/download.md
@@ -636,16 +557,12 @@ msgstr "下载Gaphor"
 #. type: Plain text
 #: _pages/download.md
 msgid "There are many ways to install Gaphor. The simplest is to download the official installer for Windows or macOS. For Linux you can install Gaphor using FlatHub.  You can also use Python's built-in `pip` tool as long as you have all the required dependencies installed."
-msgstr ""
-"可以采用多种方式安装Gaphor，最简单的方式是下载Windows/"
-"macOS的官方安装程序；对于Linux系统，可以使用FlatHub安装Gaphor；如果您已经安装"
-"了所有必需的依赖，您同样可以使用Python内置的pip工具进行安装。"
+msgstr "可以采用多种方式安装Gaphor，最简单的方式是下载Windows/macOS的官方安装程序；对于Linux系统，可以使用FlatHub安装Gaphor；如果您已经安装了所有必需的依赖，您同样可以使用Python内置的pip工具进行安装。"
 
 #. type: Plain text
 #: _pages/download.md
 msgid "If you're a developer, you can find the source code [on GitHub](https://github.com/gaphor/gaphor)."
-msgstr "如果您是开发者，您可以从[GitHub](https://github.com/gaphor/"
-"gaphor)上获得源代码。"
+msgstr "如果您是开发者，您可以从[GitHub](https://github.com/gaphor/gaphor)上获得源代码。"
 
 #. type: Title #
 #: _pages/404.md
