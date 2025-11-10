@@ -10,7 +10,7 @@ Alternatively, a portable version of Gaphor can be downloaded.
 
 <a class="btn btn-primary btn-lg" href="https://github.com/gaphor/gaphor/releases/download/{{ site.gaphor_version }}/gaphor-{{ site.gaphor_version }}-portable.exe"><i class="fa fa-download"></i> Download portable version</a>
 
-Free code signing provided by [SignPath.io](https://about.signpath.io), certificate by [SignPath Foundation](https://signpath.org).
+Code signing provided by [SignPath.io](https://about.signpath.io), certificate by [SignPath Foundation](https://signpath.org).
 
 ### Winget
 
