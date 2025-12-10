@@ -27,7 +27,7 @@ jobs:
           if test -z "${{ github.event.inputs.version }}${{ github.event.client_payload.version }}"; then echo "No version provided"; exit 1; fi
           sed -i 's/^gaphor_version:.*$/gaphor_version: ${{ github.event.inputs.version }}${{ github.event.client_payload.version }}/' _config.yml
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@84ae59a2cdc2258d6fa0732dd66352dddae2a412 # v7.0.9
+        uses: peter-evans/create-pull-request@22a9089034f40e5a961c8808d113e2c98fb63676 # v7.0.11
         with:
           commit-message: update to version ${{ github.event.inputs.version }}${{ github.event.client_payload.version }}
           title: Update to version ${{ github.event.inputs.version }}${{ github.event.client_payload.version }}
