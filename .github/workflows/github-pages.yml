@@ -22,7 +22,7 @@ jobs:
           egress-policy: audit
       - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
       - name: Lint with Pre-commit
-        uses: pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd # v3.0.1
+        run: pipx run pre-commit run --all-files
       - name: Install Linux Dependencies
         run: >
           sudo apt-get update -qq && sudo apt-get install -qq --no-install-recommends po4a
@@ -33,7 +33,7 @@ jobs:
       - name: Build translations
         run: python po/build.py
       - name: Set up Ruby
-        uses: ruby/setup-ruby@d697be2f83c6234b20877c3b5eac7a7f342f0d0c # v1.269.0
+        uses: ruby/setup-ruby@ac793fdd38cc468a4dd57246fa9d0e868aba9085 # v1.270.0
         with:
           ruby-version: 3.3.4
           bundler-cache: true
