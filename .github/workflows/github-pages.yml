@@ -22,7 +22,7 @@ jobs:
           egress-policy: audit
       - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
       - name: Lint with Pre-commit
-        uses: pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd # v3.0.1
+        run: pipx run pre-commit run --all-files
       - name: Install Linux Dependencies
         run: >
           sudo apt-get update -qq && sudo apt-get install -qq --no-install-recommends po4a
