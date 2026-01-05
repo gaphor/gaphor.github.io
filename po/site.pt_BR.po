@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-12-30 21:32+0000\n"
+"POT-Creation-Date: 2026-01-05 19:57+0000\n"
 "PO-Revision-Date: 2024-03-14 08:01+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/pt_BR/>\n"
