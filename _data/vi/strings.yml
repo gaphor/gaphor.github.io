@@ -1,30 +1,30 @@
 index:
   thousand-words: >
-  learn: ''
+  learn: 'Tìm hiểu thêm'
   about-content: >
   build: >
   styling-engine: ''
   treeview: ''
-  dark-mode: ''
+  dark-mode: 'Yêu thích chế độ sáng? Chúng tôi cũng có thể làm điều đó.'
   download-content: >
 latest-news-and-blog:
   blog-content: |
-  see-blog: ''
-  read-more: ''
-  blog-and-news: ''
+  see-blog: 'Xem blog'
+  read-more: 'Đọc thêm'
+  blog-and-news: 'Blog và Tin tức'
   by: ''
 menu:
   home: ''
   about: ''
-  download: ''
+  download: 'Tải xuống'
   tutorials: ''
-  blog: ''
+  blog: 'Blog'
   discuss: ''
-  contribute: ''
+  contribute: 'Đóng góp'
 footer:
-  love: ''
-  chat-on: ''
-  code: ''
+  love: 'Chúng tôi mong muốn được nghe từ bạn'
+  chat-on: 'Trò chuyện với chúng tôi'
+  code: 'Đóng góp mã nguồn'
   open-issue: ''
   tech-docs: ''
   copyright: ''
