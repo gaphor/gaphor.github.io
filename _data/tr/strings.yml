@@ -2,7 +2,7 @@ index:
   thousand-words: >
     Bir resim bin kelimeye bedeldir. Bilgi paylaşımını artırmak için uygulamalarınızı
     ve sistemlerinizi Gaphor ile tanımlayın ve belgeleyin.
-  learn: Daha çoğunu öğren
+  learn: Daha fazlasını öğren
   about-content: >
     Gaphor bir UML, SysML, RAAML ve C4 modelleme uygulamasıdır. Güçlü olmasına rağmen
     kullanımı kolay olacak şekilde tasarlanmıştır. Gaphor tam uyumlu bir UML 2 veri
@@ -14,7 +14,8 @@ index:
     Blok Tanımı ve Gereksinim diyagramları oluşturun. İhtiyacınız olan ögeleri modelleyin.
     Karıştırmak ve eşleştirmek istiyorsanız, ihtiyacınız olan görünümü elde etmek
     için aynı diyagrama farklı diyagram öğeleri bile ekleyebilirsiniz.
-  styling-engine: Yerleşik stil motorumuz ile oluşturduğunuz diyagramları özelleştirin.
+  styling-engine: Yerleşik stil motorumuz ile oluşturduğunuz diyagramları 
+    özelleştirin.
   treeview: Modelinizin tüm ögelerini ağaç görünümünde kolayca bulun.
   dark-mode: Karanlık kipi seviyor musunuz? Onu da kullanabilirsiniz.
   download-content: >
@@ -47,5 +48,6 @@ footer:
   theme: Theme
   code: Kod katkısı sağlayın
   chat-on: Bizimle sohbet edin
+  mastodon: Mastodon
 languages:
   change: Değiştir
