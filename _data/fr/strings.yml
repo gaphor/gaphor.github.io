@@ -50,5 +50,6 @@ footer:
   tech-docs: 'Lire la documentation'
   copyright: 'Copyright &copy; 2020, The Gaphor Development Team.'
   theme: 'Thème'
+  mastodon: Mastodon
 languages:
   change: 'Changement'
