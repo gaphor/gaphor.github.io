@@ -14,7 +14,7 @@ index:
     Blok Tanımı ve Gereksinim diyagramları oluşturun. İhtiyacınız olan ögeleri modelleyin.
     Karıştırmak ve eşleştirmek istiyorsanız, ihtiyacınız olan görünümü elde etmek
     için aynı diyagrama farklı diyagram öğeleri bile ekleyebilirsiniz.
-  styling-engine: Yerleşik stil motorumuz ile oluşturduğunuz diyagramları 
+  styling-engine: Yerleşik stil motorumuz ile oluşturduğunuz diyagramları
     özelleştirin.
   treeview: Modelinizin tüm ögelerini ağaç görünümünde kolayca bulun.
   dark-mode: Karanlık kipi seviyor musunuz? Onu da kullanabilirsiniz.
