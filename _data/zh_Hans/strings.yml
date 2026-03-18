@@ -38,5 +38,6 @@ footer:
   tech-docs: '阅读文档'
   copyright: '版权所有 &copy; 2020，Gaphor 开发团队。'
   theme: '主题'
+  mastodon: Mastodon
 languages:
   change: '更改'
