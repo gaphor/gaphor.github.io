@@ -33,7 +33,7 @@ jobs:
       - name: Build translations
         run: python po/build.py
       - name: Set up Ruby
-        uses: ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5 # v1.301.0
+        uses: ruby/setup-ruby@94e4d89d3e6c1c7599e0210d114c5ffb23f1a866 # v1.304.0
         with:
           ruby-version: 3.3.4
           bundler-cache: true
