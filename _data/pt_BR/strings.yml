@@ -43,10 +43,11 @@ menu:
 footer:
   love: 'Nós gostamos de ouvir de você'
   chat-on: 'Converse conosco'
-  code: 'Contribua com código'
-  open-issue: 'Submeta um relatório de problema'
+  code: 'Contribuir com código'
+  open-issue: 'Enviar um problema'
   tech-docs: 'Leia a documentação'
   copyright: 'Copyright &copy; 2020, A Equipe de Desenvolvimento do Gaphor.'
   theme: 'Tema'
+  mastodon: Mastodonte
 languages:
   change: 'Alterar'
