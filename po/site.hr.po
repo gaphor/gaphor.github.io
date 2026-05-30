@@ -2,6 +2,8 @@
 # Copyright (C) 2022 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # Automatically generated, 2022.
+# Translators:
+# Milo Ivir <mail@milotype.de>, 2025., 2026.
 #
 msgid ""
 msgstr ""
@@ -43,7 +45,7 @@ msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gap
 #. type: Plain text
 #: _platforms/01-windows.md
 msgid "Code signing provided by [SignPath.io](https://about.signpath.io), certificate by [SignPath Foundation](https://signpath.org)."
-msgstr ""
+msgstr "Potposivanje koda omogućuje [SignPath.io](https://about.signpath.io), certifikat od [SignPath Foundation](https://signpath.org)."
 
 #. type: Title ###
 #: _platforms/01-windows.md
