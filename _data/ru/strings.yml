@@ -49,5 +49,6 @@ footer:
   theme: Тема
   code: Добавить код
   chat-on: Общение с нами
+  mastodon: Mastodon
 languages:
   change: Изменить
