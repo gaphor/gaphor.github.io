@@ -7,15 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2026-05-26 21:31-0400\n"
-"PO-Revision-Date: 2026-04-15 10:10+0000\n"
+"PO-Revision-Date: 2026-06-14 11:01+0000\n"
 "Last-Translator: Stan SZLAPKA <stansz@free.fr>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/gaphor/gaphor-github-io/fr/>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/gaphor/gaphor-"
+"github-io/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.17.1-dev\n"
+"X-Generator: Weblate 2026.7.dev0\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/01-windows.md
@@ -44,6 +45,8 @@ msgstr "<a class=\"btn btn-primary btn-lg\" href=\"https://github.com/gaphor/gap
 #: _platforms/01-windows.md
 msgid "Code signing provided by [SignPath.io](https://about.signpath.io), certificate by [SignPath Foundation](https://signpath.org)."
 msgstr ""
+"Signature de code fournie par [SignPath.io](https://about.signpath.io), "
+"certificat délivré par [SignPath Foundation](https://signpath.org)."
 
 #. type: Title ###
 #: _platforms/01-windows.md
@@ -286,7 +289,11 @@ msgstr "Multiplateforme"
 #. type: Plain text
 #: _usps/01-platform.md
 msgid "Gaphor works on all major platforms: [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [macOS]({{ \"/download#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
-msgstr "Gaphor fonctionne sur les principales plateformes : [Windows]({{ \"/download#windows\" | prepend: site.baseurl }}), [macOS]({{ \"/download#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/download#linux\" | prepend: site.baseurl }})."
+msgstr ""
+"Gaphor fonctionne sur les principales plateformes: [Windows]({{ \"/"
+"download#windows\" | prepend: site.baseurl }}), [macOS]({{ \"/"
+"download#macos\" | prepend: site.baseurl }}), and [Linux]({{ \"/"
+"download#linux\" | prepend: site.baseurl }})."
 
 #. type: Yaml Front Matter Hash Value: title
 #: _usps/02-opensource.md
