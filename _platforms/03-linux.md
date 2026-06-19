@@ -28,3 +28,12 @@ installed with:
 ```bash
 sudo pacman -S gaphor
 ```
+
+### Debian/Ubuntu based distributions
+
+The Gaphor [Deb package](https://tracker.debian.org/pkg/gaphor) can be
+installed with:
+
+```bash
+sudo apt install gaphor
+```
