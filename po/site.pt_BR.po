@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2026-06-18 21:35-0400\n"
-"PO-Revision-Date: 2026-07-06 02:01+0000\n"
+"PO-Revision-Date: 2026-09-28 18:51+0000\n"
 "Last-Translator: Gabriel <bloxgabriel18@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "gaphor/gaphor-github-io/pt_BR/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.7.1.dev0\n"
+"X-Generator: Weblate 2026.10.dev0\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: _platforms/01-windows.md
@@ -103,7 +103,7 @@ msgstr "Gaphor requer **macOS 10.15** ou mais novo."
 #: _platforms/02-macos.md
 #, no-wrap
 msgid "Homebrew"
-msgstr "Homebrew"
+msgstr "Cerveja caseira"
 
 #. type: Plain text
 #: _platforms/02-macos.md
@@ -160,7 +160,7 @@ msgstr ""
 #: _platforms/03-linux.md
 #, no-wrap
 msgid "Arch Linux"
-msgstr "Arch Linux"
+msgstr "Arco Linux"
 
 #. type: Plain text
 #: _platforms/03-linux.md
